@@ -42,15 +42,22 @@ All submissions are initially reviewed by the editorial team. If suitable, manus
 
 JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
 
-## Article Publishing Charges {.unnumbered}
+## Article Processing Charges (APC) {.unnumbered}  
 
-JOSTA follows a minimal-cost, open-access publishing model. A nominal Article Processing Charge (APC) of INR 1000 will be collected upon acceptance of the manuscript.
+JOSTA operates under a fully open-access publishing model, ensuring that all published articles are freely accessible to readers worldwide without any paywalls.
 
-✅ No submission fee
+To support the costs associated with editorial management, online hosting, long-term archiving, and open-access dissemination, an Article Processing Charge (APC) is applicable upon acceptance of the manuscript:
 
+INR 10,000 for authors residing in India
+
+USD 250 for international authors (outside India)
+
+✅ No submission fees
 ✅ No additional charges for figures, tables, or page limits
+✅ Immediate online publication and permanent open-access availability
 
-✅ Online publication and permanent open-access availability This fee helps cover basic editorial, hosting, and maintenance costs while ensuring that your research remains freely accessible to all.
+### APC Waiver for Inaugural Year {.unnumbered}  
+To support the launch of the journal, all APCs will be waived for manuscripts submitted on or before 15 June 2026.
 
 ## 🍃Greener Publishing {.unnumbered}
 

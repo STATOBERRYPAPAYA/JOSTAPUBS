@@ -9,7 +9,7 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.57</generator>
+<generator>quarto-1.6.39</generator>
 <lastBuildDate>Sat, 07 Jun 2025 18:30:00 GMT</lastBuildDate>
 <item>
   <title>RAISINS: Integrating R and AI for Agricultural Data Analysis</title>
@@ -23,24 +23,67 @@
 
 
 <p><a href="https://doi.org/10.5281/zenodo.15622128"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg" class="img-fluid"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
-<div class="download-button">
-<p><a href="pdfs/josta_raisins.pdf" class="btn btn-primary" download=""> <i class="bi bi-file-pdf"></i> Download PDF </a></p>
+<div style="display: flex; gap: 0.5rem; align-items: center; margin-top: 1rem;">
+<p><!-- Download PDF Button --> <a href="pdfs/josta_raisins.pdf" class="btn btn-primary" download=""> <i class="bi bi-file-pdf"></i> Download PDF </a></p>
+<p><!-- Copy Citation Button --> <button id="copy-btn" onclick="copyCitation()" style="
+    font-size: 0.8rem;
+    padding: 0.3em 0.6em;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+  "> 📋 Copy Citation <span id="tooltip" style="
+      visibility: hidden;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 4px;
+      padding: 2px 6px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%; /* Show above the button */
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.7rem;
+      opacity: 0;
+      transition: opacity 0.3s;
+    "> Citation copied! </span> </button></p>
 </div>
+<!-- Hidden Citation Text -->
+<p><span id="citation-text" style="display: none;"> Mohammed, H. M., Chandran, J., &amp; Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128 </span></p>
+<!-- Copy Script with Tooltip -->
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
 <section id="introduction" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
 <p>Statistical analysis serves as the backbone of scientific research, especially in disciplines like agriculture, where field experiments, survey data, and observational studies generate complex datasets. Despite the increasing emphasis on data-driven decision-making in agricultural research, many students, early-career researchers, and practitioners find themselves at a disadvantage when it comes to performing rigorous statistical analyses. The process is often hindered by a combination of factors: the steep learning curve associated with programming languages such as R and Python, the fragmented nature of statistical learning resources, and the lack of user-friendly tools tailored to agricultural research contexts.</p>
-<p>While R and Python are powerful, flexible, and widely adopted in academic and professional settings, their command-line interfaces and syntax-heavy operations can be daunting for those without formal training in statistics or computer programming. Beginners frequently struggle with package selection, data cleaning, model specification, and interpretation of results. Furthermore, existing statistical software either lacks the flexibility and transparency of open-source tools or comes with licensing restrictions and high costs that limit accessibility in resource-constrained settings, particularly in developing countries.</p>
-<p>In addition, agricultural research involves domain-specific needs such as handling experimental designs (e.g., CRD, RBD, split-plot), analyzing agronomic trials, processing survey data with complex sampling designs, and interpreting interactions between multiple environmental and genetic factors. Traditional statistical packages are not always well-adapted to these specific requirements, leaving researchers to either customize solutions on their own or consult specialists — both of which can delay or compromise the analytical workflow.</p>
+<p>While R and Python are powerful, flexible, and widely adopted in academic and professional settings, their command-line interfaces and syntax-heavy operations can be challenging for those without formal training in statistics or computer programming. Beginners frequently struggle with package selection, data cleaning, model specification, and interpretation of results. Furthermore, existing statistical software either lacks the flexibility and transparency of open-source tools or comes with licensing restrictions and high costs that limit accessibility in resource-constrained settings, particularly in developing countries.</p>
+<p>In addition, agricultural research involves domain-specific needs such as handling experimental designs (e.g., CRD, RBD, split-plot), analyzing agronomic trials, processing survey data with appropriate sampling designs, and interpreting interactions between multiple environmental and genetic factors. Traditional statistical packages are not always well-adapted to these specific requirements, leaving researchers to either customize solutions on their own or consult specialists — both of which can delay or compromise the analytical workflow.</p>
 <p>To bridge this gap, we developed RAISINS (R and AI Solutions for INferential Statistics) — a web-based platform designed to simplify and democratize statistical analysis for agricultural research. RAISINS integrates the power of R, Python, and AI-driven assistance within an intuitive interface that eliminates the need for code-based interaction. By abstracting complex syntax and offering guided, step-by-step workflows for data upload, analysis, visualization, and interpretation, the platform empowers users to focus on scientific inquiry rather than technical execution.</p>
-<p>Built on open-source technologies and scalable cloud infrastructure, RAISINS provides modules for commonly used statistical methods — including descriptive analysis, hypothesis testing, regression models, design of experiments, reliability analysis, and more — while incorporating AI tools that assist in data summarization, model selection, and natural language explanations of results. This makes it an ideal solution for students, researchers, extension personnel, and educators engaged in agricultural and allied sciences.</p>
+<p>Built on open-source technologies and scalable cloud infrastructure, RAISINS provides modules for commonly used statistical methods — including descriptive analysis, hypothesis testing, regression models, design of experiments, multi environmental trials, and more — while incorporating AI tools that assist in data summarization, analytical suggestions, and natural language explanations of results. This makes it an ideal solution for students, researchers, extension personnel, and educators engaged in agricultural and allied sciences. RAISINS can be accessed online through its official web portal at https://www.raisins.live/.</p>
 <p>In this paper, we present the design, features, and use-cases of RAISINS, and demonstrate how it addresses the unique challenges faced in agricultural data analysis by offering an accessible, robust, and intelligent statistical platform.</p>
 </section>
 <section id="sec-models" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="sec-models"><span class="header-section-number">2</span> Materials and methods</h2>
 <section id="platform-architecture-and-module-validation" class="level3" data-number="2.1">
 <h3 data-number="2.1" class="anchored" data-anchor-id="platform-architecture-and-module-validation"><span class="header-section-number">2.1</span> Platform architecture and module validation</h3>
-<p>RAISINS is a modular cloud-hosted, web-based platform that integrates statistical computing, artificial intelligence, and modern pedagogical design to serve agricultural researchers and students. Built using R, Python, and OpenAI APIs, RAISINS is deployed via <strong>Posit Connect Cloud</strong>, enabling browser-based access without requiring any local software installation. The platform is modular and each statistical tool within RAISINS is aligned with the theoretical underpinnings found in globally recognized academic literature.</p>
-<p>All modules in RAISINS have been <strong>peer-reviewed by domain experts</strong>, including statisticians specializing in design of experiments, genetics, and social science research. This ensures both methodological rigor and instructional clarity.</p>
+<p>RAISINS is a modular cloud-hosted, web-based platform that integrates statistical computing, artificial intelligence, and modern pedagogical design to serve agricultural researchers and students. Built using R, Python, and OpenAI APIs, RAISINS is deployed via Posit Connect Cloud (https://connect.posit.cloud/), enabling browser-based access without requiring any local software installation. The RAISINS platform is modular and each statistical tool within is aligned with the theoretical underpinnings found in globally recognized academic literature.</p>
+<p>All modules in RAISINS have been peer-reviewed by domain experts, including statisticians specializing in design of experiments, genetics, and social science research. This ensures both methodological rigor and instructional clarity.</p>
 <p>Table&nbsp;1 presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.</p>
 <div id="tbl-foundation" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
@@ -50,8 +93,8 @@ Table&nbsp;1: Foundational literature supporting each RAISINS module domain, org
 <div aria-describedby="tbl-foundation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 29%">
-<col style="width: 70%">
+<col style="width: 30%">
+<col style="width: 69%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,19 +105,19 @@ Table&nbsp;1: Foundational literature supporting each RAISINS module domain, org
 <tbody>
 <tr class="odd">
 <td>Design &amp; Analysis of Experiments</td>
-<td>Montgomery (2017) <span class="citation" data-cites="montgomery2017design">(Montgomery 2017)</span>; Gomez &amp; Gomez (1984) <span class="citation" data-cites="gomez1984statistical">(Gomez and Gomez 1984)</span>; Das &amp; Giri (2018) <span class="citation" data-cites="das2018design">(Das and Giri 2018)</span>;Searle (1997) <span class="citation" data-cites="searle1997linear">(Searle 1997)</span> Dey (1986) <span class="citation" data-cites="dey1986theory">(Dey 1986)</span></td>
+<td>Montgomery (2017) <span class="citation" data-cites="montgomery2017design">(Montgomery 2017)</span>; Gomez &amp; Gomez (1984) <span class="citation" data-cites="gomez1984statistical">(Gomez and Gomez 1984)</span>; Das &amp; Giri (2018) <span class="citation" data-cites="das2018design">(Das and Giri 2018)</span>; Searle (1997) <span class="citation" data-cites="searle1997linear">(Searle 1997)</span>; Dey (1986) <span class="citation" data-cites="dey1986theory">(Dey 1986)</span>; Cox &amp; Reid (2000) <span class="citation" data-cites="cox2000theory">(Cox and Reid 2000)</span>; Toutenburg &amp; Shalabh (2009) <span class="citation" data-cites="toutenburg2009statistical">(Toutenburg and Shalabh 2009)</span>; Cochran &amp; Cox (1957) <span class="citation" data-cites="cochran1957experimental">(Cochran and Cox 1957)</span>; ; Federer (1985) <span class="citation" data-cites="federer1985experimental">(Federer 1985)</span></td>
 </tr>
 <tr class="even">
 <td>Statistical Genetics</td>
-<td>Falconer &amp; Mackay (1996) <span class="citation" data-cites="falconer1996introduction">(Falconer and Mackay 1996)</span>; Lynch &amp; Walsh (1998) <span class="citation" data-cites="lynch1998genetics">(Lynch and Walsh 1998)</span></td>
+<td>Falconer &amp; Mackay (1996) <span class="citation" data-cites="falconer1996introduction">(Falconer and Mackay 1996)</span>; Lynch &amp; Walsh (1998) <span class="citation" data-cites="lynch1998genetics">(Lynch and Walsh 1998)</span>; Dabholkar (1999) <span class="citation" data-cites="dabholkar1999elements">(Dabholkar 1999)</span>; Gillespie (2004) <span class="citation" data-cites="gillespie2004population">(Gillespie 2004)</span></td>
 </tr>
 <tr class="odd">
 <td>Social Science Research</td>
-<td>Babbie (2020) <span class="citation" data-cites="babbie2020practice">(Babbie 2020)</span>; Bryman (2016) <span class="citation" data-cites="bryman2016social">(Bryman 2016)</span></td>
+<td>Babbie (2020) <span class="citation" data-cites="babbie2020practice">(Babbie 2020)</span>; Bryman (2016) <span class="citation" data-cites="bryman2016social">(Bryman 2016)</span>; Bhattacherjee (2012) <span class="citation" data-cites="bhattacherjee2012social">(Bhattacherjee 2012)</span></td>
 </tr>
 <tr class="even">
 <td>Statistical Inference and Modeling</td>
-<td>Casella &amp; Berger (2002) <span class="citation" data-cites="casella2002statistical">(Casella and Berger 2002)</span>; Hogg, McKean &amp; Craig (2018) <span class="citation" data-cites="hogg2018introduction">(Hogg, McKean, and Craig 2018)</span>; Agresti (2013) <span class="citation" data-cites="agresti2013categorical">(Agresti 2013)</span></td>
+<td>Casella &amp; Berger (2002) <span class="citation" data-cites="casella2002statistical">(Casella and Berger 2002)</span>; Hogg, McKean &amp; Craig (2018) <span class="citation" data-cites="hogg2018introduction">(Hogg, McKean, and Craig 2018)</span>; Agresti (2013) <span class="citation" data-cites="agresti2013categorical">(Agresti 2013)</span>; Rao (2009) <span class="citation" data-cites="rao2009linear">(Rao 2009)</span>; Rohatgi (1984) <span class="citation" data-cites="rohatgi1984statistical">(Rohatgi 1984)</span></td>
 </tr>
 <tr class="odd">
 <td>Data Visualization &amp; Reporting</td>
@@ -110,9 +153,13 @@ Figure&nbsp;1: Architecture of the RAISINS Platform: Integration of R, Python, a
 </figcaption>
 </figure>
 </div>
-<section id="modular-structure-and-user-interface-design" class="level3" data-number="3.1">
-<h3 data-number="3.1" class="anchored" data-anchor-id="modular-structure-and-user-interface-design"><span class="header-section-number">3.1</span> Modular structure and user interface design</h3>
-<p>All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary <code>Analysis</code> tab, which serves as the central workspace. This tab contains nested sub-tabs including <code>Analysis.Results</code>, where users configure model parameters and run statistical procedures; <code>Plots and Graphs</code>, which displays dynamic visualizations; <code>AI Interpretation</code>, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a <code>Multivariat</code>e tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include <code>Create Data</code>, which enables users to generate CSV-format datasets for custom input; <code>Datasets</code>, which provides curated example datasets for testing and exploration; and <code>User</code>, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in Figure&nbsp;2 to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: https://statoberrypapaya.github.io/RAISINS_TUTORIAL/, providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.</p>
+</section>
+<section id="sec-results" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="sec-results"><span class="header-section-number">4</span> Results</h2>
+<p>The RAISINS platform was developed to address the growing need for accessible, reliable, and AI-enhanced statistical tools tailored to agricultural research. By integrating familiar programming environments with user-friendly interfaces, it aims to bridge the gap between complex statistical methods and researchers’ practical needs.</p>
+<section id="modular-structure-and-user-interface-design" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="modular-structure-and-user-interface-design"><span class="header-section-number">4.1</span> Modular structure and user interface design</h3>
+<p>All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary <code>Analysis</code> tab, which serves as the central workspace. This tab contains nested sub-tabs including <code>Analysis.Results</code>, where users configure model parameters and run statistical procedures; <code>Plots and Graphs</code>, which displays dynamic visualizations; <code>AI Interpretation</code>, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a <code>Multivariate</code> tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include <code>Create Data</code>, which enables users to generate CSV-format datasets for custom input; <code>Datasets</code>, which provides curated example datasets for testing and exploration; and <code>User</code>, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in Figure&nbsp;2 to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: <a href="https://statoberrypapaya.github.io/RAISINS_TUTORIAL/">https://statoberrypapaya.github.io/RAISINS_TUTORIAL/</a>, providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.</p>
 <div id="fig-crdmodule" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-crdmodule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -202,7 +249,7 @@ Figure&nbsp;1: Architecture of the RAISINS Platform: Integration of R, Python, a
 <img src="https://www.jostapubs.com/volume1/figures/multivariate.png" class="img-fluid figure-img" data-ref-parent="fig-crdmodule">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-mult-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(g) Multivariate analysis
+(g) Multivariate analysis window
 </figcaption>
 </figure>
 </div>
@@ -228,24 +275,16 @@ Figure&nbsp;2: User interface and modular design of the RAISINS platform: screen
 </div>
 </section>
 </section>
-<section id="sec-results" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="sec-results"><span class="header-section-number">4</span> Results</h2>
-<p>The RAISINS platform was developed to address the growing need for accessible, reliable, and AI-enhanced statistical tools tailored to agricultural research. By integrating familiar programming environments with user-friendly interfaces, it aims to bridge the gap between complex statistical methods and researchers’ practical needs.</p>
-<section id="use-and-impact" class="level3" data-number="4.1">
-<h3 data-number="4.1" class="anchored" data-anchor-id="use-and-impact"><span class="header-section-number">4.1</span> Use and Impact</h3>
-<p>The RAISINS platform has gained widespread adoption among postgraduate, and doctoral students, as well as faculty members across agricultural universities in India. Its intuitive design and web-based accessibility have made it an essential tool for academic coursework, thesis development, and research publications. By integrating AI-powered features, RAISINS significantly reduces the complexity of statistical output interpretation, making advanced inferential methods more approachable for users without extensive statistical backgrounds. This has empowered researchers to conduct rigorous data analysis with greater confidence and efficiency, thereby enhancing the overall quality and reproducibility of agricultural research.</p>
-</section>
-</section>
 <section id="discussion" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="discussion">Discussion</h2>
 <p>The RAISINS platform represents a significant advancement in making advanced statistical and AI-driven analytical tools accessible to the agricultural research community. By seamlessly integrating R, Python, and AI capabilities within an intuitive web interface, RAISINS addresses common barriers faced by researchers, such as the complexity of statistical software and interpretation of results. The platform’s emphasis on user-friendliness and automation allows researchers, including those with limited statistical training, to perform rigorous data analysis with confidence. This democratization of statistical tools has the potential to improve the quality and reproducibility of agricultural research outputs. Moreover, the cloud-based deployment ensures scalability and continuous availability, enabling broader adoption across diverse educational and research institutions. The collaborative design and integration of multiple programming environments also open avenues for further enhancements, positioning RAISINS as a flexible and evolving resource in the field of agricultural data science.</p>
 </section>
 <section id="conclusion" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>The RAISINS platform marks an important step forward in democratizing access to advanced statistical and AI-powered analytical tools tailored specifically for agricultural research. By integrating the strengths of R and Python programming environments with artificial intelligence capabilities, RAISINS offers researchers an intuitive and comprehensive platform for conducting inferential statistics without requiring extensive technical expertise. Its web-based interface, supported by cloud hosting, ensures that users can access powerful data analysis tools anytime and from anywhere, thereby enhancing collaboration and research productivity. The platform’s ability to simplify complex outputs and support diverse user groups—from students to seasoned faculty—has already contributed to improved data analysis quality and research rigor within agricultural universities. RAISINS not only supports robust statistical inference but also fosters greater confidence among users in interpreting and applying results to their scientific inquiries. This positions RAISINS as a foundational resource in agricultural data science with substantial potential for continued growth and impact.</p>
+<p>The RAISINS platform aims in democratizing access to advanced statistical and AI-powered analytical tools tailored specifically for agricultural research. By integrating the strengths of R and Python programming environments with artificial intelligence capabilities, RAISINS offers researchers an intuitive and comprehensive platform for conducting inferential statistics without requiring extensive technical expertise. Its web-based interface, supported by cloud hosting, ensures that users can access powerful data analysis tools anytime and from anywhere, thereby enhancing collaboration and research productivity. The platform’s ability to simplify complex outputs and support diverse user groups—from students to seasoned faculty—has already contributed to improved data analysis quality and research rigor within agricultural universities. RAISINS not only supports robust statistical inference but also fosters greater confidence among users in interpreting and applying results to their scientific inquiries. This positions RAISINS as a foundational resource in agricultural data science with substantial potential for continued growth and impact.</p>
 <section id="future-work" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="future-work">Future Work</h3>
-<p>Building on this foundation, future development efforts will focus on broadening RAISINS’ analytical scope by incorporating modules for multivariate analysis and complex survey data, enabling users to tackle more sophisticated research designs. The introduction of voice-guided help and interactive tutorials aims to enhance user engagement and accessibility, particularly for those new to statistical analysis. Personalized user dashboards with automated report generation will streamline workflow management and facilitate documentation. Furthermore, refining the AI components by training on domain-specific agricultural datasets will improve the platform’s ability to deliver context-sensitive insights and recommendations. These advancements will collectively strengthen RAISINS’ role as an indispensable, evolving tool that meets the dynamic needs of the agricultural research community.</p>
+<p>Future development of RAISINS will focus on expanding its analytical capabilities to cover a wider range of disciplines within agricultural research, including statistical genetics, survey data analysis, and agricultural economics. In addition, the AI components will be further enhanced by training on domain-specific datasets, enabling the platform to provide more accurate, context-aware insights and recommendations. These enhancements aim to solidify RAISINS as a continuously evolving and essential tool for meeting the diverse and growing needs of the agricultural research community.</p>
 </section>
 </section>
 <section id="acknowledgments" class="level2 unnumbered">
@@ -273,6 +312,9 @@ Allaire, JJ, Kevin Ushey, Yuan Tang, Dirk Eddelbuettel, and RStudio. 2024. <em>R
 <div id="ref-babbie2020practice" class="csl-entry">
 Babbie, Earl R. 2020. <em>The Practice of Social Research</em>. 15th ed. Cengage Learning.
 </div>
+<div id="ref-bhattacherjee2012social" class="csl-entry">
+Bhattacherjee, Anol. 2012. <em>Social Science Research: Principles, Methods, and Practices</em>. 2nd ed. Global Text Project.
+</div>
 <div id="ref-bryman2016social" class="csl-entry">
 Bryman, Alan. 2016. <em>Social Research Methods</em>. 5th ed. Oxford University Press.
 </div>
@@ -285,6 +327,15 @@ Chang, Winston, Joe Cheng, JJ Allaire, Yihui Xie, and Jonathan McPherson. 2024. 
 <div id="ref-cleveland1993visualizing" class="csl-entry">
 Cleveland, William S. 1993. <em>Visualizing Data</em>. Hobart Press.
 </div>
+<div id="ref-cochran1957experimental" class="csl-entry">
+Cochran, William G., and Gertrude M. Cox. 1957. <em>Experimental Designs</em>. 2nd ed. New York: John Wiley &amp; Sons.
+</div>
+<div id="ref-cox2000theory" class="csl-entry">
+Cox, D. R., and Nancy Reid. 2000. <em>The Theory of the Design of Experiments</em>. 1st ed. Monographs on Statistics and Applied Probability, 86. Chapman &amp; Hall/CRC.
+</div>
+<div id="ref-dabholkar1999elements" class="csl-entry">
+Dabholkar, A. R. 1999. <em>Elements of Bio Metrical Genetics</em>. Revised and Enlarged. Concept Publishing Company Pvt. Ltd.
+</div>
 <div id="ref-das2018design" class="csl-entry">
 Das, M. N., and N. C. Giri. 2018. <em>Design and Analysis of Experiments</em>. 2nd ed. New Delhi, India: New Age International Publishers.
 </div>
@@ -294,8 +345,14 @@ Dey, A. 1986. <em>Theory of Block Designs</em>. New Delhi, India: Wiley Eastern 
 <div id="ref-falconer1996introduction" class="csl-entry">
 Falconer, Douglas S, and Trudy FC Mackay. 1996. <em>Introduction to Quantitative Genetics</em>. 4th ed. Longman.
 </div>
+<div id="ref-federer1985experimental" class="csl-entry">
+Federer, W. T. 1985. <em>Experimental Designs</em>. ? New York: The Macmillan Company.
+</div>
 <div id="ref-few2009now" class="csl-entry">
 Few, S. 2009. <em>Now You See It: Simple Visualization Techniques for Quantitative Analysis</em>. Berkeley, CA, USA: Analytics Press.
+</div>
+<div id="ref-gillespie2004population" class="csl-entry">
+Gillespie, John H. 2004. <em>Population Genetics: A Concise Guide</em>. 2nd ed. Baltimore, MD: Johns Hopkins University Press.
 </div>
 <div id="ref-gomez1984statistical" class="csl-entry">
 Gomez, Kwanchai A, and Arturo A Gomez. 1984. <em>Statistical Procedures for Agricultural Research</em>. 2nd ed. John Wiley &amp; Sons.
@@ -321,8 +378,14 @@ Montgomery, Douglas C. 2017. <em>Design and Analysis of Experiments</em>. 9th ed
 <div id="ref-scikit-learn" class="csl-entry">
 Pedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, et al. 2011. <em>Scikit-Learn: Machine Learning in Python</em>. <em>Journal of Machine Learning Research</em>. Vol. 12. <a href="https://scikit-learn.org/">https://scikit-learn.org/</a>.
 </div>
+<div id="ref-rao2009linear" class="csl-entry">
+Rao, C. Radhakrishna. 2009. <em>Linear Statistical Inference and Its Applications</em>. 2nd ed. John Wiley &amp; Sons (Wiley-Interscience).
+</div>
 <div id="ref-broom" class="csl-entry">
 Robinson, David, and Alex Hayes. 2024. <em>Broom: Convert Statistical Analysis Objects into Tidy Tibbles</em>. <a href="https://CRAN.R-project.org/package=broom">https://CRAN.R-project.org/package=broom</a>.
+</div>
+<div id="ref-rohatgi1984statistical" class="csl-entry">
+Rohatgi, Vijay K. 1984. <em>Statistical Inference</em>. Wiley Series in Probability and Mathematical Statistics. New York: John Wiley &amp; Sons.
 </div>
 <div id="ref-statsmodels" class="csl-entry">
 Seabold, Skipper, and Josef Perktold. 2010. <em>Statsmodels: Statistical Modeling and Econometrics in Python</em>. <a href="https://www.statsmodels.org/">https://www.statsmodels.org/</a>.
@@ -335,6 +398,9 @@ Sievert, Carson. 2023. <em>Plotly: Create Interactive Web Graphics via ’Plotly
 </div>
 <div id="ref-pandas" class="csl-entry">
 The pandas development team. 2024. <em>Pandas: Powerful Python Data Analysis Toolkit</em>. <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a>.
+</div>
+<div id="ref-toutenburg2009statistical" class="csl-entry">
+Toutenburg, Helge, and Shalabh. 2009. <em>Statistical Analysis of Designed Experiments</em>. 3rd ed. Springer Texts in Statistics. Springer‑Verlag New York.
 </div>
 <div id="ref-tufte2001visual" class="csl-entry">
 Tufte, Edward R. 2001. <em>The Visual Display of Quantitative Information</em>. Graphics Press.
@@ -360,10 +426,34 @@ Wickham, Hadley, Romain Francois, Lionel Henry, and Kirill Müller. 2024. <em>Dp
 </div>
 </div>
 </div>
-<section id="publication-details" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="publication-details">Publication Details</h3>
-<p>Submitted:<br>
-Accepted:</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong><br>
+- <em>Submitted:</em> 15 May 2025<br>
+- <em>Accepted:</em> 06 June 2025<br>
+- <em>Published (Online):</em> 09 June 2025</p>
+<p><strong>Reviewer Information</strong></p>
+<p><strong>Dr.&nbsp;Saurav Guha, Ph.D.</strong><br>
+Assistant Professor-cum-Junior Scientist<br>
+Department of Statistics, Mathematics &amp; Computer Application<br>
+Bihar Agricultural University, Sabour, India<br>
+<strong>ORCID:</strong> <a href="https://orcid.org/0000-0001-8960-5062">0000-0001-8960-5062</a></p>
+<p><strong>Dr.&nbsp;Manju Mary Paul, Ph.D.</strong><br>
+Assistant Professor<br>
+Department of Agricultural Statistics<br>
+Kerala Agricultural University, Kerala, India</p>
+</div>
+</div>
+<section id="section" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section"></h3>
 
 
 
