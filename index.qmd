@@ -1,0 +1,68 @@
+```{=html}
+<div style="text-align: center; margin-bottom: 1em;">
+  <img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/JOSTA%2Fbanner.jpg?alt=media"
+       alt="Banner"
+       style="width: 100%; max-height: 200px; object-fit: cover;">
+</div>
+```
+
+# About JOSTA {.unnumbered}
+
+The Journal of Sustainable Technology in Agriculture (JOSTA) is a peer-reviewed, open-access e-journal dedicated to publishing high-quality research that fosters innovation and sustainability in agriculture. Founded by a collaborative group of scientists and professionals, JOSTA serves as a reliable and inclusive platform for sharing advancements that enhance agricultural practices through responsible technology use, practical innovation, and applied research.
+
+We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world—promoting broad dissemination and knowledge sharing.
+
+Articles published in JOSTA are permanently archived in trusted repositories, ensuring long-term accessibility and citation. The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.
+
+JOSTA is managed by Statoberry LLP and supported by domain experts in agriculture and allied sciences, ensuring both technical accuracy and contextual relevance in all published content.
+
+## Our Vision {.unnumbered}
+
+JOSTA envisions a research environment where sharing agricultural innovations is simple, accessible, and inclusive. Our aim is to provide a dedicated platform for publishing high-quality agricultural research in a researcher-friendly manner—removing unnecessary barriers while maintaining high editorial standards. We believe in connecting researchers, educators, and practitioners by offering open access to well-reviewed, reliable research. By fostering a transparent and practical publishing process, JOSTA supports the continuous improvement of agricultural science and technology.
+
+## Why Publish with Us? {.unnumbered}
+
+Open Access: Your work is freely accessible online from the moment of publication, increasing its reach and impact.
+
+-   **Streamlined Process**: We offer a simple, submission-friendly system that focuses on quality without the complexity of traditional publishing.
+
+-   **Permanent Archiving**: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.
+
+-   **Supportive Community**: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.
+
+## Peer Review Policy {.unnumbered}
+
+All submissions are initially reviewed by the editorial team. If suitable, manuscripts are sent for double-blind peer review by independent experts in the field. Reviewers remain anonymous to ensure objectivity, and authors may be asked to revise their manuscripts based on constructive feedback.
+
+## 🔓Open Access {.unnumbered}
+
+JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
+
+## Article Publishing Charges {.unnumbered}
+
+JOSTA follows a minimal-cost, open-access publishing model. A nominal Article Processing Charge (APC) of INR 1000 will be collected upon acceptance of the manuscript.
+
+✅ No submission fee
+
+✅ No additional charges for figures, tables, or page limits
+
+✅ Online publication and permanent open-access availability This fee helps cover basic editorial, hosting, and maintenance costs while ensuring that your research remains freely accessible to all.
+
+## 🍃Greener Publishing {.unnumbered}
+
+As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint—aligning our commitment to open access with a sustainable future for scholarly communication.
+
+### Copyright Information {.unnumbered}
+
+© 2025 **Statoberry LLP**. All rights reserved.
+
+JOSTA is licensed under a\
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />\
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+Under this license:\
+- **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made.\
+- **Non Commercial**: You may not use the material for commercial purposes.\
+- **No Derivatives**: If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+For commercial use or distribution of print copies, prior written permission from **Statoberry LLP** is required.

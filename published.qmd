@@ -1,0 +1,83 @@
+---
+title: ""
+listing:
+  type: default
+  contents: 
+    - "volume1/*.qmd"
+  sort: "date desc"
+  fields: 
+    - title
+    - author
+    - orcid
+    - affiliations
+    - description
+    - date
+    - categories
+    - status
+  categories: true
+  feed: true
+---
+
+```{=html}
+<div style="text-align: center; margin-bottom: 1em;">
+  <img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/JOSTA%2Fbanner.jpg?alt=media"
+       alt="Banner"
+       style="width: 100%; max-height: 200px; object-fit: cover;">
+</div>
+```
+
+# Published Papers {.unnumbered}
+
+```{=html}
+<style>
+/* Journal-like card for each paper */
+.quarto-grid-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #fcfcfc;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+  margin-bottom: 1.2rem;
+}
+
+/* Ensure titles are blue */
+.quarto-grid-item .card-title,
+.quarto-grid-item .listing-title,
+.listing-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #0056b3;
+  margin-bottom: 0.25rem;
+}
+
+/* Optional hover effect for clickable titles */
+.quarto-grid-item .card-title a:hover,
+.quarto-grid-item .listing-title a:hover {
+  color: #003d80;
+  text-decoration: underline;
+}
+
+/* Styling author and description */
+.quarto-grid-item .listing-author {
+  font-size: 0.95rem;
+  color: #333;
+}
+.quarto-grid-item .listing-description {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  color: #555;
+}
+</style>
+```
+
+<!-- Volume info header -->
+
+::: {style="text-align: center; margin-top: 1rem; margin-bottom: 1.5rem;"}
+<h2 style="color:#0056b3; font-family: Georgia, serif; font-weight: 600;">
+
+Volume I • Issue I • 2025
+
+</h2>
+:::
+
+This page lists all peer-reviewed papers published in the journal. Click on a title to read the full article.

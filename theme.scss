@@ -1,0 +1,105 @@
+/*-- scss:defaults --*/
+
+// Typography and layout
+$font-family-base: "Georgia", "Times New Roman", serif;
+$headings-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-color: #1a1a1a;
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+
+// Brand Colors
+$primary: #003A70 !default;      // Deep academic blue
+$secondary: #E54D23 !default;    // Highlight orange
+$link-color: $primary;
+$link-hover-color: $secondary;
+
+// Sidebar
+$sidebar-bg: #f9f9f9;
+$sidebar-fg: $primary;
+$sidebar-border: 1px solid #ddd;
+$sidebar-hl: $secondary;
+
+// TOC (Table of Contents)
+$toc-color: #333;
+$toc-active-border: $primary;
+$toc-active-background: #f1f1f1;
+
+// Code blocks and notes
+$code-bg: #f5f5f5;
+$code-color: #2a2a2a;
+$code-font-size: 0.95rem;
+
+/*-- scss:rules --*/
+
+// Cover image styling
+img.quarto-cover-image {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+// Sidebar tweaks
+.sidebar-title {
+  color: $primary;
+  font-weight: 700;
+}
+
+div.sidebar-item-container .active {
+  font-weight: bold;
+  color: $primary !important;
+}
+
+.sidebar-navigation a:hover {
+  color: $secondary !important;
+}
+
+.nav-link.active {
+  background-color: lighten($secondary, 30%) !important;
+  border-radius: 4px;
+}
+
+// TOC active item
+.sidebar nav[role=doc-toc] ul > li > a.active,
+.sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  font-weight: bold;
+  color: $primary;
+}
+
+// Footnotes
+.footnotes {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+// Buttons (e.g., download)
+#download-button {
+  border: 1.5px solid $primary;
+  background-color: lighten($primary, 30%);
+  color: #000;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+}
+
+// Hex logo padding if used
+.hex-logo {
+  padding: 10px 20px;
+}
+
+// Page layout tweaks
+body {
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $primary;
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 5px solid $secondary;
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+}
+

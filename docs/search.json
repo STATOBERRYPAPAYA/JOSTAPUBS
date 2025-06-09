@@ -1,0 +1,262 @@
+[
+  {
+    "objectID": "volume1/josta111raisins2025.html#introduction",
+    "href": "volume1/josta111raisins2025.html#introduction",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "1 Introduction",
+    "text": "1 Introduction\nStatistical analysis serves as the backbone of scientific research, especially in disciplines like agriculture, where field experiments, survey data, and observational studies generate complex datasets. Despite the increasing emphasis on data-driven decision-making in agricultural research, many students, early-career researchers, and practitioners find themselves at a disadvantage when it comes to performing rigorous statistical analyses. The process is often hindered by a combination of factors: the steep learning curve associated with programming languages such as R and Python, the fragmented nature of statistical learning resources, and the lack of user-friendly tools tailored to agricultural research contexts.\nWhile R and Python are powerful, flexible, and widely adopted in academic and professional settings, their command-line interfaces and syntax-heavy operations can be daunting for those without formal training in statistics or computer programming. Beginners frequently struggle with package selection, data cleaning, model specification, and interpretation of results. Furthermore, existing statistical software either lacks the flexibility and transparency of open-source tools or comes with licensing restrictions and high costs that limit accessibility in resource-constrained settings, particularly in developing countries.\nIn addition, agricultural research involves domain-specific needs such as handling experimental designs (e.g., CRD, RBD, split-plot), analyzing agronomic trials, processing survey data with complex sampling designs, and interpreting interactions between multiple environmental and genetic factors. Traditional statistical packages are not always well-adapted to these specific requirements, leaving researchers to either customize solutions on their own or consult specialists — both of which can delay or compromise the analytical workflow.\nTo bridge this gap, we developed RAISINS (R and AI Solutions for INferential Statistics) — a web-based platform designed to simplify and democratize statistical analysis for agricultural research. RAISINS integrates the power of R, Python, and AI-driven assistance within an intuitive interface that eliminates the need for code-based interaction. By abstracting complex syntax and offering guided, step-by-step workflows for data upload, analysis, visualization, and interpretation, the platform empowers users to focus on scientific inquiry rather than technical execution.\nBuilt on open-source technologies and scalable cloud infrastructure, RAISINS provides modules for commonly used statistical methods — including descriptive analysis, hypothesis testing, regression models, design of experiments, reliability analysis, and more — while incorporating AI tools that assist in data summarization, model selection, and natural language explanations of results. This makes it an ideal solution for students, researchers, extension personnel, and educators engaged in agricultural and allied sciences.\nIn this paper, we present the design, features, and use-cases of RAISINS, and demonstrate how it addresses the unique challenges faced in agricultural data analysis by offering an accessible, robust, and intelligent statistical platform.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#sec-models",
+    "href": "volume1/josta111raisins2025.html#sec-models",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "2 Materials and methods",
+    "text": "2 Materials and methods\n\n2.1 Platform architecture and module validation\nRAISINS is a modular cloud-hosted, web-based platform that integrates statistical computing, artificial intelligence, and modern pedagogical design to serve agricultural researchers and students. Built using R, Python, and OpenAI APIs, RAISINS is deployed via Posit Connect Cloud, enabling browser-based access without requiring any local software installation. The platform is modular and each statistical tool within RAISINS is aligned with the theoretical underpinnings found in globally recognized academic literature.\nAll modules in RAISINS have been peer-reviewed by domain experts, including statisticians specializing in design of experiments, genetics, and social science research. This ensures both methodological rigor and instructional clarity.\nTable 1 presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.\n\n\n\nTable 1: Foundational literature supporting each RAISINS module domain, organized by area of application.\n\n\n\n\n\n\n\n\n\nModule Domain\nTheoretical Foundation\n\n\n\n\nDesign & Analysis of Experiments\nMontgomery (2017) (Montgomery 2017); Gomez & Gomez (1984) (Gomez and Gomez 1984); Das & Giri (2018) (Das and Giri 2018); Dey (1986) (Dey 1986)\n\n\nStatistical Genetics\nFalconer & Mackay (1996) (Falconer and Mackay 1996); Lynch & Walsh (1998) (Lynch and Walsh 1998)\n\n\nSocial Science Research\nVoss (2010) (Voss 2010); Babbie (2020) (Babbie 2020); Bryman (2016) (Bryman 2016)\n\n\nStatistical Inference and Modeling\nCasella & Berger (2002) (Casella and Berger 2002); Hogg, McKean & Craig (2018) (Hogg, McKean, and Craig 2018); Agresti (2013) (Agresti 2013)\n\n\nData Visualization & Reporting\nTufte (2001) (Tufte 2001); Cleveland (1993) (Cleveland 1993); Few (2009) (Few 2009)\n\n\n\n\n\n\nThe algorithms and workflows integrated into RAISINS are grounded in established statistical theory, drawing extensively from authoritative texts and peer-reviewed literature. In cases where existing computational implementations were unavailable or insufficient, original algorithms were developed in adherence to rigorous theoretical principles. The platform’s design and interface have been iteratively refined based on user-centered feedback from researchers and educators, ensuring methodological soundness and usability consistent with global standards in scientific research and statistical education.\n\n\n2.2 Packages and Libraries\nRAISINS integrates a comprehensive ecosystem of open-source R and Python packages to deliver its core functionalities, encompassing statistical modeling, data visualization, artificial intelligence, and interactive web-based deployment. These packages support the platform’s goal of offering high-level statistical capabilities through an accessible and intuitive interface, particularly beneficial for students and researchers in agricultural sciences.\nThe R-based architecture of RAISINS is built around the shiny framework (Chang et al. 2024), which enables the development of dynamic, browser-accessible applications. Data manipulation tasks are performed using dplyr (Wickham et al. 2024), tidyr, and data.table, while data visualization is implemented through ggplot2 (Wickham 2023), along with complementary packages such as ggthemes, plotly (Sievert 2023), and ggpattern. For statistical analysis relevant to agricultural experiments and general inference, the platform employs packages including agricolae (Mendiburu 2020), broom (Robinson and Hayes 2024), effectsize, lsr, car, phia, and FactoMineR (Husson et al. 2020). These libraries provide robust support for model fitting, hypothesis testing, effect size estimation, and multivariate analysis.\nTo enhance user interaction and responsiveness, RAISINS integrates several user interface and usability packages, such as shinyWidgets, shinyalert, shinybusy, shinycustomloader, shinyBS, shinythemes, and colourpicker. The presentation and export of analytical results are managed through tools like rmarkdown, kableExtra, and formattable, ensuring professional and structured output for reports and publications.\nThe reticulate(Allaire et al. 2024) package serves as a bridge between R and Python, allowing both languages to be used seamlessly within the same analytical workflow. In RAISINS, reticulate enables the platform to call Python functions, use Python libraries, and exchange data objects between R and Python environments. This integration allows the platform to combine R’s interactive capabilities with Python’s strengths in machine learning, statistical modeling, and AI-driven tasks, thereby enhancing both flexibility and functionality.\nPython libraries are used to extend the platform’s analytical and AI-driven features. Packages such as pandas (The pandas development team 2024) and numpy (Harris et al. 2020) are employed for efficient data handling, while matplotlib and seaborn support graphical representations. For machine learning and statistical modeling, the platform uses scikit-learn (Pedregosa et al. 2011) and statsmodels (Seabold and Perktold 2010). The openai package enables the integration of language models, facilitating intelligent assistance and automated content generation within the platform.\nAll R and Python packages used in RAISINS are well-maintained, community-supported, and widely recognized within academic and applied data science contexts. Each library is carefully selected based on its performance, stability, and relevance to agricultural research workflows. Modules are thoroughly reviewed by subject-matter experts to ensure methodological accuracy and pedagogical effectiveness, thereby maintaining the platform’s commitment to reproducibility, transparency, and educational value.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#sec-illustrations",
+    "href": "volume1/josta111raisins2025.html#sec-illustrations",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "3 Illustrations",
+    "text": "3 Illustrations\nThe Figure 1 illustrates the comprehensive architecture of the RAISINS platform, highlighting its integration of multiple programming languages and technologies. RAISINS combines the statistical computing power of R with the flexibility of Python and the advanced capabilities of AI through OpenAI models. The platform’s user interface is built using Shiny, providing an interactive and user-friendly experience, while the backend seamlessly coordinates R and Python processes. Hosting on Posit Connect Cloud ensures reliable accessibility and scalability for agricultural researchers. This integrated ecosystem enables efficient and robust inferential statistical analysis tailored specifically for agricultural research needs.\n\n\n\n\n\n\nFigure 1: Architecture of the RAISINS Platform: Integration of R, Python, and AI Components through a Shiny-based Web Interface Hosted on Posit Connect Cloud.\n\n\n\n\n3.1 Modular structure and user interface design\nAll analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary Analysis tab, which serves as the central workspace. This tab contains nested sub-tabs including Analysis.Results, where users configure model parameters and run statistical procedures; Plots and Graphs, which displays dynamic visualizations; AI Interpretation, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a Multivariate tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include Create Data, which enables users to generate CSV-format datasets for custom input; Datasets, which provides curated example datasets for testing and exploration; and User, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in Figure 2 to demonstrate the consistent tab layout and modular design adopted throughout the platform.\n\n\n\n\n\n\n\n\n\n\n\n(a) CRD module main page\n\n\n\n\n\n\n\n\n\n\n\n(b) Authentication page\n\n\n\n\n\n\n\n\n\n\n\n\n\n(c) Module dashboard\n\n\n\n\n\n\n\n\n\n\n\n(d) Result tables in Analysis.Results\n\n\n\n\n\n\n\n\n\n\n\n\n\n(e) Plots and graphs\n\n\n\n\n\n\n\n\n\n\n\n(f) AI interpretation\n\n\n\n\n\n\n\n\n\n\n\n\n\n(g) Multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n(h) Datasets available for testing\n\n\n\n\n\n\n\nFigure 2: User interface and modular design of the RAISINS platform: screenshots from the CRD Module illustrating the common tab structure across analytical tools.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#sec-results",
+    "href": "volume1/josta111raisins2025.html#sec-results",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "4 Results",
+    "text": "4 Results\nThe RAISINS platform was developed to address the growing need for accessible, reliable, and AI-enhanced statistical tools tailored to agricultural research. By integrating familiar programming environments with user-friendly interfaces, it aims to bridge the gap between complex statistical methods and researchers’ practical needs.\n\n4.1 Use and Impact\nThe RAISINS platform has gained widespread adoption among postgraduate, and doctoral students, as well as faculty members across agricultural universities in India. Its intuitive design and web-based accessibility have made it an essential tool for academic coursework, thesis development, and research publications. By integrating AI-powered features, RAISINS significantly reduces the complexity of statistical output interpretation, making advanced inferential methods more approachable for users without extensive statistical backgrounds. This has empowered researchers to conduct rigorous data analysis with greater confidence and efficiency, thereby enhancing the overall quality and reproducibility of agricultural research.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#discussion",
+    "href": "volume1/josta111raisins2025.html#discussion",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "Discussion",
+    "text": "Discussion\nThe RAISINS platform represents a significant advancement in making advanced statistical and AI-driven analytical tools accessible to the agricultural research community. By seamlessly integrating R, Python, and AI capabilities within an intuitive web interface, RAISINS addresses common barriers faced by researchers, such as the complexity of statistical software and interpretation of results. The platform’s emphasis on user-friendliness and automation allows researchers, including those with limited statistical training, to perform rigorous data analysis with confidence. This democratization of statistical tools has the potential to improve the quality and reproducibility of agricultural research outputs. Moreover, the cloud-based deployment ensures scalability and continuous availability, enabling broader adoption across diverse educational and research institutions. The collaborative design and integration of multiple programming environments also open avenues for further enhancements, positioning RAISINS as a flexible and evolving resource in the field of agricultural data science.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#conclusion",
+    "href": "volume1/josta111raisins2025.html#conclusion",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe RAISINS platform marks an important step forward in democratizing access to advanced statistical and AI-powered analytical tools tailored specifically for agricultural research. By integrating the strengths of R and Python programming environments with artificial intelligence capabilities, RAISINS offers researchers an intuitive and comprehensive platform for conducting inferential statistics without requiring extensive technical expertise. Its web-based interface, supported by cloud hosting, ensures that users can access powerful data analysis tools anytime and from anywhere, thereby enhancing collaboration and research productivity. The platform’s ability to simplify complex outputs and support diverse user groups—from students to seasoned faculty—has already contributed to improved data analysis quality and research rigor within agricultural universities. RAISINS not only supports robust statistical inference but also fosters greater confidence among users in interpreting and applying results to their scientific inquiries. This positions RAISINS as a foundational resource in agricultural data science with substantial potential for continued growth and impact.\n\nFuture Work\nBuilding on this foundation, future development efforts will focus on broadening RAISINS’ analytical scope by incorporating modules for multivariate analysis and complex survey data, enabling users to tackle more sophisticated research designs. The introduction of voice-guided help and interactive tutorials aims to enhance user engagement and accessibility, particularly for those new to statistical analysis. Personalized user dashboards with automated report generation will streamline workflow management and facilitate documentation. Furthermore, refining the AI components by training on domain-specific agricultural datasets will improve the platform’s ability to deliver context-sensitive insights and recommendations. These advancements will collectively strengthen RAISINS’ role as an indispensable, evolving tool that meets the dynamic needs of the agricultural research community.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#acknowledgments",
+    "href": "volume1/josta111raisins2025.html#acknowledgments",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n\n\n\n\n\n\nThe authors gratefully acknowledge the support and encouragement provided by Kerala Agricultural University throughout the development of this work. We also extend our sincere thanks to the NABARD-KAU-WSU Agtech Launchpad for their invaluable incubation program and continued backing, which have been instrumental in advancing the RAISINS platform.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#references",
+    "href": "volume1/josta111raisins2025.html#references",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "References",
+    "text": "References\n\n\nAgresti, A. 2013. Categorical Data Analysis. 3rd ed. Hoboken, NJ, USA: Wiley.\n\n\nAllaire, JJ, Kevin Ushey, Yuan Tang, Dirk Eddelbuettel, and RStudio. 2024. Reticulate: Interface to ’Python’. https://rstudio.github.io/reticulate/.\n\n\nBabbie, Earl R. 2020. The Practice of Social Research. 15th ed. Cengage Learning.\n\n\nBryman, Alan. 2016. Social Research Methods. 5th ed. Oxford University Press.\n\n\nCasella, George, and Roger L Berger. 2002. Statistical Inference. 2nd ed. Cengage Learning.\n\n\nChang, Winston, Joe Cheng, JJ Allaire, Yihui Xie, and Jonathan McPherson. 2024. Shiny: Web Application Framework for r. https://CRAN.R-project.org/package=shiny.\n\n\nCleveland, William S. 1993. Visualizing Data. Hobart Press.\n\n\nDas, M. N., and N. C. Giri. 2018. Design and Analysis of Experiments. 2nd ed. New Delhi, India: New Age International Publishers.\n\n\nDey, A. 1986. Theory of Block Designs. New Delhi, India: Wiley Eastern Ltd.\n\n\nFalconer, Douglas S, and Trudy FC Mackay. 1996. Introduction to Quantitative Genetics. 4th ed. Longman.\n\n\nFew, S. 2009. Now You See It: Simple Visualization Techniques for Quantitative Analysis. Berkeley, CA, USA: Analytics Press.\n\n\nGomez, Kwanchai A, and Arturo A Gomez. 1984. Statistical Procedures for Agricultural Research. 2nd ed. John Wiley & Sons.\n\n\nHarris, Charles R., K. Jarrod Millman, Stéfan van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, et al. 2020. NumPy: Fundamental Package for Scientific Computing with Python. Nature. Vol. 585. https://doi.org/10.1038/s41586-020-2649-2.\n\n\nHogg, Robert V, Joseph McKean, and Allen T Craig. 2018. Introduction to Mathematical Statistics. 8th ed. Pearson.\n\n\nHusson, François, Julie Josse, Sébastien Lê, and Jeremy Mazet. 2020. FactoMineR: Multivariate Exploratory Data Analysis and Data Mining. https://CRAN.R-project.org/package=FactoMineR.\n\n\nLynch, Michael, and Bruce Walsh. 1998. Genetics and Analysis of Quantitative Traits. Sinauer Associates.\n\n\nMendiburu, Felipe de. 2020. Agricolae: Statistical Procedures for Agricultural Research. https://CRAN.R-project.org/package=agricolae.\n\n\nMontgomery, Douglas C. 2017. Design and Analysis of Experiments. 9th ed. John Wiley & Sons.\n\n\nPedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, et al. 2011. Scikit-Learn: Machine Learning in Python. Journal of Machine Learning Research. Vol. 12. https://scikit-learn.org/.\n\n\nRobinson, David, and Alex Hayes. 2024. Broom: Convert Statistical Analysis Objects into Tidy Tibbles. https://CRAN.R-project.org/package=broom.\n\n\nSeabold, Skipper, and Josef Perktold. 2010. Statsmodels: Statistical Modeling and Econometrics in Python. https://www.statsmodels.org/.\n\n\nSievert, Carson. 2023. Plotly: Create Interactive Web Graphics via ’Plotly.js’. https://CRAN.R-project.org/package=plotly.\n\n\nThe pandas development team. 2024. Pandas: Powerful Python Data Analysis Toolkit. https://pandas.pydata.org/.\n\n\nTufte, Edward R. 2001. The Visual Display of Quantitative Information. Graphics Press.\n\n\nVoss, Angela D. 2010. Research Design and Statistical Analysis in Social Science. Agricultural Research Press.\n\n\nWickham, Hadley. 2023. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://CRAN.R-project.org/package=ggplot2.\n\n\nWickham, Hadley, Romain Francois, Lionel Henry, and Kirill Müller. 2024. Dplyr: A Grammar of Data Manipulation. https://CRAN.R-project.org/package=dplyr.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#sec-techdetails",
+    "href": "volume1/josta111raisins2025.html#sec-techdetails",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "Technical details",
+    "text": "Technical details\n\n\n\n\n\n\nDue to the ongoing costs associated with hosting and maintaining the RAISINS platform, the authors have adopted a subscription-based model to ensure its sustainability and continued development. The live application is accessible to users at https://www.raisins.live/.\n\n\n\n\nPublication Details\nSubmitted:\nAccepted:",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "published.html",
+    "href": "published.html",
+    "title": "Published Papers",
+    "section": "",
+    "text": "Published Papers\n\n\n\n\nVolume I • Issue I • 2025\n\n\nThis page lists all peer-reviewed papers published in the journal. Click on a title to read the full article.\n\n\n\n\n\n\n\n\n\n\n\nRAISINS: Integrating R and AI for Agricultural Data Analysis\n\n\n\n\n\n\nFull article\n\n\n\nRAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses. Hosted on Posit Connect Cloud, the platform eliminates the need for local software installation, enabling seamless, browser-based access to a wide range of statistical tools. RAISINS simplifies model building, result interpretation, and reporting, making it especially valuable for non-statisticians and early-career researchers seeking reliable insights from agricultural data. \n\n\n\n\n\nJun 8, 2025\n\n\nMohammed Hisham M., Jithin Chandran, Pratheesh P Gopinath*\n\n\nUnder Review\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "crumbs": [
+      "Published Papers"
+    ]
+  },
+  {
+    "objectID": "editorial.html#editor-in-chief",
+    "href": "editorial.html#editor-in-chief",
+    "title": "1 Editorial Board",
+    "section": "Editor-in-Chief",
+    "text": "Editor-in-Chief\nvacant",
+    "crumbs": [
+      "Editorial Board"
+    ]
+  },
+  {
+    "objectID": "editorial.html#managing-editors",
+    "href": "editorial.html#managing-editors",
+    "title": "1 Editorial Board",
+    "section": "Managing Editors",
+    "text": "Managing Editors\n\n  \n  \n    Dr. Lovely B\n    Department of Plant Breeding & Genetics, College of Agriculture, Vellayani, Kerala Agricultural University\n    Email: lovely.b@kau.in\n    ORCID: 0000-0002-3456-7890\n  \n\n\n  \n  \n    Dr. Pratheesh P Gopinath\n    Department of Agricultural Statistics, Kerala Agricultural University\n    Email: pratheesh.pg@kau.in\n    ORCID: 0000-0003-3290-0436",
+    "crumbs": [
+      "Editorial Board"
+    ]
+  },
+  {
+    "objectID": "editorial.html#section-editors",
+    "href": "editorial.html#section-editors",
+    "title": "1 Editorial Board",
+    "section": "Section Editors",
+    "text": "Section Editors\nvacant",
+    "crumbs": [
+      "Editorial Board"
+    ]
+  },
+  {
+    "objectID": "editorial.html#advisory-board",
+    "href": "editorial.html#advisory-board",
+    "title": "1 Editorial Board",
+    "section": "Advisory Board",
+    "text": "Advisory Board\nVacant",
+    "crumbs": [
+      "Editorial Board"
+    ]
+  },
+  {
+    "objectID": "authorguide.html",
+    "href": "authorguide.html",
+    "title": "Author Guidelines",
+    "section": "",
+    "text": "Author Guidelines\nThis is a newly launched journal platform. Content and updates will be added shortly\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Submit Articles",
+      "Author Guidelines"
+    ]
+  },
+  {
+    "objectID": "index.html#our-vision",
+    "href": "index.html#our-vision",
+    "title": "About JOSTA",
+    "section": "Our Vision",
+    "text": "Our Vision\nJOSTA envisions a research environment where sharing agricultural innovations is simple, accessible, and inclusive. Our aim is to provide a dedicated platform for publishing high-quality agricultural research in a researcher-friendly manner—removing unnecessary barriers while maintaining high editorial standards. We believe in connecting researchers, educators, and practitioners by offering open access to well-reviewed, reliable research. By fostering a transparent and practical publishing process, JOSTA supports the continuous improvement of agricultural science and technology.",
+    "crumbs": [
+      "About JOSTA"
+    ]
+  },
+  {
+    "objectID": "index.html#why-publish-with-us",
+    "href": "index.html#why-publish-with-us",
+    "title": "About JOSTA",
+    "section": "Why Publish with Us?",
+    "text": "Why Publish with Us?\nOpen Access: Your work is freely accessible online from the moment of publication, increasing its reach and impact.\n\nStreamlined Process: We offer a simple, submission-friendly system that focuses on quality without the complexity of traditional publishing.\nPermanent Archiving: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.\nSupportive Community: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.",
+    "crumbs": [
+      "About JOSTA"
+    ]
+  },
+  {
+    "objectID": "index.html#peer-review-policy",
+    "href": "index.html#peer-review-policy",
+    "title": "About JOSTA",
+    "section": "Peer Review Policy",
+    "text": "Peer Review Policy\nAll submissions are initially reviewed by the editorial team. If suitable, manuscripts are sent for double-blind peer review by independent experts in the field. Reviewers remain anonymous to ensure objectivity, and authors may be asked to revise their manuscripts based on constructive feedback.",
+    "crumbs": [
+      "About JOSTA"
+    ]
+  },
+  {
+    "objectID": "index.html#open-access",
+    "href": "index.html#open-access",
+    "title": "About JOSTA",
+    "section": "🔓Open Access",
+    "text": "🔓Open Access\nJOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.",
+    "crumbs": [
+      "About JOSTA"
+    ]
+  },
+  {
+    "objectID": "index.html#article-publishing-charges",
+    "href": "index.html#article-publishing-charges",
+    "title": "About JOSTA",
+    "section": "Article Publishing Charges",
+    "text": "Article Publishing Charges\nJOSTA follows a minimal-cost, open-access publishing model. A nominal Article Processing Charge (APC) of INR 1000 will be collected upon acceptance of the manuscript.\n✅ No submission fee\n✅ No additional charges for figures, tables, or page limits\n✅ Online publication and permanent open-access availability This fee helps cover basic editorial, hosting, and maintenance costs while ensuring that your research remains freely accessible to all.",
+    "crumbs": [
+      "About JOSTA"
+    ]
+  },
+  {
+    "objectID": "index.html#greener-publishing",
+    "href": "index.html#greener-publishing",
+    "title": "About JOSTA",
+    "section": "🍃Greener Publishing",
+    "text": "🍃Greener Publishing\nAs a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint—aligning our commitment to open access with a sustainable future for scholarly communication.\n\nCopyright Information\n© 2025 Statoberry LLP. All rights reserved.\nJOSTA is licensed under a\n\nCreative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.\nUnder this license:\n- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made.\n- Non Commercial: You may not use the material for commercial purposes.\n- No Derivatives: If you remix, transform, or build upon the material, you may not distribute the modified material.\nFor commercial use or distribution of print copies, prior written permission from Statoberry LLP is required.",
+    "crumbs": [
+      "About JOSTA"
+    ]
+  },
+  {
+    "objectID": "submit.html#submission-process",
+    "href": "submit.html#submission-process",
+    "title": "1 Article Submission",
+    "section": "Submission Process",
+    "text": "Submission Process\n\n  We are currently developing an automated submission system specifically for JOSTA to streamline the manuscript submission process. In the meantime, please submit your manuscripts by emailing them to jostapubs@gmail.com.\n  Please ensure your submission adheres to the following guidelines:\n  \n    Manuscripts should be submitted Word or qmd format.\n    Include a cover letter with the manuscript title, author names, affiliations, and contact information.\n    Follow the journal's formatting and style guidelines (available on the Author Guidelines page).\n    Ensure all co-authors are listed and have approved the submission.\n    Include any supplementary materials or datasets as separate attachments.\n  \n  Upon receipt, our editorial team will confirm submission and provide further instructions regarding the peer-review process.",
+    "crumbs": [
+      "Submit Articles",
+      "Article Submission"
+    ]
+  },
+  {
+    "objectID": "submit.html#contact-information",
+    "href": "submit.html#contact-information",
+    "title": "1 Article Submission",
+    "section": "Contact Information",
+    "text": "Contact Information\n\n  For any questions regarding the submission process, please contact the editorial office at jostapubs@gmail.com.\n  We look forward to receiving your contributions to *JOSTA* and supporting the advancement of sustainable technology in agriculture.",
+    "crumbs": [
+      "Submit Articles",
+      "Article Submission"
+    ]
+  }
+]

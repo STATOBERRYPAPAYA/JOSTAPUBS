@@ -1,0 +1,327 @@
+---
+format:
+  html:
+    theme:
+      light:
+        - lumen
+        - theme.scss
+      dark:
+        - slate
+        - darktheme.scss
+    toc: true
+    number-sections: true
+    highlight-style: arrow
+    monofont: Fira Code
+    mainfont: Georgia
+    monobackgroundcolor: "#f7f7f7"
+    math: mathjax
+editor: visual
+---
+
+```{=html}
+<style>
+
+.banner-container {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.banner-img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 1.5em;
+}
+
+.editor-card {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.editor-card:hover {
+  transform: translateY(-5px);
+}
+
+.editor-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 1.5em;
+}
+
+.editor-info {
+  flex: 1;
+}
+
+.editor-info h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.2em;
+}
+
+.editor-info p {
+  margin: 0.3em 0;
+  color: #555;
+}
+
+.editor-info a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.editor-info a:hover {
+  text-decoration: underline;
+}
+
+.section-editors, .technical-board, .advisory-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .editor-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .editor-img {
+    margin-bottom: 1em;
+    margin-right: 0;
+  }
+}
+</style>
+```
+
+```{=html}
+<div class="banner-container">
+  <img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/JOSTA%2Fbanner.jpg?alt=media"
+       alt="JOSTA Banner"
+       class="banner-img">
+</div>
+```
+
+# Editorial Board
+
+The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a distinguished editorial board comprising leading researchers, academics, and professionals from diverse disciplines. This board ensures the academic rigor, quality, and integrity of all published content. Below is the structure of the editorial team, organized according to international best practices in scholarly publishing.
+
+## Editor-in-Chief {.unnumbered}
+
+vacant
+
+<!-- ```{=html} -->
+
+<!-- <div class="editor-card"> -->
+
+<!--   <img src="images/eic.jpg" alt="Editor-in-Chief" class="editor-img"> -->
+
+<!--   <div class="editor-info"> -->
+
+<!--     <h3>Dr. John Doe</h3> -->
+
+<!--     <p>Department of Agricultural Sciences, Global University</p> -->
+
+<!--     <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p> -->
+
+<!--     <p>ORCID: <a href="https://orcid.org/0000-0001-2345-6789">0000-0001-2345-6789</a></p> -->
+
+<!--   </div> -->
+
+<!-- </div> -->
+
+<!-- ``` -->
+
+## Managing Editors {.unnumbered}
+
+```{=html}
+<div class="editor-card">
+  <img src="images/managing1.jpg" alt="Managing Editor 1" class="editor-img">
+  <div class="editor-info">
+    <h3>Dr. Lovely B</h3>
+    <p>Department of Plant Breeding & Genetics, College of Agriculture, Vellayani, Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:lovely.b@kau.in">lovely.b@kau.in</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0002-3456-7890">0000-0002-3456-7890</a></p>
+  </div>
+</div>
+<div class="editor-card">
+  <img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/JOSTA%2Feditors%2Fmy%20photo.jpg?alt=media" alt="Managing Editor 2" class="editor-img">
+  <div class="editor-info">
+    <h3>Dr. Pratheesh P Gopinath</h3>
+    <p>Department of Agricultural Statistics, Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:pratheesh.pg@kau.in">pratheesh.pg@kau.in</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0003-3290-0436">0000-0003-3290-0436</a></p>
+  </div>
+</div>
+```
+
+## Section Editors {.unnumbered}
+
+vacant
+
+<!-- ```{=html} -->
+
+<!-- <div class="section-editors"> -->
+
+<!--   <div class="editor-card"> -->
+
+<!--     <img src="images/section-editors.jpg" alt="Section Editor 1" class="editor-img"> -->
+
+<!--     <div class="editor-info"> -->
+
+<!--       <h3>Dr. Alice Brown</h3> -->
+
+<!--       <p>Sustainable Agronomy, Global AgriTech Institute</p> -->
+
+<!--     </div> -->
+
+<!--   </div> -->
+
+<!--   <div class="editor-card"> -->
+
+<!--     <img src="images/section-editors.jpg" alt="Section Editor 2" class="editor-img"> -->
+
+<!--     <div class="editor-info"> -->
+
+<!--       <h3>Dr. David Lee</h3> -->
+
+<!--       <p>Renewable Energy in Agriculture, Energy Research Center</p> -->
+
+<!--     </div> -->
+
+<!--   </div> -->
+
+<!--   <div class="editor-card"> -->
+
+<!--     <img src="images/section-editors.jpg" alt="Section Editor 3" class="editor-img"> -->
+
+<!--     <div class="editor-info"> -->
+
+<!--       <h3>Dr. Emma Wilson</h3> -->
+
+<!--       <p>Precision Farming and ICT, TechFarm University</p> -->
+
+<!--     </div> -->
+
+<!--   </div> -->
+
+<!-- </div> -->
+
+<!-- ``` -->
+
+<!-- ## Technical Board {.unnumbered} -->
+
+<!-- ```{=html} -->
+
+<!-- <div class="technical-board"> -->
+
+<!--   <div class="editor-card"> -->
+
+<!--     <img src="images/technical-board.jpg" alt="Technical Editor" class="editor-img"> -->
+
+<!--     <div class="editor-info"> -->
+
+<!--       <h3>Mr. Michael Green</h3> -->
+
+<!--       <p>Technical Editor & Systems Manager, Kerala</p> -->
+
+<!--     </div> -->
+
+<!--   </div> -->
+
+<!--   <div class="editor-card"> -->
+
+<!--     <img src="images/technical-board.jpg" alt="Web Support" class="editor-img"> -->
+
+<!--     <div class="editor-info"> -->
+
+<!--       <h3>Ms. Sarah Johnson</h3> -->
+
+<!--       <p>Web & Production Support, Tech Institute</p> -->
+
+<!--     </div> -->
+
+<!--   </div> -->
+
+<!-- </div> -->
+
+<!-- ``` -->
+
+## Advisory Board {.unnumbered}
+
+Vacant
+
+<!-- ```{=html} -->
+
+<!-- <div class="advisory-board"> -->
+
+<!--   <div class="editor-card"> -->
+
+<!--     <img src="images/advisory-board.jpg" alt="Advisory Board Member 1" class="editor-img"> -->
+
+<!--     <div class="editor-info"> -->
+
+<!--       <h3>Prof. Elizabeth Carter</h3> -->
+
+<!--       <p>Retired Professor, Agricultural Engineering, International University</p> -->
+
+<!--       <p>Email: <a href="mailto:elizabeth.carter@example.com">elizabeth.carter@example.com</a></p> -->
+
+<!--       <p>ORCID: <a href="https://orcid.org/0000-0004-5678-9012">0000-0004-5678-9012</a></p> -->
+
+<!--     </div> -->
+
+<!--   </div> -->
+
+<!--   <div class="editor-card"> -->
+
+<!--     <img src="images/advisory-board.jpg" alt="Advisory Board Member 2" class="editor-img"> -->
+
+<!--     <div class="editor-info"> -->
+
+<!--       <h3>Dr. Anil Sharma</h3> -->
+
+<!--       <p>Senior Scientist, Center for Sustainable Innovation, India</p> -->
+
+<!--       <p>Email: <a href="mailto:anil.sharma@example.com">anil.sharma@example.com</a></p> -->
+
+<!--       <p>ORCID: <a href="https://orcid.org/0000-0005-6789-0123">0000-0005-6789-0123</a></p> -->
+
+<!--     </div> -->
+
+<!--   </div> -->
+
+<!--   <div class="editor-card"> -->
+
+<!--     <img src="images/advisory-board.jpg" alt="Advisory Board Member 3" class="editor-img"> -->
+
+<!--     <div class="editor-info"> -->
+
+<!--       <h3>Dr. Sofia Mendes</h3> -->
+
+<!--       <p>Expert in Climate-Smart Agriculture, Global Sustainability Network</p> -->
+
+<!--       <p>Email: <a href="mailto:sofia.mendes@example.com">sofia.mendes@example.com</a></p> -->
+
+<!--       <p>ORCID: <a href="https://orcid.org/0000-0006-7890-1234">0000-0006-7890-1234</a></p> -->
+
+<!--     </div> -->
+
+<!--   </div> -->
+
+<!-- </div> -->
+
+<!-- ``` -->

@@ -1,0 +1,74 @@
+project:
+  type: website
+  output-dir: docs
+  resources: 
+    - "*.png"
+    - "*.jpeg"
+    - "*.svg"
+    - "*.pdf"
+
+website:
+  title: "Journal of Sustainable Technology in Agriculture (JOSTA)"
+  favicon: images/cover.jpg
+  site-url: https://www.jostapubs.com/
+  # repo-url: https://github.com/STATOBERRYPAPAYA/JOSTA/
+  open-graph:
+    image: images/cover.jpg
+    image-alt: "JOSTA Volume 1 Cover"
+  twitter-card:
+    image: images/papayalogo.png
+    image-alt: "JOSTA Journal"
+    card-style: summary_large_image
+  sidebar:
+    logo: images/sidebarcover.png
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - section: "Submit Articles"
+        contents:
+        - submit.qmd
+        - authorguide.qmd
+      - published.qmd
+      - editorial.qmd
+      - section: "Volumes"
+        contents:
+          - section: "Volume 1"
+            contents:
+            - section: "Issue1"
+              contents:
+              - volume1/josta111raisins2025.qmd
+              # - volume1/paper2.qmd
+  page-footer:
+    border: true
+    left: |
+      Published by PAPAYA publishing <a href="https://www.statoberry.com/papaya">![](/images/papayalogo.png){style='width: auto; height: 25px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+    center: |
+      <a href="https://www.statoberry.com/papaya">![](/images/Josta.png){style='height: 90px;'}</a>
+    right: |
+      Licenced under [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/) <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">![](/images/cclogo.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+      Built with <a href="https://quarto.org/">Quarto</a>
+  reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme:
+      light:
+        - lumen
+        - theme.scss
+      dark:
+        - slate
+        - darktheme.scss
+    toc: true
+    number-sections: true
+    highlight-style: arrow
+    monofont: Fira Code
+    mainfont: Georgia
+    monobackgroundcolor: "#f7f7f7"
+    math: mathjax
+execute:
+  freeze: auto
+  echo: false
+editor: visual
