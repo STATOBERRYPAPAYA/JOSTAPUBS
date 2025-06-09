@@ -9,7 +9,7 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.39</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Sat, 07 Jun 2025 18:30:00 GMT</lastBuildDate>
 <item>
   <title>RAISINS: Integrating R and AI for Agricultural Data Analysis</title>
@@ -50,8 +50,8 @@ Table&nbsp;1: Foundational literature supporting each RAISINS module domain, org
 <div aria-describedby="tbl-foundation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 26%">
-<col style="width: 73%">
+<col style="width: 29%">
+<col style="width: 70%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,7 +62,7 @@ Table&nbsp;1: Foundational literature supporting each RAISINS module domain, org
 <tbody>
 <tr class="odd">
 <td>Design &amp; Analysis of Experiments</td>
-<td>Montgomery (2017) <span class="citation" data-cites="montgomery2017design">(Montgomery 2017)</span>; Gomez &amp; Gomez (1984) <span class="citation" data-cites="gomez1984statistical">(Gomez and Gomez 1984)</span>; Das &amp; Giri (2018) <span class="citation" data-cites="das2018design">(Das and Giri 2018)</span>; Dey (1986) <span class="citation" data-cites="dey1986theory">(Dey 1986)</span></td>
+<td>Montgomery (2017) <span class="citation" data-cites="montgomery2017design">(Montgomery 2017)</span>; Gomez &amp; Gomez (1984) <span class="citation" data-cites="gomez1984statistical">(Gomez and Gomez 1984)</span>; Das &amp; Giri (2018) <span class="citation" data-cites="das2018design">(Das and Giri 2018)</span>;Searle (1997) <span class="citation" data-cites="searle1997linear">(Searle 1997)</span> Dey (1986) <span class="citation" data-cites="dey1986theory">(Dey 1986)</span></td>
 </tr>
 <tr class="even">
 <td>Statistical Genetics</td>
@@ -70,7 +70,7 @@ Table&nbsp;1: Foundational literature supporting each RAISINS module domain, org
 </tr>
 <tr class="odd">
 <td>Social Science Research</td>
-<td>Voss (2010) <span class="citation" data-cites="voss2010research">(Voss 2010)</span>; Babbie (2020) <span class="citation" data-cites="babbie2020practice">(Babbie 2020)</span>; Bryman (2016) <span class="citation" data-cites="bryman2016social">(Bryman 2016)</span></td>
+<td>Babbie (2020) <span class="citation" data-cites="babbie2020practice">(Babbie 2020)</span>; Bryman (2016) <span class="citation" data-cites="bryman2016social">(Bryman 2016)</span></td>
 </tr>
 <tr class="even">
 <td>Statistical Inference and Modeling</td>
@@ -327,6 +327,9 @@ Robinson, David, and Alex Hayes. 2024. <em>Broom: Convert Statistical Analysis O
 <div id="ref-statsmodels" class="csl-entry">
 Seabold, Skipper, and Josef Perktold. 2010. <em>Statsmodels: Statistical Modeling and Econometrics in Python</em>. <a href="https://www.statsmodels.org/">https://www.statsmodels.org/</a>.
 </div>
+<div id="ref-searle1997linear" class="csl-entry">
+Searle, Shayle R. 1997. <em>Linear Models</em>. John Wiley &amp; Sons.
+</div>
 <div id="ref-plotly" class="csl-entry">
 Sievert, Carson. 2023. <em>Plotly: Create Interactive Web Graphics via ’Plotly.js’</em>. <a href="https://CRAN.R-project.org/package=plotly">https://CRAN.R-project.org/package=plotly</a>.
 </div>
@@ -335,9 +338,6 @@ The pandas development team. 2024. <em>Pandas: Powerful Python Data Analysis Too
 </div>
 <div id="ref-tufte2001visual" class="csl-entry">
 Tufte, Edward R. 2001. <em>The Visual Display of Quantitative Information</em>. Graphics Press.
-</div>
-<div id="ref-voss2010research" class="csl-entry">
-Voss, Angela D. 2010. <em>Research Design and Statistical Analysis in Social Science</em>. Agricultural Research Press.
 </div>
 <div id="ref-ggplot2" class="csl-entry">
 Wickham, Hadley. 2023. <em>Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics</em>. <a href="https://CRAN.R-project.org/package=ggplot2">https://CRAN.R-project.org/package=ggplot2</a>.
