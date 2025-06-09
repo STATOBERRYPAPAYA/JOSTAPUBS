@@ -45,8 +45,9 @@ categories: Full article
 status: Under Review
 doi: https://doi.org/10.5281/zenodo.15622128 
 ---
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg)](https://doi.org/10.5281/zenodo.15622128) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
 
-[![](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg)](https://doi.org/10.5281/zenodo.15622128)
+
 
 ::: download-button
 <a href="pdfs/josta_raisins.pdf" class="btn btn-primary" download> <i class="bi bi-file-pdf"></i> Download PDF </a>
@@ -77,7 +78,7 @@ All modules in RAISINS have been **peer-reviewed by domain experts**, including 
 @tbl-foundation presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.
 
 | Module Domain | Theoretical Foundation |
-|----|----|
+|-------------------|-----------------------------------------------------|
 | Design & Analysis of Experiments | Montgomery (2017) [@montgomery2017design]; Gomez & Gomez (1984) [@gomez1984statistical]; Das & Giri (2018) [@das2018design]; Dey (1986) [@dey1986theory] |
 | Statistical Genetics | Falconer & Mackay (1996) [@falconer1996introduction]; Lynch & Walsh (1998) [@lynch1998genetics] |
 | Social Science Research | Voss (2010) [@voss2010research]; Babbie (2020) [@babbie2020practice]; Bryman (2016) [@bryman2016social] |
@@ -94,7 +95,7 @@ RAISINS integrates a comprehensive ecosystem of open-source R and Python package
 
 The R-based architecture of RAISINS is built around the `shiny` framework [@shiny], which enables the development of dynamic, browser-accessible applications. Data manipulation tasks are performed using `dplyr` [@dplyr], `tidyr`, and `data.table`, while data visualization is implemented through `ggplot2` [@ggplot2], along with complementary packages such as `ggthemes`, `plotly` [@plotly], and `ggpattern`. For statistical analysis relevant to agricultural experiments and general inference, the platform employs packages including `agricolae` [@agricolae], `broom` [@broom], `effectsize`, `lsr`, `car`, `phia`, and `FactoMineR` [@FactoMineR]. These libraries provide robust support for model fitting, hypothesis testing, effect size estimation, and multivariate analysis.
 
-To enhance user interaction and responsiveness, RAISINS integrates several user interface and usability packages, such as `shinyWidgets`, `shinyalert`, `shinybusy`, `shinycustomloader`, `shinyBS`, `shinythemes`, and `colourpicker`. The presentation and export of analytical results are managed through tools like `rmarkdown`, `kableExtra`, and `formattable`, ensuring professional and structured output for reports and publications.
+To enhance user interaction and responsiveness, RAISINS integrates several user interface and usability packages, such as `shinyWidgets`, `shinyalert`, `shinybusy`, `shinycustomloader`, `shinyBS`, `shinythemes`, and `colourpicker`. The presentation and export of analytical results are managed through tools like `rmarkdown`, `kableExtra`, and `formattable`, ensuring professional and structured output for reports and publications.  
 
 The `reticulate`[@reticulate] package serves as a bridge between R and Python, allowing both languages to be used seamlessly within the same analytical workflow. In RAISINS, reticulate enables the platform to call Python functions, use Python libraries, and exchange data objects between R and Python environments. This integration allows the platform to combine R’s interactive capabilities with Python’s strengths in machine learning, statistical modeling, and AI-driven tasks, thereby enhancing both flexibility and functionality.
 
@@ -107,16 +108,17 @@ All R and Python packages used in RAISINS are well-maintained, community-support
 The @fig-flowchart illustrates the comprehensive architecture of the RAISINS platform, highlighting its integration of multiple programming languages and technologies. RAISINS combines the statistical computing power of R with the flexibility of Python and the advanced capabilities of AI through OpenAI models. The platform’s user interface is built using Shiny, providing an interactive and user-friendly experience, while the backend seamlessly coordinates R and Python processes. Hosting on Posit Connect Cloud ensures reliable accessibility and scalability for agricultural researchers. This integrated ecosystem enables efficient and robust inferential statistical analysis tailored specifically for agricultural research needs.
 
 ::: {#fig-flowchart}
-![](figures/raisinsflow.jpg){width="300px"}
+![](figures/raisinsflow.jpg){ width=300px }
 
 Architecture of the RAISINS Platform: Integration of R, Python, and AI Components through a Shiny-based Web Interface Hosted on Posit Connect Cloud.
-:::
+:::  
 
-### Modular structure and user interface design
+### Modular structure and user interface design  
 
-All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary `Analysis` tab, which serves as the central workspace. This tab contains nested sub-tabs including `Analysis.Results`, where users configure model parameters and run statistical procedures; `Plots and Graphs`, which displays dynamic visualizations; `AI Interpretation`, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a `Multivariat`e tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include `Create Data`, which enables users to generate CSV-format datasets for custom input; `Datasets`, which provides curated example datasets for testing and exploration; and `User`, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in @fig-crdmodule to demonstrate the consistent tab layout and modular design adopted throughout the platform.
+All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary `Analysis` tab, which serves as the central workspace. This tab contains nested sub-tabs including `Analysis.Results`, where users configure model parameters and run statistical procedures; `Plots and Graphs`, which displays dynamic visualizations; `AI Interpretation`, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a `Multivariat`e tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include `Create Data`, which enables users to generate CSV-format datasets for custom input; `Datasets`, which provides curated example datasets for testing and exploration; and `User`, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in @fig-crdmodule to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: https://statoberrypapaya.github.io/RAISINS_TUTORIAL/, providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.
 
-::: {#fig-crdmodule layout-ncol="2"}
+::: {#fig-crdmodule layout-ncol=2}
+
 ![CRD module main page](figures/crdmainpage.png){#fig-mainpage}
 
 ![Authentication page](figures/loginpage.png){#fig-auth}
@@ -134,7 +136,9 @@ All analytical modules within the RAISINS platform adhere to a standardized stru
 ![Datasets available for testing](figures/dataraisins.png){#fig-datasets}
 
 User interface and modular design of the RAISINS platform: screenshots from the CRD Module illustrating the common tab structure across analytical tools.
+
 :::
+
 
 ## Results {#sec-results}
 

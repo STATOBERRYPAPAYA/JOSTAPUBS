@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -64,12 +64,12 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-2e203a1e6a62ec29bdce554cb0588eaf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-73eb40118e6cd4b4158c4ffe12b59dcb.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -413,7 +413,7 @@ window.Quarto = {
 </header>
 
 
-<p><a href="https://doi.org/10.5281/zenodo.15622128"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg" class="img-fluid"></a></p>
+<p><a href="https://doi.org/10.5281/zenodo.15622128"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg" class="img-fluid"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
 <div class="download-button">
 <p><a href="pdfs/josta_raisins.pdf" class="btn btn-primary" download=""> <i class="bi bi-file-pdf"></i> Download PDF </a></p>
 </div>
@@ -503,7 +503,7 @@ Figure&nbsp;1: Architecture of the RAISINS Platform: Integration of R, Python, a
 </div>
 <section id="modular-structure-and-user-interface-design" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="modular-structure-and-user-interface-design"><span class="header-section-number">3.1</span> Modular structure and user interface design</h3>
-<p>All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary <code>Analysis</code> tab, which serves as the central workspace. This tab contains nested sub-tabs including <code>Analysis.Results</code>, where users configure model parameters and run statistical procedures; <code>Plots and Graphs</code>, which displays dynamic visualizations; <code>AI Interpretation</code>, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a <code>Multivariat</code>e tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include <code>Create Data</code>, which enables users to generate CSV-format datasets for custom input; <code>Datasets</code>, which provides curated example datasets for testing and exploration; and <code>User</code>, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in <a href="#fig-crdmodule" class="quarto-xref">Figure&nbsp;2</a> to demonstrate the consistent tab layout and modular design adopted throughout the platform.</p>
+<p>All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary <code>Analysis</code> tab, which serves as the central workspace. This tab contains nested sub-tabs including <code>Analysis.Results</code>, where users configure model parameters and run statistical procedures; <code>Plots and Graphs</code>, which displays dynamic visualizations; <code>AI Interpretation</code>, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a <code>Multivariat</code>e tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include <code>Create Data</code>, which enables users to generate CSV-format datasets for custom input; <code>Datasets</code>, which provides curated example datasets for testing and exploration; and <code>User</code>, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in <a href="#fig-crdmodule" class="quarto-xref">Figure&nbsp;2</a> to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: https://statoberrypapaya.github.io/RAISINS_TUTORIAL/, providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.</p>
 <div id="fig-crdmodule" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-crdmodule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -996,8 +996,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -1108,7 +1106,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

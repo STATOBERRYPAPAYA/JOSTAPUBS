@@ -6,6 +6,7 @@ project:
     - "*.jpeg"
     - "*.svg"
     - "*.pdf"
+    - CNAME
 
 website:
   title: "Journal of Sustainable Technology in Agriculture (JOSTA)"

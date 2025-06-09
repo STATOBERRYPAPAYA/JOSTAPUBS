@@ -5,6 +5,10 @@
        style="width: 100%; max-height: 200px; object-fit: cover;">
 </div>
 ```
+![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg)
+![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg)
+![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg)
+![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)
 
 # About JOSTA {.unnumbered}
 

@@ -9,7 +9,7 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.57</generator>
+<generator>quarto-1.6.39</generator>
 <lastBuildDate>Sat, 07 Jun 2025 18:30:00 GMT</lastBuildDate>
 <item>
   <title>RAISINS: Integrating R and AI for Agricultural Data Analysis</title>
@@ -22,7 +22,7 @@
 
 
 
-<p><a href="https://doi.org/10.5281/zenodo.15622128"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg" class="img-fluid"></a></p>
+<p><a href="https://doi.org/10.5281/zenodo.15622128"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg" class="img-fluid"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
 <div class="download-button">
 <p><a href="pdfs/josta_raisins.pdf" class="btn btn-primary" download=""> <i class="bi bi-file-pdf"></i> Download PDF </a></p>
 </div>
@@ -50,8 +50,8 @@ Table&nbsp;1: Foundational literature supporting each RAISINS module domain, org
 <div aria-describedby="tbl-foundation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 26%">
+<col style="width: 73%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -112,7 +112,7 @@ Figure&nbsp;1: Architecture of the RAISINS Platform: Integration of R, Python, a
 </div>
 <section id="modular-structure-and-user-interface-design" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="modular-structure-and-user-interface-design"><span class="header-section-number">3.1</span> Modular structure and user interface design</h3>
-<p>All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary <code>Analysis</code> tab, which serves as the central workspace. This tab contains nested sub-tabs including <code>Analysis.Results</code>, where users configure model parameters and run statistical procedures; <code>Plots and Graphs</code>, which displays dynamic visualizations; <code>AI Interpretation</code>, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a <code>Multivariat</code>e tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include <code>Create Data</code>, which enables users to generate CSV-format datasets for custom input; <code>Datasets</code>, which provides curated example datasets for testing and exploration; and <code>User</code>, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in Figure&nbsp;2 to demonstrate the consistent tab layout and modular design adopted throughout the platform.</p>
+<p>All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary <code>Analysis</code> tab, which serves as the central workspace. This tab contains nested sub-tabs including <code>Analysis.Results</code>, where users configure model parameters and run statistical procedures; <code>Plots and Graphs</code>, which displays dynamic visualizations; <code>AI Interpretation</code>, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a <code>Multivariat</code>e tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include <code>Create Data</code>, which enables users to generate CSV-format datasets for custom input; <code>Datasets</code>, which provides curated example datasets for testing and exploration; and <code>User</code>, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in Figure&nbsp;2 to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: https://statoberrypapaya.github.io/RAISINS_TUTORIAL/, providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.</p>
 <div id="fig-crdmodule" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-crdmodule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
