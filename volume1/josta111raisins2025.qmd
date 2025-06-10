@@ -31,32 +31,33 @@ author:
         postal-code: 695522
     orcid: 0000-0003-3290-0436
     email: pratheesh.pg@kau.in
-    url: https://coavellayani.kau.in/people/sub-lt-dr-pratheesh-p-gopinath
-    corresponding: TRUE
-
-abstract: |
- RAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses. Hosted on Posit Connect Cloud, the platform eliminates the need for local software installation, enabling seamless, browser-based access to a wide range of statistical tools. RAISINS simplifies model building, result interpretation, and reporting, making it especially valuable for non-statisticians and early-career researchers seeking reliable insights from agricultural data.
+    url: https://coavellayani.kau.in/people/sub-lt-dr-pratheesh-p-gopinath  
   
+abstract: |
+ RAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses. Hosted on Posit Connect Cloud, the platform eliminates the need for local software installation, enabling seamless, browser-based access to a wide range of statistical tools. RAISINS simplifies model building, result interpretation, and reporting, making it especially valuable for non-statisticians and early-career researchers seeking reliable insights from agricultural data.  
+ 
+description: "RAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses."  
+
 keywords: [Data Analysis, Agriculture Research, Design of Experiments, Statistical Genetics, Social Sciences, Open AI, Python, R]
 bibliography: paper1.bib
-listing: true
-date: 06-08-2025  
-categories: Full article
-status: Under Review
-doi: https://doi.org/10.5281/zenodo.15622128 
+date: 06-08-2025
+path: "volume1/josta111raisins2025.html"
+categories: [Research Article, Data Science, Software]
+status: Published (Online)
+doi: https://doi.org/10.5281/zenodo.15622128
 ---
 
 [![](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg)](https://doi.org/10.5281/zenodo.15622128) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
 
-<div style="display: flex; gap: 0.5rem; align-items: center; margin-top: 1rem;">
+::: {style="display: flex; gap: 0.5rem; align-items: center; margin-top: 1rem;"}
+<!-- Download PDF Button -->
 
-  <!-- Download PDF Button -->
-  <a href="pdfs/josta_raisins.pdf" class="btn btn-primary" download>
-    <i class="bi bi-file-pdf"></i> Download PDF
-  </a>
+<a href="pdfs/josta_raisins.pdf" class="btn btn-primary" download> <i class="bi bi-file-pdf"></i> Download PDF </a>
 
-  <!-- Copy Citation Button -->
-  <button id="copy-btn" onclick="copyCitation()" style="
+<!-- Copy Citation Button -->
+
+```{=html}
+<button id="copy-btn" onclick="copyCitation()" style="
     font-size: 0.8rem;
     padding: 0.3em 0.6em;
     border: 1px solid black;
@@ -66,35 +67,20 @@ doi: https://doi.org/10.5281/zenodo.15622128
     cursor: pointer;
     position: relative;
   ">
-    📋 Copy Citation
-    <span id="tooltip" style="
-      visibility: hidden;
-      background-color: black;
-      color: #fff;
-      text-align: center;
-      border-radius: 4px;
-      padding: 2px 6px;
-      position: absolute;
-      z-index: 1;
-      bottom: 125%; /* Show above the button */
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 0.7rem;
-      opacity: 0;
-      transition: opacity 0.3s;
-    ">
-      Citation copied!
-    </span>
-  </button>
+```
 
-</div>
+📋 Copy Citation \[ Citation copied! \]{#tooltip style=" visibility: hidden; background-color: black; color: #fff; text-align: center; border-radius: 4px; padding: 2px 6px; position: absolute; z-index: 1; bottom: 125%; /\* Show above the button \*/ left: 50%; transform: translateX(-50%); font-size: 0.7rem; opacity: 0; transition: opacity 0.3s; "}
+
+</button>
+:::
 
 <!-- Hidden Citation Text -->
-<span id="citation-text" style="display: none;">
-Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128
-</span>
+
+[Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128]{#citation-text style="display: none;"}
 
 <!-- Copy Script with Tooltip -->
+
+```{=html}
 <script>
   function copyCitation() {
     const citation = document.getElementById("citation-text").innerText;
@@ -110,9 +96,7 @@ Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R 
     }, 2000);
   }
 </script>
-
-
-
+```
 
 ## Introduction
 
@@ -139,7 +123,7 @@ All modules in RAISINS have been peer-reviewed by domain experts, including stat
 @tbl-foundation presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.
 
 | Module Domain | Theoretical Foundation |
-|----------------------|-------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Design & Analysis of Experiments | Montgomery (2017) [@montgomery2017design]; Gomez & Gomez (1984) [@gomez1984statistical]; Das & Giri (2018) [@das2018design]; Searle (1997) [@searle1997linear]; Dey (1986) [@dey1986theory]; Cox & Reid (2000) [@cox2000theory]; Toutenburg & Shalabh (2009) [@toutenburg2009statistical]; Cochran & Cox (1957) [@cochran1957experimental]; ; Federer (1985) [@federer1985experimental] |
 | Statistical Genetics | Falconer & Mackay (1996) [@falconer1996introduction]; Lynch & Walsh (1998) [@lynch1998genetics]; Dabholkar (1999) [@dabholkar1999elements]; Gillespie (2004) [@gillespie2004population] |
 | Social Science Research | Babbie (2020) [@babbie2020practice]; Bryman (2016) [@bryman2016social]; Bhattacherjee (2012) [@bhattacherjee2012social] |
@@ -180,7 +164,7 @@ The RAISINS platform was developed to address the growing need for accessible, r
 
 ### Modular structure and user interface design
 
-All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary `Analysis` tab, which serves as the central workspace. This tab contains nested sub-tabs including `Analysis.Results`, where users configure model parameters and run statistical procedures; `Plots and Graphs`, which displays dynamic visualizations; `AI Interpretation`, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a `Multivariate` tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include `Create Data`, which enables users to generate CSV-format datasets for custom input; `Datasets`, which provides curated example datasets for testing and exploration; and `User`, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in @fig-crdmodule to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: [https://statoberrypapaya.github.io/RAISINS_TUTORIAL/](https://statoberrypapaya.github.io/RAISINS_TUTORIAL/), providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.
+All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary `Analysis` tab, which serves as the central workspace. This tab contains nested sub-tabs including `Analysis.Results`, where users configure model parameters and run statistical procedures; `Plots and Graphs`, which displays dynamic visualizations; `AI Interpretation`, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a `Multivariate` tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include `Create Data`, which enables users to generate CSV-format datasets for custom input; `Datasets`, which provides curated example datasets for testing and exploration; and `User`, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in @fig-crdmodule to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: <https://statoberrypapaya.github.io/RAISINS_TUTORIAL/>, providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.
 
 ::: {#fig-crdmodule layout-ncol="2"}
 ![CRD module main page](figures/crdmainpage.png){#fig-mainpage}

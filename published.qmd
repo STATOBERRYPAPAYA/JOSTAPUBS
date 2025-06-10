@@ -8,7 +8,6 @@ listing:
   fields: 
     - title
     - author
-    - orcid
     - affiliations
     - description
     - date
@@ -20,13 +19,13 @@ listing:
 
 ```{=html}
 <div style="text-align: center; margin-bottom: 1em;">
-  <img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/JOSTA%2Fbanner.jpg?alt=media"
+  <img src="websitecover.jpg"
        alt="Banner"
        style="width: 100%; max-height: 200px; object-fit: cover;">
 </div>
 ```
 
-# Published Papers {.unnumbered}
+# Latest Articles {.unnumbered}
 
 ```{=html}
 <style>

@@ -9,7 +9,7 @@ project:
     - CNAME
 
 website:
-  title: "Journal of Sustainable Technology in Agriculture (JOSTA)"
+  title: "JOSTA"
   favicon: images/cover.jpg
   site-url: https://www.jostapubs.com/
   # repo-url: https://github.com/STATOBERRYPAPAYA/JOSTA/
@@ -19,7 +19,21 @@ website:
   twitter-card:
     image: images/papayalogo.png
     image-alt: "JOSTA Journal"
-    card-style: summary_large_image
+    card-style: summary_large_image  
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Submit Articles"
+        menu:
+        - href: submit.qmd
+          text: "Submit"
+        - href: authorguide.qmd
+          text: "Author Guidelines"
+      - href: published.qmd
+        text: "Recent Articles"
+      - href: editorial.qmd
+        text: "Editorial Board"
   sidebar:
     logo: images/sidebarcover.png
     style: "docked"
@@ -58,16 +72,14 @@ format:
     theme:
       light:
         - lumen
-        - theme.scss
       dark:
         - slate
-        - darktheme.scss
     toc: true
     number-sections: true
     highlight-style: arrow
     monofont: Fira Code
     mainfont: Georgia
-    monobackgroundcolor: "#f7f7f7"
+    monobackgroundcolor: "#364530"
     math: mathjax
 execute:
   freeze: auto
