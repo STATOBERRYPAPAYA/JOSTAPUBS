@@ -20,20 +20,6 @@ website:
     image: images/papayalogo.png
     image-alt: "JOSTA Journal"
     card-style: summary_large_image  
-  navbar:
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Submit Articles"
-        menu:
-        - href: submit.qmd
-          text: "Submit"
-        - href: authorguide.qmd
-          text: "Author Guidelines"
-      - href: published.qmd
-        text: "Recent Articles"
-      - href: editorial.qmd
-        text: "Editorial Board"
   sidebar:
     logo: images/sidebarcover.png
     style: "docked"
@@ -45,7 +31,6 @@ website:
         - submit.qmd
         - authorguide.qmd
       - published.qmd
-      - editorial.qmd
       - section: "Volumes"
         contents:
           - section: "Volume 1"
@@ -54,6 +39,8 @@ website:
               contents:
               - volume1/josta111raisins2025.qmd
               # - volume1/paper2.qmd
+      # - categories.qmd
+      - editorial.qmd
   page-footer:
     border: true
     left: |

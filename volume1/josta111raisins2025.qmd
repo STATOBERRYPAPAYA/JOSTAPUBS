@@ -42,61 +42,103 @@ keywords: [Data Analysis, Agriculture Research, Design of Experiments, Statistic
 bibliography: paper1.bib
 date: 06-08-2025
 path: "volume1/josta111raisins2025.html"
-categories: [Research Article, Data Science, Software]
+categories: [ Orignal-Article,Data-Science, Software]
 status: Published (Online)
 doi: https://doi.org/10.5281/zenodo.15622128
 ---
 
-[![](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg)](https://doi.org/10.5281/zenodo.15622128) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg)](https://doi.org/10.5281/zenodo.15622128) 
+![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) 
+![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
 
-::: {style="display: flex; gap: 0.5rem; align-items: center; margin-top: 1rem;"}
+::: {style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;"}
+
 <!-- Download PDF Button -->
-
-<a href="pdfs/josta_raisins.pdf" class="btn btn-primary" download> <i class="bi bi-file-pdf"></i> Download PDF </a>
+<a href="pdfs/josta_raisins.pdf" download class="download-btn">
+  <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF
+</a>
 
 <!-- Copy Citation Button -->
-
-```{=html}
-<button id="copy-btn" onclick="copyCitation()" style="
-    font-size: 0.8rem;
-    padding: 0.3em 0.6em;
-    border: 1px solid black;
-    background-color: white;
-    color: black;
-    border-radius: 4px;
-    cursor: pointer;
-    position: relative;
-  ">
-```
-
-📋 Copy Citation \[ Citation copied! \]{#tooltip style=" visibility: hidden; background-color: black; color: #fff; text-align: center; border-radius: 4px; padding: 2px 6px; position: absolute; z-index: 1; bottom: 125%; /\* Show above the button \*/ left: 50%; transform: translateX(-50%); font-size: 0.7rem; opacity: 0; transition: opacity 0.3s; "}
-
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+  📋 Copy Citation
+  <span id="tooltip">Citation copied!</span>
 </button>
+
 :::
 
 <!-- Hidden Citation Text -->
+<span id="citation-text" style="display: none;">
+Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In *Journal of Sustainable Technology in Agriculture* (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128
+</span>
 
-[Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128]{#citation-text style="display: none;"}
-
-<!-- Copy Script with Tooltip -->
-
-```{=html}
+<!-- JavaScript -->
 <script>
   function copyCitation() {
     const citation = document.getElementById("citation-text").innerText;
     navigator.clipboard.writeText(citation);
-
+    
     const tooltip = document.getElementById("tooltip");
     tooltip.style.visibility = "visible";
     tooltip.style.opacity = "1";
-
+    
     setTimeout(() => {
       tooltip.style.visibility = "hidden";
       tooltip.style.opacity = "0";
     }, 2000);
   }
 </script>
-```
+
+<!-- CSS Styling -->
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+
+
 
 ## Introduction
 
@@ -123,7 +165,7 @@ All modules in RAISINS have been peer-reviewed by domain experts, including stat
 @tbl-foundation presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.
 
 | Module Domain | Theoretical Foundation |
-|------------------------|------------------------------------------------|
+|-------------------------|------------------------------------------------|
 | Design & Analysis of Experiments | Montgomery (2017) [@montgomery2017design]; Gomez & Gomez (1984) [@gomez1984statistical]; Das & Giri (2018) [@das2018design]; Searle (1997) [@searle1997linear]; Dey (1986) [@dey1986theory]; Cox & Reid (2000) [@cox2000theory]; Toutenburg & Shalabh (2009) [@toutenburg2009statistical]; Cochran & Cox (1957) [@cochran1957experimental]; ; Federer (1985) [@federer1985experimental] |
 | Statistical Genetics | Falconer & Mackay (1996) [@falconer1996introduction]; Lynch & Walsh (1998) [@lynch1998genetics]; Dabholkar (1999) [@dabholkar1999elements]; Gillespie (2004) [@gillespie2004population] |
 | Social Science Research | Babbie (2020) [@babbie2020practice]; Bryman (2016) [@bryman2016social]; Bhattacherjee (2012) [@bhattacherjee2012social] |

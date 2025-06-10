@@ -23,41 +23,81 @@
 
 
 <p><a href="https://doi.org/10.5281/zenodo.15622128"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg" class="img-fluid"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
-<div style="display: flex; gap: 0.5rem; align-items: center; margin-top: 1rem;">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
 <!-- Download PDF Button -->
-<p><a href="pdfs/josta_raisins.pdf" class="btn btn-primary" download=""> <i class="bi bi-file-pdf"></i> Download PDF </a></p>
+<p><a href="pdfs/josta_raisins.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
 <!-- Copy Citation Button -->
-<button id="copy-btn" onclick="copyCitation()" style="
-    font-size: 0.8rem;
-    padding: 0.3em 0.6em;
-    border: 1px solid black;
-    background-color: white;
-    color: black;
-    border-radius: 4px;
-    cursor: pointer;
-    position: relative;
-  ">
-<p>📋 Copy Citation [ Citation copied! ]{#tooltip style=” visibility: hidden; background-color: black; color: #fff; text-align: center; border-radius: 4px; padding: 2px 6px; position: absolute; z-index: 1; bottom: 125%; /* Show above the button */ left: 50%; transform: translateX(-50%); font-size: 0.7rem; opacity: 0; transition: opacity 0.3s; “}</p>
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+📋 Copy Citation <span id="tooltip">Citation copied!</span>
 </button>
 </div>
 <!-- Hidden Citation Text -->
-<p><span id="citation-text" style="display: none;">Mohammed, H. M., Chandran, J., &amp; Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128</span></p>
-<!-- Copy Script with Tooltip -->
+<p><span id="citation-text" style="display: none;"> Mohammed, H. M., Chandran, J., &amp; Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128 </span></p>
+<!-- JavaScript -->
 <script>
   function copyCitation() {
     const citation = document.getElementById("citation-text").innerText;
     navigator.clipboard.writeText(citation);
-
+    
     const tooltip = document.getElementById("tooltip");
     tooltip.style.visibility = "visible";
     tooltip.style.opacity = "1";
-
+    
     setTimeout(() => {
       tooltip.style.visibility = "hidden";
       tooltip.style.opacity = "0";
     }, 2000);
   }
 </script>
+<!-- CSS Styling -->
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
 <section id="introduction" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
 <p>Statistical analysis serves as the backbone of scientific research, especially in disciplines like agriculture, where field experiments, survey data, and observational studies generate complex datasets. Despite the increasing emphasis on data-driven decision-making in agricultural research, many students, early-career researchers, and practitioners find themselves at a disadvantage when it comes to performing rigorous statistical analyses. The process is often hindered by a combination of factors: the steep learning curve associated with programming languages such as R and Python, the fragmented nature of statistical learning resources, and the lack of user-friendly tools tailored to agricultural research contexts.</p>
@@ -82,8 +122,8 @@ Table&nbsp;1: Foundational literature supporting each RAISINS module domain, org
 <div aria-describedby="tbl-foundation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 66%">
+<col style="width: 34%">
+<col style="width: 65%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -450,8 +490,8 @@ Kerala Agricultural University, Kerala, India</p>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Research Article</category>
-  <category>Data Science</category>
+  <category>Orignal-Article</category>
+  <category>Data-Science</category>
   <category>Software</category>
   <guid>https://www.jostapubs.com/volume1/josta111raisins2025.html</guid>
   <pubDate>Sat, 07 Jun 2025 18:30:00 GMT</pubDate>

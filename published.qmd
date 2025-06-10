@@ -14,7 +14,7 @@ listing:
     - categories
     - status
   categories: true
-  feed: true
+  feed: true  
 ---
 
 ```{=html}
@@ -25,49 +25,8 @@ listing:
 </div>
 ```
 
-# Latest Articles {.unnumbered}
+# Latest Articles {.unnumbered}  
 
-```{=html}
-<style>
-/* Journal-like card for each paper */
-.quarto-grid-item {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  border-radius: 10px;
-  background-color: #fcfcfc;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
-  margin-bottom: 1.2rem;
-}
-
-/* Ensure titles are blue */
-.quarto-grid-item .card-title,
-.quarto-grid-item .listing-title,
-.listing-title {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #0056b3;
-  margin-bottom: 0.25rem;
-}
-
-/* Optional hover effect for clickable titles */
-.quarto-grid-item .card-title a:hover,
-.quarto-grid-item .listing-title a:hover {
-  color: #003d80;
-  text-decoration: underline;
-}
-
-/* Styling author and description */
-.quarto-grid-item .listing-author {
-  font-size: 0.95rem;
-  color: #333;
-}
-.quarto-grid-item .listing-description {
-  font-size: 0.95rem;
-  margin-top: 0.5rem;
-  color: #555;
-}
-</style>
-```
 
 <!-- Volume info header -->
 

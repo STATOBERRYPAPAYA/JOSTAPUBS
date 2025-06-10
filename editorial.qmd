@@ -1,4 +1,3 @@
-
 ```{=html}
 <style>
 
@@ -96,7 +95,7 @@ h1, h2 {
 </div>
 ```
 
-# Editorial Board
+# Editorial Board {.unnumbered}  
 
 The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a distinguished editorial board comprising leading researchers, academics, and professionals from diverse disciplines. This board ensures the academic rigor, quality, and integrity of all published content. Below is the structure of the editorial team, organized according to international best practices in scholarly publishing.
 
