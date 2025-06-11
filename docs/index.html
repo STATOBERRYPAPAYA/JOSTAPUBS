@@ -274,21 +274,47 @@ window.Quarto = {
 <div style="text-align: center; margin-bottom: 1em;">
   <img src="websitecover.jpg" alt="Banner" style="width: 100%; max-height: 200px; object-fit: cover;">
 </div>
-<!-- Add this in index.qmd -->
+<!-- Load Bootstrap Icons -->
 <p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"></p>
-<div style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-bottom: 2em;">
-  <a href="./submit.html" class="btn" style="padding: 12px 20px; border: 2px solid #007BFF; background: transparent; color: #007BFF; border-radius: 6px; text-decoration: none; display: flex; align-items: center; gap: 0.5em;">
-    <i class="bi bi-upload"></i> Submit Article
-  </a>
-  <a href="./published.html" class="btn" style="padding: 12px 20px; border: 2px solid #007BFF; background: transparent; color: #007BFF; border-radius: 6px; text-decoration: none; display: flex; align-items: center; gap: 0.5em;">
-    <i class="bi bi-book"></i> Latest Read
-  </a>
-  <a href="./editorial.html" class="btn" style="padding: 12px 20px; border: 2px solid #007BFF; background: transparent; color: #007BFF; border-radius: 6px; text-decoration: none; display: flex; align-items: center; gap: 0.5em;">
-    <i class="bi bi-people"></i> Editorial Board
-  </a>
-  <a href="https://zenodo.org/communities/josta/records" class="btn" style="padding: 12px 20px; border: 2px solid #007BFF; background: transparent; color: #007BFF; border-radius: 6px; text-decoration: none; display: flex; align-items: center; gap: 0.5em;">
-    <i class="bi bi-cloud-arrow-down"></i> Zenodo
-  </a>
+<style>
+  .josta-btn-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.5em;
+    overflow-x: auto;
+    padding: 0.5em;
+    justify-content: flex-start;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .josta-btn-row::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+
+  .josta-btn {
+    flex: 0 0 auto; /* Prevent shrinking/wrapping */
+    padding: 0.4em 0.9em;
+    border: 1.5px solid #007BFF;
+    background: transparent;
+    color: #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    font-size: 0.9rem;
+    transition: background 0.3s, color 0.3s;
+    white-space: nowrap;
+  }
+
+  .josta-btn:hover {
+    background: #007BFF;
+    color: #fff;
+  }
+</style>
+<div class="josta-btn-row">
+<p><a href="./submit.html" class="josta-btn"><i class="bi bi-upload"></i> Submit</a> <a href="./published.html" class="josta-btn"><i class="bi bi-book"></i> Read</a> <a href="./editorial.html" class="josta-btn"><i class="bi bi-people"></i> Editorial</a> <a href="https://zenodo.org/communities/josta/records" class="josta-btn"><i class="bi bi-cloud-arrow-down"></i> Zenodo</a></p>
 </div>
 <section id="about-josta" class="level1 unnumbered">
 <h1 class="unnumbered">About JOSTA</h1>

@@ -25,8 +25,7 @@ listing:
 </div>
 ```
 
-# Latest Articles {.unnumbered}  
-
+# Latest Articles {.unnumbered}
 
 <!-- Volume info header -->
 
