@@ -82,7 +82,9 @@ Open Access: Your work is freely accessible online from the moment of publicatio
 
 ## Peer Review Policy {.unnumbered}
 
-All submissions are initially reviewed by the editorial team. If suitable, manuscripts are sent for double-blind peer review by independent experts in the field. Reviewers remain anonymous to ensure objectivity, and authors may be asked to revise their manuscripts based on constructive feedback.
+All submissions undergo an initial assessment by the managing editors. Suitable manuscripts are then assigned to the appropriate section editors, who identify independent experts in the relevant field to serve as reviewers. JOSTA follows a double-blind peer review process, where both authors and reviewers remain anonymous to ensure fairness and objectivity. Based on the reviewers' feedback, authors may be requested to revise their manuscripts.  
+
+For a detailed description of the review process, see [Peer Review Process](peerReview.qmd).  
 
 ## 🔓Open Access {.unnumbered}
 

@@ -40,6 +40,7 @@ website:
               - volume1/josta111raisins2025.qmd
               # - volume1/paper2.qmd
       # - categories.qmd
+      - peerReview.qmd
       - editorial.qmd
   page-footer:
     border: true

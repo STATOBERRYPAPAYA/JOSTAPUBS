@@ -1,0 +1,98 @@
+```{=html}
+<div style="text-align: center; margin-bottom: 1em;">
+  <img src="websitecover.jpg"
+       alt="Banner"
+       style="width: 100%; max-height: 200px; object-fit: cover;">
+</div>
+```  
+
+
+## Peer Review Policy {.unnumbered} 
+
+At the *Journal of Sustainable Technology in Agriculture (JOSTA)*, we are committed to upholding the highest standards of academic integrity, transparency, and scholarly excellence. Our peer review process ensures that all published articles meet the scientific and ethical benchmarks required for impactful agricultural research.
+
+### Double-blind peer review {.unnumbered} 
+
+JOSTA follows a **double-blind peer review** process, in which:
+
+- The identities of the reviewers are hidden from the authors.
+- The identities of the authors are hidden from the reviewers.
+
+This model promotes objective evaluation based solely on the academic quality and relevance of the submission.
+
+### Selection of reviewers {.unnumbered} 
+
+- Reviewers are selected based on their subject expertise, experience, and publication record.
+- For interdisciplinary manuscripts, multiple reviewers with complementary expertise may be invited.
+- Invitations are sent via email with full instructions and secure access to the manuscript.
+
+### Review Process {.unnumbered}   
+
+Upon accepting the invitation, reviewers are provided with:
+
+- A reviewer copy of the manuscript (PDF)
+- A secure Google Form link for submitting their review
+- A passcode (sent via email) to access the form
+
+Reviewers are asked to assess the manuscript on the following:
+
+- Relevance to the journal’s scope
+- Originality and novelty
+- Clarity of research objectives
+- Methodological soundness
+- Quality of analysis and interpretation
+- Validity of conclusions
+- Presentation and language
+
+### Reviewer Recommendations {.unnumbered}  
+
+Reviewers are requested to select one of the following:
+
+- Accept as is
+- Minor revision
+- Major revision
+- Reject
+
+The editorial team makes the final decision, based on the reviewers' recommendations and internal evaluation.
+
+### Confidentiality {.unnumbered}  
+
+All manuscripts and review materials are handled as confidential documents. Reviewers must:
+
+- Not share the manuscript with others
+- Use the content strictly for review purposes
+- Disclose any conflicts of interest
+
+### Acknowledgment of Reviewers {.unnumbered}  
+
+JOSTA provides an opportunity to acknowledge reviewers after publication. Reviewers are asked:
+
+> “Are you willing to have your name and affiliation listed as a reviewer in the published article or journal issue?”
+
+This is entirely voluntary and based on reviewer consent.
+
+### Author notification and proofing {.unnumbered}  
+
+- Authors are notified when their manuscript enters the peer review phase.
+- A typeset PDF version is also shared with the authors during this stage for proofing.
+- Authors are requested to verify formatting, figures, author details, and notify any corrections within 3–5 working days.  
+
+### Timelines {.unnumbered}  
+
+- Standard review period: **2 weeks**
+- Total review and decision timeline: **4 to 6 weeks**
+- Extensions may be granted upon request  
+
+### Appeals and complaints {.unnumbered}  
+
+Authors may appeal a decision by contacting the editorial office with a formal justification. An independent editorial board member will handle the appeal process to ensure fairness.
+
+### Contact {.unnumbered}  
+
+For questions or assistance regarding the review process, please contact:
+
+📧 **jostapubs@gmail.com**  
+🌐 [www.jostapubs.com](https://www.jostapubs.com)
+
+
+
