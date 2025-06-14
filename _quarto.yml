@@ -42,6 +42,7 @@ website:
       # - categories.qmd
       - peerReview.qmd
       - editorial.qmd
+      - editorialsection.qmd
   page-footer:
     border: true
     left: |

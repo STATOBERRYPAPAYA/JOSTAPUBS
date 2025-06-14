@@ -1,3 +1,187 @@
-# Author Guidelines {.unnumbered}
+# Article submission {.unnumbered} 
 
-This is a newly launched journal platform. Content and updates will be added shortly
+The Journal of Sustainable Technology in Agriculture (JOSTA) publishes high-quality articles that contribute to the advancement of sustainable practices and technologies in agriculture. The journal welcomes original research, reviews, short communications, case studies, software and policies.
+
+## Guidelines {.unnumbered} 
+
+### Manuscript types and word limits {.unnumbered} 
+
+JOSTA encourages concise and focused writing. The preferred word limits (excluding references, tables, and figure captions) for each article type are:
+
+-   Research Article: up to 4,000 words
+
+-   Review Article: up to 5,000 words
+
+-   Short Communication: up to 2,000 words
+
+-   Case Study: up to 2,500 words
+
+-   Software: up to 2,000 words
+
+-   Policy: up to 2,500 words
+
+Manuscripts exceeding these limits should include justification in the cover letter to the editor.
+
+### Authorship policy {.unnumbered} 
+
+JOSTA allows a maximum of six (6) authors per manuscript. All authors must meet ICMJE authorship criteria. If more than six contributors were involved, they should be acknowledged under "Contributors" with their roles specified. The corresponding author must confirm consent from all co-authors.
+
+### Manuscript preparation {.unnumbered} 
+
+File format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) format. PDF files are not accepted.
+
+-   Structure: Manuscripts should generally include: Title, Abstract, Keywords, Introduction, Materials and Methods, Results, Discussion, Conclusion, References.
+
+-   Abstract: Max 150 words. Avoid citations and excessive abbreviations.
+
+-   Keywords: 4–6, comma-separated, avoiding words already in the title.
+
+-   Figures: May be embedded in the manuscript or uploaded separately as high-resolution .png, .jpg, or .tiff files.
+
+-   Tables: Should be uploaded separately as .csv or .xlsx files if not included in editable format within the manuscript.
+
+-   Supplementary Material: Optional files such as datasets, appendices, or multimedia can be submitted.
+
+### Submission procedure {.unnumbered} 
+
+Authors must complete the online \[submission form\] (submit.qmd), providing:
+
+1.  Author and co-author details
+
+2.  Manuscript metadata (title, abstract, keywords, article type, etc.)
+
+3.  Manuscript and supporting file uploads
+
+4.  Ethical declarations and cover letter to editor
+
+### Ethical requirements {.unnumbered} 
+
+Plagiarism: All submissions must be original
+
+Conflict of Interest: Must be declared clearly. If none, write "None."
+
+Ethical Approval: Required for studies involving humans, animals, or sensitive data. Upload certificate if applicable.
+
+### Article categories {.unnumbered} 
+
+JOSTA accepts articles under the following editorial sections, see in \[detail\] (editorialsections.qmd)
+
+1.  Crop and Plant Science
+
+2.  Soil Science and Agroecology
+
+3.  Animal Science and Fisheries
+
+4.  Biotechnology & Molecular Biology
+
+5.  Agricultural Engineering and Technology
+
+6.  Data Science and Statistics in Agriculture
+
+7.  Agricultural Economics and Rural Development
+
+8.  Agricultural Extension and Education
+
+9.  Post-Harvest Technology and Food Science
+
+10. Climate Change and Sustainable Agriculture
+
+11. Plant Pathology and Pest Management
+
+12. Forestry and Agroforestry
+
+Authors must select one or more relevant sections during submission. See editorial sections for full descriptions.
+
+### Review process {.unnumbered} 
+
+All submissions undergo initial editorial screening followed by double-blind peer review. Authors may be asked to revise their manuscripts based on reviewer feedback.
+
+### Referencing style {.unnumbered} 
+
+JOSTA follows a referencing style closely aligned with that used by established journals in applied statistics and agricultural research. However, authors are not required to manually format references during submission.
+
+All references must include complete and accurate bibliographic details. JOSTA’s article processing system will handle reference formatting. Authors must ensure that each reference contains the following minimum required fields:
+
+**For Journal Articles:**
+
+-   Author(s)
+
+-   Title
+
+-   Journal name
+
+-   Year
+
+-   Volume and issue (if applicable)
+
+-   Page numbers
+
+-   DOI (if available)
+
+**For Books:**
+
+-   Author or Editor
+
+-   Title
+
+-   Publisher
+
+-   Year
+
+-   Place of publication
+
+**For Book Chapters:**
+
+-   Author
+
+-   Chapter title
+
+-   Book title
+
+-   Editor(s)
+
+-   Publisher
+
+-   Year
+
+-   Pages
+
+**For Theses:**
+
+-   Author
+
+-   Title
+
+-   Degree type (e.g., MSc, PhD)
+
+-   Institution
+
+-   Year
+
+**For Conference Proceedings:**
+
+-   Author
+
+-   Title
+
+-   Conference title
+
+-   Year
+
+-   Pages
+
+-   Publisher or Organizer
+
+**For Web Sources:**
+
+-   Author or Organization
+
+-   Title
+
+-   URL
+
+-   Accessed date
+
+-   Year (if available)
+
+Improper or incomplete references may delay processing.

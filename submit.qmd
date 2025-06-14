@@ -1,97 +1,18 @@
-```{=html}
-<style>
-.banner-container {
-  text-align: center;
-  margin-bottom: 2em;
-}
+# Submit article  {.unnumbered}   
 
-.banner-img {
-  width: 100%;
-  max-height: 250px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+Thank you for your interest in submitting to the *Journal of Sustainable Technology in Agriculture (JOSTA)*.
 
-h1, h2 {
-  color: #2c3e50;
-  font-weight: 700;
-  margin-bottom: 1.5em;
-}
+Please ensure you have reviewed the [Author Guidelines](authorguide.qmd) before submission.
 
-.submission-container {
-  background: #f9f9f9;
-  padding: 2em;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  margin-bottom: 2em;
-}
-
-.submission-container p {
-  margin: 0.5em 0;
-  color: #555;
-}
-
-.submission-container a {
-  color: #2980b9;
-  text-decoration: none;
-}
-
-.submission-container a:hover {
-  text-decoration: underline;
-}
-
-ul {
-  list-style-type: disc;
-  margin-left: 2em;
-  color: #555;
-}
-
-ul li {
-  margin-bottom: 0.5em;
-}
-
-@media (max-width: 768px) {
-  .submission-container {
-    padding: 1.5em;
-  }
-}
-</style>
-```
+To submit your manuscript, click the button below:
 
 ```{=html}
-<div class="banner-container">
-  <img src="websitecover.jpg"
-       class="banner-img">
+<div style="margin-top: 1.5em;">
+  <a href="https://forms.gle/dVpghUscLZTkbBWw8" target="_blank" style="display: inline-block; padding: 12px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
+    Submit Article
+  </a>
 </div>
 ```
 
-# Article Submission {.unnumbered}
+If you encounter any issues during submission, please contact us at **jostapubs@gmail.com (mailto:jostapubs@gmail.com)**.
 
-The *Journal of Sustainable Technology in Agriculture (JOSTA)* welcomes manuscript submissions from researchers, academics, and professionals from any fields of Agricultural research. We are committed to publishing high-quality, peer-reviewed articles that advance knowledge and practice in sustainable technology.
-
-## Submission Process {.unnumbered}
-
-```{=html}
-<div class="submission-container">
-  <p>We are currently developing an automated submission system specifically for JOSTA to streamline the manuscript submission process. In the meantime, please submit your manuscripts by emailing them to <a href="mailto:jostapubs@gmail.com">jostapubs@gmail.com</a>.</p>
-  <p>Please ensure your submission adheres to the following guidelines:</p>
-  <ul>
-    <li>Manuscripts should be submitted Word or qmd format.</li>
-    <li>Include a cover letter with the manuscript title, author names, affiliations, and contact information.</li>
-    <li>Follow the journal's formatting and style guidelines (available on the <a href="/author-guidelines">Author Guidelines</a> page).</li>
-    <li>Ensure all co-authors are listed and have approved the submission.</li>
-    <li>Include any supplementary materials or datasets as separate attachments.</li>
-  </ul>
-  <p>Upon receipt, our editorial team will confirm submission and provide further instructions regarding the peer-review process.</p>
-</div>
-```
-
-## Contact Information {.unnumbered}
-
-```{=html}
-<div class="submission-container">
-  <p>For any questions regarding the submission process, please contact the editorial office at <a href="mailto:jostapubs@gmail.com">jostapubs@gmail.com</a>.</p>
-  <p>We look forward to receiving your contributions to *JOSTA* and supporting the advancement of sustainable technology in agriculture.</p>
-</div>
-```
