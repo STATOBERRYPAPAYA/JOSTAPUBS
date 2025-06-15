@@ -121,7 +121,7 @@
     "href": "volume1/josta111raisins2025.html#sec-techdetails",
     "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
     "section": "Technical details",
-    "text": "Technical details\n\n\n\n\n\n\nDue to the ongoing costs associated with hosting and maintaining the RAISINS platform, the authors have adopted a subscription-based model to ensure its sustainability and continued development. The live application is accessible to users at https://www.raisins.live/.\n\n\n\n\n\n\n\n\n\nPublication & Reviewer Details\n\n\n\nPublication Information\n- Submitted: 15 May 2025\n- Accepted: 06 June 2025\n- Published (Online): 09 June 2025\nReviewer Information\nDr. Saurav Guha, Ph.D.\nAssistant Professor-cum-Junior Scientist\nDepartment of Statistics, Mathematics & Computer Application\nBihar Agricultural University, Sabour, India\nORCID: 0000-0001-8960-5062\nDr. Manju Mary Paul, Ph.D.\nAssistant Professor\nDepartment of Agricultural Statistics\nKerala Agricultural University, Kerala, India",
+    "text": "Technical details\n\n\n\n\n\n\nDue to the ongoing costs associated with hosting and maintaining the RAISINS platform, the authors have adopted a subscription-based model to ensure its sustainability and continued development. The live application is accessible to users at www.raisins.live.\n\n\n\n\n\n\n\n\n\nPublication & Reviewer Details\n\n\n\nPublication Information\n- Submitted: 15 May 2025\n- Accepted: 06 June 2025\n- Published (Online): 09 June 2025\nReviewer Information\nDr. Saurav Guha, Ph.D.\nAssistant Professor-cum-Junior Scientist\nDepartment of Statistics, Mathematics & Computer Application\nBihar Agricultural University, Sabour, India\nORCID: 0000-0001-8960-5062\nDr. Manju Mary Paul, Ph.D.\nAssistant Professor\nDepartment of Agricultural Statistics\nKerala Agricultural University, Kerala, India",
     "crumbs": [
       "Volumes",
       "Volume 1",
@@ -134,7 +134,7 @@
     "href": "published.html",
     "title": "Latest Articles",
     "section": "",
-    "text": "Latest Articles\n\n\n\nVolume I • Issue I • 2025\n\n\nThis page lists all peer-reviewed papers published in the journal. Click on a title to read the full article.\n\n\n\n\n\n\n\n\n\n\n\nRAISINS: Integrating R and AI for Agricultural Data Analysis\n\n\n\n\n\n\nOrignal-Article\n\n\nData-Science\n\n\nSoftware\n\n\n\nRAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses.\n\n\n\n\n\nJun 8, 2025\n\n\nMohammed Hisham M., Jithin Chandran, Pratheesh P Gopinath*\n\n\nPublished (Online)\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Home \n\n\nLatest Articles\n\n\n\nVolume I • Issue I • 2025\n\n\nThis page lists all peer-reviewed papers published in the journal. Click on a title to read the full article.\n\n\n\n\n\n\n\n\n\n\n\nRAISINS: Integrating R and AI for Agricultural Data Analysis\n\n\n\n\n\n\nOrignal-Article\n\n\nData-Science\n\n\nSoftware\n\n\n\nRAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses.\n\n\n\n\n\nJun 8, 2025\n\n\nMohammed Hisham M., Jithin Chandran, Pratheesh P Gopinath*\n\n\nPublished (Online)\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "Latest Articles"
     ]
@@ -240,43 +240,22 @@
     ]
   },
   {
-    "objectID": "authorguide.html",
-    "href": "authorguide.html",
-    "title": "Article submission",
-    "section": "",
-    "text": "The Journal of Sustainable Technology in Agriculture (JOSTA) publishes high-quality articles that contribute to the advancement of sustainable practices and technologies in agriculture. The journal welcomes original research, reviews, short communications, case studies, software and policies.\n\n\n\n\nJOSTA encourages concise and focused writing. The preferred word limits (excluding references, tables, and figure captions) for each article type are:\n\nResearch Article: up to 4,000 words\nReview Article: up to 5,000 words\nShort Communication: up to 2,000 words\nCase Study: up to 2,500 words\nSoftware: up to 2,000 words\nPolicy: up to 2,500 words\n\nManuscripts exceeding these limits should include justification in the cover letter to the editor.\n\n\n\nJOSTA allows a maximum of six (6) authors per manuscript. All authors must meet ICMJE authorship criteria. If more than six contributors were involved, they should be acknowledged under “Contributors” with their roles specified. The corresponding author must confirm consent from all co-authors.\n\n\n\nFile format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) format. PDF files are not accepted.\n\nStructure: Manuscripts should generally include: Title, Abstract, Keywords, Introduction, Materials and Methods, Results, Discussion, Conclusion, References.\nAbstract: Max 150 words. Avoid citations and excessive abbreviations.\nKeywords: 4–6, comma-separated, avoiding words already in the title.\nFigures: May be embedded in the manuscript or uploaded separately as high-resolution .png, .jpg, or .tiff files.\nTables: Should be uploaded separately as .csv or .xlsx files if not included in editable format within the manuscript.\nSupplementary Material: Optional files such as datasets, appendices, or multimedia can be submitted.\n\n\n\n\nAuthors must complete the online [submission form] (submit.qmd), providing:\n\nAuthor and co-author details\nManuscript metadata (title, abstract, keywords, article type, etc.)\nManuscript and supporting file uploads\nEthical declarations and cover letter to editor\n\n\n\n\nPlagiarism: All submissions must be original\nConflict of Interest: Must be declared clearly. If none, write “None.”\nEthical Approval: Required for studies involving humans, animals, or sensitive data. Upload certificate if applicable.\n\n\n\nJOSTA accepts articles under the following editorial sections, see in [detail] (editorialsections.qmd)\n\nCrop and Plant Science\nSoil Science and Agroecology\nAnimal Science and Fisheries\nBiotechnology & Molecular Biology\nAgricultural Engineering and Technology\nData Science and Statistics in Agriculture\nAgricultural Economics and Rural Development\nAgricultural Extension and Education\nPost-Harvest Technology and Food Science\nClimate Change and Sustainable Agriculture\nPlant Pathology and Pest Management\nForestry and Agroforestry\n\nAuthors must select one or more relevant sections during submission. See editorial sections for full descriptions.\n\n\n\nAll submissions undergo initial editorial screening followed by double-blind peer review. Authors may be asked to revise their manuscripts based on reviewer feedback.\n\n\n\nJOSTA follows a referencing style closely aligned with that used by established journals in applied statistics and agricultural research. However, authors are not required to manually format references during submission.\nAll references must include complete and accurate bibliographic details. JOSTA’s article processing system will handle reference formatting. Authors must ensure that each reference contains the following minimum required fields:\nFor Journal Articles:\n\nAuthor(s)\nTitle\nJournal name\nYear\nVolume and issue (if applicable)\nPage numbers\nDOI (if available)\n\nFor Books:\n\nAuthor or Editor\nTitle\nPublisher\nYear\nPlace of publication\n\nFor Book Chapters:\n\nAuthor\nChapter title\nBook title\nEditor(s)\nPublisher\nYear\nPages\n\nFor Theses:\n\nAuthor\nTitle\nDegree type (e.g., MSc, PhD)\nInstitution\nYear\n\nFor Conference Proceedings:\n\nAuthor\nTitle\nConference title\nYear\nPages\nPublisher or Organizer\n\nFor Web Sources:\n\nAuthor or Organization\nTitle\nURL\nAccessed date\nYear (if available)\n\nImproper or incomplete references may delay processing.",
-    "crumbs": [
-      "Submit Articles",
-      "Article submission"
-    ]
-  },
-  {
     "objectID": "authorguide.html#guidelines",
     "href": "authorguide.html#guidelines",
     "title": "Article submission",
-    "section": "",
-    "text": "JOSTA encourages concise and focused writing. The preferred word limits (excluding references, tables, and figure captions) for each article type are:\n\nResearch Article: up to 4,000 words\nReview Article: up to 5,000 words\nShort Communication: up to 2,000 words\nCase Study: up to 2,500 words\nSoftware: up to 2,000 words\nPolicy: up to 2,500 words\n\nManuscripts exceeding these limits should include justification in the cover letter to the editor.\n\n\n\nJOSTA allows a maximum of six (6) authors per manuscript. All authors must meet ICMJE authorship criteria. If more than six contributors were involved, they should be acknowledged under “Contributors” with their roles specified. The corresponding author must confirm consent from all co-authors.\n\n\n\nFile format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) format. PDF files are not accepted.\n\nStructure: Manuscripts should generally include: Title, Abstract, Keywords, Introduction, Materials and Methods, Results, Discussion, Conclusion, References.\nAbstract: Max 150 words. Avoid citations and excessive abbreviations.\nKeywords: 4–6, comma-separated, avoiding words already in the title.\nFigures: May be embedded in the manuscript or uploaded separately as high-resolution .png, .jpg, or .tiff files.\nTables: Should be uploaded separately as .csv or .xlsx files if not included in editable format within the manuscript.\nSupplementary Material: Optional files such as datasets, appendices, or multimedia can be submitted.\n\n\n\n\nAuthors must complete the online [submission form] (submit.qmd), providing:\n\nAuthor and co-author details\nManuscript metadata (title, abstract, keywords, article type, etc.)\nManuscript and supporting file uploads\nEthical declarations and cover letter to editor\n\n\n\n\nPlagiarism: All submissions must be original\nConflict of Interest: Must be declared clearly. If none, write “None.”\nEthical Approval: Required for studies involving humans, animals, or sensitive data. Upload certificate if applicable.\n\n\n\nJOSTA accepts articles under the following editorial sections, see in [detail] (editorialsections.qmd)\n\nCrop and Plant Science\nSoil Science and Agroecology\nAnimal Science and Fisheries\nBiotechnology & Molecular Biology\nAgricultural Engineering and Technology\nData Science and Statistics in Agriculture\nAgricultural Economics and Rural Development\nAgricultural Extension and Education\nPost-Harvest Technology and Food Science\nClimate Change and Sustainable Agriculture\nPlant Pathology and Pest Management\nForestry and Agroforestry\n\nAuthors must select one or more relevant sections during submission. See editorial sections for full descriptions.\n\n\n\nAll submissions undergo initial editorial screening followed by double-blind peer review. Authors may be asked to revise their manuscripts based on reviewer feedback.\n\n\n\nJOSTA follows a referencing style closely aligned with that used by established journals in applied statistics and agricultural research. However, authors are not required to manually format references during submission.\nAll references must include complete and accurate bibliographic details. JOSTA’s article processing system will handle reference formatting. Authors must ensure that each reference contains the following minimum required fields:\nFor Journal Articles:\n\nAuthor(s)\nTitle\nJournal name\nYear\nVolume and issue (if applicable)\nPage numbers\nDOI (if available)\n\nFor Books:\n\nAuthor or Editor\nTitle\nPublisher\nYear\nPlace of publication\n\nFor Book Chapters:\n\nAuthor\nChapter title\nBook title\nEditor(s)\nPublisher\nYear\nPages\n\nFor Theses:\n\nAuthor\nTitle\nDegree type (e.g., MSc, PhD)\nInstitution\nYear\n\nFor Conference Proceedings:\n\nAuthor\nTitle\nConference title\nYear\nPages\nPublisher or Organizer\n\nFor Web Sources:\n\nAuthor or Organization\nTitle\nURL\nAccessed date\nYear (if available)\n\nImproper or incomplete references may delay processing.",
+    "section": "Guidelines",
+    "text": "Guidelines\n\nManuscript types and word limits\nJOSTA encourages concise and focused writing. The preferred word limits (excluding references, tables, and figure captions) for each article type are:\n\nResearch Article: up to 4,000 words\nReview Article: up to 5,000 words\nShort Communication: up to 2,000 words\nCase Study: up to 2,500 words\nSoftware: up to 2,000 words\nPolicy: up to 2,500 words\n\nManuscripts exceeding these limits should include justification in the cover letter to the editor.\n\n\nAuthorship policy\nJOSTA allows a maximum of six (6) authors per manuscript. All authors must meet ICMJE authorship criteria. If more than six contributors were involved, they should be acknowledged under “Contributors” with their roles specified. The corresponding author must confirm consent from all co-authors.\n\n\nManuscript preparation\nFile format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) format. PDF files are not accepted.\n\nStructure: Manuscripts should generally include: Title, Abstract, Keywords, Introduction, Materials and Methods, Results, Discussion, Conclusion, References.\nAbstract: Max 150 words. Avoid citations and excessive abbreviations.\nKeywords: 4–6, comma-separated, avoiding words already in the title.\nFigures: May be embedded in the manuscript or uploaded separately as high-resolution .png, .jpg, or .tiff files.\nTables: Should be uploaded separately as .csv or .xlsx files if not included in editable format within the manuscript.\nSupplementary Material: Optional files such as datasets, appendices, or multimedia can be submitted.\n\n\n\nSubmission procedure\nAuthors must complete the online [submission form] (submit.qmd), providing:\n\nAuthor and co-author details\nManuscript metadata (title, abstract, keywords, article type, etc.)\nManuscript and supporting file uploads\nEthical declarations and cover letter to editor\n\n\n\nEthical requirements\nPlagiarism: All submissions must be original\nConflict of Interest: Must be declared clearly. If none, write “None.”\nEthical Approval: Required for studies involving humans, animals, or sensitive data. Upload certificate if applicable.\n\n\nArticle categories\nJOSTA accepts articles under the following editorial sections, see in [detail] (editorialsections.qmd)\n\nCrop and Plant Science\nSoil Science and Agroecology\nAnimal Science and Fisheries\nBiotechnology & Molecular Biology\nAgricultural Engineering and Technology\nData Science and Statistics in Agriculture\nAgricultural Economics and Rural Development\nAgricultural Extension and Education\nPost-Harvest Technology and Food Science\nClimate Change and Sustainable Agriculture\nPlant Pathology and Pest Management\nForestry and Agroforestry\n\nAuthors must select one or more relevant sections during submission. See editorial sections for full descriptions.\n\n\nReview process\nAll submissions undergo initial editorial screening followed by double-blind peer review. Authors may be asked to revise their manuscripts based on reviewer feedback.\n\n\nReferencing style\nJOSTA follows a referencing style closely aligned with that used by established journals in applied statistics and agricultural research. However, authors are not required to manually format references during submission.\nAll references must include complete and accurate bibliographic details. JOSTA’s article processing system will handle reference formatting. Authors must ensure that each reference contains the following minimum required fields:\nFor Journal Articles:\n\nAuthor(s)\nTitle\nJournal name\nYear\nVolume and issue (if applicable)\nPage numbers\nDOI (if available)\n\nFor Books:\n\nAuthor or Editor\nTitle\nPublisher\nYear\nPlace of publication\n\nFor Book Chapters:\n\nAuthor\nChapter title\nBook title\nEditor(s)\nPublisher\nYear\nPages\n\nFor Theses:\n\nAuthor\nTitle\nDegree type (e.g., MSc, PhD)\nInstitution\nYear\n\nFor Conference Proceedings:\n\nAuthor\nTitle\nConference title\nYear\nPages\nPublisher or Organizer\n\nFor Web Sources:\n\nAuthor or Organization\nTitle\nURL\nAccessed date\nYear (if available)\n\nImproper or incomplete references may delay processing.",
     "crumbs": [
       "Submit Articles",
       "Article submission"
-    ]
-  },
-  {
-    "objectID": "editorialsection.html",
-    "href": "editorialsection.html",
-    "title": "Editorial sections",
-    "section": "",
-    "text": "JOSTA welcomes submissions across a broad range of subject areas related to sustainable technology in agriculture. Below are the defined editorial sections along with descriptions and relevant tags to help authors identify the most suitable category for their manuscript.\n\n\nFocuses on advances in crop production, breeding, physiology, agronomy, and sustainable plant-based innovations. Tags: Crops, PlantScience\n\n\n\nCovers soil health, nutrient management, soil microbiology, and ecological approaches to farming systems. Tags: Soil, Ecology\n\n\n\nIncludes studies related to livestock management, aquaculture, animal health, nutrition, and breeding. Tags: Livestock, Fisheries\n\n\n\nResearch in genetic engineering, genomics, molecular markers, tissue culture, and related biotechnology tools in agriculture. Tags: Biotech, Molecular\n\n\n\nCovers machinery, irrigation systems, automation, sensors, precision agriculture, and farm energy innovations. Tags: Engineering, Technology\n\n\n\nFocuses on the application of data analytics, statistical methods, AI, and modeling in agricultural research. Tags: Data, Statistics\n\n\n\nIncludes research on farm economics, market analysis, price policy, rural livelihoods, and agribusiness. Tags: Economics, Rural\n\n\n\nStudies on outreach methods, knowledge transfer, participatory learning, and agricultural communication. Tags: Extension, Education\n\n\n\nAddresses post-harvest handling, storage, food processing, value addition, and food quality. Tags: PostHarvest, Food\n\n\n\nResearch on adaptation and mitigation strategies, carbon farming, climate-resilient agriculture, and sustainability metrics. Tags: Climate, Sustainability\n\n\n\nIncludes studies on plant diseases, pest control strategies, IPM, diagnostics, and resistance mechanisms. Tags: Pathology, Pests\n\n\n\nFocuses on tree-based farming systems, biodiversity conservation, forest resource management, and ecosystem services. Tags: Forestry, Agroforestry",
-    "crumbs": [
-      "Editorial sections"
     ]
   },
   {
     "objectID": "editorialsection.html#crop-and-plant-science",
     "href": "editorialsection.html#crop-and-plant-science",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Focuses on advances in crop production, breeding, physiology, agronomy, and sustainable plant-based innovations. Tags: Crops, PlantScience",
+    "section": "Crop and Plant Science",
+    "text": "Crop and Plant Science\nFocuses on advances in crop production, breeding, physiology, agronomy, and sustainable plant-based innovations. Tags: Crops, PlantScience",
     "crumbs": [
       "Editorial sections"
     ]
@@ -285,8 +264,8 @@
     "objectID": "editorialsection.html#soil-science-and-agroecology",
     "href": "editorialsection.html#soil-science-and-agroecology",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Covers soil health, nutrient management, soil microbiology, and ecological approaches to farming systems. Tags: Soil, Ecology",
+    "section": "Soil Science and Agroecology",
+    "text": "Soil Science and Agroecology\nCovers soil health, nutrient management, soil microbiology, and ecological approaches to farming systems. Tags: Soil, Ecology",
     "crumbs": [
       "Editorial sections"
     ]
@@ -295,8 +274,8 @@
     "objectID": "editorialsection.html#animal-science-and-fisheries",
     "href": "editorialsection.html#animal-science-and-fisheries",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Includes studies related to livestock management, aquaculture, animal health, nutrition, and breeding. Tags: Livestock, Fisheries",
+    "section": "Animal Science and Fisheries",
+    "text": "Animal Science and Fisheries\nIncludes studies related to livestock management, aquaculture, animal health, nutrition, and breeding. Tags: Livestock, Fisheries",
     "crumbs": [
       "Editorial sections"
     ]
@@ -305,8 +284,8 @@
     "objectID": "editorialsection.html#biotechnology-molecular-biology",
     "href": "editorialsection.html#biotechnology-molecular-biology",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Research in genetic engineering, genomics, molecular markers, tissue culture, and related biotechnology tools in agriculture. Tags: Biotech, Molecular",
+    "section": "Biotechnology & Molecular Biology",
+    "text": "Biotechnology & Molecular Biology\nResearch in genetic engineering, genomics, molecular markers, tissue culture, and related biotechnology tools in agriculture. Tags: Biotech, Molecular",
     "crumbs": [
       "Editorial sections"
     ]
@@ -315,8 +294,8 @@
     "objectID": "editorialsection.html#agricultural-engineering-and-technology",
     "href": "editorialsection.html#agricultural-engineering-and-technology",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Covers machinery, irrigation systems, automation, sensors, precision agriculture, and farm energy innovations. Tags: Engineering, Technology",
+    "section": "Agricultural Engineering and Technology",
+    "text": "Agricultural Engineering and Technology\nCovers machinery, irrigation systems, automation, sensors, precision agriculture, and farm energy innovations. Tags: Engineering, Technology",
     "crumbs": [
       "Editorial sections"
     ]
@@ -325,8 +304,8 @@
     "objectID": "editorialsection.html#data-science-and-statistics-in-agriculture",
     "href": "editorialsection.html#data-science-and-statistics-in-agriculture",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Focuses on the application of data analytics, statistical methods, AI, and modeling in agricultural research. Tags: Data, Statistics",
+    "section": "Data Science and Statistics in Agriculture",
+    "text": "Data Science and Statistics in Agriculture\nFocuses on the application of data analytics, statistical methods, AI, and modeling in agricultural research. Tags: Data, Statistics",
     "crumbs": [
       "Editorial sections"
     ]
@@ -335,8 +314,8 @@
     "objectID": "editorialsection.html#agricultural-economics-and-rural-development",
     "href": "editorialsection.html#agricultural-economics-and-rural-development",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Includes research on farm economics, market analysis, price policy, rural livelihoods, and agribusiness. Tags: Economics, Rural",
+    "section": "Agricultural Economics and Rural Development",
+    "text": "Agricultural Economics and Rural Development\nIncludes research on farm economics, market analysis, price policy, rural livelihoods, and agribusiness. Tags: Economics, Rural",
     "crumbs": [
       "Editorial sections"
     ]
@@ -345,8 +324,8 @@
     "objectID": "editorialsection.html#agricultural-extension-and-education",
     "href": "editorialsection.html#agricultural-extension-and-education",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Studies on outreach methods, knowledge transfer, participatory learning, and agricultural communication. Tags: Extension, Education",
+    "section": "Agricultural Extension and Education",
+    "text": "Agricultural Extension and Education\nStudies on outreach methods, knowledge transfer, participatory learning, and agricultural communication. Tags: Extension, Education",
     "crumbs": [
       "Editorial sections"
     ]
@@ -355,8 +334,8 @@
     "objectID": "editorialsection.html#post-harvest-technology-and-food-science",
     "href": "editorialsection.html#post-harvest-technology-and-food-science",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Addresses post-harvest handling, storage, food processing, value addition, and food quality. Tags: PostHarvest, Food",
+    "section": "Post-Harvest Technology and Food Science",
+    "text": "Post-Harvest Technology and Food Science\nAddresses post-harvest handling, storage, food processing, value addition, and food quality. Tags: PostHarvest, Food",
     "crumbs": [
       "Editorial sections"
     ]
@@ -365,8 +344,8 @@
     "objectID": "editorialsection.html#climate-change-and-sustainable-agriculture",
     "href": "editorialsection.html#climate-change-and-sustainable-agriculture",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Research on adaptation and mitigation strategies, carbon farming, climate-resilient agriculture, and sustainability metrics. Tags: Climate, Sustainability",
+    "section": "Climate Change and Sustainable Agriculture",
+    "text": "Climate Change and Sustainable Agriculture\nResearch on adaptation and mitigation strategies, carbon farming, climate-resilient agriculture, and sustainability metrics. Tags: Climate, Sustainability",
     "crumbs": [
       "Editorial sections"
     ]
@@ -375,8 +354,8 @@
     "objectID": "editorialsection.html#plant-pathology-and-pest-management",
     "href": "editorialsection.html#plant-pathology-and-pest-management",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Includes studies on plant diseases, pest control strategies, IPM, diagnostics, and resistance mechanisms. Tags: Pathology, Pests",
+    "section": "Plant Pathology and Pest Management",
+    "text": "Plant Pathology and Pest Management\nIncludes studies on plant diseases, pest control strategies, IPM, diagnostics, and resistance mechanisms. Tags: Pathology, Pests",
     "crumbs": [
       "Editorial sections"
     ]
@@ -385,28 +364,128 @@
     "objectID": "editorialsection.html#forestry-and-agroforestry",
     "href": "editorialsection.html#forestry-and-agroforestry",
     "title": "Editorial sections",
-    "section": "",
-    "text": "Focuses on tree-based farming systems, biodiversity conservation, forest resource management, and ecosystem services. Tags: Forestry, Agroforestry",
+    "section": "Forestry and Agroforestry",
+    "text": "Forestry and Agroforestry\nFocuses on tree-based farming systems, biodiversity conservation, forest resource management, and ecosystem services. Tags: Forestry, Agroforestry",
     "crumbs": [
       "Editorial sections"
     ]
   },
   {
-    "objectID": "peerReview.html#peer-review-policy",
-    "href": "peerReview.html#peer-review-policy",
-    "title": "JOSTA",
-    "section": "Peer Review Policy",
-    "text": "Peer Review Policy\nAt the Journal of Sustainable Technology in Agriculture (JOSTA), we are committed to upholding the highest standards of academic integrity, transparency, and scholarly excellence. Our peer review process ensures that all published articles meet the scientific and ethical benchmarks required for impactful agricultural research.\n\nDouble-blind peer review\nJOSTA follows a double-blind peer review process, in which:\n\nThe identities of the reviewers are hidden from the authors.\nThe identities of the authors are hidden from the reviewers.\n\nThis model promotes objective evaluation based solely on the academic quality and relevance of the submission.\n\n\nSelection of reviewers\n\nReviewers are selected based on their subject expertise, experience, and publication record.\nFor interdisciplinary manuscripts, multiple reviewers with complementary expertise may be invited.\nInvitations are sent via email with full instructions and secure access to the manuscript.\n\n\n\nReview Process\nUpon accepting the invitation, reviewers are provided with:\n\nA reviewer copy of the manuscript (PDF)\nA secure Google Form link for submitting their review\nA passcode (sent via email) to access the form\n\nReviewers are asked to assess the manuscript on the following:\n\nRelevance to the journal’s scope\nOriginality and novelty\nClarity of research objectives\nMethodological soundness\nQuality of analysis and interpretation\nValidity of conclusions\nPresentation and language\n\n\n\nReviewer Recommendations\nReviewers are requested to select one of the following:\n\nAccept as is\nMinor revision\nMajor revision\nReject\n\nThe editorial team makes the final decision, based on the reviewers’ recommendations and internal evaluation.\n\n\nConfidentiality\nAll manuscripts and review materials are handled as confidential documents. Reviewers must:\n\nNot share the manuscript with others\nUse the content strictly for review purposes\nDisclose any conflicts of interest\n\n\n\nAcknowledgment of Reviewers\nJOSTA provides an opportunity to acknowledge reviewers after publication. Reviewers are asked:\n\n“Are you willing to have your name and affiliation listed as a reviewer in the published article or journal issue?”\n\nThis is entirely voluntary and based on reviewer consent.\n\n\nAuthor notification and proofing\n\nAuthors are notified when their manuscript enters the peer review phase.\nA typeset PDF version is also shared with the authors during this stage for proofing.\nAuthors are requested to verify formatting, figures, author details, and notify any corrections within 3–5 working days.\n\n\n\nTimelines\n\nStandard review period: 2 weeks\nTotal review and decision timeline: 4 to 6 weeks\nExtensions may be granted upon request\n\n\n\nAppeals and complaints\nAuthors may appeal a decision by contacting the editorial office with a formal justification. An independent editorial board member will handle the appeal process to ensure fairness.\n\n\nContact\nFor questions or assistance regarding the review process, please contact:\n📧 jostapubs@gmail.com\n🌐 www.jostapubs.com",
+    "objectID": "peerReview.html#double-blind-peer-review",
+    "href": "peerReview.html#double-blind-peer-review",
+    "title": "Peer Review Policy",
+    "section": "Double-blind peer review",
+    "text": "Double-blind peer review\nJOSTA follows a double-blind peer review process, in which:\n\nThe identities of the reviewers are hidden from the authors.\nThe identities of the authors are hidden from the reviewers.\n\nThis model promotes objective evaluation based solely on the academic quality and relevance of the submission.",
     "crumbs": [
+      "Submit Articles",
       "Peer Review Policy"
     ]
   },
   {
-    "objectID": "submit.html",
-    "href": "submit.html",
-    "title": "Submit article",
-    "section": "",
-    "text": "Submit article\nThank you for your interest in submitting to the Journal of Sustainable Technology in Agriculture (JOSTA).\nPlease ensure you have reviewed the Author Guidelines before submission.\nTo submit your manuscript, click the button below:\n\n  \n    Submit Article\n  \n\nIf you encounter any issues during submission, please contact us at jostapubs@gmail.com (mailto:jostapubs@gmail.com).\n\n\n\n\n\n Back to top",
+    "objectID": "peerReview.html#selection-of-reviewers",
+    "href": "peerReview.html#selection-of-reviewers",
+    "title": "Peer Review Policy",
+    "section": "Selection of reviewers",
+    "text": "Selection of reviewers\n\nReviewers are selected based on their subject expertise, experience, and publication record.\nFor interdisciplinary manuscripts, multiple reviewers with complementary expertise may be invited.\nInvitations are sent via email with full instructions and secure access to the manuscript.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#review-process",
+    "href": "peerReview.html#review-process",
+    "title": "Peer Review Policy",
+    "section": "Review Process",
+    "text": "Review Process\nUpon accepting the invitation, reviewers are provided with:\n\nA reviewer copy of the manuscript (PDF)\nA secure Google Form link for submitting their review\nA passcode (sent via email) to access the form\n\nReviewers are asked to assess the manuscript on the following:\n\nRelevance to the journal’s scope\nOriginality and novelty\nClarity of research objectives\nMethodological soundness\nQuality of analysis and interpretation\nValidity of conclusions\nPresentation and language",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#reviewer-recommendations",
+    "href": "peerReview.html#reviewer-recommendations",
+    "title": "Peer Review Policy",
+    "section": "Reviewer Recommendations",
+    "text": "Reviewer Recommendations\nReviewers are requested to select one of the following:\n\nAccept as is\nMinor revision\nMajor revision\nReject\n\nThe editorial team makes the final decision, based on the reviewers’ recommendations and internal evaluation.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#confidentiality",
+    "href": "peerReview.html#confidentiality",
+    "title": "Peer Review Policy",
+    "section": "Confidentiality",
+    "text": "Confidentiality\nAll manuscripts and review materials are handled as confidential documents. Reviewers must:\n\nNot share the manuscript with others\nUse the content strictly for review purposes\nDisclose any conflicts of interest",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#acknowledgment-of-reviewers",
+    "href": "peerReview.html#acknowledgment-of-reviewers",
+    "title": "Peer Review Policy",
+    "section": "Acknowledgment of Reviewers",
+    "text": "Acknowledgment of Reviewers\nJOSTA provides an opportunity to acknowledge reviewers after publication. Reviewers are asked:\n\n“Are you willing to have your name and affiliation listed as a reviewer in the published article or journal issue?”\n\nThis is entirely voluntary and based on reviewer consent.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#author-notification-and-proofing",
+    "href": "peerReview.html#author-notification-and-proofing",
+    "title": "Peer Review Policy",
+    "section": "Author notification and proofing",
+    "text": "Author notification and proofing\n\nAuthors are notified when their manuscript enters the peer review phase.\nA typeset PDF version is also shared with the authors during this stage for proofing.\nAuthors are requested to verify formatting, figures, author details, and notify any corrections within 3–5 working days.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#timelines",
+    "href": "peerReview.html#timelines",
+    "title": "Peer Review Policy",
+    "section": "Timelines",
+    "text": "Timelines\n\nStandard review period: 2 weeks\nTotal review and decision timeline: 4 to 6 weeks\nExtensions may be granted upon request",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#appeals-and-complaints",
+    "href": "peerReview.html#appeals-and-complaints",
+    "title": "Peer Review Policy",
+    "section": "Appeals and complaints",
+    "text": "Appeals and complaints\nAuthors may appeal a decision by contacting the editorial office with a formal justification. An independent editorial board member will handle the appeal process to ensure fairness.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#contact",
+    "href": "peerReview.html#contact",
+    "title": "Peer Review Policy",
+    "section": "Contact",
+    "text": "Contact\nFor questions or assistance regarding the review process, please contact:\n📧 jostapubs@gmail.com\n🌐 www.jostapubs.com",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "submit.html#submit-article",
+    "href": "submit.html#submit-article",
+    "title": "JOSTA",
+    "section": "Submit article",
+    "text": "Submit article\nThank you for your interest in submitting to the Journal of Sustainable Technology in Agriculture (JOSTA).\nPlease ensure you have reviewed the Author Guidelines before submission.\nTo submit your manuscript, click the button below:\n  Submit Article \n\n\n\n\n\n\n\nIf you encounter any issues during submission, please contact us at jostapubs@gmail.com (mailto:jostapubs@gmail.com).",
     "crumbs": [
       "Submit Articles",
       "Submit article"

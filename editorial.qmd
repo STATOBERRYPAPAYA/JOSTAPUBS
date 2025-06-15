@@ -93,9 +93,20 @@ h1, h2 {
        alt="JOSTA Banner"
        class="banner-img">
 </div>
-```
+```  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
 
-# Editorial Board {.unnumbered}  
+<!-- Horizontal Button Group -->
+<div style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;">
+  <a href="index.qmd" class="btn btn-outline-secondary">
+    <i  class="bi bi-house"></i> Home
+  </a>
+  <a href="editorialsection.qmd" class="btn btn-outline-secondary">
+    <i class="bi bi-journal-bookmark"></i> Sections
+  </a>
+</div> 
+
+# Editorial Board {.unnumbered}
 
 The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a distinguished editorial board comprising leading researchers, academics, and professionals from diverse disciplines. This board ensures the academic rigor, quality, and integrity of all published content. Below is the structure of the editorial team, organized according to international best practices in scholarly publishing.
 

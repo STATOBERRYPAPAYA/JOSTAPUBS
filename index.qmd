@@ -7,54 +7,14 @@
 ```
 
 <!-- Load Bootstrap Icons -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
 
-<style>
-  .josta-btn-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 0.5em;
-    overflow-x: auto;
-    padding: 0.5em;
-    justify-content: flex-start;
-    scrollbar-width: none; /* Firefox */
-  }
+<!-- Horizontal Button Group -->
 
-  .josta-btn-row::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
-  }
-
-  .josta-btn {
-    flex: 0 0 auto; /* Prevent shrinking/wrapping */
-    padding: 0.4em 0.9em;
-    border: 1.5px solid #007BFF;
-    background: transparent;
-    color: #007BFF;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4em;
-    font-size: 0.9rem;
-    transition: background 0.3s, color 0.3s;
-    white-space: nowrap;
-  }
-
-  .josta-btn:hover {
-    background: #007BFF;
-    color: #fff;
-  }
-</style>
-
-<div class="josta-btn-row">
-  <a href="submit.qmd" class="josta-btn"><i class="bi bi-upload"></i> Submit</a>
-  <a href="published.qmd" class="josta-btn"><i class="bi bi-book"></i> Read</a>
-  <a href="editorial.qmd" class="josta-btn"><i class="bi bi-people"></i> Editorial</a>
-  <a href="https://zenodo.org/communities/josta/records" class="josta-btn"><i class="bi bi-cloud-arrow-down"></i> Zenodo</a>
-</div>
-
-
+::: {style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;"}
+<a href="submit.qmd" class="btn btn-outline-success"> <i class="bi bi-upload"></i> Submit </a> <a href="published.qmd" class="btn btn-outline-info"> <i class="bi bi-book"></i> Read </a> <a href="editorial.qmd" class="btn btn-outline-warning"> <i class="bi bi-people"></i> Editorial </a> <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"> <i class="bi bi-cloud-arrow-down"></i> Zenodo </a>
+:::
 
 # About JOSTA {.unnumbered}
 
@@ -82,9 +42,9 @@ Open Access: Your work is freely accessible online from the moment of publicatio
 
 ## Peer Review Policy {.unnumbered}
 
-All submissions undergo an initial assessment by the managing editors. Suitable manuscripts are then assigned to the appropriate section editors, who identify independent experts in the relevant field to serve as reviewers. JOSTA follows a double-blind peer review process, where both authors and reviewers remain anonymous to ensure fairness and objectivity. Based on the reviewers' feedback, authors may be requested to revise their manuscripts.  
+All submissions undergo an initial assessment by the managing editors. Suitable manuscripts are then assigned to the appropriate section editors, who identify independent experts in the relevant field to serve as reviewers. JOSTA follows a double-blind peer review process, where both authors and reviewers remain anonymous to ensure fairness and objectivity. Based on the reviewers' feedback, authors may be requested to revise their manuscripts.
 
-For a detailed description of the review process, see [Peer Review Process](peerReview.qmd).  
+For a detailed description of the review process, see [Peer Review Process](peerReview.qmd).
 
 ## 🔓Open Access {.unnumbered}
 
@@ -100,10 +60,10 @@ INR 10,000 for authors residing in India
 
 USD 250 for international authors (outside India)
 
-✅ No submission fees   
-✅ No additional charges for figures, tables, or page limits   
+✅ No submission fees\
+✅ No additional charges for figures, tables, or page limits\
 ✅ Immediate online publication and permanent open-access availability
-  
+
 ### APC Waiver for Inaugural Year {.unnumbered}
 
 To support the launch of the journal, all APCs will be waived for manuscripts submitted on or before 15 June 2026.

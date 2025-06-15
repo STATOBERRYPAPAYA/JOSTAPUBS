@@ -25,6 +25,14 @@ listing:
 </div>
 ```
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+
+<!-- Horizontal Button Group -->
+
+::: {style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;"}
+<a href="index.qmd" class="btn btn-outline-secondary"> <i  class="bi bi-house"></i> Home </a>
+:::
+
 # Latest Articles {.unnumbered}
 
 <!-- Volume info header -->

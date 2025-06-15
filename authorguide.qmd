@@ -1,10 +1,18 @@
-# Article submission {.unnumbered} 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+
+<!-- Horizontal Button Group -->
+
+::: {style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;"}
+<a href="index.qmd" class="btn btn-outline-secondary"> <i  class="bi bi-house"></i> Home </a> <a href="submit.qmd" class="btn btn-outline-secondary"> <i class="bi bi-upload"></i> Submit Article </a>
+:::
+
+# Article submission {.unnumbered}
 
 The Journal of Sustainable Technology in Agriculture (JOSTA) publishes high-quality articles that contribute to the advancement of sustainable practices and technologies in agriculture. The journal welcomes original research, reviews, short communications, case studies, software and policies.
 
-## Guidelines {.unnumbered} 
+## Guidelines {.unnumbered}
 
-### Manuscript types and word limits {.unnumbered} 
+### Manuscript types and word limits {.unnumbered}
 
 JOSTA encourages concise and focused writing. The preferred word limits (excluding references, tables, and figure captions) for each article type are:
 
@@ -22,11 +30,11 @@ JOSTA encourages concise and focused writing. The preferred word limits (excludi
 
 Manuscripts exceeding these limits should include justification in the cover letter to the editor.
 
-### Authorship policy {.unnumbered} 
+### Authorship policy {.unnumbered}
 
 JOSTA allows a maximum of six (6) authors per manuscript. All authors must meet ICMJE authorship criteria. If more than six contributors were involved, they should be acknowledged under "Contributors" with their roles specified. The corresponding author must confirm consent from all co-authors.
 
-### Manuscript preparation {.unnumbered} 
+### Manuscript preparation {.unnumbered}
 
 File format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) format. PDF files are not accepted.
 
@@ -42,7 +50,7 @@ File format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) form
 
 -   Supplementary Material: Optional files such as datasets, appendices, or multimedia can be submitted.
 
-### Submission procedure {.unnumbered} 
+### Submission procedure {.unnumbered}
 
 Authors must complete the online \[submission form\] (submit.qmd), providing:
 
@@ -54,7 +62,7 @@ Authors must complete the online \[submission form\] (submit.qmd), providing:
 
 4.  Ethical declarations and cover letter to editor
 
-### Ethical requirements {.unnumbered} 
+### Ethical requirements {.unnumbered}
 
 Plagiarism: All submissions must be original
 
@@ -62,7 +70,7 @@ Conflict of Interest: Must be declared clearly. If none, write "None."
 
 Ethical Approval: Required for studies involving humans, animals, or sensitive data. Upload certificate if applicable.
 
-### Article categories {.unnumbered} 
+### Article categories {.unnumbered}
 
 JOSTA accepts articles under the following editorial sections, see in \[detail\] (editorialsections.qmd)
 
@@ -92,11 +100,11 @@ JOSTA accepts articles under the following editorial sections, see in \[detail\]
 
 Authors must select one or more relevant sections during submission. See editorial sections for full descriptions.
 
-### Review process {.unnumbered} 
+### Review process {.unnumbered}
 
 All submissions undergo initial editorial screening followed by double-blind peer review. Authors may be asked to revise their manuscripts based on reviewer feedback.
 
-### Referencing style {.unnumbered} 
+### Referencing style {.unnumbered}
 
 JOSTA follows a referencing style closely aligned with that used by established journals in applied statistics and agricultural research. However, authors are not required to manually format references during submission.
 

@@ -47,31 +47,29 @@ status: Published (Online)
 doi: https://doi.org/10.5281/zenodo.15622128
 ---
 
-[![](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg)](https://doi.org/10.5281/zenodo.15622128) 
-![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) 
-![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg)](https://doi.org/10.5281/zenodo.15622128) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
 
 ::: {style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;"}
-
 <!-- Download PDF Button -->
-<a href="pdfs/josta_raisins.pdf" download class="download-btn">
-  <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF
-</a>
+
+<a href="pdfs/josta_raisins.pdf" download class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a>
 
 <!-- Copy Citation Button -->
-<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
-  📋 Copy Citation
-  <span id="tooltip">Citation copied!</span>
-</button>
 
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+
+📋 Copy Citation [Citation copied!]{#tooltip}
+
+</button>
 :::
 
 <!-- Hidden Citation Text -->
-<span id="citation-text" style="display: none;">
-Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In *Journal of Sustainable Technology in Agriculture* (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128
-</span>
+
+[ Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In *Journal of Sustainable Technology in Agriculture* (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128 ]{#citation-text style="display: none;"}
 
 <!-- JavaScript -->
+
+```{=html}
 <script>
   function copyCitation() {
     const citation = document.getElementById("citation-text").innerText;
@@ -87,8 +85,11 @@ Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R 
     }, 2000);
   }
 </script>
+```
 
 <!-- CSS Styling -->
+
+```{=html}
 <style>
 .download-btn {
   display: inline-flex;
@@ -137,8 +138,7 @@ Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R 
   transition: opacity 0.3s;
 }
 </style>
-
-
+```
 
 ## Introduction
 
@@ -165,7 +165,7 @@ All modules in RAISINS have been peer-reviewed by domain experts, including stat
 @tbl-foundation presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.
 
 | Module Domain | Theoretical Foundation |
-|-------------------------|------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | Design & Analysis of Experiments | Montgomery (2017) [@montgomery2017design]; Gomez & Gomez (1984) [@gomez1984statistical]; Das & Giri (2018) [@das2018design]; Searle (1997) [@searle1997linear]; Dey (1986) [@dey1986theory]; Cox & Reid (2000) [@cox2000theory]; Toutenburg & Shalabh (2009) [@toutenburg2009statistical]; Cochran & Cox (1957) [@cochran1957experimental]; ; Federer (1985) [@federer1985experimental] |
 | Statistical Genetics | Falconer & Mackay (1996) [@falconer1996introduction]; Lynch & Walsh (1998) [@lynch1998genetics]; Dabholkar (1999) [@dabholkar1999elements]; Gillespie (2004) [@gillespie2004population] |
 | Social Science Research | Babbie (2020) [@babbie2020practice]; Bryman (2016) [@bryman2016social]; Bhattacherjee (2012) [@bhattacherjee2012social] |
@@ -256,7 +256,7 @@ The authors gratefully acknowledge the support and encouragement provided by Ker
 ## Technical details {#sec-techdetails .unnumbered}
 
 ::: callout
-Due to the ongoing costs associated with hosting and maintaining the RAISINS platform, the authors have adopted a subscription-based model to ensure its sustainability and continued development. The live application is accessible to users at https://www.raisins.live/.
+Due to the ongoing costs associated with hosting and maintaining the RAISINS platform, the authors have adopted a subscription-based model to ensure its sustainability and continued development. The live application is accessible to users at [www.raisins.live](https://www.raisins.live/).
 :::
 
 ::: {.callout-important title="Publication & Reviewer Details"}

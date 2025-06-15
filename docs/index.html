@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-e25cc82807363e79c52e96bc8b7855f1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4d7648df6e2f3ac498842010c216d424.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d24c9254f6b0d4067e730a7201f2af8d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f366372d1fcd68941cada0cff8ac934f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-278209a1080c747a323a5f6c0262cc7d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -184,6 +184,12 @@ window.Quarto = {
  <span class="menu-text">Article submission</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./peerReview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Peer Review Policy</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -231,12 +237,6 @@ window.Quarto = {
   </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./peerReview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Peer Review Policy</span></a>
-  </div>
-</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./editorial.html" class="sidebar-item-text sidebar-link">
@@ -288,45 +288,9 @@ window.Quarto = {
 </div>
 <!-- Load Bootstrap Icons -->
 <p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"></p>
-<style>
-  .josta-btn-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 0.5em;
-    overflow-x: auto;
-    padding: 0.5em;
-    justify-content: flex-start;
-    scrollbar-width: none; /* Firefox */
-  }
-
-  .josta-btn-row::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
-  }
-
-  .josta-btn {
-    flex: 0 0 auto; /* Prevent shrinking/wrapping */
-    padding: 0.4em 0.9em;
-    border: 1.5px solid #007BFF;
-    background: transparent;
-    color: #007BFF;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4em;
-    font-size: 0.9rem;
-    transition: background 0.3s, color 0.3s;
-    white-space: nowrap;
-  }
-
-  .josta-btn:hover {
-    background: #007BFF;
-    color: #fff;
-  }
-</style>
-<div class="josta-btn-row">
-<p><a href="./submit.html" class="josta-btn"><i class="bi bi-upload"></i> Submit</a> <a href="./published.html" class="josta-btn"><i class="bi bi-book"></i> Read</a> <a href="./editorial.html" class="josta-btn"><i class="bi bi-people"></i> Editorial</a> <a href="https://zenodo.org/communities/josta/records" class="josta-btn"><i class="bi bi-cloud-arrow-down"></i> Zenodo</a></p>
+<!-- Horizontal Button Group -->
+<div style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;">
+<p><a href="./submit.html" class="btn btn-outline-success"> <i class="bi bi-upload"></i> Submit </a> <a href="./published.html" class="btn btn-outline-info"> <i class="bi bi-book"></i> Read </a> <a href="./editorial.html" class="btn btn-outline-warning"> <i class="bi bi-people"></i> Editorial </a> <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"> <i class="bi bi-cloud-arrow-down"></i> Zenodo </a></p>
 </div>
 <section id="about-josta" class="level1 unnumbered">
 <h1 class="unnumbered">About JOSTA</h1>

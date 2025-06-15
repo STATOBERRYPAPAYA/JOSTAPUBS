@@ -29,7 +29,8 @@ website:
       - section: "Submit Articles"
         contents:
         - submit.qmd
-        - authorguide.qmd
+        - authorguide.qmd  
+        - peerReview.qmd
       - published.qmd
       - section: "Volumes"
         contents:
@@ -40,7 +41,6 @@ website:
               - volume1/josta111raisins2025.qmd
               # - volume1/paper2.qmd
       # - categories.qmd
-      - peerReview.qmd
       - editorial.qmd
       - editorialsection.qmd
   page-footer:
@@ -60,15 +60,15 @@ format:
   html:
     theme:
       light:
-        - lumen
+        - materia
       dark:
         - slate
     toc: true
     number-sections: true
-    highlight-style: arrow
+    highlight-style: github
     monofont: Fira Code
     mainfont: Georgia
-    monobackgroundcolor: "#364530"
+    monobackgroundcolor: "#f3fcd2"
     math: mathjax
 execute:
   freeze: auto
