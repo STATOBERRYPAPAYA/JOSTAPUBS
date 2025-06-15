@@ -60,7 +60,7 @@ format:
   html:
     theme:
       light:
-        - materia
+        - flatly
       dark:
         - slate
     toc: true
