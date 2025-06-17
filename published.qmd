@@ -1,18 +1,17 @@
 ---
 title: ""
 listing:
-  type: default
+  type: grid
   contents: 
-    - "volume1/*.qmd"
+    - "volume1/**/*.qmd"
   sort: "date desc"
   fields: 
     - title
     - author
-    - affiliations
-    - description
     - date
     - categories
     - status
+    - description
   categories: true
   feed: true  
 ---

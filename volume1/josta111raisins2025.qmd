@@ -21,7 +21,7 @@ author:
         postal-code: 695522
         url: https://www.statoberry.com
     email: jithin-2023-19-003@student.kau.in
-  - name: Pratheesh P Gopinath*
+  - name: Pratheesh P Gopinath<sup>*</sup>
     affiliations:
       - name: Kerala Agricultural University
         department: Department of Agricultural Statistics
@@ -36,8 +36,6 @@ author:
 abstract: |
  RAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses. Hosted on Posit Connect Cloud, the platform eliminates the need for local software installation, enabling seamless, browser-based access to a wide range of statistical tools. RAISINS simplifies model building, result interpretation, and reporting, making it especially valuable for non-statisticians and early-career researchers seeking reliable insights from agricultural data.  
  
-description: "RAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses."  
-
 keywords: [Data Analysis, Agriculture Research, Design of Experiments, Statistical Genetics, Social Sciences, Open AI, Python, R]
 bibliography: paper1.bib
 date: 06-08-2025
@@ -65,7 +63,7 @@ doi: https://doi.org/10.5281/zenodo.15622128
 
 <!-- Hidden Citation Text -->
 
-[ Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In *Journal of Sustainable Technology in Agriculture* (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128 ]{#citation-text style="display: none;"}
+[Hisham M, M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In *Journal of Sustainable Technology in Agriculture* (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128]{#citation-text style="display: none;"}
 
 <!-- JavaScript -->
 
@@ -165,7 +163,7 @@ All modules in RAISINS have been peer-reviewed by domain experts, including stat
 @tbl-foundation presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.
 
 | Module Domain | Theoretical Foundation |
-|-------------------------|-----------------------------------------------|
+|------------------------------------|------------------------------------|
 | Design & Analysis of Experiments | Montgomery (2017) [@montgomery2017design]; Gomez & Gomez (1984) [@gomez1984statistical]; Das & Giri (2018) [@das2018design]; Searle (1997) [@searle1997linear]; Dey (1986) [@dey1986theory]; Cox & Reid (2000) [@cox2000theory]; Toutenburg & Shalabh (2009) [@toutenburg2009statistical]; Cochran & Cox (1957) [@cochran1957experimental]; ; Federer (1985) [@federer1985experimental] |
 | Statistical Genetics | Falconer & Mackay (1996) [@falconer1996introduction]; Lynch & Walsh (1998) [@lynch1998genetics]; Dabholkar (1999) [@dabholkar1999elements]; Gillespie (2004) [@gillespie2004population] |
 | Social Science Research | Babbie (2020) [@babbie2020practice]; Bryman (2016) [@bryman2016social]; Bhattacherjee (2012) [@bhattacherjee2012social] |

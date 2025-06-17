@@ -10,12 +10,1397 @@
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Sat, 07 Jun 2025 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 16 Jun 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis</title>
+  <dc:creator>Lovely B.&lt;sup&gt;*&lt;/sup&gt;</dc:creator>
+  <dc:creator>Radhadevi D.S</dc:creator>
+  <dc:creator>Vijayaraghava Kumar</dc:creator>
+  <link>https://www.jostapubs.com/volume1/lovelyB/generationmean.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://doi.org/10.5281/zenodo.15684703"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15684703.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
+<!-- Download PDF Button -->
+<p><a href="pdfs/generationmean.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
+<!-- Copy Citation Button -->
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
+</button>
+</div>
+<!-- Hidden Citation Text -->
+<p><span id="citation-text" style="display: none;">Lovely, B., Radhadevi, D. S., &amp; Kumar, V. (2025). Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15684703</span></p>
+<!-- JavaScript -->
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+<!-- CSS Styling -->
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>The yardlong bean is one of the most important leguminous vegetables in Asia. Also known as the asparagus bean, string bean, snake bean, or snake pea, it was originally cultivated in West Africa and is now widely grown throughout Southeast Asia—including Malaysia, the Philippines, Indonesia, and Thailand—where it can be cultivated year-round. In India, it has been known since Vedic times <span class="citation" data-cites="benchasri2012evaluation">(Benchasri, Bairaman, and Nualsri 2012)</span>.</p>
+<p>Typically harvested while still young, the yardlong bean is consumed as a green vegetable. It is an annual plant characterized by rapid growth, especially when supported by a trellis. Both tall and short climbing types exist. A member of the Fabaceae family, the plant features twining, delicate stems with a tenacious root system. It blooms in mid-summer, producing pairs of large white or purple flowers. Once pollinated, these flowers develop into slender, dark green beans that can grow up to 12 inches in just a few days. Mature beans can reach lengths of up to three feet, turning pale green and swelling as the red or black seeds ripen.</p>
+<p>The yardlong bean also contributes to soil fertility by fixing atmospheric nitrogen through nodules on its roots. It is often referred to as the “poor man’s meat” because its pods are not only rich in protein (23–32% of seed weight) but also contain essential amino acids like lysine and tryptophan, as well as significant levels of folic acid, vitamin B, and other critical micronutrients <span class="citation" data-cites="peyrano2016physicochemical">(Peyrano, Speroni, and Avanza 2016)</span>. As such, it serves as a key dietary staple for many of the poorest populations in developing countries.</p>
+<p>Despite its nutritional and agricultural importance, relatively little breeding work has been conducted on this crop. The development of high-yielding, stress-tolerant varieties could significantly boost its cultivation and productivity. However, as a predominantly self-pollinated crop, studies on gene action in yardlong bean remain limited. This study aims to identify gene action governing yield-related traits, which will help inform new breeding strategies to enhance crop improvement efforts.</p>
+</section>
+<section id="materials-and-methods" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="materials-and-methods"><span class="header-section-number">2</span> Materials and methods</h2>
+<p>The genetic material used in the present study consisted of hybrid (<img src="https://latex.codecogs.com/png.latex?F_1">) plants derived from three promising crosses, along with their six respective parents. The selected parental inbred lines were chosen based solely on differences in yield-related traits. Three single-cross <img src="https://latex.codecogs.com/png.latex?F_1"> hybrids were developed using parents with contrasting characteristics.</p>
+<p>The three most promising hybrids, based on yield performance and disease resistance from a previous study, were selected for further evaluation. The <img src="https://latex.codecogs.com/png.latex?F_1"> hybrids were backcrossed to their respective parents to generate backcross (BC) generations. Simultaneously, the <img src="https://latex.codecogs.com/png.latex?F_1"> hybrids were self-pollinated to produce the corresponding <img src="https://latex.codecogs.com/png.latex?F_2"> populations.</p>
+<p>Generation mean analysis was conducted using eighteen populations in total: the three <img src="https://latex.codecogs.com/png.latex?F_1">s, their six parents, six backcross generations, and three <img src="https://latex.codecogs.com/png.latex?F_2"> populations. The experiment was laid out in a randomized block design (RBD) with three replications in the College of Agriculture, Vellayani during Summer 2004. Standard crop management practices were followed throughout the study. Observations on yield and yield-related traits were recorded from 10 plants each for the <img src="https://latex.codecogs.com/png.latex?F_1">, parent, and backcross generations. For the <img src="https://latex.codecogs.com/png.latex?F_2"> populations, data were collected from 30 plants per cross.</p>
+<section id="generation-mean-analysis" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="generation-mean-analysis"><span class="header-section-number">2.1</span> Generation Mean Analysis</h3>
+<p>The six-parameter model developed by Hayman <span class="citation" data-cites="hayman1958separation">(Hayman 1958)</span> was used for generation mean analysis. The four scaling tests (<img src="https://latex.codecogs.com/png.latex?A">, <img src="https://latex.codecogs.com/png.latex?B">, <img src="https://latex.codecogs.com/png.latex?C">, and <img src="https://latex.codecogs.com/png.latex?D">) were determined according to the method suggested by Mather <span class="citation" data-cites="mather1949biometrical">(Mather 1949)</span>. These different scales are computed using simple linear combinations as given in Equation&nbsp;1 to Equation&nbsp;4.</p>
+<p><span id="eq-A"><img src="https://latex.codecogs.com/png.latex?A%20=%202%5Coverline%7BB_1%7D%20-%20%5Coverline%7BF_1%7D%20-%20P_1%20=%200%20%5Ctag%7B1%7D"></span></p>
+<p><span id="eq-B"><img src="https://latex.codecogs.com/png.latex?B%20=%202%5Coverline%7BB_2%7D%20-%20%5Coverline%7BF_1%7D%20-%20%5Coverline%7BP_2%7D%20=%200%20%5Ctag%7B2%7D"></span></p>
+<p><span id="eq-C"><img src="https://latex.codecogs.com/png.latex?C%20=%204%5Coverline%7BF_2%7D%20-%202%5Coverline%7BF_1%7D%20-%20%5Coverline%7BP_1%7D%20-%20%5Coverline%7BP_2%7D%20=%200%20%5Ctag%7B3%7D"></span></p>
+<p><span id="eq-D"><img src="https://latex.codecogs.com/png.latex?D%20=%204%5Coverline%7BF_3%7D%20-%202%5Coverline%7BF_2%7D%20-%20%5Coverline%7BP_1%7D%20-%20%5Coverline%7BP_2%7D%20=%200%20%5Cquad%20%5Ctext%7Bor%7D%20%5Cquad%20D%20=%202%5Coverline%7BF_2%7D%20-%20%5Coverline%7BB_2%7D%20-%20%5Coverline%7BB_1%7D%20%5Ctag%7B4%7D"></span></p>
+<p>Where <img src="https://latex.codecogs.com/png.latex?P_1">, <img src="https://latex.codecogs.com/png.latex?P_2">, <img src="https://latex.codecogs.com/png.latex?F_1">, <img src="https://latex.codecogs.com/png.latex?F_2">, <img src="https://latex.codecogs.com/png.latex?B_1">, and <img src="https://latex.codecogs.com/png.latex?B_2"> are means of different generations, respectively. The variances of the quantities <img src="https://latex.codecogs.com/png.latex?A">, <img src="https://latex.codecogs.com/png.latex?B">, <img src="https://latex.codecogs.com/png.latex?C">, and <img src="https://latex.codecogs.com/png.latex?D"> were calculated from the respective variances of different generations as given from Equation&nbsp;5 to Equation&nbsp;8.</p>
+<p><span id="eq-VA"><img src="https://latex.codecogs.com/png.latex?V_A%20=%204V_%7B%5Coverline%7BB_1%7D%7D%20+%20V_%7B%5Coverline%7BF_1%7D%7D%20+%20V_%7B%5Coverline%7BP_1%7D%7D%20%5Ctag%7B5%7D"></span></p>
+<p><span id="eq-VB"><img src="https://latex.codecogs.com/png.latex?V_B%20=%204V_%7B%5Coverline%7BB_2%7D%7D%20+%20V_%7B%5Coverline%7BF_1%7D%7D%20+%20V_%7B%5Coverline%7BP_2%7D%7D%20%5Ctag%7B6%7D"></span></p>
+<p><span id="eq-VC"><img src="https://latex.codecogs.com/png.latex?V_C%20=%2016V_%7B%5Coverline%7BF_2%7D%7D%20+%204V_%7B%5Coverline%7BF_1%7D%7D%20+%20V_%7B%5Coverline%7BP_1%7D%7D%20+%20V_%7B%5Coverline%7BP_2%7D%7D%20%5Ctag%7B7%7D"></span></p>
+<p><span id="eq-VD"><img src="https://latex.codecogs.com/png.latex?V_D%20=%2016V_%7B%5Coverline%7BF_3%7D%7D%20+%204V_%7B%5Coverline%7BF_2%7D%7D%20+%20V_%7B%5Coverline%7BP_1%7D%7D%20+%20V_%7B%5Coverline%7BP_2%7D%7D%20%5Ctag%7B8%7D"></span></p>
+<p>Where, <img src="https://latex.codecogs.com/png.latex?V_%7BP_1%7D"> is the variance of the individuals within the <img src="https://latex.codecogs.com/png.latex?P_1"> family; <img src="https://latex.codecogs.com/png.latex?V_%7B%5Coverline%7BP_1%7D%7D"> is the variance of <img src="https://latex.codecogs.com/png.latex?%7B%5Coverline%7BP_1%7D%7D"> (mean of the <img src="https://latex.codecogs.com/png.latex?P_1"> family); and <img src="https://latex.codecogs.com/png.latex?%5Coverline%7BV_%7BP_1%7D%7D%20=%20%5Cfrac%7BV_%7BP_1%7D%7D%7BN%7D">, where <img src="https://latex.codecogs.com/png.latex?N"> is the number of individuals observed in the <img src="https://latex.codecogs.com/png.latex?P_1"> family.</p>
+<p>The standard error of <img src="https://latex.codecogs.com/png.latex?A">, <img src="https://latex.codecogs.com/png.latex?B">, <img src="https://latex.codecogs.com/png.latex?C">, and <img src="https://latex.codecogs.com/png.latex?D"> is calculated by taking the square root of their respective variances. The corresponding <img src="https://latex.codecogs.com/png.latex?t"> values are computed by dividing the values of <img src="https://latex.codecogs.com/png.latex?A">, <img src="https://latex.codecogs.com/png.latex?B">, <img src="https://latex.codecogs.com/png.latex?C">, and <img src="https://latex.codecogs.com/png.latex?D"> by their respective standard errors.</p>
+<p>Significance of any of the four scales indicates the inadequacy of the additive-dominance model and the presence of epistasis. If the calculated <img src="https://latex.codecogs.com/png.latex?t"> values are found to be significant, the presence of specific types of epistasis is confirmed.</p>
+<p>The significance of either one or both of the <img src="https://latex.codecogs.com/png.latex?A"> and <img src="https://latex.codecogs.com/png.latex?B"> scales indicates the presence of all three types of digenic interaction, namely additive × additive, additive × dominance, and dominance × dominance. The significance of scale <img src="https://latex.codecogs.com/png.latex?C"> indicates the presence of dominance × dominance type of non-allelic interaction, while the significance of scale <img src="https://latex.codecogs.com/png.latex?D"> denotes additive × additive type of gene action. When both <img src="https://latex.codecogs.com/png.latex?C"> and <img src="https://latex.codecogs.com/png.latex?D"> scales are significant, it suggests the presence of both additive × additive and dominance × dominance types of gene interaction.</p>
+</section>
+<section id="estimation-of-gene-effects" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="estimation-of-gene-effects"><span class="header-section-number">2.2</span> Estimation of gene effects</h3>
+<p>Significance of any of the scales <img src="https://latex.codecogs.com/png.latex?A">, <img src="https://latex.codecogs.com/png.latex?B">, <img src="https://latex.codecogs.com/png.latex?C"> and <img src="https://latex.codecogs.com/png.latex?D"> will indicate the presence of epistatic interaction or digenic interactions. Hayman and Jinks and Jones gave a 6 parameter model for the estimation of various genetic components. The six genetic parameters were estimated using Equation&nbsp;9 to Equation&nbsp;14.</p>
+<p><span id="eq-eq1"><img src="https://latex.codecogs.com/png.latex?m%20=%20%5Coverline%7BF_2%7D%20%5Ctag%7B9%7D"></span></p>
+<p><span id="eq-eq2"><img src="https://latex.codecogs.com/png.latex?d%20=%20%5Coverline%7BB_1%7D%20-%20%5Coverline%7BB_2%7D%20%5Ctag%7B10%7D"></span></p>
+<p><span id="eq-eq3"><img src="https://latex.codecogs.com/png.latex?h%20=%20%5Coverline%7BF_1%7D%20-%204%5Coverline%7BF_2%7D%20-%20%5Cfrac%7B%5Coverline%7BP_1%7D%7D%7B2%7D-%20%5Cfrac%7B%5Coverline%7BP_2%7D%7D%7B2%7D%20+%202%5Coverline%7BB_1%7D%20+%202%5Coverline%7BB_2%7D%20%5Ctag%7B11%7D"></span></p>
+<p><span id="eq-eq4"><img src="https://latex.codecogs.com/png.latex?i%20=%202%5Coverline%7BB_1%7D%20+%202%5Coverline%7BB_2%7D%20-%204%5Coverline%7BF_2%7D%20%5Ctag%7B12%7D"></span></p>
+<p><span id="eq-eq5"><img src="https://latex.codecogs.com/png.latex?j%20=%20%5Coverline%7BB_1%7D%20-%20%5Cfrac%7B%5Coverline%7BP_1%7D%7D%7B2%7D%20-%20%5Coverline%7BB_2%7D%20+%20%5Cfrac%7B%5Coverline%7BP_2%7D%7D%7B2%7D%20%5Ctag%7B13%7D"></span></p>
+<p><span id="eq-eq6"><img src="https://latex.codecogs.com/png.latex?l%20=%20%5Coverline%7BP_1%7D%20+%20%5Coverline%7BP_2%7D%20+%202%5Coverline%7BF_1%7D%20+%204%5Coverline%7BF_2%7D%20-%204%5Coverline%7BB_1%7D%20-%204%5Coverline%7BB_2%7D%20%5Ctag%7B14%7D"></span></p>
+<p>Where <img src="https://latex.codecogs.com/png.latex?m"> = mean; <img src="https://latex.codecogs.com/png.latex?d"> = additive effect; <img src="https://latex.codecogs.com/png.latex?h"> = dominance effect; <img src="https://latex.codecogs.com/png.latex?i"> = additive x additive gene interaction; <img src="https://latex.codecogs.com/png.latex?j"> = additive x dominance gene interaction; <img src="https://latex.codecogs.com/png.latex?l"> = dominance x dominance gene interaction.</p>
+<p>The variances of the six genetic parameters were calculated using Equation&nbsp;15 to Equation&nbsp;20</p>
+<p><span id="eq-vm"><img src="https://latex.codecogs.com/png.latex?(m)%20=%20V_%7B%5Coverline%7BF_2%7D%7D%20%5Ctag%7B15%7D"></span></p>
+<p><span id="eq-vd"><img src="https://latex.codecogs.com/png.latex?V(d)%20=%20V_%7B%5Coverline%7BB_1%7D%7D%20+%20V_%7B%5Coverline%7BB_2%7D%7D%20%5Ctag%7B16%7D"></span></p>
+<p><span id="eq-vh"><img src="https://latex.codecogs.com/png.latex?V(h)%20=%20V_%7B%5Coverline%7BF_1%7D%7D%20+%2016V_%7B%5Coverline%7BF_2%7D%7D%20+%20%5Cfrac%7BV_%7B%5Coverline%7BP_1%7D%7D%7D%7B4%7D%20+%20%5Cfrac%7BV_%7B%5Coverline%7BP_2%7D%7D%7D%7B4%7D%20+%204V_%7B%5Coverline%7BB_1%7D%7D%20+%204V_%7B%5Coverline%7BB_2%7D%7D%20%5Ctag%7B17%7D"></span></p>
+<p><span id="eq-vi"><img src="https://latex.codecogs.com/png.latex?V(i)%20=%204V_%7B%5Coverline%7BB_1%7D%7D%20+%204V_%7B%5Coverline%7BB_2%7D%7D%20+%2016V_%7B%5Coverline%7BF_2%7D%7D%20%5Ctag%7B18%7D"></span></p>
+<p><span id="eq-vj"><img src="https://latex.codecogs.com/png.latex?V(j)%20=%20V_%7B%5Coverline%7BB_1%7D%7D%20+%20%5Cfrac%7BV_%7B%5Coverline%7BP_1%7D%7D%7D%7B4%7D%20+%20V_%7B%5Coverline%7BB_2%7D%7D%20+%20%5Cfrac%7BV_%7B%5Coverline%7BP_2%7D%7D%7D%7B4%7D%20%5Ctag%7B19%7D"></span></p>
+<p><span id="eq-vl"><img src="https://latex.codecogs.com/png.latex?V(l)%20=%204V_%7B%5Coverline%7BP_1%7D%7D%20+%204V_%7B%5Coverline%7BP_2%7D%7D%20+%204V_%7B%5Coverline%7BF_1%7D%7D%20+%2016V_%7B%5Coverline%7BF_2%7D%7D%20+%2016V_%7B%5Coverline%7BB_1%7D%7D%20+%2016V_%7B%5Coverline%7BB_2%7D%7D%20%5Ctag%7B20%7D"></span></p>
+</section>
+</section>
+<section id="results" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="results"><span class="header-section-number">3</span> Results</h2>
+<p>Generation mean analysis is a statistical technique used to estimate the components of variance and determine the predominant type of gene action controlling important traits in a crop species. This analysis assists in selecting appropriate breeding strategies for the improvement of various quantitative traits.</p>
+<p>Generation mean analysis was conducted for three cowpea crosses:</p>
+<ul>
+<li>Cross 1: VS86 × VS132<br>
+</li>
+<li>Cross 2: Kozhicode Local-2 × Thiruvananthapuram Local-12<br>
+</li>
+<li>Cross 3: Thiruvananthapuram Local-9 × Thiruvananthapuram Local-12</li>
+</ul>
+<p>The mean values of the six generations (<img src="https://latex.codecogs.com/png.latex?P_1">, <img src="https://latex.codecogs.com/png.latex?P_2">, <img src="https://latex.codecogs.com/png.latex?F_1">, <img src="https://latex.codecogs.com/png.latex?F_2">, <img src="https://latex.codecogs.com/png.latex?B_1">, and <img src="https://latex.codecogs.com/png.latex?B_2">) for each cross are presented in Table&nbsp;1. Among them, the <img src="https://latex.codecogs.com/png.latex?F_1"> of Cross 3 flowered the earliest (38.4 days), while Cross 1 was harvested the earliest (58.1 days). The <img src="https://latex.codecogs.com/png.latex?F_1"> of Cross 2 exhibited the highest pod yield per plant (454.91 g), whereas the <img src="https://latex.codecogs.com/png.latex?B_2"> generation of Cross 1 recorded the maximum yield overall (485.67 g).</p>
+<p>The scale values and genetic component estimates for the various traits across the three crosses are shown in Table&nbsp;2 and Table&nbsp;3. The estimated mean effect (<img src="https://latex.codecogs.com/png.latex?m">) was highly significant for traits such as days to flowering, pod length, pod breadth, pods per plant, pod yield per plant, and root weight across all crosses, indicating that these traits are quantitatively inherited.</p>
+<p>As shown in Table&nbsp;3, significant negative dominant effects (<img src="https://latex.codecogs.com/png.latex?h">) were observed for pod length and pod yield per plant, suggesting that these traits are more prominently expressed in homozygous individuals.</p>
+<div id="tbl-table1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-table1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Generation mean values of the three crosses in yardlong bean}
+</figcaption>
+<div aria-describedby="tbl-table1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Cross</th>
+<th>Gen</th>
+<th><img src="https://latex.codecogs.com/png.latex?X_1"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_2"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_3"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_4"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_5"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_6"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_7"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_8"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_9"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"></th>
+<th><img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cross 1</td>
+<td>F1</td>
+<td>39.90</td>
+<td>50.43</td>
+<td>2.34</td>
+<td>21.20</td>
+<td>3.12</td>
+<td>23.18</td>
+<td>356.84</td>
+<td>20.23</td>
+<td>58.10</td>
+<td>3.10</td>
+<td>15.27</td>
+<td>35.50</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>F2</td>
+<td>44.10</td>
+<td>45.05</td>
+<td>2.18</td>
+<td>16.80</td>
+<td>2.70</td>
+<td>25.75</td>
+<td>481.53</td>
+<td>19.05</td>
+<td>59.00</td>
+<td>3.25</td>
+<td>19.76</td>
+<td>39.40</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>P1</td>
+<td>47.07</td>
+<td>38.56</td>
+<td>2.30</td>
+<td>11.73</td>
+<td>2.15</td>
+<td>21.88</td>
+<td>250.93</td>
+<td>19.73</td>
+<td>59.60</td>
+<td>2.40</td>
+<td>14.33</td>
+<td>43.20</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>P2</td>
+<td>48.27</td>
+<td>50.75</td>
+<td>2.30</td>
+<td>21.69</td>
+<td>2.94</td>
+<td>14.68</td>
+<td>298.07</td>
+<td>21.27</td>
+<td>57.80</td>
+<td>3.60</td>
+<td>19.34</td>
+<td>30.20</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>B1</td>
+<td>45.27</td>
+<td>41.20</td>
+<td>2.23</td>
+<td>19.68</td>
+<td>2.66</td>
+<td>23.73</td>
+<td>477.32</td>
+<td>18.93</td>
+<td>59.13</td>
+<td>2.73</td>
+<td>18.93</td>
+<td>39.00</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>B2</td>
+<td>45.40</td>
+<td>47.87</td>
+<td>2.19</td>
+<td>21.07</td>
+<td>2.45</td>
+<td>19.92</td>
+<td>485.67</td>
+<td>19.73</td>
+<td>60.27</td>
+<td>3.53</td>
+<td>17.38</td>
+<td>39.53</td>
+</tr>
+<tr class="odd">
+<td>Cross 2</td>
+<td>F1</td>
+<td>41.53</td>
+<td>53.97</td>
+<td>2.68</td>
+<td>21.81</td>
+<td>3.14</td>
+<td>28.51</td>
+<td>454.91</td>
+<td>19.80</td>
+<td>60.10</td>
+<td>3.40</td>
+<td>17.60</td>
+<td>34.60</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>F2</td>
+<td>43.90</td>
+<td>50.91</td>
+<td>2.26</td>
+<td>15.51</td>
+<td>2.75</td>
+<td>29.91</td>
+<td>465.82</td>
+<td>18.70</td>
+<td>58.45</td>
+<td>3.05</td>
+<td>19.36</td>
+<td>30.80</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>P1</td>
+<td>57.20</td>
+<td>48.37</td>
+<td>2.20</td>
+<td>18.83</td>
+<td>2.58</td>
+<td>10.23</td>
+<td>293.54</td>
+<td>18.00</td>
+<td>58.40</td>
+<td>3.20</td>
+<td>18.31</td>
+<td>40.20</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>P2</td>
+<td>44.00</td>
+<td>31.89</td>
+<td>2.17</td>
+<td>9.40</td>
+<td>2.31</td>
+<td>17.99</td>
+<td>264.54</td>
+<td>19.73</td>
+<td>60.80</td>
+<td>3.00</td>
+<td>17.92</td>
+<td>22.00</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>B1</td>
+<td>52.00</td>
+<td>49.87</td>
+<td>2.37</td>
+<td>20.60</td>
+<td>2.77</td>
+<td>21.73</td>
+<td>478.08</td>
+<td>18.60</td>
+<td>60.27</td>
+<td>3.40</td>
+<td>18.18</td>
+<td>35.80</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>B2</td>
+<td>44.20</td>
+<td>43.13</td>
+<td>2.09</td>
+<td>14.86</td>
+<td>2.66</td>
+<td>24.68</td>
+<td>376.18</td>
+<td>18.60</td>
+<td>60.27</td>
+<td>2.93</td>
+<td>14.34</td>
+<td>33.60</td>
+</tr>
+<tr class="odd">
+<td>Cross 3</td>
+<td>F1</td>
+<td>38.40</td>
+<td>54.57</td>
+<td>2.82</td>
+<td>22.14</td>
+<td>3.35</td>
+<td>20.70</td>
+<td>376.61</td>
+<td>20.10</td>
+<td>61.20</td>
+<td>2.60</td>
+<td>15.19</td>
+<td>36.50</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>F2</td>
+<td>44.85</td>
+<td>52.52</td>
+<td>2.69</td>
+<td>20.59</td>
+<td>2.55</td>
+<td>27.25</td>
+<td>484.19</td>
+<td>18.85</td>
+<td>61.20</td>
+<td>2.55</td>
+<td>18.63</td>
+<td>38.60</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>P1</td>
+<td>48.00</td>
+<td>45.73</td>
+<td>2.60</td>
+<td>19.65</td>
+<td>2.16</td>
+<td>20.40</td>
+<td>201.47</td>
+<td>17.27</td>
+<td>61.40</td>
+<td>3.80</td>
+<td>17.14</td>
+<td>41.00</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>P2</td>
+<td>42.53</td>
+<td>50.73</td>
+<td>2.61</td>
+<td>15.64</td>
+<td>2.91</td>
+<td>15.81</td>
+<td>255.33</td>
+<td>20.73</td>
+<td>57.80</td>
+<td>2.80</td>
+<td>14.30</td>
+<td>30.40</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>B1</td>
+<td>45.00</td>
+<td>49.75</td>
+<td>2.71</td>
+<td>20.40</td>
+<td>2.21</td>
+<td>25.37</td>
+<td>472.86</td>
+<td>18.20</td>
+<td>60.00</td>
+<td>3.47</td>
+<td>19.15</td>
+<td>38.87</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>B2</td>
+<td>42.80</td>
+<td>51.25</td>
+<td>2.54</td>
+<td>16.60</td>
+<td>2.79</td>
+<td>23.67</td>
+<td>400.47</td>
+<td>18.93</td>
+<td>59.20</td>
+<td>2.53</td>
+<td>17.64</td>
+<td>38.13</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>In Table&nbsp;1: Gen= Generation, <img src="https://latex.codecogs.com/png.latex?X_1"> = Days to flowering, <img src="https://latex.codecogs.com/png.latex?X_2"> = Pod length (cm), <img src="https://latex.codecogs.com/png.latex?X_3"> = Pod breadth (cm), <img src="https://latex.codecogs.com/png.latex?X_4"> = Pod weight (g), <img src="https://latex.codecogs.com/png.latex?X_5"> = Pods per cluster, <img src="https://latex.codecogs.com/png.latex?X_6"> = Pods per plant, <img src="https://latex.codecogs.com/png.latex?X_7"> = Pod yield per plant (g), <img src="https://latex.codecogs.com/png.latex?X_8"> = Seeds per pod, <img src="https://latex.codecogs.com/png.latex?X_9"> = Days to first harvest, <img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"> = Primary branches per plant, <img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"> = 100-seed weight (g), <img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"> = Root weight (g).</p>
+</blockquote>
+<div id="tbl-table2" class="quarto-layout-panel anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-table2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Estimates of scaling and genetic components (A to D) for traits <img src="https://latex.codecogs.com/png.latex?X_1"> to <img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"> in three yardlong bean crosses.
+</figcaption>
+<div aria-describedby="tbl-table2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-table2" style="flex-basis: 100.0%;justify-content: center;">
+<div id="tbl-cross1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-cross1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Cross 1
+</figcaption>
+<div aria-describedby="tbl-cross1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Character</th>
+<th style="text-align: left;">A</th>
+<th style="text-align: left;">B</th>
+<th style="text-align: left;">C</th>
+<th style="text-align: left;">D</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_1"></td>
+<td style="text-align: left;">9.22</td>
+<td style="text-align: left;">12.64**</td>
+<td style="text-align: left;">15.61</td>
+<td style="text-align: left;">-3.12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_2"></td>
+<td style="text-align: left;">2.41</td>
+<td style="text-align: left;">2.50</td>
+<td style="text-align: left;">44.87**</td>
+<td style="text-align: left;">19.98**</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_3"></td>
+<td style="text-align: left;">21.63**</td>
+<td style="text-align: left;">3.14</td>
+<td style="text-align: left;">2215.00**</td>
+<td style="text-align: left;">-1.31</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_4"></td>
+<td style="text-align: left;">-0.01</td>
+<td style="text-align: left;">-0.01</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">0.01</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_5"></td>
+<td style="text-align: left;">0.14</td>
+<td style="text-align: left;">0.04</td>
+<td style="text-align: left;">0.83</td>
+<td style="text-align: left;">0.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_6"></td>
+<td style="text-align: left;">18.15**</td>
+<td style="text-align: left;">24.75**</td>
+<td style="text-align: left;">79.66**</td>
+<td style="text-align: left;">18.38</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_7"></td>
+<td style="text-align: left;">52.10**</td>
+<td style="text-align: left;">106.67</td>
+<td style="text-align: left;">422.48**</td>
+<td style="text-align: left;">131.86**</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_8"></td>
+<td style="text-align: left;">0.88</td>
+<td style="text-align: left;">0.62</td>
+<td style="text-align: left;">1.17</td>
+<td style="text-align: left;">-0.16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_9"></td>
+<td style="text-align: left;">1.23</td>
+<td style="text-align: left;">5.34</td>
+<td style="text-align: left;">6.62</td>
+<td style="text-align: left;">0.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"></td>
+<td style="text-align: left;">0.59</td>
+<td style="text-align: left;">0.17</td>
+<td style="text-align: left;">0.86</td>
+<td style="text-align: left;">0.06</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"></td>
+<td style="text-align: left;">0.59</td>
+<td style="text-align: left;">0.79</td>
+<td style="text-align: left;">5.31</td>
+<td style="text-align: left;">1.97</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"></td>
+<td style="text-align: left;">3.32</td>
+<td style="text-align: left;">5.15</td>
+<td style="text-align: left;">84.94**</td>
+<td style="text-align: left;">38.23**</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-table2" style="flex-basis: 100.0%;justify-content: center;">
+<div id="tbl-cross2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-cross2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Cross 2
+</figcaption>
+<div aria-describedby="tbl-cross2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Character</th>
+<th style="text-align: left;">A</th>
+<th style="text-align: left;">B</th>
+<th style="text-align: left;">C</th>
+<th style="text-align: left;">D</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_1"></td>
+<td style="text-align: left;">15.81**</td>
+<td style="text-align: left;">4.03</td>
+<td style="text-align: left;">23.75**</td>
+<td style="text-align: left;">1.95</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_2"></td>
+<td style="text-align: left;">1.72</td>
+<td style="text-align: left;">13.30</td>
+<td style="text-align: left;">46.84**</td>
+<td style="text-align: left;">15.91**</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_3"></td>
+<td style="text-align: left;">3.88</td>
+<td style="text-align: left;">20.15</td>
+<td style="text-align: left;">35.12**</td>
+<td style="text-align: left;">5.54</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_4"></td>
+<td style="text-align: left;">0.02</td>
+<td style="text-align: left;">0.03</td>
+<td style="text-align: left;">0.24</td>
+<td style="text-align: left;">0.09</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_5"></td>
+<td style="text-align: left;">0.13</td>
+<td style="text-align: left;">0.13</td>
+<td style="text-align: left;">0.83</td>
+<td style="text-align: left;">0.29</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_6"></td>
+<td style="text-align: left;">20.79**</td>
+<td style="text-align: left;">2.69</td>
+<td style="text-align: left;">168.67**</td>
+<td style="text-align: left;">72.60**</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_7"></td>
+<td style="text-align: left;">149.71**</td>
+<td style="text-align: left;">59.86**</td>
+<td style="text-align: left;">394.68**</td>
+<td style="text-align: left;">92.56**</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_8"></td>
+<td style="text-align: left;">0.65</td>
+<td style="text-align: left;">0.24</td>
+<td style="text-align: left;">0.77</td>
+<td style="text-align: left;">-0.06</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_9"></td>
+<td style="text-align: left;">-0.34</td>
+<td style="text-align: left;">-0.66</td>
+<td style="text-align: left;">16.01</td>
+<td style="text-align: left;">8.50</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"></td>
+<td style="text-align: left;">0.08</td>
+<td style="text-align: left;">0.55</td>
+<td style="text-align: left;">1.15</td>
+<td style="text-align: left;">0.26</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"></td>
+<td style="text-align: left;">0.84</td>
+<td style="text-align: left;">2.17</td>
+<td style="text-align: left;">3.89</td>
+<td style="text-align: left;">0.44</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"></td>
+<td style="text-align: left;">26.19**</td>
+<td style="text-align: left;">33.31**</td>
+<td style="text-align: left;">90.80**</td>
+<td style="text-align: left;">15.65</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-table2" style="flex-basis: 100.0%;justify-content: center;">
+<div id="tbl-cross3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-cross3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(c) Cross 3
+</figcaption>
+<div aria-describedby="tbl-cross3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Character</th>
+<th style="text-align: left;">A</th>
+<th style="text-align: left;">B</th>
+<th style="text-align: left;">C</th>
+<th style="text-align: left;">D</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_1"></td>
+<td style="text-align: left;">18.89**</td>
+<td style="text-align: left;">1.28</td>
+<td style="text-align: left;">25.83**</td>
+<td style="text-align: left;">2.83</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_2"></td>
+<td style="text-align: left;">0.34</td>
+<td style="text-align: left;">1.27</td>
+<td style="text-align: left;">20.39**</td>
+<td style="text-align: left;">9.39</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_3"></td>
+<td style="text-align: left;">5.04</td>
+<td style="text-align: left;">9.54</td>
+<td style="text-align: left;">22.37**</td>
+<td style="text-align: left;">3.90</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_4"></td>
+<td style="text-align: left;">-0.04</td>
+<td style="text-align: left;">-0.06</td>
+<td style="text-align: left;">-0.03</td>
+<td style="text-align: left;">0.03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_5"></td>
+<td style="text-align: left;">0.07</td>
+<td style="text-align: left;">0.08</td>
+<td style="text-align: left;">0.98</td>
+<td style="text-align: left;">0.42</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_6"></td>
+<td style="text-align: left;">66.42**</td>
+<td style="text-align: left;">33.77**</td>
+<td style="text-align: left;">113.43**</td>
+<td style="text-align: left;">6.62</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_7"></td>
+<td style="text-align: left;">658.19**</td>
+<td style="text-align: left;">469.98**</td>
+<td style="text-align: left;">1332.00**</td>
+<td style="text-align: left;">101.92</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_8"></td>
+<td style="text-align: left;">0.68</td>
+<td style="text-align: left;">0.75</td>
+<td style="text-align: left;">4.43</td>
+<td style="text-align: left;">1.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_9"></td>
+<td style="text-align: left;">-0.31</td>
+<td style="text-align: left;">2.13</td>
+<td style="text-align: left;">1.24</td>
+<td style="text-align: left;">-0.29</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"></td>
+<td style="text-align: left;">0.10</td>
+<td style="text-align: left;">0.10</td>
+<td style="text-align: left;">0.99</td>
+<td style="text-align: left;">0.40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"></td>
+<td style="text-align: left;">1.29</td>
+<td style="text-align: left;">0.43</td>
+<td style="text-align: left;">3.97</td>
+<td style="text-align: left;">1.12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"></td>
+<td style="text-align: left;">2.65</td>
+<td style="text-align: left;">5.21</td>
+<td style="text-align: left;">15262.00**</td>
+<td style="text-align: left;">72.38**</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>In Table&nbsp;2: <img src="https://latex.codecogs.com/png.latex?X_1"> = Days to flowering, <img src="https://latex.codecogs.com/png.latex?X_2"> = Pod length (cm), <img src="https://latex.codecogs.com/png.latex?X_3"> = Pod breadth (cm), <img src="https://latex.codecogs.com/png.latex?X_4"> = Pod weight (g), <img src="https://latex.codecogs.com/png.latex?X_5"> = Pods per cluster, <img src="https://latex.codecogs.com/png.latex?X_6"> = Pods per plant, <img src="https://latex.codecogs.com/png.latex?X_7"> = Pod yield per plant (g), <img src="https://latex.codecogs.com/png.latex?X_8"> = Seeds per pod, <img src="https://latex.codecogs.com/png.latex?X_9"> = Days to first harvest, <img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"> = Primary branches per plant, <img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"> = 100-seed weight (g), <img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"> = Root weight (g).<br>
+Values marked with <code>**</code> are significant at 1% level (<img src="https://latex.codecogs.com/png.latex?p%20%3C%200.01">)</p>
+</blockquote>
+<div id="tbl-table3" class="quarto-layout-panel anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-table3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: : Estimates of genetic components of the three crosses for the various characteristics
+</figcaption>
+<div aria-describedby="tbl-table3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-table3" style="flex-basis: 100.0%;justify-content: center;">
+<div id="tbl-cross1a" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-cross1a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Cross 1
+</figcaption>
+<div aria-describedby="tbl-cross1a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Trait</th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?m"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?d"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?h"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?i"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?j"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?l"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_1"></td>
+<td style="text-align: left;">5.19</td>
+<td style="text-align: left;">-0.58</td>
+<td style="text-align: left;">5.45</td>
+<td style="text-align: left;">6.24</td>
+<td style="text-align: left;">-1.71</td>
+<td style="text-align: left;">-28.10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_2"></td>
+<td style="text-align: left;">11.74</td>
+<td style="text-align: left;">-0.36</td>
+<td style="text-align: left;">-39.95</td>
+<td style="text-align: left;">-39.96</td>
+<td style="text-align: left;">-0.05</td>
+<td style="text-align: left;">35.05</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_3"></td>
+<td style="text-align: left;">6.15</td>
+<td style="text-align: left;">8.84</td>
+<td style="text-align: left;">2.00</td>
+<td style="text-align: left;">2.63</td>
+<td style="text-align: left;">9.24</td>
+<td style="text-align: left;">-27.40</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_4"></td>
+<td style="text-align: left;">0.02</td>
+<td style="text-align: left;">-0.01</td>
+<td style="text-align: left;">-0.06</td>
+<td style="text-align: left;">-0.02</td>
+<td style="text-align: left;">-0.01</td>
+<td style="text-align: left;">0.04</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_5"></td>
+<td style="text-align: left;">0.21</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">-0.66</td>
+<td style="text-align: left;">-0.66</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">0.48</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_6"></td>
+<td style="text-align: left;">23.79</td>
+<td style="text-align: left;">0.80</td>
+<td style="text-align: left;">-38.27</td>
+<td style="text-align: left;">-36.76</td>
+<td style="text-align: left;">-3.30</td>
+<td style="text-align: left;">-6.14</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_7"></td>
+<td style="text-align: left;">113.33</td>
+<td style="text-align: left;">-30.32</td>
+<td style="text-align: left;">-271.71</td>
+<td style="text-align: left;">-263.71</td>
+<td style="text-align: left;">-27.29</td>
+<td style="text-align: left;">104.96</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_8"></td>
+<td style="text-align: left;">0.45</td>
+<td style="text-align: left;">0.13</td>
+<td style="text-align: left;">0.33</td>
+<td style="text-align: left;">0.32</td>
+<td style="text-align: left;">0.13</td>
+<td style="text-align: left;">-1.83</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_9"></td>
+<td style="text-align: left;">2.10</td>
+<td style="text-align: left;">-1.81</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">-0.04</td>
+<td style="text-align: left;">-2.05</td>
+<td style="text-align: left;">-6.53</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"></td>
+<td style="text-align: left;">0.39</td>
+<td style="text-align: left;">0.21</td>
+<td style="text-align: left;">-0.28</td>
+<td style="text-align: left;">-0.13</td>
+<td style="text-align: left;">0.21</td>
+<td style="text-align: left;">-0.63</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"></td>
+<td style="text-align: left;">1.48</td>
+<td style="text-align: left;">-0.10</td>
+<td style="text-align: left;">-4.00</td>
+<td style="text-align: left;">-3.94</td>
+<td style="text-align: left;">-0.10</td>
+<td style="text-align: left;">2.56</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"></td>
+<td style="text-align: left;">24.04</td>
+<td style="text-align: left;">0.28</td>
+<td style="text-align: left;">-75.97</td>
+<td style="text-align: left;">-76.46</td>
+<td style="text-align: left;">-0.92</td>
+<td style="text-align: left;">67.98</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-table3" style="flex-basis: 100.0%;justify-content: center;">
+<div id="tbl-cross2a" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-cross2a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Cross 2
+</figcaption>
+<div aria-describedby="tbl-cross2a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Trait</th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?m"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?d"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?h"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?i"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?j"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?l"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_1"></td>
+<td style="text-align: left;">7.19</td>
+<td style="text-align: left;">5.17</td>
+<td style="text-align: left;">-5.56</td>
+<td style="text-align: left;">-3.91</td>
+<td style="text-align: left;">5.89</td>
+<td style="text-align: left;">-15.93</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_2"></td>
+<td style="text-align: left;">12.27</td>
+<td style="text-align: left;">-5.73</td>
+<td style="text-align: left;">-31.16</td>
+<td style="text-align: left;">-31.81</td>
+<td style="text-align: left;">-5.79</td>
+<td style="text-align: left;">16.79</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_3"></td>
+<td style="text-align: left;">9.42</td>
+<td style="text-align: left;">-8.53</td>
+<td style="text-align: left;">-11.07</td>
+<td style="text-align: left;">-11.08</td>
+<td style="text-align: left;">-8.14</td>
+<td style="text-align: left;">-12.95</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_4"></td>
+<td style="text-align: left;">0.07</td>
+<td style="text-align: left;">-0.02</td>
+<td style="text-align: left;">-0.21</td>
+<td style="text-align: left;">-0.19</td>
+<td style="text-align: left;">-0.01</td>
+<td style="text-align: left;">0.14</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_5"></td>
+<td style="text-align: left;">0.21</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">-0.58</td>
+<td style="text-align: left;">-0.57</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">0.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_6"></td>
+<td style="text-align: left;">49.66</td>
+<td style="text-align: left;">7.54</td>
+<td style="text-align: left;">-134.56</td>
+<td style="text-align: left;">-145.19</td>
+<td style="text-align: left;">9.05</td>
+<td style="text-align: left;">121.71</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_7"></td>
+<td style="text-align: left;">104.44</td>
+<td style="text-align: left;">47.98</td>
+<td style="text-align: left;">-187.63</td>
+<td style="text-align: left;">-185.11</td>
+<td style="text-align: left;">44.92</td>
+<td style="text-align: left;">-24.46</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_8"></td>
+<td style="text-align: left;">0.41</td>
+<td style="text-align: left;">0.13</td>
+<td style="text-align: left;">0.40</td>
+<td style="text-align: left;">0.12</td>
+<td style="text-align: left;">0.21</td>
+<td style="text-align: left;">-1.01</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_9"></td>
+<td style="text-align: left;">5.25</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">-16.12</td>
+<td style="text-align: left;">-17.01</td>
+<td style="text-align: left;">0.16</td>
+<td style="text-align: left;">18.01</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"></td>
+<td style="text-align: left;">0.55</td>
+<td style="text-align: left;">-0.36</td>
+<td style="text-align: left;">-0.56</td>
+<td style="text-align: left;">-0.52</td>
+<td style="text-align: left;">-0.24</td>
+<td style="text-align: left;">-0.11</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"></td>
+<td style="text-align: left;">1.06</td>
+<td style="text-align: left;">-0.63</td>
+<td style="text-align: left;">-0.82</td>
+<td style="text-align: left;">-0.88</td>
+<td style="text-align: left;">-0.66</td>
+<td style="text-align: left;">-2.14</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"></td>
+<td style="text-align: left;">25.16</td>
+<td style="text-align: left;">-4.48</td>
+<td style="text-align: left;">-33.35</td>
+<td style="text-align: left;">-31.31</td>
+<td style="text-align: left;">-3.56</td>
+<td style="text-align: left;">-28.19</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-table3" style="flex-basis: 100.0%;justify-content: center;">
+<div id="tbl-cross3a" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-cross3a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(c) Cross 3
+</figcaption>
+<div aria-describedby="tbl-cross3a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Trait</th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?m"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?d"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?h"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?i"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?j"></th>
+<th style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?l"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_1"></td>
+<td style="text-align: left;">7.03</td>
+<td style="text-align: left;">8.51</td>
+<td style="text-align: left;">-5.92</td>
+<td style="text-align: left;">-5.66</td>
+<td style="text-align: left;">8.81</td>
+<td style="text-align: left;">-14.51</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_2"></td>
+<td style="text-align: left;">5.67</td>
+<td style="text-align: left;">-0.40</td>
+<td style="text-align: left;">-19.23</td>
+<td style="text-align: left;">-18.78</td>
+<td style="text-align: left;">-0.47</td>
+<td style="text-align: left;">17.17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_3"></td>
+<td style="text-align: left;">6.54</td>
+<td style="text-align: left;">-2.05</td>
+<td style="text-align: left;">-6.60</td>
+<td style="text-align: left;">-7.79</td>
+<td style="text-align: left;">-2.25</td>
+<td style="text-align: left;">-6.80</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_4"></td>
+<td style="text-align: left;">0.03</td>
+<td style="text-align: left;">-0.01</td>
+<td style="text-align: left;">-0.13</td>
+<td style="text-align: left;">-0.06</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">0.16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_5"></td>
+<td style="text-align: left;">0.25</td>
+<td style="text-align: left;">-0.01</td>
+<td style="text-align: left;">-0.82</td>
+<td style="text-align: left;">-0.83</td>
+<td style="text-align: left;">-0.01</td>
+<td style="text-align: left;">0.68</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_6"></td>
+<td style="text-align: left;">29.19</td>
+<td style="text-align: left;">16.38</td>
+<td style="text-align: left;">-13.57</td>
+<td style="text-align: left;">-13.25</td>
+<td style="text-align: left;">16.32</td>
+<td style="text-align: left;">-86.94</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_7"></td>
+<td style="text-align: left;">477.49</td>
+<td style="text-align: left;">-7.18</td>
+<td style="text-align: left;">-322.17</td>
+<td style="text-align: left;">-203.83</td>
+<td style="text-align: left;">94.11</td>
+<td style="text-align: left;">-924.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_8"></td>
+<td style="text-align: left;">1.33</td>
+<td style="text-align: left;">-0.04</td>
+<td style="text-align: left;">-2.86</td>
+<td style="text-align: left;">-3.00</td>
+<td style="text-align: left;">-0.04</td>
+<td style="text-align: left;">1.57</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_9"></td>
+<td style="text-align: left;">1.40</td>
+<td style="text-align: left;">-0.96</td>
+<td style="text-align: left;">1.93</td>
+<td style="text-align: left;">0.59</td>
+<td style="text-align: left;">-1.22</td>
+<td style="text-align: left;">-2.41</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"></td>
+<td style="text-align: left;">0.45</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">-0.71</td>
+<td style="text-align: left;">-0.79</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">0.60</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"></td>
+<td style="text-align: left;">1.06</td>
+<td style="text-align: left;">0.38</td>
+<td style="text-align: left;">-2.28</td>
+<td style="text-align: left;">-2.24</td>
+<td style="text-align: left;">0.43</td>
+<td style="text-align: left;">0.52</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"></td>
+<td style="text-align: left;">40.04</td>
+<td style="text-align: left;">-1.60</td>
+<td style="text-align: left;">-142.43</td>
+<td style="text-align: left;">-144.76</td>
+<td style="text-align: left;">-1.28</td>
+<td style="text-align: left;">136.91</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>In Table&nbsp;3: <img src="https://latex.codecogs.com/png.latex?X_1"> = Days to flowering, <img src="https://latex.codecogs.com/png.latex?X_2"> = Pod length (cm), <img src="https://latex.codecogs.com/png.latex?X_3"> = Pod breadth (cm), <img src="https://latex.codecogs.com/png.latex?X_4"> = Pod weight (g), <img src="https://latex.codecogs.com/png.latex?X_5"> = Pods per cluster, <img src="https://latex.codecogs.com/png.latex?X_6"> = Pods per plant, <img src="https://latex.codecogs.com/png.latex?X_7"> = Pod yield per plant (g), <img src="https://latex.codecogs.com/png.latex?X_8"> = Seeds per pod, <img src="https://latex.codecogs.com/png.latex?X_9"> = Days to first harvest, <img src="https://latex.codecogs.com/png.latex?X_%7B10%7D"> = Primary branches per plant, <img src="https://latex.codecogs.com/png.latex?X_%7B11%7D"> = 100-seed weight (g), <img src="https://latex.codecogs.com/png.latex?X_%7B12%7D"> = Root weight (g).<br>
+<img src="https://latex.codecogs.com/png.latex?m"> = mean, <img src="https://latex.codecogs.com/png.latex?d"> = additive effect, <img src="https://latex.codecogs.com/png.latex?h"> = dominance effect, <img src="https://latex.codecogs.com/png.latex?i"> = additive × additive, <img src="https://latex.codecogs.com/png.latex?j"> = additive × dominance, <img src="https://latex.codecogs.com/png.latex?l"> = dominance × dominance</p>
+</blockquote>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="discussion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="discussion">Discussion</h2>
+<p>The significance of scales <img src="https://latex.codecogs.com/png.latex?A"> and <img src="https://latex.codecogs.com/png.latex?B"> for most traits indicates that the simple additive-dominance model is inadequate for explaining their inheritance, as reported by <span class="citation" data-cites="thakare2016genetic">Thakare et al. (2016)</span> and <span class="citation" data-cites="kudiabor2023gene">Kudiabor et al. (2023)</span>. Non-allelic interactions, alongside additive and dominance components, were observed in the expression of several traits, similar to the findings of <span class="citation" data-cites="edematie2021inheritance">Edematie et al. (2021)</span> and <span class="citation" data-cites="akombo2021">Akombo et al. (2021)</span>.</p>
+<p>Significant additive × additive (<img src="https://latex.codecogs.com/png.latex?i">) interactions were found for pod length, pods per plant, pod yield per plant, and root weight, suggesting complementary or duplicate epistasis. Non-allelic interactions were also evident in traits like days to first flowering. Here, additive effects were highly significant, and additive × dominance (<img src="https://latex.codecogs.com/png.latex?j">) interactions were also observed. Dominance × dominance (<img src="https://latex.codecogs.com/png.latex?l">) interactions acted in a favorable negative direction in all hybrids. Similar epistatic interactions for early flowering and duplicate epistasis for traits like days to 90% pod maturity in cowpea were reported by <span class="citation" data-cites="patel2013">Patel et al. (2013)</span>, <span class="citation" data-cites="thakare2016genetic">Thakare et al. (2016)</span>, and <span class="citation" data-cites="owusu2022generation">Owusu et al. (2022)</span>.</p>
+<p>These findings imply that earliness in cowpea could be improved through hybridization followed by the selection of promising recombinants in later generations, particularly in crosses governed by duplicate epistasis.</p>
+<p>The significance of scales <img src="https://latex.codecogs.com/png.latex?C"> and <img src="https://latex.codecogs.com/png.latex?D"> for pod length further supports the involvement of dominance × dominance and additive × additive interactions in this trait. Significant additive (<img src="https://latex.codecogs.com/png.latex?d">) and dominance (<img src="https://latex.codecogs.com/png.latex?h">) effects for pod length were also reported by <span class="citation" data-cites="rashwan2010estimation">Rashwan (2010)</span> and Thakare et al.&nbsp;(2013).</p>
+<p>Among epistatic interactions, dominance × dominance (<img src="https://latex.codecogs.com/png.latex?l">), additive × additive (<img src="https://latex.codecogs.com/png.latex?i">), and additive × dominance (<img src="https://latex.codecogs.com/png.latex?j">) were observed in different crosses. In the case of pod weight, both dominance effects and additive × additive interactions were significant but acted in a negative direction. However, the positive significance of dominance × dominance interactions suggests that hybridization followed by selection would be an effective strategy for improving this trait.</p>
+<p>All three types of digenic interactions (<img src="https://latex.codecogs.com/png.latex?i">, <img src="https://latex.codecogs.com/png.latex?j">, <img src="https://latex.codecogs.com/png.latex?l">) were observed for pods per plant. While additive × dominance (<img src="https://latex.codecogs.com/png.latex?j">) was positive and significant, both dominance (<img src="https://latex.codecogs.com/png.latex?h">) and additive × additive (<img src="https://latex.codecogs.com/png.latex?i">) effects acted in the negative direction. The presence of non-allelic interactions for this trait aligns with the findings of <span class="citation" data-cites="thakare2016genetic">Thakare et al. (2016)</span> and <span class="citation" data-cites="edematie2021inheritance">Edematie et al. (2021)</span>. Significant positive dominance (<img src="https://latex.codecogs.com/png.latex?h">) and dominance × dominance (<img src="https://latex.codecogs.com/png.latex?l">) interactions suggest the presence of complementary epistasis. In contrast, the negative significance of dominance × dominance (<img src="https://latex.codecogs.com/png.latex?l">) for pod yield per plant implies limited potential for improvement through heterosis breeding for this trait.</p>
+<p>The direction of dominance and dominance × dominance interactions indicated duplicate gene action in the expression of traits such as pod weight, pod breadth, pods per cluster, seeds per pod, root weight per plant, and days to first harvest. Dominance was found to play a role in all traits, especially pod length, as reported by <span class="citation" data-cites="santos2024genetic">Santos et al. (2024)</span> and <span class="citation" data-cites="pallavi2019generation">Pallavi, Singh, and Chaudhary (2019)</span>.</p>
+<p>Both additive × additive and dominance × dominance interactions were significant for root weight per plant, while the insignificance of all four scale tests (<img src="https://latex.codecogs.com/png.latex?A">, <img src="https://latex.codecogs.com/png.latex?B">, <img src="https://latex.codecogs.com/png.latex?C">, <img src="https://latex.codecogs.com/png.latex?D">) for traits like pod breadth, pods per cluster, seeds per pod, days to first harvest, primary branches per plant, and 100-seed weight indicates the adequacy of the additive-dominance model for these traits, and the absence of epistasis. Nonetheless, duplicate epistasis for most yield-related traits in cowpea was previously reported by <span class="citation" data-cites="shinde2021generation">Shinde et al. (2021)</span>.</p>
+</section>
+<section id="conclusion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The generation mean analysis conducted on three cowpea crosses revealed complex genetic control for several important agronomic traits. While the mean effect was highly significant for all key traits, indicating their quantitative nature, the inadequacy of the simple additive-dominance model—evidenced by significant scale tests and the presence of epistasis—highlights the role of non-allelic gene interactions in trait inheritance. Additive × additive, additive × dominance, and dominance × dominance interactions were frequently observed across traits such as pod length, pod yield per plant, pods per plant, and root weight. The predominance of duplicate and complementary epistasis suggests that hybridization followed by selection in segregating generations would be an effective breeding strategy for improving these traits.</p>
+<p>Traits like pod breadth, seeds per pod, and 100-seed weight showed no significant epistasis, indicating that selection based on the additive-dominance model may suffice for their improvement. Conversely, traits influenced by significant non-additive gene actions, such as pod yield and pod weight, may benefit more from recombination breeding approaches. Overall, this study underscores the importance of understanding the underlying gene action for designing appropriate breeding strategies. The insights gained provide a valuable foundation for improving yield and related traits in cowpea through targeted hybridization and selection efforts.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Acknowledgments">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Acknowledgments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The first author gratefully acknowledges the Council of Scientific and Industrial Research (CSIR), Government of India, for awarding the Junior Research Fellowship (JRF) in support of the Ph.D.&nbsp;programme.</p>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-akombo2021" class="csl-entry">
+Akombo, R. A., M. O. Adeyemo, P. E. Odo, and T. Vange. 2021. <span>“Generation Mean Analysis for Harvest and Leaf-Yield Indices in Cowpea.”</span> <em>Greener Journal of Plant Breeding and Crop Science</em> 9 (1): 8–18.
+</div>
+<div id="ref-benchasri2012evaluation" class="csl-entry">
+Benchasri, S., B. Bairaman, and C. Nualsri. 2012. <span>“Evaluation of Yard Long Bean and Cowpea for Resistance to Aphis Craccivora Koch in Southern Part of Thailand.”</span> <em>Journal of Animal and Plant Sciences</em> 22: 1024–29.
+</div>
+<div id="ref-edematie2021inheritance" class="csl-entry">
+Edematie, V. E., C. Fatokun, O. Boukar, V. O. Adetimirin, and P. L. Kumar. 2021. <span>“Inheritance of Pod Length and Other Yield Components in Two Cowpea and Yard-Long Bean Crosses.”</span> <em>Agronomy</em> 11 (4): 682. <a href="https://doi.org/10.3390/agronomy11040682">https://doi.org/10.3390/agronomy11040682</a>.
+</div>
+<div id="ref-hayman1958separation" class="csl-entry">
+Hayman, B. 1958. <span>“The Separation of Epistatic from Additive and Dominance Variation in Generation Means.”</span> <em>Heredity</em> 12: 371–90. <a href="https://doi.org/10.1038/hdy.1958.36">https://doi.org/10.1038/hdy.1958.36</a>.
+</div>
+<div id="ref-mohammed2025raisins" class="csl-entry">
+Hisham M, M., J. Chandran, and P. P. Gopinath. 2025. <span>“RAISINS: Integrating r and AI for Agricultural Data Analysis.”</span> <em>Journal of Sustainable Technology in Agriculture</em> 1 (1). <a href="https://doi.org/10.5281/zenodo.15622128">https://doi.org/10.5281/zenodo.15622128</a>.
+</div>
+<div id="ref-kudiabor2023gene" class="csl-entry">
+Kudiabor, R. B., J. S. Y. Eleblu, B. Hodasi, and E. Y. Danquah. 2023. <span>“Gene Action Controlling Seed Size in Cowpea (Vigna Unguiculata l. Walp).”</span> <em>Science and Development</em> 7 (1).
+</div>
+<div id="ref-mather1949biometrical" class="csl-entry">
+Mather, K. 1949. <em>Biometrical Genetics</em>. New York: Dover Publications Inc.
+</div>
+<div id="ref-owusu2022generation" class="csl-entry">
+Owusu, E. Y., F. Kusi, A. W. Kena, R. Akromah, F. J. Awuku, P. Attamah, and G. Mensah. 2022. <span>“Generation Mean Analysis of the Key Earliness Related Traits in Cowpea (Vigna Unguiculata (l.) Walp).”</span> <em>Scientific African</em> 17: e01289. <a href="https://doi.org/10.1016/j.sciaf.2022.e01289">https://doi.org/10.1016/j.sciaf.2022.e01289</a>.
+</div>
+<div id="ref-pallavi2019generation" class="csl-entry">
+Pallavi, A. Singh, and S. Chaudhary. 2019. <span>“Generation Mean Analysis Using Six Parameters Genetic Model for Quantitative Traits in Cowpea [(Vigna Unguiculata (l.) Walp.)].”</span> <em>International Journal of Current Microbiology and Applied Sciences</em> 8 (02): 1967–73. <a href="https://doi.org/10.20546/ijcmas.2019.802.230">https://doi.org/10.20546/ijcmas.2019.802.230</a>.
+</div>
+<div id="ref-patel2013" class="csl-entry">
+Patel, H., J. B. Patel, S. C. Sharma, and S. Acharya. 2013. <span>“Genetics of Seed Yield and Its Components in Cowpea [Vigna Unguiculata (l.) Walp.].”</span> <em>Trends in Biosciences</em> 6: 631–36.
+</div>
+<div id="ref-peyrano2016physicochemical" class="csl-entry">
+Peyrano, F., F. Speroni, and M. V. Avanza. 2016. <span>“Physicochemical and Functional Properties of Cowpea Protein Isolates Treated with Temperature or High Hydrostatic Pressure.”</span> <em>Innovative Food Science &amp; Emerging Technologies</em> 33: 38–46.
+</div>
+<div id="ref-rashwan2010estimation" class="csl-entry">
+Rashwan, A. M. A. 2010. <span>“Estimation of Some Genetic Parameters Using Six Population of Two Cowpea Hybrids.”</span> <em>Asian Journal of Crop Science</em> 2 (4): 261–67.
+</div>
+<div id="ref-santos2024genetic" class="csl-entry">
+Santos, S. P., M. S. Araújo, W. F. L. Aragão, K. J. D. Silva, and M. M. Rocha. 2024. <span>“Genetic Analysis of Yield Component Traits in Cowpea [Vigna Unguiculata (l.) Walp.].”</span> <em>Crop Breeding and Applied Biotechnology</em> 24 (1). <a href="https://doi.org/10.1590/1984-70332024v24n1a03">https://doi.org/10.1590/1984-70332024v24n1a03</a>.
+</div>
+<div id="ref-shinde2021generation" class="csl-entry">
+Shinde, R. J., V. N. Toprope, P. R. Sargar, V. R. Dhakne, and S. S. Chavan. 2021. <span>“Generation Mean Analysis Studies in Cowpea (Vigna Unguiculata l. Walp).”</span> <em>International Journal of Theoretical &amp; Applied Sciences</em> 13 (2): 22–25.
+</div>
+<div id="ref-thakare2016genetic" class="csl-entry">
+Thakare, D. S., M. S. Bhailume, R. C. Rokade, S. C. Pulate, and V. P. Chimote. 2016. <span>“Genetic Analysis of Various Yield Components in Cowpea.”</span> <em>International Journal of Tropical Agriculture</em> 34 (6).
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Technical Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Technical Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The RAISINS <span class="citation" data-cites="mohammed2025raisins">(Hisham M, Chandran, and Gopinath 2025)</span> online statistical analysis platform was extensively utilized for analyzing Randomized Block Designs (RBD) and generating associated descriptive statistics. However, these aspects were not elaborated upon in the paper.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong><br>
+- <em>Submitted:</em> 13 June 2025<br>
+- <em>Peer Review:</em> 14 June 2025<br>
+- <em>Accepted:</em> 17 June 2025<br>
+- <em>Published (Online):</em> 17 June 2025</p>
+<p><strong>Reviewer Information</strong>&nbsp;</p>
+<p><em>Reviewer 1</em>:<br>
+Anonymous&nbsp;</p>
+<p><em>Reviewer 2</em>:</p>
+<p><strong>Dr.Gayathri G.</strong><br>
+Assistant Professor&nbsp; Plant Breeding &amp; Genetics Kerala Agricultural University</p>
+</div>
+</div>
+<section id="section" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section"></h3>
+
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Orignal-Article</category>
+  <category>Plant-Science</category>
+  <category>Crops</category>
+  <guid>https://www.jostapubs.com/volume1/lovelyB/generationmean.html</guid>
+  <pubDate>Mon, 16 Jun 2025 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>RAISINS: Integrating R and AI for Agricultural Data Analysis</title>
   <dc:creator>Mohammed Hisham M.</dc:creator>
   <dc:creator>Jithin Chandran</dc:creator>
-  <dc:creator>Pratheesh P Gopinath*</dc:creator>
+  <dc:creator>Pratheesh P Gopinath&lt;sup&gt;*&lt;/sup&gt;</dc:creator>
   <link>https://www.jostapubs.com/volume1/josta111raisins2025.html</link>
   <description><![CDATA[ 
 
@@ -32,7 +1417,7 @@
 </button>
 </div>
 <!-- Hidden Citation Text -->
-<p><span id="citation-text" style="display: none;">Mohammed, H. M., Chandran, J., &amp; Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128</span></p>
+<p><span id="citation-text" style="display: none;">Hisham M, M., Chandran, J., &amp; Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128</span></p>
 <!-- JavaScript -->
 <script>
   function copyCitation() {
@@ -122,8 +1507,8 @@ Table&nbsp;1: Foundational literature supporting each RAISINS module domain, org
 <div aria-describedby="tbl-foundation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 34%">
-<col style="width: 65%">
+<col style="width: 50%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">

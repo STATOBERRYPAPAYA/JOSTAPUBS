@@ -56,11 +56,7 @@
 \IfFileExists{upquote.sty}{\RequirePackage{upquote}}{}
 \IfFileExists{lmodern.sty}{\RequirePackage{lmodern}}{}
 %% bibliography
-\if@shortnames
-  \usepackage[authoryear,round]{natbib}
-\else
-  \usepackage[authoryear,round,longnamesfirst]{natbib}
-\fi
+\usepackage[authoryear,round]{natbib}
 \bibpunct{(}{)}{;}{a}{}{,}
 \bibliographystyle{jss}
 %% page layout

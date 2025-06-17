@@ -39,6 +39,7 @@ website:
             - section: "Issue1"
               contents:
               - volume1/josta111raisins2025.qmd
+              - volume1/lovelyB/generationmean.qmd
               # - volume1/paper2.qmd
       # - categories.qmd
       - editorial.qmd

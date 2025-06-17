@@ -1,0 +1,436 @@
+---
+title: "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis"
+author:
+  - name: Lovely B.<sup>*</sup>
+    affiliations:
+      - name: Kerala Agricultural University 
+        department:  Department of Plant Breeding & Genetics
+        city: Trivandrum
+        country: India
+        postal-code: 695522  
+    url: https://kau.in/people/dr-lovely-b
+    email: lovely.b@kau.in
+    note: Corresponding author
+  - name: Radhadevi D.S
+    affiliations:
+      - name: Kerala Agricultural University
+        address: Vellanikara
+        city: Trissur
+        country: India
+        postal-code: 680656  
+  - name: Vijayaraghava Kumar
+    affiliations:
+      - name: Kerala Agricultural University
+        address: Vellanikara
+        city: Trissur
+        country: India
+        postal-code: 680656  
+        
+abstract: |
+   Vegetable cowpea [*Vigna unguiculata* ssp. *sesquipedalis* (L.) Verdc.] is a distinct form of cowpea cultivated in southern Asia and the Far East for its immature pods. Six parameter generation mean analysis of three cowpea crosses revealed complex gene action for several yield-related traits. Significant scale tests and epistasis indicated the inadequacy of the simple additive-dominance model, underscoring the role of non-allelic interactions in trait inheritance. Additive × additive, additive × dominance, and dominance × dominance effects were observed for traits such as pod length, pod yield per plant, pods per plant, and root weight. The presence of duplicate and complementary epistasis suggests that hybridization followed by selection in segregating generations would be effective for improving these traits. Traits like pod breadth, seeds per pod, and 100-seed weight, which lacked significant epistasis, can be improved using additive-dominance models. Recombination breeding is recommended for enhancing pod yield and pod weight.  
+   
+keywords: [vegetable cowpea, non-allelic interaction, duplicate and complementary epistasis, scale values, genetic components]  
+bibliography: lovelybiblio.bib
+date: 2025-06-17
+path: "volume1/lovelyB/generationmean.html"
+categories: [ Orignal-Article,Plant-Science, Crops]
+status: Published (Online)
+doi: 10.5281/zenodo.15684703 
+---  
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15684703.svg)](https://doi.org/10.5281/zenodo.15684703) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
+
+::: {style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;"}
+<!-- Download PDF Button -->
+
+<a href="pdfs/generationmean.pdf" download class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a>
+
+<!-- Copy Citation Button -->
+
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+
+📋 Copy Citation [Citation copied!]{#tooltip}
+
+</button>
+:::
+
+<!-- Hidden Citation Text -->
+
+[Lovely, B., Radhadevi, D. S., & Kumar, V. (2025). Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15684703]{#citation-text style="display: none;"}
+
+<!-- JavaScript -->
+
+```{=html}
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+```
+
+<!-- CSS Styling -->
+
+```{=html}
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+```
+
+## Introduction
+
+The yardlong bean is one of the most important leguminous vegetables in Asia. Also known as the asparagus bean, string bean, snake bean, or snake pea, it was originally cultivated in West Africa and is now widely grown throughout Southeast Asia—including Malaysia, the Philippines, Indonesia, and Thailand—where it can be cultivated year-round. In India, it has been known since Vedic times [@benchasri2012evaluation].
+
+Typically harvested while still young, the yardlong bean is consumed as a green vegetable. It is an annual plant characterized by rapid growth, especially when supported by a trellis. Both tall and short climbing types exist. A member of the Fabaceae family, the plant features twining, delicate stems with a tenacious root system. It blooms in mid-summer, producing pairs of large white or purple flowers. Once pollinated, these flowers develop into slender, dark green beans that can grow up to 12 inches in just a few days. Mature beans can reach lengths of up to three feet, turning pale green and swelling as the red or black seeds ripen.
+
+The yardlong bean also contributes to soil fertility by fixing atmospheric nitrogen through nodules on its roots. It is often referred to as the “poor man’s meat” because its pods are not only rich in protein (23–32% of seed weight) but also contain essential amino acids like lysine and tryptophan, as well as significant levels of folic acid, vitamin B, and other critical micronutrients [@peyrano2016physicochemical]. As such, it serves as a key dietary staple for many of the poorest populations in developing countries.
+
+Despite its nutritional and agricultural importance, relatively little breeding work has been conducted on this crop. The development of high-yielding, stress-tolerant varieties could significantly boost its cultivation and productivity. However, as a predominantly self-pollinated crop, studies on gene action in yardlong bean remain limited. This study aims to identify gene action governing yield-related traits, which will help inform new breeding strategies to enhance crop improvement efforts.
+
+## Materials and methods
+
+The genetic material used in the present study consisted of hybrid ($F_1$) plants derived from three promising crosses, along with their six respective parents. The selected parental inbred lines were chosen based solely on differences in yield-related traits. Three single-cross $F_1$ hybrids were developed using parents with contrasting characteristics.
+
+The three most promising hybrids, based on yield performance and disease resistance from a previous study, were selected for further evaluation. The $F_1$ hybrids were backcrossed to their respective parents to generate backcross (BC) generations. Simultaneously, the $F_1$ hybrids were self-pollinated to produce the corresponding $F_2$ populations.
+
+Generation mean analysis was conducted using eighteen populations in total: the three $F_1$s, their six parents, six backcross generations, and three $F_2$ populations. The experiment was laid out in a randomized block design (RBD) with three replications in the College of Agriculture, Vellayani during Summer 2004. Standard crop management practices were followed throughout the study. Observations on yield and yield-related traits were recorded from 10 plants each for the $F_1$, parent, and backcross generations. For the $F_2$ populations, data were collected from 30 plants per cross.
+
+### Generation Mean Analysis
+
+The six-parameter model developed by Hayman [@hayman1958separation] was used for generation mean analysis. The four scaling tests ($A$, $B$, $C$, and $D$) were determined according to the method suggested by Mather [@mather1949biometrical]. These different scales are computed using simple linear combinations as given in @eq-A to @eq-D.
+
+$$A = 2\overline{B_1} - \overline{F_1} - P_1 = 0$$ {#eq-A}
+
+$$B = 2\overline{B_2} - \overline{F_1} - \overline{P_2} = 0$$ {#eq-B}
+
+$$C = 4\overline{F_2} - 2\overline{F_1} - \overline{P_1} - \overline{P_2} = 0$$ {#eq-C}
+
+$$D = 4\overline{F_3} - 2\overline{F_2} - \overline{P_1} - \overline{P_2} = 0 \quad \text{or} \quad D = 2\overline{F_2} - \overline{B_2} - \overline{B_1}$$ {#eq-D}
+
+Where $P_1$, $P_2$, $F_1$, $F_2$, $B_1$, and $B_2$ are means of different generations, respectively. The variances of the quantities $A$, $B$, $C$, and $D$ were calculated from the respective variances of different generations as given from @eq-VA to @eq-VD.
+
+$$V_A = 4V_{\overline{B_1}} + V_{\overline{F_1}} + V_{\overline{P_1}}$$ {#eq-VA}
+
+$$V_B = 4V_{\overline{B_2}} + V_{\overline{F_1}} + V_{\overline{P_2}}$$ {#eq-VB}
+
+$$V_C = 16V_{\overline{F_2}} + 4V_{\overline{F_1}} + V_{\overline{P_1}} + V_{\overline{P_2}}$$ {#eq-VC}
+
+$$V_D = 16V_{\overline{F_3}} + 4V_{\overline{F_2}} + V_{\overline{P_1}} + V_{\overline{P_2}}$$ {#eq-VD}
+
+Where, $V_{P_1}$ is the variance of the individuals within the $P_1$ family; $V_{\overline{P_1}}$ is the variance of ${\overline{P_1}}$ (mean of the $P_1$ family); and $\overline{V_{P_1}} = \frac{V_{P_1}}{N}$, where $N$ is the number of individuals observed in the $P_1$ family.
+
+The standard error of $A$, $B$, $C$, and $D$ is calculated by taking the square root of their respective variances. The corresponding $t$ values are computed by dividing the values of $A$, $B$, $C$, and $D$ by their respective standard errors.
+
+Significance of any of the four scales indicates the inadequacy of the additive-dominance model and the presence of epistasis. If the calculated $t$ values are found to be significant, the presence of specific types of epistasis is confirmed.
+
+The significance of either one or both of the $A$ and $B$ scales indicates the presence of all three types of digenic interaction, namely additive × additive, additive × dominance, and dominance × dominance. The significance of scale $C$ indicates the presence of dominance × dominance type of non-allelic interaction, while the significance of scale $D$ denotes additive × additive type of gene action. When both $C$ and $D$ scales are significant, it suggests the presence of both additive × additive and dominance × dominance types of gene interaction.
+
+### Estimation of gene effects
+
+Significance of any of the scales $A$, $B$, $C$ and $D$ will indicate the presence of epistatic interaction or digenic interactions. Hayman and Jinks and Jones gave a 6 parameter model for the estimation of various genetic components. The six genetic parameters were estimated using @eq-eq1 to @eq-eq6.
+
+$$m = \overline{F_2}$$ {#eq-eq1}
+
+$$d = \overline{B_1} - \overline{B_2}$$ {#eq-eq2}
+
+$$h = \overline{F_1} - 4\overline{F_2} - \frac{\overline{P_1}}{2}- \frac{\overline{P_2}}{2} + 2\overline{B_1} + 2\overline{B_2}$$ {#eq-eq3}
+
+$$i = 2\overline{B_1} + 2\overline{B_2} - 4\overline{F_2}$$ {#eq-eq4}
+
+$$j = \overline{B_1} - \frac{\overline{P_1}}{2} - \overline{B_2} + \frac{\overline{P_2}}{2}$$ {#eq-eq5}
+
+$$l = \overline{P_1} + \overline{P_2} + 2\overline{F_1} + 4\overline{F_2} - 4\overline{B_1} - 4\overline{B_2}$$ {#eq-eq6}
+
+Where $m$ = mean; $d$ = additive effect; $h$ = dominance effect; $i$ = additive x additive gene interaction; $j$ = additive x dominance gene interaction; $l$ = dominance x dominance gene interaction.
+
+The variances of the six genetic parameters were calculated using @eq-vm to @eq-vl
+
+$$(m) = V_{\overline{F_2}}$$ {#eq-vm}
+
+$$V(d) = V_{\overline{B_1}} + V_{\overline{B_2}}$$ {#eq-vd}
+
+$$V(h) = V_{\overline{F_1}} + 16V_{\overline{F_2}} + \frac{V_{\overline{P_1}}}{4} + \frac{V_{\overline{P_2}}}{4} + 4V_{\overline{B_1}} + 4V_{\overline{B_2}}$$ {#eq-vh}
+
+$$V(i) = 4V_{\overline{B_1}} + 4V_{\overline{B_2}} + 16V_{\overline{F_2}}$$ {#eq-vi}
+
+$$V(j) = V_{\overline{B_1}} + \frac{V_{\overline{P_1}}}{4} + V_{\overline{B_2}} + \frac{V_{\overline{P_2}}}{4}$$ {#eq-vj}
+
+$$V(l) = 4V_{\overline{P_1}} + 4V_{\overline{P_2}} + 4V_{\overline{F_1}} + 16V_{\overline{F_2}} + 16V_{\overline{B_1}} + 16V_{\overline{B_2}}$$ {#eq-vl}
+
+## Results
+
+Generation mean analysis is a statistical technique used to estimate the components of variance and determine the predominant type of gene action controlling important traits in a crop species. This analysis assists in selecting appropriate breeding strategies for the improvement of various quantitative traits.
+
+Generation mean analysis was conducted for three cowpea crosses:
+
+-   Cross 1: VS86 × VS132\
+-   Cross 2: Kozhicode Local-2 × Thiruvananthapuram Local-12\
+-   Cross 3: Thiruvananthapuram Local-9 × Thiruvananthapuram Local-12
+
+The mean values of the six generations ($P_1$, $P_2$, $F_1$, $F_2$, $B_1$, and $B_2$) for each cross are presented in @tbl-table1. Among them, the $F_1$ of Cross 3 flowered the earliest (38.4 days), while Cross 1 was harvested the earliest (58.1 days). The $F_1$ of Cross 2 exhibited the highest pod yield per plant (454.91 g), whereas the $B_2$ generation of Cross 1 recorded the maximum yield overall (485.67 g).
+
+The scale values and genetic component estimates for the various traits across the three crosses are shown in @tbl-table2 and @tbl-table3. The estimated mean effect ($m$) was highly significant for traits such as days to flowering, pod length, pod breadth, pods per plant, pod yield per plant, and root weight across all crosses, indicating that these traits are quantitatively inherited.
+
+As shown in @tbl-table3, significant negative dominant effects ($h$) were observed for pod length and pod yield per plant, suggesting that these traits are more prominently expressed in homozygous individuals.
+
+| Cross | Gen | $X_1$ | $X_2$ | $X_3$ | $X_4$ | $X_5$ | $X_6$ | $X_7$ | $X_8$ | $X_9$ | $X_{10}$ | $X_{11}$ | $X_{12}$ |
+|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| Cross 1 | F1 | 39.90 | 50.43 | 2.34 | 21.20 | 3.12 | 23.18 | 356.84 | 20.23 | 58.10 | 3.10 | 15.27 | 35.50 |
+|  | F2 | 44.10 | 45.05 | 2.18 | 16.80 | 2.70 | 25.75 | 481.53 | 19.05 | 59.00 | 3.25 | 19.76 | 39.40 |
+|  | P1 | 47.07 | 38.56 | 2.30 | 11.73 | 2.15 | 21.88 | 250.93 | 19.73 | 59.60 | 2.40 | 14.33 | 43.20 |
+|  | P2 | 48.27 | 50.75 | 2.30 | 21.69 | 2.94 | 14.68 | 298.07 | 21.27 | 57.80 | 3.60 | 19.34 | 30.20 |
+|  | B1 | 45.27 | 41.20 | 2.23 | 19.68 | 2.66 | 23.73 | 477.32 | 18.93 | 59.13 | 2.73 | 18.93 | 39.00 |
+|  | B2 | 45.40 | 47.87 | 2.19 | 21.07 | 2.45 | 19.92 | 485.67 | 19.73 | 60.27 | 3.53 | 17.38 | 39.53 |
+| Cross 2 | F1 | 41.53 | 53.97 | 2.68 | 21.81 | 3.14 | 28.51 | 454.91 | 19.80 | 60.10 | 3.40 | 17.60 | 34.60 |
+|  | F2 | 43.90 | 50.91 | 2.26 | 15.51 | 2.75 | 29.91 | 465.82 | 18.70 | 58.45 | 3.05 | 19.36 | 30.80 |
+|  | P1 | 57.20 | 48.37 | 2.20 | 18.83 | 2.58 | 10.23 | 293.54 | 18.00 | 58.40 | 3.20 | 18.31 | 40.20 |
+|  | P2 | 44.00 | 31.89 | 2.17 | 9.40 | 2.31 | 17.99 | 264.54 | 19.73 | 60.80 | 3.00 | 17.92 | 22.00 |
+|  | B1 | 52.00 | 49.87 | 2.37 | 20.60 | 2.77 | 21.73 | 478.08 | 18.60 | 60.27 | 3.40 | 18.18 | 35.80 |
+|  | B2 | 44.20 | 43.13 | 2.09 | 14.86 | 2.66 | 24.68 | 376.18 | 18.60 | 60.27 | 2.93 | 14.34 | 33.60 |
+| Cross 3 | F1 | 38.40 | 54.57 | 2.82 | 22.14 | 3.35 | 20.70 | 376.61 | 20.10 | 61.20 | 2.60 | 15.19 | 36.50 |
+|  | F2 | 44.85 | 52.52 | 2.69 | 20.59 | 2.55 | 27.25 | 484.19 | 18.85 | 61.20 | 2.55 | 18.63 | 38.60 |
+|  | P1 | 48.00 | 45.73 | 2.60 | 19.65 | 2.16 | 20.40 | 201.47 | 17.27 | 61.40 | 3.80 | 17.14 | 41.00 |
+|  | P2 | 42.53 | 50.73 | 2.61 | 15.64 | 2.91 | 15.81 | 255.33 | 20.73 | 57.80 | 2.80 | 14.30 | 30.40 |
+|  | B1 | 45.00 | 49.75 | 2.71 | 20.40 | 2.21 | 25.37 | 472.86 | 18.20 | 60.00 | 3.47 | 19.15 | 38.87 |
+|  | B2 | 42.80 | 51.25 | 2.54 | 16.60 | 2.79 | 23.67 | 400.47 | 18.93 | 59.20 | 2.53 | 17.64 | 38.13 |
+
+: Generation mean values of the three crosses in yardlong bean} {#tbl-table1}
+
+> In @tbl-table1: Gen= Generation, $X_1$ = Days to flowering, $X_2$ = Pod length (cm), $X_3$ = Pod breadth (cm), $X_4$ = Pod weight (g), $X_5$ = Pods per cluster, $X_6$ = Pods per plant, $X_7$ = Pod yield per plant (g), $X_8$ = Seeds per pod, $X_9$ = Days to first harvest, $X_{10}$ = Primary branches per plant, $X_{11}$ = 100-seed weight (g), $X_{12}$ = Root weight (g).
+
+::: {#tbl-table2 layout-ncol="1"}
+| Character | A         | B         | C           | D          |
+|-----------|-----------|-----------|-------------|------------|
+| $X_1$     | 9.22      | 12.64\*\* | 15.61       | -3.12      |
+| $X_2$     | 2.41      | 2.50      | 44.87\*\*   | 19.98\*\*  |
+| $X_3$     | 21.63\*\* | 3.14      | 2215.00\*\* | -1.31      |
+| $X_4$     | -0.01     | -0.01     | 0.01        | 0.01       |
+| $X_5$     | 0.14      | 0.04      | 0.83        | 0.33       |
+| $X_6$     | 18.15\*\* | 24.75\*\* | 79.66\*\*   | 18.38      |
+| $X_7$     | 52.10\*\* | 106.67    | 422.48\*\*  | 131.86\*\* |
+| $X_8$     | 0.88      | 0.62      | 1.17        | -0.16      |
+| $X_9$     | 1.23      | 5.34      | 6.62        | 0.02       |
+| $X_{10}$  | 0.59      | 0.17      | 0.86        | 0.06       |
+| $X_{11}$  | 0.59      | 0.79      | 5.31        | 1.97       |
+| $X_{12}$  | 3.32      | 5.15      | 84.94\*\*   | 38.23\*\*  |
+
+: Cross 1 {#tbl-cross1}
+
+| Character | A          | B         | C          | D         |
+|-----------|------------|-----------|------------|-----------|
+| $X_1$     | 15.81\*\*  | 4.03      | 23.75\*\*  | 1.95      |
+| $X_2$     | 1.72       | 13.30     | 46.84\*\*  | 15.91\*\* |
+| $X_3$     | 3.88       | 20.15     | 35.12\*\*  | 5.54      |
+| $X_4$     | 0.02       | 0.03      | 0.24       | 0.09      |
+| $X_5$     | 0.13       | 0.13      | 0.83       | 0.29      |
+| $X_6$     | 20.79\*\*  | 2.69      | 168.67\*\* | 72.60\*\* |
+| $X_7$     | 149.71\*\* | 59.86\*\* | 394.68\*\* | 92.56\*\* |
+| $X_8$     | 0.65       | 0.24      | 0.77       | -0.06     |
+| $X_9$     | -0.34      | -0.66     | 16.01      | 8.50      |
+| $X_{10}$  | 0.08       | 0.55      | 1.15       | 0.26      |
+| $X_{11}$  | 0.84       | 2.17      | 3.89       | 0.44      |
+| $X_{12}$  | 26.19\*\*  | 33.31\*\* | 90.80\*\*  | 15.65     |
+
+: Cross 2 {#tbl-cross2}
+
+| Character | A          | B          | C            | D         |
+|-----------|------------|------------|--------------|-----------|
+| $X_1$     | 18.89\*\*  | 1.28       | 25.83\*\*    | 2.83      |
+| $X_2$     | 0.34       | 1.27       | 20.39\*\*    | 9.39      |
+| $X_3$     | 5.04       | 9.54       | 22.37\*\*    | 3.90      |
+| $X_4$     | -0.04      | -0.06      | -0.03        | 0.03      |
+| $X_5$     | 0.07       | 0.08       | 0.98         | 0.42      |
+| $X_6$     | 66.42\*\*  | 33.77\*\*  | 113.43\*\*   | 6.62      |
+| $X_7$     | 658.19\*\* | 469.98\*\* | 1332.00\*\*  | 101.92    |
+| $X_8$     | 0.68       | 0.75       | 4.43         | 1.50      |
+| $X_9$     | -0.31      | 2.13       | 1.24         | -0.29     |
+| $X_{10}$  | 0.10       | 0.10       | 0.99         | 0.40      |
+| $X_{11}$  | 1.29       | 0.43       | 3.97         | 1.12      |
+| $X_{12}$  | 2.65       | 5.21       | 15262.00\*\* | 72.38\*\* |
+
+: Cross 3 {#tbl-cross3}
+
+Estimates of scaling and genetic components (A to D) for traits $X_1$ to $X_{12}$ in three yardlong bean crosses.
+:::
+
+> In @tbl-table2: $X_1$ = Days to flowering, $X_2$ = Pod length (cm), $X_3$ = Pod breadth (cm), $X_4$ = Pod weight (g), $X_5$ = Pods per cluster, $X_6$ = Pods per plant, $X_7$ = Pod yield per plant (g), $X_8$ = Seeds per pod, $X_9$ = Days to first harvest, $X_{10}$ = Primary branches per plant, $X_{11}$ = 100-seed weight (g), $X_{12}$ = Root weight (g).\
+> Values marked with `**` are significant at 1% level ($p < 0.01$)
+
+::: {#tbl-table3 layout-ncol="1"}
+| Trait    | $m$    | $d$    | $h$     | $i$     | $j$    | $l$    |
+|----------|--------|--------|---------|---------|--------|--------|
+| $X_1$    | 5.19   | -0.58  | 5.45    | 6.24    | -1.71  | -28.10 |
+| $X_2$    | 11.74  | -0.36  | -39.95  | -39.96  | -0.05  | 35.05  |
+| $X_3$    | 6.15   | 8.84   | 2.00    | 2.63    | 9.24   | -27.40 |
+| $X_4$    | 0.02   | -0.01  | -0.06   | -0.02   | -0.01  | 0.04   |
+| $X_5$    | 0.21   | 0.05   | -0.66   | -0.66   | 0.05   | 0.48   |
+| $X_6$    | 23.79  | 0.80   | -38.27  | -36.76  | -3.30  | -6.14  |
+| $X_7$    | 113.33 | -30.32 | -271.71 | -263.71 | -27.29 | 104.96 |
+| $X_8$    | 0.45   | 0.13   | 0.33    | 0.32    | 0.13   | -1.83  |
+| $X_9$    | 2.10   | -1.81  | 0.05    | -0.04   | -2.05  | -6.53  |
+| $X_{10}$ | 0.39   | 0.21   | -0.28   | -0.13   | 0.21   | -0.63  |
+| $X_{11}$ | 1.48   | -0.10  | -4.00   | -3.94   | -0.10  | 2.56   |
+| $X_{12}$ | 24.04  | 0.28   | -75.97  | -76.46  | -0.92  | 67.98  |
+
+: Cross 1 {#tbl-cross1a}
+
+| Trait    | $m$    | $d$   | $h$     | $i$     | $j$   | $l$    |
+|----------|--------|-------|---------|---------|-------|--------|
+| $X_1$    | 7.19   | 5.17  | -5.56   | -3.91   | 5.89  | -15.93 |
+| $X_2$    | 12.27  | -5.73 | -31.16  | -31.81  | -5.79 | 16.79  |
+| $X_3$    | 9.42   | -8.53 | -11.07  | -11.08  | -8.14 | -12.95 |
+| $X_4$    | 0.07   | -0.02 | -0.21   | -0.19   | -0.01 | 0.14   |
+| $X_5$    | 0.21   | 0.01  | -0.58   | -0.57   | 0.01  | 0.33   |
+| $X_6$    | 49.66  | 7.54  | -134.56 | -145.19 | 9.05  | 121.71 |
+| $X_7$    | 104.44 | 47.98 | -187.63 | -185.11 | 44.92 | -24.46 |
+| $X_8$    | 0.41   | 0.13  | 0.40    | 0.12    | 0.21  | -1.01  |
+| $X_9$    | 5.25   | 0.01  | -16.12  | -17.01  | 0.16  | 18.01  |
+| $X_{10}$ | 0.55   | -0.36 | -0.56   | -0.52   | -0.24 | -0.11  |
+| $X_{11}$ | 1.06   | -0.63 | -0.82   | -0.88   | -0.66 | -2.14  |
+| $X_{12}$ | 25.16  | -4.48 | -33.35  | -31.31  | -3.56 | -28.19 |
+
+: Cross 2 {#tbl-cross2a}
+
+| Trait    | $m$    | $d$   | $h$     | $i$     | $j$   | $l$     |
+|----------|--------|-------|---------|---------|-------|---------|
+| $X_1$    | 7.03   | 8.51  | -5.92   | -5.66   | 8.81  | -14.51  |
+| $X_2$    | 5.67   | -0.40 | -19.23  | -18.78  | -0.47 | 17.17   |
+| $X_3$    | 6.54   | -2.05 | -6.60   | -7.79   | -2.25 | -6.80   |
+| $X_4$    | 0.03   | -0.01 | -0.13   | -0.06   | 0.01  | 0.16    |
+| $X_5$    | 0.25   | -0.01 | -0.82   | -0.83   | -0.01 | 0.68    |
+| $X_6$    | 29.19  | 16.38 | -13.57  | -13.25  | 16.32 | -86.94  |
+| $X_7$    | 477.49 | -7.18 | -322.17 | -203.83 | 94.11 | -924.33 |
+| $X_8$    | 1.33   | -0.04 | -2.86   | -3.00   | -0.04 | 1.57    |
+| $X_9$    | 1.40   | -0.96 | 1.93    | 0.59    | -1.22 | -2.41   |
+| $X_{10}$ | 0.45   | 0.01  | -0.71   | -0.79   | 0.01  | 0.60    |
+| $X_{11}$ | 1.06   | 0.38  | -2.28   | -2.24   | 0.43  | 0.52    |
+| $X_{12}$ | 40.04  | -1.60 | -142.43 | -144.76 | -1.28 | 136.91  |
+
+: Cross 3 {#tbl-cross3a}
+
+: Estimates of genetic components of the three crosses for the various characteristics
+:::
+
+> In @tbl-table3: $X_1$ = Days to flowering, $X_2$ = Pod length (cm), $X_3$ = Pod breadth (cm), $X_4$ = Pod weight (g), $X_5$ = Pods per cluster, $X_6$ = Pods per plant, $X_7$ = Pod yield per plant (g), $X_8$ = Seeds per pod, $X_9$ = Days to first harvest, $X_{10}$ = Primary branches per plant, $X_{11}$ = 100-seed weight (g), $X_{12}$ = Root weight (g).\
+> $m$ = mean, $d$ = additive effect, $h$ = dominance effect, $i$ = additive × additive, $j$ = additive × dominance, $l$ = dominance × dominance
+
+{{< pagebreak >}}
+
+## Discussion {.unnumbered}
+
+The significance of scales $A$ and $B$ for most traits indicates that the simple additive-dominance model is inadequate for explaining their inheritance, as reported by @thakare2016genetic and @kudiabor2023gene. Non-allelic interactions, alongside additive and dominance components, were observed in the expression of several traits, similar to the findings of @edematie2021inheritance and @akombo2021.
+
+Significant additive × additive ($i$) interactions were found for pod length, pods per plant, pod yield per plant, and root weight, suggesting complementary or duplicate epistasis. Non-allelic interactions were also evident in traits like days to first flowering. Here, additive effects were highly significant, and additive × dominance ($j$) interactions were also observed. Dominance × dominance ($l$) interactions acted in a favorable negative direction in all hybrids. Similar epistatic interactions for early flowering and duplicate epistasis for traits like days to 90% pod maturity in cowpea were reported by @patel2013, @thakare2016genetic, and @owusu2022generation.
+
+These findings imply that earliness in cowpea could be improved through hybridization followed by the selection of promising recombinants in later generations, particularly in crosses governed by duplicate epistasis.
+
+The significance of scales $C$ and $D$ for pod length further supports the involvement of dominance × dominance and additive × additive interactions in this trait. Significant additive ($d$) and dominance ($h$) effects for pod length were also reported by @rashwan2010estimation and Thakare et al. (2013).
+
+Among epistatic interactions, dominance × dominance ($l$), additive × additive ($i$), and additive × dominance ($j$) were observed in different crosses. In the case of pod weight, both dominance effects and additive × additive interactions were significant but acted in a negative direction. However, the positive significance of dominance × dominance interactions suggests that hybridization followed by selection would be an effective strategy for improving this trait.
+
+All three types of digenic interactions ($i$, $j$, $l$) were observed for pods per plant. While additive × dominance ($j$) was positive and significant, both dominance ($h$) and additive × additive ($i$) effects acted in the negative direction. The presence of non-allelic interactions for this trait aligns with the findings of @thakare2016genetic and @edematie2021inheritance. Significant positive dominance ($h$) and dominance × dominance ($l$) interactions suggest the presence of complementary epistasis. In contrast, the negative significance of dominance × dominance ($l$) for pod yield per plant implies limited potential for improvement through heterosis breeding for this trait.
+
+The direction of dominance and dominance × dominance interactions indicated duplicate gene action in the expression of traits such as pod weight, pod breadth, pods per cluster, seeds per pod, root weight per plant, and days to first harvest. Dominance was found to play a role in all traits, especially pod length, as reported by @santos2024genetic and @pallavi2019generation.
+
+Both additive × additive and dominance × dominance interactions were significant for root weight per plant, while the insignificance of all four scale tests ($A$, $B$, $C$, $D$) for traits like pod breadth, pods per cluster, seeds per pod, days to first harvest, primary branches per plant, and 100-seed weight indicates the adequacy of the additive-dominance model for these traits, and the absence of epistasis. Nonetheless, duplicate epistasis for most yield-related traits in cowpea was previously reported by @shinde2021generation.
+
+## Conclusion {.unnumbered}
+
+The generation mean analysis conducted on three cowpea crosses revealed complex genetic control for several important agronomic traits. While the mean effect was highly significant for all key traits, indicating their quantitative nature, the inadequacy of the simple additive-dominance model—evidenced by significant scale tests and the presence of epistasis—highlights the role of non-allelic gene interactions in trait inheritance. Additive × additive, additive × dominance, and dominance × dominance interactions were frequently observed across traits such as pod length, pod yield per plant, pods per plant, and root weight. The predominance of duplicate and complementary epistasis suggests that hybridization followed by selection in segregating generations would be an effective breeding strategy for improving these traits.
+
+Traits like pod breadth, seeds per pod, and 100-seed weight showed no significant epistasis, indicating that selection based on the additive-dominance model may suffice for their improvement. Conversely, traits influenced by significant non-additive gene actions, such as pod yield and pod weight, may benefit more from recombination breeding approaches. Overall, this study underscores the importance of understanding the underlying gene action for designing appropriate breeding strategies. The insights gained provide a valuable foundation for improving yield and related traits in cowpea through targeted hybridization and selection efforts.
+
+::: {.callout-note title="Acknowledgments" icon="false"}
+The first author gratefully acknowledges the Council of Scientific and Industrial Research (CSIR), Government of India, for awarding the Junior Research Fellowship (JRF) in support of the Ph.D. programme.
+:::
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-tip title="Technical Details"}
+The RAISINS [@mohammed2025raisins] online statistical analysis platform was extensively utilized for analyzing Randomized Block Designs (RBD) and generating associated descriptive statistics. However, these aspects were not elaborated upon in the paper.
+:::
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**\
+- *Submitted:* 13 June 2025\
+- *Peer Review:* 14 June 2025\
+- *Accepted:* 17 June 2025\
+- *Published (Online):* 17 June 2025
+
+**Reviewer Information**\  
+
+*Reviewer 1*:\
+Anonymous\  
+
+*Reviewer 2*:
+
+**Dr.Gayathri G.**  
+Assistant Professor\  
+Plant Breeding & Genetics
+Kerala Agricultural University
+:::  
+
+###  {.unnumbered}  
+

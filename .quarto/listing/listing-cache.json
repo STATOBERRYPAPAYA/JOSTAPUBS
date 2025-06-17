@@ -1,7 +1,7 @@
 {
   "listingMap": {
     "published.qmd": [
-      "volume1/*.qmd"
+      "volume1/**/*.qmd"
     ]
   }
 }

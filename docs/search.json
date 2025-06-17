@@ -1,253 +1,214 @@
 [
   {
-    "objectID": "volume1/josta111raisins2025.html",
-    "href": "volume1/josta111raisins2025.html",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "objectID": "volume1/lovelyB/generationmean.html",
+    "href": "volume1/lovelyB/generationmean.html",
+    "title": "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis",
     "section": "",
-    "text": "Mohammed, H. M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In Journal of Sustainable Technology in Agriculture (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128",
+    "text": "Lovely, B., Radhadevi, D. S., & Kumar, V. (2025). Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15684703",
     "crumbs": [
       "Volumes",
       "Volume 1",
       "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+      "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis"
     ]
   },
   {
-    "objectID": "volume1/josta111raisins2025.html#introduction",
-    "href": "volume1/josta111raisins2025.html#introduction",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "objectID": "volume1/lovelyB/generationmean.html#introduction",
+    "href": "volume1/lovelyB/generationmean.html#introduction",
+    "title": "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis",
     "section": "1 Introduction",
-    "text": "1 Introduction\nStatistical analysis serves as the backbone of scientific research, especially in disciplines like agriculture, where field experiments, survey data, and observational studies generate complex datasets. Despite the increasing emphasis on data-driven decision-making in agricultural research, many students, early-career researchers, and practitioners find themselves at a disadvantage when it comes to performing rigorous statistical analyses. The process is often hindered by a combination of factors: the steep learning curve associated with programming languages such as R and Python, the fragmented nature of statistical learning resources, and the lack of user-friendly tools tailored to agricultural research contexts.\nWhile R and Python are powerful, flexible, and widely adopted in academic and professional settings, their command-line interfaces and syntax-heavy operations can be challenging for those without formal training in statistics or computer programming. Beginners frequently struggle with package selection, data cleaning, model specification, and interpretation of results. Furthermore, existing statistical software either lacks the flexibility and transparency of open-source tools or comes with licensing restrictions and high costs that limit accessibility in resource-constrained settings, particularly in developing countries.\nIn addition, agricultural research involves domain-specific needs such as handling experimental designs (e.g., CRD, RBD, split-plot), analyzing agronomic trials, processing survey data with appropriate sampling designs, and interpreting interactions between multiple environmental and genetic factors. Traditional statistical packages are not always well-adapted to these specific requirements, leaving researchers to either customize solutions on their own or consult specialists — both of which can delay or compromise the analytical workflow.\nTo bridge this gap, we developed RAISINS (R and AI Solutions for INferential Statistics) — a web-based platform designed to simplify and democratize statistical analysis for agricultural research. RAISINS integrates the power of R, Python, and AI-driven assistance within an intuitive interface that eliminates the need for code-based interaction. By abstracting complex syntax and offering guided, step-by-step workflows for data upload, analysis, visualization, and interpretation, the platform empowers users to focus on scientific inquiry rather than technical execution.\nBuilt on open-source technologies and scalable cloud infrastructure, RAISINS provides modules for commonly used statistical methods — including descriptive analysis, hypothesis testing, regression models, design of experiments, multi environmental trials, and more — while incorporating AI tools that assist in data summarization, analytical suggestions, and natural language explanations of results. This makes it an ideal solution for students, researchers, extension personnel, and educators engaged in agricultural and allied sciences. RAISINS can be accessed online through its official web portal at https://www.raisins.live/.\nIn this paper, we present the design, features, and use-cases of RAISINS, and demonstrate how it addresses the unique challenges faced in agricultural data analysis by offering an accessible, robust, and intelligent statistical platform.",
+    "text": "1 Introduction\nThe yardlong bean is one of the most important leguminous vegetables in Asia. Also known as the asparagus bean, string bean, snake bean, or snake pea, it was originally cultivated in West Africa and is now widely grown throughout Southeast Asia—including Malaysia, the Philippines, Indonesia, and Thailand—where it can be cultivated year-round. In India, it has been known since Vedic times (Benchasri, Bairaman, and Nualsri 2012).\nTypically harvested while still young, the yardlong bean is consumed as a green vegetable. It is an annual plant characterized by rapid growth, especially when supported by a trellis. Both tall and short climbing types exist. A member of the Fabaceae family, the plant features twining, delicate stems with a tenacious root system. It blooms in mid-summer, producing pairs of large white or purple flowers. Once pollinated, these flowers develop into slender, dark green beans that can grow up to 12 inches in just a few days. Mature beans can reach lengths of up to three feet, turning pale green and swelling as the red or black seeds ripen.\nThe yardlong bean also contributes to soil fertility by fixing atmospheric nitrogen through nodules on its roots. It is often referred to as the “poor man’s meat” because its pods are not only rich in protein (23–32% of seed weight) but also contain essential amino acids like lysine and tryptophan, as well as significant levels of folic acid, vitamin B, and other critical micronutrients (Peyrano, Speroni, and Avanza 2016). As such, it serves as a key dietary staple for many of the poorest populations in developing countries.\nDespite its nutritional and agricultural importance, relatively little breeding work has been conducted on this crop. The development of high-yielding, stress-tolerant varieties could significantly boost its cultivation and productivity. However, as a predominantly self-pollinated crop, studies on gene action in yardlong bean remain limited. This study aims to identify gene action governing yield-related traits, which will help inform new breeding strategies to enhance crop improvement efforts.",
     "crumbs": [
       "Volumes",
       "Volume 1",
       "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+      "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis"
     ]
   },
   {
-    "objectID": "volume1/josta111raisins2025.html#sec-models",
-    "href": "volume1/josta111raisins2025.html#sec-models",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "objectID": "volume1/lovelyB/generationmean.html#materials-and-methods",
+    "href": "volume1/lovelyB/generationmean.html#materials-and-methods",
+    "title": "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis",
     "section": "2 Materials and methods",
-    "text": "2 Materials and methods\n\n2.1 Platform architecture and module validation\nRAISINS is a modular cloud-hosted, web-based platform that integrates statistical computing, artificial intelligence, and modern pedagogical design to serve agricultural researchers and students. Built using R, Python, and OpenAI APIs, RAISINS is deployed via Posit Connect Cloud (https://connect.posit.cloud/), enabling browser-based access without requiring any local software installation. The RAISINS platform is modular and each statistical tool within is aligned with the theoretical underpinnings found in globally recognized academic literature.\nAll modules in RAISINS have been peer-reviewed by domain experts, including statisticians specializing in design of experiments, genetics, and social science research. This ensures both methodological rigor and instructional clarity.\nTable 1 presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.\n\n\n\nTable 1: Foundational literature supporting each RAISINS module domain, organized by area of application.\n\n\n\n\n\n\n\n\n\nModule Domain\nTheoretical Foundation\n\n\n\n\nDesign & Analysis of Experiments\nMontgomery (2017) (Montgomery 2017); Gomez & Gomez (1984) (Gomez and Gomez 1984); Das & Giri (2018) (Das and Giri 2018); Searle (1997) (Searle 1997); Dey (1986) (Dey 1986); Cox & Reid (2000) (Cox and Reid 2000); Toutenburg & Shalabh (2009) (Toutenburg and Shalabh 2009); Cochran & Cox (1957) (Cochran and Cox 1957); ; Federer (1985) (Federer 1985)\n\n\nStatistical Genetics\nFalconer & Mackay (1996) (Falconer and Mackay 1996); Lynch & Walsh (1998) (Lynch and Walsh 1998); Dabholkar (1999) (Dabholkar 1999); Gillespie (2004) (Gillespie 2004)\n\n\nSocial Science Research\nBabbie (2020) (Babbie 2020); Bryman (2016) (Bryman 2016); Bhattacherjee (2012) (Bhattacherjee 2012)\n\n\nStatistical Inference and Modeling\nCasella & Berger (2002) (Casella and Berger 2002); Hogg, McKean & Craig (2018) (Hogg, McKean, and Craig 2018); Agresti (2013) (Agresti 2013); Rao (2009) (Rao 2009); Rohatgi (1984) (Rohatgi 1984)\n\n\nData Visualization & Reporting\nTufte (2001) (Tufte 2001); Cleveland (1993) (Cleveland 1993); Few (2009) (Few 2009)\n\n\n\n\n\n\nThe algorithms and workflows integrated into RAISINS are grounded in established statistical theory, drawing extensively from authoritative texts and peer-reviewed literature. In cases where existing computational implementations were unavailable or insufficient, original algorithms were developed in adherence to rigorous theoretical principles. The platform’s design and interface have been iteratively refined based on user-centered feedback from researchers and educators, ensuring methodological soundness and usability consistent with global standards in scientific research and statistical education.\n\n\n2.2 Packages and Libraries\nRAISINS integrates a comprehensive ecosystem of open-source R and Python packages to deliver its core functionalities, encompassing statistical modeling, data visualization, artificial intelligence, and interactive web-based deployment. These packages support the platform’s goal of offering high-level statistical capabilities through an accessible and intuitive interface, particularly beneficial for students and researchers in agricultural sciences.\nThe R-based architecture of RAISINS is built around the shiny framework (Chang et al. 2024), which enables the development of dynamic, browser-accessible applications. Data manipulation tasks are performed using dplyr (Wickham et al. 2024), tidyr, and data.table, while data visualization is implemented through ggplot2 (Wickham 2023), along with complementary packages such as ggthemes, plotly (Sievert 2023), and ggpattern. For statistical analysis relevant to agricultural experiments and general inference, the platform employs packages including agricolae (Mendiburu 2020), broom (Robinson and Hayes 2024), effectsize, lsr, car, phia, and FactoMineR (Husson et al. 2020). These libraries provide robust support for model fitting, hypothesis testing, effect size estimation, and multivariate analysis.\nTo enhance user interaction and responsiveness, RAISINS integrates several user interface and usability packages, such as shinyWidgets, shinyalert, shinybusy, shinycustomloader, shinyBS, shinythemes, and colourpicker. The presentation and export of analytical results are managed through tools like rmarkdown, kableExtra, and formattable, ensuring professional and structured output for reports and publications.\nThe reticulate(Allaire et al. 2024) package serves as a bridge between R and Python, allowing both languages to be used seamlessly within the same analytical workflow. In RAISINS, reticulate enables the platform to call Python functions, use Python libraries, and exchange data objects between R and Python environments. This integration allows the platform to combine R’s interactive capabilities with Python’s strengths in machine learning, statistical modeling, and AI-driven tasks, thereby enhancing both flexibility and functionality.\nPython libraries are used to extend the platform’s analytical and AI-driven features. Packages such as pandas (The pandas development team 2024) and numpy (Harris et al. 2020) are employed for efficient data handling, while matplotlib and seaborn support graphical representations. For machine learning and statistical modeling, the platform uses scikit-learn (Pedregosa et al. 2011) and statsmodels (Seabold and Perktold 2010). The openai package enables the integration of language models, facilitating intelligent assistance and automated content generation within the platform.\nAll R and Python packages used in RAISINS are well-maintained, community-supported, and widely recognized within academic and applied data science contexts. Each library is carefully selected based on its performance, stability, and relevance to agricultural research workflows. Modules are thoroughly reviewed by subject-matter experts to ensure methodological accuracy and pedagogical effectiveness, thereby maintaining the platform’s commitment to reproducibility, transparency, and educational value.",
+    "text": "2 Materials and methods\nThe genetic material used in the present study consisted of hybrid (\\(F_1\\)) plants derived from three promising crosses, along with their six respective parents. The selected parental inbred lines were chosen based solely on differences in yield-related traits. Three single-cross \\(F_1\\) hybrids were developed using parents with contrasting characteristics.\nThe three most promising hybrids, based on yield performance and disease resistance from a previous study, were selected for further evaluation. The \\(F_1\\) hybrids were backcrossed to their respective parents to generate backcross (BC) generations. Simultaneously, the \\(F_1\\) hybrids were self-pollinated to produce the corresponding \\(F_2\\) populations.\nGeneration mean analysis was conducted using eighteen populations in total: the three \\(F_1\\)s, their six parents, six backcross generations, and three \\(F_2\\) populations. The experiment was laid out in a randomized block design (RBD) with three replications in the College of Agriculture, Vellayani during Summer 2004. Standard crop management practices were followed throughout the study. Observations on yield and yield-related traits were recorded from 10 plants each for the \\(F_1\\), parent, and backcross generations. For the \\(F_2\\) populations, data were collected from 30 plants per cross.\n\n2.1 Generation Mean Analysis\nThe six-parameter model developed by Hayman (Hayman 1958) was used for generation mean analysis. The four scaling tests (\\(A\\), \\(B\\), \\(C\\), and \\(D\\)) were determined according to the method suggested by Mather (Mather 1949). These different scales are computed using simple linear combinations as given in Equation 1 to Equation 4.\n\\[A = 2\\overline{B_1} - \\overline{F_1} - P_1 = 0 \\tag{1}\\]\n\\[B = 2\\overline{B_2} - \\overline{F_1} - \\overline{P_2} = 0 \\tag{2}\\]\n\\[C = 4\\overline{F_2} - 2\\overline{F_1} - \\overline{P_1} - \\overline{P_2} = 0 \\tag{3}\\]\n\\[D = 4\\overline{F_3} - 2\\overline{F_2} - \\overline{P_1} - \\overline{P_2} = 0 \\quad \\text{or} \\quad D = 2\\overline{F_2} - \\overline{B_2} - \\overline{B_1} \\tag{4}\\]\nWhere \\(P_1\\), \\(P_2\\), \\(F_1\\), \\(F_2\\), \\(B_1\\), and \\(B_2\\) are means of different generations, respectively. The variances of the quantities \\(A\\), \\(B\\), \\(C\\), and \\(D\\) were calculated from the respective variances of different generations as given from Equation 5 to Equation 8.\n\\[V_A = 4V_{\\overline{B_1}} + V_{\\overline{F_1}} + V_{\\overline{P_1}} \\tag{5}\\]\n\\[V_B = 4V_{\\overline{B_2}} + V_{\\overline{F_1}} + V_{\\overline{P_2}} \\tag{6}\\]\n\\[V_C = 16V_{\\overline{F_2}} + 4V_{\\overline{F_1}} + V_{\\overline{P_1}} + V_{\\overline{P_2}} \\tag{7}\\]\n\\[V_D = 16V_{\\overline{F_3}} + 4V_{\\overline{F_2}} + V_{\\overline{P_1}} + V_{\\overline{P_2}} \\tag{8}\\]\nWhere, \\(V_{P_1}\\) is the variance of the individuals within the \\(P_1\\) family; \\(V_{\\overline{P_1}}\\) is the variance of \\({\\overline{P_1}}\\) (mean of the \\(P_1\\) family); and \\(\\overline{V_{P_1}} = \\frac{V_{P_1}}{N}\\), where \\(N\\) is the number of individuals observed in the \\(P_1\\) family.\nThe standard error of \\(A\\), \\(B\\), \\(C\\), and \\(D\\) is calculated by taking the square root of their respective variances. The corresponding \\(t\\) values are computed by dividing the values of \\(A\\), \\(B\\), \\(C\\), and \\(D\\) by their respective standard errors.\nSignificance of any of the four scales indicates the inadequacy of the additive-dominance model and the presence of epistasis. If the calculated \\(t\\) values are found to be significant, the presence of specific types of epistasis is confirmed.\nThe significance of either one or both of the \\(A\\) and \\(B\\) scales indicates the presence of all three types of digenic interaction, namely additive × additive, additive × dominance, and dominance × dominance. The significance of scale \\(C\\) indicates the presence of dominance × dominance type of non-allelic interaction, while the significance of scale \\(D\\) denotes additive × additive type of gene action. When both \\(C\\) and \\(D\\) scales are significant, it suggests the presence of both additive × additive and dominance × dominance types of gene interaction.\n\n\n2.2 Estimation of gene effects\nSignificance of any of the scales \\(A\\), \\(B\\), \\(C\\) and \\(D\\) will indicate the presence of epistatic interaction or digenic interactions. Hayman and Jinks and Jones gave a 6 parameter model for the estimation of various genetic components. The six genetic parameters were estimated using Equation 9 to Equation 14.\n\\[m = \\overline{F_2} \\tag{9}\\]\n\\[d = \\overline{B_1} - \\overline{B_2} \\tag{10}\\]\n\\[h = \\overline{F_1} - 4\\overline{F_2} - \\frac{\\overline{P_1}}{2}- \\frac{\\overline{P_2}}{2} + 2\\overline{B_1} + 2\\overline{B_2} \\tag{11}\\]\n\\[i = 2\\overline{B_1} + 2\\overline{B_2} - 4\\overline{F_2} \\tag{12}\\]\n\\[j = \\overline{B_1} - \\frac{\\overline{P_1}}{2} - \\overline{B_2} + \\frac{\\overline{P_2}}{2} \\tag{13}\\]\n\\[l = \\overline{P_1} + \\overline{P_2} + 2\\overline{F_1} + 4\\overline{F_2} - 4\\overline{B_1} - 4\\overline{B_2} \\tag{14}\\]\nWhere \\(m\\) = mean; \\(d\\) = additive effect; \\(h\\) = dominance effect; \\(i\\) = additive x additive gene interaction; \\(j\\) = additive x dominance gene interaction; \\(l\\) = dominance x dominance gene interaction.\nThe variances of the six genetic parameters were calculated using Equation 15 to Equation 20\n\\[(m) = V_{\\overline{F_2}} \\tag{15}\\]\n\\[V(d) = V_{\\overline{B_1}} + V_{\\overline{B_2}} \\tag{16}\\]\n\\[V(h) = V_{\\overline{F_1}} + 16V_{\\overline{F_2}} + \\frac{V_{\\overline{P_1}}}{4} + \\frac{V_{\\overline{P_2}}}{4} + 4V_{\\overline{B_1}} + 4V_{\\overline{B_2}} \\tag{17}\\]\n\\[V(i) = 4V_{\\overline{B_1}} + 4V_{\\overline{B_2}} + 16V_{\\overline{F_2}} \\tag{18}\\]\n\\[V(j) = V_{\\overline{B_1}} + \\frac{V_{\\overline{P_1}}}{4} + V_{\\overline{B_2}} + \\frac{V_{\\overline{P_2}}}{4} \\tag{19}\\]\n\\[V(l) = 4V_{\\overline{P_1}} + 4V_{\\overline{P_2}} + 4V_{\\overline{F_1}} + 16V_{\\overline{F_2}} + 16V_{\\overline{B_1}} + 16V_{\\overline{B_2}} \\tag{20}\\]",
     "crumbs": [
       "Volumes",
       "Volume 1",
       "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+      "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis"
     ]
   },
   {
-    "objectID": "volume1/josta111raisins2025.html#sec-illustrations",
-    "href": "volume1/josta111raisins2025.html#sec-illustrations",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
-    "section": "3 Illustrations",
-    "text": "3 Illustrations\nThe Figure 1 illustrates the comprehensive architecture of the RAISINS platform, highlighting its integration of multiple programming languages and technologies. RAISINS combines the statistical computing power of R with the flexibility of Python and the advanced capabilities of AI through OpenAI models. The platform’s user interface is built using Shiny, providing an interactive and user-friendly experience, while the backend seamlessly coordinates R and Python processes. Hosting on Posit Connect Cloud ensures reliable accessibility and scalability for agricultural researchers. This integrated ecosystem enables efficient and robust inferential statistical analysis tailored specifically for agricultural research needs.\n\n\n\n\n\n\nFigure 1: Architecture of the RAISINS Platform: Integration of R, Python, and AI Components through a Shiny-based Web Interface Hosted on Posit Connect Cloud.",
+    "objectID": "volume1/lovelyB/generationmean.html#results",
+    "href": "volume1/lovelyB/generationmean.html#results",
+    "title": "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis",
+    "section": "3 Results",
+    "text": "3 Results\nGeneration mean analysis is a statistical technique used to estimate the components of variance and determine the predominant type of gene action controlling important traits in a crop species. This analysis assists in selecting appropriate breeding strategies for the improvement of various quantitative traits.\nGeneration mean analysis was conducted for three cowpea crosses:\n\nCross 1: VS86 × VS132\n\nCross 2: Kozhicode Local-2 × Thiruvananthapuram Local-12\n\nCross 3: Thiruvananthapuram Local-9 × Thiruvananthapuram Local-12\n\nThe mean values of the six generations (\\(P_1\\), \\(P_2\\), \\(F_1\\), \\(F_2\\), \\(B_1\\), and \\(B_2\\)) for each cross are presented in Table 1. Among them, the \\(F_1\\) of Cross 3 flowered the earliest (38.4 days), while Cross 1 was harvested the earliest (58.1 days). The \\(F_1\\) of Cross 2 exhibited the highest pod yield per plant (454.91 g), whereas the \\(B_2\\) generation of Cross 1 recorded the maximum yield overall (485.67 g).\nThe scale values and genetic component estimates for the various traits across the three crosses are shown in Table 2 and Table 3. The estimated mean effect (\\(m\\)) was highly significant for traits such as days to flowering, pod length, pod breadth, pods per plant, pod yield per plant, and root weight across all crosses, indicating that these traits are quantitatively inherited.\nAs shown in Table 3, significant negative dominant effects (\\(h\\)) were observed for pod length and pod yield per plant, suggesting that these traits are more prominently expressed in homozygous individuals.\n\n\n\nTable 1: Generation mean values of the three crosses in yardlong bean}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCross\nGen\n\\(X_1\\)\n\\(X_2\\)\n\\(X_3\\)\n\\(X_4\\)\n\\(X_5\\)\n\\(X_6\\)\n\\(X_7\\)\n\\(X_8\\)\n\\(X_9\\)\n\\(X_{10}\\)\n\\(X_{11}\\)\n\\(X_{12}\\)\n\n\n\n\nCross 1\nF1\n39.90\n50.43\n2.34\n21.20\n3.12\n23.18\n356.84\n20.23\n58.10\n3.10\n15.27\n35.50\n\n\n\nF2\n44.10\n45.05\n2.18\n16.80\n2.70\n25.75\n481.53\n19.05\n59.00\n3.25\n19.76\n39.40\n\n\n\nP1\n47.07\n38.56\n2.30\n11.73\n2.15\n21.88\n250.93\n19.73\n59.60\n2.40\n14.33\n43.20\n\n\n\nP2\n48.27\n50.75\n2.30\n21.69\n2.94\n14.68\n298.07\n21.27\n57.80\n3.60\n19.34\n30.20\n\n\n\nB1\n45.27\n41.20\n2.23\n19.68\n2.66\n23.73\n477.32\n18.93\n59.13\n2.73\n18.93\n39.00\n\n\n\nB2\n45.40\n47.87\n2.19\n21.07\n2.45\n19.92\n485.67\n19.73\n60.27\n3.53\n17.38\n39.53\n\n\nCross 2\nF1\n41.53\n53.97\n2.68\n21.81\n3.14\n28.51\n454.91\n19.80\n60.10\n3.40\n17.60\n34.60\n\n\n\nF2\n43.90\n50.91\n2.26\n15.51\n2.75\n29.91\n465.82\n18.70\n58.45\n3.05\n19.36\n30.80\n\n\n\nP1\n57.20\n48.37\n2.20\n18.83\n2.58\n10.23\n293.54\n18.00\n58.40\n3.20\n18.31\n40.20\n\n\n\nP2\n44.00\n31.89\n2.17\n9.40\n2.31\n17.99\n264.54\n19.73\n60.80\n3.00\n17.92\n22.00\n\n\n\nB1\n52.00\n49.87\n2.37\n20.60\n2.77\n21.73\n478.08\n18.60\n60.27\n3.40\n18.18\n35.80\n\n\n\nB2\n44.20\n43.13\n2.09\n14.86\n2.66\n24.68\n376.18\n18.60\n60.27\n2.93\n14.34\n33.60\n\n\nCross 3\nF1\n38.40\n54.57\n2.82\n22.14\n3.35\n20.70\n376.61\n20.10\n61.20\n2.60\n15.19\n36.50\n\n\n\nF2\n44.85\n52.52\n2.69\n20.59\n2.55\n27.25\n484.19\n18.85\n61.20\n2.55\n18.63\n38.60\n\n\n\nP1\n48.00\n45.73\n2.60\n19.65\n2.16\n20.40\n201.47\n17.27\n61.40\n3.80\n17.14\n41.00\n\n\n\nP2\n42.53\n50.73\n2.61\n15.64\n2.91\n15.81\n255.33\n20.73\n57.80\n2.80\n14.30\n30.40\n\n\n\nB1\n45.00\n49.75\n2.71\n20.40\n2.21\n25.37\n472.86\n18.20\n60.00\n3.47\n19.15\n38.87\n\n\n\nB2\n42.80\n51.25\n2.54\n16.60\n2.79\n23.67\n400.47\n18.93\n59.20\n2.53\n17.64\n38.13\n\n\n\n\n\n\n\nIn Table 1: Gen= Generation, \\(X_1\\) = Days to flowering, \\(X_2\\) = Pod length (cm), \\(X_3\\) = Pod breadth (cm), \\(X_4\\) = Pod weight (g), \\(X_5\\) = Pods per cluster, \\(X_6\\) = Pods per plant, \\(X_7\\) = Pod yield per plant (g), \\(X_8\\) = Seeds per pod, \\(X_9\\) = Days to first harvest, \\(X_{10}\\) = Primary branches per plant, \\(X_{11}\\) = 100-seed weight (g), \\(X_{12}\\) = Root weight (g).\n\n\n\n\nTable 2: Estimates of scaling and genetic components (A to D) for traits \\(X_1\\) to \\(X_{12}\\) in three yardlong bean crosses.\n\n\n\n\n\n\n\n(a) Cross 1\n\n\n\n\n\nCharacter\nA\nB\nC\nD\n\n\n\n\n\\(X_1\\)\n9.22\n12.64**\n15.61\n-3.12\n\n\n\\(X_2\\)\n2.41\n2.50\n44.87**\n19.98**\n\n\n\\(X_3\\)\n21.63**\n3.14\n2215.00**\n-1.31\n\n\n\\(X_4\\)\n-0.01\n-0.01\n0.01\n0.01\n\n\n\\(X_5\\)\n0.14\n0.04\n0.83\n0.33\n\n\n\\(X_6\\)\n18.15**\n24.75**\n79.66**\n18.38\n\n\n\\(X_7\\)\n52.10**\n106.67\n422.48**\n131.86**\n\n\n\\(X_8\\)\n0.88\n0.62\n1.17\n-0.16\n\n\n\\(X_9\\)\n1.23\n5.34\n6.62\n0.02\n\n\n\\(X_{10}\\)\n0.59\n0.17\n0.86\n0.06\n\n\n\\(X_{11}\\)\n0.59\n0.79\n5.31\n1.97\n\n\n\\(X_{12}\\)\n3.32\n5.15\n84.94**\n38.23**\n\n\n\n\n\n\n\n\n\n\n\n\n\n(b) Cross 2\n\n\n\n\n\nCharacter\nA\nB\nC\nD\n\n\n\n\n\\(X_1\\)\n15.81**\n4.03\n23.75**\n1.95\n\n\n\\(X_2\\)\n1.72\n13.30\n46.84**\n15.91**\n\n\n\\(X_3\\)\n3.88\n20.15\n35.12**\n5.54\n\n\n\\(X_4\\)\n0.02\n0.03\n0.24\n0.09\n\n\n\\(X_5\\)\n0.13\n0.13\n0.83\n0.29\n\n\n\\(X_6\\)\n20.79**\n2.69\n168.67**\n72.60**\n\n\n\\(X_7\\)\n149.71**\n59.86**\n394.68**\n92.56**\n\n\n\\(X_8\\)\n0.65\n0.24\n0.77\n-0.06\n\n\n\\(X_9\\)\n-0.34\n-0.66\n16.01\n8.50\n\n\n\\(X_{10}\\)\n0.08\n0.55\n1.15\n0.26\n\n\n\\(X_{11}\\)\n0.84\n2.17\n3.89\n0.44\n\n\n\\(X_{12}\\)\n26.19**\n33.31**\n90.80**\n15.65\n\n\n\n\n\n\n\n\n\n\n\n\n\n(c) Cross 3\n\n\n\n\n\nCharacter\nA\nB\nC\nD\n\n\n\n\n\\(X_1\\)\n18.89**\n1.28\n25.83**\n2.83\n\n\n\\(X_2\\)\n0.34\n1.27\n20.39**\n9.39\n\n\n\\(X_3\\)\n5.04\n9.54\n22.37**\n3.90\n\n\n\\(X_4\\)\n-0.04\n-0.06\n-0.03\n0.03\n\n\n\\(X_5\\)\n0.07\n0.08\n0.98\n0.42\n\n\n\\(X_6\\)\n66.42**\n33.77**\n113.43**\n6.62\n\n\n\\(X_7\\)\n658.19**\n469.98**\n1332.00**\n101.92\n\n\n\\(X_8\\)\n0.68\n0.75\n4.43\n1.50\n\n\n\\(X_9\\)\n-0.31\n2.13\n1.24\n-0.29\n\n\n\\(X_{10}\\)\n0.10\n0.10\n0.99\n0.40\n\n\n\\(X_{11}\\)\n1.29\n0.43\n3.97\n1.12\n\n\n\\(X_{12}\\)\n2.65\n5.21\n15262.00**\n72.38**\n\n\n\n\n\n\n\n\n\n\n\n\nIn Table 2: \\(X_1\\) = Days to flowering, \\(X_2\\) = Pod length (cm), \\(X_3\\) = Pod breadth (cm), \\(X_4\\) = Pod weight (g), \\(X_5\\) = Pods per cluster, \\(X_6\\) = Pods per plant, \\(X_7\\) = Pod yield per plant (g), \\(X_8\\) = Seeds per pod, \\(X_9\\) = Days to first harvest, \\(X_{10}\\) = Primary branches per plant, \\(X_{11}\\) = 100-seed weight (g), \\(X_{12}\\) = Root weight (g).\nValues marked with ** are significant at 1% level (\\(p &lt; 0.01\\))\n\n\n\n\nTable 3: : Estimates of genetic components of the three crosses for the various characteristics\n\n\n\n\n\n\n\n(a) Cross 1\n\n\n\n\n\nTrait\n\\(m\\)\n\\(d\\)\n\\(h\\)\n\\(i\\)\n\\(j\\)\n\\(l\\)\n\n\n\n\n\\(X_1\\)\n5.19\n-0.58\n5.45\n6.24\n-1.71\n-28.10\n\n\n\\(X_2\\)\n11.74\n-0.36\n-39.95\n-39.96\n-0.05\n35.05\n\n\n\\(X_3\\)\n6.15\n8.84\n2.00\n2.63\n9.24\n-27.40\n\n\n\\(X_4\\)\n0.02\n-0.01\n-0.06\n-0.02\n-0.01\n0.04\n\n\n\\(X_5\\)\n0.21\n0.05\n-0.66\n-0.66\n0.05\n0.48\n\n\n\\(X_6\\)\n23.79\n0.80\n-38.27\n-36.76\n-3.30\n-6.14\n\n\n\\(X_7\\)\n113.33\n-30.32\n-271.71\n-263.71\n-27.29\n104.96\n\n\n\\(X_8\\)\n0.45\n0.13\n0.33\n0.32\n0.13\n-1.83\n\n\n\\(X_9\\)\n2.10\n-1.81\n0.05\n-0.04\n-2.05\n-6.53\n\n\n\\(X_{10}\\)\n0.39\n0.21\n-0.28\n-0.13\n0.21\n-0.63\n\n\n\\(X_{11}\\)\n1.48\n-0.10\n-4.00\n-3.94\n-0.10\n2.56\n\n\n\\(X_{12}\\)\n24.04\n0.28\n-75.97\n-76.46\n-0.92\n67.98\n\n\n\n\n\n\n\n\n\n\n\n\n\n(b) Cross 2\n\n\n\n\n\nTrait\n\\(m\\)\n\\(d\\)\n\\(h\\)\n\\(i\\)\n\\(j\\)\n\\(l\\)\n\n\n\n\n\\(X_1\\)\n7.19\n5.17\n-5.56\n-3.91\n5.89\n-15.93\n\n\n\\(X_2\\)\n12.27\n-5.73\n-31.16\n-31.81\n-5.79\n16.79\n\n\n\\(X_3\\)\n9.42\n-8.53\n-11.07\n-11.08\n-8.14\n-12.95\n\n\n\\(X_4\\)\n0.07\n-0.02\n-0.21\n-0.19\n-0.01\n0.14\n\n\n\\(X_5\\)\n0.21\n0.01\n-0.58\n-0.57\n0.01\n0.33\n\n\n\\(X_6\\)\n49.66\n7.54\n-134.56\n-145.19\n9.05\n121.71\n\n\n\\(X_7\\)\n104.44\n47.98\n-187.63\n-185.11\n44.92\n-24.46\n\n\n\\(X_8\\)\n0.41\n0.13\n0.40\n0.12\n0.21\n-1.01\n\n\n\\(X_9\\)\n5.25\n0.01\n-16.12\n-17.01\n0.16\n18.01\n\n\n\\(X_{10}\\)\n0.55\n-0.36\n-0.56\n-0.52\n-0.24\n-0.11\n\n\n\\(X_{11}\\)\n1.06\n-0.63\n-0.82\n-0.88\n-0.66\n-2.14\n\n\n\\(X_{12}\\)\n25.16\n-4.48\n-33.35\n-31.31\n-3.56\n-28.19\n\n\n\n\n\n\n\n\n\n\n\n\n\n(c) Cross 3\n\n\n\n\n\nTrait\n\\(m\\)\n\\(d\\)\n\\(h\\)\n\\(i\\)\n\\(j\\)\n\\(l\\)\n\n\n\n\n\\(X_1\\)\n7.03\n8.51\n-5.92\n-5.66\n8.81\n-14.51\n\n\n\\(X_2\\)\n5.67\n-0.40\n-19.23\n-18.78\n-0.47\n17.17\n\n\n\\(X_3\\)\n6.54\n-2.05\n-6.60\n-7.79\n-2.25\n-6.80\n\n\n\\(X_4\\)\n0.03\n-0.01\n-0.13\n-0.06\n0.01\n0.16\n\n\n\\(X_5\\)\n0.25\n-0.01\n-0.82\n-0.83\n-0.01\n0.68\n\n\n\\(X_6\\)\n29.19\n16.38\n-13.57\n-13.25\n16.32\n-86.94\n\n\n\\(X_7\\)\n477.49\n-7.18\n-322.17\n-203.83\n94.11\n-924.33\n\n\n\\(X_8\\)\n1.33\n-0.04\n-2.86\n-3.00\n-0.04\n1.57\n\n\n\\(X_9\\)\n1.40\n-0.96\n1.93\n0.59\n-1.22\n-2.41\n\n\n\\(X_{10}\\)\n0.45\n0.01\n-0.71\n-0.79\n0.01\n0.60\n\n\n\\(X_{11}\\)\n1.06\n0.38\n-2.28\n-2.24\n0.43\n0.52\n\n\n\\(X_{12}\\)\n40.04\n-1.60\n-142.43\n-144.76\n-1.28\n136.91\n\n\n\n\n\n\n\n\n\n\n\n\nIn Table 3: \\(X_1\\) = Days to flowering, \\(X_2\\) = Pod length (cm), \\(X_3\\) = Pod breadth (cm), \\(X_4\\) = Pod weight (g), \\(X_5\\) = Pods per cluster, \\(X_6\\) = Pods per plant, \\(X_7\\) = Pod yield per plant (g), \\(X_8\\) = Seeds per pod, \\(X_9\\) = Days to first harvest, \\(X_{10}\\) = Primary branches per plant, \\(X_{11}\\) = 100-seed weight (g), \\(X_{12}\\) = Root weight (g).\n\\(m\\) = mean, \\(d\\) = additive effect, \\(h\\) = dominance effect, \\(i\\) = additive × additive, \\(j\\) = additive × dominance, \\(l\\) = dominance × dominance",
     "crumbs": [
       "Volumes",
       "Volume 1",
       "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+      "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis"
     ]
   },
   {
-    "objectID": "volume1/josta111raisins2025.html#sec-results",
-    "href": "volume1/josta111raisins2025.html#sec-results",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
-    "section": "4 Results",
-    "text": "4 Results\nThe RAISINS platform was developed to address the growing need for accessible, reliable, and AI-enhanced statistical tools tailored to agricultural research. By integrating familiar programming environments with user-friendly interfaces, it aims to bridge the gap between complex statistical methods and researchers’ practical needs.\n\n4.1 Modular structure and user interface design\nAll analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary Analysis tab, which serves as the central workspace. This tab contains nested sub-tabs including Analysis.Results, where users configure model parameters and run statistical procedures; Plots and Graphs, which displays dynamic visualizations; AI Interpretation, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a Multivariate tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include Create Data, which enables users to generate CSV-format datasets for custom input; Datasets, which provides curated example datasets for testing and exploration; and User, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in Figure 2 to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: https://statoberrypapaya.github.io/RAISINS_TUTORIAL/, providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.\n\n\n\n\n\n\n\n\n\n\n\n(a) CRD module main page\n\n\n\n\n\n\n\n\n\n\n\n(b) Authentication page\n\n\n\n\n\n\n\n\n\n\n\n\n\n(c) Module dashboard\n\n\n\n\n\n\n\n\n\n\n\n(d) Result tables in Analysis.Results\n\n\n\n\n\n\n\n\n\n\n\n\n\n(e) Plots and graphs\n\n\n\n\n\n\n\n\n\n\n\n(f) AI interpretation\n\n\n\n\n\n\n\n\n\n\n\n\n\n(g) Multivariate analysis window\n\n\n\n\n\n\n\n\n\n\n\n(h) Datasets available for testing\n\n\n\n\n\n\n\nFigure 2: User interface and modular design of the RAISINS platform: screenshots from the CRD Module illustrating the common tab structure across analytical tools.",
-    "crumbs": [
-      "Volumes",
-      "Volume 1",
-      "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
-    ]
-  },
-  {
-    "objectID": "volume1/josta111raisins2025.html#discussion",
-    "href": "volume1/josta111raisins2025.html#discussion",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "objectID": "volume1/lovelyB/generationmean.html#discussion",
+    "href": "volume1/lovelyB/generationmean.html#discussion",
+    "title": "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis",
     "section": "Discussion",
-    "text": "Discussion\nThe RAISINS platform represents a significant advancement in making advanced statistical and AI-driven analytical tools accessible to the agricultural research community. By seamlessly integrating R, Python, and AI capabilities within an intuitive web interface, RAISINS addresses common barriers faced by researchers, such as the complexity of statistical software and interpretation of results. The platform’s emphasis on user-friendliness and automation allows researchers, including those with limited statistical training, to perform rigorous data analysis with confidence. This democratization of statistical tools has the potential to improve the quality and reproducibility of agricultural research outputs. Moreover, the cloud-based deployment ensures scalability and continuous availability, enabling broader adoption across diverse educational and research institutions. The collaborative design and integration of multiple programming environments also open avenues for further enhancements, positioning RAISINS as a flexible and evolving resource in the field of agricultural data science.",
+    "text": "Discussion\nThe significance of scales \\(A\\) and \\(B\\) for most traits indicates that the simple additive-dominance model is inadequate for explaining their inheritance, as reported by Thakare et al. (2016) and Kudiabor et al. (2023). Non-allelic interactions, alongside additive and dominance components, were observed in the expression of several traits, similar to the findings of Edematie et al. (2021) and Akombo et al. (2021).\nSignificant additive × additive (\\(i\\)) interactions were found for pod length, pods per plant, pod yield per plant, and root weight, suggesting complementary or duplicate epistasis. Non-allelic interactions were also evident in traits like days to first flowering. Here, additive effects were highly significant, and additive × dominance (\\(j\\)) interactions were also observed. Dominance × dominance (\\(l\\)) interactions acted in a favorable negative direction in all hybrids. Similar epistatic interactions for early flowering and duplicate epistasis for traits like days to 90% pod maturity in cowpea were reported by Patel et al. (2013), Thakare et al. (2016), and Owusu et al. (2022).\nThese findings imply that earliness in cowpea could be improved through hybridization followed by the selection of promising recombinants in later generations, particularly in crosses governed by duplicate epistasis.\nThe significance of scales \\(C\\) and \\(D\\) for pod length further supports the involvement of dominance × dominance and additive × additive interactions in this trait. Significant additive (\\(d\\)) and dominance (\\(h\\)) effects for pod length were also reported by Rashwan (2010) and Thakare et al. (2013).\nAmong epistatic interactions, dominance × dominance (\\(l\\)), additive × additive (\\(i\\)), and additive × dominance (\\(j\\)) were observed in different crosses. In the case of pod weight, both dominance effects and additive × additive interactions were significant but acted in a negative direction. However, the positive significance of dominance × dominance interactions suggests that hybridization followed by selection would be an effective strategy for improving this trait.\nAll three types of digenic interactions (\\(i\\), \\(j\\), \\(l\\)) were observed for pods per plant. While additive × dominance (\\(j\\)) was positive and significant, both dominance (\\(h\\)) and additive × additive (\\(i\\)) effects acted in the negative direction. The presence of non-allelic interactions for this trait aligns with the findings of Thakare et al. (2016) and Edematie et al. (2021). Significant positive dominance (\\(h\\)) and dominance × dominance (\\(l\\)) interactions suggest the presence of complementary epistasis. In contrast, the negative significance of dominance × dominance (\\(l\\)) for pod yield per plant implies limited potential for improvement through heterosis breeding for this trait.\nThe direction of dominance and dominance × dominance interactions indicated duplicate gene action in the expression of traits such as pod weight, pod breadth, pods per cluster, seeds per pod, root weight per plant, and days to first harvest. Dominance was found to play a role in all traits, especially pod length, as reported by Santos et al. (2024) and Pallavi, Singh, and Chaudhary (2019).\nBoth additive × additive and dominance × dominance interactions were significant for root weight per plant, while the insignificance of all four scale tests (\\(A\\), \\(B\\), \\(C\\), \\(D\\)) for traits like pod breadth, pods per cluster, seeds per pod, days to first harvest, primary branches per plant, and 100-seed weight indicates the adequacy of the additive-dominance model for these traits, and the absence of epistasis. Nonetheless, duplicate epistasis for most yield-related traits in cowpea was previously reported by Shinde et al. (2021).",
     "crumbs": [
       "Volumes",
       "Volume 1",
       "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+      "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis"
     ]
   },
   {
-    "objectID": "volume1/josta111raisins2025.html#conclusion",
-    "href": "volume1/josta111raisins2025.html#conclusion",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "objectID": "volume1/lovelyB/generationmean.html#conclusion",
+    "href": "volume1/lovelyB/generationmean.html#conclusion",
+    "title": "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis",
     "section": "Conclusion",
-    "text": "Conclusion\nThe RAISINS platform aims in democratizing access to advanced statistical and AI-powered analytical tools tailored specifically for agricultural research. By integrating the strengths of R and Python programming environments with artificial intelligence capabilities, RAISINS offers researchers an intuitive and comprehensive platform for conducting inferential statistics without requiring extensive technical expertise. Its web-based interface, supported by cloud hosting, ensures that users can access powerful data analysis tools anytime and from anywhere, thereby enhancing collaboration and research productivity. The platform’s ability to simplify complex outputs and support diverse user groups—from students to seasoned faculty—has already contributed to improved data analysis quality and research rigor within agricultural universities. RAISINS not only supports robust statistical inference but also fosters greater confidence among users in interpreting and applying results to their scientific inquiries. This positions RAISINS as a foundational resource in agricultural data science with substantial potential for continued growth and impact.\n\nFuture Work\nFuture development of RAISINS will focus on expanding its analytical capabilities to cover a wider range of disciplines within agricultural research, including statistical genetics, survey data analysis, and agricultural economics. In addition, the AI components will be further enhanced by training on domain-specific datasets, enabling the platform to provide more accurate, context-aware insights and recommendations. These enhancements aim to solidify RAISINS as a continuously evolving and essential tool for meeting the diverse and growing needs of the agricultural research community.",
+    "text": "Conclusion\nThe generation mean analysis conducted on three cowpea crosses revealed complex genetic control for several important agronomic traits. While the mean effect was highly significant for all key traits, indicating their quantitative nature, the inadequacy of the simple additive-dominance model—evidenced by significant scale tests and the presence of epistasis—highlights the role of non-allelic gene interactions in trait inheritance. Additive × additive, additive × dominance, and dominance × dominance interactions were frequently observed across traits such as pod length, pod yield per plant, pods per plant, and root weight. The predominance of duplicate and complementary epistasis suggests that hybridization followed by selection in segregating generations would be an effective breeding strategy for improving these traits.\nTraits like pod breadth, seeds per pod, and 100-seed weight showed no significant epistasis, indicating that selection based on the additive-dominance model may suffice for their improvement. Conversely, traits influenced by significant non-additive gene actions, such as pod yield and pod weight, may benefit more from recombination breeding approaches. Overall, this study underscores the importance of understanding the underlying gene action for designing appropriate breeding strategies. The insights gained provide a valuable foundation for improving yield and related traits in cowpea through targeted hybridization and selection efforts.\n\n\n\n\n\n\nAcknowledgments\n\n\n\nThe first author gratefully acknowledges the Council of Scientific and Industrial Research (CSIR), Government of India, for awarding the Junior Research Fellowship (JRF) in support of the Ph.D. programme.",
     "crumbs": [
       "Volumes",
       "Volume 1",
       "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+      "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis"
     ]
   },
   {
-    "objectID": "volume1/josta111raisins2025.html#acknowledgments",
-    "href": "volume1/josta111raisins2025.html#acknowledgments",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
-    "section": "Acknowledgments",
-    "text": "Acknowledgments\n\n\n\n\n\n\nThe authors gratefully acknowledge the support and encouragement provided by Kerala Agricultural University throughout the development of this work. We also extend our sincere thanks to the NABARD-KAU-WSU Agtech Launchpad for their invaluable incubation program and continued backing, which have been instrumental in advancing the RAISINS platform.",
-    "crumbs": [
-      "Volumes",
-      "Volume 1",
-      "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
-    ]
-  },
-  {
-    "objectID": "volume1/josta111raisins2025.html#references",
-    "href": "volume1/josta111raisins2025.html#references",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "objectID": "volume1/lovelyB/generationmean.html#references",
+    "href": "volume1/lovelyB/generationmean.html#references",
+    "title": "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis",
     "section": "References",
-    "text": "References\n\n\nAgresti, A. 2013. Categorical Data Analysis. 3rd ed. Hoboken, NJ, USA: Wiley.\n\n\nAllaire, JJ, Kevin Ushey, Yuan Tang, Dirk Eddelbuettel, and RStudio. 2024. Reticulate: Interface to ’Python’. https://rstudio.github.io/reticulate/.\n\n\nBabbie, Earl R. 2020. The Practice of Social Research. 15th ed. Cengage Learning.\n\n\nBhattacherjee, Anol. 2012. Social Science Research: Principles, Methods, and Practices. 2nd ed. Global Text Project.\n\n\nBryman, Alan. 2016. Social Research Methods. 5th ed. Oxford University Press.\n\n\nCasella, George, and Roger L Berger. 2002. Statistical Inference. 2nd ed. Cengage Learning.\n\n\nChang, Winston, Joe Cheng, JJ Allaire, Yihui Xie, and Jonathan McPherson. 2024. Shiny: Web Application Framework for r. https://CRAN.R-project.org/package=shiny.\n\n\nCleveland, William S. 1993. Visualizing Data. Hobart Press.\n\n\nCochran, William G., and Gertrude M. Cox. 1957. Experimental Designs. 2nd ed. New York: John Wiley & Sons.\n\n\nCox, D. R., and Nancy Reid. 2000. The Theory of the Design of Experiments. 1st ed. Monographs on Statistics and Applied Probability, 86. Chapman & Hall/CRC.\n\n\nDabholkar, A. R. 1999. Elements of Bio Metrical Genetics. Revised and Enlarged. Concept Publishing Company Pvt. Ltd.\n\n\nDas, M. N., and N. C. Giri. 2018. Design and Analysis of Experiments. 2nd ed. New Delhi, India: New Age International Publishers.\n\n\nDey, A. 1986. Theory of Block Designs. New Delhi, India: Wiley Eastern Ltd.\n\n\nFalconer, Douglas S, and Trudy FC Mackay. 1996. Introduction to Quantitative Genetics. 4th ed. Longman.\n\n\nFederer, W. T. 1985. Experimental Designs. ? New York: The Macmillan Company.\n\n\nFew, S. 2009. Now You See It: Simple Visualization Techniques for Quantitative Analysis. Berkeley, CA, USA: Analytics Press.\n\n\nGillespie, John H. 2004. Population Genetics: A Concise Guide. 2nd ed. Baltimore, MD: Johns Hopkins University Press.\n\n\nGomez, Kwanchai A, and Arturo A Gomez. 1984. Statistical Procedures for Agricultural Research. 2nd ed. John Wiley & Sons.\n\n\nHarris, Charles R., K. Jarrod Millman, Stéfan van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, et al. 2020. NumPy: Fundamental Package for Scientific Computing with Python. Nature. Vol. 585. https://doi.org/10.1038/s41586-020-2649-2.\n\n\nHogg, Robert V, Joseph McKean, and Allen T Craig. 2018. Introduction to Mathematical Statistics. 8th ed. Pearson.\n\n\nHusson, François, Julie Josse, Sébastien Lê, and Jeremy Mazet. 2020. FactoMineR: Multivariate Exploratory Data Analysis and Data Mining. https://CRAN.R-project.org/package=FactoMineR.\n\n\nLynch, Michael, and Bruce Walsh. 1998. Genetics and Analysis of Quantitative Traits. Sinauer Associates.\n\n\nMendiburu, Felipe de. 2020. Agricolae: Statistical Procedures for Agricultural Research. https://CRAN.R-project.org/package=agricolae.\n\n\nMontgomery, Douglas C. 2017. Design and Analysis of Experiments. 9th ed. John Wiley & Sons.\n\n\nPedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, et al. 2011. Scikit-Learn: Machine Learning in Python. Journal of Machine Learning Research. Vol. 12. https://scikit-learn.org/.\n\n\nRao, C. Radhakrishna. 2009. Linear Statistical Inference and Its Applications. 2nd ed. John Wiley & Sons (Wiley-Interscience).\n\n\nRobinson, David, and Alex Hayes. 2024. Broom: Convert Statistical Analysis Objects into Tidy Tibbles. https://CRAN.R-project.org/package=broom.\n\n\nRohatgi, Vijay K. 1984. Statistical Inference. Wiley Series in Probability and Mathematical Statistics. New York: John Wiley & Sons.\n\n\nSeabold, Skipper, and Josef Perktold. 2010. Statsmodels: Statistical Modeling and Econometrics in Python. https://www.statsmodels.org/.\n\n\nSearle, Shayle R. 1997. Linear Models. John Wiley & Sons.\n\n\nSievert, Carson. 2023. Plotly: Create Interactive Web Graphics via ’Plotly.js’. https://CRAN.R-project.org/package=plotly.\n\n\nThe pandas development team. 2024. Pandas: Powerful Python Data Analysis Toolkit. https://pandas.pydata.org/.\n\n\nToutenburg, Helge, and Shalabh. 2009. Statistical Analysis of Designed Experiments. 3rd ed. Springer Texts in Statistics. Springer‑Verlag New York.\n\n\nTufte, Edward R. 2001. The Visual Display of Quantitative Information. Graphics Press.\n\n\nWickham, Hadley. 2023. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://CRAN.R-project.org/package=ggplot2.\n\n\nWickham, Hadley, Romain Francois, Lionel Henry, and Kirill Müller. 2024. Dplyr: A Grammar of Data Manipulation. https://CRAN.R-project.org/package=dplyr.",
+    "text": "References\n\n\n\nAkombo, R. A., M. O. Adeyemo, P. E. Odo, and T. Vange. 2021. “Generation Mean Analysis for Harvest and Leaf-Yield Indices in Cowpea.” Greener Journal of Plant Breeding and Crop Science 9 (1): 8–18.\n\n\nBenchasri, S., B. Bairaman, and C. Nualsri. 2012. “Evaluation of Yard Long Bean and Cowpea for Resistance to Aphis Craccivora Koch in Southern Part of Thailand.” Journal of Animal and Plant Sciences 22: 1024–29.\n\n\nEdematie, V. E., C. Fatokun, O. Boukar, V. O. Adetimirin, and P. L. Kumar. 2021. “Inheritance of Pod Length and Other Yield Components in Two Cowpea and Yard-Long Bean Crosses.” Agronomy 11 (4): 682. https://doi.org/10.3390/agronomy11040682.\n\n\nHayman, B. 1958. “The Separation of Epistatic from Additive and Dominance Variation in Generation Means.” Heredity 12: 371–90. https://doi.org/10.1038/hdy.1958.36.\n\n\nHisham M, M., J. Chandran, and P. P. Gopinath. 2025. “RAISINS: Integrating r and AI for Agricultural Data Analysis.” Journal of Sustainable Technology in Agriculture 1 (1). https://doi.org/10.5281/zenodo.15622128.\n\n\nKudiabor, R. B., J. S. Y. Eleblu, B. Hodasi, and E. Y. Danquah. 2023. “Gene Action Controlling Seed Size in Cowpea (Vigna Unguiculata l. Walp).” Science and Development 7 (1).\n\n\nMather, K. 1949. Biometrical Genetics. New York: Dover Publications Inc.\n\n\nOwusu, E. Y., F. Kusi, A. W. Kena, R. Akromah, F. J. Awuku, P. Attamah, and G. Mensah. 2022. “Generation Mean Analysis of the Key Earliness Related Traits in Cowpea (Vigna Unguiculata (l.) Walp).” Scientific African 17: e01289. https://doi.org/10.1016/j.sciaf.2022.e01289.\n\n\nPallavi, A. Singh, and S. Chaudhary. 2019. “Generation Mean Analysis Using Six Parameters Genetic Model for Quantitative Traits in Cowpea [(Vigna Unguiculata (l.) Walp.)].” International Journal of Current Microbiology and Applied Sciences 8 (02): 1967–73. https://doi.org/10.20546/ijcmas.2019.802.230.\n\n\nPatel, H., J. B. Patel, S. C. Sharma, and S. Acharya. 2013. “Genetics of Seed Yield and Its Components in Cowpea [Vigna Unguiculata (l.) Walp.].” Trends in Biosciences 6: 631–36.\n\n\nPeyrano, F., F. Speroni, and M. V. Avanza. 2016. “Physicochemical and Functional Properties of Cowpea Protein Isolates Treated with Temperature or High Hydrostatic Pressure.” Innovative Food Science & Emerging Technologies 33: 38–46.\n\n\nRashwan, A. M. A. 2010. “Estimation of Some Genetic Parameters Using Six Population of Two Cowpea Hybrids.” Asian Journal of Crop Science 2 (4): 261–67.\n\n\nSantos, S. P., M. S. Araújo, W. F. L. Aragão, K. J. D. Silva, and M. M. Rocha. 2024. “Genetic Analysis of Yield Component Traits in Cowpea [Vigna Unguiculata (l.) Walp.].” Crop Breeding and Applied Biotechnology 24 (1). https://doi.org/10.1590/1984-70332024v24n1a03.\n\n\nShinde, R. J., V. N. Toprope, P. R. Sargar, V. R. Dhakne, and S. S. Chavan. 2021. “Generation Mean Analysis Studies in Cowpea (Vigna Unguiculata l. Walp).” International Journal of Theoretical & Applied Sciences 13 (2): 22–25.\n\n\nThakare, D. S., M. S. Bhailume, R. C. Rokade, S. C. Pulate, and V. P. Chimote. 2016. “Genetic Analysis of Various Yield Components in Cowpea.” International Journal of Tropical Agriculture 34 (6).\n\n\n\n\n\n\n\n\n\nTechnical Details\n\n\n\nThe RAISINS (Hisham M, Chandran, and Gopinath 2025) online statistical analysis platform was extensively utilized for analyzing Randomized Block Designs (RBD) and generating associated descriptive statistics. However, these aspects were not elaborated upon in the paper.\n\n\n\n\n\n\n\n\nPublication & Reviewer Details\n\n\n\nPublication Information\n- Submitted: 13 June 2025\n- Peer Review: 14 June 2025\n- Accepted: 17 June 2025\n- Published (Online): 17 June 2025\nReviewer Information \nReviewer 1:\nAnonymous \nReviewer 2:\nDr.Gayathri G.\nAssistant Professor  Plant Breeding & Genetics Kerala Agricultural University",
     "crumbs": [
       "Volumes",
       "Volume 1",
       "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+      "Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis"
     ]
   },
   {
-    "objectID": "volume1/josta111raisins2025.html#sec-techdetails",
-    "href": "volume1/josta111raisins2025.html#sec-techdetails",
-    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
-    "section": "Technical details",
-    "text": "Technical details\n\n\n\n\n\n\nDue to the ongoing costs associated with hosting and maintaining the RAISINS platform, the authors have adopted a subscription-based model to ensure its sustainability and continued development. The live application is accessible to users at www.raisins.live.\n\n\n\n\n\n\n\n\n\nPublication & Reviewer Details\n\n\n\nPublication Information\n- Submitted: 15 May 2025\n- Accepted: 06 June 2025\n- Published (Online): 09 June 2025\nReviewer Information\nDr. Saurav Guha, Ph.D.\nAssistant Professor-cum-Junior Scientist\nDepartment of Statistics, Mathematics & Computer Application\nBihar Agricultural University, Sabour, India\nORCID: 0000-0001-8960-5062\nDr. Manju Mary Paul, Ph.D.\nAssistant Professor\nDepartment of Agricultural Statistics\nKerala Agricultural University, Kerala, India",
-    "crumbs": [
-      "Volumes",
-      "Volume 1",
-      "Issue1",
-      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
-    ]
-  },
-  {
-    "objectID": "published.html",
-    "href": "published.html",
-    "title": "Latest Articles",
-    "section": "",
-    "text": "Home \n\n\nLatest Articles\n\n\n\nVolume I • Issue I • 2025\n\n\nThis page lists all peer-reviewed papers published in the journal. Click on a title to read the full article.\n\n\n\n\n\n\n\n\n\n\n\nRAISINS: Integrating R and AI for Agricultural Data Analysis\n\n\n\n\n\n\nOrignal-Article\n\n\nData-Science\n\n\nSoftware\n\n\n\nRAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses.\n\n\n\n\n\nJun 8, 2025\n\n\nMohammed Hisham M., Jithin Chandran, Pratheesh P Gopinath*\n\n\nPublished (Online)\n\n\n\n\n\n\nNo matching items\n\n Back to top",
-    "crumbs": [
-      "Latest Articles"
-    ]
-  },
-  {
-    "objectID": "index.html#our-vision",
-    "href": "index.html#our-vision",
-    "title": "About JOSTA",
-    "section": "Our Vision",
-    "text": "Our Vision\nJOSTA envisions a research environment where sharing agricultural innovations is simple, accessible, and inclusive. Our aim is to provide a dedicated platform for publishing high-quality agricultural research in a researcher-friendly manner—removing unnecessary barriers while maintaining high editorial standards. We believe in connecting researchers, educators, and practitioners by offering open access to well-reviewed, reliable research. By fostering a transparent and practical publishing process, JOSTA supports the continuous improvement of agricultural science and technology.",
-    "crumbs": [
-      "About JOSTA"
-    ]
-  },
-  {
-    "objectID": "index.html#why-publish-with-us",
-    "href": "index.html#why-publish-with-us",
-    "title": "About JOSTA",
-    "section": "Why Publish with Us?",
-    "text": "Why Publish with Us?\nOpen Access: Your work is freely accessible online from the moment of publication, increasing its reach and impact.\n\nStreamlined Process: We offer a simple, submission-friendly system that focuses on quality without the complexity of traditional publishing.\nPermanent Archiving: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.\nSupportive Community: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.",
-    "crumbs": [
-      "About JOSTA"
-    ]
-  },
-  {
-    "objectID": "index.html#peer-review-policy",
-    "href": "index.html#peer-review-policy",
-    "title": "About JOSTA",
-    "section": "Peer Review Policy",
-    "text": "Peer Review Policy\nAll submissions undergo an initial assessment by the managing editors. Suitable manuscripts are then assigned to the appropriate section editors, who identify independent experts in the relevant field to serve as reviewers. JOSTA follows a double-blind peer review process, where both authors and reviewers remain anonymous to ensure fairness and objectivity. Based on the reviewers’ feedback, authors may be requested to revise their manuscripts.\nFor a detailed description of the review process, see Peer Review Process.",
-    "crumbs": [
-      "About JOSTA"
-    ]
-  },
-  {
-    "objectID": "index.html#open-access",
-    "href": "index.html#open-access",
-    "title": "About JOSTA",
-    "section": "🔓Open Access",
-    "text": "🔓Open Access\nJOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.",
-    "crumbs": [
-      "About JOSTA"
-    ]
-  },
-  {
-    "objectID": "index.html#article-processing-charges-apc",
-    "href": "index.html#article-processing-charges-apc",
-    "title": "About JOSTA",
-    "section": "Article Processing Charges (APC)",
-    "text": "Article Processing Charges (APC)\nJOSTA operates under a fully open-access publishing model, ensuring that all published articles are freely accessible to readers worldwide without any paywalls.\nTo support the costs associated with editorial management, online hosting, long-term archiving, and open-access dissemination, an Article Processing Charge (APC) is applicable upon acceptance of the manuscript:\nINR 10,000 for authors residing in India\nUSD 250 for international authors (outside India)\n✅ No submission fees\n✅ No additional charges for figures, tables, or page limits\n✅ Immediate online publication and permanent open-access availability\n\nAPC Waiver for Inaugural Year\nTo support the launch of the journal, all APCs will be waived for manuscripts submitted on or before 15 June 2026.",
-    "crumbs": [
-      "About JOSTA"
-    ]
-  },
-  {
-    "objectID": "index.html#greener-publishing",
-    "href": "index.html#greener-publishing",
-    "title": "About JOSTA",
-    "section": "🍃Greener Publishing",
-    "text": "🍃Greener Publishing\nAs a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint—aligning our commitment to open access with a sustainable future for scholarly communication.\n   \n\nCopyright Information\n© 2025 Statoberry LLP. All rights reserved.\nJOSTA is licensed under a\n\nCreative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.\nUnder this license:\n- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made.\n- Non Commercial: You may not use the material for commercial purposes.\n- No Derivatives: If you remix, transform, or build upon the material, you may not distribute the modified material.\nFor commercial use or distribution of print copies, prior written permission from Statoberry LLP is required.",
-    "crumbs": [
-      "About JOSTA"
-    ]
-  },
-  {
-    "objectID": "editorial.html#editor-in-chief",
-    "href": "editorial.html#editor-in-chief",
-    "title": "Editorial Board",
-    "section": "Editor-in-Chief",
-    "text": "Editor-in-Chief\nvacant",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "editorial.html#managing-editors",
-    "href": "editorial.html#managing-editors",
-    "title": "Editorial Board",
-    "section": "Managing Editors",
-    "text": "Managing Editors\n\n  \n  \n    Dr. Lovely B\n    Department of Plant Breeding & Genetics, College of Agriculture, Vellayani, Kerala Agricultural University\n    Email: lovely.b@kau.in\n    ORCID: 0000-0002-3456-7890\n  \n\n\n  \n  \n    Dr. Pratheesh P Gopinath\n    Department of Agricultural Statistics, Kerala Agricultural University\n    Email: pratheesh.pg@kau.in\n    ORCID: 0000-0003-3290-0436",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "editorial.html#section-editors",
-    "href": "editorial.html#section-editors",
-    "title": "Editorial Board",
-    "section": "Section Editors",
-    "text": "Section Editors\nvacant",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "editorial.html#advisory-board",
-    "href": "editorial.html#advisory-board",
-    "title": "Editorial Board",
-    "section": "Advisory Board",
-    "text": "Advisory Board\nVacant",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "authorguide.html#guidelines",
-    "href": "authorguide.html#guidelines",
-    "title": "Article submission",
-    "section": "Guidelines",
-    "text": "Guidelines\n\nManuscript types and word limits\nJOSTA encourages concise and focused writing. The preferred word limits (excluding references, tables, and figure captions) for each article type are:\n\nResearch Article: up to 4,000 words\nReview Article: up to 5,000 words\nShort Communication: up to 2,000 words\nCase Study: up to 2,500 words\nSoftware: up to 2,000 words\nPolicy: up to 2,500 words\n\nManuscripts exceeding these limits should include justification in the cover letter to the editor.\n\n\nAuthorship policy\nJOSTA allows a maximum of six (6) authors per manuscript. All authors must meet ICMJE authorship criteria. If more than six contributors were involved, they should be acknowledged under “Contributors” with their roles specified. The corresponding author must confirm consent from all co-authors.\n\n\nManuscript preparation\nFile format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) format. PDF files are not accepted.\n\nStructure: Manuscripts should generally include: Title, Abstract, Keywords, Introduction, Materials and Methods, Results, Discussion, Conclusion, References.\nAbstract: Max 150 words. Avoid citations and excessive abbreviations.\nKeywords: 4–6, comma-separated, avoiding words already in the title.\nFigures: May be embedded in the manuscript or uploaded separately as high-resolution .png, .jpg, or .tiff files.\nTables: Should be uploaded separately as .csv or .xlsx files if not included in editable format within the manuscript.\nSupplementary Material: Optional files such as datasets, appendices, or multimedia can be submitted.\n\n\n\nSubmission procedure\nAuthors must complete the online [submission form] (submit.qmd), providing:\n\nAuthor and co-author details\nManuscript metadata (title, abstract, keywords, article type, etc.)\nManuscript and supporting file uploads\nEthical declarations and cover letter to editor\n\n\n\nEthical requirements\nPlagiarism: All submissions must be original\nConflict of Interest: Must be declared clearly. If none, write “None.”\nEthical Approval: Required for studies involving humans, animals, or sensitive data. Upload certificate if applicable.\n\n\nArticle categories\nJOSTA accepts articles under the following editorial sections, see in [detail] (editorialsections.qmd)\n\nCrop and Plant Science\nSoil Science and Agroecology\nAnimal Science and Fisheries\nBiotechnology & Molecular Biology\nAgricultural Engineering and Technology\nData Science and Statistics in Agriculture\nAgricultural Economics and Rural Development\nAgricultural Extension and Education\nPost-Harvest Technology and Food Science\nClimate Change and Sustainable Agriculture\nPlant Pathology and Pest Management\nForestry and Agroforestry\n\nAuthors must select one or more relevant sections during submission. See editorial sections for full descriptions.\n\n\nReview process\nAll submissions undergo initial editorial screening followed by double-blind peer review. Authors may be asked to revise their manuscripts based on reviewer feedback.\n\n\nReferencing style\nJOSTA follows a referencing style closely aligned with that used by established journals in applied statistics and agricultural research. However, authors are not required to manually format references during submission.\nAll references must include complete and accurate bibliographic details. JOSTA’s article processing system will handle reference formatting. Authors must ensure that each reference contains the following minimum required fields:\nFor Journal Articles:\n\nAuthor(s)\nTitle\nJournal name\nYear\nVolume and issue (if applicable)\nPage numbers\nDOI (if available)\n\nFor Books:\n\nAuthor or Editor\nTitle\nPublisher\nYear\nPlace of publication\n\nFor Book Chapters:\n\nAuthor\nChapter title\nBook title\nEditor(s)\nPublisher\nYear\nPages\n\nFor Theses:\n\nAuthor\nTitle\nDegree type (e.g., MSc, PhD)\nInstitution\nYear\n\nFor Conference Proceedings:\n\nAuthor\nTitle\nConference title\nYear\nPages\nPublisher or Organizer\n\nFor Web Sources:\n\nAuthor or Organization\nTitle\nURL\nAccessed date\nYear (if available)\n\nImproper or incomplete references may delay processing.",
+    "objectID": "submit.html#submit-article",
+    "href": "submit.html#submit-article",
+    "title": "JOSTA",
+    "section": "Submit article",
+    "text": "Submit article\nThank you for your interest in submitting to the Journal of Sustainable Technology in Agriculture (JOSTA).\nPlease ensure you have reviewed the Author Guidelines before submission.\nTo submit your manuscript, click the button below:\n  Submit Article \n\n\n\n\n\n\n\nIf you encounter any issues during submission, please contact us at jostapubs@gmail.com (mailto:jostapubs@gmail.com).",
     "crumbs": [
       "Submit Articles",
-      "Article submission"
+      "Submit article"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#double-blind-peer-review",
+    "href": "peerReview.html#double-blind-peer-review",
+    "title": "Peer Review Policy",
+    "section": "Double-blind peer review",
+    "text": "Double-blind peer review\nJOSTA follows a double-blind peer review process, in which:\n\nThe identities of the reviewers are hidden from the authors.\nThe identities of the authors are hidden from the reviewers.\n\nThis model promotes objective evaluation based solely on the academic quality and relevance of the submission.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#selection-of-reviewers",
+    "href": "peerReview.html#selection-of-reviewers",
+    "title": "Peer Review Policy",
+    "section": "Selection of reviewers",
+    "text": "Selection of reviewers\n\nReviewers are selected based on their subject expertise, experience, and publication record.\nFor interdisciplinary manuscripts, multiple reviewers with complementary expertise may be invited.\nInvitations are sent via email with full instructions and secure access to the manuscript.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#review-process",
+    "href": "peerReview.html#review-process",
+    "title": "Peer Review Policy",
+    "section": "Review Process",
+    "text": "Review Process\nUpon accepting the invitation, reviewers are provided with:\n\nA reviewer copy of the manuscript (PDF)\nA secure Google Form link for submitting their review\nA passcode (sent via email) to access the form\n\nReviewers are asked to assess the manuscript on the following:\n\nRelevance to the journal’s scope\nOriginality and novelty\nClarity of research objectives\nMethodological soundness\nQuality of analysis and interpretation\nValidity of conclusions\nPresentation and language",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#reviewer-recommendations",
+    "href": "peerReview.html#reviewer-recommendations",
+    "title": "Peer Review Policy",
+    "section": "Reviewer Recommendations",
+    "text": "Reviewer Recommendations\nReviewers are requested to select one of the following:\n\nAccept as is\nMinor revision\nMajor revision\nReject\n\nThe editorial team makes the final decision, based on the reviewers’ recommendations and internal evaluation.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#confidentiality",
+    "href": "peerReview.html#confidentiality",
+    "title": "Peer Review Policy",
+    "section": "Confidentiality",
+    "text": "Confidentiality\nAll manuscripts and review materials are handled as confidential documents. Reviewers must:\n\nNot share the manuscript with others\nUse the content strictly for review purposes\nDisclose any conflicts of interest",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#acknowledgment-of-reviewers",
+    "href": "peerReview.html#acknowledgment-of-reviewers",
+    "title": "Peer Review Policy",
+    "section": "Acknowledgment of Reviewers",
+    "text": "Acknowledgment of Reviewers\nJOSTA provides an opportunity to acknowledge reviewers after publication. Reviewers are asked:\n\n“Are you willing to have your name and affiliation listed as a reviewer in the published article or journal issue?”\n\nThis is entirely voluntary and based on reviewer consent.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#author-notification-and-proofing",
+    "href": "peerReview.html#author-notification-and-proofing",
+    "title": "Peer Review Policy",
+    "section": "Author notification and proofing",
+    "text": "Author notification and proofing\n\nAuthors are notified when their manuscript enters the peer review phase.\nA typeset PDF version is also shared with the authors during this stage for proofing.\nAuthors are requested to verify formatting, figures, author details, and notify any corrections within 3–5 working days.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#timelines",
+    "href": "peerReview.html#timelines",
+    "title": "Peer Review Policy",
+    "section": "Timelines",
+    "text": "Timelines\n\nStandard review period: 2 weeks\nTotal review and decision timeline: 4 to 6 weeks\nExtensions may be granted upon request",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#appeals-and-complaints",
+    "href": "peerReview.html#appeals-and-complaints",
+    "title": "Peer Review Policy",
+    "section": "Appeals and complaints",
+    "text": "Appeals and complaints\nAuthors may appeal a decision by contacting the editorial office with a formal justification. An independent editorial board member will handle the appeal process to ensure fairness.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#contact",
+    "href": "peerReview.html#contact",
+    "title": "Peer Review Policy",
+    "section": "Contact",
+    "text": "Contact\nFor questions or assistance regarding the review process, please contact:\n📧 jostapubs@gmail.com\n🌐 www.jostapubs.com",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
     ]
   },
   {
@@ -371,124 +332,254 @@
     ]
   },
   {
-    "objectID": "peerReview.html#double-blind-peer-review",
-    "href": "peerReview.html#double-blind-peer-review",
-    "title": "Peer Review Policy",
-    "section": "Double-blind peer review",
-    "text": "Double-blind peer review\nJOSTA follows a double-blind peer review process, in which:\n\nThe identities of the reviewers are hidden from the authors.\nThe identities of the authors are hidden from the reviewers.\n\nThis model promotes objective evaluation based solely on the academic quality and relevance of the submission.",
+    "objectID": "authorguide.html#guidelines",
+    "href": "authorguide.html#guidelines",
+    "title": "Article submission",
+    "section": "Guidelines",
+    "text": "Guidelines\n\nManuscript types and word limits\nJOSTA encourages concise and focused writing. The preferred word limits (excluding references, tables, and figure captions) for each article type are:\n\nResearch Article: up to 4,000 words\nReview Article: up to 5,000 words\nShort Communication: up to 2,000 words\nCase Study: up to 2,500 words\nSoftware: up to 2,000 words\nPolicy: up to 2,500 words\n\nManuscripts exceeding these limits should include justification in the cover letter to the editor.\n\n\nAuthorship policy\nJOSTA allows a maximum of six (6) authors per manuscript. All authors must meet ICMJE authorship criteria. If more than six contributors were involved, they should be acknowledged under “Contributors” with their roles specified. The corresponding author must confirm consent from all co-authors.\n\n\nManuscript preparation\nFile format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) format. PDF files are not accepted.\n\nStructure: Manuscripts should generally include: Title, Abstract, Keywords, Introduction, Materials and Methods, Results, Discussion, Conclusion, References.\nAbstract: Max 150 words. Avoid citations and excessive abbreviations.\nKeywords: 4–6, comma-separated, avoiding words already in the title.\nFigures: May be embedded in the manuscript or uploaded separately as high-resolution .png, .jpg, or .tiff files.\nTables: Should be uploaded separately as .csv or .xlsx files if not included in editable format within the manuscript.\nSupplementary Material: Optional files such as datasets, appendices, or multimedia can be submitted.\n\n\n\nSubmission procedure\nAuthors must complete the online [submission form] (submit.qmd), providing:\n\nAuthor and co-author details\nManuscript metadata (title, abstract, keywords, article type, etc.)\nManuscript and supporting file uploads\nEthical declarations and cover letter to editor\n\n\n\nEthical requirements\nPlagiarism: All submissions must be original\nConflict of Interest: Must be declared clearly. If none, write “None.”\nEthical Approval: Required for studies involving humans, animals, or sensitive data. Upload certificate if applicable.\n\n\nArticle categories\nJOSTA accepts articles under the following editorial sections, see in [detail] (editorialsections.qmd)\n\nCrop and Plant Science\nSoil Science and Agroecology\nAnimal Science and Fisheries\nBiotechnology & Molecular Biology\nAgricultural Engineering and Technology\nData Science and Statistics in Agriculture\nAgricultural Economics and Rural Development\nAgricultural Extension and Education\nPost-Harvest Technology and Food Science\nClimate Change and Sustainable Agriculture\nPlant Pathology and Pest Management\nForestry and Agroforestry\n\nAuthors must select one or more relevant sections during submission. See editorial sections for full descriptions.\n\n\nReview process\nAll submissions undergo initial editorial screening followed by double-blind peer review. Authors may be asked to revise their manuscripts based on reviewer feedback.\n\n\nReferencing style\nJOSTA follows a referencing style closely aligned with that used by established journals in applied statistics and agricultural research. However, authors are not required to manually format references during submission.\nAll references must include complete and accurate bibliographic details. JOSTA’s article processing system will handle reference formatting. Authors must ensure that each reference contains the following minimum required fields:\nFor Journal Articles:\n\nAuthor(s)\nTitle\nJournal name\nYear\nVolume and issue (if applicable)\nPage numbers\nDOI (if available)\n\nFor Books:\n\nAuthor or Editor\nTitle\nPublisher\nYear\nPlace of publication\n\nFor Book Chapters:\n\nAuthor\nChapter title\nBook title\nEditor(s)\nPublisher\nYear\nPages\n\nFor Theses:\n\nAuthor\nTitle\nDegree type (e.g., MSc, PhD)\nInstitution\nYear\n\nFor Conference Proceedings:\n\nAuthor\nTitle\nConference title\nYear\nPages\nPublisher or Organizer\n\nFor Web Sources:\n\nAuthor or Organization\nTitle\nURL\nAccessed date\nYear (if available)\n\nImproper or incomplete references may delay processing.",
     "crumbs": [
       "Submit Articles",
-      "Peer Review Policy"
+      "Article submission"
     ]
   },
   {
-    "objectID": "peerReview.html#selection-of-reviewers",
-    "href": "peerReview.html#selection-of-reviewers",
-    "title": "Peer Review Policy",
-    "section": "Selection of reviewers",
-    "text": "Selection of reviewers\n\nReviewers are selected based on their subject expertise, experience, and publication record.\nFor interdisciplinary manuscripts, multiple reviewers with complementary expertise may be invited.\nInvitations are sent via email with full instructions and secure access to the manuscript.",
+    "objectID": "editorial.html#editor-in-chief",
+    "href": "editorial.html#editor-in-chief",
+    "title": "Editorial Board",
+    "section": "Editor-in-Chief",
+    "text": "Editor-in-Chief\nvacant",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#review-process",
-    "href": "peerReview.html#review-process",
-    "title": "Peer Review Policy",
-    "section": "Review Process",
-    "text": "Review Process\nUpon accepting the invitation, reviewers are provided with:\n\nA reviewer copy of the manuscript (PDF)\nA secure Google Form link for submitting their review\nA passcode (sent via email) to access the form\n\nReviewers are asked to assess the manuscript on the following:\n\nRelevance to the journal’s scope\nOriginality and novelty\nClarity of research objectives\nMethodological soundness\nQuality of analysis and interpretation\nValidity of conclusions\nPresentation and language",
+    "objectID": "editorial.html#managing-editors",
+    "href": "editorial.html#managing-editors",
+    "title": "Editorial Board",
+    "section": "Managing Editors",
+    "text": "Managing Editors\n\n  \n  \n    Dr. Lovely B\n    Department of Plant Breeding & Genetics, College of Agriculture, Vellayani, Kerala Agricultural University\n    Email: lovely.b@kau.in\n    ORCID: 0000-0002-3456-7890\n  \n\n\n  \n  \n    Dr. Pratheesh P Gopinath\n    Department of Agricultural Statistics, Kerala Agricultural University\n    Email: pratheesh.pg@kau.in\n    ORCID: 0000-0003-3290-0436",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#reviewer-recommendations",
-    "href": "peerReview.html#reviewer-recommendations",
-    "title": "Peer Review Policy",
-    "section": "Reviewer Recommendations",
-    "text": "Reviewer Recommendations\nReviewers are requested to select one of the following:\n\nAccept as is\nMinor revision\nMajor revision\nReject\n\nThe editorial team makes the final decision, based on the reviewers’ recommendations and internal evaluation.",
+    "objectID": "editorial.html#section-editors",
+    "href": "editorial.html#section-editors",
+    "title": "Editorial Board",
+    "section": "Section Editors",
+    "text": "Section Editors\nvacant",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#confidentiality",
-    "href": "peerReview.html#confidentiality",
-    "title": "Peer Review Policy",
-    "section": "Confidentiality",
-    "text": "Confidentiality\nAll manuscripts and review materials are handled as confidential documents. Reviewers must:\n\nNot share the manuscript with others\nUse the content strictly for review purposes\nDisclose any conflicts of interest",
+    "objectID": "editorial.html#advisory-board",
+    "href": "editorial.html#advisory-board",
+    "title": "Editorial Board",
+    "section": "Advisory Board",
+    "text": "Advisory Board\nVacant",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#acknowledgment-of-reviewers",
-    "href": "peerReview.html#acknowledgment-of-reviewers",
-    "title": "Peer Review Policy",
-    "section": "Acknowledgment of Reviewers",
-    "text": "Acknowledgment of Reviewers\nJOSTA provides an opportunity to acknowledge reviewers after publication. Reviewers are asked:\n\n“Are you willing to have your name and affiliation listed as a reviewer in the published article or journal issue?”\n\nThis is entirely voluntary and based on reviewer consent.",
+    "objectID": "index.html#our-vision",
+    "href": "index.html#our-vision",
+    "title": "About JOSTA",
+    "section": "Our Vision",
+    "text": "Our Vision\nJOSTA envisions a research environment where sharing agricultural innovations is simple, accessible, and inclusive. Our aim is to provide a dedicated platform for publishing high-quality agricultural research in a researcher-friendly manner—removing unnecessary barriers while maintaining high editorial standards. We believe in connecting researchers, educators, and practitioners by offering open access to well-reviewed, reliable research. By fostering a transparent and practical publishing process, JOSTA supports the continuous improvement of agricultural science and technology.",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "About JOSTA"
     ]
   },
   {
-    "objectID": "peerReview.html#author-notification-and-proofing",
-    "href": "peerReview.html#author-notification-and-proofing",
-    "title": "Peer Review Policy",
-    "section": "Author notification and proofing",
-    "text": "Author notification and proofing\n\nAuthors are notified when their manuscript enters the peer review phase.\nA typeset PDF version is also shared with the authors during this stage for proofing.\nAuthors are requested to verify formatting, figures, author details, and notify any corrections within 3–5 working days.",
+    "objectID": "index.html#why-publish-with-us",
+    "href": "index.html#why-publish-with-us",
+    "title": "About JOSTA",
+    "section": "Why Publish with Us?",
+    "text": "Why Publish with Us?\nOpen Access: Your work is freely accessible online from the moment of publication, increasing its reach and impact.\n\nStreamlined Process: We offer a simple, submission-friendly system that focuses on quality without the complexity of traditional publishing.\nPermanent Archiving: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.\nSupportive Community: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "About JOSTA"
     ]
   },
   {
-    "objectID": "peerReview.html#timelines",
-    "href": "peerReview.html#timelines",
-    "title": "Peer Review Policy",
-    "section": "Timelines",
-    "text": "Timelines\n\nStandard review period: 2 weeks\nTotal review and decision timeline: 4 to 6 weeks\nExtensions may be granted upon request",
+    "objectID": "index.html#peer-review-policy",
+    "href": "index.html#peer-review-policy",
+    "title": "About JOSTA",
+    "section": "Peer Review Policy",
+    "text": "Peer Review Policy\nAll submissions undergo an initial assessment by the managing editors. Suitable manuscripts are then assigned to the appropriate section editors, who identify independent experts in the relevant field to serve as reviewers. JOSTA follows a double-blind peer review process, where both authors and reviewers remain anonymous to ensure fairness and objectivity. Based on the reviewers’ feedback, authors may be requested to revise their manuscripts.\nFor a detailed description of the review process, see Peer Review Process.",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "About JOSTA"
     ]
   },
   {
-    "objectID": "peerReview.html#appeals-and-complaints",
-    "href": "peerReview.html#appeals-and-complaints",
-    "title": "Peer Review Policy",
-    "section": "Appeals and complaints",
-    "text": "Appeals and complaints\nAuthors may appeal a decision by contacting the editorial office with a formal justification. An independent editorial board member will handle the appeal process to ensure fairness.",
+    "objectID": "index.html#open-access",
+    "href": "index.html#open-access",
+    "title": "About JOSTA",
+    "section": "🔓Open Access",
+    "text": "🔓Open Access\nJOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "About JOSTA"
     ]
   },
   {
-    "objectID": "peerReview.html#contact",
-    "href": "peerReview.html#contact",
-    "title": "Peer Review Policy",
-    "section": "Contact",
-    "text": "Contact\nFor questions or assistance regarding the review process, please contact:\n📧 jostapubs@gmail.com\n🌐 www.jostapubs.com",
+    "objectID": "index.html#article-processing-charges-apc",
+    "href": "index.html#article-processing-charges-apc",
+    "title": "About JOSTA",
+    "section": "Article Processing Charges (APC)",
+    "text": "Article Processing Charges (APC)\nJOSTA operates under a fully open-access publishing model, ensuring that all published articles are freely accessible to readers worldwide without any paywalls.\nTo support the costs associated with editorial management, online hosting, long-term archiving, and open-access dissemination, an Article Processing Charge (APC) is applicable upon acceptance of the manuscript:\nINR 10,000 for authors residing in India\nUSD 250 for international authors (outside India)\n✅ No submission fees\n✅ No additional charges for figures, tables, or page limits\n✅ Immediate online publication and permanent open-access availability\n\nAPC Waiver for Inaugural Year\nTo support the launch of the journal, all APCs will be waived for manuscripts submitted on or before 15 June 2026.",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "About JOSTA"
     ]
   },
   {
-    "objectID": "submit.html#submit-article",
-    "href": "submit.html#submit-article",
-    "title": "JOSTA",
-    "section": "Submit article",
-    "text": "Submit article\nThank you for your interest in submitting to the Journal of Sustainable Technology in Agriculture (JOSTA).\nPlease ensure you have reviewed the Author Guidelines before submission.\nTo submit your manuscript, click the button below:\n  Submit Article \n\n\n\n\n\n\n\nIf you encounter any issues during submission, please contact us at jostapubs@gmail.com (mailto:jostapubs@gmail.com).",
+    "objectID": "index.html#greener-publishing",
+    "href": "index.html#greener-publishing",
+    "title": "About JOSTA",
+    "section": "🍃Greener Publishing",
+    "text": "🍃Greener Publishing\nAs a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint—aligning our commitment to open access with a sustainable future for scholarly communication.\n   \n\nCopyright Information\n© 2025 Statoberry LLP. All rights reserved.\nJOSTA is licensed under a\n\nCreative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.\nUnder this license:\n- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made.\n- Non Commercial: You may not use the material for commercial purposes.\n- No Derivatives: If you remix, transform, or build upon the material, you may not distribute the modified material.\nFor commercial use or distribution of print copies, prior written permission from Statoberry LLP is required.",
     "crumbs": [
-      "Submit Articles",
-      "Submit article"
+      "About JOSTA"
+    ]
+  },
+  {
+    "objectID": "published.html",
+    "href": "published.html",
+    "title": "Latest Articles",
+    "section": "",
+    "text": "Home \n\n\nLatest Articles\n\n\n\nVolume I • Issue I • 2025\n\n\nThis page lists all peer-reviewed papers published in the journal. Click on a title to read the full article.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDigenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis\n\n\n\nOrignal-Article\n\n\nPlant-Science\n\n\nCrops\n\n\n\nVegetable cowpea [Vigna unguiculata ssp. sesquipedalis (L.) Verdc.] is a distinct form of cowpea cultivated in southern Asia and the Far East for its immature pods. Six…\n\n\n\nLovely B.*, Radhadevi D.S, Vijayaraghava Kumar\n\n\nJun 17, 2025\n\n\n\n\n\nstatus\n\n\nPublished (Online)\n\n\n\n\n\n\n\n\n\n\n\n\nRAISINS: Integrating R and AI for Agricultural Data Analysis\n\n\n\nOrignal-Article\n\n\nData-Science\n\n\nSoftware\n\n\n\nRAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the…\n\n\n\nMohammed Hisham M., Jithin Chandran, Pratheesh P Gopinath*\n\n\nJun 8, 2025\n\n\n\n\n\nstatus\n\n\nPublished (Online)\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "crumbs": [
+      "Latest Articles"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html",
+    "href": "volume1/josta111raisins2025.html",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "",
+    "text": "Hisham M, M., Chandran, J., & Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In Journal of Sustainable Technology in Agriculture (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#introduction",
+    "href": "volume1/josta111raisins2025.html#introduction",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "1 Introduction",
+    "text": "1 Introduction\nStatistical analysis serves as the backbone of scientific research, especially in disciplines like agriculture, where field experiments, survey data, and observational studies generate complex datasets. Despite the increasing emphasis on data-driven decision-making in agricultural research, many students, early-career researchers, and practitioners find themselves at a disadvantage when it comes to performing rigorous statistical analyses. The process is often hindered by a combination of factors: the steep learning curve associated with programming languages such as R and Python, the fragmented nature of statistical learning resources, and the lack of user-friendly tools tailored to agricultural research contexts.\nWhile R and Python are powerful, flexible, and widely adopted in academic and professional settings, their command-line interfaces and syntax-heavy operations can be challenging for those without formal training in statistics or computer programming. Beginners frequently struggle with package selection, data cleaning, model specification, and interpretation of results. Furthermore, existing statistical software either lacks the flexibility and transparency of open-source tools or comes with licensing restrictions and high costs that limit accessibility in resource-constrained settings, particularly in developing countries.\nIn addition, agricultural research involves domain-specific needs such as handling experimental designs (e.g., CRD, RBD, split-plot), analyzing agronomic trials, processing survey data with appropriate sampling designs, and interpreting interactions between multiple environmental and genetic factors. Traditional statistical packages are not always well-adapted to these specific requirements, leaving researchers to either customize solutions on their own or consult specialists — both of which can delay or compromise the analytical workflow.\nTo bridge this gap, we developed RAISINS (R and AI Solutions for INferential Statistics) — a web-based platform designed to simplify and democratize statistical analysis for agricultural research. RAISINS integrates the power of R, Python, and AI-driven assistance within an intuitive interface that eliminates the need for code-based interaction. By abstracting complex syntax and offering guided, step-by-step workflows for data upload, analysis, visualization, and interpretation, the platform empowers users to focus on scientific inquiry rather than technical execution.\nBuilt on open-source technologies and scalable cloud infrastructure, RAISINS provides modules for commonly used statistical methods — including descriptive analysis, hypothesis testing, regression models, design of experiments, multi environmental trials, and more — while incorporating AI tools that assist in data summarization, analytical suggestions, and natural language explanations of results. This makes it an ideal solution for students, researchers, extension personnel, and educators engaged in agricultural and allied sciences. RAISINS can be accessed online through its official web portal at https://www.raisins.live/.\nIn this paper, we present the design, features, and use-cases of RAISINS, and demonstrate how it addresses the unique challenges faced in agricultural data analysis by offering an accessible, robust, and intelligent statistical platform.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#sec-models",
+    "href": "volume1/josta111raisins2025.html#sec-models",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "2 Materials and methods",
+    "text": "2 Materials and methods\n\n2.1 Platform architecture and module validation\nRAISINS is a modular cloud-hosted, web-based platform that integrates statistical computing, artificial intelligence, and modern pedagogical design to serve agricultural researchers and students. Built using R, Python, and OpenAI APIs, RAISINS is deployed via Posit Connect Cloud (https://connect.posit.cloud/), enabling browser-based access without requiring any local software installation. The RAISINS platform is modular and each statistical tool within is aligned with the theoretical underpinnings found in globally recognized academic literature.\nAll modules in RAISINS have been peer-reviewed by domain experts, including statisticians specializing in design of experiments, genetics, and social science research. This ensures both methodological rigor and instructional clarity.\nTable 1 presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.\n\n\n\nTable 1: Foundational literature supporting each RAISINS module domain, organized by area of application.\n\n\n\n\n\n\n\n\n\nModule Domain\nTheoretical Foundation\n\n\n\n\nDesign & Analysis of Experiments\nMontgomery (2017) (Montgomery 2017); Gomez & Gomez (1984) (Gomez and Gomez 1984); Das & Giri (2018) (Das and Giri 2018); Searle (1997) (Searle 1997); Dey (1986) (Dey 1986); Cox & Reid (2000) (Cox and Reid 2000); Toutenburg & Shalabh (2009) (Toutenburg and Shalabh 2009); Cochran & Cox (1957) (Cochran and Cox 1957); ; Federer (1985) (Federer 1985)\n\n\nStatistical Genetics\nFalconer & Mackay (1996) (Falconer and Mackay 1996); Lynch & Walsh (1998) (Lynch and Walsh 1998); Dabholkar (1999) (Dabholkar 1999); Gillespie (2004) (Gillespie 2004)\n\n\nSocial Science Research\nBabbie (2020) (Babbie 2020); Bryman (2016) (Bryman 2016); Bhattacherjee (2012) (Bhattacherjee 2012)\n\n\nStatistical Inference and Modeling\nCasella & Berger (2002) (Casella and Berger 2002); Hogg, McKean & Craig (2018) (Hogg, McKean, and Craig 2018); Agresti (2013) (Agresti 2013); Rao (2009) (Rao 2009); Rohatgi (1984) (Rohatgi 1984)\n\n\nData Visualization & Reporting\nTufte (2001) (Tufte 2001); Cleveland (1993) (Cleveland 1993); Few (2009) (Few 2009)\n\n\n\n\n\n\nThe algorithms and workflows integrated into RAISINS are grounded in established statistical theory, drawing extensively from authoritative texts and peer-reviewed literature. In cases where existing computational implementations were unavailable or insufficient, original algorithms were developed in adherence to rigorous theoretical principles. The platform’s design and interface have been iteratively refined based on user-centered feedback from researchers and educators, ensuring methodological soundness and usability consistent with global standards in scientific research and statistical education.\n\n\n2.2 Packages and Libraries\nRAISINS integrates a comprehensive ecosystem of open-source R and Python packages to deliver its core functionalities, encompassing statistical modeling, data visualization, artificial intelligence, and interactive web-based deployment. These packages support the platform’s goal of offering high-level statistical capabilities through an accessible and intuitive interface, particularly beneficial for students and researchers in agricultural sciences.\nThe R-based architecture of RAISINS is built around the shiny framework (Chang et al. 2024), which enables the development of dynamic, browser-accessible applications. Data manipulation tasks are performed using dplyr (Wickham et al. 2024), tidyr, and data.table, while data visualization is implemented through ggplot2 (Wickham 2023), along with complementary packages such as ggthemes, plotly (Sievert 2023), and ggpattern. For statistical analysis relevant to agricultural experiments and general inference, the platform employs packages including agricolae (Mendiburu 2020), broom (Robinson and Hayes 2024), effectsize, lsr, car, phia, and FactoMineR (Husson et al. 2020). These libraries provide robust support for model fitting, hypothesis testing, effect size estimation, and multivariate analysis.\nTo enhance user interaction and responsiveness, RAISINS integrates several user interface and usability packages, such as shinyWidgets, shinyalert, shinybusy, shinycustomloader, shinyBS, shinythemes, and colourpicker. The presentation and export of analytical results are managed through tools like rmarkdown, kableExtra, and formattable, ensuring professional and structured output for reports and publications.\nThe reticulate(Allaire et al. 2024) package serves as a bridge between R and Python, allowing both languages to be used seamlessly within the same analytical workflow. In RAISINS, reticulate enables the platform to call Python functions, use Python libraries, and exchange data objects between R and Python environments. This integration allows the platform to combine R’s interactive capabilities with Python’s strengths in machine learning, statistical modeling, and AI-driven tasks, thereby enhancing both flexibility and functionality.\nPython libraries are used to extend the platform’s analytical and AI-driven features. Packages such as pandas (The pandas development team 2024) and numpy (Harris et al. 2020) are employed for efficient data handling, while matplotlib and seaborn support graphical representations. For machine learning and statistical modeling, the platform uses scikit-learn (Pedregosa et al. 2011) and statsmodels (Seabold and Perktold 2010). The openai package enables the integration of language models, facilitating intelligent assistance and automated content generation within the platform.\nAll R and Python packages used in RAISINS are well-maintained, community-supported, and widely recognized within academic and applied data science contexts. Each library is carefully selected based on its performance, stability, and relevance to agricultural research workflows. Modules are thoroughly reviewed by subject-matter experts to ensure methodological accuracy and pedagogical effectiveness, thereby maintaining the platform’s commitment to reproducibility, transparency, and educational value.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#sec-illustrations",
+    "href": "volume1/josta111raisins2025.html#sec-illustrations",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "3 Illustrations",
+    "text": "3 Illustrations\nThe Figure 1 illustrates the comprehensive architecture of the RAISINS platform, highlighting its integration of multiple programming languages and technologies. RAISINS combines the statistical computing power of R with the flexibility of Python and the advanced capabilities of AI through OpenAI models. The platform’s user interface is built using Shiny, providing an interactive and user-friendly experience, while the backend seamlessly coordinates R and Python processes. Hosting on Posit Connect Cloud ensures reliable accessibility and scalability for agricultural researchers. This integrated ecosystem enables efficient and robust inferential statistical analysis tailored specifically for agricultural research needs.\n\n\n\n\n\n\nFigure 1: Architecture of the RAISINS Platform: Integration of R, Python, and AI Components through a Shiny-based Web Interface Hosted on Posit Connect Cloud.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#sec-results",
+    "href": "volume1/josta111raisins2025.html#sec-results",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "4 Results",
+    "text": "4 Results\nThe RAISINS platform was developed to address the growing need for accessible, reliable, and AI-enhanced statistical tools tailored to agricultural research. By integrating familiar programming environments with user-friendly interfaces, it aims to bridge the gap between complex statistical methods and researchers’ practical needs.\n\n4.1 Modular structure and user interface design\nAll analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary Analysis tab, which serves as the central workspace. This tab contains nested sub-tabs including Analysis.Results, where users configure model parameters and run statistical procedures; Plots and Graphs, which displays dynamic visualizations; AI Interpretation, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a Multivariate tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include Create Data, which enables users to generate CSV-format datasets for custom input; Datasets, which provides curated example datasets for testing and exploration; and User, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in Figure 2 to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: https://statoberrypapaya.github.io/RAISINS_TUTORIAL/, providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.\n\n\n\n\n\n\n\n\n\n\n\n(a) CRD module main page\n\n\n\n\n\n\n\n\n\n\n\n(b) Authentication page\n\n\n\n\n\n\n\n\n\n\n\n\n\n(c) Module dashboard\n\n\n\n\n\n\n\n\n\n\n\n(d) Result tables in Analysis.Results\n\n\n\n\n\n\n\n\n\n\n\n\n\n(e) Plots and graphs\n\n\n\n\n\n\n\n\n\n\n\n(f) AI interpretation\n\n\n\n\n\n\n\n\n\n\n\n\n\n(g) Multivariate analysis window\n\n\n\n\n\n\n\n\n\n\n\n(h) Datasets available for testing\n\n\n\n\n\n\n\nFigure 2: User interface and modular design of the RAISINS platform: screenshots from the CRD Module illustrating the common tab structure across analytical tools.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#discussion",
+    "href": "volume1/josta111raisins2025.html#discussion",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "Discussion",
+    "text": "Discussion\nThe RAISINS platform represents a significant advancement in making advanced statistical and AI-driven analytical tools accessible to the agricultural research community. By seamlessly integrating R, Python, and AI capabilities within an intuitive web interface, RAISINS addresses common barriers faced by researchers, such as the complexity of statistical software and interpretation of results. The platform’s emphasis on user-friendliness and automation allows researchers, including those with limited statistical training, to perform rigorous data analysis with confidence. This democratization of statistical tools has the potential to improve the quality and reproducibility of agricultural research outputs. Moreover, the cloud-based deployment ensures scalability and continuous availability, enabling broader adoption across diverse educational and research institutions. The collaborative design and integration of multiple programming environments also open avenues for further enhancements, positioning RAISINS as a flexible and evolving resource in the field of agricultural data science.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#conclusion",
+    "href": "volume1/josta111raisins2025.html#conclusion",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe RAISINS platform aims in democratizing access to advanced statistical and AI-powered analytical tools tailored specifically for agricultural research. By integrating the strengths of R and Python programming environments with artificial intelligence capabilities, RAISINS offers researchers an intuitive and comprehensive platform for conducting inferential statistics without requiring extensive technical expertise. Its web-based interface, supported by cloud hosting, ensures that users can access powerful data analysis tools anytime and from anywhere, thereby enhancing collaboration and research productivity. The platform’s ability to simplify complex outputs and support diverse user groups—from students to seasoned faculty—has already contributed to improved data analysis quality and research rigor within agricultural universities. RAISINS not only supports robust statistical inference but also fosters greater confidence among users in interpreting and applying results to their scientific inquiries. This positions RAISINS as a foundational resource in agricultural data science with substantial potential for continued growth and impact.\n\nFuture Work\nFuture development of RAISINS will focus on expanding its analytical capabilities to cover a wider range of disciplines within agricultural research, including statistical genetics, survey data analysis, and agricultural economics. In addition, the AI components will be further enhanced by training on domain-specific datasets, enabling the platform to provide more accurate, context-aware insights and recommendations. These enhancements aim to solidify RAISINS as a continuously evolving and essential tool for meeting the diverse and growing needs of the agricultural research community.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#acknowledgments",
+    "href": "volume1/josta111raisins2025.html#acknowledgments",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n\n\n\n\n\n\nThe authors gratefully acknowledge the support and encouragement provided by Kerala Agricultural University throughout the development of this work. We also extend our sincere thanks to the NABARD-KAU-WSU Agtech Launchpad for their invaluable incubation program and continued backing, which have been instrumental in advancing the RAISINS platform.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#references",
+    "href": "volume1/josta111raisins2025.html#references",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "References",
+    "text": "References\n\n\nAgresti, A. 2013. Categorical Data Analysis. 3rd ed. Hoboken, NJ, USA: Wiley.\n\n\nAllaire, JJ, Kevin Ushey, Yuan Tang, Dirk Eddelbuettel, and RStudio. 2024. Reticulate: Interface to ’Python’. https://rstudio.github.io/reticulate/.\n\n\nBabbie, Earl R. 2020. The Practice of Social Research. 15th ed. Cengage Learning.\n\n\nBhattacherjee, Anol. 2012. Social Science Research: Principles, Methods, and Practices. 2nd ed. Global Text Project.\n\n\nBryman, Alan. 2016. Social Research Methods. 5th ed. Oxford University Press.\n\n\nCasella, George, and Roger L Berger. 2002. Statistical Inference. 2nd ed. Cengage Learning.\n\n\nChang, Winston, Joe Cheng, JJ Allaire, Yihui Xie, and Jonathan McPherson. 2024. Shiny: Web Application Framework for r. https://CRAN.R-project.org/package=shiny.\n\n\nCleveland, William S. 1993. Visualizing Data. Hobart Press.\n\n\nCochran, William G., and Gertrude M. Cox. 1957. Experimental Designs. 2nd ed. New York: John Wiley & Sons.\n\n\nCox, D. R., and Nancy Reid. 2000. The Theory of the Design of Experiments. 1st ed. Monographs on Statistics and Applied Probability, 86. Chapman & Hall/CRC.\n\n\nDabholkar, A. R. 1999. Elements of Bio Metrical Genetics. Revised and Enlarged. Concept Publishing Company Pvt. Ltd.\n\n\nDas, M. N., and N. C. Giri. 2018. Design and Analysis of Experiments. 2nd ed. New Delhi, India: New Age International Publishers.\n\n\nDey, A. 1986. Theory of Block Designs. New Delhi, India: Wiley Eastern Ltd.\n\n\nFalconer, Douglas S, and Trudy FC Mackay. 1996. Introduction to Quantitative Genetics. 4th ed. Longman.\n\n\nFederer, W. T. 1985. Experimental Designs. ? New York: The Macmillan Company.\n\n\nFew, S. 2009. Now You See It: Simple Visualization Techniques for Quantitative Analysis. Berkeley, CA, USA: Analytics Press.\n\n\nGillespie, John H. 2004. Population Genetics: A Concise Guide. 2nd ed. Baltimore, MD: Johns Hopkins University Press.\n\n\nGomez, Kwanchai A, and Arturo A Gomez. 1984. Statistical Procedures for Agricultural Research. 2nd ed. John Wiley & Sons.\n\n\nHarris, Charles R., K. Jarrod Millman, Stéfan van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, et al. 2020. NumPy: Fundamental Package for Scientific Computing with Python. Nature. Vol. 585. https://doi.org/10.1038/s41586-020-2649-2.\n\n\nHogg, Robert V, Joseph McKean, and Allen T Craig. 2018. Introduction to Mathematical Statistics. 8th ed. Pearson.\n\n\nHusson, François, Julie Josse, Sébastien Lê, and Jeremy Mazet. 2020. FactoMineR: Multivariate Exploratory Data Analysis and Data Mining. https://CRAN.R-project.org/package=FactoMineR.\n\n\nLynch, Michael, and Bruce Walsh. 1998. Genetics and Analysis of Quantitative Traits. Sinauer Associates.\n\n\nMendiburu, Felipe de. 2020. Agricolae: Statistical Procedures for Agricultural Research. https://CRAN.R-project.org/package=agricolae.\n\n\nMontgomery, Douglas C. 2017. Design and Analysis of Experiments. 9th ed. John Wiley & Sons.\n\n\nPedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, et al. 2011. Scikit-Learn: Machine Learning in Python. Journal of Machine Learning Research. Vol. 12. https://scikit-learn.org/.\n\n\nRao, C. Radhakrishna. 2009. Linear Statistical Inference and Its Applications. 2nd ed. John Wiley & Sons (Wiley-Interscience).\n\n\nRobinson, David, and Alex Hayes. 2024. Broom: Convert Statistical Analysis Objects into Tidy Tibbles. https://CRAN.R-project.org/package=broom.\n\n\nRohatgi, Vijay K. 1984. Statistical Inference. Wiley Series in Probability and Mathematical Statistics. New York: John Wiley & Sons.\n\n\nSeabold, Skipper, and Josef Perktold. 2010. Statsmodels: Statistical Modeling and Econometrics in Python. https://www.statsmodels.org/.\n\n\nSearle, Shayle R. 1997. Linear Models. John Wiley & Sons.\n\n\nSievert, Carson. 2023. Plotly: Create Interactive Web Graphics via ’Plotly.js’. https://CRAN.R-project.org/package=plotly.\n\n\nThe pandas development team. 2024. Pandas: Powerful Python Data Analysis Toolkit. https://pandas.pydata.org/.\n\n\nToutenburg, Helge, and Shalabh. 2009. Statistical Analysis of Designed Experiments. 3rd ed. Springer Texts in Statistics. Springer‑Verlag New York.\n\n\nTufte, Edward R. 2001. The Visual Display of Quantitative Information. Graphics Press.\n\n\nWickham, Hadley. 2023. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://CRAN.R-project.org/package=ggplot2.\n\n\nWickham, Hadley, Romain Francois, Lionel Henry, and Kirill Müller. 2024. Dplyr: A Grammar of Data Manipulation. https://CRAN.R-project.org/package=dplyr.",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
+    ]
+  },
+  {
+    "objectID": "volume1/josta111raisins2025.html#sec-techdetails",
+    "href": "volume1/josta111raisins2025.html#sec-techdetails",
+    "title": "RAISINS: Integrating R and AI for Agricultural Data Analysis",
+    "section": "Technical details",
+    "text": "Technical details\n\n\n\n\n\n\nDue to the ongoing costs associated with hosting and maintaining the RAISINS platform, the authors have adopted a subscription-based model to ensure its sustainability and continued development. The live application is accessible to users at www.raisins.live.\n\n\n\n\n\n\n\n\n\nPublication & Reviewer Details\n\n\n\nPublication Information\n- Submitted: 15 May 2025\n- Accepted: 06 June 2025\n- Published (Online): 09 June 2025\nReviewer Information\nDr. Saurav Guha, Ph.D.\nAssistant Professor-cum-Junior Scientist\nDepartment of Statistics, Mathematics & Computer Application\nBihar Agricultural University, Sabour, India\nORCID: 0000-0001-8960-5062\nDr. Manju Mary Paul, Ph.D.\nAssistant Professor\nDepartment of Agricultural Statistics\nKerala Agricultural University, Kerala, India",
+    "crumbs": [
+      "Volumes",
+      "Volume 1",
+      "Issue1",
+      "RAISINS: Integrating R and AI for Agricultural Data Analysis"
     ]
   }
 ]
