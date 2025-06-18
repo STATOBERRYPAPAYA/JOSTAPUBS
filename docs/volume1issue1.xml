@@ -10,7 +10,584 @@
 <atom:link href="https://www.jostapubs.com/volume1issue1.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Mon, 16 Jun 2025 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 17 Jun 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala</title>
+  <dc:creator>Arshad N.</dc:creator>
+  <dc:creator>Aswathy Vijayan&lt;sup&gt;*&lt;/sup&gt;</dc:creator>
+  <dc:creator>Durga A. R.</dc:creator>
+  <dc:creator>T. Paul Lazarus</dc:creator>
+  <dc:creator>Pratheesh P. Gopinath</dc:creator>
+  <link>https://www.jostapubs.com/volume1/aswathypineapple/aswathypineapple.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://doi.org/10.5281/zenodo.15689170"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
+<!-- Download PDF Button -->
+<p><a href="pdfs/jostapineapple.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
+<!-- Copy Citation Button -->
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
+</button>
+</div>
+<!-- Hidden Citation Text -->
+<p><span id="citation-text" style="display: none;">Arshad, N., Vijayan, A., Durga, A. R., &amp; Paul Lazarus, T. (2025). Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15689170</span></p>
+<!-- JavaScript -->
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+<!-- CSS Styling -->
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Price volatility is one of the significant sources of risk in agriculture especially in fruits and vegetable production. It is defined as the directionless fluctuations in prices that cannot be predicted with market fundamentals <span class="citation" data-cites="prakash2011">(Prakash 2011)</span>. Reasons for price volatility include supply-side shocks due to severe weather events or diseases, variations in demand, distortions in trade policies and supply chain disruptions <span class="citation" data-cites="gilbert2010 ait_sidhoum2016">(Gilbert and Morgan 2010; Ait Sidhoum and Serra 2016)</span>. The increasing unpredictability of changing economic and natural environment <span class="citation" data-cites="tothova2011">(Tothova 2011)</span> and seasonal nature of the fruits and vegetables also amplifies price volatility. Moreover, poor shelf life of horticulture crops increases risk and leads to unstable markets <span class="citation" data-cites="cook2011">(Cook 2011)</span>.</p>
+<p>Vazhakulam in Ernakulam district has become the major hub for pineapple cultivation in Kerala <span class="citation" data-cites="joy2013">(Joy 2013)</span>. Owing to its unique feature Vazhakulam pineapple has got Geographical indication tag also. Pineapple produced from the region has a long value chain and is marketed to various states like Karnataka, Tamil Nadu, Maharashtra, Gujarat, Madhya Pradesh, Rajasthan, Andhra Pradesh, Delhi mainly through road ways. Limited quantity of fresh pineapple is being exported to Gulf countries in special packings <span class="citation" data-cites="pga2018">(Pineapple Growers Association 2018)</span>.</p>
+<p>Pineapple is a globally traded fruit crop from Kerala that had always been subject to price volatility. It is mainly because of the seasonal variations in demand for pineapple in markets. Climate change induced low production, seasonal disruptions in demand and supply are the main factors that affect price volatility. It was noted that the COVID induced lock down had severely affected the pineapple prices and farmer suicides were reported during the period. This pandemic had a significant negative impact on all sectors of human life, including the economy, food security and health <span class="citation" data-cites="saadat2020">(Saadat, Rawtani, and Hussain 2020)</span>. According to <span class="citation" data-cites="jribi2020">(Jribi et al. 2020)</span>, the pandemic had the potential to hinder the progress towards meeting several Sustainable Development Goals (United Nations SDG 2015-2030), in particular, SDG 2 (End Hunger) and SDG 12 (Ensure sustainable consumption and production patterns). There were widespread disruptions in agriculture supply chain at the beginning of the lockdown <span class="citation" data-cites="fao2021">(FAO 2021)</span>. It further lead to the scarcity of labour, disrupted supply chains and lack of demand and logistics restrictions in the agricultural sector <span class="citation" data-cites="cariappa2021">(Cariappa et al. 2021)</span>.</p>
+<p>Although the price volatility of different agricultural commodities has been researched extensively in recent periods <span class="citation" data-cites="gilbert2010 sabu2019 yu2020">(Gilbert and Morgan 2010; Sabu, Kuruvila, and Manojkumar 2019; Yu et al. 2020)</span>, a lack of knowledge exists in the pineapple sector of Kerala. The knowledge about the price risk and volatility associated with the pineapple sector is important for pineapple farmers during the pandemic. This information is critical for developing suitable price risk management strategies, for coping up with similar situations. Hence the present study aims to analyse the price behaviour of Pineapple in Kerala.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="materials-and-methods" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="materials-and-methods"><span class="header-section-number">2</span> Materials and methods</h2>
+<section id="study-area" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="study-area"><span class="header-section-number">2.1</span> Study area</h3>
+<p>The study was conducted in Ernakulam district of Kerala. The study area was selected purposively as it has the largest area under pineapple cultivation in Kerala. Out of the total area under pineapple in Kerala, 58.73 per cent lies in Ernakulam district which produces about 63 per cent of the production of the state in the year <span class="citation" data-cites="gok2020a">(Government of Kerala 2020a)</span>. From the district, Muvattupuzha Block Panchayath was purposively selected based on the maximum area under pineapple cultivation. Three pineapple-growing grama panchayats viz., Avoly, Manjalloor, and Kalloorkkad were selected from the block panchayat randomly. Forty farmers each were randomly selected from these grama panchayaths making a total sample size of 120 farmers.</p>
+</section>
+<section id="sampling-and-data-collection" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="sampling-and-data-collection"><span class="header-section-number">2.2</span> Sampling and data collection</h3>
+<p>The study used time series data of daily prices of pineapple from January 2017 to September 2022 collected from Vazhakulam Pineapple Growers Association(PGA). Price collected can be aptly considered as representative price as most of the pineapple farmers are organized under PGA and trade pineapple through them. The prices represent the farm gate price received by the farmers and it is easily available in the website of Pineapple Growers Association<span class="citation" data-cites="pga2018">(Pineapple Growers Association 2018)</span>. Data on daily prices of pineapple from January 2017 to March 2020 was taken as pre-COVID period and from April 2020 to September 2022 is taken as COVID-post-COVID period. January 2017 to September 2022 was taken as the overall period.</p>
+</section>
+<section id="garch-models" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="garch-models"><span class="header-section-number">2.3</span> GARCH models</h3>
+<p>The uncertainty surrounding prospective price fluctuation is referred to as volatility. There are different methods to estimate volatility such as historical moving average, Exponential Weighted Moving Average (EWMA), Auto Regressive Conditional Heteroscedasticity (ARCH) introduced by <span class="citation" data-cites="engle1982">Engle (1982)</span> and Generalized Auto-Regressive Conditional Heteroscedasticity (GARCH) introduced by <span class="citation" data-cites="bollerslev1986">Bollerslev (1986)</span>.</p>
+<p><span class="citation" data-cites="sekhar2004">Sekhar (2004)</span> compared the price volatility of different agricultural commodities in major Indian and international markets by using GARCH model. This model provided evidence on whether the estimated volatility is statistically significant or not. It also measures the persistence of volatility <span class="citation" data-cites="sabu2015">(Sabu 2015)</span>.</p>
+<p>The ARCH process introduced by Engle (1982) explicitly recognizes the difference between the unconditional and the conditional variance allowing the latter to change over time as a function of past errors. The GARCH model of <span class="citation" data-cites="bollerslev1986">Bollerslev (1986)</span> is an important type of time series model for heteroscedastic data. It explicitly models a time-varying conditional variance as a linear function of past squared residuals and of its past values. GARCH models are an extension of the ARCH models first introduced by Engle (1982) as it basically introduces a lagged conditional variance to the information set of an ARCH model. An ARCH model applied to price volatility basically assumes that a dependent variable of commodity prices, <img src="https://latex.codecogs.com/png.latex?P_i">, is generated by the autoregressive process:</p>
+<p><span id="eq-archmean"><img src="https://latex.codecogs.com/png.latex?p_i%20=%20%5Cphi_0%20+%20%5Csum_%7Bi=1%7D%5E%7Bk%7D%20%5Cphi_%7B1%7D%20P_%7Bt-1%7D%20+%20%5Cvarepsilon_t%20%5Ctag%7B1%7D"></span></p>
+<p>To generate the ARCH<img src="https://latex.codecogs.com/png.latex?(p)"> process, we express the conditional variance of the above expression as a function of its past values squared:</p>
+<p><span id="eq-archdist"><img src="https://latex.codecogs.com/png.latex?%5Cvarepsilon_t%20%5Cmid%20%5COmega_%7Bt-1%7D%20%5Csim%20N(0,%20h)%20%5Ctag%7B2%7D"></span></p>
+<p><span id="eq-archvariance"><img src="https://latex.codecogs.com/png.latex?h_t%5E2%20=%20%5Cdelta%20+%20%5Csum_%7Bi=1%7D%5E%7Bp%7D%20%5Calpha_i%20%5Cvarepsilon_%7Bt-i%7D%5E2%20%5Ctag%7B3%7D"></span></p>
+<p>Where, <img src="https://latex.codecogs.com/png.latex?h_t%5E2"> denotes the conditional variance of the information set <img src="https://latex.codecogs.com/png.latex?%5COmega_%7Bt-1%7D"> that is available at time <img src="https://latex.codecogs.com/png.latex?t-1">, and <img src="https://latex.codecogs.com/png.latex?%5Cdelta%20%3E%200">, <img src="https://latex.codecogs.com/png.latex?%5Calpha_i%20%5Cgeq%200"> for all <img src="https://latex.codecogs.com/png.latex?i%20=%202%20%5Cldots%20p"> and <img src="https://latex.codecogs.com/png.latex?%5Calpha_1%20+%20%5Calpha_2%20+%20%5Ccdots%20+%20%5Calpha_m%20%3C%201">, which are necessary to make <img src="https://latex.codecogs.com/png.latex?%5Cvarepsilon_t%5E2"> positive and covariance stationary.</p>
+<p>The generalization of the ARCH process given in Equation&nbsp;3 is as follows <span class="citation" data-cites="bollerslev1986">(Bollerslev 1986)</span>:</p>
+<p><span id="eq-archboller"><img src="https://latex.codecogs.com/png.latex?%0Ah_t%5E2%20=%20%5Cdelta%20+%20%5Csum_%7Bi=1%7D%5E%7Bp%7D%20%5Calpha_i%20%5Cvarepsilon_%7Bt-i%7D%5E2%20+%20%5Csum_%7Bi=1%7D%5E%7Bq%7D%20%5Cbeta_i%20h_%7Bt-i%7D%5E2%0A%5Ctag%7B4%7D"></span></p>
+<p>The GARCH model in Equation&nbsp;4 depicts the conditional variance of a price series to depend on a constant, past news about volatility (i.e.&nbsp;the <img src="https://latex.codecogs.com/png.latex?%5Cvarepsilon_%7Bt-1%7D%5E2"> terms). Including the lagged conditional variances might capture the “adaptive learning” phenomenon. The benefit of the GARCH specification is that it contains fewer coefficient restrictions. For a well-defined variance and covariance function: <img src="https://latex.codecogs.com/png.latex?%5Cdelta,%20%5Calpha%20%3E%200;%20%5Cbeta%20%5Cgeq%200">, and <img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta%20%3C%201">.</p>
+<p>Persistence of volatility in the commodity series is measured by the sum of <img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta">. Downward price changes are often followed by higher volatility than upward movements of the same magnitude <span class="citation" data-cites="herrera2008">(Herrera and Espinel 2008)</span>.</p>
+<p>Models aim to define volatility clustering and effects such as kurtosis, forming the basis of dynamic volatility models.</p>
+<p>The key is that volatility, rather than remaining constant or moving in a monotonic manner over time, is dependent on past realisations of the associated volatility i.e.&nbsp;the error variance is related to the squared error terms over several periods in the past <span class="citation" data-cites="singh2020">(Singh 2020)</span>.</p>
+<p>The ARCH-GARCH model was used to analyse the volatility and it was estimated using <code>R</code> software <span class="citation" data-cites="rcoreteam2023">(R Core Team 2023)</span>. From the different models, Standard GARCH (1,1) (SGARCH) model was identified as the best model for this study based on the smallest Akaike Information Criteria (AIC) and Bayesian Information Criteria (BIC) values <span class="citation" data-cites="lestari2022">(Lestari et al. 2022)</span>. This model distinguishes the predictable and unpredictable components of prices and also allows the variance of the unpredictable element to be time-varying. Such time varying conditional variances were estimated by using the SGARCH (1,1) model <span class="citation" data-cites="gujarati2009">(Gujarati, Porter, and Gunasekhar 2009)</span> and it was used to identify periods of high volatility.</p>
+<p>The GARCH(1,1) model is specified as:</p>
+<p><span id="eq-garchmodel"><img src="https://latex.codecogs.com/png.latex?Y_%7Bit%7D%20=%20%5Calpha_0%20+%20%5Cbeta_1%20P_%7Bt-1%7D%20+%20%5Cbeta_2%20P_%7Bt-2%7D%20+%20%5Cvarepsilon_t%20%5Cquad%20;%20%5Cquad%20t%20=%201,%202,%20%5Cldots,%20t%20%5Ctag%7B5%7D"></span></p>
+<p><span id="eq-garchVariance"><img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2_%7Bi,t%7D%20=%20%5Ctheta%20+%20%5Calpha_i%20%5Cvarepsilon%5E2_%7Bi,t-1%7D%20+%20%5Cbeta_i%20%5Csigma%5E2_%7Bi,t-1%7D%20%5Ctag%7B6%7D"></span></p>
+<p>Where <img src="https://latex.codecogs.com/png.latex?P_%7Bt-1%7D"> is the price at time <img src="https://latex.codecogs.com/png.latex?t-1"> and <img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2_%7Bi,t%7D"> is the conditional error variance at time <img src="https://latex.codecogs.com/png.latex?t">. The term <img src="https://latex.codecogs.com/png.latex?(%5Calpha_i%20+%20%5Cbeta_i)"> indicates the degree of persistence in price volatility. If the sum <img src="https://latex.codecogs.com/png.latex?(%5Calpha_i%20+%20%5Cbeta_i)"> is close to 1, it implies a high level of volatility persistence <span class="citation" data-cites="devi2015">(Devi, Srikala, and Ananda 2015)</span>.</p>
+<p>The general form of a GARCH(<img src="https://latex.codecogs.com/png.latex?p">, <img src="https://latex.codecogs.com/png.latex?q">) model is:</p>
+<p><span id="eq-garchpq"><img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2_%7Bi,t%7D%20=%20%5Comega%20+%20%5Csum_%7Bi=1%7D%5E%7Bp%7D%20%5Cbeta_i%20%5Csigma%5E2_%7Bt-i%7D%20+%20%5Csum_%7Bi=1%7D%5E%7Bq%7D%20%5Calpha_i%20%5Cvarepsilon%5E2_%7Bt-i%7D%20%5Ctag%7B7%7D"></span></p>
+<p>Equation Equation&nbsp;5) captures the autoregressive part of the price model, while Equations Equation&nbsp;6 and Equation&nbsp;7 describe the time-varying variance component.</p>
+</section>
+</section>
+<section id="results" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="results"><span class="header-section-number">3</span> Results</h2>
+<section id="average-monthly-prices-behaviour" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="average-monthly-prices-behaviour"><span class="header-section-number">3.1</span> Average monthly prices behaviour</h3>
+<p>In Vazhakulam, fresh pineapple is harvested at two stages: as green pineapple (harvested at 115 days after the ethephon application) and as ripe pineapple (harvested at 120–125 days after the ethephon application).</p>
+<p>The present study analyzed the price volatility of both ripe and green pineapple using time series data of daily prices from January 2017 to September 2022. For analytical purposes, the data set was divided into the following three periods:</p>
+<ul>
+<li>Pre-COVID period: January 2017 to March 2020<br>
+</li>
+<li>COVID–Post-COVID period: April 2020 to September 2022</li>
+</ul>
+<p>The average monthly prices of both green and ripe pineapple during the pre-COVID and COVID–post-COVID periods are presented in Figure&nbsp;1 (a) and Figure&nbsp;1 (b), respectively.</p>
+<div id="fig-monthlyprice" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-monthlyprice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-monthlyprice" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-precovid" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-precovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/figure1.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-precovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Pre-COVID period
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-monthlyprice" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-postcovid" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-postcovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/figure2.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-postcovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) COVID-Post-COVID period
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-monthlyprice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Average monthly prices (Rs./kg) of both green and ripe pineapple in Vazhakulam market during pre-covid and post-covid periods
+</figcaption>
+</figure>
+</div>
+<p>Price of pineapple usually stood high during the summer months of April and May coinciding with summer and one-month long Ramdan fasting. So, many farmers targeted the harvest of the crop during these months. But in April 2020, during the first lockdown period due to strict restrictions, many pineapple plantations were abandoned without harvesting. This was mainly due to the unavailability of migrant labours (as they went back to their hometown fearing the disease). So, a steep decline in price was observed during that period. Prices started increasing as the restrictions were lifted gradually. Again in 2021, there was price drop in the months of May and June due to another lockdown and restrictions.</p>
+<p>The price drop was to the level of Rs. 10/kg, which put farmers in distress. During the survey, many farmers reported that the price of pineapple had even dipped to Rs. 5/kg during the COVID period as they were not able to transport the produce to the Vazhakulam pineapple market. So, they sold produce in nearby markets. Many of the plantations were kept unharvested and harvested fruits fetched only very low price. Restrictions in interstate and intra state transport, fear of spread of virus through the fruits etc. worsened the situation. Many farmers terminated their lease contracts with landowners before expiry due to financial crisis and were unable to pay the lease amount and continue farming operations. Farmers reported that the reduction in the cultivated area had impacted total pineapple production from Vazhakulam. As the restrictions were gradually lifted towards the end of 2021, situation became normal and price hike was observed due to a reduced supply of pineapple to the market, with the demand for pineapple was same as earlier.</p>
+</section>
+<section id="estimation-of-volatility-using-garch" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="estimation-of-volatility-using-garch"><span class="header-section-number">3.2</span> Estimation of volatility using GARCH</h3>
+<p>GARCH models are very popular in the analysis of price volatility. Standard GARCH(1,1) model was fitted to study the volatility in the prices of pineapple. The estimates of GARCH(1,1) model for ripe pineapple and green pineapple are presented in Table&nbsp;1 and Table&nbsp;2.</p>
+<div id="tbl-tblgarch" class="bordered quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tblgarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: GARCH(1,1) estimates for ripe pineapple prices in Vazhakulam market. Significance levels: * <img src="https://latex.codecogs.com/png.latex?p%20%3C%200.05">, ** <img src="https://latex.codecogs.com/png.latex?p%20%3C%200.01">
+</figcaption>
+<div aria-describedby="tbl-tblgarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 24%">
+<col style="width: 25%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Pre-COVID</th>
+<th>COVID-post COVID</th>
+<th>Overall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="https://latex.codecogs.com/png.latex?%5Cmu"></td>
+<td>24.078<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>13.458<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>23.476<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+</tr>
+<tr class="even">
+<td><img src="https://latex.codecogs.com/png.latex?%5Comega"></td>
+<td>1.309<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.141<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.576<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+</tr>
+<tr class="odd">
+<td><img src="https://latex.codecogs.com/png.latex?%5Calpha_1"></td>
+<td>0.412<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.221<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.347<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+</tr>
+<tr class="even">
+<td><img src="https://latex.codecogs.com/png.latex?%5Cbeta_1"></td>
+<td>0.164<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B*%7D%7D"></td>
+<td>0.639<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.409<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+</tr>
+<tr class="odd">
+<td><img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta"></td>
+<td>0.576</td>
+<td>0.860</td>
+<td>0.756</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="tbl-tblgreengarch" class="bordered quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tblgreengarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: GARCH(1,1) estimates for green pineapple prices in Vazhakulam market. Significance levels: * <img src="https://latex.codecogs.com/png.latex?p%20%3C%200.05">, ** <img src="https://latex.codecogs.com/png.latex?p%20%3C%200.01">
+</figcaption>
+<div aria-describedby="tbl-tblgreengarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 24%">
+<col style="width: 25%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Pre-COVID</th>
+<th>COVID-post COVID</th>
+<th>Overall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="https://latex.codecogs.com/png.latex?%5Cmu"></td>
+<td>19.399<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>14.133<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>19.776<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+</tr>
+<tr class="even">
+<td><img src="https://latex.codecogs.com/png.latex?%5Comega"></td>
+<td>1.044<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.069<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.254<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+</tr>
+<tr class="odd">
+<td><img src="https://latex.codecogs.com/png.latex?%5Calpha_1"></td>
+<td>0.489<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.118<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.261<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+</tr>
+<tr class="even">
+<td><img src="https://latex.codecogs.com/png.latex?%5Cbeta_1"></td>
+<td>0.124<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B*%7D%7D"></td>
+<td>0.798<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+<td>0.584<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
+</tr>
+<tr class="odd">
+<td><img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta"></td>
+<td>0.613</td>
+<td>0.916</td>
+<td>0.845</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The results showed that the GARCH(1,1) model estimates for ripe and green pineapple prices were significant for the pre-COVID, COVID and post-COVID, and overall periods. It indicated that the volatility in the prices of pineapple was persistent despite the COVID-induced lockdown.</p>
+<p>It is evident from Table&nbsp;1 that the sum of coefficients <img src="https://latex.codecogs.com/png.latex?%5Calpha"> and <img src="https://latex.codecogs.com/png.latex?%5Cbeta"> for the prices of ripe pineapple was higher in the COVID-post-COVID period, followed by the overall period. This indicated higher volatility in the prices of ripe pineapple during the COVID-post-COVID period. A similar trend was observed in the price of green pineapple (Table&nbsp;2). This might be related to the reduced demand for pineapple in the market as a result of changes in the consumption behaviour of people during the pandemic. A study conducted by <span class="citation" data-cites="yu2020">Yu et al. (2020)</span> on the impact of COVID-19 on the prices of major food products in China found that rice and wheat showed no significant changes in prices after the COVID lockdown, whereas prices of cabbage showed higher volatility.</p>
+<p>Among the green and ripe pineapple prices, higher volatility was observed in the prices of green pineapple as compared to ripe pineapple for all the periods—pre-COVID, COVID-post-COVID, and overall. The value of the <img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta"> term for green pineapple prices was close to one (0.916) during the post-COVID period, which indicated higher volatility in the prices of green pineapple after the lockdown. This could be because the effect of transportation restrictions during the lockdown on green pineapple was greater as it was marketed to North India, whereas mature ripe pineapple was marketed in Kerala and nearby states. In a similar attempt, while studying the effect of the COVID-19 pandemic on the prices of rice, chilli, and garlic in Indonesia, it was found that due to the government’s different social assistance programs, the impact of COVID-19 on the prices of rice was negligible, whereas the prices of chilli and garlic had decreased due to the pandemic. The study also found that the effect of COVID-19 on the prices of horticultural products was higher as compared to that on the prices of food grains <span class="citation" data-cites="zahraturrahmi2021">(Zahraturrahmi et al. 2021)</span>.</p>
+</section>
+<section id="volatility-clustering" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="volatility-clustering"><span class="header-section-number">3.3</span> Volatility clustering</h3>
+<p>To provide more detailed insights in to the volatility in price of pineapple, the volatility clustering in daily prices of both green and ripe pineapple for pre-COVID, COVID-post-COVID and overall periods are shown in Figure&nbsp;2 given below. These figures clearly underpin the estimated results of GARCH model.</p>
+<div id="fig-volatility" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-volatility-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-prevolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-prevolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility1.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-prevolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Pre-COVID period green pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-prevolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-prevolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility2.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-prevolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Pre-COVID period ripe pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-cpocvolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-cpocvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility3.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cpocvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(c) COVID-post-COVID period green pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-cpocvolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-cpocvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility4.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cpocvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(d) COVID-post-COVID period ripe pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-overallvolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-overallvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility5.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-overallvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(e) Overall period green pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-overallvolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-overallvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility6.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-overallvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(f) Overall period ripe pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-volatility-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Volatility clustering in daily prices of green and ripe pineapple during pre-COVID, COVID-post-COVID, and overall periods.
+</figcaption>
+</figure>
+</div>
+<p>The Figure&nbsp;2 indicated that there was volatility in the prices of pineapple. But the volatility was more prominent during the COVID-post-COVID period. A lowest price of Rs.10 per kg was realized during the COVID period and it recovered gradually to Rs.60 per kg during the post-COVID period. According to Pineapple Growers Association Kerala, the farm gate price had come down to Rs.10 per kg compared to Rs.40 in the previous year due to lockdown <span class="citation" data-cites="kumar2020">(Kumar 2020)</span>. Thus, the pineapple farmers were in distress and they were unable to pay off their debts. There was also a report of farmer suicide due to financial losses in pineapple cultivation <span class="citation" data-cites="gok2020b">(Government of Kerala 2020b)</span>.</p>
+<p>In a similar attempt, <span class="citation" data-cites="kaur2021">(Kaur 2021)</span> in her study observed persistence of volatility in the prices of cereals, pulses and fruits before and after COVID-19. <span class="citation" data-cites="arumugam2020">(Arumugam, Kanagavalli, and Manida 2020)</span> revealed that the problem of labour shortage caused by a fear of viral transmission led to the wastage of harvested commodities, primarily fruits and vegetables, and also demand reduction of produce in the market. In a study conducted by <span class="citation" data-cites="pandya2021">(Pandya et al. 2021)</span>, the prices of all agricultural items dropped by about 70 percent due to a rapid drop in demand and an excess supply of farm products. According to <span class="citation" data-cites="hossain2020">(Hossain et al. 2020)</span>, COVID-19 not only affected physical health but also affected the mental health of farmers.</p>
+</section>
+</section>
+<section id="discussion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="discussion">Discussion</h2>
+<p>The present study highlights the significant volatility in pineapple prices across pre-COVID, COVID-post-COVID, and overall periods in the Vazhakulam market. Results from the GARCH(1,1) model indicated that both green and ripe pineapple prices experienced persistent volatility, with a pronounced increase during the COVID-post-COVID period. This was evident from the higher <img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta"> values observed, especially for green pineapple, suggesting a strong memory in the price volatility process during this period.</p>
+<p>Several factors contributed to this heightened volatility. The COVID lockdowns imposed transport and logistics constraints and disrupted supply chains which caused a temporary collapse in market demand. This was reflected in steep price drops, with the price of pineapple falling as low as Rs 10 per kg during the lockdown, as reported by the Pineapple Growers Association <span class="citation" data-cites="kumar2020">(Kumar 2020)</span>. The inability to harvest or transport produce due to labour shortages further aggravated the situation <span class="citation" data-cites="arumugam2020">(Arumugam, Kanagavalli, and Manida 2020)</span>.</p>
+<p>The findings are consistent with similar studies on other horticultural commodities. <span class="citation" data-cites="kaur2021">(Kaur 2021)</span> found continued volatility in food prices post-COVID, and <span class="citation" data-cites="pandya2021">(Pandya et al. 2021)</span> noted an average price drop of 70% in farm produce during the early pandemic phase. Moreover, the psychological and financial stress induced by the pandemic led to cases of farmer distress and suicide, further underlining the socioeconomic impact <span class="citation" data-cites="hossain2020">(Hossain et al. 2020)</span>.</p>
+<p>It was also evident that green pineapple prices were more volatile than ripe ones, potentially due to their greater dependence on inter-state transport, especially to North Indian markets. These insights underscore the vulnerability of perishable commodity sectors to external shocks and reinforce the need for effective price risk management, timely market intelligence, and supportive agricultural policy interventions.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="conclusion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Pineapple cultivation remains a remunerative agricultural activity for many farmers in Kerala, particularly because it is one of the major fruit crops transported from the state to other parts of India. This study examined the price volatility in the Vazhakulam pineapple market during the pre-COVID, COVID-post-COVID, and overall periods. Findings revealed that pineapple farmers in Kerala have historically faced frequent price fluctuations, with significantly heightened volatility observed during the COVID-post-COVID period. This increase was primarily attributed to transportation restrictions and a fall in market demand due to the pandemic.</p>
+<p>These results have important implications for policymakers. To stabilize the pineapple market, there is a need to develop more robust price risk management mechanisms. Although the Government of Kerala has fixed a base price of Rs 15 per kg for pineapple <span class="citation" data-cites="gok2020b">(Government of Kerala 2020b)</span>, the study found the average cost of production to be Rs 17.33 per kg. Therefore, it is recommended that the base price be revised to at least Rs 20–22 per kg to ensure profitability. The findings highlight the need for targeted policy support and risk management strategies to stabilize pineapple marketsin Kerala and protect farmer livelihoods during times of crisis.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Acknowledgments">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Acknowledgments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The authors gratefully acknowledge the support and encouragement provided by Kerala Agricultural University. They also sincerely thank the respondent farmers for their valuable time and cooperation during the course of the study.</p>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-ait_sidhoum2016" class="csl-entry">
+Ait Sidhoum, A., and T. Serra. 2016. <span>“Volatility Spillovers in the Spanish Food Marketing Chain: The Case of Tomato.”</span> <em>Agribusiness</em> 32 (1): 45–63.
+</div>
+<div id="ref-arumugam2020" class="csl-entry">
+Arumugam, D. U., D. G. Kanagavalli, and M. Manida. 2020. <span>“COVID-19: Impact of Agriculture in India.”</span> <em>Aegaeum Journal</em> 8 (5): 480–88.
+</div>
+<div id="ref-bollerslev1986" class="csl-entry">
+Bollerslev, Tim. 1986. <span>“Generalized Autoregressive Conditional Heteroskedasticity.”</span> <em>Journal of Econometrics</em> 31 (3): 307–27. https://doi.org/<a href="https://doi.org/10.1016/0304-4076(86)90063-1">https://doi.org/10.1016/0304-4076(86)90063-1</a>.
+</div>
+<div id="ref-cariappa2021" class="csl-entry">
+Cariappa, A. A., K. K. Acharya, C. A. Adhav, R. Sendhil, and P. Ramasundaram. 2021. <span>“Impact of COVID-19 on the Indian Agricultural System: A 10-Point Strategy for Post-Pandemic Recovery.”</span> <em>Outlook on Agriculture</em> 50 (1): 26–33.
+</div>
+<div id="ref-cook2011" class="csl-entry">
+Cook, R. L. 2011. <span>“Fundamental Forces Affecting US Fresh Produce Growers and Marketers.”</span> <em>Choices</em> 26 (4). <a href="https://www.choicesmagazine.org/choices-magazine/submitted-articles/fundamental-forces-affecting-us-fresh-produce-growers-and-marketers">https://www.choicesmagazine.org/choices-magazine/submitted-articles/fundamental-forces-affecting-us-fresh-produce-growers-and-marketers</a>.
+</div>
+<div id="ref-devi2015" class="csl-entry">
+Devi, I. B., M. Srikala, and T. Ananda. 2015. <span>“Price Volatility in Major Chilli Markets of India.”</span> <em>Indian Journal of Economics and Development</em> 3 (3): 194–98.
+</div>
+<div id="ref-engle1982" class="csl-entry">
+Engle, Robert F. 1982. <span>“Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation.”</span> <em>Econometrica</em> 50 (4): 987–1007. <a href="https://doi.org/10.2307/1912773">https://doi.org/10.2307/1912773</a>.
+</div>
+<div id="ref-fao2021" class="csl-entry">
+FAO. 2021. <span>“Agricultural Trade and Policy Responses During the First Wave of COVID-19 Pandemic in 2020.”</span> <a href="http://www.fao.org/3/cb4553en/cb4553en.pdf">http://www.fao.org/3/cb4553en/cb4553en.pdf</a>.
+</div>
+<div id="ref-gilbert2010" class="csl-entry">
+Gilbert, C. L., and C. W. Morgan. 2010. <span>“Food Price Volatility.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 365 (1554): 3023–34.
+</div>
+<div id="ref-gok2020a" class="csl-entry">
+Government of Kerala. 2020a. <span>“Agricultural Statistics 2018-19.”</span> <a href="http://www.ecostat.kerala.gov.in/images/pdf/publications/Agriculture/data/2018-19/agriculture_statistics_2018_19.pdf">http://www.ecostat.kerala.gov.in/images/pdf/publications/Agriculture/data/2018-19/agriculture_statistics_2018_19.pdf</a>.
+</div>
+<div id="ref-gok2020b" class="csl-entry">
+———. 2020b. <span>“Kerala Farm-Fresh Pazham Pachakkari Base Price.”</span> <a href="https://keralaagriculture.gov.in/en/2021/09/13/base-price-scheme/">https://keralaagriculture.gov.in/en/2021/09/13/base-price-scheme/</a>.
+</div>
+<div id="ref-gujarati2009" class="csl-entry">
+Gujarati, D. N., D. C. Porter, and S. Gunasekhar. 2009. <em>Basic Econometrics</em>. New Delhi: Tata McGraw-Hill Education Private Limited.
+</div>
+<div id="ref-herrera2008" class="csl-entry">
+Herrera, P., and R. Espinel. 2008. <span>“Price Volatility and Efficiency of Ecuador’s Agricultural Rural Markets.”</span> <a href="https://scholar.google.com/scholar?cluster=16437759094522538090">https://scholar.google.com/scholar?cluster=16437759094522538090</a>.
+</div>
+<div id="ref-hossain2020" class="csl-entry">
+Hossain, M. M., N. Purohit, R. Sharma, S. Bhattacharya, E. L. J. McKyer, and P. Ma. 2020. <span>“Suicide of a Farmer Amid COVID-19 in India: Perspectives on Social Determinants of Suicidal Behavior and Prevention Strategies.”</span> https://doi.org/<a href="https://doi.org/10.31235/osf.io/ekam3">https://doi.org/10.31235/osf.io/ekam3</a>.
+</div>
+<div id="ref-joy2013" class="csl-entry">
+Joy, P. P. 2013. <span>“Pineapple Sector in Kerala: Status, Opportunities, Challenges and Stakeholders.”</span> <a href="http://www.kau.in/sites/default/files/documents/production_technology_for_vazhakulam_pineapple_mauritius.pdf">http://www.kau.in/sites/default/files/documents/production_technology_for_vazhakulam_pineapple_mauritius.pdf</a>.
+</div>
+<div id="ref-jribi2020" class="csl-entry">
+Jribi, S., H. Ben Ismail, D. Doggui, and H. Debbabi. 2020. <span>“COVID-19 Virus Outbreak Lockdown: What Impacts on Household Food Wastage?”</span> <em>Environment, Development and Sustainability</em> 22 (5): 3939–55.
+</div>
+<div id="ref-kaur2021" class="csl-entry">
+Kaur, G. 2021. <span>“Empirical Study of Price Volatility of Staple Foodgrains Commodities During COVID 19 in India by GARCH Model Using CPI.”</span> <em>Global Journal of Enterprise Information System</em> 13 (1): 9–18.
+</div>
+<div id="ref-kumar2020" class="csl-entry">
+Kumar, S. V. 2020. <span>“Losses Due to COVID Crisis Claim Life of a Pineapple Farmer in Kerala.”</span>
+</div>
+<div id="ref-lestari2022" class="csl-entry">
+Lestari, P. E., W. D. S. Prajanti, W. Wibawanto, and F. Adzim. 2022. <span>“ARCH-GARCH Analysis: An Approach to Determine the Price Volatility of Red Chilli.”</span> <em>Journal of Agribusiness and Rural Development Research</em> 8 (1): 90–105.
+</div>
+<div id="ref-pandya2021" class="csl-entry">
+Pandya, N., D. Veluguri, A. Roy, P. Prabhakaran, and L. Jaacks. 2021. <span>“Economic Impact of the 2020 COVID-19 Lockdown on Indian Farmers.”</span> <em>Economic and Political Weekly</em> 56 (50): 31–34.
+</div>
+<div id="ref-pga2018" class="csl-entry">
+Pineapple Growers Association. 2018. <span>“PGA Home Page.”</span> <a href="https://vazhakulampineapple.in/">https://vazhakulampineapple.in/</a>.
+</div>
+<div id="ref-prakash2011" class="csl-entry">
+Prakash, A. 2011. <span>“Why Volatility Matters.”</span> In <em>Safeguarding Food Security in Volatile Global Markets</em>, edited by A. Prakash, 1–24. Rome: FAO.
+</div>
+<div id="ref-rcoreteam2023" class="csl-entry">
+R Core Team. 2023. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+</div>
+<div id="ref-saadat2020" class="csl-entry">
+Saadat, S., D. Rawtani, and C. M. Hussain. 2020. <span>“Environmental Perspective of COVID-19.”</span> <em>Science of the Total Environment</em> 728: 138870. https://doi.org/<a href="https://doi.org/10.1016/j.scitotenv.2020.138870">https://doi.org/10.1016/j.scitotenv.2020.138870</a>.
+</div>
+<div id="ref-sabu2015" class="csl-entry">
+Sabu, S. S. 2015. <span>“Price Volatility of Black Pepper and Its Implications in Kerala.”</span> Master’s thesis, Thrissur: Kerala Agricultural University.
+</div>
+<div id="ref-sabu2019" class="csl-entry">
+Sabu, S. S., A. Kuruvila, and K. Manojkumar. 2019. <span>“Price Behaviour of Black Pepper in Indian and International Markets: A Comparative Analysis.”</span> <em>Journal of Spices and Aromatic Crops</em> 28 (1): 27–33.
+</div>
+<div id="ref-sekhar2004" class="csl-entry">
+Sekhar, C. S. C. 2004. <span>“Agricultural Price Volatility in International and Indian Markets.”</span> <em>Economic and Political Weekly</em> 39 (43): 4729–36.
+</div>
+<div id="ref-singh2020" class="csl-entry">
+Singh, B. 2020. <span>“Liquidity Shocks and Overnight Interest Rates in Emerging Markets: Evidence from GARCH Models for India.”</span> <a href="https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=19444">https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=19444</a>.
+</div>
+<div id="ref-tothova2011" class="csl-entry">
+Tothova, M. 2011. <span>“Main Challenges of Price Volatility in Agricultural Commodity Markets.”</span> In <em>Methods to Analyse Agricultural Commodity Price Volatility</em>, edited by I. Piot-Lepetit and R. M’Barek. New York, NY: Springer. https://doi.org/<a href="https://doi.org/10.1007/978-1-4419-7634-5_2">https://doi.org/10.1007/978-1-4419-7634-5_2</a>.
+</div>
+<div id="ref-yu2020" class="csl-entry">
+Yu, X., C. Liu, H. Wang, and J. H. Feil. 2020. <span>“The Impact of COVID-19 on Food Prices in China: Evidence of Four Major Food Products from Beijing, Shandong and Hubei Provinces.”</span> <em>China Agricultural Economic Review</em> 12 (3): 445–58.
+</div>
+<div id="ref-zahraturrahmi2021" class="csl-entry">
+Zahraturrahmi, Z., V. Demircan, R. A. Moraru, and D. Bodescu. 2021. <span>“Analysis of the Effect of the COVID-19 Pandemic on the Prices of Basic Food Sold in Traditional Markets: The Case of Jakarta Province, Indonesia.”</span> <em>Horticultural Studies</em> 38 (2): 116–24.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Technical Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Technical Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>All prices mentioned in this study are in Indian Rupees (Rs), the official currency of India. For clarity, “Rs” is used as a symbol for INR (Indian National Rupee) throughout the text. At the time of the study, the exchange rate was approximately 1 USD = 85.41 INR, although this may vary over time.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="📄 Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+📄 Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>11 June 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>16 June 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>18 June 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<p><strong>Reviewer 1:</strong><br>
+<em>Anonymous</em></p>
+<p><strong>Reviewer 2:</strong><br>
+<strong>Dr.&nbsp;Subash Surendran Padmaja</strong><br>
+<em>Scientist</em><br>
+<em>ICAR-National Institute of Agricultural Economics and Policy Research</em><br>
+ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid.org/0000-0001-6418-4142</a></p>
+</div>
+</div>
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Case-Study</category>
+  <category>Economics</category>
+  <category>Policy</category>
+  <guid>https://www.jostapubs.com/volume1/aswathypineapple/aswathypineapple.html</guid>
+  <pubDate>Tue, 17 Jun 2025 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis</title>
   <dc:creator>Lovely B.&lt;sup&gt;*&lt;/sup&gt;</dc:creator>

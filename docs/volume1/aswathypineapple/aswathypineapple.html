@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Arshad N.">
+<meta name="author" content="Aswathy Vijayan*">
+<meta name="author" content="Durga A. R.">
+<meta name="author" content="T. Paul Lazarus">
+<meta name="author" content="Pratheesh P. Gopinath">
+<meta name="dcterms.date" content="2025-06-18">
+<meta name="keywords" content="price volatility, ARCH, GARCH, COVID, Vazhakkulam, pineapple">
+
+<title>Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala – JOSTA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/cover.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e25cc82807363e79c52e96bc8b7855f1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d53daca99197445b18154044ae73bc11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-278209a1080c747a323a5f6c0262cc7d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala – JOSTA">
+<meta property="og:description" content="Price fluctuations pose a major challenge in horticulture, especially for perishable crops like pineapple. Vazhakulam in Kerala is a leading hub for pineapple cultivation, with strong interstate marketing networks. This study investigates price volatility in the Vazhakulam pineapple market during covid lock down using daily price data from January 2017 to September 2022. The data was segmented into pre-pandemic (Jan 2017–Mar 2020) and pandemic/post-pandemic (Apr 2020–Sep 2022) periods. Time-series modeling using ARCH and GARCH approaches in R revealed that GARCH(1,1) was the most suitable model for capturing volatility patterns. Results showed significantly higher price instability during the pandemic period, driven by transport disruptions and reduced consumer demand. This volatility affected the economic viability of pineapple farming, leading many producers to reduce cultivation. The findings highlight the need for targeted policy support and risk management strategies to stabilize fruit markets and protect farmer livelihoods during times of crisis.">
+<meta property="og:image" content="https://www.jostapubs.com/volume1/aswathypineapple/images/cover.jpg">
+<meta property="og:site_name" content="JOSTA">
+<meta property="og:image:alt" content="JOSTA Volume 1 Cover">
+<meta name="twitter:title" content="Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala – JOSTA">
+<meta name="twitter:description" content="Price fluctuations pose a major challenge in horticulture, especially for perishable crops like pineapple. Vazhakulam in Kerala is a leading hub for pineapple cultivation, with strong interstate marketing networks. This study investigates price volatility in the Vazhakulam pineapple market during covid lock down using daily price data from January 2017 to September 2022. The data was segmented into pre-pandemic (Jan 2017–Mar 2020) and pandemic/post-pandemic (Apr 2020–Sep 2022) periods. Time-series modeling using ARCH and GARCH approaches in R revealed that GARCH(1,1) was the most suitable model for capturing volatility patterns. Results showed significantly higher price instability during the pandemic period, driven by transport disruptions and reduced consumer demand. This volatility affected the economic viability of pineapple farming, leading many producers to reduce cultivation. The findings highlight the need for targeted policy support and risk management strategies to stabilize fruit markets and protect farmer livelihoods during times of crisis.">
+<meta name="twitter:image" content="https://www.jostapubs.com/volume1/aswathypineapple/images/papayalogo.png">
+<meta name="twitter:image:alt" content="JOSTA Journal">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/sidebarcover.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About JOSTA</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Submit Articles</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../submit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submit article</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../authorguide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Article submission</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../peerReview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Peer Review Policy</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../published.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Latest Articles</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Volumes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Volume 1</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Issues</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../volume1issue1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Issue 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../editorial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial Board</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../editorialsection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial sections</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#materials-and-methods" id="toc-materials-and-methods" class="nav-link" data-scroll-target="#materials-and-methods"><span class="header-section-number">2</span> Materials and methods</a>
+  <ul class="collapse">
+  <li><a href="#study-area" id="toc-study-area" class="nav-link" data-scroll-target="#study-area"><span class="header-section-number">2.1</span> Study area</a></li>
+  <li><a href="#sampling-and-data-collection" id="toc-sampling-and-data-collection" class="nav-link" data-scroll-target="#sampling-and-data-collection"><span class="header-section-number">2.2</span> Sampling and data collection</a></li>
+  <li><a href="#garch-models" id="toc-garch-models" class="nav-link" data-scroll-target="#garch-models"><span class="header-section-number">2.3</span> GARCH models</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">3</span> Results</a>
+  <ul class="collapse">
+  <li><a href="#average-monthly-prices-behaviour" id="toc-average-monthly-prices-behaviour" class="nav-link" data-scroll-target="#average-monthly-prices-behaviour"><span class="header-section-number">3.1</span> Average monthly prices behaviour</a></li>
+  <li><a href="#estimation-of-volatility-using-garch" id="toc-estimation-of-volatility-using-garch" class="nav-link" data-scroll-target="#estimation-of-volatility-using-garch"><span class="header-section-number">3.2</span> Estimation of volatility using GARCH</a></li>
+  <li><a href="#volatility-clustering" id="toc-volatility-clustering" class="nav-link" data-scroll-target="#volatility-clustering"><span class="header-section-number">3.3</span> Volatility clustering</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Case-Study</div>
+    <div class="quarto-category">Economics</div>
+    <div class="quarto-category">Policy</div>
+  </div>
+  </div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Arshad N. </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Government of Kerala
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://kau.in/people/dr-aswathy-vijayan">Aswathy Vijayan<sup>*</sup></a> <a href="mailto:aswathy.v@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-5137-6724" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://www.kau.in/people/durga-ar">Durga A. R.</a> <a href="mailto:durga.ar@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://www.kau.in/people/t-paul-lazarus">T. Paul Lazarus</a> <a href="mailto:paultlazarus@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://coavellayani.kau.in/people/sub-lt-dr-pratheesh-p-gopinath">Pratheesh P. Gopinath</a> <a href="mailto:pratheesh.pg@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-3290-0436" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 18, 2025</p>
+    </div>
+  </div>
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.5281/zenodo.15689170">10.5281/zenodo.15689170</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Price fluctuations pose a major challenge in horticulture, especially for perishable crops like pineapple. Vazhakulam in Kerala is a leading hub for pineapple cultivation, with strong interstate marketing networks. This study investigates price volatility in the Vazhakulam pineapple market during covid lock down using daily price data from January 2017 to September 2022. The data was segmented into pre-pandemic (Jan 2017–Mar 2020) and pandemic/post-pandemic (Apr 2020–Sep 2022) periods. Time-series modeling using ARCH and GARCH approaches in R revealed that GARCH(1,1) was the most suitable model for capturing volatility patterns. Results showed significantly higher price instability during the pandemic period, driven by transport disruptions and reduced consumer demand. This volatility affected the economic viability of pineapple farming, leading many producers to reduce cultivation. The findings highlight the need for targeted policy support and risk management strategies to stabilize fruit markets and protect farmer livelihoods during times of crisis.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>price volatility, ARCH, GARCH, COVID, Vazhakkulam, pineapple</p>
+  </div>
+</div>
+
+</header>
+
+
+<p><a href="https://doi.org/10.5281/zenodo.15689170"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
+<!-- Download PDF Button -->
+<p><a href="pdfs/jostapineapple.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
+<!-- Copy Citation Button -->
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
+</button>
+</div>
+<!-- Hidden Citation Text -->
+<p><span id="citation-text" style="display: none;">Arshad, N., Vijayan, A., Durga, A. R., &amp; Paul Lazarus, T. (2025). Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15689170</span></p>
+<!-- JavaScript -->
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+<!-- CSS Styling -->
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Price volatility is one of the significant sources of risk in agriculture especially in fruits and vegetable production. It is defined as the directionless fluctuations in prices that cannot be predicted with market fundamentals <span class="citation" data-cites="prakash2011">(<a href="#ref-prakash2011" role="doc-biblioref">Prakash 2011</a>)</span>. Reasons for price volatility include supply-side shocks due to severe weather events or diseases, variations in demand, distortions in trade policies and supply chain disruptions <span class="citation" data-cites="gilbert2010 ait_sidhoum2016">(<a href="#ref-gilbert2010" role="doc-biblioref">Gilbert and Morgan 2010</a>; <a href="#ref-ait_sidhoum2016" role="doc-biblioref">Ait Sidhoum and Serra 2016</a>)</span>. The increasing unpredictability of changing economic and natural environment <span class="citation" data-cites="tothova2011">(<a href="#ref-tothova2011" role="doc-biblioref">Tothova 2011</a>)</span> and seasonal nature of the fruits and vegetables also amplifies price volatility. Moreover, poor shelf life of horticulture crops increases risk and leads to unstable markets <span class="citation" data-cites="cook2011">(<a href="#ref-cook2011" role="doc-biblioref">Cook 2011</a>)</span>.</p>
+<p>Vazhakulam in Ernakulam district has become the major hub for pineapple cultivation in Kerala <span class="citation" data-cites="joy2013">(<a href="#ref-joy2013" role="doc-biblioref">Joy 2013</a>)</span>. Owing to its unique feature Vazhakulam pineapple has got Geographical indication tag also. Pineapple produced from the region has a long value chain and is marketed to various states like Karnataka, Tamil Nadu, Maharashtra, Gujarat, Madhya Pradesh, Rajasthan, Andhra Pradesh, Delhi mainly through road ways. Limited quantity of fresh pineapple is being exported to Gulf countries in special packings <span class="citation" data-cites="pga2018">(<a href="#ref-pga2018" role="doc-biblioref">Pineapple Growers Association 2018</a>)</span>.</p>
+<p>Pineapple is a globally traded fruit crop from Kerala that had always been subject to price volatility. It is mainly because of the seasonal variations in demand for pineapple in markets. Climate change induced low production, seasonal disruptions in demand and supply are the main factors that affect price volatility. It was noted that the COVID induced lock down had severely affected the pineapple prices and farmer suicides were reported during the period. This pandemic had a significant negative impact on all sectors of human life, including the economy, food security and health <span class="citation" data-cites="saadat2020">(<a href="#ref-saadat2020" role="doc-biblioref">Saadat, Rawtani, and Hussain 2020</a>)</span>. According to <span class="citation" data-cites="jribi2020">(<a href="#ref-jribi2020" role="doc-biblioref">Jribi et al. 2020</a>)</span>, the pandemic had the potential to hinder the progress towards meeting several Sustainable Development Goals (United Nations SDG 2015-2030), in particular, SDG 2 (End Hunger) and SDG 12 (Ensure sustainable consumption and production patterns). There were widespread disruptions in agriculture supply chain at the beginning of the lockdown <span class="citation" data-cites="fao2021">(<a href="#ref-fao2021" role="doc-biblioref">FAO 2021</a>)</span>. It further lead to the scarcity of labour, disrupted supply chains and lack of demand and logistics restrictions in the agricultural sector <span class="citation" data-cites="cariappa2021">(<a href="#ref-cariappa2021" role="doc-biblioref">Cariappa et al. 2021</a>)</span>.</p>
+<p>Although the price volatility of different agricultural commodities has been researched extensively in recent periods <span class="citation" data-cites="gilbert2010 sabu2019 yu2020">(<a href="#ref-gilbert2010" role="doc-biblioref">Gilbert and Morgan 2010</a>; <a href="#ref-sabu2019" role="doc-biblioref">Sabu, Kuruvila, and Manojkumar 2019</a>; <a href="#ref-yu2020" role="doc-biblioref">Yu et al. 2020</a>)</span>, a lack of knowledge exists in the pineapple sector of Kerala. The knowledge about the price risk and volatility associated with the pineapple sector is important for pineapple farmers during the pandemic. This information is critical for developing suitable price risk management strategies, for coping up with similar situations. Hence the present study aims to analyse the price behaviour of Pineapple in Kerala.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="materials-and-methods" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="materials-and-methods"><span class="header-section-number">2</span> Materials and methods</h2>
+<section id="study-area" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="study-area"><span class="header-section-number">2.1</span> Study area</h3>
+<p>The study was conducted in Ernakulam district of Kerala. The study area was selected purposively as it has the largest area under pineapple cultivation in Kerala. Out of the total area under pineapple in Kerala, 58.73 per cent lies in Ernakulam district which produces about 63 per cent of the production of the state in the year <span class="citation" data-cites="gok2020a">(<a href="#ref-gok2020a" role="doc-biblioref">Government of Kerala 2020a</a>)</span>. From the district, Muvattupuzha Block Panchayath was purposively selected based on the maximum area under pineapple cultivation. Three pineapple-growing grama panchayats viz., Avoly, Manjalloor, and Kalloorkkad were selected from the block panchayat randomly. Forty farmers each were randomly selected from these grama panchayaths making a total sample size of 120 farmers.</p>
+</section>
+<section id="sampling-and-data-collection" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="sampling-and-data-collection"><span class="header-section-number">2.2</span> Sampling and data collection</h3>
+<p>The study used time series data of daily prices of pineapple from January 2017 to September 2022 collected from Vazhakulam Pineapple Growers Association(PGA). Price collected can be aptly considered as representative price as most of the pineapple farmers are organized under PGA and trade pineapple through them. The prices represent the farm gate price received by the farmers and it is easily available in the website of Pineapple Growers Association<span class="citation" data-cites="pga2018">(<a href="#ref-pga2018" role="doc-biblioref">Pineapple Growers Association 2018</a>)</span>. Data on daily prices of pineapple from January 2017 to March 2020 was taken as pre-COVID period and from April 2020 to September 2022 is taken as COVID-post-COVID period. January 2017 to September 2022 was taken as the overall period.</p>
+</section>
+<section id="garch-models" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="garch-models"><span class="header-section-number">2.3</span> GARCH models</h3>
+<p>The uncertainty surrounding prospective price fluctuation is referred to as volatility. There are different methods to estimate volatility such as historical moving average, Exponential Weighted Moving Average (EWMA), Auto Regressive Conditional Heteroscedasticity (ARCH) introduced by <span class="citation" data-cites="engle1982">Engle (<a href="#ref-engle1982" role="doc-biblioref">1982</a>)</span> and Generalized Auto-Regressive Conditional Heteroscedasticity (GARCH) introduced by <span class="citation" data-cites="bollerslev1986">Bollerslev (<a href="#ref-bollerslev1986" role="doc-biblioref">1986</a>)</span>.</p>
+<p><span class="citation" data-cites="sekhar2004">Sekhar (<a href="#ref-sekhar2004" role="doc-biblioref">2004</a>)</span> compared the price volatility of different agricultural commodities in major Indian and international markets by using GARCH model. This model provided evidence on whether the estimated volatility is statistically significant or not. It also measures the persistence of volatility <span class="citation" data-cites="sabu2015">(<a href="#ref-sabu2015" role="doc-biblioref">Sabu 2015</a>)</span>.</p>
+<p>The ARCH process introduced by Engle (1982) explicitly recognizes the difference between the unconditional and the conditional variance allowing the latter to change over time as a function of past errors. The GARCH model of <span class="citation" data-cites="bollerslev1986">Bollerslev (<a href="#ref-bollerslev1986" role="doc-biblioref">1986</a>)</span> is an important type of time series model for heteroscedastic data. It explicitly models a time-varying conditional variance as a linear function of past squared residuals and of its past values. GARCH models are an extension of the ARCH models first introduced by Engle (1982) as it basically introduces a lagged conditional variance to the information set of an ARCH model. An ARCH model applied to price volatility basically assumes that a dependent variable of commodity prices, <span class="math inline">\(P_i\)</span>, is generated by the autoregressive process:</p>
+<p><span id="eq-archmean"><span class="math display">\[p_i = \phi_0 + \sum_{i=1}^{k} \phi_{1} P_{t-1} + \varepsilon_t \tag{1}\]</span></span></p>
+<p>To generate the ARCH<span class="math inline">\((p)\)</span> process, we express the conditional variance of the above expression as a function of its past values squared:</p>
+<p><span id="eq-archdist"><span class="math display">\[\varepsilon_t \mid \Omega_{t-1} \sim N(0, h) \tag{2}\]</span></span></p>
+<p><span id="eq-archvariance"><span class="math display">\[h_t^2 = \delta + \sum_{i=1}^{p} \alpha_i \varepsilon_{t-i}^2 \tag{3}\]</span></span></p>
+<p>Where, <span class="math inline">\(h_t^2\)</span> denotes the conditional variance of the information set <span class="math inline">\(\Omega_{t-1}\)</span> that is available at time <span class="math inline">\(t-1\)</span>, and <span class="math inline">\(\delta &gt; 0\)</span>, <span class="math inline">\(\alpha_i \geq 0\)</span> for all <span class="math inline">\(i = 2 \ldots p\)</span> and <span class="math inline">\(\alpha_1 + \alpha_2 + \cdots + \alpha_m &lt; 1\)</span>, which are necessary to make <span class="math inline">\(\varepsilon_t^2\)</span> positive and covariance stationary.</p>
+<p>The generalization of the ARCH process given in <a href="#eq-archvariance" class="quarto-xref">Equation&nbsp;3</a> is as follows <span class="citation" data-cites="bollerslev1986">(<a href="#ref-bollerslev1986" role="doc-biblioref">Bollerslev 1986</a>)</span>:</p>
+<p><span id="eq-archboller"><span class="math display">\[
+h_t^2 = \delta + \sum_{i=1}^{p} \alpha_i \varepsilon_{t-i}^2 + \sum_{i=1}^{q} \beta_i h_{t-i}^2
+\tag{4}\]</span></span></p>
+<p>The GARCH model in <a href="#eq-archboller" class="quarto-xref">Equation&nbsp;4</a> depicts the conditional variance of a price series to depend on a constant, past news about volatility (i.e.&nbsp;the <span class="math inline">\(\varepsilon_{t-1}^2\)</span> terms). Including the lagged conditional variances might capture the “adaptive learning” phenomenon. The benefit of the GARCH specification is that it contains fewer coefficient restrictions. For a well-defined variance and covariance function: <span class="math inline">\(\delta, \alpha &gt; 0; \beta \geq 0\)</span>, and <span class="math inline">\(\alpha + \beta &lt; 1\)</span>.</p>
+<p>Persistence of volatility in the commodity series is measured by the sum of <span class="math inline">\(\alpha + \beta\)</span>. Downward price changes are often followed by higher volatility than upward movements of the same magnitude <span class="citation" data-cites="herrera2008">(<a href="#ref-herrera2008" role="doc-biblioref">Herrera and Espinel 2008</a>)</span>.</p>
+<p>Models aim to define volatility clustering and effects such as kurtosis, forming the basis of dynamic volatility models.</p>
+<p>The key is that volatility, rather than remaining constant or moving in a monotonic manner over time, is dependent on past realisations of the associated volatility i.e.&nbsp;the error variance is related to the squared error terms over several periods in the past <span class="citation" data-cites="singh2020">(<a href="#ref-singh2020" role="doc-biblioref">Singh 2020</a>)</span>.</p>
+<p>The ARCH-GARCH model was used to analyse the volatility and it was estimated using <code>R</code> software <span class="citation" data-cites="rcoreteam2023">(<a href="#ref-rcoreteam2023" role="doc-biblioref">R Core Team 2023</a>)</span>. From the different models, Standard GARCH (1,1) (SGARCH) model was identified as the best model for this study based on the smallest Akaike Information Criteria (AIC) and Bayesian Information Criteria (BIC) values <span class="citation" data-cites="lestari2022">(<a href="#ref-lestari2022" role="doc-biblioref">Lestari et al. 2022</a>)</span>. This model distinguishes the predictable and unpredictable components of prices and also allows the variance of the unpredictable element to be time-varying. Such time varying conditional variances were estimated by using the SGARCH (1,1) model <span class="citation" data-cites="gujarati2009">(<a href="#ref-gujarati2009" role="doc-biblioref">Gujarati, Porter, and Gunasekhar 2009</a>)</span> and it was used to identify periods of high volatility.</p>
+<p>The GARCH(1,1) model is specified as:</p>
+<p><span id="eq-garchmodel"><span class="math display">\[Y_{it} = \alpha_0 + \beta_1 P_{t-1} + \beta_2 P_{t-2} + \varepsilon_t \quad ; \quad t = 1, 2, \ldots, t \tag{5}\]</span></span></p>
+<p><span id="eq-garchVariance"><span class="math display">\[\sigma^2_{i,t} = \theta + \alpha_i \varepsilon^2_{i,t-1} + \beta_i \sigma^2_{i,t-1} \tag{6}\]</span></span></p>
+<p>Where <span class="math inline">\(P_{t-1}\)</span> is the price at time <span class="math inline">\(t-1\)</span> and <span class="math inline">\(\sigma^2_{i,t}\)</span> is the conditional error variance at time <span class="math inline">\(t\)</span>. The term <span class="math inline">\((\alpha_i + \beta_i)\)</span> indicates the degree of persistence in price volatility. If the sum <span class="math inline">\((\alpha_i + \beta_i)\)</span> is close to 1, it implies a high level of volatility persistence <span class="citation" data-cites="devi2015">(<a href="#ref-devi2015" role="doc-biblioref">Devi, Srikala, and Ananda 2015</a>)</span>.</p>
+<p>The general form of a GARCH(<span class="math inline">\(p\)</span>, <span class="math inline">\(q\)</span>) model is:</p>
+<p><span id="eq-garchpq"><span class="math display">\[\sigma^2_{i,t} = \omega + \sum_{i=1}^{p} \beta_i \sigma^2_{t-i} + \sum_{i=1}^{q} \alpha_i \varepsilon^2_{t-i} \tag{7}\]</span></span></p>
+<p>Equation <a href="#eq-garchmodel" class="quarto-xref">Equation&nbsp;5</a>) captures the autoregressive part of the price model, while Equations <a href="#eq-garchVariance" class="quarto-xref">Equation&nbsp;6</a> and <a href="#eq-garchpq" class="quarto-xref">Equation&nbsp;7</a> describe the time-varying variance component.</p>
+</section>
+</section>
+<section id="results" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="results"><span class="header-section-number">3</span> Results</h2>
+<section id="average-monthly-prices-behaviour" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="average-monthly-prices-behaviour"><span class="header-section-number">3.1</span> Average monthly prices behaviour</h3>
+<p>In Vazhakulam, fresh pineapple is harvested at two stages: as green pineapple (harvested at 115 days after the ethephon application) and as ripe pineapple (harvested at 120–125 days after the ethephon application).</p>
+<p>The present study analyzed the price volatility of both ripe and green pineapple using time series data of daily prices from January 2017 to September 2022. For analytical purposes, the data set was divided into the following three periods:</p>
+<ul>
+<li>Pre-COVID period: January 2017 to March 2020<br>
+</li>
+<li>COVID–Post-COVID period: April 2020 to September 2022</li>
+</ul>
+<p>The average monthly prices of both green and ripe pineapple during the pre-COVID and COVID–post-COVID periods are presented in <a href="#fig-precovid" class="quarto-xref">Figure&nbsp;1 (a)</a> and <a href="#fig-postcovid" class="quarto-xref">Figure&nbsp;1 (b)</a>, respectively.</p>
+<div id="fig-monthlyprice" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-monthlyprice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-monthlyprice" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-precovid" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-precovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/aswathyImages/figure1.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-precovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Pre-COVID period
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-monthlyprice" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-postcovid" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-postcovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/aswathyImages/figure2.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-postcovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) COVID-Post-COVID period
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-monthlyprice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Average monthly prices (Rs./kg) of both green and ripe pineapple in Vazhakulam market during pre-covid and post-covid periods
+</figcaption>
+</figure>
+</div>
+<p>Price of pineapple usually stood high during the summer months of April and May coinciding with summer and one-month long Ramdan fasting. So, many farmers targeted the harvest of the crop during these months. But in April 2020, during the first lockdown period due to strict restrictions, many pineapple plantations were abandoned without harvesting. This was mainly due to the unavailability of migrant labours (as they went back to their hometown fearing the disease). So, a steep decline in price was observed during that period. Prices started increasing as the restrictions were lifted gradually. Again in 2021, there was price drop in the months of May and June due to another lockdown and restrictions.</p>
+<p>The price drop was to the level of Rs. 10/kg, which put farmers in distress. During the survey, many farmers reported that the price of pineapple had even dipped to Rs. 5/kg during the COVID period as they were not able to transport the produce to the Vazhakulam pineapple market. So, they sold produce in nearby markets. Many of the plantations were kept unharvested and harvested fruits fetched only very low price. Restrictions in interstate and intra state transport, fear of spread of virus through the fruits etc. worsened the situation. Many farmers terminated their lease contracts with landowners before expiry due to financial crisis and were unable to pay the lease amount and continue farming operations. Farmers reported that the reduction in the cultivated area had impacted total pineapple production from Vazhakulam. As the restrictions were gradually lifted towards the end of 2021, situation became normal and price hike was observed due to a reduced supply of pineapple to the market, with the demand for pineapple was same as earlier.</p>
+</section>
+<section id="estimation-of-volatility-using-garch" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="estimation-of-volatility-using-garch"><span class="header-section-number">3.2</span> Estimation of volatility using GARCH</h3>
+<p>GARCH models are very popular in the analysis of price volatility. Standard GARCH(1,1) model was fitted to study the volatility in the prices of pineapple. The estimates of GARCH(1,1) model for ripe pineapple and green pineapple are presented in <a href="#tbl-tblgarch" class="quarto-xref">Table&nbsp;1</a> and <a href="#tbl-tblgreengarch" class="quarto-xref">Table&nbsp;2</a>.</p>
+<div id="tbl-tblgarch" class="bordered quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tblgarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: GARCH(1,1) estimates for ripe pineapple prices in Vazhakulam market. Significance levels: * <span class="math inline">\(p &lt; 0.05\)</span>, ** <span class="math inline">\(p &lt; 0.01\)</span>
+</figcaption>
+<div aria-describedby="tbl-tblgarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 24%">
+<col style="width: 25%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Pre-COVID</th>
+<th>COVID-post COVID</th>
+<th>Overall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\mu\)</span></td>
+<td>24.078<span class="math inline">\({^{**}}\)</span></td>
+<td>13.458<span class="math inline">\({^{**}}\)</span></td>
+<td>23.476<span class="math inline">\({^{**}}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\omega\)</span></td>
+<td>1.309<span class="math inline">\({^{**}}\)</span></td>
+<td>0.141<span class="math inline">\({^{**}}\)</span></td>
+<td>0.576<span class="math inline">\({^{**}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\alpha_1\)</span></td>
+<td>0.412<span class="math inline">\({^{**}}\)</span></td>
+<td>0.221<span class="math inline">\({^{**}}\)</span></td>
+<td>0.347<span class="math inline">\({^{**}}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\beta_1\)</span></td>
+<td>0.164<span class="math inline">\({^{*}}\)</span></td>
+<td>0.639<span class="math inline">\({^{**}}\)</span></td>
+<td>0.409<span class="math inline">\({^{**}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\alpha + \beta\)</span></td>
+<td>0.576</td>
+<td>0.860</td>
+<td>0.756</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="tbl-tblgreengarch" class="bordered quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tblgreengarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: GARCH(1,1) estimates for green pineapple prices in Vazhakulam market. Significance levels: * <span class="math inline">\(p &lt; 0.05\)</span>, ** <span class="math inline">\(p &lt; 0.01\)</span>
+</figcaption>
+<div aria-describedby="tbl-tblgreengarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 24%">
+<col style="width: 25%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Pre-COVID</th>
+<th>COVID-post COVID</th>
+<th>Overall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\mu\)</span></td>
+<td>19.399<span class="math inline">\({^{**}}\)</span></td>
+<td>14.133<span class="math inline">\({^{**}}\)</span></td>
+<td>19.776<span class="math inline">\({^{**}}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\omega\)</span></td>
+<td>1.044<span class="math inline">\({^{**}}\)</span></td>
+<td>0.069<span class="math inline">\({^{**}}\)</span></td>
+<td>0.254<span class="math inline">\({^{**}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\alpha_1\)</span></td>
+<td>0.489<span class="math inline">\({^{**}}\)</span></td>
+<td>0.118<span class="math inline">\({^{**}}\)</span></td>
+<td>0.261<span class="math inline">\({^{**}}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\beta_1\)</span></td>
+<td>0.124<span class="math inline">\({^{*}}\)</span></td>
+<td>0.798<span class="math inline">\({^{**}}\)</span></td>
+<td>0.584<span class="math inline">\({^{**}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\alpha + \beta\)</span></td>
+<td>0.613</td>
+<td>0.916</td>
+<td>0.845</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The results showed that the GARCH(1,1) model estimates for ripe and green pineapple prices were significant for the pre-COVID, COVID and post-COVID, and overall periods. It indicated that the volatility in the prices of pineapple was persistent despite the COVID-induced lockdown.</p>
+<p>It is evident from <a href="#tbl-tblgarch" class="quarto-xref">Table&nbsp;1</a> that the sum of coefficients <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span> for the prices of ripe pineapple was higher in the COVID-post-COVID period, followed by the overall period. This indicated higher volatility in the prices of ripe pineapple during the COVID-post-COVID period. A similar trend was observed in the price of green pineapple (<a href="#tbl-tblgreengarch" class="quarto-xref">Table&nbsp;2</a>). This might be related to the reduced demand for pineapple in the market as a result of changes in the consumption behaviour of people during the pandemic. A study conducted by <span class="citation" data-cites="yu2020">Yu et al. (<a href="#ref-yu2020" role="doc-biblioref">2020</a>)</span> on the impact of COVID-19 on the prices of major food products in China found that rice and wheat showed no significant changes in prices after the COVID lockdown, whereas prices of cabbage showed higher volatility.</p>
+<p>Among the green and ripe pineapple prices, higher volatility was observed in the prices of green pineapple as compared to ripe pineapple for all the periods—pre-COVID, COVID-post-COVID, and overall. The value of the <span class="math inline">\(\alpha + \beta\)</span> term for green pineapple prices was close to one (0.916) during the post-COVID period, which indicated higher volatility in the prices of green pineapple after the lockdown. This could be because the effect of transportation restrictions during the lockdown on green pineapple was greater as it was marketed to North India, whereas mature ripe pineapple was marketed in Kerala and nearby states. In a similar attempt, while studying the effect of the COVID-19 pandemic on the prices of rice, chilli, and garlic in Indonesia, it was found that due to the government’s different social assistance programs, the impact of COVID-19 on the prices of rice was negligible, whereas the prices of chilli and garlic had decreased due to the pandemic. The study also found that the effect of COVID-19 on the prices of horticultural products was higher as compared to that on the prices of food grains <span class="citation" data-cites="zahraturrahmi2021">(<a href="#ref-zahraturrahmi2021" role="doc-biblioref">Zahraturrahmi et al. 2021</a>)</span>.</p>
+</section>
+<section id="volatility-clustering" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="volatility-clustering"><span class="header-section-number">3.3</span> Volatility clustering</h3>
+<p>To provide more detailed insights in to the volatility in price of pineapple, the volatility clustering in daily prices of both green and ripe pineapple for pre-COVID, COVID-post-COVID and overall periods are shown in <a href="#fig-volatility" class="quarto-xref">Figure&nbsp;2</a> given below. These figures clearly underpin the estimated results of GARCH model.</p>
+<div id="fig-volatility" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-volatility-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-prevolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-prevolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/aswathyImages/volatility1.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-prevolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Pre-COVID period green pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-prevolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-prevolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/aswathyImages/volatility2.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-prevolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Pre-COVID period ripe pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-cpocvolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-cpocvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/aswathyImages/volatility3.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cpocvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(c) COVID-post-COVID period green pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-cpocvolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-cpocvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/aswathyImages/volatility4.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cpocvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(d) COVID-post-COVID period ripe pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-overallvolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-overallvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/aswathyImages/volatility5.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-overallvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(e) Overall period green pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-overallvolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-overallvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/aswathyImages/volatility6.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-overallvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(f) Overall period ripe pineapple
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-volatility-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Volatility clustering in daily prices of green and ripe pineapple during pre-COVID, COVID-post-COVID, and overall periods.
+</figcaption>
+</figure>
+</div>
+<p>The <a href="#fig-volatility" class="quarto-xref">Figure&nbsp;2</a> indicated that there was volatility in the prices of pineapple. But the volatility was more prominent during the COVID-post-COVID period. A lowest price of Rs.10 per kg was realized during the COVID period and it recovered gradually to Rs.60 per kg during the post-COVID period. According to Pineapple Growers Association Kerala, the farm gate price had come down to Rs.10 per kg compared to Rs.40 in the previous year due to lockdown <span class="citation" data-cites="kumar2020">(<a href="#ref-kumar2020" role="doc-biblioref">Kumar 2020</a>)</span>. Thus, the pineapple farmers were in distress and they were unable to pay off their debts. There was also a report of farmer suicide due to financial losses in pineapple cultivation <span class="citation" data-cites="gok2020b">(<a href="#ref-gok2020b" role="doc-biblioref">Government of Kerala 2020b</a>)</span>.</p>
+<p>In a similar attempt, <span class="citation" data-cites="kaur2021">(<a href="#ref-kaur2021" role="doc-biblioref">Kaur 2021</a>)</span> in her study observed persistence of volatility in the prices of cereals, pulses and fruits before and after COVID-19. <span class="citation" data-cites="arumugam2020">(<a href="#ref-arumugam2020" role="doc-biblioref">Arumugam, Kanagavalli, and Manida 2020</a>)</span> revealed that the problem of labour shortage caused by a fear of viral transmission led to the wastage of harvested commodities, primarily fruits and vegetables, and also demand reduction of produce in the market. In a study conducted by <span class="citation" data-cites="pandya2021">(<a href="#ref-pandya2021" role="doc-biblioref">Pandya et al. 2021</a>)</span>, the prices of all agricultural items dropped by about 70 percent due to a rapid drop in demand and an excess supply of farm products. According to <span class="citation" data-cites="hossain2020">(<a href="#ref-hossain2020" role="doc-biblioref">Hossain et al. 2020</a>)</span>, COVID-19 not only affected physical health but also affected the mental health of farmers.</p>
+</section>
+</section>
+<section id="discussion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="discussion">Discussion</h2>
+<p>The present study highlights the significant volatility in pineapple prices across pre-COVID, COVID-post-COVID, and overall periods in the Vazhakulam market. Results from the GARCH(1,1) model indicated that both green and ripe pineapple prices experienced persistent volatility, with a pronounced increase during the COVID-post-COVID period. This was evident from the higher <span class="math inline">\(\alpha + \beta\)</span> values observed, especially for green pineapple, suggesting a strong memory in the price volatility process during this period.</p>
+<p>Several factors contributed to this heightened volatility. The COVID lockdowns imposed transport and logistics constraints and disrupted supply chains which caused a temporary collapse in market demand. This was reflected in steep price drops, with the price of pineapple falling as low as Rs 10 per kg during the lockdown, as reported by the Pineapple Growers Association <span class="citation" data-cites="kumar2020">(<a href="#ref-kumar2020" role="doc-biblioref">Kumar 2020</a>)</span>. The inability to harvest or transport produce due to labour shortages further aggravated the situation <span class="citation" data-cites="arumugam2020">(<a href="#ref-arumugam2020" role="doc-biblioref">Arumugam, Kanagavalli, and Manida 2020</a>)</span>.</p>
+<p>The findings are consistent with similar studies on other horticultural commodities. <span class="citation" data-cites="kaur2021">(<a href="#ref-kaur2021" role="doc-biblioref">Kaur 2021</a>)</span> found continued volatility in food prices post-COVID, and <span class="citation" data-cites="pandya2021">(<a href="#ref-pandya2021" role="doc-biblioref">Pandya et al. 2021</a>)</span> noted an average price drop of 70% in farm produce during the early pandemic phase. Moreover, the psychological and financial stress induced by the pandemic led to cases of farmer distress and suicide, further underlining the socioeconomic impact <span class="citation" data-cites="hossain2020">(<a href="#ref-hossain2020" role="doc-biblioref">Hossain et al. 2020</a>)</span>.</p>
+<p>It was also evident that green pineapple prices were more volatile than ripe ones, potentially due to their greater dependence on inter-state transport, especially to North Indian markets. These insights underscore the vulnerability of perishable commodity sectors to external shocks and reinforce the need for effective price risk management, timely market intelligence, and supportive agricultural policy interventions.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="conclusion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Pineapple cultivation remains a remunerative agricultural activity for many farmers in Kerala, particularly because it is one of the major fruit crops transported from the state to other parts of India. This study examined the price volatility in the Vazhakulam pineapple market during the pre-COVID, COVID-post-COVID, and overall periods. Findings revealed that pineapple farmers in Kerala have historically faced frequent price fluctuations, with significantly heightened volatility observed during the COVID-post-COVID period. This increase was primarily attributed to transportation restrictions and a fall in market demand due to the pandemic.</p>
+<p>These results have important implications for policymakers. To stabilize the pineapple market, there is a need to develop more robust price risk management mechanisms. Although the Government of Kerala has fixed a base price of Rs 15 per kg for pineapple <span class="citation" data-cites="gok2020b">(<a href="#ref-gok2020b" role="doc-biblioref">Government of Kerala 2020b</a>)</span>, the study found the average cost of production to be Rs 17.33 per kg. Therefore, it is recommended that the base price be revised to at least Rs 20–22 per kg to ensure profitability. The findings highlight the need for targeted policy support and risk management strategies to stabilize pineapple marketsin Kerala and protect farmer livelihoods during times of crisis.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Acknowledgments">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Acknowledgments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The authors gratefully acknowledge the support and encouragement provided by Kerala Agricultural University. They also sincerely thank the respondent farmers for their valuable time and cooperation during the course of the study.</p>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-ait_sidhoum2016" class="csl-entry" role="listitem">
+Ait Sidhoum, A., and T. Serra. 2016. <span>“Volatility Spillovers in the Spanish Food Marketing Chain: The Case of Tomato.”</span> <em>Agribusiness</em> 32 (1): 45–63.
+</div>
+<div id="ref-arumugam2020" class="csl-entry" role="listitem">
+Arumugam, D. U., D. G. Kanagavalli, and M. Manida. 2020. <span>“COVID-19: Impact of Agriculture in India.”</span> <em>Aegaeum Journal</em> 8 (5): 480–88.
+</div>
+<div id="ref-bollerslev1986" class="csl-entry" role="listitem">
+Bollerslev, Tim. 1986. <span>“Generalized Autoregressive Conditional Heteroskedasticity.”</span> <em>Journal of Econometrics</em> 31 (3): 307–27. https://doi.org/<a href="https://doi.org/10.1016/0304-4076(86)90063-1">https://doi.org/10.1016/0304-4076(86)90063-1</a>.
+</div>
+<div id="ref-cariappa2021" class="csl-entry" role="listitem">
+Cariappa, A. A., K. K. Acharya, C. A. Adhav, R. Sendhil, and P. Ramasundaram. 2021. <span>“Impact of COVID-19 on the Indian Agricultural System: A 10-Point Strategy for Post-Pandemic Recovery.”</span> <em>Outlook on Agriculture</em> 50 (1): 26–33.
+</div>
+<div id="ref-cook2011" class="csl-entry" role="listitem">
+Cook, R. L. 2011. <span>“Fundamental Forces Affecting US Fresh Produce Growers and Marketers.”</span> <em>Choices</em> 26 (4). <a href="https://www.choicesmagazine.org/choices-magazine/submitted-articles/fundamental-forces-affecting-us-fresh-produce-growers-and-marketers">https://www.choicesmagazine.org/choices-magazine/submitted-articles/fundamental-forces-affecting-us-fresh-produce-growers-and-marketers</a>.
+</div>
+<div id="ref-devi2015" class="csl-entry" role="listitem">
+Devi, I. B., M. Srikala, and T. Ananda. 2015. <span>“Price Volatility in Major Chilli Markets of India.”</span> <em>Indian Journal of Economics and Development</em> 3 (3): 194–98.
+</div>
+<div id="ref-engle1982" class="csl-entry" role="listitem">
+Engle, Robert F. 1982. <span>“Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation.”</span> <em>Econometrica</em> 50 (4): 987–1007. <a href="https://doi.org/10.2307/1912773">https://doi.org/10.2307/1912773</a>.
+</div>
+<div id="ref-fao2021" class="csl-entry" role="listitem">
+FAO. 2021. <span>“Agricultural Trade and Policy Responses During the First Wave of COVID-19 Pandemic in 2020.”</span> <a href="http://www.fao.org/3/cb4553en/cb4553en.pdf">http://www.fao.org/3/cb4553en/cb4553en.pdf</a>.
+</div>
+<div id="ref-gilbert2010" class="csl-entry" role="listitem">
+Gilbert, C. L., and C. W. Morgan. 2010. <span>“Food Price Volatility.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 365 (1554): 3023–34.
+</div>
+<div id="ref-gok2020a" class="csl-entry" role="listitem">
+Government of Kerala. 2020a. <span>“Agricultural Statistics 2018-19.”</span> <a href="http://www.ecostat.kerala.gov.in/images/pdf/publications/Agriculture/data/2018-19/agriculture_statistics_2018_19.pdf">http://www.ecostat.kerala.gov.in/images/pdf/publications/Agriculture/data/2018-19/agriculture_statistics_2018_19.pdf</a>.
+</div>
+<div id="ref-gok2020b" class="csl-entry" role="listitem">
+———. 2020b. <span>“Kerala Farm-Fresh Pazham Pachakkari Base Price.”</span> <a href="https://keralaagriculture.gov.in/en/2021/09/13/base-price-scheme/">https://keralaagriculture.gov.in/en/2021/09/13/base-price-scheme/</a>.
+</div>
+<div id="ref-gujarati2009" class="csl-entry" role="listitem">
+Gujarati, D. N., D. C. Porter, and S. Gunasekhar. 2009. <em>Basic Econometrics</em>. New Delhi: Tata McGraw-Hill Education Private Limited.
+</div>
+<div id="ref-herrera2008" class="csl-entry" role="listitem">
+Herrera, P., and R. Espinel. 2008. <span>“Price Volatility and Efficiency of Ecuador’s Agricultural Rural Markets.”</span> <a href="https://scholar.google.com/scholar?cluster=16437759094522538090">https://scholar.google.com/scholar?cluster=16437759094522538090</a>.
+</div>
+<div id="ref-hossain2020" class="csl-entry" role="listitem">
+Hossain, M. M., N. Purohit, R. Sharma, S. Bhattacharya, E. L. J. McKyer, and P. Ma. 2020. <span>“Suicide of a Farmer Amid COVID-19 in India: Perspectives on Social Determinants of Suicidal Behavior and Prevention Strategies.”</span> https://doi.org/<a href="https://doi.org/10.31235/osf.io/ekam3">https://doi.org/10.31235/osf.io/ekam3</a>.
+</div>
+<div id="ref-joy2013" class="csl-entry" role="listitem">
+Joy, P. P. 2013. <span>“Pineapple Sector in Kerala: Status, Opportunities, Challenges and Stakeholders.”</span> <a href="http://www.kau.in/sites/default/files/documents/production_technology_for_vazhakulam_pineapple_mauritius.pdf">http://www.kau.in/sites/default/files/documents/production_technology_for_vazhakulam_pineapple_mauritius.pdf</a>.
+</div>
+<div id="ref-jribi2020" class="csl-entry" role="listitem">
+Jribi, S., H. Ben Ismail, D. Doggui, and H. Debbabi. 2020. <span>“COVID-19 Virus Outbreak Lockdown: What Impacts on Household Food Wastage?”</span> <em>Environment, Development and Sustainability</em> 22 (5): 3939–55.
+</div>
+<div id="ref-kaur2021" class="csl-entry" role="listitem">
+Kaur, G. 2021. <span>“Empirical Study of Price Volatility of Staple Foodgrains Commodities During COVID 19 in India by GARCH Model Using CPI.”</span> <em>Global Journal of Enterprise Information System</em> 13 (1): 9–18.
+</div>
+<div id="ref-kumar2020" class="csl-entry" role="listitem">
+Kumar, S. V. 2020. <span>“Losses Due to COVID Crisis Claim Life of a Pineapple Farmer in Kerala.”</span>
+</div>
+<div id="ref-lestari2022" class="csl-entry" role="listitem">
+Lestari, P. E., W. D. S. Prajanti, W. Wibawanto, and F. Adzim. 2022. <span>“ARCH-GARCH Analysis: An Approach to Determine the Price Volatility of Red Chilli.”</span> <em>Journal of Agribusiness and Rural Development Research</em> 8 (1): 90–105.
+</div>
+<div id="ref-pandya2021" class="csl-entry" role="listitem">
+Pandya, N., D. Veluguri, A. Roy, P. Prabhakaran, and L. Jaacks. 2021. <span>“Economic Impact of the 2020 COVID-19 Lockdown on Indian Farmers.”</span> <em>Economic and Political Weekly</em> 56 (50): 31–34.
+</div>
+<div id="ref-pga2018" class="csl-entry" role="listitem">
+Pineapple Growers Association. 2018. <span>“PGA Home Page.”</span> <a href="https://vazhakulampineapple.in/">https://vazhakulampineapple.in/</a>.
+</div>
+<div id="ref-prakash2011" class="csl-entry" role="listitem">
+Prakash, A. 2011. <span>“Why Volatility Matters.”</span> In <em>Safeguarding Food Security in Volatile Global Markets</em>, edited by A. Prakash, 1–24. Rome: FAO.
+</div>
+<div id="ref-rcoreteam2023" class="csl-entry" role="listitem">
+R Core Team. 2023. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+</div>
+<div id="ref-saadat2020" class="csl-entry" role="listitem">
+Saadat, S., D. Rawtani, and C. M. Hussain. 2020. <span>“Environmental Perspective of COVID-19.”</span> <em>Science of the Total Environment</em> 728: 138870. https://doi.org/<a href="https://doi.org/10.1016/j.scitotenv.2020.138870">https://doi.org/10.1016/j.scitotenv.2020.138870</a>.
+</div>
+<div id="ref-sabu2015" class="csl-entry" role="listitem">
+Sabu, S. S. 2015. <span>“Price Volatility of Black Pepper and Its Implications in Kerala.”</span> Master’s thesis, Thrissur: Kerala Agricultural University.
+</div>
+<div id="ref-sabu2019" class="csl-entry" role="listitem">
+Sabu, S. S., A. Kuruvila, and K. Manojkumar. 2019. <span>“Price Behaviour of Black Pepper in Indian and International Markets: A Comparative Analysis.”</span> <em>Journal of Spices and Aromatic Crops</em> 28 (1): 27–33.
+</div>
+<div id="ref-sekhar2004" class="csl-entry" role="listitem">
+Sekhar, C. S. C. 2004. <span>“Agricultural Price Volatility in International and Indian Markets.”</span> <em>Economic and Political Weekly</em> 39 (43): 4729–36.
+</div>
+<div id="ref-singh2020" class="csl-entry" role="listitem">
+Singh, B. 2020. <span>“Liquidity Shocks and Overnight Interest Rates in Emerging Markets: Evidence from GARCH Models for India.”</span> <a href="https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=19444">https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=19444</a>.
+</div>
+<div id="ref-tothova2011" class="csl-entry" role="listitem">
+Tothova, M. 2011. <span>“Main Challenges of Price Volatility in Agricultural Commodity Markets.”</span> In <em>Methods to Analyse Agricultural Commodity Price Volatility</em>, edited by I. Piot-Lepetit and R. M’Barek. New York, NY: Springer. https://doi.org/<a href="https://doi.org/10.1007/978-1-4419-7634-5_2">https://doi.org/10.1007/978-1-4419-7634-5_2</a>.
+</div>
+<div id="ref-yu2020" class="csl-entry" role="listitem">
+Yu, X., C. Liu, H. Wang, and J. H. Feil. 2020. <span>“The Impact of COVID-19 on Food Prices in China: Evidence of Four Major Food Products from Beijing, Shandong and Hubei Provinces.”</span> <em>China Agricultural Economic Review</em> 12 (3): 445–58.
+</div>
+<div id="ref-zahraturrahmi2021" class="csl-entry" role="listitem">
+Zahraturrahmi, Z., V. Demircan, R. A. Moraru, and D. Bodescu. 2021. <span>“Analysis of the Effect of the COVID-19 Pandemic on the Prices of Basic Food Sold in Traditional Markets: The Case of Jakarta Province, Indonesia.”</span> <em>Horticultural Studies</em> 38 (2): 116–24.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Technical Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Technical Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>All prices mentioned in this study are in Indian Rupees (Rs), the official currency of India. For clarity, “Rs” is used as a symbol for INR (Indian National Rupee) throughout the text. At the time of the study, the exchange rate was approximately 1 USD = 85.41 INR, although this may vary over time.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="📄 Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+📄 Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>11 June 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>16 June 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>18 June 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<p><strong>Reviewer 1:</strong><br>
+<em>Anonymous</em></p>
+<p><strong>Reviewer 2:</strong><br>
+<strong>Dr.&nbsp;Subash Surendran Padmaja</strong><br>
+<em>Scientist</em><br>
+<em>ICAR-National Institute of Agricultural Economics and Policy Research</em><br>
+ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid.org/0000-0001-6418-4142</a></p>
+</div>
+</div>
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.jostapubs\.com\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Published by PAPAYA publishing <a href="https://www.statoberry.com/papaya"><img src="../..\images/papayalogo.png" class="img-fluid" style="width: auto; height: 25px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="https://www.statoberry.com/papaya"><img src="../..\images/Josta.png" class="img-fluid" style="height: 90px;"></a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Licenced under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a> <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="../..\images/cclogo.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a> Built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
