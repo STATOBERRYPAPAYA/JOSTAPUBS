@@ -58,11 +58,11 @@ abstract: |
 keywords: [price volatility, ARCH, GARCH, COVID, Vazhakkulam, pineapple]  
 bibliography: aswathypineapple.bib
 date: 2025-06-18
-path: "volume1/aswathypineapple/aswathypineapple.html"
+path: "volume1/AGECONOMICS/JOSTA11CS1.html"
 categories: [Case-Study,Economics,Policy]
 status: Published (Online)
 doi: 10.5281/zenodo.15689170 
----  
+---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg)](https://doi.org/10.5281/zenodo.15689170) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
 
@@ -322,13 +322,13 @@ It was also evident that green pineapple prices were more volatile than ripe one
 
 Pineapple cultivation remains a remunerative agricultural activity for many farmers in Kerala, particularly because it is one of the major fruit crops transported from the state to other parts of India. This study examined the price volatility in the Vazhakulam pineapple market during the pre-COVID, COVID-post-COVID, and overall periods. Findings revealed that pineapple farmers in Kerala have historically faced frequent price fluctuations, with significantly heightened volatility observed during the COVID-post-COVID period. This increase was primarily attributed to transportation restrictions and a fall in market demand due to the pandemic.
 
-These results have important implications for policymakers. To stabilize the pineapple market, there is a need to develop more robust price risk management mechanisms. Although the Government of Kerala has fixed a base price of Rs 15 per kg for pineapple [@gok2020b], the study found the average cost of production to be Rs 17.33 per kg. Therefore, it is recommended that the base price be revised to at least Rs 20–22 per kg to ensure profitability. The findings highlight the need for targeted policy support and risk management strategies to stabilize pineapple marketsin Kerala and protect farmer livelihoods during times of crisis.  
+These results have important implications for policymakers. To stabilize the pineapple market, there is a need to develop more robust price risk management mechanisms. Although the Government of Kerala has fixed a base price of Rs 15 per kg for pineapple [@gok2020b], the study found the average cost of production to be Rs 17.33 per kg. Therefore, it is recommended that the base price be revised to at least Rs 20–22 per kg to ensure profitability. The findings highlight the need for targeted policy support and risk management strategies to stabilize pineapple marketsin Kerala and protect farmer livelihoods during times of crisis.
 
 ::: {.callout-note title="Acknowledgments" icon="false"}
-The authors gratefully acknowledge the support and encouragement provided by Kerala Agricultural University. They also sincerely thank the respondent farmers for their valuable time and cooperation during the course of the study.  
-:::  
+The authors gratefully acknowledge the support and encouragement provided by Kerala Agricultural University. They also sincerely thank the respondent farmers for their valuable time and cooperation during the course of the study.
+:::
 
-{{< pagebreak >}}  
+{{< pagebreak >}}
 
 ## References {.unnumbered}
 
@@ -337,11 +337,9 @@ The authors gratefully acknowledge the support and encouragement provided by Ker
 
 {{< pagebreak >}}
 
-::: {.callout-tip title="Technical Details"}  
-
-All prices mentioned in this study are in Indian Rupees (Rs), the official currency of India. For clarity, “Rs” is used as a symbol for INR (Indian National Rupee) throughout the text. At the time of the study, the exchange rate was approximately 1 USD = 85.41 INR, although this may vary over time.  
-
-:::  
+::: {.callout-tip title="Technical Details"}
+All prices mentioned in this study are in Indian Rupees (Rs), the official currency of India. For clarity, “Rs” is used as a symbol for INR (Indian National Rupee) throughout the text. At the time of the study, the exchange rate was approximately 1 USD = 85.41 INR, although this may vary over time.
+:::
 
 ::: {.callout-important title="📄 Publication & Reviewer Details"}
 **Publication Information**

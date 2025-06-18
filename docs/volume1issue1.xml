@@ -18,7 +18,7 @@
   <dc:creator>Durga A. R.</dc:creator>
   <dc:creator>T. Paul Lazarus</dc:creator>
   <dc:creator>Pratheesh P. Gopinath</dc:creator>
-  <link>https://www.jostapubs.com/volume1/aswathypineapple/aswathypineapple.html</link>
+  <link>https://www.jostapubs.com/volume1/AGECONOMICS/JOSTA11CS1.html</link>
   <description><![CDATA[ 
 
 
@@ -164,7 +164,7 @@
 <div id="fig-precovid" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-precovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/figure1.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
+<img src="https://www.jostapubs.com/volume1/AGECONOMICS/figures/aswathyImages/figure1.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-precovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (a) Pre-COVID period
@@ -176,7 +176,7 @@
 <div id="fig-postcovid" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-postcovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/figure2.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
+<img src="https://www.jostapubs.com/volume1/AGECONOMICS/figures/aswathyImages/figure2.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-postcovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (b) COVID-Post-COVID period
@@ -326,7 +326,7 @@ Table&nbsp;2: GARCH(1,1) estimates for green pineapple prices in Vazhakulam mark
 <div id="fig-prevolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-prevolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility1.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+<img src="https://www.jostapubs.com/volume1/AGECONOMICS/figures/aswathyImages/volatility1.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-prevolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (a) Pre-COVID period green pineapple
@@ -338,7 +338,7 @@ Table&nbsp;2: GARCH(1,1) estimates for green pineapple prices in Vazhakulam mark
 <div id="fig-prevolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-prevolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility2.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+<img src="https://www.jostapubs.com/volume1/AGECONOMICS/figures/aswathyImages/volatility2.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-prevolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (b) Pre-COVID period ripe pineapple
@@ -352,7 +352,7 @@ Table&nbsp;2: GARCH(1,1) estimates for green pineapple prices in Vazhakulam mark
 <div id="fig-cpocvolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-cpocvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility3.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+<img src="https://www.jostapubs.com/volume1/AGECONOMICS/figures/aswathyImages/volatility3.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cpocvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (c) COVID-post-COVID period green pineapple
@@ -364,7 +364,7 @@ Table&nbsp;2: GARCH(1,1) estimates for green pineapple prices in Vazhakulam mark
 <div id="fig-cpocvolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-cpocvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility4.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+<img src="https://www.jostapubs.com/volume1/AGECONOMICS/figures/aswathyImages/volatility4.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cpocvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (d) COVID-post-COVID period ripe pineapple
@@ -378,7 +378,7 @@ Table&nbsp;2: GARCH(1,1) estimates for green pineapple prices in Vazhakulam mark
 <div id="fig-overallvolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-overallvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility5.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+<img src="https://www.jostapubs.com/volume1/AGECONOMICS/figures/aswathyImages/volatility5.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-overallvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (e) Overall period green pineapple
@@ -390,7 +390,7 @@ Table&nbsp;2: GARCH(1,1) estimates for green pineapple prices in Vazhakulam mark
 <div id="fig-overallvolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-overallvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/aswathypineapple/figures/aswathyImages/volatility6.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
+<img src="https://www.jostapubs.com/volume1/AGECONOMICS/figures/aswathyImages/volatility6.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-overallvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (f) Overall period ripe pineapple
@@ -585,7 +585,7 @@ ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid
   <category>Case-Study</category>
   <category>Economics</category>
   <category>Policy</category>
-  <guid>https://www.jostapubs.com/volume1/aswathypineapple/aswathypineapple.html</guid>
+  <guid>https://www.jostapubs.com/volume1/AGECONOMICS/JOSTA11CS1.html</guid>
   <pubDate>Tue, 17 Jun 2025 18:30:00 GMT</pubDate>
 </item>
 <item>
