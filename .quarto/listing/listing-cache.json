@@ -2,6 +2,9 @@
   "listingMap": {
     "published.qmd": [
       "volume1/**/*.qmd"
+    ],
+    "volume1issue1.qmd": [
+      "volume1/**/*.qmd"
     ]
   }
 }

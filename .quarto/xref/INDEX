@@ -28,5 +28,11 @@
   },
   "volume1/lovelyB/generationmean.qmd": {
     "generationmean.html": "4c57d873"
+  },
+  "issues/issue1.qmd": {
+    "issue1.html": "da8aee93"
+  },
+  "volume1issue1.qmd": {
+    "volume1issue1.html": "1a9393bc"
   }
 }

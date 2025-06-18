@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.jostapubs.com/volume1/lovelyB/generationmean.html</loc>
-    <lastmod>2025-06-17T18:25:05.730Z</lastmod>
+    <loc>https://www.jostapubs.com/volume1issue1.html</loc>
+    <lastmod>2025-06-18T01:36:20.836Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jostapubs.com/submit.html</loc>
-    <lastmod>2025-06-15T10:48:59.239Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jostapubs.com/peerReview.html</loc>
-    <lastmod>2025-06-15T10:57:44.468Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jostapubs.com/editorialsection.html</loc>
-    <lastmod>2025-06-15T10:43:26.386Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jostapubs.com/authorguide.html</loc>
-    <lastmod>2025-06-15T10:50:33.303Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jostapubs.com/editorial.html</loc>
-    <lastmod>2025-06-15T10:36:15.904Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jostapubs.com/index.html</loc>
-    <lastmod>2025-06-15T10:50:14.937Z</lastmod>
+    <loc>https://www.jostapubs.com/volume1/josta111raisins2025.html</loc>
+    <lastmod>2025-06-17T18:25:00.912Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/published.html</loc>
     <lastmod>2025-06-17T18:11:20.246Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jostapubs.com/volume1/josta111raisins2025.html</loc>
-    <lastmod>2025-06-17T18:25:00.912Z</lastmod>
+    <loc>https://www.jostapubs.com/index.html</loc>
+    <lastmod>2025-06-15T10:50:14.937Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/editorial.html</loc>
+    <lastmod>2025-06-15T10:36:15.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/authorguide.html</loc>
+    <lastmod>2025-06-15T10:50:33.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/editorialsection.html</loc>
+    <lastmod>2025-06-15T10:43:26.386Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/peerReview.html</loc>
+    <lastmod>2025-06-15T10:57:44.468Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/submit.html</loc>
+    <lastmod>2025-06-15T10:48:59.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/volume1/lovelyB/generationmean.html</loc>
+    <lastmod>2025-06-17T18:25:05.730Z</lastmod>
   </url>
 </urlset>
