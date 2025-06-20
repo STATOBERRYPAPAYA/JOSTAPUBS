@@ -4,7 +4,7 @@
        alt="Banner"
        style="width: 100%; max-height: 200px; object-fit: cover;">
 </div>
-```  
+```
 
 ```{=html}
 <style>
@@ -45,22 +45,22 @@
   text-decoration: underline;
 }
 </style>
-```  
+```
 
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
 
 <!-- Horizontal Button Group -->
 
 ::: {style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;"}
 <a href="index.qmd" class="btn btn-outline-secondary"> <i  class="bi bi-house"></i> Home </a> <a href="editorialsection.qmd" class="btn btn-outline-secondary"> <i class="bi bi-journal-bookmark"></i> Sections </a>
-:::  
+:::
 
 # Editorial Board {.unnumbered}
 
-The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a distinguished editorial board comprising leading researchers, academics, and professionals from diverse disciplines. This board ensures the academic rigor, quality, and integrity of all published content. Below is the structure of the editorial team, organized according to international best practices in scholarly publishing.
+The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an experienced and diverse Editorial Board comprising leading researchers, academicians, and practitioners in the fields of agricultural science, environmental sustainability, and applied technologies. Our editorial team is committed to maintaining high standards of academic integrity and scientific rigor, ensuring that all submissions undergo a thorough and fair peer-review process. The board works collectively to shape the journal’s vision, uphold its publication ethics, and promote the dissemination of innovative, practical, and impactful research that addresses the challenges and opportunities in sustainable agriculture and allied disciplines.
 
-## Editor-in-Chief {.unnumbered}  
+## Editor-in-Chief {.unnumbered}
+
 ```{=html}
 <div class="editor-card">
   <div class="editor-info">
@@ -74,11 +74,11 @@ The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a di
     <p><a href="https://scholar.google.co.in/citations?user=j41jFA4AAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div> 
-```  
+```
 
-## Associate Editors {.unnumbered}  
+## Associate Editors {.unnumbered}
 
-### Crop and Plant Science {.unnumbered}  
+### Crop and Plant Science {.unnumbered}
 
 ```{=html}
 <div class="editor-card">
@@ -116,11 +116,11 @@ The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a di
     <p><a href="https://scholar.google.com/citations?user=YuuqprgAAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div>
-```  
+```
 
-## Data Science and Statistics in Agriculture {.unnumbered}  
+## Data Science and Statistics in Agriculture {.unnumbered}
 
-```{=html}  
+```{=html}
 
 <div class="editor-card">
   <div class="editor-info">
@@ -146,12 +146,11 @@ The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a di
     <p><a href="https://scholar.google.com/citations?user=PJwBEFIAAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div>
-```  
+```
 
+## Agricultural Economics and Rural Development {.unnumbered}
 
-
-## Agricultural Economics and Rural Development {.unnumbered}  
-```{=html}  
+```{=html}
 
 <div class="editor-card">
   <div class="editor-info">
@@ -176,9 +175,10 @@ The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a di
     <p><a href="https://scholar.google.com/citations?user=Bcd5KQoAAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div>
-```  
+```
 
-## Soil Science and Agroecology {.unnumbered}  
+## Soil Science and Agroecology {.unnumbered}
+
 ```{=html}
 <div class="editor-card">
   <div class="editor-info">
@@ -191,10 +191,10 @@ The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a di
     <p><a href="https://scholar.google.co.in/citations?user=CGQbWCwAAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div>  
-```  
-
+```
 
 ## Managing Editors {.unnumbered}
+
 ```{=html}
 <div class="editor-card">
   <div class="editor-info">
@@ -218,10 +218,9 @@ The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a di
     <p><a href="https://scholar.google.com/citations?user=ugbJocMAAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div>
-```  
- 
+```
 
-## Managing Assistant Editors {.unnumbered}  
+## Managing Assistant Editors {.unnumbered}
 
 ```{=html}
 <div class="editor-card">
@@ -248,4 +247,3 @@ The *Journal of Sustainable Technology in Agriculture (JOSTA)* is guided by a di
   </div>
 </div>
 ```
-
