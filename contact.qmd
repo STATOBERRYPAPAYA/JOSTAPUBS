@@ -1,26 +1,33 @@
-## 📮 Get in Touch with Us {.unnumbered}  
+```{=html}
+<div style="text-align: center; margin-bottom: 1em;">
+  <img src="websitecover.jpg"
+       alt="Banner"
+       style="width: 100%; max-height: 200px; object-fit: cover;">
+</div>
+```  
 
-For any queries related to publishing, manuscript submissions, journal partnerships, or technical support, feel free to reach out to us.  
+## 📮 Get in Touch with Us {.unnumbered}
 
-### 🌐 About PAPAYA {.unnumbered} 
+For any queries related to publishing, manuscript submissions, journal partnerships, or technical support, feel free to reach out to us.
 
-**PAPAYA Academic Press** is the academic publishing division of Statoberry LLP, focusing on open-access journals, research dissemination, and digital academic tools in agriculture and allied sciences.  
+### 🌐 About PAPAYA {.unnumbered}
 
-Visit: [www.statoberry.com/papaya](https://www.statoberry.com/papaya)  
+**PAPAYA Academic Press** is the academic publishing division of Statoberry LLP, focusing on open-access journals, research dissemination, and digital academic tools in agriculture and allied sciences.
 
-### 🏢 Address {.unnumbered} 
+Visit: [www.statoberry.com/papaya](https://www.statoberry.com/papaya)
 
-**Statoberry LLP**  
-Kalliyoor P. O.  
-Thiruvananthapuram  
-Kerala, India – 695522  
+### 🏢 Address {.unnumbered}
 
-### 📞 Contact Information {.unnumbered} 
+**Statoberry LLP**\
+Kalliyoor P. O.\
+Thiruvananthapuram\
+Kerala, India – 695522
 
-- 📱 +91 9746 919 099  
-- 📱 +91 7736 807 657  
-- ✉️ [statistician@statoberry.com](mailto:statistician@statoberry.com)  
-- ✉️ [help@statoberry.com](mailto:help@statoberry.com)
+### 📞 Contact Information {.unnumbered}
 
----
+-   📱 +91 9746 919 099\
+-   📱 +91 7736 807 657\
+-   ✉️ [statistician\@statoberry.com](mailto:statistician@statoberry.com)\
+-   ✉️ [help\@statoberry.com](mailto:help@statoberry.com)
 
+------------------------------------------------------------------------
