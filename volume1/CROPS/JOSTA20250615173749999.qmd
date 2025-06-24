@@ -33,7 +33,7 @@ path: "volume1/CROPS/JOSTA20250615173749999.html"
 categories: [Orignal-Article,Plant-Science, Crops, Genetics]
 status: Published (Online)
 doi: 10.5281/zenodo.15726530  
----  
+---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15726530.svg)](https://doi.org/10.5281/zenodo.15726530) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
 
@@ -143,7 +143,7 @@ Despite its nutritional superiority and agricultural advantages—including drou
 The experimental material comprised 40 sesame genotypes obtained from four major sources: Kerala Agricultural University (7 varieties), Tamil Nadu Agricultural University (7 varieties), All India Coordinated Research Project on Oilseeds cultures (20 accessions), and National Bureau of Plant Genetic Resources Regional Centre, Vellanikkara (6 accessions).
 
 | Sl. No. | Genotype | Source | Sl. No. | Genotype | Source |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | 1 | KYM-1 | ORARS, Kayamkulam | 21 | AVTS-06-9 | ORARS, Kayamkulam |
 | 2 | Soma | ORARS, Kayamkulam | 22 | AVTS-06-10 | ORARS, Kayamkulam |
 | 3 | Surya | ORARS, Kayamkulam | 23 | IVTS-06-2 | ORARS, Kayamkulam |
@@ -190,7 +190,7 @@ Analysis of variance in @tbl-anova-sesame revealed highly significant difference
 > $X_6$ – Oil content (%)
 
 | Character | Range          | Mean ± SE    | GCV (%) | PCV (%) | $h^2$ (%) | GA (%) | ECV (%) |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|-----------|----------------|--------------|---------|---------|-----------|--------|---------|
 | $X_1$     | 18.73 – 34.80  | 27.35 ± 0.39 | 11.92   | 12.17   | 95.98     | 24.06  | 2.44    |
 | $X_2$     | 31.40 – 107.97 | 53.44 ± 0.56 | 36.68   | 36.72   | 99.75     | 75.46  | 1.83    |
 | $X_3$     | 4.27 – 12.13   | 5.85 ± 0.20  | 34.67   | 35.15   | 97.28     | 70.45  | 5.79    |
@@ -246,7 +246,7 @@ The significant genetic variation observed across all studied traits provides a 
 Number of capsules per plant shows the strongest positive correlation with seed yield ($r = 0.956^{**}$), making it the most reliable indirect selection criterion. Plant height and branches per plant also show strong positive associations, indicating coordinated plant architecture development. The strong positive correlation between number of capsules per plant and seed yield ($r = 0.956^{**}$) confirms this trait as the most reliable selection criterion for yield improvement.
 
 | Trait | Direct Effect | $X_1$ | $X_2$ | $X_3$ | $X_4$ | $X_5$ | $X_6$ | $X_7$ | Total Correlation |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|----|----|----|----|----|----|----|----|----|----|
 | $X_1$ | -0.108 | – | -0.016 | -0.070 | 0.453 | -0.032 | 0.001 | -0.004 | 0.321 |
 | $X_2$ | 0.077 | -0.023 | – | -0.136 | 0.698 | 0.027 | -0.011 | 0.001 | 0.633 |
 | $X_3$ | -0.231 | -0.032 | 0.046 | – | 0.769 | 0.008 | -0.008 | 0.000 | 0.552 |
@@ -280,7 +280,7 @@ Plant height is the major contributor to genetic divergence among sesame genotyp
 The 40 genotypes were grouped into six distinct clusters. Cluster I was the largest with 30 genotypes, while Clusters III, IV, V, and VI each contained single genotypes. Maximum inter-cluster distance was observed between Clusters III and IV ($D^2$ = 75.04), indicating maximum genetic divergence between these groups.
 
 | Cluster | Genotypes | Total Number of Genotypes |
-|-----------|:-------------------------------------------------:|-----------|
+|----|:--:|----|
 | I | IVTS-06-2, IVTS-06-3, YLM-17, AVTS-06-6, TCR-4865, TCR-3105, VRI-2, IVTS-06-16, IVTS-06-8, AVTS-06-10, TCR-2527-C, IVTS-06-15, AVTS-06-5, AVTS-06-4, IVTS-06-6, AVTS-06-3, AVTS-06-7, AVTS-06-1, AVTS-06-1, IVTS-06-28, IVTS-06-27, IVTS-06-13, TCR-2511, IVTS-06-12, TCR-3279-A, TMV-4, TMV-5, IVTS-06-26, TMV-6, VRI-1 | 30 |
 | II | Tilatara, CO-1, Tilak, Tilarani, TMV-3, Surya | 6 |
 | III | IVTS-06-22 | 1 |
@@ -293,7 +293,7 @@ The 40 genotypes were grouped into six distinct clusters. Cluster I was the larg
 Cluster means revealed distinct patterns across groups which are represented in @tbl-clustermeans Cluster VI (KYM-1) showed the earliest flowering (18.73 days) and highest oil content (50.17%), while Cluster IV (Soma) exhibited the tallest plants (107.97 cm) and maximum branches per plant (10.80). Cluster V (SVPR-1) demonstrated the highest seed yield per plant (7.02g).
 
 | Character | Cluster I | Cluster II | Cluster III | Cluster IV | Cluster V | Cluster VI |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|----|----|----|----|----|----|----|
 | Days to flowering | 27.17 | 30.77 | 21.41 | 25.73 | 28.13 | 18.73 |
 | Plant height (cm) | 44.13 | 81.58 | 61.33 | 107.97 | 59.30 | 95.60 |
 | Branches per plant | 5.20 | 8.39 | 7.34 | 10.80 | 4.73 | 5.00 |
@@ -370,7 +370,6 @@ The authors declare no conflict of interest.
     *Department of Plant Breeding & Genetics*\
     *College of Agriculture, Vellayani*\
     *Kerala Agricultural University*
-:::  
+:::
 
-###  {.unnumbered}  
-
+###  {.unnumbered}
