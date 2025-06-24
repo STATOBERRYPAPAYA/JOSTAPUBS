@@ -50,16 +50,15 @@ For a detailed description of the review process, see [Peer Review Process](peer
 
 JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
 
-## Article Processing Charges (APC) {.unnumbered}  
+## Article Processing Charges (APC) {.unnumbered}
 
-At JOSTA, we uphold the principle that research quality should never be compromised by publication costs. As we celebrate our inaugural year, we are proud to offer *no Article Processing Charges (APC)* to authors.  
+At JOSTA, we uphold the principle that research quality should never be compromised by publication costs. As we celebrate our inaugural year, we are proud to offer *no Article Processing Charges (APC)* to authors.
 
-✅ No submission fees   
-✅ No charges for figures, tables, or page limits   
-✅ Immediate online publication with permanent open-access availability  
+✅ No submission fees\
+✅ No charges for figures, tables, or page limits\
+✅ Immediate online publication with permanent open-access availability
 
 We are committed to supporting high-quality, impactful research and promoting affordable, accessible publishing for all. By removing financial barriers, we aim to encourage meaningful contributions to sustainable technology in agriculture.
-
 
 ## 🍃Greener Publishing {.unnumbered}
 

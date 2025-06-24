@@ -1,0 +1,46 @@
+```{=html}
+<div style="text-align: center; margin-bottom: 1em;">
+  <img src="websitecover.jpg"
+       alt="Banner"
+       style="width: 100%; max-height: 200px; object-fit: cover;">
+</div>
+```
+
+::: {.callout-info title="Encountered a Problem or Have a Suggestion?"}
+We encourage authors and visitors to share any technical issues, correction requests, or improvement suggestions related to the *Journal of Sustainable Technology in Agriculture (JOSTA)*.
+:::
+
+## 📩 Report a problem via GitHub {.unnumbered}
+
+All issues submitted through GitHub will be publicly visible. Once an issue is resolved, it will be marked as *closed* on the GitHub tracker. This helps us maintain transparency and traceability in handling concerns.
+
+To file an issue, click the button below:
+
+::: {style="margin: 1em 0;"}
+<a href="https://github.com/STATOBERRYPAPAYA/JOSTAPUBS/issues/new" class="btn btn-outline-danger">
+  <i class="bi bi-exclamation-triangle-fill"></i> Report a Problem
+</a>
+:::
+
+## ✍️ What to Include {.unnumbered}
+
+When submitting, please try to provide:
+
+-   Clear and concise description of the issue
+-   Title of article (if applicable)
+-   Screenshots (optional)
+-   Your name and email (optional, for follow-up)
+
+> 🧾 You will need a GitHub account to submit. If you don’t have one, [create a free account here](https://github.com/join).
+
+## 🔐 Private or Confidential Matters? {.unnumbered}
+
+If your concern is **sensitive or private**, please do not use the public GitHub issue tracker. Instead, email us directly at:
+
+📧 [**jostapubs\@gmail.com**](mailto:jostapubs@gmail.com)
+
+------------------------------------------------------------------------
+
+Thank you for helping us improve JOSTA. Your feedback supports our mission of transparent and accessible academic publishing
+
+###  {.unnumbered}

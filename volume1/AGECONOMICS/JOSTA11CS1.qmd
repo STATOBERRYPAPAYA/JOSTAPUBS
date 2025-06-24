@@ -69,7 +69,7 @@ doi: 10.5281/zenodo.15689170
 ::: {style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;"}
 <!-- Download PDF Button -->
 
-<a href="pdfs/jostapineapple.pdf" download class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a>
+<a href="pdf/JOSTA11CS1.pdf" download class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a>
 
 <!-- Copy Citation Button -->
 

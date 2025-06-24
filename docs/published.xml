@@ -2323,7 +2323,7 @@ Publication &amp; Reviewer Details
 <p><a href="https://doi.org/10.5281/zenodo.15689170"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
 <!-- Download PDF Button -->
-<p><a href="pdfs/jostapineapple.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
+<p><a href="pdf/JOSTA11CS1.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
 <!-- Copy Citation Button -->
 <button id="copy-btn" onclick="copyCitation()" class="copy-btn">
 <p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>

@@ -25,7 +25,8 @@ website:
     style: "docked"
     search: true
     contents:
-      - index.qmd
+      - href: index.qmd
+        text: Home
       - section: "Submit Articles"
         contents:
         - submit.qmd
@@ -40,8 +41,14 @@ website:
               contents:
               - volume1issue1.qmd
       # - categories.qmd
-      - editorial.qmd
-      - editorialsection.qmd
+      - href: editorial.qmd
+        text: Editorial Board
+      - href: editorialsection.qmd
+        text: Editorial Sections
+      - href: report.qmd
+        text: Report a Problem
+      - href: contact.qmd
+        text: Contact Us
   page-footer:
     border: true
     left: |
