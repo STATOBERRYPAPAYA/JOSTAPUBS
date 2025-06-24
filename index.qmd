@@ -50,23 +50,16 @@ For a detailed description of the review process, see [Peer Review Process](peer
 
 JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
 
-## Article Processing Charges (APC) {.unnumbered}
+## Article Processing Charges (APC) {.unnumbered}  
 
-JOSTA operates under a fully open-access publishing model, ensuring that all published articles are freely accessible to readers worldwide without any paywalls.
+At JOSTA, we uphold the principle that research quality should never be compromised by publication costs. As we celebrate our inaugural year, we are proud to offer *no Article Processing Charges (APC)* to authors.  
 
-To support the costs associated with editorial management, online hosting, long-term archiving, and open-access dissemination, an Article Processing Charge (APC) is applicable upon acceptance of the manuscript:
+✅ No submission fees   
+✅ No charges for figures, tables, or page limits   
+✅ Immediate online publication with permanent open-access availability  
 
-INR 10,000 for authors residing in India
+We are committed to supporting high-quality, impactful research and promoting affordable, accessible publishing for all. By removing financial barriers, we aim to encourage meaningful contributions to sustainable technology in agriculture.
 
-USD 250 for international authors (outside India)
-
-✅ No submission fees\
-✅ No additional charges for figures, tables, or page limits\
-✅ Immediate online publication and permanent open-access availability
-
-### APC Waiver for Inaugural Year {.unnumbered}
-
-To support the launch of the journal, all APCs will be waived for manuscripts submitted on or before 15 June 2026.
 
 ## 🍃Greener Publishing {.unnumbered}
 

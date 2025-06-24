@@ -1,0 +1,2009 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Gayathri G *">
+<meta name="author" content="Dijee Bastian">
+<meta name="dcterms.date" content="2025-06-24">
+<meta name="keywords" content="Sesame, genetic variability, heritability, correlation, path analysis, genetic divergence, breeding">
+
+<title>Genetic Variability and Diversity Analysis in Sesame (Sesamum indicum L.) – JOSTA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/cover.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e25cc82807363e79c52e96bc8b7855f1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d53daca99197445b18154044ae73bc11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-278209a1080c747a323a5f6c0262cc7d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Genetic Variability and Diversity Analysis in Sesame (Sesamum indicum L.) – JOSTA">
+<meta property="og:description" content="Sesame (Sesamum indicum L.) is an ancient oilseed crop of significant nutritional and economic value, but its productivity remains suboptimal due to limited genetic improvement. This study assessed genetic variability, correlation patterns, and genetic divergence among 40 sesame genotypes to identify superior parents for breeding programs. Evaluating nine quantitative traits, including days to flowering, plant height, branches per plant, and oil content, in a randomized block design with three replications, revealed significant genetic variation. High heritability and genetic advance were recorded for traits such as days to flowering (95.98%) and seed yield per plant (98.69%). Number of capsules per plant showed the highest direct effect on seed yield. Mahalanobis D² analysis grouped the genotypes into six clusters, with plant height contributing the most to total divergence. The study identified genotypes from divergent clusters (III, IV, V, and VI) as potential parents for hybridization to develop high-yielding varieties with improved oil content.">
+<meta property="og:image" content="https://www.jostapubs.com/volume1/CROPS/images/cover.jpg">
+<meta property="og:site_name" content="JOSTA">
+<meta property="og:image:alt" content="JOSTA Volume 1 Cover">
+<meta name="twitter:title" content="Genetic Variability and Diversity Analysis in Sesame (Sesamum indicum L.) – JOSTA">
+<meta name="twitter:description" content="Sesame (Sesamum indicum L.) is an ancient oilseed crop of significant nutritional and economic value, but its productivity remains suboptimal due to limited genetic improvement. This study assessed genetic variability, correlation patterns, and genetic divergence among 40 sesame genotypes to identify superior parents for breeding programs. Evaluating nine quantitative traits, including days to flowering, plant height, branches per plant, and oil content, in a randomized block design with three replications, revealed significant genetic variation. High heritability and genetic advance were recorded for traits such as days to flowering (95.98%) and seed yield per plant (98.69%). Number of capsules per plant showed the highest direct effect on seed yield. Mahalanobis D² analysis grouped the genotypes into six clusters, with plant height contributing the most to total divergence. The study identified genotypes from divergent clusters (III, IV, V, and VI) as potential parents for hybridization to develop high-yielding varieties with improved oil content.">
+<meta name="twitter:image" content="https://www.jostapubs.com/volume1/CROPS/images/papayalogo.png">
+<meta name="twitter:image:alt" content="JOSTA Journal">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Genetic Variability and Diversity Analysis in Sesame (<em>Sesamum indicum</em> L.)</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/sidebarcover.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About JOSTA</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Submit Articles</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../submit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submit article</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../authorguide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Article submission</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../peerReview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Peer Review Policy</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../published.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Latest Articles</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Volumes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Volume 1</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Issues</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../volume1issue1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Issue 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../editorial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial Board</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../editorialsection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial sections</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#materials-and-methods" id="toc-materials-and-methods" class="nav-link" data-scroll-target="#materials-and-methods"><span class="header-section-number">2</span> Materials and methods</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">3</span> Results</a>
+  <ul class="collapse">
+  <li><a href="#genetic-divergence-analysis" id="toc-genetic-divergence-analysis" class="nav-link" data-scroll-target="#genetic-divergence-analysis"><span class="header-section-number">3.1</span> Genetic divergence analysis</a></li>
+  <li><a href="#cluster-analysis" id="toc-cluster-analysis" class="nav-link" data-scroll-target="#cluster-analysis"><span class="header-section-number">3.2</span> Cluster analysis</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genetic Variability and Diversity Analysis in Sesame (<em>Sesamum indicum</em> L.)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Orignal-Article</div>
+    <div class="quarto-category">Plant-Science</div>
+    <div class="quarto-category">Crops</div>
+    <div class="quarto-category">Genetics</div>
+  </div>
+  </div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://coavellayani.kau.in/people/dr-gayathri-g">Gayathri G <sup>*</sup></a> <a href="mailto:gayathri.g@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://kau.in/people/dr-dijee-bastian">Dijee Bastian</a> <a href="mailto:dijee.bastian@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 24, 2025</p>
+    </div>
+  </div>
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.5281/zenodo.15726530">10.5281/zenodo.15726530</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Sesame (<em>Sesamum indicum</em> L.) is an ancient oilseed crop of significant nutritional and economic value, but its productivity remains suboptimal due to limited genetic improvement. This study assessed genetic variability, correlation patterns, and genetic divergence among 40 sesame genotypes to identify superior parents for breeding programs. Evaluating nine quantitative traits, including days to flowering, plant height, branches per plant, and oil content, in a randomized block design with three replications, revealed significant genetic variation. High heritability and genetic advance were recorded for traits such as days to flowering (95.98%) and seed yield per plant (98.69%). Number of capsules per plant showed the highest direct effect on seed yield. Mahalanobis D² analysis grouped the genotypes into six clusters, with plant height contributing the most to total divergence. The study identified genotypes from divergent clusters (III, IV, V, and VI) as potential parents for hybridization to develop high-yielding varieties with improved oil content.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Sesame, genetic variability, heritability, correlation, path analysis, genetic divergence, breeding</p>
+  </div>
+</div>
+
+</header>
+
+
+<p><a href="https://doi.org/10.5281/zenodo.15726530"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15726530.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
+<!-- Download PDF Button -->
+<p><a href="pdf/JOSTA20250615173749999.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
+<!-- Copy Citation Button -->
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
+</button>
+</div>
+<!-- Hidden Citation Text -->
+<p><span id="citation-text" style="display: none;">Gayathri, G., &amp; Bastian, D. (2025). Genetic Variability and Diversity Analysis in Sesame (<em>Sesamum indicum</em> L.). Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15726530</span></p>
+<!-- JavaScript -->
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+<!-- CSS Styling -->
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Sesame (<em>Sesamum indicum</em> L., 2n=2x=26) represents one of humanity’s most ancient cultivated oilseed crops, with archaeological evidence suggesting its cultivation dates back over 4,000 years <span class="citation" data-cites="bedigian2015systematics">(<a href="#ref-bedigian2015systematics" role="doc-biblioref">Bedigian 2015</a>)</span>. Known by various vernacular names including Gingelly, Ellu in Malayalam, and Tila in Sanskrit, this crop holds profound cultural and religious significance, particularly in Indian traditions where sesame seeds feature prominently in Hindu religious ceremonies <span class="citation" data-cites="wei2015genetic">(<a href="#ref-wei2015genetic" role="doc-biblioref">Wei et al. 2015</a>)</span>. The ancient Sanskrit etymology supports the hypothesis that sesame may have been the source of the first extracted vegetable oil, underlining its historical importance in human nutrition <span class="citation" data-cites="pathak2014value">(<a href="#ref-pathak2014value" role="doc-biblioref">Pathak et al. 2014</a>)</span>. Modern nutritional analysis reveals that sesame seeds contain 50–60% oil of exceptional quality, comparable to olive oil in its nutritional profile <span class="citation" data-cites="uzun2008variation anilakumar2010nutritional">(<a href="#ref-uzun2008variation" role="doc-biblioref">Uzun, Yol, and Furat 2008</a>; <a href="#ref-anilakumar2010nutritional" role="doc-biblioref">Anilakumar et al. 2010</a>)</span>.</p>
+<p>Sesame oil demonstrates remarkable stability compared to other edible oils, primarily attributed to its rich content of natural antioxidants including sesamin, sesaminol, sesamol, sesamolinol, and squalene <span class="citation" data-cites="namiki2007nutraceutical kamaleldin2011sesame">(<a href="#ref-namiki2007nutraceutical" role="doc-biblioref">Namiki 2007</a>; <a href="#ref-kamaleldin2011sesame" role="doc-biblioref">Kamal-Eldin, Moazzami, and Washi 2011</a>)</span>. The oil’s high concentration of polyunsaturated fatty acids, combined with its cholesterol-lowering and blood pressure-reducing properties, has renewed scientific and commercial interest in this ancient crop <span class="citation" data-cites="sankar2006pilot gouveia2014effects dalibalta2020health">(<a href="#ref-sankar2006pilot" role="doc-biblioref">Sankar et al. 2006</a>; <a href="#ref-gouveia2014effects" role="doc-biblioref">Gouveia et al. 2014</a>; <a href="#ref-dalibalta2020health" role="doc-biblioref">Dalibalta, Majdalawieh, and Manjikian 2020</a>)</span>.</p>
+<p>Recent genomic studies have revealed the complex genetic architecture underlying sesame’s agronomic traits, with high-throughput sequencing technologies enabling the identification of quantitative trait loci (QTLs) associated with yield components and stress tolerance <span class="citation" data-cites="zhang2013genetic wang2016genome yu2019pmdbase">(<a href="#ref-zhang2013genetic" role="doc-biblioref">Zhang et al. 2013</a>; <a href="#ref-wang2016genome" role="doc-biblioref">Wang et al. 2016</a>; <a href="#ref-yu2019pmdbase" role="doc-biblioref">Yu et al. 2019</a>)</span>. These advances have opened new avenues for marker-assisted selection and genomic breeding approaches <span class="citation" data-cites="wei2016identification dossa2017transcriptomic">(<a href="#ref-wei2016identification" role="doc-biblioref">Wei et al. 2016</a>; <a href="#ref-dossa2017transcriptomic" role="doc-biblioref">Dossa et al. 2017</a>)</span>.</p>
+<p>Despite its nutritional superiority and agricultural advantages—including drought tolerance, low input requirements, and suitability for crop rotations due to its extensive taproot system <span class="citation" data-cites="ashri2007sesame">(<a href="#ref-ashri2007sesame" role="doc-biblioref">Ashri 2007</a>)</span>—sesame productivity remains disappointingly low. India, while leading globally in both cultivation area (1.8 million hectares) and production (0.87 million tonnes), achieves an average productivity of only 483 kg/ha, significantly below China (1,200 kg/ha) and Turkey (1,100 kg/ha) <span class="citation" data-cites="fao2020faostat yahaya2021genetic">(<a href="#ref-fao2020faostat" role="doc-biblioref">FAO 2020</a>; <a href="#ref-yahaya2021genetic" role="doc-biblioref">Yahaya et al. 2021</a>)</span>.</p>
+</section>
+<section id="materials-and-methods" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="materials-and-methods"><span class="header-section-number">2</span> Materials and methods</h2>
+<p>The experimental material comprised 40 sesame genotypes obtained from four major sources: Kerala Agricultural University (7 varieties), Tamil Nadu Agricultural University (7 varieties), All India Coordinated Research Project on Oilseeds cultures (20 accessions), and National Bureau of Plant Genetic Resources Regional Centre, Vellanikkara (6 accessions).</p>
+<div id="tbl-tbl1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tbl1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: List of sesame genotypes studied
+</figcaption>
+<div aria-describedby="tbl-tbl1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sl. No.</th>
+<th>Genotype</th>
+<th>Source</th>
+<th>Sl. No.</th>
+<th>Genotype</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>KYM-1</td>
+<td>ORARS, Kayamkulam</td>
+<td>21</td>
+<td>AVTS-06-9</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Soma</td>
+<td>ORARS, Kayamkulam</td>
+<td>22</td>
+<td>AVTS-06-10</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Surya</td>
+<td>ORARS, Kayamkulam</td>
+<td>23</td>
+<td>IVTS-06-2</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Tilak</td>
+<td>ORARS, Kayamkulam</td>
+<td>24</td>
+<td>IVTS-06-3</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Tilatara</td>
+<td>ORARS, Kayamkulam</td>
+<td>25</td>
+<td>IVTS-06-6</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Tilarani</td>
+<td>ORARS, Kayamkulam</td>
+<td>26</td>
+<td>IVTS.06.8</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>CO-1</td>
+<td>TNAU, Coimbatore</td>
+<td>27</td>
+<td>IVTS.06.12</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>SVPR-1</td>
+<td>CRS, Srivilliputhur</td>
+<td>28</td>
+<td>IVTS.06.13</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>VRI-1</td>
+<td>RRS, Vridhachalam</td>
+<td>29</td>
+<td>IVTS.06.15</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>VRI-2</td>
+<td>RRS, Vridhachalam</td>
+<td>30</td>
+<td>IVTS.06.16</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>TMV-3</td>
+<td>RRS, Vridhachalam</td>
+<td>31</td>
+<td>IVTS.06.22</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>TMV-4</td>
+<td>RRS, Vridhachalam</td>
+<td>32</td>
+<td>IVTS.06.26</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>TMV-5</td>
+<td>RRS, Vridhachalam</td>
+<td>33</td>
+<td>IVTS.06.27</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>TMV-6</td>
+<td>RRS, Vridhachalam</td>
+<td>34</td>
+<td>IVTS.06.28</td>
+<td>ORARS, Kayamkulam</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>AVTS.06.1</td>
+<td>ORARS, Kayamkulam</td>
+<td>35</td>
+<td>TCR-2511</td>
+<td>NBPGR Regional Station, Vellanikkara</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>AVTS.06.3</td>
+<td>ORARS, Kayamkulam</td>
+<td>36</td>
+<td>TCR-2527-C</td>
+<td>NBPGR Regional Station, Vellanikkara</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>AVTS.06.4</td>
+<td>ORARS, Kayamkulam</td>
+<td>37</td>
+<td>TCR-3279-A</td>
+<td>NBPGR Regional Station, Vellanikkara</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>AVTS.06.5</td>
+<td>ORARS, Kayamkulam</td>
+<td>38</td>
+<td>TCR-3105</td>
+<td>NBPGR Regional Station, Vellanikkara</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>AVTS.06.6</td>
+<td>ORARS, Kayamkulam</td>
+<td>39</td>
+<td>TCR-4865</td>
+<td>NBPGR Regional Station, Vellanikkara</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>AVTS.06.7</td>
+<td>ORARS, Kayamkulam</td>
+<td>40</td>
+<td>YLM-17</td>
+<td>Krishi Bhavan, Alathur</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The experiment was conducted during October 2007 to February 2008 at the Department of Plant Breeding and Genetics, College of Horticulture, Vellanikkara. Seeds were sown in a randomized complete block design with three replications. Plot dimensions maintained a spacing of 45 cm between rows and 20 cm between plants, following standard agronomic practices for the region.Observations were recorded on ten randomly tagged plants per genotype for nine quantitative characters: days to flowering, plant height (cm), number of branches per plant, number of capsules per plant, capsule length (cm), number of locules per capsule, 1000-seed weight (g), seed yield per plant (g), and oil content (%).</p>
+</section>
+<section id="results" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="results"><span class="header-section-number">3</span> Results</h2>
+<p>Analysis of variance in <a href="#tbl-anova-sesame" class="quarto-xref">Table&nbsp;2</a> revealed highly significant differences (P &lt; 0.01) among genotypes for days to flowering, plant height, and number of capsules per plant, indicating substantial genetic variation suitable for breeding programs.</p>
+<div id="tbl-anova-sesame" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-anova-sesame-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Analysis of variance (ANOVA) for yield and related traits in sesame genotypes
+</figcaption>
+<div aria-describedby="tbl-anova-sesame-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 6%">
+<col style="width: 14%">
+<col style="width: 17%">
+<col style="width: 9%">
+<col style="width: 15%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Source</th>
+<th>df</th>
+<th><span class="math inline">\(X_1\)</span></th>
+<th><span class="math inline">\(X_2\)</span></th>
+<th><span class="math inline">\(X_3\)</span></th>
+<th><span class="math inline">\(X_4\)</span></th>
+<th><span class="math inline">\(X_5\)</span></th>
+<th><span class="math inline">\(X_6\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Replication</td>
+<td>2</td>
+<td>1.66</td>
+<td>0.09</td>
+<td>0.19</td>
+<td>20.96*</td>
+<td>0.29</td>
+<td>0.20</td>
+</tr>
+<tr class="even">
+<td>Treatment</td>
+<td>39</td>
+<td>32.34**</td>
+<td>1153.46**</td>
+<td>12.47</td>
+<td>255.09**</td>
+<td>4.31</td>
+<td>3.30</td>
+</tr>
+<tr class="odd">
+<td>Error</td>
+<td>78</td>
+<td>0.45</td>
+<td>0.96</td>
+<td>0.12</td>
+<td>1.43</td>
+<td>0.019</td>
+<td>0.17</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>In <a href="#tbl-anova-sesame" class="quarto-xref">Table&nbsp;2</a>, the traits represented by <span class="math inline">\(X_1\)</span> to <span class="math inline">\(X_6\)</span> are as follows:<br>
+<span class="math inline">\(X_1\)</span> – Days to flowering<br>
+<span class="math inline">\(X_2\)</span> – Plant height (cm)<br>
+<span class="math inline">\(X_3\)</span> – Number of branches per plant<br>
+<span class="math inline">\(X_4\)</span> – Number of capsules per plant<br>
+<span class="math inline">\(X_5\)</span> – Seed yield per plant (g)<br>
+<span class="math inline">\(X_6\)</span> – Oil content (%)</p>
+</blockquote>
+<div id="tbl-variability" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-variability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Genetic parameters for different traits in sesame genotypes
+</figcaption>
+<div aria-describedby="tbl-variability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Character</th>
+<th>Range</th>
+<th>Mean ± SE</th>
+<th>GCV (%)</th>
+<th>PCV (%)</th>
+<th><span class="math inline">\(h^2\)</span> (%)</th>
+<th>GA (%)</th>
+<th>ECV (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(X_1\)</span></td>
+<td>18.73 – 34.80</td>
+<td>27.35 ± 0.39</td>
+<td>11.92</td>
+<td>12.17</td>
+<td>95.98</td>
+<td>24.06</td>
+<td>2.44</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_2\)</span></td>
+<td>31.40 – 107.97</td>
+<td>53.44 ± 0.56</td>
+<td>36.68</td>
+<td>36.72</td>
+<td>99.75</td>
+<td>75.46</td>
+<td>1.83</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_3\)</span></td>
+<td>4.27 – 12.13</td>
+<td>5.85 ± 0.20</td>
+<td>34.67</td>
+<td>35.15</td>
+<td>97.28</td>
+<td>70.45</td>
+<td>5.79</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_4\)</span></td>
+<td>9.96 – 50.93</td>
+<td>24.54 ± 0.69</td>
+<td>37.47</td>
+<td>37.78</td>
+<td>98.34</td>
+<td>76.54</td>
+<td>4.87</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_5\)</span></td>
+<td>1.82 – 2.26</td>
+<td>2.01 ± 0.02</td>
+<td>5.15</td>
+<td>5.57</td>
+<td>85.50</td>
+<td>9.82</td>
+<td>2.12</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_6\)</span></td>
+<td>4.00 – 8.00</td>
+<td>4.05 ± 0.00</td>
+<td>7.81</td>
+<td>7.81</td>
+<td>100.00</td>
+<td>16.08</td>
+<td>0.00</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_7\)</span></td>
+<td>3.11 – 3.21</td>
+<td>3.15 ± 0.02</td>
+<td>0.91</td>
+<td>0.97</td>
+<td>88.30</td>
+<td>1.76</td>
+<td>1.04</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_8\)</span></td>
+<td>1.35 – 7.02</td>
+<td>3.47 ± 0.08</td>
+<td>34.48</td>
+<td>34.71</td>
+<td>98.69</td>
+<td>70.56</td>
+<td>3.97</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_9\)</span></td>
+<td>45.53 – 50.17</td>
+<td>48.65 ± 0.24</td>
+<td>2.10</td>
+<td>2.26</td>
+<td>85.87</td>
+<td>4.01</td>
+<td>0.85</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>In <a href="#tbl-variability" class="quarto-xref">Table&nbsp;3</a>, the characters denoted by <span class="math inline">\(X_1\)</span> to <span class="math inline">\(X_9\)</span> are:<br>
+<span class="math inline">\(X_1\)</span> – Days to flowering<br>
+<span class="math inline">\(X_2\)</span> – Plant height (cm)<br>
+<span class="math inline">\(X_3\)</span> – Number of branches per plant<br>
+<span class="math inline">\(X_4\)</span> – Number of capsules per plant<br>
+<span class="math inline">\(X_5\)</span> – Capsule length (cm)<br>
+<span class="math inline">\(X_6\)</span> – Number of locules per capsule<br>
+<span class="math inline">\(X_7\)</span> – 1000-seed weight (g)<br>
+<span class="math inline">\(X_8\)</span> – Seed yield per plant (g)<br>
+<span class="math inline">\(X_9\)</span> – Oil content (%)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Genetic parameters include:<br>
+Genotypic coefficient of variation (GCV), Phenotypic coefficient of variation (PCV), Broad-sense heritability (<span class="math inline">\(h^2\)</span>), Genetic advance as percentage of mean (GA), Environmental coefficient of variation (ECV), and Standard error (SE).</p>
+</blockquote>
+<p>Considerable variation was observed across all studied traits. Days to flowering ranged from 18.73 days (KYM-1) to 34.8 days (Tilarani) with a mean of 27.35 days. Plant height showed extensive variation from 31.40 cm (IVTS-06-12) to 107.97 cm (Soma), averaging 53.44 cm. Seed yield per plant, the most variable trait, ranged from 1.35g (IVTS-06-22) to 7.02g (SVPR-1) with a mean of 3.47g.<br>
+The genetic parameters for the traits studied as a part of the experiment are presented in <a href="#tbl-variability" class="quarto-xref">Table&nbsp;3</a>.</p>
+<p>Number of branches per plant (51.83%) and capsules per plant (43.56%) show the highest variability, indicating excellent prospects for selection and breeding. Low variability in 1000-seed weight (2.95%) suggests this trait is more genetically stable across genotypes.</p>
+<p>All traits exhibited high broad-sense heritability exceeding 85%. The highest heritability was observed for locules per capsule (100%) followed by plant height (99.75%), seed yield per plant (98.69%), and number of capsules per plant (98.34%).</p>
+<p>The significant genetic variation observed across all studied traits provides a robust foundation for sesame breeding programs. High heritability estimates (&gt;85%) for all traits indicate that observed phenotypic variation primarily reflects genetic differences rather than environmental effects, facilitating effective selection strategies <span class="citation" data-cites="allard1960principles kumar2016genetic">(<a href="#ref-allard1960principles" role="doc-biblioref">Allard 1960</a>; <a href="#ref-kumar2016genetic" role="doc-biblioref">H. Kumar and Garg 2016</a>)</span>. The combination of high heritability with high genetic advance for days to flowering, plant height, number of branches per plant, number of capsules per plant, and seed yield per plant suggests predominant additive gene action, making these traits responsive to simple selection methods <span class="citation" data-cites="burton1952quantitative singh2006biometrical">(<a href="#ref-burton1952quantitative" role="doc-biblioref">Burton 1952</a>; <a href="#ref-singh2006biometrical" role="doc-biblioref">A. Singh and Chaudhary 2006</a>)</span>. Genotypic correlation coefficients generally exceeded phenotypic correlations, indicating strong genetic associations among traits. Seed yield per plant showed significant positive correlations with days to flowering (<span class="math inline">\(r = 0.321^{*}\)</span>), plant height (<span class="math inline">\(r = 0.633^{**}\)</span>), number of branches per plant (<span class="math inline">\(r = 0.552^{**}\)</span>), number of capsules per plant (<span class="math inline">\(r = 0.956^{**}\)</span>), locules per capsule (<span class="math inline">\(r = 0.312^{*}\)</span>), and oil content (<span class="math inline">\(r = 0.438^{**}\)</span>).</p>
+<div id="tbl-correlation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-correlation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;4: Genotypic correlation coefficients among traits in sesame genotypes
+</figcaption>
+<div aria-describedby="tbl-correlation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Trait</th>
+<th><span class="math inline">\(X_1\)</span></th>
+<th><span class="math inline">\(X_2\)</span></th>
+<th><span class="math inline">\(X_3\)</span></th>
+<th><span class="math inline">\(X_4\)</span></th>
+<th><span class="math inline">\(X_5\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(X_1\)</span></td>
+<td>1.000</td>
+<td>0.956**</td>
+<td>0.633**</td>
+<td>0.552**</td>
+<td>0.438**</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_2\)</span></td>
+<td>0.956**</td>
+<td>1.000</td>
+<td>0.625**</td>
+<td>0.683**</td>
+<td>0.423**</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_3\)</span></td>
+<td>0.633**</td>
+<td>0.625**</td>
+<td>1.000</td>
+<td>0.582**</td>
+<td>0.491**</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_4\)</span></td>
+<td>0.552**</td>
+<td>0.683**</td>
+<td>0.582**</td>
+<td>1.000</td>
+<td>0.367*</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_5\)</span></td>
+<td>0.438**</td>
+<td>0.423**</td>
+<td>0.491**</td>
+<td>0.367*</td>
+<td>1.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>In <a href="#tbl-correlation" class="quarto-xref">Table&nbsp;4</a>, the traits denoted by <span class="math inline">\(X_1\)</span> to <span class="math inline">\(X_5\)</span> are:<br>
+<span class="math inline">\(X_1\)</span> – Seed yield per plant (g)<br>
+<span class="math inline">\(X_2\)</span> – Number of capsules per plant<br>
+<span class="math inline">\(X_3\)</span> – Plant height (cm)<br>
+<span class="math inline">\(X_4\)</span> – Number of branches per plant<br>
+<span class="math inline">\(X_5\)</span> – Oil content (%) Correlation significance: <em>p</em> &lt; 0.05 (<em>),</em> p* &lt; 0.01 (**)</p>
+</blockquote>
+<p>Number of capsules per plant shows the strongest positive correlation with seed yield (<span class="math inline">\(r = 0.956^{**}\)</span>), making it the most reliable indirect selection criterion. Plant height and branches per plant also show strong positive associations, indicating coordinated plant architecture development. The strong positive correlation between number of capsules per plant and seed yield (<span class="math inline">\(r = 0.956^{**}\)</span>) confirms this trait as the most reliable selection criterion for yield improvement.</p>
+<div id="tbl-path" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-path-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5: Direct and indirect effects of different traits on seed yield in sesame
+</figcaption>
+<div aria-describedby="tbl-path-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Trait</th>
+<th>Direct Effect</th>
+<th><span class="math inline">\(X_1\)</span></th>
+<th><span class="math inline">\(X_2\)</span></th>
+<th><span class="math inline">\(X_3\)</span></th>
+<th><span class="math inline">\(X_4\)</span></th>
+<th><span class="math inline">\(X_5\)</span></th>
+<th><span class="math inline">\(X_6\)</span></th>
+<th><span class="math inline">\(X_7\)</span></th>
+<th>Total Correlation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(X_1\)</span></td>
+<td>-0.108</td>
+<td>–</td>
+<td>-0.016</td>
+<td>-0.070</td>
+<td>0.453</td>
+<td>-0.032</td>
+<td>0.001</td>
+<td>-0.004</td>
+<td>0.321</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_2\)</span></td>
+<td>0.077</td>
+<td>-0.023</td>
+<td>–</td>
+<td>-0.136</td>
+<td>0.698</td>
+<td>0.027</td>
+<td>-0.011</td>
+<td>0.001</td>
+<td>0.633</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_3\)</span></td>
+<td>-0.231</td>
+<td>-0.032</td>
+<td>0.046</td>
+<td>–</td>
+<td>0.769</td>
+<td>0.008</td>
+<td>-0.008</td>
+<td>0.000</td>
+<td>0.552</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_4\)</span></td>
+<td>1.106</td>
+<td>-0.044</td>
+<td>0.049</td>
+<td>-0.160</td>
+<td>–</td>
+<td>0.016</td>
+<td>-0.009</td>
+<td>-0.002</td>
+<td>0.956</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_5\)</span></td>
+<td>0.106</td>
+<td>-0.033</td>
+<td>0.019</td>
+<td>-0.016</td>
+<td>0.169</td>
+<td>–</td>
+<td>-0.004</td>
+<td>-0.002</td>
+<td>0.240</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_6\)</span></td>
+<td>0.022</td>
+<td>-0.069</td>
+<td>-0.004</td>
+<td>0.019</td>
+<td>0.109</td>
+<td>-0.011</td>
+<td>–</td>
+<td>0.004</td>
+<td>0.109</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_7\)</span></td>
+<td>-0.020</td>
+<td>-0.004</td>
+<td>0.041</td>
+<td>-0.093</td>
+<td>0.512</td>
+<td>0.021</td>
+<td>0.054</td>
+<td>–</td>
+<td>0.469</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>In <a href="#tbl-path" class="quarto-xref">Table&nbsp;5</a>, the traits denoted by <span class="math inline">\(X_1\)</span> to <span class="math inline">\(X_7\)</span> are: <span class="math inline">\(X_1\)</span> – Days to flowering<br>
+<span class="math inline">\(X_2\)</span> – Plant height (cm)<br>
+<span class="math inline">\(X_3\)</span> – Number of branches per plant<br>
+<span class="math inline">\(X_4\)</span> – Number of capsules per plant<br>
+<span class="math inline">\(X_5\)</span> – Capsule length (cm)<br>
+<span class="math inline">\(X_6\)</span> – 1000-seed weight (g)<br>
+<span class="math inline">\(X_7\)</span> – Oil content (%)</p>
+</blockquote>
+<p>Path analysis as depicted in <a href="#tbl-path" class="quarto-xref">Table&nbsp;5</a> revealed that number of capsules per plant exerted the highest positive direct effect (1.106) on seed yield per plant, followed by capsule length (0.106), plant height (0.077), and 1000-seed weight (0.022). Conversely, number of branches per plant showed the highest negative direct effect (-0.231), followed by days to flowering (-0.108) and oil content (-0.020). The residual effect was 0.203, indicating that approximately 80% of variation in seed yield was explained by the studied traits. The negative direct effect of branches per plant (<span class="math inline">\(-0.231\)</span>) despite positive correlation suggests indirect benefits through increased capsule production. Plant height contributes mainly through indirect effects via capsule production. The analysis explains 79.66% of yield variation, indicating good model adequacy.</p>
+<section id="genetic-divergence-analysis" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="genetic-divergence-analysis"><span class="header-section-number">3.1</span> Genetic divergence analysis</h3>
+<p>Mahalanobis <span class="math inline">\(D^2\)</span> analysis revealed that plant height contributed maximum to total divergence (69.74%), followed by days to flowering (7.56%) and seed yield per plant (6.67%). This indicates plant height as the primary discriminating factor among genotypes.</p>
+<p>Plant height is the major contributor to genetic divergence among sesame genotypes, followed by flowering time and seed yield components as depicted in <a href="#fig-pie1" class="quarto-xref">Figure&nbsp;1</a>.</p>
+<div id="fig-pie1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pie1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/gayathirImages/fig9.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pie1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Contribution of traits to total genetic divergence
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="cluster-analysis" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="cluster-analysis"><span class="header-section-number">3.2</span> Cluster analysis</h3>
+<p>The 40 genotypes were grouped into six distinct clusters. Cluster I was the largest with 30 genotypes, while Clusters III, IV, V, and VI each contained single genotypes. Maximum inter-cluster distance was observed between Clusters III and IV (<span class="math inline">\(D^2\)</span> = 75.04), indicating maximum genetic divergence between these groups.</p>
+<div id="tbl-cluster" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cluster-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6: Cluster distribution of sesame genotypes based on Mahalanobis <span class="math inline">\(D^2\)</span> analysis
+</figcaption>
+<div aria-describedby="tbl-cluster-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 69%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Cluster</th>
+<th style="text-align: center;">Genotypes</th>
+<th>Total Number of Genotypes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>I</td>
+<td style="text-align: center;">IVTS-06-2, IVTS-06-3, YLM-17, AVTS-06-6, TCR-4865, TCR-3105, VRI-2, IVTS-06-16, IVTS-06-8, AVTS-06-10, TCR-2527-C, IVTS-06-15, AVTS-06-5, AVTS-06-4, IVTS-06-6, AVTS-06-3, AVTS-06-7, AVTS-06-1, AVTS-06-1, IVTS-06-28, IVTS-06-27, IVTS-06-13, TCR-2511, IVTS-06-12, TCR-3279-A, TMV-4, TMV-5, IVTS-06-26, TMV-6, VRI-1</td>
+<td>30</td>
+</tr>
+<tr class="even">
+<td>II</td>
+<td style="text-align: center;">Tilatara, CO-1, Tilak, Tilarani, TMV-3, Surya</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>III</td>
+<td style="text-align: center;">IVTS-06-22</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>IV</td>
+<td style="text-align: center;">Soma</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>V</td>
+<td style="text-align: center;">SVPR-1</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>VI</td>
+<td style="text-align: center;">KYM-1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Cluster means revealed distinct patterns across groups which are represented in <a href="#tbl-clustermeans" class="quarto-xref">Table&nbsp;7</a> Cluster VI (KYM-1) showed the earliest flowering (18.73 days) and highest oil content (50.17%), while Cluster IV (Soma) exhibited the tallest plants (107.97 cm) and maximum branches per plant (10.80). Cluster V (SVPR-1) demonstrated the highest seed yield per plant (7.02g).</p>
+<div id="tbl-clustermeans" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-clustermeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;7: Cluster means for yield and related traits in sesame based on Mahalanobis D² analysis
+</figcaption>
+<div aria-describedby="tbl-clustermeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Character</th>
+<th>Cluster I</th>
+<th>Cluster II</th>
+<th>Cluster III</th>
+<th>Cluster IV</th>
+<th>Cluster V</th>
+<th>Cluster VI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Days to flowering</td>
+<td>27.17</td>
+<td>30.77</td>
+<td>21.41</td>
+<td>25.73</td>
+<td>28.13</td>
+<td>18.73</td>
+</tr>
+<tr class="even">
+<td>Plant height (cm)</td>
+<td>44.13</td>
+<td>81.58</td>
+<td>61.33</td>
+<td>107.97</td>
+<td>59.30</td>
+<td>95.60</td>
+</tr>
+<tr class="odd">
+<td>Branches per plant</td>
+<td>5.20</td>
+<td>8.39</td>
+<td>7.34</td>
+<td>10.80</td>
+<td>4.73</td>
+<td>5.00</td>
+</tr>
+<tr class="even">
+<td>Capsules per plant</td>
+<td>21.42</td>
+<td>36.07</td>
+<td>9.96</td>
+<td>41.20</td>
+<td>45.43</td>
+<td>26.07</td>
+</tr>
+<tr class="odd">
+<td>Seed yield per plant (g)</td>
+<td>3.07</td>
+<td>4.59</td>
+<td>1.36</td>
+<td>5.77</td>
+<td>7.02</td>
+<td>4.79</td>
+</tr>
+<tr class="even">
+<td>Oil content (%)</td>
+<td>48.35</td>
+<td>49.54</td>
+<td>49.33</td>
+<td>49.23</td>
+<td>49.53</td>
+<td>50.17</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The clustering of genotypes from the same geographical origin into different groups confirms that genetic drift and selection pressure can create greater diversity than geographical separation (<span class="citation" data-cites="pandey2015morphological">Pandey et al. (<a href="#ref-pandey2015morphological" role="doc-biblioref">2015</a>)</span>; <span class="citation" data-cites="singh2020genetic">S. Singh et al. (<a href="#ref-singh2020genetic" role="doc-biblioref">2020</a>)</span>). This finding has important implications for breeding programs, suggesting that local germplasm may harbor unexploited genetic diversity.</p>
+<p>Cluster V (SVPR-1) shows highest yield potential, Cluster IV (Soma) exhibits superior plant architecture, and Cluster VI (KYM-1) offers early maturity with high oil content. Strategic crosses between distant clusters (III × IV) could maximize genetic variation in breeding populations.</p>
+<p>Recent molecular diversity studies using SNP markers have corroborated these findings. <span class="citation" data-cites="wang2016genome">Wang et al. (<a href="#ref-wang2016genome" role="doc-biblioref">2016</a>)</span> analyzed 705 sesame accessions using genome-wide SNPs and found similar clustering patterns, with genetic diversity being more strongly associated with breeding history than geographical origin. The maximum divergence between Clusters III and IV (<span class="math inline">\(D^2 = 75.04\)</span>) in our study corresponds to regions of low genetic similarity identified in genomic studies <span class="citation" data-cites="dossa2017transcriptomic">(<a href="#ref-dossa2017transcriptomic" role="doc-biblioref">Dossa et al. 2017</a>)</span>.</p>
+<p>Based on comprehensive evaluation, several genotypes emerged as superior performers across multiple traits as depicted <a href="#fig-bar1" class="quarto-xref">Figure&nbsp;2</a>. SVPR-1 demonstrated the highest seed yield (7.02 g/plant), while KYM-1 showed the earliest flowering and highest oil content. Soma exhibited exceptional plant architecture with maximum height and branching.</p>
+<div id="fig-bar1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bar1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/gayathirImages/fig8.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bar1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Performance of elite genotypes for seed yield,oil content and capsules per plant
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="discussion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="discussion">Discussion</h2>
+<p>The combination of high heritability with high genetic advance for days to flowering, plant height, number of branches per plant, number of capsules per plant, and seed yield per plant suggests predominant additive gene action, making these traits responsive to simple selection methods <span class="citation" data-cites="burton1952quantitative singh2006biometrical">(<a href="#ref-burton1952quantitative" role="doc-biblioref">Burton 1952</a>; <a href="#ref-singh2006biometrical" role="doc-biblioref">A. Singh and Chaudhary 2006</a>)</span>. These findings align with recent reports by <span class="citation" data-cites="gangwar2021genetic">Gangwar et al. (<a href="#ref-gangwar2021genetic" role="doc-biblioref">2021</a>)</span>, <span class="citation" data-cites="ahmad2020genetic">Ahmad et al. (<a href="#ref-ahmad2020genetic" role="doc-biblioref">2020</a>)</span>, and <span class="citation" data-cites="yahaya2021genetic">Yahaya et al. (<a href="#ref-yahaya2021genetic" role="doc-biblioref">2021</a>)</span>, who observed similar patterns in diverse sesame germplasm collections.</p>
+<p>The strong positive correlation between number of capsules per plant and seed yield (<span class="math inline">\(r = 0.9558^{**}\)</span>) confirms this trait as the most reliable selection criterion for yield improvement. Path analysis further substantiated this relationship by revealing the highest direct effect (1.1063) of capsule number on seed yield. Similar findings have been reported in recent studies by <span class="citation" data-cites="kumar2019genetic">R. Kumar et al. (<a href="#ref-kumar2019genetic" role="doc-biblioref">2019</a>)</span>, <span class="citation" data-cites="gangwar2021genetic">Gangwar et al. (<a href="#ref-gangwar2021genetic" role="doc-biblioref">2021</a>)</span>, and <span class="citation" data-cites="ahmad2020genetic">Ahmad et al. (<a href="#ref-ahmad2020genetic" role="doc-biblioref">2020</a>)</span>. The characters plant height, branches per plant, capsules per plant, and oil content showed significant and positive association with seed yield per plant. Therefore, simultaneous improvement of seed yield may be possible through selection of these characters. These matched the reports and conclusions of <span class="citation" data-cites="kumar2022genetic">V. Kumar et al. (<a href="#ref-kumar2022genetic" role="doc-biblioref">2022</a>)</span> and <span class="citation" data-cites="patel2023genetic">Patel et al. (<a href="#ref-patel2023genetic" role="doc-biblioref">2023</a>)</span>.</p>
+<p>Modern breeding programs increasingly utilize these correlation patterns in genomic prediction models. <span class="citation" data-cites="zhang2013genetic">Zhang et al. (<a href="#ref-zhang2013genetic" role="doc-biblioref">2013</a>)</span> demonstrated that incorporating trait correlations into genomic selection algorithms improved prediction accuracy for seed yield by 25% compared to single-trait models. The strong genetic correlations observed in our study suggest that multi-trait selection indices could be particularly effective in sesame breeding <span class="citation" data-cites="yu2019pmdbase">(<a href="#ref-yu2019pmdbase" role="doc-biblioref">Yu et al. 2019</a>)</span>.</p>
+<p><span class="citation" data-cites="murthy1996">Murthy and Kulkarni (<a href="#ref-murthy1996" role="doc-biblioref">1996</a>)</span> explained that wide adaptability of divergent types could be possible due to factors such as heterogeneity, genetic architecture of the populations, past history of selection, developmental factors, and degree of general combining ability. In the present study, varieties developed at the same location were found to be grouped in different clusters, indicating more divergence. For example, sesame varieties from Kerala Agricultural University were found to be grouped in Clusters II, IV, and VI. This confirms the earlier findings of <span class="citation" data-cites="raut1991">Raut et al. (<a href="#ref-raut1991" role="doc-biblioref">1991</a>)</span> that genetic drift and human selection could cause greater diversity than geographical spacing.</p>
+<p><span class="citation" data-cites="angadi1976">Angadi (<a href="#ref-angadi1976" role="doc-biblioref">1976</a>)</span> reported that varieties in a cluster with a high order of divergence among themselves would be the best breeding materials for achieving maximum genetic advance with regard to yield. Selection within a cluster might also be exercised based on the highest mean performance of the varieties for desirable traits such as seed yield.</p>
+</section>
+<section id="conclusion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>This comprehensive genetic analysis of 40 sesame genotypes revealed substantial genetic variability suitable for breeding programs. High heritability estimates coupled with significant genetic advance indicate favorable prospects for genetic improvement through selection. Number of capsules per plant emerged as the most critical trait for yield improvement, while genetic divergence analysis identified optimal parent combinations for hybridization programs.</p>
+<p>The identification of genetically divergent clusters provides a scientific basis for systematic breeding approaches. Integration of conventional breeding with molecular markers and genomic selection offers promising avenues for accelerating genetic gains. Future breeding efforts should prioritize crosses between genotypes from distant clusters while maintaining focus on high-performing individuals within clusters.</p>
+<p>The superior genotypes identified in this study (SVPR-1, Soma, KYM-1, and Tilatara) represent valuable genetic resources for developing climate-resilient varieties with enhanced yield potential and oil quality. This research establishes a foundation for modern sesame breeding programs, contributing to the revival of this ancient yet underutilized crop in the context of sustainable agriculture and food security.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Acknowledgments">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Acknowledgments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The authors acknowledge the support provided by Kerala Agricultural University, Tamil Nadu Agricultural University, and National Bureau of Plant Genetic Resources for providing the genetic material. Special thanks to the technical staff at the Department of Plant Breeding and Genetics, College of Horticulture, Vellanikkara for field assistance.</p>
+<p>AI tools have been used to generate diagrams and paraphrase the sentences.</p>
+<p>The authors declare no conflict of interest.</p>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<!-- References will be rendered here -->
+<div id="ref-ahmad2020genetic" class="csl-entry" role="listitem">
+Ahmad, R., T. A. Malik, R. Minhas, M. Ashraf, and S. Ahmad. 2020. <span>“Genetic Diversity and Trait Association Analysis in Sesame (Sesamum Indicum l.) Genotypes.”</span> <em>Genetic Resources and Crop Evolution</em> 67 (6): 1513–26.
+</div>
+<div id="ref-allard1960principles" class="csl-entry" role="listitem">
+Allard, R. W. 1960. <em>Principles of Plant Breeding</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-angadi1976" class="csl-entry" role="listitem">
+Angadi, S. P. 1976. <span>“Correlation Studies and d<sup>2</sup> Analysis in Cowpea (Vigna Sinensis l. Savi).”</span> M.Sc.(Ag.) thesis, Coimbatore: Tamil Nadu Agricultural University.
+</div>
+<div id="ref-anilakumar2010nutritional" class="csl-entry" role="listitem">
+Anilakumar, K. R., A. Pal, F. Khanum, and A. S. Bawa. 2010. <span>“Nutritional, Medicinal and Industrial Uses of Sesame (Sesamum Indicum l.) Seeds - an Overview.”</span> <em>Agriculturae Conspectus Scientificus</em> 75 (4): 159–68.
+</div>
+<div id="ref-ashri2007sesame" class="csl-entry" role="listitem">
+Ashri, A. 2007. <span>“Sesame Breeding Objectives and Approaches.”</span> In <em>Oil Crops</em>, 267–89. Springer.
+</div>
+<div id="ref-bedigian2015systematics" class="csl-entry" role="listitem">
+Bedigian, D. 2015. <span>“Systematics and Evolution in Sesamum l. (Pedaliaceae), Part 1: Evidence Regarding the Origin of Sesame and Its Closest Relatives.”</span> <em>WebMed Central Plus</em>.
+</div>
+<div id="ref-burton1952quantitative" class="csl-entry" role="listitem">
+Burton, G. W. 1952. <span>“Quantitative Inheritance in Grasses.”</span> In <em>Proceedings of the 6th International Grassland Congress</em>, 1:277–83.
+</div>
+<div id="ref-dalibalta2020health" class="csl-entry" role="listitem">
+Dalibalta, S., A. Majdalawieh, and H. Manjikian. 2020. <span>“Health Benefits of Sesame Oil: A Narrative Review.”</span> <em>Journal of Applied Pharmaceutical Science</em> 10 (1): 131–38.
+</div>
+<div id="ref-dossa2017transcriptomic" class="csl-entry" role="listitem">
+Dossa, K., D. Li, L. Wang, X. Zheng, A. Liu, J. Yu, X. Wei, et al. 2017. <span>“Transcriptomic, Biochemical and Physio-Anatomical Investigations Shed More Light on Responses to Drought Stress in Sesame (Sesamum Indicum l.).”</span> <em>BMC Genomics</em> 18 (1): 930.
+</div>
+<div id="ref-fao2020faostat" class="csl-entry" role="listitem">
+FAO. 2020. <span>“FAOSTAT Database.”</span> <a href="http://www.fao.org/faostat/en/" class="uri">http://www.fao.org/faostat/en/</a>.
+</div>
+<div id="ref-gangwar2021genetic" class="csl-entry" role="listitem">
+Gangwar, C., M. K. Ghodke, I. M. Shaikh, N. D. Bangar, and R. W. Bharud. 2021. <span>“Genetic Variability, Heritability, Genetic Advance and Correlation Studies in Sesame (Sesamum Indicum l.).”</span> <em>Journal of Pharmacognosy and Phytochemistry</em> 10 (1): 1936–41.
+</div>
+<div id="ref-gouveia2014effects" class="csl-entry" role="listitem">
+Gouveia, L. A. V., C. A. Cardoso, G. M. M. de Oliveira, G. Rosa, and A. S. B. Moreira. 2014. <span>“Effects of the Intake of Sesame Seeds (Sesamum Indicum l.) and Derivatives on Oxidative Stress: A Systematic Review.”</span> <em>Journal of Medicinal Food</em> 17 (4): 401–14.
+</div>
+<div id="ref-kamaleldin2011sesame" class="csl-entry" role="listitem">
+Kamal-Eldin, A., A. Moazzami, and S. Washi. 2011. <span>“Sesame Seed Lignans: Potent Physiological Modulators and Possible Ingredients in Functional Foods &amp; Nutraceuticals.”</span> <em>Recent Patents on Food, Nutrition &amp; Agriculture</em> 3 (1): 17–29.
+</div>
+<div id="ref-kumar2016genetic" class="csl-entry" role="listitem">
+Kumar, H., and R. Garg. 2016. <span>“Genetic Diversity Analysis of Sesame (Sesamum Indicum l.) Germplasm Using RAPD Markers.”</span> <em>Indian Journal of Biotechnology</em> 15 (2): 204–9.
+</div>
+<div id="ref-kumar2019genetic" class="csl-entry" role="listitem">
+Kumar, R., A. Pandey, S. Surrendran, and R. S. Nadgauda. 2019. <span>“Genetic Variability and Character Association for Yield and Quality Traits in Sesame (Sesamum Indicum l.).”</span> <em>Electronic Journal of Plant Breeding</em> 10 (4): 1692–99.
+</div>
+<div id="ref-kumar2022genetic" class="csl-entry" role="listitem">
+Kumar, V., S. Sinha, S. Satyendra Sinha, R. S. Singh, and S. N. Singh. 2022. <span>“Assessment of Genetic Variability, Correlation and Path Analysis in Sesame (*Sesamum Indicum* l.).”</span> <em>Electronic Journal of Plant Breeding</em> 13 (1): 208–15.
+</div>
+<div id="ref-murthy1996" class="csl-entry" role="listitem">
+Murthy, N., and R. S. Kulkarni. 1996. <span>“Heterosis in Relation to Combining Ability in Rice.”</span> <em>Oryza</em> 33: 153–56.
+</div>
+<div id="ref-namiki2007nutraceutical" class="csl-entry" role="listitem">
+Namiki, M. 2007. <span>“Nutraceutical Functions of Sesame: A Review.”</span> <em>Critical Reviews in Food Science and Nutrition</em> 47 (7): 651–73.
+</div>
+<div id="ref-pandey2015morphological" class="csl-entry" role="listitem">
+Pandey, S. K., A. Das, P. Rai, and T. Dasgupta. 2015. <span>“Morphological and Genetic Diversity Assessment of Sesame (Sesamum Indicum l.) Accessions Differing in Origin.”</span> <em>Physiology and Molecular Biology of Plants</em> 21 (4): 519–29.
+</div>
+<div id="ref-patel2023genetic" class="csl-entry" role="listitem">
+Patel, N. B., R. R. Acharya, S. M. Macwana, P. Halladakeri, A. Parihar, and D. J. Parmar. 2023. <span>“Genetic Variability, Correlation and Path Analysis for Seed Yield and Yield Contributing Traits in Sesame (*Sesamum Indicum* l.) Germplasm.”</span> <em>The Pharma Innovation Journal</em> 12 (2): 3781–86.
+</div>
+<div id="ref-pathak2014value" class="csl-entry" role="listitem">
+Pathak, N., A. K. Rai, R. Kumari, and K. V. Bhat. 2014. <span>“Value Addition in Sesame: A Perspective on Bioactive Components for Enhancing Utility and Profitability.”</span> <em>Pharmacognosy Reviews</em> 8 (16): 147–55.
+</div>
+<div id="ref-raut1991" class="csl-entry" role="listitem">
+Raut, S. K., P. W. Khorgade, M. N. Bolke, and R. W. Ingle. 1991. <span>“Studies in Genetic Variability in Sesame.”</span> <em>Agricultural Science Digest</em> 11 (2): 75–76.
+</div>
+<div id="ref-sankar2006pilot" class="csl-entry" role="listitem">
+Sankar, D., M. R. Rao, G. Sambandam, and K. V. Pugalendi. 2006. <span>“A Pilot Study of Open Label Sesame Oil in Hypertensive Diabetics.”</span> <em>Journal of Nutritional Biochemistry</em> 17 (4): 279–83.
+</div>
+<div id="ref-singh2006biometrical" class="csl-entry" role="listitem">
+Singh, A., and B. R. Chaudhary. 2006. <em>Biometrical Methods in Quantitative Genetic Analysis</em>. Kalyani Publishers.
+</div>
+<div id="ref-singh2020genetic" class="csl-entry" role="listitem">
+Singh, S., A. Kumar, G. Chand, L. Prasad, and P. Kumar. 2020. <span>“Genetic Diversity Analysis of Sesame (Sesamum Indicum l.) Genotypes Using Morphological and Molecular Markers.”</span> <em>Journal of Applied and Natural Science</em> 12 (4): 600–607.
+</div>
+<div id="ref-uzun2008variation" class="csl-entry" role="listitem">
+Uzun, B., E. Yol, and S. Furat. 2008. <span>“Variation in Fatty Acid Compositions, Oil Content and Oil Yield in a Germplasm Collection of Sesame (Sesamum Indicum l.).”</span> <em>Journal of the American Oil Chemists’ Society</em> 85 (12): 1135–42.
+</div>
+<div id="ref-wang2016genome" class="csl-entry" role="listitem">
+Wang, L., S. Yu, C. Tong, Y. Zhao, Y. Liu, C. Song, Y. Zhang, et al. 2016. <span>“Genome Sequencing of the High Oil Crop Sesame Provides Insight into Oil Biosynthesis.”</span> <em>Genome Biology</em> 17: 144.
+</div>
+<div id="ref-wei2015genetic" class="csl-entry" role="listitem">
+Wei, X., K. Liu, Y. Zhang, Q. Feng, L. Wang, Y. Zhao, D. Li, et al. 2015. <span>“Genetic Discovery for Oil Production and Quality in Sesame.”</span> <em>Nature Communications</em> 6: 8609.
+</div>
+<div id="ref-wei2016identification" class="csl-entry" role="listitem">
+Wei, X., X. Zhu, J. Yu, L. Wang, Y. Zhang, D. Li, R. Zhou, and X. Zhang. 2016. <span>“Identification of Sesame Genomic Variations from Genome Comparison of Landrace and Variety.”</span> <em>Frontiers in Plant Science</em> 7: 1169.
+</div>
+<div id="ref-yahaya2021genetic" class="csl-entry" role="listitem">
+Yahaya, M. A., H. Shimelis, M. Laing, I. Mathew, and A. Shayanowako. 2021. <span>“Genetic Diversity and Population Structure of Sesame (Sesamum Indicum l.) Genotypes Using DArT-Seq Markers.”</span> <em>PLoS ONE</em> 16 (2): e0245306.
+</div>
+<div id="ref-yu2019pmdbase" class="csl-entry" role="listitem">
+Yu, J., K. Dossa, L. Wang, Y. Zhang, X. Wei, B. Liao, and X. Zhang. 2019. <span>“PMDBase: A Database for Studying microRNA Targeting and Function in Plants.”</span> <em>Nucleic Acids Research</em> 47 (D1): D1027–34.
+</div>
+<div id="ref-zhang2013genetic" class="csl-entry" role="listitem">
+Zhang, Y. X., X. R. Zhang, Z. Che, L. H. Wang, W. L. Wei, and D. H. Li. 2013. <span>“Genetic Diversity Assessment of Sesame Core Collection in China by Phenotype and Molecular Markers and Extraction of a Mini-Core Collection.”</span> <em>BMC Genetics</em> 14: 102.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>15 June 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>24 June 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>24 June 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<em>Anonymous</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<strong>Dr.&nbsp;Lovely B.</strong><br>
+<em>Department of Plant Breeding &amp; Genetics</em><br>
+<em>College of Agriculture, Vellayani</em><br>
+<em>Kerala Agricultural University</em></p></li>
+</ul>
+</div>
+</div>
+<section id="section" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section"></h3>
+
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.jostapubs\.com\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Published by PAPAYA publishing <a href="https://www.statoberry.com/papaya"><img src="../..\images/papayalogo.png" class="img-fluid" style="width: auto; height: 25px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="https://www.statoberry.com/papaya"><img src="../..\images/Josta.png" class="img-fluid" style="height: 90px;"></a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Licenced under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a> <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="../..\images/cclogo.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a> Built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

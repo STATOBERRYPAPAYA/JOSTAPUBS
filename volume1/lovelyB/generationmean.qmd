@@ -33,10 +33,10 @@ keywords: [vegetable cowpea, non-allelic interaction, duplicate and complementar
 bibliography: lovelybiblio.bib
 date: 2025-06-17
 path: "volume1/lovelyB/generationmean.html"
-categories: [ Orignal-Article,Plant-Science, Crops]
+categories: [ Orignal-Article,Plant-Science, Crops,Genetics]
 status: Published (Online)
 doi: 10.5281/zenodo.15684703 
----  
+---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15684703.svg)](https://doi.org/10.5281/zenodo.15684703) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
 
@@ -419,18 +419,15 @@ The RAISINS [@mohammed2025raisins] online statistical analysis platform was exte
 - *Accepted:* 17 June 2025\
 - *Published (Online):* 17 June 2025
 
-**Reviewer Information**\  
+**Reviewer Information** 
 
 *Reviewer 1*:\
-Anonymous\  
+Anonymous 
 
 *Reviewer 2*:
 
-**Dr.Gayathri G.**  
-Assistant Professor\  
-Plant Breeding & Genetics
-Kerala Agricultural University
-:::  
+**Dr.Gayathri G.**\
+Assistant Professor  Plant Breeding & Genetics Kerala Agricultural University
+:::
 
-###  {.unnumbered}  
-
+###  {.unnumbered}

@@ -1,0 +1,395 @@
+---
+title: "Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra"
+author:  
+  - name: Krishna Vikram
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Department of Agronomy  
+        address: College of Agriculture, Vellayani
+        city: Trivandrum
+        country: India
+        postal-code: 695522
+    email: krishnavikram1996@gmail.com
+    
+  - name: Atul Jayapal*
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Department of Agronomy  
+        address: College of Agriculture, Vellayani
+        city: Trivandrum
+        country: India
+        postal-code: 695522
+    email: atul.j@kau.in
+    url: https://coavellayani.kau.in/people/atul-jayapal-dr-0
+    note: Corresponding author
+
+  - name: Shalini Pillai
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Department of Agronomy  
+        address: College of Agriculture, Vellayani
+        city: Trivandrum
+        country: India
+        postal-code: 695522
+    url: https://kau.in/people/shalini-pillai-p-dr
+    email: shalini.pillai@kau.in
+
+  - name: Sheeba Rebecca Isaac
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Department of Agronomy  
+        address: College of Agriculture, Vellayani
+        city: Trivandrum
+        country: India
+        postal-code: 695522
+    url: https://rarskum.kau.in/people/dr-sheeba-rebecca-isaac
+    email: sheeba.issac@kau.in
+
+  - name: Mini V
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Department of Soil Science and Agricultural Chemistry
+        address:  Onattukara Regional Agricultural Research Station 
+        city: Kayamkulam
+        country: India
+        postal-code: 695522
+    url: https://kau.in/people/dr-mini-v
+    email: mini.vilas@kau.in
+
+abstract: |
+  The beneficial role of biochar in improving soil fertility is well known, but the optimal application rate in sandy loam soils remains unclear. To address this gap, a field experiment was conducted in 2023 on the coastal sandy loam soils of Kayamkulam, Kerala, to assess the impact of different biochar rates on okra yield, nutrient uptake, and soil fertility. The study followed a randomized block design with nine treatments: various combinations of biochar (5 and 10 t ha$^{-1}$), farmyard manure (5 and 20 t ha$^{-1}$), and two nutrient levels (75% and 100% RDF). Results revealed that the application of biochar at 10 t ha$^{-1}$ along with the recommended nutrient dose (110:35:70 kg N:P$_2$O$_5$:K$_2$O ha$^{-1}$) significantly improved okra yield and nutrient uptake while enhancing soil fertility. The findings highlight the potential of biochar as a soil conditioner and underscore the importance of application rate for achieving optimal benefits.  
+   
+keywords: [biochar,okra,nutrient uptake, soil fertility, coastal sandy loam, Kerala]  
+bibliography: atulbiblio.bib
+path: "volume1/AGRON/JOSTA615202501736.html"
+categories: [Orignal-Article,Plant-Science, Crops,Agronomy]
+status: Published (Online)
+date: 2025-06-20
+doi: 10.5281/zenodo.15706907 
+---
+
+[[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15706907.svg)](https://doi.org/10.5281/zenodo.15706907) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
+
+::: {style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;"}
+<!-- Download PDF Button -->
+
+<a href="pdf/JOSTA615202501736.pdf" download class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a>
+
+<!-- Copy Citation Button -->
+
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+
+📋 Copy Citation [Citation copied!]{#tooltip}
+
+</button>
+:::
+
+<!-- Hidden Citation Text -->
+
+[Vikram, K., Jayapal, A., Pillai, S., Isaac, S. R., & Mini V. (2025). Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15706907]{#citation-text style="display: none;"}
+
+<!-- JavaScript -->
+
+```{=html}
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+```
+
+<!-- CSS Styling -->
+
+```{=html}
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+```
+
+## Introduction
+
+In India, the agricultural waste generated by crops is significantly higher than in many other countries. Due to the lack of suitable technologies for effective disposal, farmers often resort to burning the crop residues as a quick and convenient method to clear fields. According to @singh2014, about 43% of the total crop stubbles produced in India is burnt in-situ, contributing substantially to air pollution. One promising solution to mitigate the environmental impact of crop residue burning is the conversion of crop residues into biochar, a carbon rich material produced through pyrolysis. @punnoose2015article has reported that biomass possesses several beneficial physical properties including low bulk density, high porosity, and higher water holding capacity. When applied to soil, these properties make biochar, an effective soil conditioner, enhancing both water and nutrient retention in soil and improves the crop yield. In Kerala, tender coconut husk is a prominent form of agricultural waste which requires efficient and ecofriendly disposal methods. Although, a portion of this agricultural waste is currently utilized through composting or as mulch in coconut gardens, these practices are insufficient relative to the large volume of waste produced. The dried tender coconut husk holds significant potential for conversion into biochar, which can then be recycled back into agricultural use to boost soil productivity. The Onattukara tract spread over three districts of Kerala (Alappuzha, Kollam and Pathanamthitta) presents a unique challenge due to its coarse textured, sandy loam soils with inherently low nutrient status. This type of soil is prone to nutrient leaching, especially during rainfall, rendering the applied fertilizers as less effective. Given biochar’s ability to improve soil moisture retention and reduce nutrient leaching, it represents a promising amendment for such type of soils. Therefore, a study was conducted to evaluate the potential of tender coconut husk biochar as a soil conditioner for okra cultivation in the sandy loam soils of Onattukara region.
+
+## Materials and methods
+
+A field experiment was conducted during the summer of 2023 in the wetlands of the Instructional Farm attached to Onattukara Regional Agricultural Research Station, Kayamkulam, Kerala. The research station is situated at 9.177° North latitude and 76.517° East longitude and at an altitude of 3.05 m above mean sea level. The treatments were laid out in randomized block design comprising of eight treatment combinations of biochar along with two levels of recommended dose of nutrients for okra along with a control and were replicated thrice. The treatments were t1 (biochar \@ $5\ \text{t ha}^{-1}$ + 100% RDF)[^1], t2 (biochar \@ $10\ \text{t ha}^{-1}$ + 100% RDF), t3 (biochar \@ $5\ \text{t ha}^{-1}$ + $5\ \text{t ha}^{-1}$ FYM + 100% RDF)[^2], t4 (biochar \@ $10\ \text{t ha}^{-1}$ + $5\ \text{t ha}^{-1}$ FYM + 100% RDF), t5 (biochar \@ $5\ \text{t ha}^{-1}$ + 75% RDF), t6 (biochar \@ $10\ \text{t ha}^{-1}$ + 75% RDF), t7 (biochar \@ $5\ \text{t ha}^{-1}$ + $5\ \text{t ha}^{-1}$ FYM + 75% RDF), t8 (biochar \@ $10\ \text{t ha}^{-1}$ + $5\ \text{t ha}^{-1}$ FYM + 75% RDF), and t9 (@kau2016-$20\ \text{t ha}^{-1}$ FYM + 100% RDF).
+
+[^1]: RDF=Recommended Dose of Fertilizer
+
+[^2]: FYM=Farm Yard Manure
+
+Prior to sowing, the experimental area was cleared of stubbles and clods were broken thoroughly. Dolomite was applied uniformly at the rate of 1 t ha$^{-1}$ and was incorporated in soil during primary tillage. The field was laid out as per the treatment design. After the layout, biochar and farmyard manure, along with half N, full P and full K of chemical fertilizers were applied in soil as per the treatments just before sowing. The remaining N was given in soil at one month after sowing along with intercultural operations and earthing up. The seeds of okra var. Arka Anamika were sown in lines in the main field at a spacing of 60 cm × 30 cm. The crop was sown during the last week of January 2023. After sowing, uniform population was maintained by thinning and gap filling. Five random plants from each net plot were selected and tagged as observational plants for recording observations.
+
+The number of days taken for the first flower to open was noted and the mean was worked out. To find the number of fruits per plant, the fruits obtained from different harvests from each of the five observational plants were recorded separately and the average was worked out. The length of the fruits, from the tip of the fruit to the stalk end, was measured from the observational plants and the average was calculated and expressed in cm. The weight of the fruits harvested from each of the observational plants was recorded after each harvest. After the final harvest, the total weight of fruits obtained from the observational plants at different harvests were worked out, averaged and expressed in kilograms for fruit yield per plant. The weight of fruits from each plot excluding the border plants was recorded after each harvest and summed at the end of the cropping season to compute the yield in terms of kg per plot and was converted into t ha$^{-1}$.
+
+The harvest index was calculated using the following formula suggested by Donald and Hamblin (1976). It was calculated by dividing the economic yield with biological yield of the plant. Sample plants collected from each plot were chopped into small pieces and were sun dried. After the initial drying, the samples were dried in oven to attain constant weight. The samples were then ground to pass through a 0.5 mm mesh and the required quantity of samples were digested and used for nutrient analysis following standard procedures. The nutrient uptake was calculated and expressed in kg ha$^{-1}$ according to @eq-eq1.
+
+$$\text{Nutrient uptake (kg ha}^{-1}\text{)} = \frac{\text{Nutrient content (\%)} \times \text{Dry matter production (kg ha}^{-1}\text{)}}{100}$$ {#eq-eq1}
+
+The composite soil samples from the field before the experiment and from each plot after the experiment were collected, air dried, powdered and passed through a 2 mm sieve and analysed for physico-chemical properties of the soil (@tbl-tbl1). The soil samples passed through 0.2 mm sieve were used for organic carbon estimation. Values represented in @tbl-tbl1 are initial soil values.
+
+| Sl. No. | Characters | Values | Methods | Reference |
+|---------------|---------------|---------------|---------------|---------------|
+| 1 | Water holding capacity (%) | 10.47 | Core sampling | @black1965 |
+| 2 | Bulk density ($\text{Mg}\ \text{m}^{-3}$) | 1.61 | Undisturbed core sample |  |
+| 3 | Soil reaction (pH) | 5.38 | pH meter (1:2.5 soil water ratio) | @jackson1958 |
+| 4 | EC ($\text{dS}\ \text{m}^{-1}$) | 0.01 | Conductivity meter (1:2.5 soil water ratio) | @jackson1958 |
+| 5 | CEC ($\text{cmol}(+)\ \text{kg}^{-1}$) | 2.28 | Ammonium saturation with neutral normal ammonium acetate and distillation | @jackson1973 |
+| 6 | Organic carbon (%) | 0.53 | Walkley and Black rapid titration method | @walkley1934 |
+| 7 | Available N ($\text{kg}\ \text{ha}^{-1}$) | 200.7 | Alkaline permanganate method | @subbiah1956 |
+| 8 | Available P ($\text{kg}\ \text{ha}^{-1}$) | 90.27 | Bray No. 1 extraction and spectrophotometric estimation | @jackson1973 |
+| 9 | Available K ($\text{kg}\ \text{ha}^{-1}$) | 177.18 | NH₄OAc extraction and flame photometry | @jackson1958 |
+| 10 | Exchangeable Ca ($\text{mg}\ \text{ha}^{-1}$) | 169.26 | NH₄OAc extraction and AAS estimation | @hesse1971 |
+|  | Exchangeable Mg ($\text{mg}\ \text{ha}^{-1}$) | 53.6 |  |  |
+| 11 | Available S ($\text{mg}\ \text{ha}^{-1}$) | 2.71 | CaCl₂ extraction and spectrophotometric estimation | @chesnin1950 |
+| 12 | Available Fe ($\text{mg}\ \text{kg}^{-1}$) | 14.74 | DTPA extraction and AAS estimation | @lindsay1978 |
+|  | Available Mn ($\text{mg}\ \text{kg}^{-1}$) | 3.44 |  |  |
+|  | Available Cu ($\text{mg}\ \text{kg}^{-1}$) | 1.31 |  |  |
+|  | Available Zn ($\text{mg}\ \text{kg}^{-1}$) | 3.44 |  |  |
+| 13 | Available B ($\text{mg}\ \text{kg}^{-1}$) | 0.59 | Hot water extraction and azomethane-H spectrophotometric estimation | @hesse1971 |
+
+: Standard analytical procedures used for the soil analysis {#tbl-tbl1}
+
+## Results
+
+### Yield and plant performance
+
+The application of biochar significantly influenced certain yield traits of okra. Days to flowering ranged between 35 and 37 days after sowing (DAS) across all treatments, but the differences were not statistically significant. Similarly, the number of fruits per plant and fruit length did not differ significantly among treatments. However, fruit yield per plant was significantly affected by biochar application (@tbl-tbl2). Treatment t4 resulted in the highest fruit yield per plant ($544.93\ \text{g}$) and was statistically at par with t3 ($537.74\ \text{g}$), while the lowest was recorded in t9 ($380.24\ \text{g}$). Yield per hectare followed a similar trend, with t4 yielding $15.71\ \text{t ha}^{-1}$ and was found to be on par with t3 ($14.07\ \text{t ha}^{-1}$), and the lowest yield observed in t9 ($7.65\ \text{t ha}^{-1}$). The harvest index was also positively influenced, with t3 registering the highest value ($0.81$), which was statistically similar to t4 ($0.81$), t2 ($0.79$), t1 ($0.79$), and t8 ($0.77$).
+
+### Nutrient uptake
+
+The nutrient uptake of okra plants varied across treatments. Nitrogen uptake was significantly higher in t4 ($101.35\ \text{kg ha}^{-1}$), which was on par with t3, t2, t6, and t5. The lowest N uptake ($74.78\ \text{kg ha}^{-1}$) was recorded in t9. Phosphorus uptake was highest in t7 ($24.76\ \text{kg ha}^{-1}$), statistically similar to t8, t6, t5, and t3, while t2 had the lowest ($14.90\ \text{kg ha}^{-1}$). Potassium uptake was not significantly affected by any treatment. For calcium, t6 showed the highest uptake ($64.94\ \text{kg ha}^{-1}$), comparable to t3, t7, and t4. Magnesium uptake was also significantly influenced, with t4 showing the highest uptake ($20.47\ \text{kg ha}^{-1}$), on par with t3, t6, and t8. Sulphur uptake did not differ significantly across treatments. Copper uptake was highest in t1 ($1.82\ \text{kg ha}^{-1}$), followed closely by t3 ($1.73\ \text{kg ha}^{-1}$), while the lowest was in t6 ($0.89\ \text{kg ha}^{-1}$). Zinc and boron uptakes were not significantly influenced by treatments. Iron uptake was significantly higher in t6 ($0.96\ \text{kg ha}^{-1}$), which was at par with t1 and t3. Manganese uptake was highest in t8 ($1.69\ \text{kg ha}^{-1}$), statistically similar to t7, t4, and t2.
+
+### Soil properties
+
+Post-harvest soil analysis revealed that biochar application significantly influenced several soil physico-chemical parameters. Water holding capacity was significantly higher in t4 ($33.87\%$), followed by t8, t3, t2, and t7. Bulk density was lowest in t8 ($1.21\ \text{Mg m}^{-3}$), while t9 recorded the highest ($1.30\ \text{Mg m}^{-3}$). No significant differences were found in soil pH, electrical conductivity (EC), or cation exchange capacity (CEC). Organic carbon content increased significantly with biochar application, highest in t4 ($1.29\%$), and statistically comparable to t8, t3, t2, t7, t1, and t6. Available nitrogen content also improved, with t4 ($209.07\ \text{kg ha}^{-1}$) showing significantly higher values, followed by t3, t8, and t7. However, the availability of phosphorus, potassium, calcium, magnesium, sulphur, copper, zinc, iron, boron, and manganese in the soil was not significantly affected by the treatments.
+
+| Treatment | Days to Flowering | No. of Fruits/Plant | Fruit Length (cm) | Fruit Yield/Plant (g) | Fruit Yield ($\text{t ha}^{-1}$) | Harvest Index |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| t1 | 38.67 | 18.00 | 15.90 | 480.30 | 10.44 | 0.79 |
+| t2 | 38.67 | 18.12 | 16.07 | 487.23 | 12.25 | 0.79 |
+| t3 | 38.44 | 19.90 | 16.28 | 537.74 | 14.07 | 0.81 |
+| t4 | 38.67 | 20.23 | 16.34 | 544.93 | 15.71 | 0.81 |
+| t5 | 38.67 | 16.11 | 15.55 | 392.85 | 11.26 | 0.74 |
+| t6 | 38.78 | 16.79 | 15.74 | 415.59 | 11.89 | 0.76 |
+| t7 | 38.89 | 17.45 | 15.81 | 457.61 | 12.19 | 0.77 |
+| t8 | 38.67 | 17.56 | 15.85 | 464.61 | 13.05 | 0.77 |
+| t9 | 38.67 | 16.11 | 15.40 | 380.24 | 7.65 | 0.75 |
+| *SEm (±)* | 0.14 | 1.33 | 0.35 | 16.81 | 0.63 | 0.01 |
+| *CD (0.05)* | NS | NS | NS | 50.385 | 1.890 | 0.037 |
+
+: Effect of treatments on the yield attributes and yield of okra {#tbl-tbl2}
+
+| Treatment   | N (kg ha$^{-1}$) | P (kg ha$^{-1}$) | K (kg ha$^{-1}$) |
+|-------------|------------------|------------------|------------------|
+| t1          | 87.85            | 17.07            | 51.93            |
+| t2          | 92.90            | 14.90            | 49.52            |
+| t3          | 95.93            | 19.60            | 53.88            |
+| t4          | 101.35           | 18.45            | 46.64            |
+| t5          | 91.93            | 19.98            | 46.68            |
+| t6          | 92.70            | 22.57            | 55.40            |
+| t7          | 88.15            | 24.76            | 46.47            |
+| t8          | 84.43            | 23.73            | 50.65            |
+| t9          | 74.78            | 17.87            | 45.96            |
+| *SEm (±)*   | 4.29             | 1.86             | 3.42             |
+| *CD (0.05)* | 12.848           | 5.561            | NS               |
+
+: Effect of treatments on nutrient uptake of okra (N, P, and K) {#tbl-tbl3}
+
+| Treatment   | Ca    | Mg    | S    | Cu    | Zn   | Fe    | B    | Mn    |
+|-------------|-------|-------|------|-------|------|-------|------|-------|
+| t1          | 53.28 | 18.27 | 3.00 | 1.82  | 1.86 | 0.88  | 0.30 | 1.36  |
+| t2          | 52.78 | 18.00 | 3.10 | 1.70  | 1.83 | 0.47  | 0.34 | 1.46  |
+| t3          | 59.72 | 19.84 | 3.06 | 1.73  | 1.85 | 0.82  | 0.32 | 1.40  |
+| t4          | 58.61 | 20.47 | 3.14 | 1.19  | 1.92 | 0.44  | 0.34 | 1.67  |
+| t5          | 54.39 | 16.54 | 3.03 | 0.67  | 1.92 | 0.67  | 0.30 | 1.42  |
+| t6          | 64.94 | 19.61 | 3.05 | 0.89  | 1.85 | 0.96  | 0.33 | 1.61  |
+| t7          | 59.38 | 18.66 | 2.98 | 1.09  | 2.04 | 0.74  | 0.31 | 1.68  |
+| t8          | 56.25 | 19.60 | 3.07 | 1.34  | 2.01 | 0.78  | 0.33 | 1.69  |
+| t9          | 41.10 | 18.68 | 2.98 | 1.68  | 1.93 | 0.78  | 0.31 | 1.39  |
+| *SEm (±)*   | 2.21  | 0.35  | 0.05 | 0.04  | 0.18 | 0.05  | 0.02 | 0.08  |
+| *CD (0.05)* | 6.610 | 1.061 | NS   | 0.111 | NS   | 0.151 | NS   | 0.251 |
+
+: Effect of treatments on uptake of nutrients by okra (all values in kg ha$^{-1}$) {#tbl-tbl4}
+
+| Treatment | WHC (%) | Bulk Density (Mg m$^{-3}$) | pH | EC (dS m$^{-1}$) | CEC (cmol(+) kg$^{-1}$) | Organic Carbon (%) |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| t1 | 30.78 | 1.26 | 5.48 | 0.03 | 3.11 | 1.19 |
+| t2 | 32.65 | 1.22 | 5.78 | 0.03 | 3.12 | 1.23 |
+| t3 | 32.73 | 1.23 | 5.59 | 0.02 | 3.06 | 1.25 |
+| t4 | 33.87 | 1.22 | 5.87 | 0.03 | 3.11 | 1.29 |
+| t5 | 29.45 | 1.24 | 5.66 | 0.02 | 3.08 | 1.10 |
+| t6 | 30.91 | 1.22 | 5.76 | 0.09 | 3.09 | 1.17 |
+| t7 | 32.61 | 1.22 | 5.67 | 0.04 | 3.11 | 1.23 |
+| t8 | 33.02 | 1.21 | 5.84 | 0.02 | 3.07 | 1.26 |
+| t9 | 27.52 | 1.30 | 5.31 | 0.03 | 3.05 | 0.96 |
+| *SEm (±)* | 0.57 | 0.00 | 0.11 | 0.03 | 0.04 | 0.05 |
+| *CD (0.05)* | 1.695 | 0.008 | NS | NS | NS | 0.134 |
+
+: Effect of treatments on soil parameters after harvest of okra {#tbl-tbl5}
+
+| Treatment   | Available N | Available P | Available K |
+|-------------|-------------|-------------|-------------|
+| t1          | 188.16      | 76.91       | 161.43      |
+| t2          | 188.16      | 79.63       | 152.13      |
+| t3          | 196.52      | 76.36       | 146.46      |
+| t4          | 209.07      | 94.90       | 172.70      |
+| t5          | 163.07      | 80.72       | 189.47      |
+| t6          | 163.07      | 82.73       | 159.64      |
+| t7          | 196.52      | 88.00       | 172.03      |
+| t8          | 196.52      | 75.09       | 173.26      |
+| t9          | 183.98      | 73.63       | 149.74      |
+| *SEm (±)*   | 6.97        | 7.08        | 10.63       |
+| *CD (0.05)* | 20.890      | NS          | NS          |
+
+: Effect of treatments on primary nutrient status of soil after the experiment (all values in kg ha$^{-1}$) {#tbl-tbl6}
+
+| Treatment | Ex.[^3] Ca | Ex. Mg | Available S | Available Cu | Available Zn | Available Fe | Available B | Available Mn |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| t1 | 446.10 | 83.08 | 2.53 | 1.45 | 2.35 | 14.72 | 0.29 | 3.78 |
+| t2 | 437.03 | 87.28 | 3.19 | 1.43 | 2.62 | 15.42 | 0.29 | 3.81 |
+| t3 | 426.70 | 88.68 | 2.69 | 1.45 | 2.64 | 15.38 | 0.29 | 3.95 |
+| t4 | 403.75 | 88.19 | 2.84 | 1.42 | 2.40 | 15.38 | 0.29 | 3.74 |
+| t5 | 456.83 | 72.93 | 2.22 | 1.33 | 2.67 | 15.21 | 0.28 | 3.99 |
+| t6 | 398.10 | 80.63 | 2.86 | 1.34 | 2.42 | 15.53 | 0.27 | 3.95 |
+| t7 | 391.80 | 89.02 | 2.82 | 1.28 | 2.18 | 15.14 | 0.28 | 3.83 |
+| t8 | 407.92 | 89.90 | 3.06 | 1.40 | 2.14 | 14.82 | 0.28 | 3.45 |
+| t9 | 376.03 | 84.69 | 2.67 | 1.33 | 2.63 | 14.82 | 0.28 | 3.47 |
+| *SEm (±)* | 21.62 | 4.94 | 0.19 | 0.05 | 0.18 | 0.46 | 0.01 | 0.16 |
+| *CD (0.05)* | NS | NS | NS | NS | NS | NS | NS | NS |
+
+: Effect of treatments on secondary and micronutrient status of soil after the experiment (all values in mg kg$^{-1}$) {#tbl-tbl7}
+
+[^3]: Ex. stands for Exchangeable
+
+## Discussion
+
+### Yield attributes
+
+The treatments did not influence the days taken to flower in okra. In general, regardless of the treatments, the okra plants started to flower between 35 DAS and 37 DAS. The number of fruits per plant and length of fruits were not influenced by biochar. However, the fruit yield per plant was significantly improved by the incorporation of biochar. The highest yield per plant was obtained from t4 ($544.93\ \text{g}$) and was found to be on a par with the treatment t3 ($537.74\ \text{g}$ per plant). There was 35.60 per cent increase over t9. Higher fruit yield per plant was observed for the plants that received biochar and FYM along with 100 per cent recommended dose of fertilizers (RDF). The adsorbing property of biochar in sandy loam soil might have slowed down the release of nutrients from FYM and chemical fertilizers. As the amount of biochar was doubled, there was an increase in fresh weight of fruits. This is in accordance with the findings of @dainy2015 who also reported a progressive increment in the yield characters in yard long bean as the levels of biochar was enhanced from 10 to 30 t ha$^{-1}$ when applied along with the recommended dose of fertilizers. Similar reports of increased yield with the incorporation of biochar and RDF were also reported by @punnoose2015thesis in amaranthus and @hashmi2019 in *Pisum sativum* L. In the case of fruit yield ha$^{-1}$, the application of tender coconut husk biochar had significantly improved the yield per hectare in okra. Higher fruit yield per hectare was observed for the treatment t4 ($15.71\ \text{t}$) and was on par with t3 ($14.07\ \text{t}$). The control plants (t9) could only produce $7.65\ \text{t ha}^{-1}$. Overall, there was a yield increase of 69 per cent in t4 compared to t9. The lower yield in t9 might be due to the leaching loss of nutrients. There was 44 mm rainfall during the growth period of okra at Onattukara which might have aggravated the leaching loss in the sandy loam soils of Onattukara. @nagula2017 had also recommended the application of biochar ($@$ 10 kg ha$^{-1}$) along with RDN for higher yield in banana. The harvest index was also significantly influenced by the treatments. The treatment t3 recorded a higher harvest index of $0.81$ and was found to be on a par with the treatments t4 ($0.81$), t2 ($0.79$), t1 ($0.79$) and t8 ($0.77$). Thus, biochar as a soil conditioner along with FYM and full recommended dose of fertilizers was effective for okra in the sandy loam soils of Onattukara.
+
+### Nutrient uptake
+
+The N uptake in okra was significantly improved due to the treatments. Among the treatments, the highest N uptake was recorded by the treatment t4 ($101.35\ \text{kg ha}^{-1}$) and was found to be on a par with t3 ($95.93\ \text{kg ha}^{-1}$), t2 ($92.90\ \text{kg ha}^{-1}$), t6 ($92.70\ \text{kg ha}^{-1}$) and t5 ($91.93\ \text{kg ha}^{-1}$). Lower N uptake was recorded in t9. There was an increase of 30.14 percent in the N uptake (t4) compared to control (t9). This might be due to the adsorbing capacity of biochar applied as soil conditioner. The higher CEC for biochar might have helped in retaining N in the sandy loam soils of Onattukara. The full RDN along with FYM (5 t ha$^{-1}$), combined with the adsorbing property of biochar might have contributed to a higher status of available N in soil and led to an increased uptake of N by okra. @dainy2015 had earlier reported that the total N uptake in yard long bean was found to increase from $51.19\ \text{kg ha}^{-1}$ to $105.50\ \text{kg ha}^{-1}$ due to the application of biochar, PGPR and full recommended dose of nutrients. @jabin2022 had also reported that total N uptake was higher in ginger when treated with paddy husk biochar (30 t ha$^{-1}$) along with full dose of fertilizers in sandy soils. Similarly, @nigussie2012 had also reported a higher N uptake in lettuces grown in soils conditioned with 10 t ha$^{-1}$ biochar suggesting the prospects of biochar to raise fertilizer use efficiency in soils where N loss is high.
+
+A significant difference was observed in P uptake among the treatments. Higher P uptake was observed for t7 ($24.76\ \text{kg ha}^{-1}$) and was on a par with t8 ($23.73\ \text{kg ha}^{-1}$), t6 ($22.57\ \text{kg ha}^{-1}$), t5 ($19.98\ \text{kg ha}^{-1}$) and t3 ($19.60\ \text{kg ha}^{-1}$). This increase in P uptake might be due to the higher quantity of available P in soil which is evident from the soil samples collected after the harvest of okra (@tbl-tbl6). In acidic soils, the solubility of P and its uptake by plants depends mainly on the formation of Al and Fe-phosphates in soil. When biochar is applied to acidic soil condition, it raises the soil pH. There is a reduction in the P binding to Fe and Al oxides, thus making P available in soil. Similar reports of improved P availability in acid soils due to supplementation of biochar was observed by @chintala2014 and @zhang2016. On the contrary, @dainy2015 and @jabin2022 had reported a higher P uptake in yard long bean and ginger, treated with biochar along with NPK as per @kau2016. The uptake of K was not significantly influenced by the treatments.
+
+Significant effect for Ca uptake was observed in okra (@tbl-tbl4). The highest Ca uptake was recorded by the treatment t6 ($64.94\ \text{kg ha}^{-1}$) and was noticed to be on a par with treatment t3 ($59.72\ \text{kg ha}^{-1}$), t7 ($59.38\ \text{kg ha}^{-1}$) and t4 ($58.61\ \text{kg ha}^{-1}$). Lower Ca uptake was recorded by the treatment t9 (KAU POP). There was an overall increase of calcium uptake by 44.96% in t6 compared to the control t9. The application of biochar along with liming prior to planting okra was found to improve the availability of calcium in soil which might have led to an increased plant uptake. Earlier, @sombroek1993 had also reported increased calcium availability for plant growth after the application of biochar due to the higher surface area, negative surface charge and charge density. Moreover, calcium in biochar may exchange Al ions present on the soil organic matter and enhance the availability of calcium for plants thus, guiding it to an increased calcium uptake by the plants [@novak2009]. @dainy2015 had also reported higher Ca uptake in yard long bean due to the application of biochar. In sandy soils, @jabin2022 also observed a higher calcium uptake in ginger.
+
+The uptake of Mg was observed to be significant (@tbl-tbl4). The treatment t4 resulted in higher Mg uptake ($20.47\ \text{kg ha}^{-1}$) by okra and was noticed to be on a par with the treatment t3 ($19.84\ \text{kg ha}^{-1}$), t6 ($19.61\ \text{kg ha}^{-1}$) and t8 ($19.60\ \text{kg ha}^{-1}$). The Mg in soil increases with increase in soil pH. There was an increment in soil pH from the initial value of 5.38 (@tbl-tbl1) to 5.87 (@tbl-tbl5) due to application of biochar in combination with the effect of liming. This might have improved the exchangeable magnesium in soil which has resulted in an increased magnesium uptake in okra. @jabin2022 has also reported an increased magnesium uptake in ginger due to application of biochar. Tender coconut husk biochar had 0.13 percent magnesium [@vikram2024]. This might have contributed to the higher magnesium content in t4. @dainy2015 had also reported an increase in total Mg uptake in yard long bean when biochar (\@ 20 t ha$^{-1}$) was applied with RDN. The uptake of sulphur was not significantly influenced by the treatments.
+
+Copper uptake was found to be significant (@tbl-tbl4) for the treatments. Higher copper uptake in okra was observed for the treatment t1 ($1.82\ \text{kg ha}^{-1}$) and was found to be on a par with the treatment t3 ($1.73\ \text{kg ha}^{-1}$). There was an increase in copper content in soil from $1.31\ \text{mg kg}^{-1}$ (@tbl-tbl1) to $1.45\ \text{mg kg}^{-1}$ (@tbl-tbl7) due to the application of biochar. This might have contributed to the increased uptake of copper in okra. Similar reports of increased copper uptake were noticed in yard long beans by @dainy2015 and in rice by @salvacion2020 due to the application of biochar.
+
+The uptake of zinc was not significantly influenced by the treatments. The uptake of iron in okra was found to be significant (@tbl-tbl4). Higher iron uptake was observed for t6 ($0.96\ \text{kg ha}^{-1}$) and was perceived to be on a par with treatment t1 ($0.88\ \text{kg ha}^{-1}$) and t3 ($0.82\ \text{kg ha}^{-1}$). The biochar produced from tender coconut husk contains $107.58\ \text{mg kg}^{-1}$ of iron [@vikram2024], and hence its application as a soil conditioner had increased the soil iron content. The initial soil available iron was $14.74\ \text{mg kg}^{-1}$ (@tbl-tbl1) and was increased to $15.53\ \text{mg kg}^{-1}$ (t6 – @tbl-tbl7) due to the application of biochar. This might be the reason for the increased availability of iron in soil which might have contributed to the increased iron uptake in t6 treatment. Similar report of increased iron uptake in yard long bean was observed by @dainy2015.
+
+The uptake of boron was not significantly influenced by the treatments. The uptake of manganese was found to be significantly influenced by the treatments (@tbl-tbl4). Among the treatments, the highest uptake of manganese was recorded by the treatment t8 ($1.69\ \text{kg ha}^{-1}$) and was observed to be on a par with treatment t7 ($1.68\ \text{kg ha}^{-1}$), t4 ($1.67\ \text{kg ha}^{-1}$), t6 ($1.61\ \text{kg ha}^{-1}$) and t2 ($1.46\ \text{kg ha}^{-1}$). The application of biochar had slightly improved the soil available manganese. This might have improved the plant uptake of manganese in okra. Earlier, @dainy2015 had also reported the increase in total uptake of manganese from $559.93$ to $1140.50\ \text{g ha}^{-1}$ due to application of biochar in yard long bean.
+
+{{< pagebreak >}}
+
+## Soil attributes
+
+The soil water holding capacity after cultivation of okra was significantly modified due to the treatments. The initial water holding capacity of the soil from the experimental area (@tbl-tbl1) was $10.47\%$. The treatment t4 recorded a significantly higher WHC ($33.87\%$) and was found on a par with t8 ($33.02\%$), t3 ($32.73\%$), t2 ($32.65\%$) and t7 ($32.61\%$). An increase of $20.68\%$ in water holding capacity was observed in t4 (compared to control). An overall increase of $105.55\%$ of WHC could be obtained due to application of biochar in the sandy loam soils of Onattukara. The initial analysis of tender coconut husk biochar had revealed that it had a water holding capacity of $232.34\%$. This biochar when applied to soil reduces the bulk density of soil and is the reason for the higher water holding capacity of the soil. There was $57.92\%$ increase in WHC with the application of biochar along with NPK as per POP recommendation [@dainy2015]. @wang2019 has also reported that biochar can temporarily increase the field capacity due to their higher pore volume in a coarse textured soil.
+
+The bulk density of soil was found to be significantly reduced by the treatments. The initial bulk density of the soil from the experimental area was $1.61\ \text{Mg m}^{-3}$. In general, biochar had significantly reduced the soil’s bulk density. KAU 2016 (t9) recorded the highest bulk density ($1.30\ \text{Mg m}^{-3}$) in soil and the lowest was recorded for the treatment t8 ($1.21\ \text{Mg m}^{-3}$). Overall, there was a reduction in bulk density by $28.37\%$ compared to the initial value indicating the potential for increased water holding capacity. There are several reports of decreased bulk density with application of biochar [@laird2010; @jones2010; @chen2011; @mankasingh2011; @zhang2012]. @dainy2015 had also reported in yard long bean that the application of biochar had lowered the bulk density of soil. The pH, electrical conductivity and CEC in soil after the experiment was not significantly influenced by the treatments.
+
+The organic carbon content of the soil after the experiment was significantly governed by the treatments. Higher organic carbon was noticed for t4 ($1.29\%$) and was on par with t8 ($1.26\%$), t3 ($1.25\%$), t2 ($1.23\%$), t7 ($1.23\%$), t1 ($1.19\%$) and t6 ($1.17\%$). The control treatment (t9) recorded the lowest organic carbon content ($0.96\%$). There was an overall increase of $29.33\%$ in t4 compared to KAU (2016) due to the application of biochar. The initial organic carbon content in soil before the experiment was $0.53\%$ (@tbl-tbl1). Biochar produced from tender coconut husk had a total organic carbon content of $48.14\%$ [@vikram2024], and application of this might have helped in the increased carbon content in biochar applied plants. In amaranthus, @punnoose2015article had also reported higher organic carbon content in biochar applied plants.
+
+There were significant effects on available N in soil. Higher available N was observed for t4 ($209.07\ \text{kg ha}^{-1}$) and was on a par with the treatments t3, t7 and t8 with $196.52\ \text{kg ha}^{-1}$. This might be due to the increased retention of nitrogen in soil due to the application of biochar. @punnoose2015thesis had also reported an increased nutrient content in biochar applied soils. The control (t9) recorded an available N content of $183.98\ \text{kg ha}^{-1}$. There was $44\ \text{mm}$ of rain during the crop period which might have leached out the available N in soil leading to a comparatively lesser available N in soil. The lowest available N was recorded for t5 and t6 with $163.07\ \text{kg ha}^{-1}$. The lower dose of fertilizer without the application of FYM might have led to the lowest available N in soil.
+
+## Conclusion
+
+It could be concluded that the rate of biochar as a soil conditioner for okra in the sandy loam soils of Onattukara is standardized as $10\ \text{t ha}^{-1}$. The soil application of biochar at the rate of $10\ \text{t ha}^{-1}$ along with $5\ \text{t ha}^{-1}$ FYM and $100\%$ RDF could be recommended for enhancing yield, nutrient uptake and soil fertility in okra.
+
+::: {.callout-note title="Acknowledgments" icon="false"}
+The authors are grateful to the support and encouragement provided by Kerala Agricultural University throughout the conduct of the research work.
+:::
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-tip title="Technical Details"}
+The statistical analysis of the data was done by applying the technique of analysis of variance (ANOVA) for Randomised Block Design and was done using RAISINS [@mohammed2025raisins] online statistical analysis platform.
+:::
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**
+
+-   **Submitted:** *15 June 2025*\
+-   **Accepted:** *20 June 2025*\
+-   **Published (Online):** *20 June 2025*
+
+------------------------------------------------------------------------
+
+**Reviewer Information**
+
+-   **Reviewer 1:**\
+    **Dr.Gayathri Karthikeyan P**\
+    *Department of Agronomy*\
+    *College of Agriculture, Vellayani*\
+    *Kerala Agricultural University*
+
+-   **Reviewer 2:**\
+    *Anonymous*
+:::
