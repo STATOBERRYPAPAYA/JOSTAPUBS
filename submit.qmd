@@ -38,4 +38,4 @@ To submit your manuscript, click the button below:
 
 <!-- ``` -->
 
-If you encounter any issues during submission, please contact us at **jostapubs\@gmail.com (mailto:jostapubs\@gmail.com)**.
+If you encounter any issues during submission, please contact us at [jostapubs@gmail.com](mailto:jostapubs@gmail.com).
