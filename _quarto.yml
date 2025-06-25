@@ -69,7 +69,7 @@ format:
         - flatly
       dark:
         - slate
-    # toc: true
+    toc: true
     number-sections: true
     page-layout: full
     highlight-style: github
