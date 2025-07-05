@@ -47,6 +47,8 @@ website:
         text: Editorial Sections
       - href: report.qmd
         text: Report a Problem
+      - href: plagiarism.qmd
+        text: Plagiarism Policy
       - href: contact.qmd
         text: Contact Us
   page-footer:

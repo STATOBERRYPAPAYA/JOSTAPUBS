@@ -167,154 +167,113 @@
     ]
   },
   {
-    "objectID": "index.html#our-vision",
-    "href": "index.html#our-vision",
-    "title": "About JOSTA",
-    "section": "Our Vision",
-    "text": "Our Vision\nJOSTA envisions a research environment where sharing agricultural innovations is simple, accessible, and inclusive. Our aim is to provide a dedicated platform for publishing high-quality agricultural research in a researcher-friendly manner—removing unnecessary barriers while maintaining high editorial standards. We believe in connecting researchers, educators, and practitioners by offering open access to well-reviewed, reliable research. By fostering a transparent and practical publishing process, JOSTA supports the continuous improvement of agricultural science and technology.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#why-publish-with-us",
-    "href": "index.html#why-publish-with-us",
-    "title": "About JOSTA",
-    "section": "Why Publish with Us?",
-    "text": "Why Publish with Us?\nOpen Access: Your work is freely accessible online from the moment of publication, increasing its reach and impact.\n\nStreamlined Process: We offer a simple, submission-friendly system that focuses on quality without the complexity of traditional publishing.\nPermanent Archiving: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.\nSupportive Community: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#peer-review-policy",
-    "href": "index.html#peer-review-policy",
-    "title": "About JOSTA",
-    "section": "Peer Review Policy",
-    "text": "Peer Review Policy\nAll submissions undergo an initial assessment by the managing editors. Suitable manuscripts are then assigned to the appropriate section editors, who identify independent experts in the relevant field to serve as reviewers. JOSTA follows a double-blind peer review process, where both authors and reviewers remain anonymous to ensure fairness and objectivity. Based on the reviewers’ feedback, authors may be requested to revise their manuscripts.\nFor a detailed description of the review process, see Peer Review Process.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#open-access",
-    "href": "index.html#open-access",
-    "title": "About JOSTA",
-    "section": "🔓Open Access",
-    "text": "🔓Open Access\nJOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#article-processing-charges-apc",
-    "href": "index.html#article-processing-charges-apc",
-    "title": "About JOSTA",
-    "section": "Article Processing Charges (APC)",
-    "text": "Article Processing Charges (APC)\nAt JOSTA, we uphold the principle that research quality should never be compromised by publication costs. As we celebrate our inaugural year, we are proud to offer no Article Processing Charges (APC) to authors.\n✅ No submission fees\n✅ No charges for figures, tables, or page limits\n✅ Immediate online publication with permanent open-access availability\nWe are committed to supporting high-quality, impactful research and promoting affordable, accessible publishing for all. By removing financial barriers, we aim to encourage meaningful contributions to sustainable technology in agriculture.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#greener-publishing",
-    "href": "index.html#greener-publishing",
-    "title": "About JOSTA",
-    "section": "🍃Greener Publishing",
-    "text": "🍃Greener Publishing\nAs a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint—aligning our commitment to open access with a sustainable future for scholarly communication.\n   \n\nCopyright Information\n© 2025 Statoberry LLP. All rights reserved.\nJOSTA is licensed under a\n\nCreative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.\nUnder this license:\n- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made.\n- Non Commercial: You may not use the material for commercial purposes.\n- No Derivatives: If you remix, transform, or build upon the material, you may not distribute the modified material.\nFor commercial use or distribution of print copies, prior written permission from Statoberry LLP is required.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "editorial.html#editor-in-chief",
-    "href": "editorial.html#editor-in-chief",
-    "title": "Editorial Board",
-    "section": "Editor-in-Chief",
-    "text": "Editor-in-Chief\n\n  \n    Anith K.N.,PhD\n    \n    Professor,Department of Agricultural Microbiology,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: anith.kn@kau.in\n    ORCID: 0000-0002-5016-7533\n    Google Scholar Profile",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "editorial.html#associate-editors",
-    "href": "editorial.html#associate-editors",
-    "title": "Editorial Board",
-    "section": "Associate Editors",
-    "text": "Associate Editors\n\nCrop and Plant Science\n\n  \n    Beena R., PhD\n    Assistant Professor,Department of Plant Physiology,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: beena.r@kau.in\n    ORCID: 0000-0003-2654-4500\n    Google Scholar Profile\n  \n\n\n\n  \n    Sheeja K. Raj, PhD\n    Assistant Professor,Department of Agronomy,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: sheeja.raj@kau.in\n    ORCID: 0000-0002-3068-7494\n    Google Scholar Profile\n  \n\n\n\n  \n    Krishna Kumar G., PhD\n    Assistant Professor,Department of Plant Physiology,\n    College of Agriculture, Vellanikkara\n    Kerala Agricultural University\n    Email: krishna.kg@kau.in\n    ORCID: 0000-0002-8851-0042\n    Google Scholar Profile",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "editorial.html#data-science-and-statistics-in-agriculture",
-    "href": "editorial.html#data-science-and-statistics-in-agriculture",
-    "title": "Editorial Board",
-    "section": "Data Science and Statistics in Agriculture",
-    "text": "Data Science and Statistics in Agriculture\n\n\n  \n    Jaslam Poolakkal, PhD\n    Lead Data Scientist,Intermountain Forestry Cooperative,\n    College of Natural Resources,\n    University of Idaho,\n    USA\n    Email: mjaslam@uidaho.edu\n    ORCID: 0000-0002-5800-5723\n    Google Scholar Profile\n  \n  \n\n\n  \n     Saurav Guha, Ph.D.\n    Assistant Professor-cum-Jr. Scientist,Department of Statistics, Mathematics & Computer Application,\n    Bihar Agricultural University,\n    Sabour, India\n    Email: saurav@bausabour.ac.in\n    ORCID: 0000-0001-8960-5062\n    Google Scholar Profile",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "editorial.html#agricultural-economics-and-rural-development",
-    "href": "editorial.html#agricultural-economics-and-rural-development",
-    "title": "Editorial Board",
-    "section": "Agricultural Economics and Rural Development",
-    "text": "Agricultural Economics and Rural Development\n\n\n  \n    Denny Franco, PhD\n    Assistant Professor,Department of Agricultural Economics,\n    College of Agriculture, Wayanad\n    Kerala Agricultural University\n    Email: denny.franco@kau.in\n    ORCID: \n    Google Scholar Profile\n  \n  \n\n\n  \n    Aswathy Vijayan, PhD\n    Assistant Professor,Department of Agricultural Economics,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: aswathy.v@kau.in\n    ORCID: 0000-0002-5137-6724\n    Google Scholar Profile",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "editorial.html#soil-science-and-agroecology",
-    "href": "editorial.html#soil-science-and-agroecology",
-    "title": "Editorial Board",
-    "section": "Soil Science and Agroecology",
-    "text": "Soil Science and Agroecology\n\n  \n    Kiran Karthik Raj, PhD\n    Assistant Professor,Department of Soil Science & Agricultural Chemistry,\n    College of Agriculture, Vellayani,\n    Kerala Agricultural University\n    Email: kiran.kr@kau.in\n    ORCID: 0000-0001-7313-5828\n    Google Scholar Profile",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "editorial.html#managing-editors",
-    "href": "editorial.html#managing-editors",
-    "title": "Editorial Board",
-    "section": "Managing Editors",
-    "text": "Managing Editors\n\n  \n    Pratheesh P. Gopinath, PhD\n    Assistant Professor,Department of Agricultural Statistics,\n    Kerala Agricultural University\n    Email: pratheesh.pg@kau.in\n    ORCID: 0000-0003-3290-0436\n    Google Scholar Profile\n  \n\n\n\n  \n    Lovely B., PhD\n    Assistant Professor,Department of Plant Breeding & Genetics,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: lovely.b@kau.in\n    ORCID: 0000-0002-3456-7890\n    Google Scholar Profile",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "editorial.html#managing-assistant-editors",
-    "href": "editorial.html#managing-assistant-editors",
-    "title": "Editorial Board",
-    "section": "Managing Assistant Editors",
-    "text": "Managing Assistant Editors\n\n  \n    Atul Jayapal, PhD\n    Assistant Professor,Department of Agronomy,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: atul.j@kau.in\n    ORCID: \n    Google Scholar Profile\n  \n\n\n\n  \n    Gayathri G., PhD\n    Assistant Professor,Department of Plant Breeding & Genetics,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: gayathri.g@kau.in\n    ORCID: 0009-0001-7993-8055\n    Google Scholar Profile",
-    "crumbs": [
-      "Editorial Board"
-    ]
-  },
-  {
-    "objectID": "authorguide.html#guidelines",
-    "href": "authorguide.html#guidelines",
-    "title": "Article submission",
-    "section": "Guidelines",
-    "text": "Guidelines\n\nManuscript types and word limits\nJOSTA encourages concise and focused writing. The preferred word limits (excluding references, tables, and figure captions) for each article type are:\n\nResearch Article: up to 4,000 words\nReview Article: up to 5,000 words\nShort Communication: up to 2,000 words\nCase Study: up to 2,500 words\nSoftware: up to 2,000 words\nPolicy: up to 2,500 words\n\nManuscripts exceeding these limits should include justification in the cover letter to the editor.\n\n\nAuthorship policy\nJOSTA allows a maximum of six (6) authors per manuscript. All authors must meet ICMJE authorship criteria. If more than six contributors were involved, they should be acknowledged under “Contributors” with their roles specified. The corresponding author must confirm consent from all co-authors.\n\n\nManuscript preparation\nFile format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) format. PDF files are not accepted.\n\nStructure: Manuscripts should generally include: Title, Abstract, Keywords, Introduction, Materials and Methods, Results, Discussion, Conclusion, References.\nAbstract: Max 150 words. Avoid citations and excessive abbreviations.\nKeywords: 4–6, comma-separated, avoiding words already in the title.\nFigures: May be embedded in the manuscript or uploaded separately as high-resolution .png, .jpg, or .tiff files.\nTables: Should be uploaded separately as .csv or .xlsx files if not included in editable format within the manuscript.\nSupplementary Material: Optional files such as datasets, appendices, or multimedia can be submitted.\n\n\n\nSubmission procedure\nAuthors must complete the online [submission form] (submit.qmd), providing:\n\nAuthor and co-author details\nManuscript metadata (title, abstract, keywords, article type, etc.)\nManuscript and supporting file uploads\nEthical declarations and cover letter to editor\n\n\n\nEthical requirements\nPlagiarism: All submissions must be original\nConflict of Interest: Must be declared clearly. If none, write “None.”\nEthical Approval: Required for studies involving humans, animals, or sensitive data. Upload certificate if applicable.\n\n\nArticle categories\nJOSTA accepts articles under the following editorial sections, see in [detail] (editorialsections.qmd)\n\nCrop and Plant Science\nSoil Science and Agroecology\nAnimal Science and Fisheries\nBiotechnology & Molecular Biology\nAgricultural Engineering and Technology\nData Science and Statistics in Agriculture\nAgricultural Economics and Rural Development\nAgricultural Extension and Education\nPost-Harvest Technology and Food Science\nClimate Change and Sustainable Agriculture\nPlant Pathology and Pest Management\nForestry and Agroforestry\n\nAuthors must select one or more relevant sections during submission. See editorial sections for full descriptions.\n\n\nReview process\nAll submissions undergo initial editorial screening followed by double-blind peer review. Authors may be asked to revise their manuscripts based on reviewer feedback.\n\n\nReferencing style\nJOSTA follows a referencing style closely aligned with that used by established journals in applied statistics and agricultural research. However, authors are not required to manually format references during submission.\nAll references must include complete and accurate bibliographic details. JOSTA’s article processing system will handle reference formatting. Authors must ensure that each reference contains the following minimum required fields:\nFor Journal Articles:\n\nAuthor(s)\nTitle\nJournal name\nYear\nVolume and issue (if applicable)\nPage numbers\nDOI (if available)\n\nFor Books:\n\nAuthor or Editor\nTitle\nPublisher\nYear\nPlace of publication\n\nFor Book Chapters:\n\nAuthor\nChapter title\nBook title\nEditor(s)\nPublisher\nYear\nPages\n\nFor Theses:\n\nAuthor\nTitle\nDegree type (e.g., MSc, PhD)\nInstitution\nYear\n\nFor Conference Proceedings:\n\nAuthor\nTitle\nConference title\nYear\nPages\nPublisher or Organizer\n\nFor Web Sources:\n\nAuthor or Organization\nTitle\nURL\nAccessed date\nYear (if available)\n\nImproper or incomplete references may delay processing.",
+    "objectID": "peerReview.html#double-blind-peer-review",
+    "href": "peerReview.html#double-blind-peer-review",
+    "title": "Peer Review Policy",
+    "section": "Double-blind peer review",
+    "text": "Double-blind peer review\nJOSTA follows a double-blind peer review process, in which:\n\nThe identities of the reviewers are hidden from the authors.\nThe identities of the authors are hidden from the reviewers.\n\nThis model promotes objective evaluation based solely on the academic quality and relevance of the submission.",
     "crumbs": [
       "Submit Articles",
-      "Article submission"
+      "Peer Review Policy"
     ]
   },
   {
-    "objectID": "contact.html#get-in-touch-with-us",
-    "href": "contact.html#get-in-touch-with-us",
-    "title": "JOSTA",
-    "section": "📮 Get in Touch with Us",
-    "text": "📮 Get in Touch with Us\nFor any queries related to publishing, manuscript submissions, journal partnerships, or technical support, feel free to reach out to us.\n\n🌐 About PAPAYA\nPAPAYA Academic Press is the academic publishing division of Statoberry LLP, focusing on open-access journals, research dissemination, and digital academic tools in agriculture and allied sciences.\nVisit: www.statoberry.com/papaya\n\n\n🏢 Address\nStatoberry LLP\nKalliyoor P. O.\nThiruvananthapuram\nKerala, India – 695522\n\n\n📞 Contact Information\n\n📱 +91 9746 919 099\n\n📱 +91 7736 807 657\n\n✉️ statistician@statoberry.com\n\n✉️ help@statoberry.com",
+    "objectID": "peerReview.html#selection-of-reviewers",
+    "href": "peerReview.html#selection-of-reviewers",
+    "title": "Peer Review Policy",
+    "section": "Selection of reviewers",
+    "text": "Selection of reviewers\n\nReviewers are selected based on their subject expertise, experience, and publication record.\nFor interdisciplinary manuscripts, multiple reviewers with complementary expertise may be invited.\nInvitations are sent via email with full instructions and secure access to the manuscript.",
     "crumbs": [
-      "Contact Us"
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#review-process",
+    "href": "peerReview.html#review-process",
+    "title": "Peer Review Policy",
+    "section": "Review Process",
+    "text": "Review Process\nUpon accepting the invitation, reviewers are provided with:\n\nA reviewer copy of the manuscript (PDF)\nA secure Google Form link for submitting their review\nA passcode (sent via email) to access the form\n\nReviewers are asked to assess the manuscript on the following:\n\nRelevance to the journal’s scope\nOriginality and novelty\nClarity of research objectives\nMethodological soundness\nQuality of analysis and interpretation\nValidity of conclusions\nPresentation and language",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#reviewer-recommendations",
+    "href": "peerReview.html#reviewer-recommendations",
+    "title": "Peer Review Policy",
+    "section": "Reviewer Recommendations",
+    "text": "Reviewer Recommendations\nReviewers are requested to select one of the following:\n\nAccept as is\nMinor revision\nMajor revision\nReject\n\nThe editorial team makes the final decision, based on the reviewers’ recommendations and internal evaluation.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#confidentiality",
+    "href": "peerReview.html#confidentiality",
+    "title": "Peer Review Policy",
+    "section": "Confidentiality",
+    "text": "Confidentiality\nAll manuscripts and review materials are handled as confidential documents. Reviewers must:\n\nNot share the manuscript with others\nUse the content strictly for review purposes\nDisclose any conflicts of interest",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#acknowledgment-of-reviewers",
+    "href": "peerReview.html#acknowledgment-of-reviewers",
+    "title": "Peer Review Policy",
+    "section": "Acknowledgment of Reviewers",
+    "text": "Acknowledgment of Reviewers\nJOSTA provides an opportunity to acknowledge reviewers after publication. Reviewers are asked:\n\n“Are you willing to have your name and affiliation listed as a reviewer in the published article or journal issue?”\n\nThis is entirely voluntary and based on reviewer consent.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#author-notification-and-proofing",
+    "href": "peerReview.html#author-notification-and-proofing",
+    "title": "Peer Review Policy",
+    "section": "Author notification and proofing",
+    "text": "Author notification and proofing\n\nAuthors are notified when their manuscript enters the peer review phase.\nA typeset PDF version is also shared with the authors during this stage for proofing.\nAuthors are requested to verify formatting, figures, author details, and notify any corrections within 3–5 working days.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#timelines",
+    "href": "peerReview.html#timelines",
+    "title": "Peer Review Policy",
+    "section": "Timelines",
+    "text": "Timelines\n\nStandard review period: 2 weeks\nTotal review and decision timeline: 4 to 6 weeks\nExtensions may be granted upon request",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#appeals-and-complaints",
+    "href": "peerReview.html#appeals-and-complaints",
+    "title": "Peer Review Policy",
+    "section": "Appeals and complaints",
+    "text": "Appeals and complaints\nAuthors may appeal a decision by contacting the editorial office with a formal justification. An independent editorial board member will handle the appeal process to ensure fairness.",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
+    ]
+  },
+  {
+    "objectID": "peerReview.html#contact",
+    "href": "peerReview.html#contact",
+    "title": "Peer Review Policy",
+    "section": "Contact",
+    "text": "Contact\nFor questions or assistance regarding the review process, please contact:\n📧 jostapubs@gmail.com\n🌐 www.jostapubs.com",
+    "crumbs": [
+      "Submit Articles",
+      "Peer Review Policy"
     ]
   },
   {
@@ -438,113 +397,164 @@
     ]
   },
   {
-    "objectID": "peerReview.html#double-blind-peer-review",
-    "href": "peerReview.html#double-blind-peer-review",
-    "title": "Peer Review Policy",
-    "section": "Double-blind peer review",
-    "text": "Double-blind peer review\nJOSTA follows a double-blind peer review process, in which:\n\nThe identities of the reviewers are hidden from the authors.\nThe identities of the authors are hidden from the reviewers.\n\nThis model promotes objective evaluation based solely on the academic quality and relevance of the submission.",
+    "objectID": "contact.html#get-in-touch-with-us",
+    "href": "contact.html#get-in-touch-with-us",
+    "title": "JOSTA",
+    "section": "📮 Get in Touch with Us",
+    "text": "📮 Get in Touch with Us\nFor any queries related to publishing, manuscript submissions, journal partnerships, or technical support, feel free to reach out to us.\n\n🌐 About PAPAYA\nPAPAYA Academic Press is the academic publishing division of Statoberry LLP, focusing on open-access journals, research dissemination, and digital academic tools in agriculture and allied sciences.\nVisit: www.statoberry.com/papaya\n\n\n🏢 Address\nStatoberry LLP\nKalliyoor P. O.\nThiruvananthapuram\nKerala, India – 695522\n\n\n📞 Contact Information\n\n📱 +91 9746 919 099\n\n📱 +91 7736 807 657\n\n✉️ statistician@statoberry.com\n\n✉️ help@statoberry.com",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Contact Us"
     ]
   },
   {
-    "objectID": "peerReview.html#selection-of-reviewers",
-    "href": "peerReview.html#selection-of-reviewers",
-    "title": "Peer Review Policy",
-    "section": "Selection of reviewers",
-    "text": "Selection of reviewers\n\nReviewers are selected based on their subject expertise, experience, and publication record.\nFor interdisciplinary manuscripts, multiple reviewers with complementary expertise may be invited.\nInvitations are sent via email with full instructions and secure access to the manuscript.",
+    "objectID": "authorguide.html#guidelines",
+    "href": "authorguide.html#guidelines",
+    "title": "Article submission",
+    "section": "Guidelines",
+    "text": "Guidelines\n\nManuscript types and word limits\nJOSTA encourages concise and focused writing. The preferred word limits (excluding references, tables, and figure captions) for each article type are:\n\nResearch Article: up to 4,000 words\nReview Article: up to 5,000 words\nShort Communication: up to 2,000 words\nCase Study: up to 2,500 words\nSoftware: up to 2,000 words\nPolicy: up to 2,500 words\n\nManuscripts exceeding these limits should include justification in the cover letter to the editor.\n\n\nAuthorship policy\nJOSTA allows a maximum of six (6) authors per manuscript. All authors must meet ICMJE authorship criteria. If more than six contributors were involved, they should be acknowledged under “Contributors” with their roles specified. The corresponding author must confirm consent from all co-authors.\n\n\nManuscript preparation\nFile format: Manuscripts must be submitted in .docx (Word) or .qmd (Quarto) format. PDF files are not accepted.\n\nStructure: Manuscripts should generally include: Title, Abstract, Keywords, Introduction, Materials and Methods, Results, Discussion, Conclusion, References.\nAbstract: Max 150 words. Avoid citations and excessive abbreviations.\nKeywords: 4–6, comma-separated, avoiding words already in the title.\nFigures: May be embedded in the manuscript or uploaded separately as high-resolution .png, .jpg, or .tiff files.\nTables: Should be uploaded separately as .csv or .xlsx files if not included in editable format within the manuscript.\nSupplementary Material: Optional files such as datasets, appendices, or multimedia can be submitted.\n\n\n\nSubmission procedure\nAuthors must complete the online [submission form] (submit.qmd), providing:\n\nAuthor and co-author details\nManuscript metadata (title, abstract, keywords, article type, etc.)\nManuscript and supporting file uploads\nEthical declarations and cover letter to editor\n\n\n\nEthical requirements\nPlagiarism: All submissions must be original\nConflict of Interest: Must be declared clearly. If none, write “None.”\nEthical Approval: Required for studies involving humans, animals, or sensitive data. Upload certificate if applicable.\n\n\nArticle categories\nJOSTA accepts articles under the following editorial sections, see in [detail] (editorialsections.qmd)\n\nCrop and Plant Science\nSoil Science and Agroecology\nAnimal Science and Fisheries\nBiotechnology & Molecular Biology\nAgricultural Engineering and Technology\nData Science and Statistics in Agriculture\nAgricultural Economics and Rural Development\nAgricultural Extension and Education\nPost-Harvest Technology and Food Science\nClimate Change and Sustainable Agriculture\nPlant Pathology and Pest Management\nForestry and Agroforestry\n\nAuthors must select one or more relevant sections during submission. See editorial sections for full descriptions.\n\n\nReview process\nAll submissions undergo initial editorial screening followed by double-blind peer review. Authors may be asked to revise their manuscripts based on reviewer feedback.\n\n\nReferencing style\nJOSTA follows a referencing style closely aligned with that used by established journals in applied statistics and agricultural research. However, authors are not required to manually format references during submission.\nAll references must include complete and accurate bibliographic details. JOSTA’s article processing system will handle reference formatting. Authors must ensure that each reference contains the following minimum required fields:\nFor Journal Articles:\n\nAuthor(s)\nTitle\nJournal name\nYear\nVolume and issue (if applicable)\nPage numbers\nDOI (if available)\n\nFor Books:\n\nAuthor or Editor\nTitle\nPublisher\nYear\nPlace of publication\n\nFor Book Chapters:\n\nAuthor\nChapter title\nBook title\nEditor(s)\nPublisher\nYear\nPages\n\nFor Theses:\n\nAuthor\nTitle\nDegree type (e.g., MSc, PhD)\nInstitution\nYear\n\nFor Conference Proceedings:\n\nAuthor\nTitle\nConference title\nYear\nPages\nPublisher or Organizer\n\nFor Web Sources:\n\nAuthor or Organization\nTitle\nURL\nAccessed date\nYear (if available)\n\nImproper or incomplete references may delay processing.",
     "crumbs": [
       "Submit Articles",
-      "Peer Review Policy"
+      "Article submission"
     ]
   },
   {
-    "objectID": "peerReview.html#review-process",
-    "href": "peerReview.html#review-process",
-    "title": "Peer Review Policy",
-    "section": "Review Process",
-    "text": "Review Process\nUpon accepting the invitation, reviewers are provided with:\n\nA reviewer copy of the manuscript (PDF)\nA secure Google Form link for submitting their review\nA passcode (sent via email) to access the form\n\nReviewers are asked to assess the manuscript on the following:\n\nRelevance to the journal’s scope\nOriginality and novelty\nClarity of research objectives\nMethodological soundness\nQuality of analysis and interpretation\nValidity of conclusions\nPresentation and language",
+    "objectID": "editorial.html#editor-in-chief",
+    "href": "editorial.html#editor-in-chief",
+    "title": "Editorial Board",
+    "section": "Editor-in-Chief",
+    "text": "Editor-in-Chief\n\n  \n    Anith K.N.,PhD\n    \n    Professor,Department of Agricultural Microbiology,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: anith.kn@kau.in\n    ORCID: 0000-0002-5016-7533\n    Google Scholar Profile",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#reviewer-recommendations",
-    "href": "peerReview.html#reviewer-recommendations",
-    "title": "Peer Review Policy",
-    "section": "Reviewer Recommendations",
-    "text": "Reviewer Recommendations\nReviewers are requested to select one of the following:\n\nAccept as is\nMinor revision\nMajor revision\nReject\n\nThe editorial team makes the final decision, based on the reviewers’ recommendations and internal evaluation.",
+    "objectID": "editorial.html#associate-editors",
+    "href": "editorial.html#associate-editors",
+    "title": "Editorial Board",
+    "section": "Associate Editors",
+    "text": "Associate Editors\n\nCrop and Plant Science\n\n  \n    Beena R., PhD\n    Assistant Professor,Department of Plant Physiology,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: beena.r@kau.in\n    ORCID: 0000-0003-2654-4500\n    Google Scholar Profile\n  \n\n\n\n  \n    Sheeja K. Raj, PhD\n    Assistant Professor,Department of Agronomy,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: sheeja.raj@kau.in\n    ORCID: 0000-0002-3068-7494\n    Google Scholar Profile\n  \n\n\n\n  \n    Krishna Kumar G., PhD\n    Assistant Professor,Department of Plant Physiology,\n    College of Agriculture, Vellanikkara\n    Kerala Agricultural University\n    Email: krishna.kg@kau.in\n    ORCID: 0000-0002-8851-0042\n    Google Scholar Profile",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#confidentiality",
-    "href": "peerReview.html#confidentiality",
-    "title": "Peer Review Policy",
-    "section": "Confidentiality",
-    "text": "Confidentiality\nAll manuscripts and review materials are handled as confidential documents. Reviewers must:\n\nNot share the manuscript with others\nUse the content strictly for review purposes\nDisclose any conflicts of interest",
+    "objectID": "editorial.html#data-science-and-statistics-in-agriculture",
+    "href": "editorial.html#data-science-and-statistics-in-agriculture",
+    "title": "Editorial Board",
+    "section": "Data Science and Statistics in Agriculture",
+    "text": "Data Science and Statistics in Agriculture\n\n\n  \n    Jaslam Poolakkal, PhD\n    Lead Data Scientist,Intermountain Forestry Cooperative,\n    College of Natural Resources,\n    University of Idaho,\n    USA\n    Email: mjaslam@uidaho.edu\n    ORCID: 0000-0002-5800-5723\n    Google Scholar Profile\n  \n  \n\n\n  \n     Saurav Guha, Ph.D.\n    Assistant Professor-cum-Jr. Scientist,Department of Statistics, Mathematics & Computer Application,\n    Bihar Agricultural University,\n    Sabour, India\n    Email: saurav@bausabour.ac.in\n    ORCID: 0000-0001-8960-5062\n    Google Scholar Profile",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#acknowledgment-of-reviewers",
-    "href": "peerReview.html#acknowledgment-of-reviewers",
-    "title": "Peer Review Policy",
-    "section": "Acknowledgment of Reviewers",
-    "text": "Acknowledgment of Reviewers\nJOSTA provides an opportunity to acknowledge reviewers after publication. Reviewers are asked:\n\n“Are you willing to have your name and affiliation listed as a reviewer in the published article or journal issue?”\n\nThis is entirely voluntary and based on reviewer consent.",
+    "objectID": "editorial.html#agricultural-economics-and-rural-development",
+    "href": "editorial.html#agricultural-economics-and-rural-development",
+    "title": "Editorial Board",
+    "section": "Agricultural Economics and Rural Development",
+    "text": "Agricultural Economics and Rural Development\n\n\n  \n    Denny Franco, PhD\n    Assistant Professor,Department of Agricultural Economics,\n    College of Agriculture, Wayanad\n    Kerala Agricultural University\n    Email: denny.franco@kau.in\n    ORCID: \n    Google Scholar Profile\n  \n  \n\n\n  \n    Aswathy Vijayan, PhD\n    Assistant Professor,Department of Agricultural Economics,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: aswathy.v@kau.in\n    ORCID: 0000-0002-5137-6724\n    Google Scholar Profile",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#author-notification-and-proofing",
-    "href": "peerReview.html#author-notification-and-proofing",
-    "title": "Peer Review Policy",
-    "section": "Author notification and proofing",
-    "text": "Author notification and proofing\n\nAuthors are notified when their manuscript enters the peer review phase.\nA typeset PDF version is also shared with the authors during this stage for proofing.\nAuthors are requested to verify formatting, figures, author details, and notify any corrections within 3–5 working days.",
+    "objectID": "editorial.html#soil-science-and-agroecology",
+    "href": "editorial.html#soil-science-and-agroecology",
+    "title": "Editorial Board",
+    "section": "Soil Science and Agroecology",
+    "text": "Soil Science and Agroecology\n\n  \n    Kiran Karthik Raj, PhD\n    Assistant Professor,Department of Soil Science & Agricultural Chemistry,\n    College of Agriculture, Vellayani,\n    Kerala Agricultural University\n    Email: kiran.kr@kau.in\n    ORCID: 0000-0001-7313-5828\n    Google Scholar Profile",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#timelines",
-    "href": "peerReview.html#timelines",
-    "title": "Peer Review Policy",
-    "section": "Timelines",
-    "text": "Timelines\n\nStandard review period: 2 weeks\nTotal review and decision timeline: 4 to 6 weeks\nExtensions may be granted upon request",
+    "objectID": "editorial.html#managing-editors",
+    "href": "editorial.html#managing-editors",
+    "title": "Editorial Board",
+    "section": "Managing Editors",
+    "text": "Managing Editors\n\n  \n    Pratheesh P. Gopinath, PhD\n    Assistant Professor,Department of Agricultural Statistics,\n    Kerala Agricultural University\n    Email: pratheesh.pg@kau.in\n    ORCID: 0000-0003-3290-0436\n    Google Scholar Profile\n  \n\n\n\n  \n    Lovely B., PhD\n    Assistant Professor,Department of Plant Breeding & Genetics,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: lovely.b@kau.in\n    ORCID: 0000-0002-3456-7890\n    Google Scholar Profile",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#appeals-and-complaints",
-    "href": "peerReview.html#appeals-and-complaints",
-    "title": "Peer Review Policy",
-    "section": "Appeals and complaints",
-    "text": "Appeals and complaints\nAuthors may appeal a decision by contacting the editorial office with a formal justification. An independent editorial board member will handle the appeal process to ensure fairness.",
+    "objectID": "editorial.html#managing-assistant-editors",
+    "href": "editorial.html#managing-assistant-editors",
+    "title": "Editorial Board",
+    "section": "Managing Assistant Editors",
+    "text": "Managing Assistant Editors\n\n  \n    Atul Jayapal, PhD\n    Assistant Professor,Department of Agronomy,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: atul.j@kau.in\n    ORCID: \n    Google Scholar Profile\n  \n\n\n\n  \n    Gayathri G., PhD\n    Assistant Professor,Department of Plant Breeding & Genetics,\n    College of Agriculture, Vellayani\n    Kerala Agricultural University\n    Email: gayathri.g@kau.in\n    ORCID: 0009-0001-7993-8055\n    Google Scholar Profile",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Editorial Board"
     ]
   },
   {
-    "objectID": "peerReview.html#contact",
-    "href": "peerReview.html#contact",
-    "title": "Peer Review Policy",
-    "section": "Contact",
-    "text": "Contact\nFor questions or assistance regarding the review process, please contact:\n📧 jostapubs@gmail.com\n🌐 www.jostapubs.com",
+    "objectID": "index.html#our-vision",
+    "href": "index.html#our-vision",
+    "title": "About JOSTA",
+    "section": "Our Vision",
+    "text": "Our Vision\nJOSTA envisions a research environment where sharing agricultural innovations is simple, accessible, and inclusive. Our aim is to provide a dedicated platform for publishing high-quality agricultural research in a researcher-friendly manner—removing unnecessary barriers while maintaining high editorial standards. We believe in connecting researchers, educators, and practitioners by offering open access to well-reviewed, reliable research. By fostering a transparent and practical publishing process, JOSTA supports the continuous improvement of agricultural science and technology.",
     "crumbs": [
-      "Submit Articles",
-      "Peer Review Policy"
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#why-publish-with-us",
+    "href": "index.html#why-publish-with-us",
+    "title": "About JOSTA",
+    "section": "Why Publish with Us?",
+    "text": "Why Publish with Us?\nOpen Access: Your work is freely accessible online from the moment of publication, increasing its reach and impact.\n\nStreamlined Process: We offer a simple, submission-friendly system that focuses on quality without the complexity of traditional publishing.\nPermanent Archiving: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.\nSupportive Community: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#peer-review-policy",
+    "href": "index.html#peer-review-policy",
+    "title": "About JOSTA",
+    "section": "Peer Review Policy",
+    "text": "Peer Review Policy\nAll submissions undergo an initial assessment by the managing editors. Suitable manuscripts are then assigned to the appropriate section editors, who identify independent experts in the relevant field to serve as reviewers. JOSTA follows a double-blind peer review process, where both authors and reviewers remain anonymous to ensure fairness and objectivity. Based on the reviewers’ feedback, authors may be requested to revise their manuscripts.\nFor a detailed description of the review process, see Peer Review Process.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#open-access",
+    "href": "index.html#open-access",
+    "title": "About JOSTA",
+    "section": "🔓Open Access",
+    "text": "🔓Open Access\nJOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#article-processing-charges-apc",
+    "href": "index.html#article-processing-charges-apc",
+    "title": "About JOSTA",
+    "section": "Article Processing Charges (APC)",
+    "text": "Article Processing Charges (APC)\nAt JOSTA, we uphold the principle that research quality should never be compromised by publication costs. As we celebrate our inaugural year, we are proud to offer no Article Processing Charges (APC) to authors.\n✅ No submission fees\n✅ No charges for figures, tables, or page limits\n✅ Immediate online publication with permanent open-access availability\nWe are committed to supporting high-quality, impactful research and promoting affordable, accessible publishing for all. By removing financial barriers, we aim to encourage meaningful contributions to sustainable technology in agriculture.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#greener-publishing",
+    "href": "index.html#greener-publishing",
+    "title": "About JOSTA",
+    "section": "🍃Greener Publishing",
+    "text": "🍃Greener Publishing\nAs a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint—aligning our commitment to open access with a sustainable future for scholarly communication.\n   \n\nCopyright Information\n© 2025 Statoberry LLP. All rights reserved.\nJOSTA is licensed under a\n\nCreative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.\nUnder this license:\n- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made.\n- Non Commercial: You may not use the material for commercial purposes.\n- No Derivatives: If you remix, transform, or build upon the material, you may not distribute the modified material.\nFor commercial use or distribution of print copies, prior written permission from Statoberry LLP is required.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "plagiarism.html#plagiarism-policy",
+    "href": "plagiarism.html#plagiarism-policy",
+    "title": "JOSTA",
+    "section": "Plagiarism Policy",
+    "text": "Plagiarism Policy\nAt JOSTA, we maintain the highest standards of academic integrity. All submissions undergo rigorous scrutiny to ensure originality and proper scholarly conduct.\n\nScreening for plagiarism\nTo safeguard against unethical practices, every manuscript submitted to JOSTA is screened using Turnitin plagiarism detection software. This process checks for textual similarities and potential overlaps with previously published material, including journal articles, theses, conference papers, web content, and other sources.\n\n\nAcceptable use of language tools\nAuthors are permitted to use AI-based tools and language assistants (e.g., Grammarly, ChatGPT) for improving grammar, clarity, and language structure, provided the intellectual content, interpretation, and conclusions are solely those of the authors.\nHowever, authors must not use AI or generative tools to develop: - Core theoretical frameworks - Research hypotheses or models - Methodological structures - Results or interpretations\nAny content derived using such tools must be explicitly disclosed and will be subject to editorial scrutiny. JOSTA discourages and may reject work where foundational ideas or analyses are generated by AI.\n\n\nDefinition of plagiarism\nPlagiarism includes, but is not limited to: - Direct copying of text, data, images, or figures without proper citation - Paraphrasing substantial portions of another’s work without acknowledgment - Submitting previously published work (self-plagiarism) without disclosure - Improper use of generative AI for academic content creation\nJOSTA adheres to international norms such as the COPE (Committee on Publication Ethics) guidelines and the UGC (University Grants Commission) regulations on academic integrity in defining, identifying, and dealing with plagiarism. These frameworks guide our editorial decisions and ensure ethical standards are maintained throughout the publication process.\n\n\nEditorial action on plagiarism\nIf plagiarism is detected at any stage: - Before publication: The manuscript will be rejected, and the authors may be barred from future submission for a defined period. - After publication: The article may be retracted, and a formal notice will be issued to the authors’ affiliated institutions.\nAll authors are responsible for the integrity of their submissions. By submitting a manuscript, authors affirm that the content is original and has not been submitted elsewhere.\n\n\nAuthor Responsibility\nAuthors are advised to: - Use appropriate citation practices - Maintain a record of all source materials - Conduct originality checks before submission\nWe encourage authors to retain transparency and academic honesty in all stages of research and writing.\n\nLast updated: July 2025",
+    "crumbs": [
+      "Plagiarism Policy"
     ]
   },
   {
