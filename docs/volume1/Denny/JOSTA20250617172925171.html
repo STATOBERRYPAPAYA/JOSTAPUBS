@@ -1,0 +1,1972 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Denny Franco*">
+<meta name="author" content="Anil Chauhan">
+<meta name="author" content="Balwant S Chandel">
+<meta name="author" content="Ravinder Malhotra">
+<meta name="author" content="K. Ponnusamy">
+<meta name="author" content="Ashadevi S S">
+<meta name="dcterms.date" content="2025-07-22">
+<meta name="keywords" content="dairy self-help groups, loan repayment, microfinance, tobit regression, rural finance, Kerala, primary sector">
+
+<title>Dairy SHGs in Kerala: Economics and Loan Repayment Drivers – JOSTA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/cover.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e25cc82807363e79c52e96bc8b7855f1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d53daca99197445b18154044ae73bc11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-278209a1080c747a323a5f6c0262cc7d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Dairy SHGs in Kerala: Economics and Loan Repayment Drivers – JOSTA">
+<meta property="og:description" content="Microfinance activities play a vital role among the poor to raise their microenterprises especially in the primary agricultural sector of rural India and helped the marginalized people to elude from poverty. This paper detailed the economic performance of dairy-based SHGs and discuss the factors that influence the repayment performance of the SHGs in Kerala. The study consists of a sample of 80 dairy SHGs which is situated at a high altitude zone of Kerala where a large number of dairy-financed SHGs are existing. The results of economic performance analysis showed that the saving performance and repayment of the external bank linkage loans were quite impressive in the study area. However, the prompt repayment of internal loans lacking momentum. Results of Tobit regression have shown that peer pressure and dependency ratio have a positive influence, whereas homogeneity and loan amount has a negative influence on the repayment performance of the SHGs.">
+<meta property="og:image" content="https://www.jostapubs.com/volume1/Denny/images/cover.jpg">
+<meta property="og:site_name" content="JOSTA">
+<meta property="og:image:alt" content="JOSTA Volume 1 Cover">
+<meta name="twitter:title" content="Dairy SHGs in Kerala: Economics and Loan Repayment Drivers – JOSTA">
+<meta name="twitter:description" content="Microfinance activities play a vital role among the poor to raise their microenterprises especially in the primary agricultural sector of rural India and helped the marginalized people to elude from poverty. This paper detailed the economic performance of dairy-based SHGs and discuss the factors that influence the repayment performance of the SHGs in Kerala. The study consists of a sample of 80 dairy SHGs which is situated at a high altitude zone of Kerala where a large number of dairy-financed SHGs are existing. The results of economic performance analysis showed that the saving performance and repayment of the external bank linkage loans were quite impressive in the study area. However, the prompt repayment of internal loans lacking momentum. Results of Tobit regression have shown that peer pressure and dependency ratio have a positive influence, whereas homogeneity and loan amount has a negative influence on the repayment performance of the SHGs.">
+<meta name="twitter:image" content="https://www.jostapubs.com/volume1/Denny/images/papayalogo.png">
+<meta name="twitter:image:alt" content="JOSTA Journal">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Dairy SHGs in Kerala: Economics and Loan Repayment Drivers</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/sidebarcover.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Submit Articles</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../submit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submit article</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../authorguide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Article submission</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../peerReview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Peer Review Policy</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../published.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Latest Articles</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Volumes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Volume 1</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Issues</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../volume1issue1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Issue 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../editorial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial Board</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../editorialsection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial Sections</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Report a Problem</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../plagiarism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Plagiarism Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../contact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contact Us</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#materials-and-methods" id="toc-materials-and-methods" class="nav-link" data-scroll-target="#materials-and-methods"><span class="header-section-number">2</span> Materials and methods</a>
+  <ul class="collapse">
+  <li><a href="#tobit-model-specification" id="toc-tobit-model-specification" class="nav-link" data-scroll-target="#tobit-model-specification"><span class="header-section-number">2.1</span> Tobit Model Specification</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">3</span> Results</a>
+  <ul class="collapse">
+  <li><a href="#determinants-of-repayment-performance-of-shgs" id="toc-determinants-of-repayment-performance-of-shgs" class="nav-link" data-scroll-target="#determinants-of-repayment-performance-of-shgs"><span class="header-section-number">3.1</span> Determinants of Repayment Performance of SHGs</a></li>
+  <li><a href="#estimated-tobit-model" id="toc-estimated-tobit-model" class="nav-link" data-scroll-target="#estimated-tobit-model"><span class="header-section-number">3.2</span> Estimated TOBIT Model</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Dairy SHGs in Kerala: Economics and Loan Repayment Drivers</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Orignal-Article</div>
+    <div class="quarto-category">Economics</div>
+    <div class="quarto-category">Policy</div>
+  </div>
+  </div>
+
+
+<div class="quarto-title-meta-author column-body">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://kau.in/people/dr-denny-franco">Denny Franco*</a> <a href="mailto:denny.franco@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Anil Chauhan <a href="mailto:anil5554@rediffmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            ICAR-NDRI
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Balwant S Chandel <a href="mailto:chandelbs@rediffmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            ICAR-NDRI
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ravinder Malhotra <a href="mailto:rmal1962@rediffmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            ICAR-NDRI
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">K. Ponnusamy <a href="mailto:dairyextension@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            ICAR-NDRI
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ashadevi S S <a href="mailto:ash.nibha@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            ICAR-IARI
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta column-body">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 22, 2025</p>
+    </div>
+  </div>
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.5281/zenodo.16308321">10.5281/zenodo.16308321</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Microfinance activities play a vital role among the poor to raise their microenterprises especially in the primary agricultural sector of rural India and helped the marginalized people to elude from poverty. This paper detailed the economic performance of dairy-based SHGs and discuss the factors that influence the repayment performance of the SHGs in Kerala. The study consists of a sample of 80 dairy SHGs which is situated at a high altitude zone of Kerala where a large number of dairy-financed SHGs are existing. The results of economic performance analysis showed that the saving performance and repayment of the external bank linkage loans were quite impressive in the study area. However, the prompt repayment of internal loans lacking momentum. Results of Tobit regression have shown that peer pressure and dependency ratio have a positive influence, whereas homogeneity and loan amount has a negative influence on the repayment performance of the SHGs.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>dairy self-help groups, loan repayment, microfinance, tobit regression, rural finance, Kerala, primary sector</p>
+  </div>
+</div>
+
+</header>
+
+
+<p><a href="https://doi.org/10.5281/zenodo.16308321"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.16308321.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
+<!-- Download PDF Button -->
+<p><a href="pdfs/JOSTA20250617172925171.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
+<!-- Copy Citation Button -->
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
+</button>
+</div>
+<!-- Hidden Citation Text -->
+<p><span id="citation-text" style="display: none;">Franco, D., Chauhan, A., Chandel, B. S., Malhotra, R., Ponnusamy, K., &amp; Ashadevi, S. S. (2025). Dairy SHGs in Kerala: Economics and Loan Repayment Drivers. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.16308321</span></p>
+<!-- JavaScript -->
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+<!-- CSS Styling -->
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>In the post-globalization era, many countries witnessed high momentum in economic growth. However, this rapid growth failed to provide the much-needed ‘trickle-down’ effect at the expected rate. The unequal growth of different sectors exacerbated poverty and income inequality. Generally, poor people adopt various livelihood strategies such as smallholder entrepreneurship, participation in agricultural and non-farm labour markets, and migration to overcome poverty <span class="citation" data-cites="worldbank2007report">(<a href="#ref-worldbank2007report" role="doc-biblioref">World Bank 2007</a>)</span>. The decision to adopt particular strategies is influenced by access to resources and gender power relations within the community and household.</p>
+<p>In recent decades, the Indian agriculture sector has experienced a high level of feminization, accelerating rapidly. The poverty-induced shift of the male population from farm to non-farm activities for sustenance and better income is quite evident in the country’s economy <span class="citation" data-cites="itishree2018feminization">(<a href="#ref-itishree2018feminization" role="doc-biblioref">Itishree et al. 2018</a>)</span>. Therefore, providing credit and other input facilities to women is considered an important policy intervention for poverty alleviation and agricultural development in the country.</p>
+<p>Financial inclusion—bringing all sections of society, regardless of socio-economic status, into the formal financial system—plays a pivotal role in any nation’s holistic development. The inclusion of marginalized sections of society in formal financial institutions is a critical prerequisite for eradicating poverty and fostering economic growth <span class="citation" data-cites="demirguckunt2008finance rangarajan2008report">(<a href="#ref-demirguckunt2008finance" role="doc-biblioref">Demirguc-Kunt, Levine, and Detragiache 2008</a>; <a href="#ref-rangarajan2008report" role="doc-biblioref">Rangarajan 2008</a>)</span>. Various studies have pointed out that countries with higher levels of financial inclusion exhibit better GDP growth rates <span class="citation" data-cites="demirguckunt2009finance">(<a href="#ref-demirguckunt2009finance" role="doc-biblioref">Demirguc-Kunt and Levine 2009</a>)</span>.</p>
+<p>The microfinance movement has played a crucial role in addressing this national issue and has emerged as the single largest saviour of the rural poor from financial exclusion, especially for women. Among the different models, the Self-Help Group (SHG)-led microfinance model has evolved into the most prominent channel for financial inclusion and has become an integral and inevitable component of the rural economy in India <span class="citation" data-cites="dhar2016microfinance">(<a href="#ref-dhar2016microfinance" role="doc-biblioref">Dhar 2016</a>)</span>. Ideally, poor people can invest small amounts in micro-enterprises to generate income for their livelihood. SHGs have been financing both income-generating and consumption-related needs of members. However, various studies have shown that earlier credit requirements were often used for consumption purposes <span class="citation" data-cites="sooryamoorthy2007microcredit vasantha2014challenges">(<a href="#ref-sooryamoorthy2007microcredit" role="doc-biblioref">Sooryamoorthy 2007</a>; <a href="#ref-vasantha2014challenges" role="doc-biblioref">Vasantha 2014</a>)</span>.</p>
+<p>Among income-generating activities, dairy enterprises are especially popular among farmers due to their familiarity with dairying and the opportunity for year-round cash flow, which facilitates easy loan repayment. The performance of SHGs in southern Indian states has been commendable in terms of loan repayment rates and the velocity of lending. In particular, the SHG movement in Kerala has gained significant attention due to its active role in the state’s poverty eradication programmes. A study on women’s participation in agriculture and allied activities found that over 95% of the work in the animal husbandry sector in rural Kerala was performed by women <span class="citation" data-cites="geethakutty2014impact">(<a href="#ref-geethakutty2014impact" role="doc-biblioref">Geethakutty et al. 2014</a>)</span>. Furthermore, refinancing of dairy loans shows a positive trend and holds vast potential for enhancing the employment and income of poor households, especially women <span class="citation" data-cites="nabard2019status">(<a href="#ref-nabard2019status" role="doc-biblioref">NABARD 2019</a>)</span>.</p>
+<p>The factors affecting the repayment performance of SHGs require thorough investigation, as they depend on multiple socioeconomic variables. Since only a limited number of empirical studies have examined the influence of such factors in India, this paper explores the group performance of SHGs and investigates the determinants of their repayment behaviour.</p>
+</section>
+<section id="materials-and-methods" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="materials-and-methods"><span class="header-section-number">2</span> Materials and methods</h2>
+<p>The SHG movement in the study state, Kerala, began with the Kudumbashree Mission, which was implemented two decades ago with strong support from the state government. This study made use of both primary and secondary data. The secondary data regarding the dairy based SHG’s were collected from the State Poverty Eradication Mission of the Government of Kerala and also from its district offices. The primary data were collected from both SHG members and non-members during the period 2020–21.</p>
+<p>In accordance with the objectives, a multistage random sampling technique was adopted. The high-altitude agro-economic zone was purposively selected due to the presence of a large number of dairy-financed SHGs in the area. From this zone, Idukki and Wayanad districts were selected purposively, as they are predominantly rural and host the highest number of dairy-financed SHGs.</p>
+<p>Further, two blocks each were randomly selected from these districts: Nedumkandam and Adimaly from Idukki, and Mananthavady and Kalpetta from Wayanad. Only groups that had availed of dairy loans and had a minimum of three years of experience were included in the sample, based on the assumption that benefits of SHG participation would be meaningfully reflected over that time. From each selected block, 20 women SHGs were randomly chosen, resulting in a total sample of 80 groups.</p>
+<p>Data on group performance—such as frequency of meetings, planned savings, transaction costs incurred, savings accumulated, interest rate charged, bank linkage loans availed, repayment schedule, income-generating activities financed, group size, financial inclusion status, and socio-economic profile of members—were collected through interviews with SHG leaders and inspection of register books.</p>
+<p>Loan performance was assessed using both internal and external loan indicators, considering the average of the past two years. Intragroup lending performance was measured by the percentage of members who received internal loans annually. Repayment performance was assessed by the ratio of the amount repaid to the amount due (credit plus interest), separately for internal group loans (from group savings) and external bank linkage loans (from formal financial institutions).</p>
+<p>The key performance indicators were calculated as follows:</p>
+<p><span id="eq-eq1"><span class="math display">\[\text{Saving performance} = \frac{\text{Actual Savings}}{\text{Planned Savings}} \tag{1}\]</span></span></p>
+<p><span id="eq-eq2"><span class="math display">\[\text{Repayment rate} = \frac{\text{Amount Repaid}}{\text{Credit} + \text{Interest}} \tag{2}\]</span></span></p>
+<p>The delinquency rate was used as a proxy for repayment performance and was computed using <a href="#eq-eq3" class="quarto-xref">Equation&nbsp;3</a>.</p>
+<p><span id="eq-eq3"><span class="math display">\[\text{Delinquency rate} = \frac{\text{Volume of Loans in Arrears}}{\text{Total Loan Volume on Promised Date}} \tag{3}\]</span></span></p>
+<p>A delinquency rate of 0 indicates complete repayment on schedule, while a value of 1 indicates complete delinquency. This measure follows the approach suggested by <span class="citation" data-cites="sharma1997repayment">(<a href="#ref-sharma1997repayment" role="doc-biblioref">Sharma and Zeller 1997</a>)</span> and <span class="citation" data-cites="feroze2011factors">(<a href="#ref-feroze2011factors" role="doc-biblioref">Feroze et al. 2011</a>)</span>.</p>
+<p>The factors affecting the delinquency rate were estimated using the Tobit maximum likelihood estimation technique, considering the censored nature of the dependent variable.</p>
+<section id="tobit-model-specification" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="tobit-model-specification"><span class="header-section-number">2.1</span> Tobit Model Specification</h3>
+<p>TOBIT maximum likelihood technique: The function for delinquency rate was defined as in <a href="#eq-delfunc" class="quarto-xref">Equation&nbsp;4</a></p>
+<p><span id="eq-delfunc"><span class="math display">\[\text{DELQR} = f(\text{LAMNT}, X) \tag{4}\]</span></span></p>
+<p><span class="math inline">\(\text{LAMNT}\)</span> is the amount of loan in rupees and <span class="math inline">\(X\)</span> is vector for group and community variables . The function is defined for <span class="math inline">\(\text{LAMNT}&gt;0\)</span>. The assumption is as shown in <a href="#eq-limit" class="quarto-xref">Equation&nbsp;5</a> <span id="eq-limit"><span class="math display">\[\lim_{\text{LAMNT} \to 0} \text{DELQR} = 0  \tag{5}\]</span></span></p>
+<p>Since defaults of small loan are likely to be zero. Hence, the dependent variable is truncated to zero when the group is having prompt repayment. The equation is specified as in <a href="#eq-tobit" class="quarto-xref">Equation&nbsp;6</a>.</p>
+<p><span id="eq-tobit"><span class="math display">\[\text{DELQR}_i^* = \beta_1 + + \beta_2 X_{2i} +  \varepsilon_i \tag{6}\]</span></span></p>
+<p><span class="math display">\[\text{DELQR}_i =
+\begin{cases}
+\text{DELQR}_i^*, &amp; \text{if } \text{DELQR}_i^* &gt; 0 \\
+0, &amp; \text{otherwise}
+\end{cases}\]</span></p>
+<p><span class="math inline">\(\text{DELQR}_i^*\)</span> is a latent variable observable when it takes a positive value.</p>
+<p><a href="#eq-tobit" class="quarto-xref">Equation&nbsp;6</a> was estimated using the maximum likelihood technique <span class="citation" data-cites="maddala1983limited">(<a href="#ref-maddala1983limited" role="doc-biblioref">Maddala 1983</a>)</span>. The explanatory variables used in the TOBIT model are listed in <a href="#tbl-vars" class="quarto-xref">Table&nbsp;1</a> along with its expected sign.</p>
+<div id="tbl-vars" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-vars-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Measurement and expected signs of explanatory variables used in the Tobit regression model
+</figcaption>
+<div aria-describedby="tbl-vars-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Explanatory Variable</th>
+<th>Measurement</th>
+<th>Expected Sign</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Peer Monitoring (PM)</td>
+<td>Frequency of meetings per year</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Peer Pressure (PP)</td>
+<td>PP = 1 if group members exert pressure in case of default; 0 otherwise</td>
+<td>±</td>
+</tr>
+<tr class="odd">
+<td>Degree of Self Selection (SS)</td>
+<td>Scale measuring SS in terms of ex-ante and ex-post member selection</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Homogeneity / Social Ties (HOMO)</td>
+<td>Scale measuring group homogeneity by age, religion, marital status, education, occupation, and landholding size</td>
+<td>±</td>
+</tr>
+<tr class="odd">
+<td>Group Size (GS)</td>
+<td>Number of group members</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Dependency Ratio (DR)</td>
+<td>Proportion of children in total household size</td>
+<td>+</td>
+</tr>
+<tr class="odd">
+<td>Loan Amount Limit (LONAM)</td>
+<td>Maximum individual loan lending limit in ₹</td>
+<td>+</td>
+</tr>
+<tr class="even">
+<td>Working Experience (WEXP)</td>
+<td>Age of the group in months</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="results" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="results"><span class="header-section-number">3</span> Results</h2>
+<p>The studies pointed out that the tenure of group establishment had a significant role in the group’s overall performance <span class="citation" data-cites="apmas2017impact satyasai2014whither">(<a href="#ref-apmas2017impact" role="doc-biblioref">APMAS 2017</a>; <a href="#ref-satyasai2014whither" role="doc-biblioref">Satyasai, Sahoo, and Smita 2014</a>)</span>. Hence, the total of 80 groups was post-classified based on their years of operation into three categories using the cumulative square root frequency method (<a href="#tbl-tenure" class="quarto-xref">Table&nbsp;2</a>). As per this criterion, the number of groups falling under IMG (4–8 years), MMG (9–13 years), and LMG (&gt;13 years) categories was 30 (37.50%), 28 (35.00%), and 22 (27.50%), respectively.</p>
+<div id="tbl-tenure" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tenure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Classification of SHGs based on the tenure of establishment (Figures in parentheses indicate the percentage of the total number of groups)
+</figcaption>
+<div aria-describedby="tbl-tenure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Idukki District</th>
+<th>Wayanad District</th>
+<th>Overall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Initial Matured Groups (IMG) (4–8 yrs)</td>
+<td>13 (32.50)</td>
+<td>17 (42.50)</td>
+<td>30 (37.50)</td>
+</tr>
+<tr class="even">
+<td>Medium Matured Groups (MMG) (9–13 yrs)</td>
+<td>14 (35.00)</td>
+<td>14 (35.00)</td>
+<td>28 (35.00)</td>
+</tr>
+<tr class="odd">
+<td>Long Matured Groups (LMG) (&gt;13 yrs)</td>
+<td>13 (32.50)</td>
+<td>9 (22.50)</td>
+<td>22 (27.50)</td>
+</tr>
+<tr class="even">
+<td>Overall</td>
+<td>40 (100.00)</td>
+<td>40 (100.00)</td>
+<td>80 (100.00)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The saving performance of groups was evaluated by comparing the planned savings amount with the actual savings amount. The pre-decided/agreed amount of savings in respective groups was considered as planned savings amount. The details of category wise saving performance are elaborated in <a href="#tbl-saving" class="quarto-xref">Table&nbsp;3</a>. From <a href="#tbl-saving" class="quarto-xref">Table&nbsp;3</a>, it is well observable that average cumulative savings per member was Rs.19803 in the overall category and it varied from Rs.13161 of IMG category to Rs. 26040 of the LMG category. The average planned savings per group was worked out as Rs. 306812 over the years and the average achievement in the targeted amount was found to be Rs.295593. The savings performance ratio in the overall category was found to be 0.9665, which implies that 96.65 per cent achievement in the pre-planned amount. The high saving ratio of the selected SHGs showed a better level of financial decorum maintained by the groups in savings amount accumulation. The improved economic background of the state and livelihood options provided through microfinance activities could be the possible reason for the high saving performance in the study area. In contrast, the saving ratio reported by the other studies was quite low and it ranges from 71 per cent to 74 per cent only <span class="citation" data-cites="verhelle2003determinants feroze2010performance">(<a href="#ref-verhelle2003determinants" role="doc-biblioref">Verhelle and Berlage 2003</a>; <a href="#ref-feroze2010performance" role="doc-biblioref">Feroze and Chauhan 2010</a>)</span>. The detailed analysis across different age group categories showed that the saving performance of initial matured groups (98.11%) was relatively higher than the elder category groups. The divergence in the savings amount was observed in some groups mainly because of the adjustments of group savings to the outstanding loan arrears. The trend was observed more in elder category groups than younger ones. Such undesirable practices may affect the self-sustainability of groups in the long run.</p>
+<div id="tbl-saving" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-saving-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Saving performance of SHGs
+</figcaption>
+<div aria-describedby="tbl-saving-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Particulars</th>
+<th>IMG</th>
+<th>MMG</th>
+<th>LMG</th>
+<th>Overall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Average cumulative savings per member (Rs.)</td>
+<td>13,161</td>
+<td>22,017</td>
+<td>26,040</td>
+<td>19,803</td>
+</tr>
+<tr class="even">
+<td>2. Average annual savings per SHG (Rs.)</td>
+<td>32,963</td>
+<td>30,243</td>
+<td>23,693</td>
+<td>29,462</td>
+</tr>
+<tr class="odd">
+<td>3. Average planned savings per SHG (Rs.)</td>
+<td>201,659</td>
+<td>336,560</td>
+<td>412,340</td>
+<td>306,812</td>
+</tr>
+<tr class="even">
+<td>4. Average actual savings per SHG (Rs.)</td>
+<td>197,994</td>
+<td>325,568</td>
+<td>390,534</td>
+<td>295,593</td>
+</tr>
+<tr class="odd">
+<td>5. Actual savings over planned savings (Ratio)</td>
+<td>0.9811</td>
+<td>0.9653</td>
+<td>0.9483</td>
+<td>0.9665</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The SHGs has been offering two types of loaning facility to its members, i.e., internal group loan and the external bank linkage loan. Even though the external bank linkage loan was taken in the name of generating productive purposes, its utilization was found to be diverted from the intended objectives. The utilization of external bank linkage loans across different portfolios is detailed in <a href="#tbl-loanpurpose" class="quarto-xref">Table&nbsp;4</a>. It could be seen from <a href="#tbl-loanpurpose" class="quarto-xref">Table&nbsp;4</a> that 24.85 per cent of the availed loan was utilized for agricultural and allied activities and 10.58 per cent for the business purposes. The remaining 64.57 per cent of the loan availed was utilized for different consumption purposes. Among that loans, the maximum proportion of the loan was availed for meeting the requirements of children’s education (19.90%) followed by medical expenses (16.12%), household expenses (14.36%), and marriage and festival expenses (8.31%), respectively. The observations of the study found consistent with the findings of <span class="citation" data-cites="kumar2013access">(<a href="#ref-kumar2013access" role="doc-biblioref">Kumar 2013</a>)</span>, in which he reported that 70 per cent of the availed SHG loan was utilized for personal consumption purposes rather than financing income generation activities in Kerala.</p>
+<div id="tbl-loanpurpose" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-loanpurpose-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;4: Purpose of internal loan taken
+</figcaption>
+<div aria-describedby="tbl-loanpurpose-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 58%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sl. No.</th>
+<th>Purpose</th>
+<th>Percentage (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Agriculture and allied activities</td>
+<td>24.85</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Business purpose</td>
+<td>10.58</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><strong>Subtotal (1–2)</strong>: Income generation activities</td>
+<td><strong>35.43</strong></td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Education of children</td>
+<td>19.90</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Household expenditure</td>
+<td>16.12</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Medical expenses</td>
+<td>14.36</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Marriage and festivals</td>
+<td>8.31</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Miscellaneous expenditure</td>
+<td>5.88</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><strong>Subtotal (3–7)</strong>: Consumption loan</td>
+<td><strong>64.57</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><strong>Aggregate Total</strong></td>
+<td><strong>100.00</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The internal loaning performance of the group was captured through the percentage of members who received an internal loan per annum by considering the past two years’ loan distribution mechanism (<a href="#tbl-loanperformance" class="quarto-xref">Table&nbsp;5</a>). On average, groups were capable of disbursing internal loans amounting to Rs. 370099 per annum in the study area. Among them, the long-matured groups’ loan magnitude was distinctly high, at Rs. 465506 per annum, due to the larger corpus fund availability. The tenure of establishment also influenced the magnitude of loan per member, which varied from Rs. 18100 to Rs. 31123 across different age group categories, with an overall average of Rs. 24844 per annum. The outreach of internal loans was found to be 95.24 per cent in the initially matured groups and increased to 99.32 per cent in elder (LMG) groups, with an overall average of 97.32 per cent. The analysis of internal loaning performance implies that the groups in the area were able to distribute their thrift money in a well-equitable manner.</p>
+<p>The SHGs were availing loans from formal financial institutions to meet members’ extra financial requirements. The grading of groups was a mandatory criterion followed by the banks for the approval of bank linkage loans. The loan application from each group went through a three-level monitoring mechanism of the Kudumbashree Mission—namely, the Area Development Societies (ADS) committee at the panchayat ward level and the Community Development Society (CDS) committee at the panchayat level—for scrutiny. A recommendation letter from the CDS chairperson was a mandatory document for availing the bank linkage loan for SHGs. Such high-level scrutiny also helped banks assess the repayment capacity of each group.</p>
+<p>The bank charged compound interest as per prevailing lending norms, which ranged from 11 to 13 per cent, based on the loan amount and the repayment duration chosen by the group. However, the groups were eligible for an interest subsidy of up to 7 per cent under the National Rural Livelihood Mission (NRLM) interest subvention scheme. An additional 3 per cent interest subvention was provided by the state government to all Women SHGs (WSHGs) in the state.</p>
+<p>The study observed that out of the total 80 groups, 4 groups (5%) had not availed any kind of bank credit in the past two years. The lack of consensus among members and risk-averse behaviour of these groups was reported as the reason, despite all groups having accessed at least one bank linkage since their inception. A maximum of eight linkages was observed among the selected SHGs. The processing time for loan applications was reported to be less than one month in the study area, and the repayment period of term loans varied from 3 to 5 years, depending on the loan amount.</p>
+<div id="tbl-loanperformance" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-loanperformance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5: Loaning performance of SHGs
+</figcaption>
+<div aria-describedby="tbl-loanperformance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Particulars</th>
+<th>IMG</th>
+<th>MMG</th>
+<th>LMG</th>
+<th>Overall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Internal loaning performance</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1. Loan disbursed per SHG (Rs.)</td>
+<td>271,586</td>
+<td>400,687</td>
+<td>465,506</td>
+<td>370,099</td>
+</tr>
+<tr class="odd">
+<td>2. Loan per member (Rs.)</td>
+<td>18,100</td>
+<td>27,135</td>
+<td>31,123</td>
+<td>24,844</td>
+</tr>
+<tr class="even">
+<td>3. Outreach of internal loan (% of members received loan)</td>
+<td>95.24</td>
+<td>97.97</td>
+<td>99.32</td>
+<td>97.32</td>
+</tr>
+<tr class="odd">
+<td><strong>External loaning performance</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1. Average bank loan amount (Rs.)</td>
+<td>417,217</td>
+<td>545,536</td>
+<td>614,545</td>
+<td>516,394</td>
+</tr>
+<tr class="odd">
+<td>2. Average loan per member (Rs.)</td>
+<td>28,615</td>
+<td>36,919</td>
+<td>40,967</td>
+<td>34,918</td>
+</tr>
+<tr class="even">
+<td>3. Credit–Thrift ratio</td>
+<td>2.22</td>
+<td>1.75</td>
+<td>1.57</td>
+<td>1.88</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The average bank linkage loan amount was found highest in long matured groups (Rs. 614545) followed by the MMG (Rs. 545536) and IMG (Rs. 417217) category, respectively. The credit-thrift ratio of the availed loans was computed to be 2.22:1, 1.75:1, and 1.57:1 in IMG, MMG, and LMG categories, respectively. The recently formed groups have a lesser amount of thrift and a huge demand for working capital, which could be the possible reason for the higher credit-thrift ratio in the IMG category. The credit–thrift ratio of SHG linkage loans reported by different studies varied from 1.4:1 to 6:1 <span class="citation" data-cites="satyasai2014whither verhelle2003determinants feroze2010performance">(<a href="#ref-satyasai2014whither" role="doc-biblioref">Satyasai, Sahoo, and Smita 2014</a>; <a href="#ref-verhelle2003determinants" role="doc-biblioref">Verhelle and Berlage 2003</a>; <a href="#ref-feroze2010performance" role="doc-biblioref">Feroze and Chauhan 2010</a>)</span>. The ratio in the elder groups was not found impressive; this was due to the ceiling on lending (Rs. 10 lakhs/group) fixed by the banks and also possibly due to the availability of high corpus funds with these groups.</p>
+<p>The repayment period of internal loans varied from three months to two years in the selected SHGs. The interest rate of the internal loan has been decided as per the groups’ consensus and is being collected monthly. In the study area, the groups were charging 12 per cent simple interest for the internal group loan, i.e., 1 per cent per month. The demand for internal loans is high because of ease of availability, flexibility in the repayment schedule, and attractiveness in the interest rate. The maximum individual lending limit of the internal loan is updated based on the corpus fund availability and members’ demand. It was observed that the maximum lending limit of the internal loan amount ranged from Rs. 20000 to Rs. 75000 per member in the selected groups.</p>
+<div id="tbl-repayment" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-repayment-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6: Loan repayment performance and Savings Bank Account Penetration (SBAP) of SHGs
+</figcaption>
+<div aria-describedby="tbl-repayment-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Particulars</th>
+<th>IMG</th>
+<th>MMG</th>
+<th>LMG</th>
+<th>Overall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>a) Internal loan</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1. Internal group loan disbursed per annum (Rs.)</td>
+<td>271,586</td>
+<td>400,687</td>
+<td>465,506</td>
+<td>370,099</td>
+</tr>
+<tr class="odd">
+<td>2. Internal loan repaid per annum (Rs.)</td>
+<td>236,754</td>
+<td>346,143</td>
+<td>391,791</td>
+<td>317,675</td>
+</tr>
+<tr class="even">
+<td>3. Repayment rate (%)</td>
+<td>87.81</td>
+<td>87.16</td>
+<td>84.62</td>
+<td>86.72</td>
+</tr>
+<tr class="odd">
+<td><strong>b) External loan</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1. Average loan amount per SHG in latest linkage (Rs.)</td>
+<td>417,217</td>
+<td>545,536</td>
+<td>614,545</td>
+<td>516,394</td>
+</tr>
+<tr class="odd">
+<td>2. Scheduled annual group repayment amount (Rs.)</td>
+<td>177,310</td>
+<td>183,662</td>
+<td>249,692</td>
+<td>199,438</td>
+</tr>
+<tr class="even">
+<td>3. Annual repaid amount (Rs.)</td>
+<td>174,176</td>
+<td>182,516</td>
+<td>249,692</td>
+<td>197,862</td>
+</tr>
+<tr class="odd">
+<td>4. Repayment ratio (Ratio)</td>
+<td>0.9859</td>
+<td>0.9934</td>
+<td>1.0000</td>
+<td>0.9924</td>
+</tr>
+<tr class="even">
+<td><strong>c) Savings Bank Account Penetration (SBAP) Ratio (%)</strong></td>
+<td>88.96</td>
+<td>91.15</td>
+<td>96.04</td>
+<td>91.67</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Furtherly, the repayment performance of the group was evaluated through the amount of loan repaid on the scheduled time. Although the SHGs nominally fixed the installment amount for monthly repayments, in practice, members repay their loans without any fixed installment schedule. The average repayment rate (<a href="#tbl-repayment" class="quarto-xref">Table&nbsp;6</a>) of the internal loan was found to be 87.81 per cent, 87.16 per cent, and 84.62 per cent in initial, medium, and long matured category groups, respectively, with an overall average of 86.72 per cent. The category-wise analysis indicated that the delinquency rate was high in the case of the LMG category compared to the younger groups. These findings were in line with the observations of <span class="citation" data-cites="nedumaran2001impact feroze2011factors apmas2017impact">(<a href="#ref-nedumaran2001impact" role="doc-biblioref">Nedumaran, Palanisami, and Swaminathan 2001</a>; <a href="#ref-feroze2011factors" role="doc-biblioref">Feroze et al. 2011</a>; <a href="#ref-apmas2017impact" role="doc-biblioref">APMAS 2017</a>)</span>, where they reported that repayment of internal group loans faces more challenges than repayment of external bank linkage loans. The utilization of loans for consumption purposes and flexibility in the loan repayment might be the plausible reason for the poor repayment rate of internal group loans in the study area. Besides that, the monitoring agencies of the SHGs were more concerned about the prompt repayment of the external loan amount and least bothered about the overall repayment scenario of the groups.</p>
+<p>The SHGs have been keeping separate accounts for external bank linkage loans. It was observed that the groups in the study area were not charging any extra commission for the external bank linkage loan from its members. The availed bank loan amount has been distributed within the group as per the members’ requirement. The disbursed amount varied from Rs. 15000 to Rs. 100000 per member in the sampled SHGs as per the members’ requirements. The analysis of external loan repayment revealed that the repayment rate of the bank linkage loan was quite impressive in the sampled SHGs, with an overall average of 99.24 per cent. Out of the total 80 SHGs, only 7 SHGs were facing some level of challenges in the prompt loan repayment. The groups were eligible for the back-end subsidy for prompt loan repayment, which motivates the members for timely repayment. Moreover, the banks were more stringent in penalizing defaulters, which increases the burden on all the members and automatically creates peer pressure.</p>
+<p>The opening of individual savings bank accounts has been considered a prerequisite for the economic empowerment of women <span class="citation" data-cites="satyasai2014whither">(<a href="#ref-satyasai2014whither" role="doc-biblioref">Satyasai, Sahoo, and Smita 2014</a>)</span>. The role of SHGs in the financial inclusion of members was also captured through the savings bank account penetration ratio (SBAP), i.e., the proportion of members having an individual savings bank account to the total. On average, more than 90 per cent of the group members had their own individual savings bank account in the selected SHGs. The highest SBAP ratio was observed in the LMG (96.04%) category, followed by MMG and IMG category groups. The financial literacy earned through SHG activities motivates the members to open individual bank accounts in large numbers.</p>
+<section id="determinants-of-repayment-performance-of-shgs" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="determinants-of-repayment-performance-of-shgs"><span class="header-section-number">3.1</span> Determinants of Repayment Performance of SHGs</h3>
+<p>Prompt loan repayment is an imperative factor that determines the financial sustainability of any microfinance initiatives. From the earlier economic performance analysis, it was observed that the repayment of the external bank linkage loans was quite impressive in the study area. However, the prompt repayment of internal loans lacking momentum. Thus, the factors affecting the repayment behaviour of internal group loans have captured through TOBIT censored regression model to identify the determinants of prompt loan repayment by taking the delinquency rate as a dependent variable. The sample mean of the different explanatory variables used in the model is detailed in <a href="#tbl-means" class="quarto-xref">Table&nbsp;7</a>. The average delinquency rate was worked out to be 13.28 per cent and varied from zero (complete repayment) to 24.20 per cent in the selected SHGs.</p>
+<div id="tbl-means" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-means-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;7: The sample means of different variables used in the Tobit model
+</figcaption>
+<div aria-describedby="tbl-means-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 22%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Unit</th>
+<th>Mean</th>
+<th>Min</th>
+<th>Max</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A) Dependent variable</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Delinquency rate</td>
+<td>Ratio</td>
+<td>0.1328</td>
+<td>0</td>
+<td>0.2420</td>
+</tr>
+<tr class="odd">
+<td><strong>B) Explanatory variables</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Peer monitoring</td>
+<td>Number</td>
+<td>49.28</td>
+<td>44</td>
+<td>52</td>
+</tr>
+<tr class="odd">
+<td>Peer pressure</td>
+<td>Dummy (0/1)</td>
+<td>0.46</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Degree of Self-selection</td>
+<td>Sum of scores</td>
+<td>2.18</td>
+<td>1</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Homogeneity</td>
+<td>Sum of scores</td>
+<td>3.60</td>
+<td>2</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>Group size</td>
+<td>Number</td>
+<td>15.16</td>
+<td>11</td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>Mean dependency ratio</td>
+<td>Ratio</td>
+<td>1.84</td>
+<td>1.16</td>
+<td>2.35</td>
+</tr>
+<tr class="even">
+<td>Loan amount per annum</td>
+<td>1,000 rupees</td>
+<td>43.36</td>
+<td>20</td>
+<td>75</td>
+</tr>
+<tr class="odd">
+<td>Age of SHG</td>
+<td>Months</td>
+<td>127.65</td>
+<td>40</td>
+<td>228</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>The proper monitoring mechanism reduces the incidence of wilful default and enhances the group’s ability to collect debt in time. The number of group meetings held per annum was taken as a proxy for capturing the groups’ monitoring ability. Group meetings provide an opportunity to monitor the repayment performance of its members. In general, meetings were convened in members’ homes on a rotation basis. The average number of meetings conducted per annum was found to be 49.28 in the study area and ranged from 44 to 52 meetings per annum.</p>
+<p>The variable peer pressure was captured through a dummy variable. It was observed that only 37 groups (46.25%) were exerting such kind of pressure on the group members for prompt loan repayment. Further, the self-selected groups have better understandings of their members, and the study assumed that it may lead to prompt loan repayment. The main screening of members occurred in the post group formation period. Therefore, both ex-ante and ex-post factors were considered for measuring the degree of self-selection <span class="citation" data-cites="wydick1999social">(<a href="#ref-wydick1999social" role="doc-biblioref">Wydick 1999</a>)</span>.</p>
+<p>The intensity of self-selection was captured through the scale developing technique. It was set as a four-digit scale where each positive answer gets one point to assess the intensity of self-selection. The sum of four different indicators—whether groups were formed by voluntary consensus of all the members, whether members were dropped out on group law violations, whether groups explicitly decided to reject new applicants, and whether new members had joined in the post-inception period—were considered for scale development <span class="citation" data-cites="verhelle2003determinants feroze2011factors">(<a href="#ref-verhelle2003determinants" role="doc-biblioref">Verhelle and Berlage 2003</a>; <a href="#ref-feroze2011factors" role="doc-biblioref">Feroze et al. 2011</a>)</span>.</p>
+<p>Out of the total 80 SHGs, 74 groups (92.50%) reported that they formed the group voluntarily without any external agency involvement. The number of groups that rejected the request of a new applicant was found to be 23 (28.75%), and 68 groups (85.00%) added new members even after the inception of the group. Only 9 groups (11.25%) reported member exclusion for violating the decorum of the group. The reasons for exclusion varied from poor attendance in group meetings to non-deposit of weekly savings contributions. The average self-selection score in the selected SHGs was found to be 2.18.</p>
+<p>The homogeneity in the group was measured by considering different socio-economic characteristics of group members. The scale consists of six indicators: age, religion, education, occupation, landholding size, and marital status. One point was given for each of the following: whether the age range of members was less than 15 years, whether 80% of members belonged to the same religion, had the same marital status, same educational level, same income-earning activity, and similar landholding sizes <span class="citation" data-cites="verhelle2003determinants">(<a href="#ref-verhelle2003determinants" role="doc-biblioref">Verhelle and Berlage 2003</a>)</span>.</p>
+<p>The highest number of groups (71 SHGs) were homogeneous in marital status (87.5%). A total of 39 groups (48.75%) reported age difference among members within 15 years, and 42 groups (52.50%) reported homogeneity in educational status. About 50 groups (62.5%) reported homogeneity in occupational status, and 63 groups (78.75%) were homogeneous in landholding size. The lowest homogeneity was observed in religion, where only 15 groups (18.75%) were homogeneous. The homogeneity score in the selected groups varied from 2 to 5, with an average of 3.6.</p>
+<p>Smaller groups tend to have better in-group coordination and control, reducing problems from asymmetric information <span class="citation" data-cites="ghatak1999economics">(<a href="#ref-ghatak1999economics" role="doc-biblioref">Ghatak and Guinnane 1999</a>)</span>. Thus, it was expected that smaller group size would lead to lower default. The number of members in the selected SHGs ranged from 11 to 20, with an average of 15.16 members.</p>
+<p>The average number of children directly dependent on the group members was also considered to analyze its role in repayment. The mean dependency ratio was 1.84 and ranged from 1.16 to 2.35 children per member per group.</p>
+<p>Groups fixed a maximum individual loan lending limit based on consensus. A higher loan limit may increase the likelihood of unwilling default. The individual loan limit was used as a proxy for this factor. It varied from Rs.20,000 to Rs.75,000 per member, with an overall average of Rs.43,360.</p>
+<p>The tenure of group establishment was considered to analyze the role of experience in repayment. Older groups may better understand the repayment capacity of members based on past experience. The average group age was 127 months, ranging from 40 to 228 months in the selected SHGs.</p>
+</section>
+<section id="estimated-tobit-model" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="estimated-tobit-model"><span class="header-section-number">3.2</span> Estimated TOBIT Model</h3>
+<p>The estimated coefficients can alternatively be interpreted as the determinants of prompt loan repayment. From the estimated model (<a href="#tbl-tobit" class="quarto-xref">Table&nbsp;8</a>), it was found that peer pressure, homogeneity of the group, mean dependency ratio, and the amount of loan disbursed were the key factors influencing prompt loan repayment in the study area.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Coefficient</th>
+<th>Std. Error</th>
+<th><span class="math inline">\(P(&gt; \lvert t \rvert)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Constant</td>
+<td>0.0670</td>
+<td>0.1220</td>
+<td>0.585</td>
+</tr>
+<tr class="even">
+<td>Peer monitoring</td>
+<td>-0.0002</td>
+<td>0.0020</td>
+<td>0.933</td>
+</tr>
+<tr class="odd">
+<td>Peer pressure</td>
+<td>-0.0245**</td>
+<td>0.0113</td>
+<td>0.033</td>
+</tr>
+<tr class="even">
+<td>Degree of self-selection</td>
+<td>0.0059</td>
+<td>0.0075</td>
+<td>0.438</td>
+</tr>
+<tr class="odd">
+<td>Homogeneity</td>
+<td>0.0213***</td>
+<td>0.0060</td>
+<td>0.001</td>
+</tr>
+<tr class="even">
+<td>Group size</td>
+<td>-0.0012</td>
+<td>0.0026</td>
+<td>0.658</td>
+</tr>
+<tr class="odd">
+<td>Dependency ratio</td>
+<td>-0.0363**</td>
+<td>0.0164</td>
+<td>0.030</td>
+</tr>
+<tr class="even">
+<td>Loan amount</td>
+<td>0.0011**</td>
+<td>0.0005</td>
+<td>0.045</td>
+</tr>
+<tr class="odd">
+<td>Age of SHG</td>
+<td>0.0001</td>
+<td>0.0001</td>
+<td>0.247</td>
+</tr>
+</tbody>
+</table>
+<div id="tbl-tobit" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tobit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8: Potential determinants of the delinquency rate – Tobit regression analysis. Significance levels: * <span class="math inline">\(p &lt; 0.01\)</span>, ** <span class="math inline">\(p &lt; 0.05\)</span>, ** <span class="math inline">\(p &lt; 0.01\)</span>
+</figcaption>
+<div aria-describedby="tbl-tobit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Model Summary</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Number of observations</td>
+<td>80</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>LR chi<span class="math inline">\(^2\)</span> (8)</td>
+<td>31.99***</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Pseudo <span class="math inline">\(R^2\)</span></td>
+<td>-0.1423</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Log-likelihood</td>
+<td>128.34</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Contrary to the earlier assumption, the coefficient of homogeneity was found to be positive and significant at the 1 per cent level. This implies that the homogeneity of the groups raises the chance for wilful default. In socially homogeneous groups, individuals strongly rely on the peer’s unconditional support and are thus more likely to ride free, which causes prolonged time for loan repayment.</p>
+<p>As expected, peer pressure had a negative association with the delinquency rate. The groups that exerted pressure on their members by implementing strict rules and penalties for late repayment demonstrated better repayment performance.</p>
+<p>The coefficient of the loan amount was found to be positive and significant at the 5 per cent level. The majority of members depended on agriculture and allied activities for their livelihood and followed a ‘balloon repayment schedule’ in the study area. The pronounced seasonality of farming income compelled members to delay timely repayment of internal loans, which were less penalized compared to external bank loans. Similar observations were made by <span class="citation" data-cites="khandker2017seasonality">(<a href="#ref-khandker2017seasonality" role="doc-biblioref">Khandker, Samad, and Badruddoza 2017</a>)</span> from their Bangladesh-based study on microfinance institutions.</p>
+<p>The coefficient of dependency ratio was found to be negative and significant in the estimated model. Groups with a higher dependency ratio showed better loan repayment performance, which contradicts earlier expectations.</p>
+<p>Even though the other variables were not statistically significant, they exhibited interesting relationships with the delinquency rate. The coefficient of peer monitoring was negative, indicating that a higher number of meetings per year has a positive influence on prompt loan repayment.</p>
+<p>Contrary to prior assumptions, the group size variable turned negative, indicating that larger groups had better repayment rates than smaller groups. The positive coefficient of the degree of self-selection suggests that groups with a high degree of self-selection were more prone to wilful default.</p>
+<p>Lastly, the positive coefficient of group establishment tenure indicates that the tendency for delayed repayment was higher among elder groups compared to younger ones. Elder groups were more lenient with their repayment schedules, and many did not impose penalties for irregular payments, which eventually contributed to higher delinquency.</p>
+</section>
+</section>
+<section id="discussion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="discussion">Discussion</h2>
+<p>The study provides insights into the financial behaviour of dairy-based SHGs in Kerala, with specific focus on internal loan repayment performance and its determinants. The overall loaning performance showed encouraging trends, particularly with respect to the external bank linkage loans, which recorded a high repayment rate of 99.24 per cent. In contrast, internal loans exhibited relatively lower repayment rates, with an average of 86.72 per cent, highlighting a crucial area for improvement. The Tobit regression analysis identified peer pressure, group homogeneity, dependency ratio, and loan amount as significant predictors of delinquency. Peer pressure had a significant negative relationship with delinquency, reinforcing the notion that groups which enforce rules and repayment discipline are more successful in maintaining financial decorum. Interestingly, homogeneity showed a positive and significant effect on delinquency, which contradicts conventional expectations. This suggests that in highly homogeneous groups, social closeness may undermine financial accountability due to overreliance on peer leniency. A similar counterintuitive result was observed with the dependency ratio, where groups with more dependents showed better repayment rates—possibly due to heightened financial responsibility and urgency among members with larger families.</p>
+<p>The positive association of loan amount with delinquency reflects the challenges of repayment under seasonal income patterns common in agriculture. Members following balloon repayment schedules were often unable to meet instalments on time, especially in the absence of strong penalties for internal loans. Although other factors like peer monitoring, group size, and selfselection were not statistically significant, their coefficients indicated meaningful directions: more frequent meetings and larger group size were associated with lower delinquency, while greater self-selection surprisingly hinted at more wilful default. Overall, the findings highlight that internal governance, socio-economic dynamics, and institutional design within SHGs substantially influence repayment behaviour. Strengthening peer accountability, revisiting group norms on loan penalties, and promoting financial literacy can enhance the sustainability of internal lending systems within SHGs.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="conclusion" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The present study demonstrates that SHG-based microfinance has the potential to mobilize small savings from poor households while serving as an effective tool for the financial inclusion of women. The saving performance of the groups and the repayment of external bank linkage loans were found to be highly satisfactory in the study area. The integration of dairy activities—known for their ability to provide year-round income—has further supported the members in actively participating in microfinance initiatives. It was observed that a significant portion of group loans was utilized for consumption purposes, particularly for children’s education and medical expenses. Despite this, the repayment performance of external bank loans remained strong, indicating the effective functioning of dairy-based SHGs in rural areas. These groups have played a critical role in enhancing the economic resilience of poor households, especially women, by enabling them to manage their livelihoods more sustainably. Moreover, the experience gained through SHG participation has contributed to improved financial literacy among members. The findings of the study reaffirm the role of SHGs not only as credit providers but also as catalysts for promoting inclusive finance and empowering marginalized communities.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Acknowledgments">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Acknowledgments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The authors gratefully acknowledge the financial support provided by the Indian Council of Agricultural Research (ICAR) and the ICAR-National Dairy Research Institute (NDRI), Karnal, for facilitating this research. We also extend our sincere thanks to the participating Self-Help Groups (SHGs) and local functionaries of the Kudumbashree Mission in Kerala for their valuable cooperation and support during the field investigation. The insights and responses shared by the group members were instrumental in shaping the outcomes of this study.</p>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<!-- References will be rendered here -->
+<div id="ref-apmas2017impact" class="csl-entry" role="listitem">
+APMAS. 2017. <span>“Impact and Sustainability of Self Help Group Bank Linkage Programme in India.”</span>
+</div>
+<div id="ref-demirguckunt2009finance" class="csl-entry" role="listitem">
+Demirguc-Kunt, A., and R. Levine. 2009. <span>“Finance and Inequality: Theory and Evidence.”</span> <em>Annual Review of Financial Economics</em> 1 (1): 287–318.
+</div>
+<div id="ref-demirguckunt2008finance" class="csl-entry" role="listitem">
+Demirguc-Kunt, A., R. Levine, and E. Detragiache. 2008. <span>“Finance and Economic Development: The Role of Government.”</span> Policy Working Paper No. 3955. Washington, DC: The World Bank.
+</div>
+<div id="ref-dhar2016microfinance" class="csl-entry" role="listitem">
+Dhar, P. 2016. <span>“Microfinance Penetration in India: A State-Wise Analysis.”</span> <em>International Journal of Interdisciplinary Research in Science Society and Culture</em> 2 (2): 86–96.
+</div>
+<div id="ref-feroze2010performance" class="csl-entry" role="listitem">
+Feroze, S. M., and A. K. Chauhan. 2010. <span>“Performance of Dairy Self-Help Groups in India: Principal Component Analysis Approach.”</span> <em>Indian Journal of Agricultural Economics</em> 65 (2): 308–20.
+</div>
+<div id="ref-feroze2011factors" class="csl-entry" role="listitem">
+Feroze, S. M., A. K. Chauhan, R. Malhotra, and K. S. Kadian. 2011. <span>“Factors Influencing Group Repayment Performance in Haryana: Application of Tobit Model.”</span> <em>Agricultural Economics Research Review</em> 24 (1): 57–66.
+</div>
+<div id="ref-geethakutty2014impact" class="csl-entry" role="listitem">
+Geethakutty, P. S., A. P. Jiju, Suma Nair, and P. K. Sureshkumar. 2014. <span>“Impact of RKVY Programmes on Farm Women Empowerment and Gender Mainstreaming in Agriculture Planning and Development.”</span>
+</div>
+<div id="ref-ghatak1999economics" class="csl-entry" role="listitem">
+Ghatak, M., and T. W. Guinnane. 1999. <span>“The Economics of Lending with Joint Liability: Theory and Practice.”</span> <em>Journal of Development Economics</em> 60 (1): 195–228.
+</div>
+<div id="ref-itishree2018feminization" class="csl-entry" role="listitem">
+Itishree, P., L. Kuntala, L. Stewart, and P. Bill. 2018. <span>“The Feminization of Agriculture or the Feminization of Agrarian Distress? Tracking the Trajectory of Women in Agriculture in India.”</span> <em>Journal of the Asia Pacific Economy</em> 23 (1): 138–55.
+</div>
+<div id="ref-khandker2017seasonality" class="csl-entry" role="listitem">
+Khandker, S. R., H. A. Samad, and S. Badruddoza. 2017. <span>“Seasonality of Rural Finance.”</span> Policy Research Working Paper No. 7986. Washington, DC: World Bank.
+</div>
+<div id="ref-kumar2013access" class="csl-entry" role="listitem">
+Kumar, S. S. 2013. <span>“Access, Use and Repayment of Micro-Credit in Kerala—an Analysis.”</span> <em>Journal of Rural Development</em> 32 (3): 263–80.
+</div>
+<div id="ref-maddala1983limited" class="csl-entry" role="listitem">
+Maddala, G. S. 1983. <em>Limited Dependent and Qualitative Variables in Econometrics</em>. Cambridge, U.K.: Cambridge University Press.
+</div>
+<div id="ref-nabard2019status" class="csl-entry" role="listitem">
+NABARD. 2019. <span>“Status of Microfinance in India 2018–19.”</span>
+</div>
+<div id="ref-nedumaran2001impact" class="csl-entry" role="listitem">
+Nedumaran, S., K. Palanisami, and L. P. Swaminathan. 2001. <span>“Performance and Impact of Self Help Groups in Tamil Nadu.”</span> <em>Indian Journal of Agricultural Economics</em> 56 (3): 472.
+</div>
+<div id="ref-rangarajan2008report" class="csl-entry" role="listitem">
+Rangarajan, C. 2008. <span>“Report of the Committee on Financial Inclusion.”</span>
+</div>
+<div id="ref-satyasai2014whither" class="csl-entry" role="listitem">
+Satyasai, K. J. S., B. B. Sahoo, and B. N. Smita. 2014. <span>“Whither Graduation of SHG Members? An Exploration in Karnataka and Odisha.”</span>
+</div>
+<div id="ref-sharma1997repayment" class="csl-entry" role="listitem">
+Sharma, M., and M. Zeller. 1997. <span>“Repayment Performance in Group-Based Credit Programs in Bangladesh: An Empirical Analysis.”</span> <em>World Development</em> 25 (10): 1731–42.
+</div>
+<div id="ref-sooryamoorthy2007microcredit" class="csl-entry" role="listitem">
+Sooryamoorthy, R. 2007. <span>“Microcredit for Micro-Enterprises or for Immediate Consumption Needs?”</span> <em>Sociological Bulletin</em> 56 (3): 145–57.
+</div>
+<div id="ref-vasantha2014challenges" class="csl-entry" role="listitem">
+Vasantha, S. 2014. <span>“Challenges of Self Help Group Members Towards Income Generation Activity.”</span> <em>International Journal of Accounting and Financial Management Research</em> 4 (2): 1–8.
+</div>
+<div id="ref-verhelle2003determinants" class="csl-entry" role="listitem">
+Verhelle, C., and L. Berlage. 2003. <span>“Determinants of Microfinance Group Performance: An Empirical Analysis of Self-Help Groups in India.”</span>
+</div>
+<div id="ref-worldbank2007report" class="csl-entry" role="listitem">
+World Bank. 2007. <em>World Development Report 2008: Agriculture for Development</em>. Washington, DC: World Bank Group.
+</div>
+<div id="ref-wydick1999social" class="csl-entry" role="listitem">
+Wydick, B. 1999. <span>“Can Social Cohesion Be Harnessed to Repair Market Failures? Evidence from Group Lending in Guatemala.”</span> <em>The Economic Journal</em> 109 (457): 463–75.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Technical Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Technical Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>All prices mentioned in this study are in Indian Rupees (Rs), the official currency of India. For clarity, “Rs” is used as a symbol for INR (Indian National Rupee) throughout the text. At the time of the study, the exchange rate was approximately 1 USD = 85.41 INR, although this may vary over time.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>17 June 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>20 July 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>22 July 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<em>Anonymous</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Anonymous</em></p></li>
+</ul>
+</div>
+</div>
+<section id="section" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section"></h3>
+
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.jostapubs\.com\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Published by PAPAYA publishing <a href="https://www.statoberry.com/papaya"><img src="../..\images/papayalogo.png" class="img-fluid" style="width: auto; height: 25px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="https://www.statoberry.com/papaya"><img src="../..\images/Josta.png" class="img-fluid" style="height: 90px;"></a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Licenced under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a> <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="../..\images/cclogo.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a> Built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

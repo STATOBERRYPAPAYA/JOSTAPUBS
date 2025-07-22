@@ -1,0 +1,455 @@
+---
+title: "Dairy SHGs in Kerala: Economics and Loan Repayment Drivers"
+author:  
+  - name: Denny Franco*
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Economics
+        address: RARS, Ambalavayal, Kerala Agricultural University
+        city: Wayanad, Kerala
+        country: India
+        postal-code: 695522
+    email: denny.franco@kau.in
+    url: https://kau.in/people/dr-denny-franco
+    note: Corresponding author
+    
+  - name: Anil Chauhan
+    affiliations:
+      - name: ICAR-NDRI
+        department: Dairy Economics Statistics and Management Division 
+        address: National Dairy Research Institute, Karnal
+        city: Haryana
+        country: India
+    email: anil5554@rediffmail.com
+    
+  - name: Balwant S Chandel
+    affiliations:
+      - name: ICAR-NDRI
+        department: Dairy Economics Statistics and Management Division 
+        address: National Dairy Research Institute, Karnal
+        city: Haryana
+        country: India
+    email: chandelbs@rediffmail.com
+
+  - name: Ravinder Malhotra
+    affiliations:
+      - name: ICAR-NDRI
+        department: Dairy Economics Statistics and Management Division 
+        address: National Dairy Research Institute, Karnal
+        city: Haryana
+        country: India
+    email: rmal1962@rediffmail.com
+
+  - name: K. Ponnusamy
+    affiliations:
+      - name: ICAR-NDRI
+        department: Dairy Extension Division
+        address: National Dairy Research Institute, Karnal
+        city: Haryana
+        country: India
+    email: dairyextension@gmail.com
+  
+  - name: Ashadevi S S
+    affiliations:
+      - name: ICAR-IARI
+        department: Agricultural Economics
+        address: Indian Agricultural Research Institute, New Delhi
+        city: Delhi
+        country: India
+    email: ash.nibha@gmail.com
+
+abstract: |
+  Microfinance activities play a vital role among the poor to raise their microenterprises especially in the primary agricultural sector of rural India and helped the marginalized people to elude from poverty. This paper detailed the economic performance of dairy-based SHGs and discuss the factors that influence the repayment performance of the SHGs in Kerala. The study consists of a sample of 80 dairy SHGs which is situated at a high altitude zone of Kerala where a large number of dairy-financed SHGs are existing. The results of economic performance analysis showed that the saving performance and repayment of the external bank linkage loans were quite impressive in the study area. However, the prompt repayment of internal loans lacking momentum. Results of Tobit regression have shown that peer pressure and dependency ratio have a positive influence, whereas homogeneity and loan amount has a negative influence on the repayment performance of the SHGs.  
+
+keywords: [dairy self-help groups, loan repayment, microfinance, tobit regression, rural finance, Kerala, primary sector]  
+bibliography: dennybiblio.bib
+date: 2025-07-22
+path: "volume1/Denny/JOSTA20250617172925171.html"
+categories: [Orignal-Article,Economics,Policy]
+status: Published (Online)
+doi: 10.5281/zenodo.16308321
+---
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16308321.svg)](https://doi.org/10.5281/zenodo.16308321) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
+
+::: {style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;"}
+<!-- Download PDF Button -->
+
+<a href="pdfs/JOSTA20250617172925171.pdf" download class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a>
+
+<!-- Copy Citation Button -->
+
+<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
+
+📋 Copy Citation [Citation copied!]{#tooltip}
+
+</button>
+:::
+
+<!-- Hidden Citation Text -->
+
+[Franco, D., Chauhan, A., Chandel, B. S., Malhotra, R., Ponnusamy, K., & Ashadevi, S. S. (2025). Dairy SHGs in Kerala: Economics and Loan Repayment Drivers. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.16308321]{#citation-text style="display: none;"}
+
+<!-- JavaScript -->
+
+```{=html}
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+```
+
+<!-- CSS Styling -->
+
+```{=html}
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+```
+
+## Introduction
+
+In the post-globalization era, many countries witnessed high momentum in economic growth. However, this rapid growth failed to provide the much-needed ‘trickle-down’ effect at the expected rate. The unequal growth of different sectors exacerbated poverty and income inequality. Generally, poor people adopt various livelihood strategies such as smallholder entrepreneurship, participation in agricultural and non-farm labour markets, and migration to overcome poverty [@worldbank2007report]. The decision to adopt particular strategies is influenced by access to resources and gender power relations within the community and household.
+
+In recent decades, the Indian agriculture sector has experienced a high level of feminization, accelerating rapidly. The poverty-induced shift of the male population from farm to non-farm activities for sustenance and better income is quite evident in the country's economy [@itishree2018feminization]. Therefore, providing credit and other input facilities to women is considered an important policy intervention for poverty alleviation and agricultural development in the country.
+
+Financial inclusion—bringing all sections of society, regardless of socio-economic status, into the formal financial system—plays a pivotal role in any nation’s holistic development. The inclusion of marginalized sections of society in formal financial institutions is a critical prerequisite for eradicating poverty and fostering economic growth [@demirguckunt2008finance; @rangarajan2008report]. Various studies have pointed out that countries with higher levels of financial inclusion exhibit better GDP growth rates [@demirguckunt2009finance].
+
+The microfinance movement has played a crucial role in addressing this national issue and has emerged as the single largest saviour of the rural poor from financial exclusion, especially for women. Among the different models, the Self-Help Group (SHG)-led microfinance model has evolved into the most prominent channel for financial inclusion and has become an integral and inevitable component of the rural economy in India [@dhar2016microfinance]. Ideally, poor people can invest small amounts in micro-enterprises to generate income for their livelihood. SHGs have been financing both income-generating and consumption-related needs of members. However, various studies have shown that earlier credit requirements were often used for consumption purposes [@sooryamoorthy2007microcredit; @vasantha2014challenges].
+
+Among income-generating activities, dairy enterprises are especially popular among farmers due to their familiarity with dairying and the opportunity for year-round cash flow, which facilitates easy loan repayment. The performance of SHGs in southern Indian states has been commendable in terms of loan repayment rates and the velocity of lending. In particular, the SHG movement in Kerala has gained significant attention due to its active role in the state's poverty eradication programmes. A study on women’s participation in agriculture and allied activities found that over 95% of the work in the animal husbandry sector in rural Kerala was performed by women [@geethakutty2014impact]. Furthermore, refinancing of dairy loans shows a positive trend and holds vast potential for enhancing the employment and income of poor households, especially women [@nabard2019status].
+
+The factors affecting the repayment performance of SHGs require thorough investigation, as they depend on multiple socioeconomic variables. Since only a limited number of empirical studies have examined the influence of such factors in India, this paper explores the group performance of SHGs and investigates the determinants of their repayment behaviour.
+
+## Materials and methods
+
+The SHG movement in the study state, Kerala, began with the Kudumbashree Mission, which was implemented two decades ago with strong support from the state government. This study made use of both primary and secondary data. The secondary data regarding the dairy based SHG’s were collected from the State Poverty Eradication Mission of the Government of Kerala and also from its district offices. The primary data were collected from both SHG members and non-members during the period 2020–21.
+
+In accordance with the objectives, a multistage random sampling technique was adopted. The high-altitude agro-economic zone was purposively selected due to the presence of a large number of dairy-financed SHGs in the area. From this zone, Idukki and Wayanad districts were selected purposively, as they are predominantly rural and host the highest number of dairy-financed SHGs.
+
+Further, two blocks each were randomly selected from these districts: Nedumkandam and Adimaly from Idukki, and Mananthavady and Kalpetta from Wayanad. Only groups that had availed of dairy loans and had a minimum of three years of experience were included in the sample, based on the assumption that benefits of SHG participation would be meaningfully reflected over that time. From each selected block, 20 women SHGs were randomly chosen, resulting in a total sample of 80 groups.
+
+Data on group performance—such as frequency of meetings, planned savings, transaction costs incurred, savings accumulated, interest rate charged, bank linkage loans availed, repayment schedule, income-generating activities financed, group size, financial inclusion status, and socio-economic profile of members—were collected through interviews with SHG leaders and inspection of register books.
+
+Loan performance was assessed using both internal and external loan indicators, considering the average of the past two years. Intragroup lending performance was measured by the percentage of members who received internal loans annually. Repayment performance was assessed by the ratio of the amount repaid to the amount due (credit plus interest), separately for internal group loans (from group savings) and external bank linkage loans (from formal financial institutions).
+
+The key performance indicators were calculated as follows:
+
+$$\text{Saving performance} = \frac{\text{Actual Savings}}{\text{Planned Savings}}$$ {#eq-eq1}
+
+$$\text{Repayment rate} = \frac{\text{Amount Repaid}}{\text{Credit} + \text{Interest}}$$ {#eq-eq2}
+
+The delinquency rate was used as a proxy for repayment performance and was computed using @eq-eq3.
+
+$$\text{Delinquency rate} = \frac{\text{Volume of Loans in Arrears}}{\text{Total Loan Volume on Promised Date}}$$ {#eq-eq3}
+
+A delinquency rate of 0 indicates complete repayment on schedule, while a value of 1 indicates complete delinquency. This measure follows the approach suggested by [@sharma1997repayment] and [@feroze2011factors].
+
+The factors affecting the delinquency rate were estimated using the Tobit maximum likelihood estimation technique, considering the censored nature of the dependent variable.
+
+### Tobit Model Specification
+
+TOBIT maximum likelihood technique: The function for delinquency rate was defined as in @eq-delfunc
+
+$$\text{DELQR} = f(\text{LAMNT}, X)$$ {#eq-delfunc}
+
+$\text{LAMNT}$ is the amount of loan in rupees and $X$ is vector for group and community variables . The function is defined for $\text{LAMNT}>0$. The assumption is as shown in @eq-limit $$\lim_{\text{LAMNT} \to 0} \text{DELQR} = 0 $$ {#eq-limit}
+
+Since defaults of small loan are likely to be zero. Hence, the dependent variable is truncated to zero when the group is having prompt repayment. The equation is specified as in @eq-tobit.
+
+$$\text{DELQR}_i^* = \beta_1 + + \beta_2 X_{2i} +  \varepsilon_i$$ {#eq-tobit}
+
+$$\text{DELQR}_i = 
+\begin{cases}
+\text{DELQR}_i^*, & \text{if } \text{DELQR}_i^* > 0 \\
+0, & \text{otherwise}
+\end{cases}$$
+
+$\text{DELQR}_i^*$ is a latent variable observable when it takes a positive value.
+
+@eq-tobit was estimated using the maximum likelihood technique [@maddala1983limited]. The explanatory variables used in the TOBIT model are listed in @tbl-vars along with its expected sign.
+
+| Explanatory Variable | Measurement | Expected Sign |
+|------------------------|------------------------|------------------------|
+| Peer Monitoring (PM) | Frequency of meetings per year | – |
+| Peer Pressure (PP) | PP = 1 if group members exert pressure in case of default; 0 otherwise | ± |
+| Degree of Self Selection (SS) | Scale measuring SS in terms of ex-ante and ex-post member selection | – |
+| Homogeneity / Social Ties (HOMO) | Scale measuring group homogeneity by age, religion, marital status, education, occupation, and landholding size | ± |
+| Group Size (GS) | Number of group members | – |
+| Dependency Ratio (DR) | Proportion of children in total household size | \+ |
+| Loan Amount Limit (LONAM) | Maximum individual loan lending limit in ₹ | \+ |
+| Working Experience (WEXP) | Age of the group in months | – |
+
+: Measurement and expected signs of explanatory variables used in the Tobit regression model {#tbl-vars}
+
+## Results
+
+The studies pointed out that the tenure of group establishment had a significant role in the group’s overall performance [@apmas2017impact; @satyasai2014whither]. Hence, the total of 80 groups was post-classified based on their years of operation into three categories using the cumulative square root frequency method (@tbl-tenure). As per this criterion, the number of groups falling under IMG (4–8 years), MMG (9–13 years), and LMG (\>13 years) categories was 30 (37.50%), 28 (35.00%), and 22 (27.50%), respectively.
+
+| Category | Idukki District | Wayanad District | Overall |
+|------------------|------------------|------------------|------------------|
+| Initial Matured Groups (IMG) (4–8 yrs) | 13 (32.50) | 17 (42.50) | 30 (37.50) |
+| Medium Matured Groups (MMG) (9–13 yrs) | 14 (35.00) | 14 (35.00) | 28 (35.00) |
+| Long Matured Groups (LMG) (\>13 yrs) | 13 (32.50) | 9 (22.50) | 22 (27.50) |
+| Overall | 40 (100.00) | 40 (100.00) | 80 (100.00) |
+
+: Classification of SHGs based on the tenure of establishment (Figures in parentheses indicate the percentage of the total number of groups) {#tbl-tenure}
+
+The saving performance of groups was evaluated by comparing the planned savings amount with the actual savings amount. The pre-decided/agreed amount of savings in respective groups was considered as planned savings amount. The details of category wise saving performance are elaborated in @tbl-saving. From @tbl-saving, it is well observable that average cumulative savings per member was Rs.19803 in the overall category and it varied from Rs.13161 of IMG category to Rs. 26040 of the LMG category. The average planned savings per group was worked out as Rs. 306812 over the years and the average achievement in the targeted amount was found to be Rs.295593. The savings performance ratio in the overall category was found to be 0.9665, which implies that 96.65 per cent achievement in the pre-planned amount. The high saving ratio of the selected SHGs showed a better level of financial decorum maintained by the groups in savings amount accumulation. The improved economic background of the state and livelihood options provided through microfinance activities could be the possible reason for the high saving performance in the study area. In contrast, the saving ratio reported by the other studies was quite low and it ranges from 71 per cent to 74 per cent only [@verhelle2003determinants; @feroze2010performance]. The detailed analysis across different age group categories showed that the saving performance of initial matured groups (98.11%) was relatively higher than the elder category groups. The divergence in the savings amount was observed in some groups mainly because of the adjustments of group savings to the outstanding loan arrears. The trend was observed more in elder category groups than younger ones. Such undesirable practices may affect the self-sustainability of groups in the long run.
+
+| Particulars | IMG | MMG | LMG | Overall |
+|---------------|---------------|---------------|---------------|---------------|
+| 1\. Average cumulative savings per member (Rs.) | 13,161 | 22,017 | 26,040 | 19,803 |
+| 2\. Average annual savings per SHG (Rs.) | 32,963 | 30,243 | 23,693 | 29,462 |
+| 3\. Average planned savings per SHG (Rs.) | 201,659 | 336,560 | 412,340 | 306,812 |
+| 4\. Average actual savings per SHG (Rs.) | 197,994 | 325,568 | 390,534 | 295,593 |
+| 5\. Actual savings over planned savings (Ratio) | 0.9811 | 0.9653 | 0.9483 | 0.9665 |
+
+: Saving performance of SHGs {#tbl-saving}
+
+The SHGs has been offering two types of loaning facility to its members, i.e., internal group loan and the external bank linkage loan. Even though the external bank linkage loan was taken in the name of generating productive purposes, its utilization was found to be diverted from the intended objectives. The utilization of external bank linkage loans across different portfolios is detailed in @tbl-loanpurpose. It could be seen from @tbl-loanpurpose that 24.85 per cent of the availed loan was utilized for agricultural and allied activities and 10.58 per cent for the business purposes. The remaining 64.57 per cent of the loan availed was utilized for different consumption purposes. Among that loans, the maximum proportion of the loan was availed for meeting the requirements of children’s education (19.90%) followed by medical expenses (16.12%), household expenses (14.36%), and marriage and festival expenses (8.31%), respectively. The observations of the study found consistent with the findings of [@kumar2013access], in which he reported that 70 per cent of the availed SHG loan was utilized for personal consumption purposes rather than financing income generation activities in Kerala.
+
+| Sl. No. | Purpose                                          | Percentage (%) |
+|---------------|-------------------------------------------|---------------|
+| 1       | Agriculture and allied activities                | 24.85          |
+| 2       | Business purpose                                 | 10.58          |
+|         | **Subtotal (1–2)**: Income generation activities | **35.43**      |
+| 3       | Education of children                            | 19.90          |
+| 4       | Household expenditure                            | 16.12          |
+| 5       | Medical expenses                                 | 14.36          |
+| 6       | Marriage and festivals                           | 8.31           |
+| 7       | Miscellaneous expenditure                        | 5.88           |
+|         | **Subtotal (3–7)**: Consumption loan             | **64.57**      |
+|         | **Aggregate Total**                              | **100.00**     |
+
+: Purpose of internal loan taken {#tbl-loanpurpose}
+
+The internal loaning performance of the group was captured through the percentage of members who received an internal loan per annum by considering the past two years’ loan distribution mechanism (@tbl-loanperformance). On average, groups were capable of disbursing internal loans amounting to Rs. 370099 per annum in the study area. Among them, the long-matured groups' loan magnitude was distinctly high, at Rs. 465506 per annum, due to the larger corpus fund availability. The tenure of establishment also influenced the magnitude of loan per member, which varied from Rs. 18100 to Rs. 31123 across different age group categories, with an overall average of Rs. 24844 per annum. The outreach of internal loans was found to be 95.24 per cent in the initially matured groups and increased to 99.32 per cent in elder (LMG) groups, with an overall average of 97.32 per cent. The analysis of internal loaning performance implies that the groups in the area were able to distribute their thrift money in a well-equitable manner.
+
+The SHGs were availing loans from formal financial institutions to meet members' extra financial requirements. The grading of groups was a mandatory criterion followed by the banks for the approval of bank linkage loans. The loan application from each group went through a three-level monitoring mechanism of the Kudumbashree Mission—namely, the Area Development Societies (ADS) committee at the panchayat ward level and the Community Development Society (CDS) committee at the panchayat level—for scrutiny. A recommendation letter from the CDS chairperson was a mandatory document for availing the bank linkage loan for SHGs. Such high-level scrutiny also helped banks assess the repayment capacity of each group.
+
+The bank charged compound interest as per prevailing lending norms, which ranged from 11 to 13 per cent, based on the loan amount and the repayment duration chosen by the group. However, the groups were eligible for an interest subsidy of up to 7 per cent under the National Rural Livelihood Mission (NRLM) interest subvention scheme. An additional 3 per cent interest subvention was provided by the state government to all Women SHGs (WSHGs) in the state.
+
+The study observed that out of the total 80 groups, 4 groups (5%) had not availed any kind of bank credit in the past two years. The lack of consensus among members and risk-averse behaviour of these groups was reported as the reason, despite all groups having accessed at least one bank linkage since their inception. A maximum of eight linkages was observed among the selected SHGs. The processing time for loan applications was reported to be less than one month in the study area, and the repayment period of term loans varied from 3 to 5 years, depending on the loan amount.
+
+| Particulars | IMG | MMG | LMG | Overall |
+|---------------|---------------|---------------|---------------|---------------|
+| **Internal loaning performance** |  |  |  |  |
+| 1\. Loan disbursed per SHG (Rs.) | 271,586 | 400,687 | 465,506 | 370,099 |
+| 2\. Loan per member (Rs.) | 18,100 | 27,135 | 31,123 | 24,844 |
+| 3\. Outreach of internal loan (% of members received loan) | 95.24 | 97.97 | 99.32 | 97.32 |
+| **External loaning performance** |  |  |  |  |
+| 1\. Average bank loan amount (Rs.) | 417,217 | 545,536 | 614,545 | 516,394 |
+| 2\. Average loan per member (Rs.) | 28,615 | 36,919 | 40,967 | 34,918 |
+| 3\. Credit–Thrift ratio | 2.22 | 1.75 | 1.57 | 1.88 |
+
+: Loaning performance of SHGs {#tbl-loanperformance}
+
+The average bank linkage loan amount was found highest in long matured groups (Rs. 614545) followed by the MMG (Rs. 545536) and IMG (Rs. 417217) category, respectively. The credit-thrift ratio of the availed loans was computed to be 2.22:1, 1.75:1, and 1.57:1 in IMG, MMG, and LMG categories, respectively. The recently formed groups have a lesser amount of thrift and a huge demand for working capital, which could be the possible reason for the higher credit-thrift ratio in the IMG category. The credit–thrift ratio of SHG linkage loans reported by different studies varied from 1.4:1 to 6:1 [@satyasai2014whither; @verhelle2003determinants; @feroze2010performance]. The ratio in the elder groups was not found impressive; this was due to the ceiling on lending (Rs. 10 lakhs/group) fixed by the banks and also possibly due to the availability of high corpus funds with these groups.
+
+The repayment period of internal loans varied from three months to two years in the selected SHGs. The interest rate of the internal loan has been decided as per the groups' consensus and is being collected monthly. In the study area, the groups were charging 12 per cent simple interest for the internal group loan, i.e., 1 per cent per month. The demand for internal loans is high because of ease of availability, flexibility in the repayment schedule, and attractiveness in the interest rate. The maximum individual lending limit of the internal loan is updated based on the corpus fund availability and members’ demand. It was observed that the maximum lending limit of the internal loan amount ranged from Rs. 20000 to Rs. 75000 per member in the selected groups.
+
+| Particulars | IMG | MMG | LMG | Overall |
+|---------------|---------------|---------------|---------------|---------------|
+| **a) Internal loan** |  |  |  |  |
+| 1\. Internal group loan disbursed per annum (Rs.) | 271,586 | 400,687 | 465,506 | 370,099 |
+| 2\. Internal loan repaid per annum (Rs.) | 236,754 | 346,143 | 391,791 | 317,675 |
+| 3\. Repayment rate (%) | 87.81 | 87.16 | 84.62 | 86.72 |
+| **b) External loan** |  |  |  |  |
+| 1\. Average loan amount per SHG in latest linkage (Rs.) | 417,217 | 545,536 | 614,545 | 516,394 |
+| 2\. Scheduled annual group repayment amount (Rs.) | 177,310 | 183,662 | 249,692 | 199,438 |
+| 3\. Annual repaid amount (Rs.) | 174,176 | 182,516 | 249,692 | 197,862 |
+| 4\. Repayment ratio (Ratio) | 0.9859 | 0.9934 | 1.0000 | 0.9924 |
+| **c) Savings Bank Account Penetration (SBAP) Ratio (%)** | 88.96 | 91.15 | 96.04 | 91.67 |
+
+: Loan repayment performance and Savings Bank Account Penetration (SBAP) of SHGs {#tbl-repayment}
+
+Furtherly, the repayment performance of the group was evaluated through the amount of loan repaid on the scheduled time. Although the SHGs nominally fixed the installment amount for monthly repayments, in practice, members repay their loans without any fixed installment schedule. The average repayment rate (@tbl-repayment) of the internal loan was found to be 87.81 per cent, 87.16 per cent, and 84.62 per cent in initial, medium, and long matured category groups, respectively, with an overall average of 86.72 per cent. The category-wise analysis indicated that the delinquency rate was high in the case of the LMG category compared to the younger groups. These findings were in line with the observations of [@nedumaran2001impact; @feroze2011factors; @apmas2017impact], where they reported that repayment of internal group loans faces more challenges than repayment of external bank linkage loans. The utilization of loans for consumption purposes and flexibility in the loan repayment might be the plausible reason for the poor repayment rate of internal group loans in the study area. Besides that, the monitoring agencies of the SHGs were more concerned about the prompt repayment of the external loan amount and least bothered about the overall repayment scenario of the groups.
+
+The SHGs have been keeping separate accounts for external bank linkage loans. It was observed that the groups in the study area were not charging any extra commission for the external bank linkage loan from its members. The availed bank loan amount has been distributed within the group as per the members’ requirement. The disbursed amount varied from Rs. 15000 to Rs. 100000 per member in the sampled SHGs as per the members’ requirements. The analysis of external loan repayment revealed that the repayment rate of the bank linkage loan was quite impressive in the sampled SHGs, with an overall average of 99.24 per cent. Out of the total 80 SHGs, only 7 SHGs were facing some level of challenges in the prompt loan repayment. The groups were eligible for the back-end subsidy for prompt loan repayment, which motivates the members for timely repayment. Moreover, the banks were more stringent in penalizing defaulters, which increases the burden on all the members and automatically creates peer pressure.
+
+The opening of individual savings bank accounts has been considered a prerequisite for the economic empowerment of women [@satyasai2014whither]. The role of SHGs in the financial inclusion of members was also captured through the savings bank account penetration ratio (SBAP), i.e., the proportion of members having an individual savings bank account to the total. On average, more than 90 per cent of the group members had their own individual savings bank account in the selected SHGs. The highest SBAP ratio was observed in the LMG (96.04%) category, followed by MMG and IMG category groups. The financial literacy earned through SHG activities motivates the members to open individual bank accounts in large numbers.
+
+### Determinants of Repayment Performance of SHGs
+
+Prompt loan repayment is an imperative factor that determines the financial sustainability of any microfinance initiatives. From the earlier economic performance analysis, it was observed that the repayment of the external bank linkage loans was quite impressive in the study area. However, the prompt repayment of internal loans lacking momentum. Thus, the factors affecting the repayment behaviour of internal group loans have captured through TOBIT censored regression model to identify the determinants of prompt loan repayment by taking the delinquency rate as a dependent variable. The sample mean of the different explanatory variables used in the model is detailed in @tbl-means. The average delinquency rate was worked out to be 13.28 per cent and varied from zero (complete repayment) to 24.20 per cent in the selected SHGs.
+
+| Variable                     | Unit          | Mean   | Min  | Max    |
+|------------------------------|---------------|--------|------|--------|
+| **A) Dependent variable**    |               |        |      |        |
+| Delinquency rate             | Ratio         | 0.1328 | 0    | 0.2420 |
+| **B) Explanatory variables** |               |        |      |        |
+| Peer monitoring              | Number        | 49.28  | 44   | 52     |
+| Peer pressure                | Dummy (0/1)   | 0.46   | 0    | 1      |
+| Degree of Self-selection     | Sum of scores | 2.18   | 1    | 4      |
+| Homogeneity                  | Sum of scores | 3.60   | 2    | 5      |
+| Group size                   | Number        | 15.16  | 11   | 20     |
+| Mean dependency ratio        | Ratio         | 1.84   | 1.16 | 2.35   |
+| Loan amount per annum        | 1,000 rupees  | 43.36  | 20   | 75     |
+| Age of SHG                   | Months        | 127.65 | 40   | 228    |
+
+: The sample means of different variables used in the Tobit model {#tbl-means}
+
+The proper monitoring mechanism reduces the incidence of wilful default and enhances the group’s ability to collect debt in time. The number of group meetings held per annum was taken as a proxy for capturing the groups’ monitoring ability. Group meetings provide an opportunity to monitor the repayment performance of its members. In general, meetings were convened in members' homes on a rotation basis. The average number of meetings conducted per annum was found to be 49.28 in the study area and ranged from 44 to 52 meetings per annum.
+
+The variable peer pressure was captured through a dummy variable. It was observed that only 37 groups (46.25%) were exerting such kind of pressure on the group members for prompt loan repayment. Further, the self-selected groups have better understandings of their members, and the study assumed that it may lead to prompt loan repayment. The main screening of members occurred in the post group formation period. Therefore, both ex-ante and ex-post factors were considered for measuring the degree of self-selection [@wydick1999social].
+
+The intensity of self-selection was captured through the scale developing technique. It was set as a four-digit scale where each positive answer gets one point to assess the intensity of self-selection. The sum of four different indicators—whether groups were formed by voluntary consensus of all the members, whether members were dropped out on group law violations, whether groups explicitly decided to reject new applicants, and whether new members had joined in the post-inception period—were considered for scale development [@verhelle2003determinants; @feroze2011factors].
+
+Out of the total 80 SHGs, 74 groups (92.50%) reported that they formed the group voluntarily without any external agency involvement. The number of groups that rejected the request of a new applicant was found to be 23 (28.75%), and 68 groups (85.00%) added new members even after the inception of the group. Only 9 groups (11.25%) reported member exclusion for violating the decorum of the group. The reasons for exclusion varied from poor attendance in group meetings to non-deposit of weekly savings contributions. The average self-selection score in the selected SHGs was found to be 2.18.
+
+The homogeneity in the group was measured by considering different socio-economic characteristics of group members. The scale consists of six indicators: age, religion, education, occupation, landholding size, and marital status. One point was given for each of the following: whether the age range of members was less than 15 years, whether 80% of members belonged to the same religion, had the same marital status, same educational level, same income-earning activity, and similar landholding sizes [@verhelle2003determinants].
+
+The highest number of groups (71 SHGs) were homogeneous in marital status (87.5%). A total of 39 groups (48.75%) reported age difference among members within 15 years, and 42 groups (52.50%) reported homogeneity in educational status. About 50 groups (62.5%) reported homogeneity in occupational status, and 63 groups (78.75%) were homogeneous in landholding size. The lowest homogeneity was observed in religion, where only 15 groups (18.75%) were homogeneous. The homogeneity score in the selected groups varied from 2 to 5, with an average of 3.6.
+
+Smaller groups tend to have better in-group coordination and control, reducing problems from asymmetric information [@ghatak1999economics]. Thus, it was expected that smaller group size would lead to lower default. The number of members in the selected SHGs ranged from 11 to 20, with an average of 15.16 members.
+
+The average number of children directly dependent on the group members was also considered to analyze its role in repayment. The mean dependency ratio was 1.84 and ranged from 1.16 to 2.35 children per member per group.
+
+Groups fixed a maximum individual loan lending limit based on consensus. A higher loan limit may increase the likelihood of unwilling default. The individual loan limit was used as a proxy for this factor. It varied from Rs.20,000 to Rs.75,000 per member, with an overall average of Rs.43,360.
+
+The tenure of group establishment was considered to analyze the role of experience in repayment. Older groups may better understand the repayment capacity of members based on past experience. The average group age was 127 months, ranging from 40 to 228 months in the selected SHGs.
+
+### Estimated TOBIT Model
+
+The estimated coefficients can alternatively be interpreted as the determinants of prompt loan repayment. From the estimated model (@tbl-tobit), it was found that peer pressure, homogeneity of the group, mean dependency ratio, and the amount of loan disbursed were the key factors influencing prompt loan repayment in the study area.
+
+| Variable                 | Coefficient  | Std. Error | $P(> \lvert t \rvert)$ |
+|----------------------|----------------|----------------|--------------------|
+| Constant                 | 0.0670       | 0.1220     | 0.585                  |
+| Peer monitoring          | -0.0002      | 0.0020     | 0.933                  |
+| Peer pressure            | -0.0245\*\*  | 0.0113     | 0.033                  |
+| Degree of self-selection | 0.0059       | 0.0075     | 0.438                  |
+| Homogeneity              | 0.0213\*\*\* | 0.0060     | 0.001                  |
+| Group size               | -0.0012      | 0.0026     | 0.658                  |
+| Dependency ratio         | -0.0363\*\*  | 0.0164     | 0.030                  |
+| Loan amount              | 0.0011\*\*   | 0.0005     | 0.045                  |
+| Age of SHG               | 0.0001       | 0.0001     | 0.247                  |
+
+| Model Summary          |             |     |     |
+|------------------------|-------------|-----|-----|
+| Number of observations | 80          |     |     |
+| LR chi$^2$ (8)         | 31.99\*\*\* |     |     |
+| Pseudo $R^2$           | -0.1423     |     |     |
+| Log-likelihood         | 128.34      |     |     |
+
+: Potential determinants of the delinquency rate – Tobit regression analysis. Significance levels: \* $p < 0.01$, \*\* $p < 0.05$, \*\* $p < 0.01$ {#tbl-tobit}
+
+Contrary to the earlier assumption, the coefficient of homogeneity was found to be positive and significant at the 1 per cent level. This implies that the homogeneity of the groups raises the chance for wilful default. In socially homogeneous groups, individuals strongly rely on the peer’s unconditional support and are thus more likely to ride free, which causes prolonged time for loan repayment.
+
+As expected, peer pressure had a negative association with the delinquency rate. The groups that exerted pressure on their members by implementing strict rules and penalties for late repayment demonstrated better repayment performance.
+
+The coefficient of the loan amount was found to be positive and significant at the 5 per cent level. The majority of members depended on agriculture and allied activities for their livelihood and followed a ‘balloon repayment schedule’ in the study area. The pronounced seasonality of farming income compelled members to delay timely repayment of internal loans, which were less penalized compared to external bank loans. Similar observations were made by [@khandker2017seasonality] from their Bangladesh-based study on microfinance institutions.
+
+The coefficient of dependency ratio was found to be negative and significant in the estimated model. Groups with a higher dependency ratio showed better loan repayment performance, which contradicts earlier expectations.
+
+Even though the other variables were not statistically significant, they exhibited interesting relationships with the delinquency rate. The coefficient of peer monitoring was negative, indicating that a higher number of meetings per year has a positive influence on prompt loan repayment.
+
+Contrary to prior assumptions, the group size variable turned negative, indicating that larger groups had better repayment rates than smaller groups. The positive coefficient of the degree of self-selection suggests that groups with a high degree of self-selection were more prone to wilful default.
+
+Lastly, the positive coefficient of group establishment tenure indicates that the tendency for delayed repayment was higher among elder groups compared to younger ones. Elder groups were more lenient with their repayment schedules, and many did not impose penalties for irregular payments, which eventually contributed to higher delinquency.
+
+## Discussion {.unnumbered}
+
+The study provides insights into the financial behaviour of dairy-based SHGs in Kerala, with specific focus on internal loan repayment performance and its determinants. The overall loaning performance showed encouraging trends, particularly with respect to the external bank linkage loans, which recorded a high repayment rate of 99.24 per cent. In contrast, internal loans exhibited relatively lower repayment rates, with an average of 86.72 per cent, highlighting a crucial area for improvement. The Tobit regression analysis identified peer pressure, group homogeneity, dependency ratio, and loan amount as significant predictors of delinquency. Peer pressure had a significant negative relationship with delinquency, reinforcing the notion that groups which enforce rules and repayment discipline are more successful in maintaining financial decorum. Interestingly, homogeneity showed a positive and significant effect on delinquency, which contradicts conventional expectations. This suggests that in highly homogeneous groups, social closeness may undermine financial accountability due to overreliance on peer leniency. A similar counterintuitive result was observed with the dependency ratio, where groups with more dependents showed better repayment rates—possibly due to heightened financial responsibility and urgency among members with larger families.
+
+The positive association of loan amount with delinquency reflects the challenges of repayment under seasonal income patterns common in agriculture. Members following balloon repayment schedules were often unable to meet instalments on time, especially in the absence of strong penalties for internal loans. Although other factors like peer monitoring, group size, and selfselection were not statistically significant, their coefficients indicated meaningful directions: more frequent meetings and larger group size were associated with lower delinquency, while greater self-selection surprisingly hinted at more wilful default. Overall, the findings highlight that internal governance, socio-economic dynamics, and institutional design within SHGs substantially influence repayment behaviour. Strengthening peer accountability, revisiting group norms on loan penalties, and promoting financial literacy can enhance the sustainability of internal lending systems within SHGs.
+
+{{< pagebreak >}}
+
+## Conclusion {.unnumbered}
+
+The present study demonstrates that SHG-based microfinance has the potential to mobilize small savings from poor households while serving as an effective tool for the financial inclusion of women. The saving performance of the groups and the repayment of external bank linkage loans were found to be highly satisfactory in the study area. The integration of dairy activities—known for their ability to provide year-round income—has further supported the members in actively participating in microfinance initiatives. It was observed that a significant portion of group loans was utilized for consumption purposes, particularly for children’s education and medical expenses. Despite this, the repayment performance of external bank loans remained strong, indicating the effective functioning of dairy-based SHGs in rural areas. These groups have played a critical role in enhancing the economic resilience of poor households, especially women, by enabling them to manage their livelihoods more sustainably. Moreover, the experience gained through SHG participation has contributed to improved financial literacy among members. The findings of the study reaffirm the role of SHGs not only as credit providers but also as catalysts for promoting inclusive finance and empowering marginalized communities.
+
+::: {.callout-note title="Acknowledgments" icon="false"}
+The authors gratefully acknowledge the financial support provided by the Indian Council of Agricultural Research (ICAR) and the ICAR-National Dairy Research Institute (NDRI), Karnal, for facilitating this research. We also extend our sincere thanks to the participating Self-Help Groups (SHGs) and local functionaries of the Kudumbashree Mission in Kerala for their valuable cooperation and support during the field investigation. The insights and responses shared by the group members were instrumental in shaping the outcomes of this study.
+:::
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-tip title="Technical Details"}
+All prices mentioned in this study are in Indian Rupees (Rs), the official currency of India. For clarity, “Rs” is used as a symbol for INR (Indian National Rupee) throughout the text. At the time of the study, the exchange rate was approximately 1 USD = 85.41 INR, although this may vary over time.
+:::
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**
+
+-   **Submitted:** *17 June 2025*\
+-   **Accepted:** *20 July 2025*\
+-   **Published (Online):** *22 July 2025*
+
+------------------------------------------------------------------------
+
+**Reviewer Information**
+
+-   **Reviewer 1:**\
+    *Anonymous*
+
+-   **Reviewer 2:**\
+    *Anonymous*
+:::  
+
+###  {.unnumbered}  
