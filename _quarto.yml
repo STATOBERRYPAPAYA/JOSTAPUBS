@@ -54,7 +54,7 @@ website:
   page-footer:
     border: true
     left: |
-      Published by PAPAYA publishing <a href="https://www.statoberry.com/papaya">![](/images/papayalogo.png){style='width: auto; height: 25px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+      Published by PAPAYA Academic Press <a href="https://www.statoberry.com/papaya">![](/images/papayalogo.png){style='width: auto; height: 25px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
     center: |
       <a href="https://www.statoberry.com/papaya">![](/images/Josta.png){style='height: 90px;'}</a>
     right: |
