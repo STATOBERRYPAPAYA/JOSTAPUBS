@@ -20,7 +20,7 @@
 
 The Journal of Sustainable Technology in Agriculture (JOSTA) is a peer-reviewed, open-access e-journal dedicated to publishing high-quality research that fosters innovation and sustainability in agriculture. Founded by a collaborative group of scientists and professionals, JOSTA serves as a reliable and inclusive platform for sharing advancements that enhance agricultural practices through responsible technology use, practical innovation, and applied research.
 
-We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world—promoting broad dissemination and knowledge sharing.
+We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world-promoting broad dissemination and knowledge sharing.
 
 Articles published in JOSTA are permanently archived in trusted repositories, ensuring long-term accessibility and citation. The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.
 
@@ -38,7 +38,7 @@ JOSTA is managed by PAPAYA publication division of Statoberry LLP and supported 
 
 ## Our Vision {.unnumbered}
 
-JOSTA envisions a research environment where sharing agricultural innovations is simple, accessible, and inclusive. Our aim is to provide a dedicated platform for publishing high-quality agricultural research in a researcher-friendly manner—removing unnecessary barriers while maintaining high editorial standards. We believe in connecting researchers, educators, and practitioners by offering open access to well-reviewed, reliable research. By fostering a transparent and practical publishing process, JOSTA supports the continuous improvement of agricultural science and technology.
+JOSTA envisions a research environment where sharing agricultural innovations is simple, accessible, and inclusive. Our aim is to provide a dedicated platform for publishing high-quality agricultural research in a researcher-friendly manner-removing unnecessary barriers while maintaining high editorial standards. We believe in connecting researchers, educators, and practitioners by offering open access to well-reviewed, reliable research. By fostering a transparent and practical publishing process, JOSTA supports the continuous improvement of agricultural science and technology.
 
 ## Why Publish with Us? {.unnumbered}
 
@@ -72,7 +72,7 @@ We are committed to supporting high-quality, impactful research and promoting af
 
 ## 🍃Greener Publishing {.unnumbered}
 
-As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint—aligning our commitment to open access with a sustainable future for scholarly communication.
+As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint-aligning our commitment to open access with a sustainable future for scholarly communication.
 
 ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)
 

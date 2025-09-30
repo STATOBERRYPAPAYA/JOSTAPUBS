@@ -76,6 +76,45 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
 </div> 
 ```
 
+## Managing Editors {.unnumbered}
+
+```{=html}
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Pratheesh P. Gopinath, PhD</h3>
+    <p>Assistant Professor,<br>Department of Agricultural Statistics,<br>
+    Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:pratheesh.pg@kau.in">pratheesh.pg@kau.in</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0003-3290-0436">0000-0003-3290-0436</a></p>
+    <p><a href="https://scholar.google.co.in/citations?user=kfyS0-0AAAAJ&hl=en">Google Scholar Profile</a></p>
+  </div>
+</div>
+
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Lovely B., PhD</h3>
+    <p>Assistant Professor,<br>Department of Plant Breeding & Genetics,<br>
+    College of Agriculture, Vellayani<br>
+    Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:lovely.b@kau.in">lovely.b@kau.in</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0002-3456-7890">0000-0002-3456-7890</a></p>
+    <p><a href="https://scholar.google.com/citations?user=ugbJocMAAAAJ&hl=en">Google Scholar Profile</a></p>
+  </div>
+</div>
+
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Adarsh V.S, PhD</h3>
+    <p>Assistant Professor (c),<br>Department of Agricultural Statistics,<br>
+    College of Agriculture, Vellayani<br>
+    Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:adarshvs0007@gmail.com">adarshvs0007@gmail.com</a></p>
+    <p>ORCID: <a href="https://orcid.org/0009-0005-9346-8909">0009-0005-9346-8909</a></p>
+    <p><a href="https://scholar.google.com/citations?user=iZGLkBcAAAAJ&hl=en">Google Scholar Profile</a></p>
+  </div>
+</div>
+```
+
 ## Associate Editors {.unnumbered}
 
 ### Crop and Plant Science {.unnumbered}
@@ -191,33 +230,6 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
     <p><a href="https://scholar.google.co.in/citations?user=CGQbWCwAAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div>  
-```
-
-## Managing Editors {.unnumbered}
-
-```{=html}
-<div class="editor-card">
-  <div class="editor-info">
-    <h3>Pratheesh P. Gopinath, PhD</h3>
-    <p>Assistant Professor,<br>Department of Agricultural Statistics,<br>
-    Kerala Agricultural University</p>
-    <p>Email: <a href="mailto:pratheesh.pg@kau.in">pratheesh.pg@kau.in</a></p>
-    <p>ORCID: <a href="https://orcid.org/0000-0003-3290-0436">0000-0003-3290-0436</a></p>
-    <p><a href="https://scholar.google.co.in/citations?user=kfyS0-0AAAAJ&hl=en">Google Scholar Profile</a></p>
-  </div>
-</div>
-
-<div class="editor-card">
-  <div class="editor-info">
-    <h3>Lovely B., PhD</h3>
-    <p>Assistant Professor,<br>Department of Plant Breeding & Genetics,<br>
-    College of Agriculture, Vellayani<br>
-    Kerala Agricultural University</p>
-    <p>Email: <a href="mailto:lovely.b@kau.in">lovely.b@kau.in</a></p>
-    <p>ORCID: <a href="https://orcid.org/0000-0002-3456-7890">0000-0002-3456-7890</a></p>
-    <p><a href="https://scholar.google.com/citations?user=ugbJocMAAAAJ&hl=en">Google Scholar Profile</a></p>
-  </div>
-</div>
 ```
 
 ## Managing Assistant Editors {.unnumbered}
