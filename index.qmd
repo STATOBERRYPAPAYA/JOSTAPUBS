@@ -70,8 +70,6 @@ At JOSTA, we uphold the principle that research quality should never be compromi
 
 We are committed to supporting high-quality, impactful research and promoting affordable, accessible publishing for all. By removing financial barriers, we aim to encourage meaningful contributions to sustainable technology in agriculture. For more detailed description on APCs, see [Article Processing Charges (APCs)](APC.qmd).
 
-
-
 ## 🍃Greener Publishing {.unnumbered}
 
 As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint-aligning our commitment to open access with a sustainable future for scholarly communication.
