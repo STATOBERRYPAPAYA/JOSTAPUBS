@@ -32,7 +32,8 @@ website:
         - submit.qmd
         - authorguide.qmd  
         - peerReview.qmd
-      - published.qmd
+        - APC.qmd
+        - published.qmd
       - section: "Volumes"
         contents:
           - section: "Volume 1"
