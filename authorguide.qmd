@@ -1,9 +1,17 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
 
 <!-- Horizontal Button Group -->
-
 ::: {style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;"}
-<a href="index.qmd" class="btn btn-outline-secondary"> <i  class="bi bi-house"></i> Home </a> <a href="submit.qmd" class="btn btn-outline-secondary"> <i class="bi bi-upload"></i> Submit Article </a>
+<a href="index.qmd" class="btn btn-outline-secondary">
+  <i class="bi bi-house"></i> Home
+</a>
+<a href="submit.qmd" class="btn btn-outline-secondary">
+  <i class="bi bi-upload"></i> Submit Article
+</a>
+<a href="https://firebasestorage.googleapis.com/v0/b/papaya-523c0.firebasestorage.app/o/AGS_JOSTA.docx?alt=media&token=2ead0c42-7e46-40fc-a626-65e004adae6b" 
+   class="btn btn-outline-primary" download>
+  <i class="bi bi-file-earmark-word"></i> Download Template
+</a>
 :::
 
 # Article submission {.unnumbered}
