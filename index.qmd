@@ -33,8 +33,26 @@ JOSTA is managed by PAPAYA publication division of Statoberry LLP and supported 
 | **Format** | Online |
 | **Subject** | Agriculture |
 | **Language of publication** | English |
-| **ISSN** | 3107-6882 |
+| **ISSN** | 3107-6882 (Online) |
 | **Publisher details** | **PAPAYA Academic Press**<br>KP-16/876(A), Kalliyoor P.O., Thiruvananthapuram, Kerala, India - 695523 |
+
+## Journal Metrics {.unnumbered}
+
+JOSTA is committed to transparency and providing authors with clear insights into the publication process.  
+Standard journal performance indicators will be updated annually.
+
+| **Metric** | **Current Status (2025)** |
+|----------------------|--------------------------------------|
+| **Average time to first decision** | 10–15 days |
+| **Average time to publication** | 25–30 days (Fast track: 7 days) |
+| **Rejection rate** | 40% |
+| **Articles per issue** | 10–12 articles |
+| **Issues per year** | 4 (Quarterly) |
+| **Citations** | To be updated after indexing and first citation cycle |
+
+::: {style="margin-top: 1em; text-align: center;"}
+<small>*Note: Metrics are provisional and will be refined as the journal grows and indexing data becomes available.*</small>
+:::
 
 ## Our Vision {.unnumbered}
 
