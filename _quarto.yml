@@ -33,6 +33,7 @@ website:
         - authorguide.qmd  
         - peerReview.qmd
         - APC.qmd
+        - Ethics.qmd
       - published.qmd
       - section: "Volumes"
         contents:

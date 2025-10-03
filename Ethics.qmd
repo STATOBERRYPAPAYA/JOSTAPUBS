@@ -1,0 +1,88 @@
+```{=html}
+<div style="text-align: center; margin-bottom: 1em;">
+  <img src="websitecover.jpg"
+       alt="Banner"
+       style="width: 100%; max-height: 200px; object-fit: cover;">
+</div>
+```
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+
+<!-- Horizontal Button Group -->
+
+::: {style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;"}
+<a href="index.qmd" class="btn btn-outline-secondary"> <i  class="bi bi-house"></i> Home </a> <a href="submit.qmd" class="btn btn-outline-secondary"> <i class="bi bi-upload"></i> Submit Article </a>
+:::
+
+# Publication Ethics and Malpractice Statement {.unnumbered}
+
+The **Journal of Statistics and Applications (JOSTA)** is committed to maintaining the highest standards of scholarly publishing. The journal strictly adheres to the principles and best practices set out by the  
+👉 [Committee on Publication Ethics (COPE)](https://publicationethics.org/guidance?f%5B0%5D=type%3A21).
+
+## Editorial Responsibilities {.unnumbered}
+
+- Editors are responsible for ensuring that all content published in *JOSTA* meets high standards of quality, originality, and academic merit.  
+- Decisions are made without discrimination on the basis of race, gender, institutional affiliation, or beliefs.  
+- Manuscripts are treated confidentially at all stages of the editorial process.  
+- Editors will not handle manuscripts where conflicts of interest exist.  
+- Allegations of misconduct are investigated thoroughly in line with COPE procedures.  
+
+## Peer Review Process {.unnumbered}
+
+- JOSTA follows a **double-blind peer review** policy.  
+- All manuscripts are evaluated by at least two independent experts with relevant expertise.  
+- Reviewers must provide constructive, evidence-based, and unbiased evaluations.  
+- Confidentiality must be maintained throughout the review process.  
+- Reviewers must disclose conflicts of interest and decline reviews where bias may occur.  
+
+## Author Responsibilities {.unnumbered}
+
+- Authors must submit only original works and ensure proper acknowledgment of all sources.  
+- Submissions should not be under consideration by other journals (no duplicate submission).  
+- Authorship is limited to those who made substantial contributions to the research or writing.  
+- Contributions not meeting authorship criteria should be acknowledged separately.  
+- All authors must approve the final version of the manuscript.  
+- Authors must disclose all funding sources and any potential conflicts of interest.  
+
+## Plagiarism and Research Misconduct {.unnumbered}
+
+- All manuscripts are checked using plagiarism-detection tools.  
+- Plagiarism, self-plagiarism, falsification, fabrication, and image manipulation are strictly prohibited.  
+- Proven cases of misconduct will result in rejection or retraction, following COPE flowcharts.  
+
+## Conflicts of Interest {.unnumbered}
+
+- Authors, reviewers, and editors must declare any personal, professional, or financial conflicts of interest.  
+- Funding sources and their role in the research must be clearly disclosed.  
+
+## Data Integrity and Transparency {.unnumbered}
+
+- Authors must maintain accurate records of data and be prepared to share them when requested.  
+- A **Data Availability Statement** is encouraged to promote transparency and reproducibility.  
+- Figures, images, and graphs must not be manipulated in a way that misrepresents results.  
+
+## Ethical Standards for Research {.unnumbered}
+
+- Research involving humans must comply with the **Declaration of Helsinki** and be approved by an Institutional Ethics Committee (IEC).  
+- Informed consent must be obtained when applicable.  
+- Animal studies must follow international standards of humane treatment and welfare.  
+- Manuscripts must clearly state the ethical approval reference and committee name.  
+
+## Post-Publication Responsibilities {.unnumbered}
+
+- Authors must promptly inform the editorial office of errors or inaccuracies in published work.  
+- The journal will publish corrections, corrigenda, or retractions when required, following COPE guidelines.  
+- Retractions will remain permanently accessible and linked to the original article.  
+
+## Complaints and Appeals {.unnumbered}
+
+- Authors and readers may raise complaints regarding editorial decisions or ethical concerns by contacting the Editor-in-Chief at:  
+  📧 [editor@jostapubs.com](mailto:jostapubs@gmail.com)  
+- Appeals are handled transparently and may involve independent members of the editorial board.  
+
+## Publisher’s Commitment {.unnumbered}
+
+- The publisher supports the editorial board in maintaining ethical integrity at all levels.  
+- JOSTA ensures permanent open access and digital preservation of all published content. 
+
+📌 **By submitting a manuscript to JOSTA, authors agree to comply with the ethical principles outlined by the [Committee on Publication Ethics (COPE)](https://publicationethics.org/guidance?f%5B0%5D=type%3A21).**
