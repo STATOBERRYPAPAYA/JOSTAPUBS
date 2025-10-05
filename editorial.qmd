@@ -216,6 +216,35 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
 </div>
 ```
 
+## Extension Education and Rural Development {.unnumbered}
+
+```{=html}
+
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Esakkimuthu. M, PhD</h3>
+    <p>Assistant Professor,<br>Department of Agricultural Extension,<br>
+    College of Agriculture, Vellayani<br>
+    Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:esakkimuthu.m@kau.in">esakkimuthu.m@kau.in</a></p>
+    <p>ORCID: <a href=""></a></p>
+    <p><a href="https://scholar.google.co.in/citations?user=XOcrnykAAAAJ&hl=en&oi=ao">Google Scholar Profile</a></p>
+  </div>
+</div>  
+
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Aparna Radhakrishnan, PhD</h3>
+    <p>Assistant Professor,<br>Department of Agricultural Extension,<br>
+    College of Agriculture, Vellayani<br>
+    Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:aparna.r@kau.in">aparna.r@kau.in</a></p>
+    <p>ORCID: <a href=""></a></p>
+    <p><a href="https://scholar.google.com/citations?user=RKIwHV4AAAAJ&hl=en&oi=ao">Google Scholar Profile</a></p>
+  </div>
+</div>
+```
+
 ## Soil Science and Agroecology {.unnumbered}
 
 ```{=html}
