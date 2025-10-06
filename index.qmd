@@ -26,33 +26,61 @@ Articles published in JOSTA are permanently archived in trusted repositories, en
 
 JOSTA is managed by PAPAYA publication division of Statoberry LLP and supported by domain experts in agriculture and allied sciences, ensuring both technical accuracy and contextual relevance in all published content.
 
-| **Detail** | **Information** |
-|------------------------------------|------------------------------------|
-| **Starting year** | 2025 |
-| **Frequency** | Four issues per year (every three months) - Online |
-| **Format** | Online |
-| **Subject** | Agriculture |
-| **Language of publication** | English |
-| **ISSN** | 3107-6882 (Online) |
-| **Publisher details** | **PAPAYA Academic Press**<br>KP-16/876(A), Kalliyoor P.O., Thiruvananthapuram, Kerala, India - 695523 |
+```{=html}
 
-## Journal Metrics {.unnumbered}
+<!-- Journal Information Section -->
+<section id="journal-info" style="background-color:#eaf4fb; padding:40px 0; border-top:1px solid #cfd8dc; border-bottom:1px solid #cfd8dc;">
+  <div style="max-width:950px; margin:auto;">
 
-JOSTA is committed to transparency and providing authors with clear insights into the publication process.  
-Standard journal performance indicators will be updated annually.
+    <div style="text-align:center; margin-bottom:25px;">
+      <h2 style="font-size:1.6em; font-weight:700; color:#003366; margin-bottom:10px;">Journal Information</h2>
+    </div>
 
-| **Metric** | **Current Status (2025)** |
-|----------------------|--------------------------------------|
-| **Average time to first decision** | 10–15 days |
-| **Average time to publication** | 25–30 days (Fast track: 7 days) |
-| **Rejection rate** | 40% |
-| **Articles per issue** | 10–12 articles |
-| **Issues per year** | 4 (Quarterly) |
-| **Citations** | To be updated after indexing and first citation cycle |
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
 
-::: {style="margin-top: 1em; text-align: center;"}
-<small>*Note: Metrics are provisional and will be refined as the journal grows and indexing data becomes available.*</small>
-:::
+      <!-- Each info card -->
+      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1em; color:#000; margin-bottom:8px;">Starting Year</div>
+        <div style="font-size:1.3em; font-weight:700; color:#00796b;">2025</div>
+      </div>
+
+      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1em; color:#000; margin-bottom:8px;">Frequency</div>
+        <div style="font-size:1.05em; font-weight:600; color:#00796b;">Quarterly - Online</div>
+      </div>
+
+      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1em; color:#000; margin-bottom:8px;">Format</div>
+        <div style="font-size:1.3em; font-weight:700; color:#00796b;">Online</div>
+      </div>
+
+      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1em; color:#000; margin-bottom:8px;">Subject</div>
+        <div style="font-size:1.3em; font-weight:700; color:#00796b;">Agriculture</div>
+      </div>
+
+      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1em; color:#000; margin-bottom:8px;">Language of Publication</div>
+        <div style="font-size:1.3em; font-weight:700; color:#00796b;">English</div>
+      </div>
+
+      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1em; color:#000; margin-bottom:8px;">ISSN</div>
+        <div style="font-size:1.3em; font-weight:700; color:#00796b;">3107-6882 (Online)</div>
+      </div>
+
+      <div style="flex:1 1 520px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:25px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1em; color:#000; margin-bottom:10px;">Publisher Details</div>
+        <div style="font-size:1.05em; font-weight:600; color:#00796b;">
+          <strong>PAPAYA Academic Press</strong><br>
+          KP-16/876(A), Kalliyoor P.O., Thiruvananthapuram, Kerala, India - 695523
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+```
 
 ## Our Vision {.unnumbered}
 
@@ -67,6 +95,58 @@ Open Access: Your work is freely accessible online from the moment of publicatio
 -   **Permanent Archiving**: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.
 
 -   **Supportive Community**: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.
+
+## Journal Metrics {.unnumbered}
+
+```{=html}
+
+<!-- Journal Metrics Section -->
+<section id="journal-metrics" style="background-color:#eaf4fb; padding:40px 0; border-top:1px solid #ddd; border-bottom:1px solid #ddd;">
+  <div style="max-width:1000px; margin:auto; text-align:center;">
+
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
+      
+      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Average time to first decision</div>
+        <div style="font-size:1.5em; font-weight:700; color:#00796b;">10–15 days</div>
+      </div>
+
+      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Average time to publication</div>
+        <div style="font-size:1.5em; font-weight:700; color:#00796b;">25–30 days</div>
+        <div style="background-color:#c8e6c9; color:#004d40; font-weight:700; font-size:0.95em; padding:5px 12px; border-radius:6px; display:inline-block; margin-top:8px;">
+          Fast track: 7 days
+        </div>
+      </div>
+
+      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Rejection rate</div>
+        <div style="font-size:1.5em; font-weight:700; color:#00796b;">40%</div>
+      </div>
+
+      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Articles per issue</div>
+        <div style="font-size:1.5em; font-weight:700; color:#00796b;">10–12</div>
+      </div>
+
+      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Issues per year (Quarterly)</div>
+        <div style="font-size:1.5em; font-weight:700; color:#00796b;">4</div>
+      </div>
+
+      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Citations (after indexing & first cycle)</div>
+        <div style="font-size:1.5em; font-weight:700; color:#00796b;">To be updated</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+```
+
+::: {style="margin-top: 1em; text-align: center;"}
+<small>*Note: Metrics are provisional and will be refined as the journal grows and indexing data becomes available.*</small>
+:::
 
 ## Peer Review Policy {.unnumbered}
 
