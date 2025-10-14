@@ -1,6 +1,6 @@
 ```{=html}
 <div style="text-align: center; margin-bottom: 1em;">
-  <img src="websitecover.jpg"
+  <img src="websitecover.webp"
        alt="Banner"
        style="width: 100%; max-height: 200px; object-fit: cover;">
 </div>
@@ -27,59 +27,160 @@ Articles published in JOSTA are permanently archived in trusted repositories, en
 JOSTA is managed by PAPAYA publication division of Statoberry LLP and supported by domain experts in agriculture and allied sciences, ensuring both technical accuracy and contextual relevance in all published content.
 
 ```{=html}
+<section class="josta-meta" id="journal-info" aria-labelledby="journal-info-title">
+  <div class="container josta-wrap">
+    <h2 class="josta-title" id="journal-info-title">Journal information</h2>
 
-<!-- Journal Information Section -->
-<section id="journal-info" style="background-color:#eaf4fb; padding:40px 0; border-top:1px solid #cfd8dc; border-bottom:1px solid #cfd8dc;">
-  <div style="max-width:950px; margin:auto;">
+    <ul class="josta-grid" role="list">
+      <li class="josta-item sandstone1">
+        <span class="josta-k">
+          <svg viewBox="0 0 24 24" class="josta-ic"><path d="M7 2v2M17 2v2M3 9h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
+          Starting year
+        </span>
+        <span class="josta-v">2025</span>
+      </li>
 
-    <div style="text-align:center; margin-bottom:25px;">
-      <h2 style="font-size:1.6em; font-weight:700; color:#003366; margin-bottom:10px;">Journal Information</h2>
-    </div>
+      <li class="josta-item sandstone2">
+        <span class="josta-k">
+          <svg viewBox="0 0 24 24" class="josta-ic"><path d="M3 6h18M3 12h12M3 18h6"/></svg>
+          Frequency
+        </span>
+        <span class="josta-v">Quarterly · Online</span>
+      </li>
 
-    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
+      <li class="josta-item sandstone3">
+        <span class="josta-k">
+          <svg viewBox="0 0 24 24" class="josta-ic"><path d="M4 5h16v10H4zM8 21h8"/></svg>
+          Format
+        </span>
+        <span class="josta-v">Online</span>
+      </li>
 
-      <!-- Each info card -->
-      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1em; color:#000; margin-bottom:8px;">Starting Year</div>
-        <div style="font-size:1.3em; font-weight:700; color:#00796b;">2025</div>
-      </div>
+      <li class="josta-item sandstone4">
+        <span class="josta-k">
+          <svg viewBox="0 0 24 24" class="josta-ic"><path d="M20 4c-7 0-12 5-12 12 0 2 0 4-2 4 6 0 16-6 16-16h-2z"/></svg>
+          Subject
+        </span>
+        <span class="josta-v">Agriculture</span>
+      </li>
 
-      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1em; color:#000; margin-bottom:8px;">Frequency</div>
-        <div style="font-size:1.05em; font-weight:600; color:#00796b;">Quarterly - Online</div>
-      </div>
+      <li class="josta-item sandstone5">
+        <span class="josta-k">
+          <svg viewBox="0 0 24 24" class="josta-ic"><path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0-18zm0 0c3 3 3 15 0 18m0-18C9 6 9 18 12 21M3 12h18"/></svg>
+          Language
+        </span>
+        <span class="josta-v">English</span>
+      </li>
 
-      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1em; color:#000; margin-bottom:8px;">Format</div>
-        <div style="font-size:1.3em; font-weight:700; color:#00796b;">Online</div>
-      </div>
+      <li class="josta-item sandstone6">
+        <span class="josta-k">
+          <svg viewBox="0 0 24 24" class="josta-ic"><path d="M4 5v14M7 5v14M11 5v14M13 5v14M17 5v14M20 5v14"/></svg>
+          ISSN
+        </span>
+        <span class="josta-v">3107-6882 (Online)</span>
+      </li>
+    </ul>
 
-      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1em; color:#000; margin-bottom:8px;">Subject</div>
-        <div style="font-size:1.3em; font-weight:700; color:#00796b;">Agriculture</div>
-      </div>
-
-      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1em; color:#000; margin-bottom:8px;">Language of Publication</div>
-        <div style="font-size:1.3em; font-weight:700; color:#00796b;">English</div>
-      </div>
-
-      <div style="flex:1 1 250px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1em; color:#000; margin-bottom:8px;">ISSN</div>
-        <div style="font-size:1.3em; font-weight:700; color:#00796b;">3107-6882 (Online)</div>
-      </div>
-
-      <div style="flex:1 1 520px; background:#fff; border:1px solid #dce7f3; border-radius:10px; padding:25px; box-shadow:0 1px 3px rgba(0,0,0,0.08); text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1em; color:#000; margin-bottom:10px;">Publisher Details</div>
-        <div style="font-size:1.05em; font-weight:600; color:#00796b;">
-          <strong>PAPAYA Academic Press</strong><br>
-          KP-16/876(A), Kalliyoor P.O., Thiruvananthapuram, Kerala, India - 695523
-        </div>
-      </div>
-
+    <div class="josta-publisher sandstone-accent">
+      <span class="josta-k">
+        <svg viewBox="0 0 24 24" class="josta-ic"><path d="M3 21h18M6 21V7l6-4 6 4v14M9 10h2m2 0h2m-6 4h2m2 0h2"/></svg>
+        Publisher
+      </span>
+      <span class="josta-v"><strong>PAPAYA Academic Press</strong>, KP-16/876(A), Kalliyoor P.O., Thiruvananthapuram, Kerala — 695523</span>
     </div>
   </div>
 </section>
+
+<style>
+  .josta-meta {
+    font-family: Georgia, "Times New Roman", serif;
+    background: #fff;
+    padding: 32px 0;
+  }
+
+  .josta-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #325d88;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .josta-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+
+  .josta-item {
+    border-radius: 8px;
+    padding: 14px 16px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.05);
+    color: #2c2c2c;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .josta-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  }
+
+  /* individual sandstone tones */
+  .sandstone1 { background: #fdf6ec; }
+  .sandstone2 { background: #f9f3e8; }
+  .sandstone3 { background: #f5f0e2; }
+  .sandstone4 { background: #f1ebdd; }
+  .sandstone5 { background: #ece5d5; }
+  .sandstone6 { background: #e8dfcd; }
+
+  .josta-k {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: #5b646c;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+
+  .josta-v {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #2c2c2c;
+  }
+
+  .josta-ic {
+    width: 15px;
+    height: 15px;
+    stroke: #5b646c;
+    fill: none;
+    stroke-width: 1.6;
+  }
+
+  .josta-publisher {
+    margin-top: 22px;
+    border-radius: 8px;
+    padding: 16px;
+    background: #fdf6ec;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    font-size: 0.95rem;
+    color: #333;
+  }
+
+  .josta-publisher strong {
+    color: #325d88;
+  }
+
+  @media (max-width: 576px) {
+    .josta-item { padding: 12px; font-size: 0.95rem; }
+    .josta-v { font-size: 0.95rem; }
+  }
+</style>
+
 ```
 
 ## Our Vision {.unnumbered}
@@ -99,49 +200,125 @@ Open Access: Your work is freely accessible online from the moment of publicatio
 ## Journal Metrics {.unnumbered}
 
 ```{=html}
+<section class="josta-metrics" id="journal-metrics" aria-labelledby="journal-metrics-title">
+  <div class="container jm-wrap">
+    <h2 class="jm-title" id="journal-metrics-title">Journal metrics</h2>
 
-<!-- Journal Metrics Section -->
-<section id="journal-metrics" style="background-color:#eaf4fb; padding:40px 0; border-top:1px solid #ddd; border-bottom:1px solid #ddd;">
-  <div style="max-width:1000px; margin:auto; text-align:center;">
+    <ul class="jm-grid" role="list">
+      <li class="jm-card tone-1">
+        <span class="jm-k">Average time to first decision</span>
+        <span class="jm-v">10–15 days</span>
+      </li>
 
-    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
-      
-      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Average time to first decision</div>
-        <div style="font-size:1.5em; font-weight:700; color:#00796b;">10–15 days</div>
-      </div>
+      <li class="jm-card tone-2">
+        <span class="jm-k">Average time to publication</span>
+        <span class="jm-v">25–30 days</span>
+        <span class="jm-badge">Fast track: 7 days</span>
+      </li>
 
-      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Average time to publication</div>
-        <div style="font-size:1.5em; font-weight:700; color:#00796b;">25–30 days</div>
-        <div style="background-color:#c8e6c9; color:#004d40; font-weight:700; font-size:0.95em; padding:5px 12px; border-radius:6px; display:inline-block; margin-top:8px;">
-          Fast track: 7 days
-        </div>
-      </div>
+      <li class="jm-card tone-3">
+        <span class="jm-k">Rejection rate</span>
+        <span class="jm-v">40%</span>
+      </li>
 
-      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Rejection rate</div>
-        <div style="font-size:1.5em; font-weight:700; color:#00796b;">40%</div>
-      </div>
+      <li class="jm-card tone-4">
+        <span class="jm-k">Articles per issue</span>
+        <span class="jm-v">10–12</span>
+      </li>
 
-      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Articles per issue</div>
-        <div style="font-size:1.5em; font-weight:700; color:#00796b;">10–12</div>
-      </div>
+      <li class="jm-card tone-5">
+        <span class="jm-k">Issues per year (Quarterly)</span>
+        <span class="jm-v">4</span>
+      </li>
 
-      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Issues per year (Quarterly)</div>
-        <div style="font-size:1.5em; font-weight:700; color:#00796b;">4</div>
-      </div>
-
-      <div style="flex:1 1 220px; background-color:white; border:1px solid #dce7f3; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:25px; text-align:center; display:flex; flex-direction:column; justify-content:center;">
-        <div style="font-size:1.05em; color:#000; margin-bottom:10px;">Citations (after indexing & first cycle)</div>
-        <div style="font-size:1.5em; font-weight:700; color:#00796b;">To be updated</div>
-      </div>
-
-    </div>
+      <li class="jm-card tone-6">
+        <span class="jm-k">Citations (after indexing &amp; first cycle)</span>
+        <span class="jm-v">To be updated</span>
+      </li>
+    </ul>
   </div>
 </section>
+
+<style>
+  /* --- Journal Metrics (Sandstone-friendly, mobile-first, no section borders) --- */
+  .josta-metrics {
+    font-family: Georgia, "Times New Roman", serif;
+    background: #fff;
+    padding: 32px 0;
+  }
+  .jm-wrap { padding-left: 12px; padding-right: 12px; }
+
+  .jm-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #325d88; /* sandstone navy */
+    text-align: center;
+    margin: 0 0 20px;
+    letter-spacing: .2px;
+  }
+
+  .jm-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+
+  .jm-card {
+    border-radius: 10px;
+    padding: 16px 18px;
+    text-align: center;
+    color: #2c2c2c;
+    box-shadow: 0 2px 3px rgba(0,0,0,.05);
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .jm-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,.08);
+  }
+
+  .jm-k {
+    display: block;
+    color: #5b646c;   /* muted sandstone text */
+    font-size: .92rem;
+    margin-bottom: 6px;
+  }
+  .jm-v {
+    display: block;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: #2c2c2c;
+    letter-spacing: .1px;
+  }
+
+  .jm-badge {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-weight: 700;
+    font-size: .88rem;
+    border-radius: 999px;
+    background: #e2f2e4;  /* soft success tint */
+    color: #155724;
+  }
+
+  /* Sandstone-tinted card backgrounds (no borders) */
+  .tone-1 { background: #fdf6ec; } /* vanilla sandstone */
+  .tone-2 { background: #f9f3e8; }
+  .tone-3 { background: #f5f0e2; }
+  .tone-4 { background: #f1ebdd; }
+  .tone-5 { background: #ece5d5; }
+  .tone-6 { background: #e8dfcd; }
+
+  /* small screens */
+  @media (max-width: 576px) {
+    .jm-card { padding: 14px; }
+    .jm-v { font-size: 1.05rem; }
+  }
+</style>
+
 ```
 
 ::: {style="margin-top: 1em; text-align: center;"}
@@ -156,7 +333,63 @@ For a detailed description of the review process, see [Peer Review Process](peer
 
 ## 🔓Open Access {.unnumbered}
 
-JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
+JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.  
+
+```{=html}  
+<section class="openaire-line">
+  <div class="container oa-line-wrap">
+    <img src="openaire.webp" alt="OpenAIRE" class="oa-logo">
+    <span class="oa-text">
+      All articles published are indexed in <strong>OpenAIRE</strong> as they are archived in <strong>Zenodo</strong>.
+    </span>
+    <img src="zenodo.webp" alt="Zenodo" class="oa-logo">
+  </div>
+</section>
+
+<style>
+  .openaire-line {
+    background: #fdf6ec; /* Sandstone beige */
+    border-top: 1px solid #e2d8c8;
+    border-bottom: 1px solid #e2d8c8;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 12px 0;
+  }
+
+  .oa-line-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 12px;
+    text-align: center;
+    font-size: 1rem;
+    color: #325d88; /* Sandstone navy */
+    font-weight: 500;
+  }
+
+  .oa-logo {
+    height: 24px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    filter: drop-shadow(0 0.5px 1px rgba(0,0,0,0.08));
+  }
+
+  .oa-text strong {
+    color: #0b5a56; /* Sandstone teal accent */
+  }
+
+  @media (max-width: 600px) {
+    .oa-line-wrap {
+      flex-direction: column;
+      gap: 6px;
+      font-size: 0.95rem;
+    }
+    .oa-logo { height: 22px; }
+  }
+</style>
+
+```  
 
 ## Article Processing Charges (APC) {.unnumbered}
 
@@ -172,7 +405,8 @@ We are committed to supporting high-quality, impactful research and promoting af
 
 As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint-aligning our commitment to open access with a sustainable future for scholarly communication.
 
-![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)
+![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)  
+
 
 ### Copyright Information {.unnumbered}
 
@@ -187,4 +421,4 @@ Under this license:\
 - **Non Commercial**: You may not use the material for commercial purposes.\
 - **No Derivatives**: If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-For commercial use or distribution of print copies, prior written permission from **Statoberry LLP** is required.
+For commercial use or distribution of print copies, prior written permission from **Statoberry LLP** is required.  
