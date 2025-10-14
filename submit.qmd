@@ -1,6 +1,6 @@
 ```{=html}
 <div style="text-align: center; margin-bottom: 1em;">
-  <img src="websitecover.jpg"
+  <img src="websitecover.webp"
        alt="Banner"
        style="width: 100%; max-height: 200px; object-fit: cover;">
 </div>
@@ -38,4 +38,4 @@ To submit your manuscript, click the button below:
 
 <!-- ``` -->
 
-If you encounter any issues during submission, please contact us at [jostapubs@gmail.com](mailto:jostapubs@gmail.com).
+If you encounter any issues during submission, please contact us at [jostapubs\@gmail.com](mailto:jostapubs@gmail.com).

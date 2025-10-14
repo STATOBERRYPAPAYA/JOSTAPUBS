@@ -180,7 +180,6 @@ JOSTA is managed by PAPAYA publication division of Statoberry LLP and supported 
     .josta-v { font-size: 0.95rem; }
   }
 </style>
-
 ```
 
 ## Our Vision {.unnumbered}
@@ -318,7 +317,6 @@ Open Access: Your work is freely accessible online from the moment of publicatio
     .jm-v { font-size: 1.05rem; }
   }
 </style>
-
 ```
 
 ::: {style="margin-top: 1em; text-align: center;"}
@@ -333,9 +331,9 @@ For a detailed description of the review process, see [Peer Review Process](peer
 
 ## 🔓Open Access {.unnumbered}
 
-JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.  
+JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
 
-```{=html}  
+```{=html}
 <section class="openaire-line">
   <div class="container oa-line-wrap">
     <img src="openaire.webp" alt="OpenAIRE" class="oa-logo">
@@ -388,8 +386,7 @@ JOSTA is a fully open-access journal. This means all published articles are avai
     .oa-logo { height: 22px; }
   }
 </style>
-
-```  
+```
 
 ## Article Processing Charges (APC) {.unnumbered}
 
@@ -405,8 +402,7 @@ We are committed to supporting high-quality, impactful research and promoting af
 
 As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint-aligning our commitment to open access with a sustainable future for scholarly communication.
 
-![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)  
-
+![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)
 
 ### Copyright Information {.unnumbered}
 
@@ -421,4 +417,4 @@ Under this license:\
 - **Non Commercial**: You may not use the material for commercial purposes.\
 - **No Derivatives**: If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-For commercial use or distribution of print copies, prior written permission from **Statoberry LLP** is required.  
+For commercial use or distribution of print copies, prior written permission from **Statoberry LLP** is required.

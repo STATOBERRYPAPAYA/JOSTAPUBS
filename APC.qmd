@@ -1,6 +1,6 @@
 ```{=html}
 <div style="text-align: center; margin-bottom: 1em;">
-  <img src="websitecover.jpg"
+  <img src="websitecover.webp"
        alt="Banner"
        style="width: 100%; max-height: 200px; object-fit: cover;">
 </div>
@@ -20,43 +20,45 @@ The *Journal of Sustainable Technology in Agriculture (JOSTA)* is committed to m
 
 ## Standard Publication Route (No APC) {.unnumbered}
 
-- **Fee**: No charges for Indian authors as well as International authors.
+-   **Fee**: No charges for Indian authors as well as International authors.
 
-- **Timeline**: Manuscripts are processed within a maximum period of one month from submission to publication, depending on the review and production schedule.
+-   **Timeline**: Manuscripts are processed within a maximum period of one month from submission to publication, depending on the review and production schedule.
 
-- **Process**: Submissions follow the journal’s regular peer review workflow and are considered in the order received.
+-   **Process**: Submissions follow the journal’s regular peer review workflow and are considered in the order received.
 
-- **Eligibility**: Available to all authors, irrespective of affiliation, funding status, or geographical location.
+-   **Eligibility**: Available to all authors, irrespective of affiliation, funding status, or geographical location.
 
 This route ensures that high-quality research remains freely accessible without financial barriers to authors.
 
 ## Fast Track Publication Route (APC Applicable) {.unnumbered}
 
-- **Fee**:
-  - ***₹1,500*** for Indian authors 
-  - ***US$25*** for International authors
-  
-- **Timeline**: Decision and online publication are targeted within seven (7) calendar days of fast-track confirmation.
+-   **Fee**:
 
-- **Features**:
-  - Priority editorial and administrative handling
-  - Expedited peer review through a dedicated reviewer pool
-  - Accelerated copyediting, typesetting, and online release
-  
-- **Conditions**:
-  - Manuscripts must pass the initial editorial screening (desk review) before being considered for fast track.
-  - A limited number of fast-track slots are available for each issue to preserve review quality and editorial oversight.
-  - The same rigorous peer review standards apply to both standard and fast track submissions.
-  - If, for reasons attributable to the journal, the fast track timeline cannot be met, the APC will be refunded in full.
+    -   ***₹1,500*** for Indian authors
+    -   ***US\$25*** for International authors
+
+-   **Timeline**: Decision and online publication are targeted within seven (7) calendar days of fast-track confirmation.
+
+-   **Features**:
+
+    -   Priority editorial and administrative handling
+    -   Expedited peer review through a dedicated reviewer pool
+    -   Accelerated copyediting, typesetting, and online release
+
+-   **Conditions**:
+
+    -   Manuscripts must pass the initial editorial screening (desk review) before being considered for fast track.
+    -   A limited number of fast-track slots are available for each issue to preserve review quality and editorial oversight.
+    -   The same rigorous peer review standards apply to both standard and fast track submissions.
+    -   If, for reasons attributable to the journal, the fast track timeline cannot be met, the APC will be refunded in full.
 
 ## Editorial Integrity and Transparency {.unnumbered}
 
-- Authors must select their preferred route (standard or fast track) at the time of submission.
-- The choice of route has no bearing on editorial decisions, which remain solely grounded in the scholarly merit, originality, and relevance of the manuscript.
-- APCs cover only the cost of accelerated processing; they do not influence acceptance outcomes.
-- Waivers or partial reductions in fast track APCs may be considered, upon request, for early-career researchers or authors from under developed countries.
+-   Authors must select their preferred route (standard or fast track) at the time of submission.
+-   The choice of route has no bearing on editorial decisions, which remain solely grounded in the scholarly merit, originality, and relevance of the manuscript.
+-   APCs cover only the cost of accelerated processing; they do not influence acceptance outcomes.
+-   Waivers or partial reductions in fast track APCs may be considered, upon request, for early-career researchers or authors from under developed countries.
 
 ## Commitment to Ethical Publishing {.unnumbered}
 
 JOSTA reaffirms its commitment to maintaining fairness, transparency, and academic rigor across all stages of the publication process. Both routes—standard and fast track—adhere to the same principles of double-blind peer review, editorial independence, and international ethical standards in scholarly publishing.
-
