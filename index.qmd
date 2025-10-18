@@ -404,15 +404,15 @@ As a digital-only journal, JOSTA embraces environmentally responsible publishing
 
 ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)
 
-## 🔑 Author Login & Manuscript Submission {.unnumbered}
+## 🔑 Author Login & Article Submission {.unnumbered}
 
-Authors and researchers are welcome to submit their manuscripts to **JOSTA** through our secure online submission portal.  
+Authors and researchers are welcome to submit their articles to **JOSTA** through our secure online submission portal.  
 You can **register as a new author** or **log in** using your registered email ID and password to access your submission dashboard.
 
 👉 [**Access Author Portal**](https://www.jostapubs.com/jostasubmission.html){target="_blank" rel="noopener"}
 
 Once registered, you can:
-- Submit new manuscripts directly online  
+- Submit the articles directly online  
 - Track your submission status in real time  
 - Respond to editorial or reviewer feedback  
 - Upload revised versions or additional files  
