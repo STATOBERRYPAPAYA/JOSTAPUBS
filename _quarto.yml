@@ -60,8 +60,9 @@ website:
     center: |
       <a href="https://www.statoberry.com/papaya">![](/images/Josta.png){style='height: 90px;'}</a>
     right: |
-      Licenced under [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/) <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">![](/images/cclogo.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
-      Built with <a href="https://quarto.org/">Quarto</a>
+      Licenced under [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+      <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">![](/images/cclogo.png){style='width: 
+      auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
   reader-mode: true
   page-navigation: true
   back-to-top-navigation: true
