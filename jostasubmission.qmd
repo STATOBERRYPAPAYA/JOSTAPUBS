@@ -161,7 +161,7 @@ format:
 
   <!-- Loader -->
   <div id="loader">
-    <img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/JOSTA%2Fjostaloader.gif?alt=media" alt="Loading...">
+    <img src="https://firebasestorage.googleapis.com/v0/b/raisins-2025.firebasestorage.app/o/JOSTA%2Fjostaloader.GIF?alt=media" alt="Loading...">
   </div>
 
   <!-- App iframe -->
