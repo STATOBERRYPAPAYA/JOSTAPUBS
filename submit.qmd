@@ -22,20 +22,8 @@ Please ensure you have reviewed the [Author Guidelines](authorguide.qmd) before 
 
 To submit your manuscript, click the button below:
 
-<a href="https://forms.gle/dVpghUscLZTkbBWw8" target="_blank" class="btn btn-outline-success"> <i  class="bi bi-upload"></i> Submit Article </a>
+<a href="jostasubmission.qmd" target="_blank" class="btn btn-outline-success"> <i  class="bi bi-upload"></i> Submit Article </a>
 
-<!-- ```{=html} -->
 
-<!-- <div style="margin-top: 1.5em;"> -->
 
-<!--   <a href="https://forms.gle/dVpghUscLZTkbBWw8" target="_blank" style="display: inline-block; padding: 12px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;"> -->
-
-<!--     Submit Article -->
-
-<!--   </a> -->
-
-<!-- </div> -->
-
-<!-- ``` -->
-
-If you encounter any issues during submission, please contact us at [jostapubs\@gmail.com](mailto:jostapubs@gmail.com).
+If you encounter any issues during submission, please contact us at [support\@jostapubs.com](mailto:support@jostapubs.com).

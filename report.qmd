@@ -43,7 +43,7 @@ When submitting, please try to provide:
 
 If your concern is **sensitive or private**, please do not use the public GitHub issue tracker. Instead, email us directly at:
 
-📧 [**jostapubs\@gmail.com**](mailto:jostapubs@gmail.com)
+📧 [**support\@jostapubs.com**](mailto:support@jostapubs.com)
 
 ------------------------------------------------------------------------
 
