@@ -13,7 +13,7 @@
 <!-- Horizontal Button Group -->
 
 ::: {style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;"}
-<a href="submit.qmd" class="btn btn-outline-success"> <i class="bi bi-upload"></i> Submit </a> <a href="published.qmd" class="btn btn-outline-info"> <i class="bi bi-book"></i> Read </a> <a href="editorial.qmd" class="btn btn-outline-warning"> <i class="bi bi-people"></i> Editorial </a> <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"> <i class="bi bi-cloud-arrow-down"></i> Zenodo </a>
+<a href="submit.qmd" class="btn btn-outline-success"> <i class="bi bi-upload"></i> Submit </a> <a href="published.qmd" class="btn btn-outline-info"> <i class="bi bi-book"></i> Read </a> <a href="editorial.qmd" class="btn btn-outline-warning"> <i class="bi bi-people"></i> Editorial </a> <a href="jostasubmission.qmd" class="btn btn-outline-primary"> <i class="bi bi-person-lock"></i> Author Login </a> <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"> <i class="bi bi-cloud-arrow-down"></i> Zenodo </a>
 :::
 
 # About JOSTA {.unnumbered}
