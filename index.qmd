@@ -621,25 +621,40 @@ Once registered, you can: - Submit the articles directly online\
 - Respond to editorial or reviewer feedback\
 - Upload revised versions or additional files
 
-This platform is open to all researchers worldwide helping us ensure a seamless, transparent, and efficient publication process.
+This platform is open to all researchers worldwide helping us ensure a seamless, transparent, and efficient publication process.  
 
-### Copyright Information {.unnumbered}  
+```{=html} 
+<section id="copyright-info" style="background:#fdf6ec; border:1px solid #e2d8c8; border-radius:8px; padding:1.25rem 1.5rem; margin-top:1.5rem;">
 
-All **articles published in JOSTA** remain the copyright of their respective authors  
-and are licensed under a  
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-<img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/>
-</a>  
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+<h3 style="margin-top:0; color:#1f345c; font-family:Georgia, 'Times New Roman', serif;">Copyright Information</h3>
+
+<p style="font-size:1rem; line-height:1.6; color:#333;">
+All <strong>articles published in Journal of Sustainable Technology [JOSTA]</strong> remain the copyright of their respective authors and are distributed under the
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#006699; font-weight:600; text-decoration:none;">
 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
 </a>.
+</p>
 
-Under this license:  
-- **Attribution** — Credit must be given to the original authors and to JOSTA as the source of publication.  
-- **Non-Commercial** — The material may not be used for commercial purposes.  
-- **No Derivatives** — Reuse, remixing, or modification is not permitted without explicit permission.  
+<p style="text-align:center; margin:1rem 0;">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+    <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative Commons License" style="border-width:0;"/>
+  </a>
+</p>
 
-© 2025 **Statoberry LLP**. All rights reserved for the JOSTA website design, layout, and journal branding.
+<div style="background:#fff; border-left:4px solid #8b6a3a; padding:0.75rem 1rem; border-radius:4px; margin-bottom:1rem;">
+  <ul style="margin:0; padding-left:1.2rem; line-height:1.7;">
+    <li><strong>Attribution</strong> - Credit must be given to the original authors and to <strong>JOSTA</strong> as the source of publication.</li>
+    <li><strong>Non-Commercial</strong> - The material may not be used for commercial purposes.</li>
+    <li><strong>No Derivatives</strong> - Reuse, remixing, or modification is not permitted without explicit permission.</li>
+  </ul>
+</div>
 
-For commercial reuse, translation, or distribution of printed copies, prior written permission from **Statoberry LLP** is required.
+<p style="font-size:0.95rem; line-height:1.6; color:#444;">
+© 2025 <strong>Papaya Academic press, Statoberry LLP</strong>. All rights reserved for the <strong>JOSTA</strong> website design, layout, and journal branding.  
 
+For commercial reuse, translation, or distribution of printed copies, prior written permission from <strong>PAPAYA, Academic press</strong> is required.
+</p>
+
+</section>
+
+```  
