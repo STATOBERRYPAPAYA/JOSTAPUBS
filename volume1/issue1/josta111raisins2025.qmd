@@ -45,21 +45,107 @@ status: Published (Online)
 doi: https://doi.org/10.5281/zenodo.15622128
 ---
 
-[![](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg)](https://doi.org/10.5281/zenodo.15622128) ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![Status](https://img.shields.io/badge/status-peer--reviewed-brightgreen)
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg) ![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
 
-::: {style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;"}
-<!-- Download PDF Button -->
+::: {style="text-align: left; margin-top: 1rem;"}
+<span class="j-btn-row">
+  <a href="pdfs/josta_raisins.pdf" download class="j-btn j-btn-pdf">
+    <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF
+  </a>
 
-<a href="pdfs/josta_raisins.pdf" download class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a>
-
-<!-- Copy Citation Button -->
-
-<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
-
-📋 Copy Citation [Citation copied!]{#tooltip}
-
-</button>
+  <a href="#" onclick="copyCitation(); return false;" class="j-copy-link">
+    <i class="bi bi-clipboard"></i> Copy Citation
+    <span id="tooltip" class="tooltiptext">Citation copied!</span>
+  </a>
+</span>
 :::
+
+<style>
+.j-btn-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+/* PDF button */
+.j-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8b6a3a;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.j-btn:hover {
+  background-color: #6d532d;
+}
+
+/* Copy link style */
+.j-copy-link {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  color: #1f345c;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.j-copy-link:hover {
+  color: #0b5a56;
+  text-decoration: underline;
+}
+
+/* Tooltip */
+.tooltiptext {
+  visibility: hidden;
+  background-color: #0b5a56;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 1;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+.j-copy-link:focus .tooltiptext,
+.j-copy-link:active .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+
+<script>
+function copyCitation() {
+  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). RAISINS: R & AI Solutions for Inferential Statistics. JOSTA. https://doi.org/10.5281/zenodo.15622128");
+  const tooltip = document.getElementById("tooltip");
+  tooltip.style.visibility = "visible";
+  tooltip.style.opacity = 1;
+  setTimeout(() => {
+    tooltip.style.visibility = "hidden";
+    tooltip.style.opacity = 0;
+  }, 1500);
+}
+</script>
 
 <!-- Hidden Citation Text -->
 

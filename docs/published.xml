@@ -25,15 +25,95 @@
 
 
 
-<p><a href="https://doi.org/10.5281/zenodo.16308321"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.16308321.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
-<!-- Download PDF Button -->
-<p><a href="pdfs/JOSTA20250617172925171.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
-<!-- Copy Citation Button -->
-<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
-<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
-</button>
+<p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.16308321.svg" class="img-fluid" alt="DOI"> <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<div style="text-align: left; margin-top: 1rem;">
+<p><span class="j-btn-row"> <a href="pdfs/JOSTA20250617172925171.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
+<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
 </div>
+<style>
+.j-btn-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+/* PDF button */
+.j-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8b6a3a;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.j-btn:hover {
+  background-color: #6d532d;
+}
+
+/* Copy link */
+.j-copy-link {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  color: #1f345c;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.j-copy-link:hover {
+  color: #0b5a56;
+  text-decoration: underline;
+}
+
+/* Tooltip */
+.tooltiptext {
+  visibility: hidden;
+  background-color: #0b5a56;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 1;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+.j-copy-link:focus .tooltiptext,
+.j-copy-link:active .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<script>
+function copyCitation() {
+  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). [Article Title]. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article 1729. https://doi.org/10.5281/zenodo.16308321");
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.visibility = 'visible';
+  tooltip.style.opacity = 1;
+  setTimeout(() => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = 0;
+  }, 1500);
+}
+</script>
 <!-- Hidden Citation Text -->
 <p><span id="citation-text" style="display: none;">Franco, D., Chauhan, A., Chandel, B. S., Malhotra, R., Ponnusamy, K., &amp; Ashadevi, S. S. (2025). Dairy SHGs in Kerala: Economics and Loan Repayment Drivers. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.16308321</span></p>
 <!-- JavaScript -->
@@ -1000,15 +1080,95 @@ Publication &amp; Reviewer Details
 
 
 
-<p><a href="https://doi.org/10.5281/zenodo.15726530"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15726530.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
-<!-- Download PDF Button -->
-<p><a href="pdf/JOSTA20250615173749999.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
-<!-- Copy Citation Button -->
-<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
-<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
-</button>
+<p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15726530.svg" class="img-fluid" alt="DOI"> <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<div style="text-align: left; margin-top: 1rem;">
+<p><span class="j-btn-row"> <a href="pdf/JOSTA20250615173749999.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
+<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
 </div>
+<style>
+.j-btn-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+/* PDF button */
+.j-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8b6a3a;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.j-btn:hover {
+  background-color: #6d532d;
+}
+
+/* Copy link style */
+.j-copy-link {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  color: #1f345c;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.j-copy-link:hover {
+  color: #0b5a56;
+  text-decoration: underline;
+}
+
+/* Tooltip */
+.tooltiptext {
+  visibility: hidden;
+  background-color: #0b5a56;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 1;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+.j-copy-link:focus .tooltiptext,
+.j-copy-link:active .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<script>
+function copyCitation() {
+  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). [Article Title]. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article 617. https://doi.org/10.5281/zenodo.15726530");
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.visibility = 'visible';
+  tooltip.style.opacity = 1;
+  setTimeout(() => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = 0;
+  }, 1500);
+}
+</script>
 <!-- Hidden Citation Text -->
 <p><span id="citation-text" style="display: none;">Gayathri, G., &amp; Bastian, D. (2025). Genetic Variability and Diversity Analysis in Sesame (<em>Sesamum indicum</em> L.). Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15726530</span></p>
 <!-- JavaScript -->
@@ -2076,15 +2236,95 @@ Publication &amp; Reviewer Details
 
 
 
-<p>[<a href="https://doi.org/10.5281/zenodo.15706907"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15706907.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
-<!-- Download PDF Button -->
-<p><a href="pdf/JOSTA615202501736.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
-<!-- Copy Citation Button -->
-<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
-<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
-</button>
+<p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15706907.svg" class="img-fluid" alt="DOI"> <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<div style="text-align: left; margin-top: 1rem;">
+<p><span class="j-btn-row"> <a href="pdf/JOSTA615202501736.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
+<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
 </div>
+<style>
+.j-btn-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+/* PDF button */
+.j-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8b6a3a;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.j-btn:hover {
+  background-color: #6d532d;
+}
+
+/* Copy link */
+.j-copy-link {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  color: #1f345c;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.j-copy-link:hover {
+  color: #0b5a56;
+  text-decoration: underline;
+}
+
+/* Tooltip */
+.tooltiptext {
+  visibility: hidden;
+  background-color: #0b5a56;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 1;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+.j-copy-link:focus .tooltiptext,
+.j-copy-link:active .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<script>
+function copyCitation() {
+  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). [Article Title]. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article 617. https://doi.org/10.5281/zenodo.15706907");
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.visibility = 'visible';
+  tooltip.style.opacity = 1;
+  setTimeout(() => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = 0;
+  }, 1500);
+}
+</script>
 <!-- Hidden Citation Text -->
 <p><span id="citation-text" style="display: none;">Vikram, K., Jayapal, A., Pillai, S., Isaac, S. R., &amp; Mini V. (2025). Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15706907</span></p>
 <!-- JavaScript -->
@@ -3299,15 +3539,95 @@ Publication &amp; Reviewer Details
 
 
 
-<p><a href="https://doi.org/10.5281/zenodo.15689170"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
-<!-- Download PDF Button -->
-<p><a href="pdf/JOSTA11CS1.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
-<!-- Copy Citation Button -->
-<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
-<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
-</button>
+<p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg" class="img-fluid" alt="DOI"><img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<div style="text-align: left; margin-top: 1rem;">
+<p><span class="j-btn-row"> <a href="pdf/JOSTA11CS1.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
+<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
 </div>
+<style>
+.j-btn-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+/* PDF button */
+.j-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8b6a3a;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.j-btn:hover {
+  background-color: #6d532d;
+}
+
+/* Copy link style */
+.j-copy-link {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  color: #1f345c;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.j-copy-link:hover {
+  color: #0b5a56;
+  text-decoration: underline;
+}
+
+/* Tooltip */
+.tooltiptext {
+  visibility: hidden;
+  background-color: #0b5a56;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 1;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+.j-copy-link:focus .tooltiptext,
+.j-copy-link:active .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<script>
+function copyCitation() {
+  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). [Article Title]. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article CS1. https://doi.org/10.5281/zenodo.15689170");
+  const tooltip = document.getElementById("tooltip");
+  tooltip.style.visibility = "visible";
+  tooltip.style.opacity = 1;
+  setTimeout(() => {
+    tooltip.style.visibility = "hidden";
+    tooltip.style.opacity = 0;
+  }, 1500);
+}
+</script>
 <!-- Hidden Citation Text -->
 <p><span id="citation-text" style="display: none;">Arshad, N., Vijayan, A., Durga, A. R., &amp; Paul Lazarus, T. (2025). Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15689170</span></p>
 <!-- JavaScript -->
@@ -3874,15 +4194,95 @@ ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid
 
 
 
-<p><a href="https://doi.org/10.5281/zenodo.15684703"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15684703.svg" class="img-fluid" alt="DOI"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
-<!-- Download PDF Button -->
-<p><a href="pdfs/generationmean.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
-<!-- Copy Citation Button -->
-<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
-<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
-</button>
+<p><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15684703-1f345c?style=flat-square" class="img-fluid" alt="DOI"> <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<div style="text-align: left; margin-top: 1rem;">
+<p><span class="j-btn-row"> <a href="pdfs/generationmean.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
+<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
 </div>
+<style>
+.j-btn-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+/* PDF button */
+.j-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8b6a3a;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.j-btn:hover {
+  background-color: #6d532d;
+}
+
+/* Copy link */
+.j-copy-link {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  color: #1f345c;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.j-copy-link:hover {
+  color: #0b5a56;
+  text-decoration: underline;
+}
+
+/* Tooltip */
+.tooltiptext {
+  visibility: hidden;
+  background-color: #0b5a56;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 1;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+.j-copy-link:focus .tooltiptext,
+.j-copy-link:active .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<script>
+function copyCitation() {
+  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). Generation Mean Analysis in Agricultural Research. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article 1730. https://doi.org/10.5281/zenodo.15684703");
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.visibility = 'visible';
+  tooltip.style.opacity = 1;
+  setTimeout(() => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = 0;
+  }, 1500);
+}
+</script>
 <!-- Hidden Citation Text -->
 <p><span id="citation-text" style="display: none;">Lovely, B., Radhadevi, D. S., &amp; Kumar, V. (2025). Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15684703</span></p>
 <!-- JavaScript -->
@@ -5260,15 +5660,95 @@ Assistant Professor&nbsp; Plant Breeding &amp; Genetics Kerala Agricultural Univ
 
 
 
-<p><a href="https://doi.org/10.5281/zenodo.15622128"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg" class="img-fluid"></a> <img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/status-peer--reviewed-brightgreen.png" class="img-fluid" alt="Status"></p>
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1rem;">
-<!-- Download PDF Button -->
-<p><a href="pdfs/josta_raisins.pdf" download="" class="download-btn"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></p>
-<!-- Copy Citation Button -->
-<button id="copy-btn" onclick="copyCitation()" class="copy-btn">
-<p>📋 Copy Citation <span id="tooltip">Citation copied!</span></p>
-</button>
+<p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg" class="img-fluid" alt="DOI"> <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<div style="text-align: left; margin-top: 1rem;">
+<p><span class="j-btn-row"> <a href="pdfs/josta_raisins.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
+<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
 </div>
+<style>
+.j-btn-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+/* PDF button */
+.j-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8b6a3a;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.j-btn:hover {
+  background-color: #6d532d;
+}
+
+/* Copy link style */
+.j-copy-link {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  color: #1f345c;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.j-copy-link:hover {
+  color: #0b5a56;
+  text-decoration: underline;
+}
+
+/* Tooltip */
+.tooltiptext {
+  visibility: hidden;
+  background-color: #0b5a56;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 1;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+.j-copy-link:focus .tooltiptext,
+.j-copy-link:active .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<script>
+function copyCitation() {
+  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). RAISINS: R & AI Solutions for Inferential Statistics. JOSTA. https://doi.org/10.5281/zenodo.15622128");
+  const tooltip = document.getElementById("tooltip");
+  tooltip.style.visibility = "visible";
+  tooltip.style.opacity = 1;
+  setTimeout(() => {
+    tooltip.style.visibility = "hidden";
+    tooltip.style.opacity = 0;
+  }, 1500);
+}
+</script>
 <!-- Hidden Citation Text -->
 <p><span id="citation-text" style="display: none;">Hisham M, M., Chandran, J., &amp; Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128</span></p>
 <!-- JavaScript -->
