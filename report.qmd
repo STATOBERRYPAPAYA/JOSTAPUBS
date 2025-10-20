@@ -28,7 +28,7 @@ To file an issue, click the button below:
 <a href="https://github.com/STATOBERRYPAPAYA/JOSTAPUBS/issues/new" class="btn btn-outline-danger"> <i class="bi bi-exclamation-triangle-fill"></i> Report a Problem </a>
 :::
 
-## ✍️ What to Include {.unnumbered}
+## ✍️ What to include {.unnumbered}
 
 When submitting, please try to provide:
 
@@ -39,7 +39,7 @@ When submitting, please try to provide:
 
 > 🧾 You will need a GitHub account to submit. If you don’t have one, [create a free account here](https://github.com/join).
 
-## 🔐 Private or Confidential Matters? {.unnumbered}
+## 🔐 Private or confidential matters? {.unnumbered}
 
 If your concern is **sensitive or private**, please do not use the public GitHub issue tracker. Instead, email us directly at:
 

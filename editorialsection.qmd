@@ -24,7 +24,7 @@ JOSTA welcomes submissions across a broad range of subject areas related to sust
 
 ## Crop and Plant Science {.unnumbered}
 
-Focuses on advances in crop production, breeding, physiology, agronomy, and sustainable plant-based innovations. **Tags:** Crops, PlantScience
+Focuses on advances in crop production, breeding, physiology, agronomy, and sustainable plant-based innovations, including aspects of plant health, entomology, pest and disease management, resistance mechanisms, and integrated pest and disease management (IPDM) strategies. **Tags:** Crops, PlantScience
 
 ## Soil Science and Agroecology {.unnumbered}
 
@@ -46,13 +46,13 @@ Covers machinery, irrigation systems, automation, sensors, precision agriculture
 
 Focuses on the application of data analytics, statistical methods, AI, and modeling in agricultural research. **Tags:** Data, Statistics
 
-## Agricultural Economics and Rural Development {.unnumbered}
+## Agricultural Economics and Policy {.unnumbered}
 
-Includes research on farm economics, market analysis, price policy, rural livelihoods, and agribusiness. **Tags:** Economics, Rural
+Includes research on farm economics, market analysis, price policy, rural livelihoods, and agribusiness. **Tags:** Economics, Policy
 
-## Agricultural Extension and Education {.unnumbered}
+## Extension Education and Rural Development {.unnumbered}
 
-Studies on outreach methods, knowledge transfer, participatory learning, and agricultural communication. **Tags:** Extension, Education
+Studies on outreach methods, knowledge transfer, participatory learning, rural livelihoods, and agricultural communication. **Tags:** Extension, Rural
 
 ## Post-Harvest Technology and Food Science {.unnumbered}
 
@@ -61,10 +61,6 @@ Addresses post-harvest handling, storage, food processing, value addition, and f
 ## Climate Change and Sustainable Agriculture {.unnumbered}
 
 Research on adaptation and mitigation strategies, carbon farming, climate-resilient agriculture, and sustainability metrics. **Tags:** Climate, Sustainability
-
-## Plant Pathology and Pest Management {.unnumbered}
-
-Includes studies on plant diseases, pest control strategies, IPM, diagnostics, and resistance mechanisms. **Tags:** Pathology, Pests
 
 ## Forestry and Agroforestry {.unnumbered}
 

@@ -42,7 +42,7 @@ If plagiarism is detected at any stage: - **Before publication:** The manuscript
 
 All authors are responsible for the integrity of their submissions. By submitting a manuscript, authors affirm that the content is original and has not been submitted elsewhere.
 
-### Author Responsibility {.unnumbered}
+### Author responsibility {.unnumbered}
 
 Authors are advised to: - Use appropriate citation practices - Maintain a record of all source materials - Conduct originality checks before submission
 

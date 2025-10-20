@@ -15,14 +15,15 @@ listing:
     - status
     - description
     - doi
----  
+---
 
 <!-- Load Bootstrap Icons -->
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
 
 <!-- Horizontal Button Group -->
-```{=html}  
+
+```{=html}
 <section class="home-hero" aria-label="josta hero">
   <h1 class="home-title">Journal of Sustainable Technology in Agriculture</h1>
 </section>
@@ -92,13 +93,11 @@ listing:
   <a href="jostasubmission.qmd" class="btn btn-outline-primary"><i class="bi bi-person-lock"></i> Author Login</a>
   <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"><i class="bi bi-cloud-arrow-down"></i> Zenodo</a>
 </div>
-
 ```
 
+## Latest articles {.unnumbered}
 
-## Latest articles {.unnumbered}  
-![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)  
-
+![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)
 
 ::: {#articles}
 :::
@@ -416,11 +415,11 @@ We aim to provide a trusted platform that empowers researchers, educators, and p
 
 Open Access: Your work is freely accessible online from the moment of publication, increasing its reach and impact.
 
--   **Streamlined Process**: We offer a simple, submission-friendly system that focuses on quality without the complexity of traditional publishing.
+-   **Streamlined process**: We offer a simple, submission-friendly system that focuses on quality without the complexity of traditional publishing.
 
--   **Permanent Archiving**: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.
+-   **Permanent archiving**: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.
 
--   **Supportive Community**: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.
+-   **Supportive community**: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.
 
 ## Journal metrics {.unnumbered}
 
@@ -555,7 +554,7 @@ All submissions undergo an initial assessment by the managing editors. Suitable 
 
 For a detailed description of the review process, see [Peer review process](peerReview.qmd).
 
-## 🔓Open Access {.unnumbered}
+## 🔓Open access {.unnumbered}
 
 JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
 
@@ -650,7 +649,7 @@ This allows us to offer **APC free publication** and maintain **high editorial s
 Authors and researchers are welcome to submit their articles to **JOSTA** through our secure online submission portal.\
 You can **register as a new author** or **log in** using your registered email ID and password to access your submission dashboard.
 
-👉 [**Access Author Portal**](https://www.jostapubs.com/jostasubmission.html){target="_blank" rel="noopener"}
+👉 [**Access author portal**](https://www.jostapubs.com/jostasubmission.html){target="_blank" rel="noopener"}
 
 Once registered, you can: - Submit the articles directly online\
 - Track your submission status in real time\
@@ -661,8 +660,7 @@ This platform is open to all researchers worldwide helping us ensure a seamless,
 
 ## 🍃Greener publishing {.unnumbered}
 
-As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint-aligning our commitment to open access with a sustainable future for scholarly communication.  
-
+As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint-aligning our commitment to open access with a sustainable future for scholarly communication.
 
 ```{=html}
 <section id="copyright-info" style="background:#fdf6ec; border:1px solid #e2d8c8; border-radius:8px; padding:1.25rem 1.5rem; margin-top:1.5rem;">
@@ -685,8 +683,8 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licen
 <div style="background:#fff; border-left:4px solid #8b6a3a; padding:0.75rem 1rem; border-radius:4px; margin-bottom:1rem;">
   <ul style="margin:0; padding-left:1.2rem; line-height:1.7;">
     <li><strong>Attribution</strong> - Credit must be given to the original authors and to <strong>JOSTA</strong> as the source of publication.</li>
-    <li><strong>Non-Commercial</strong> - The material may not be used for commercial purposes.</li>
-    <li><strong>No Derivatives</strong> - Reuse, remixing, or modification is not permitted without explicit permission.</li>
+    <li><strong>Non-commercial</strong> - The material may not be used for commercial purposes.</li>
+    <li><strong>No derivatives</strong> - Reuse, remixing, or modification is not permitted without explicit permission.</li>
   </ul>
 </div>
 

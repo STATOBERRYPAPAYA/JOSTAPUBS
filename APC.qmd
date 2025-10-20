@@ -18,7 +18,7 @@
 
 The *Journal of Sustainable Technology in Agriculture (JOSTA)* is committed to maintaining high standards of scholarly publishing while ensuring equitable access to authors and readers worldwide. To balance inclusivity with the practical requirements of timely publication, JOSTA adopts a **two-tier** publication system.
 
-## Standard Publication Route (No APC) {.unnumbered}
+## Standard publication route (No APC) {.unnumbered}
 
 -   **Fee**: No charges for Indian authors as well as International authors.
 
@@ -30,7 +30,7 @@ The *Journal of Sustainable Technology in Agriculture (JOSTA)* is committed to m
 
 This route ensures that high-quality research remains freely accessible without financial barriers to authors.
 
-## Fast Track Publication Route (APC Applicable) {.unnumbered}  
+## Fast track publication route (APC Applicable) {.unnumbered}
 
 Since JOSTA offers free and open-access publication, we anticipate a high volume of submissions. To ensure a smooth and efficient review process, we provide an optional Fast-Track System that prioritizes timely evaluation and publication for eligible manuscripts.
 
@@ -54,13 +54,13 @@ Since JOSTA offers free and open-access publication, we anticipate a high volume
     -   The same rigorous peer review standards apply to both standard and fast track submissions.
     -   If, for reasons attributable to the journal, the fast track timeline cannot be met, the APC will be refunded in full.
 
-## Editorial Integrity and Transparency {.unnumbered}
+## Editorial integrity and transparency {.unnumbered}
 
 -   Authors must select their preferred route (standard or fast track) at the time of submission.
 -   The choice of route has no bearing on editorial decisions, which remain solely grounded in the scholarly merit, originality, and relevance of the manuscript.
 -   APCs cover only the cost of accelerated processing; they do not influence acceptance outcomes.
 -   Waivers or partial reductions in fast track APCs may be considered, upon request, for early-career researchers or authors from under developed countries.
 
-## Commitment to Ethical Publishing {.unnumbered}
+## Commitment to ethical publishing {.unnumbered}
 
 JOSTA reaffirms its commitment to maintaining fairness, transparency, and academic rigor across all stages of the publication process. Both routes—standard and fast track—adhere to the same principles of double-blind peer review, editorial independence, and international ethical standards in scholarly publishing.

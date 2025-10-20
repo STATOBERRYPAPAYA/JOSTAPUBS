@@ -14,7 +14,7 @@
 <a href="index.qmd" class="btn btn-outline-secondary"> <i  class="bi bi-house"></i> Home </a>
 :::
 
-## 📮 Get in Touch with Us {.unnumbered}
+## 📮 Get in touch with us {.unnumbered}
 
 For any queries related to publishing, manuscript submissions, journal partnerships, or technical support, feel free to reach out to us.
 
@@ -32,7 +32,7 @@ Kalliyoor P. O.\
 Thiruvananthapuram\
 Kerala, India - 695523
 
-### 📞 Contact Information {.unnumbered}
+### 📞 Contact information {.unnumbered}
 
 -   📱 +91 9746 919 099\
 -   📱 +91 7736 807 657\
