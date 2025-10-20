@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-status','listing-description','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-editor","listing-language","listing-title","listing-author","listing-abstract","listing-keywords","listing-bibliography","listing-date","listing-path","listing-categories","listing-status","listing-doi","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-abstract","listing-keywords","listing-bibliography","listing-date","listing-path","listing-categories","listing-status","listing-doi","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -339,6 +339,9 @@ window.Quarto = {
 
 
 
+<!-- Load Bootstrap Icons -->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"></p>
+<!-- Horizontal Button Group -->
 <section class="home-hero" aria-label="josta hero">
   <h1 class="home-title">Journal of Sustainable Technology in Agriculture</h1>
 </section>
@@ -358,19 +361,59 @@ window.Quarto = {
   margin: 0;
   letter-spacing: 0.5px;
 }
+
+/* --- Button section styling --- */
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  background: #fffffa; /* professional beige-gray tone */
+  border-top: 1px solid #e0d6c5;
+  border-bottom: 1px solid #e0d6c5;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.home-buttons a.btn {
+  min-width: 140px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+.home-buttons a.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* mobile view: stack buttons neatly */
+@media (max-width: 600px) {
+  .home-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-buttons a.btn {
+    width: 90%;
+  }
+}
 </style>
 
 <div style="text-align:center;margin-bottom:1em">
-  <img src="bannernew.webp" alt="JOSTA cover" style="width:100%;max-height:220px;object-fit:cover;border-radius:10px">
+  <img src="bannernew.webp" alt="JOSTA cover" style="width:100%;max-height:220px;object-fit:cover;border-radius:0">
 </div>
-<!-- Load Bootstrap Icons -->
-<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"></p>
-<!-- Horizontal Button Group -->
-<div style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;">
-<p><a href="./submit.html" class="btn btn-outline-success"> <i class="bi bi-upload"></i> Submit </a> <a href="./published.html" class="btn btn-outline-info"> <i class="bi bi-book"></i> Read </a> <a href="./editorial.html" class="btn btn-outline-warning"> <i class="bi bi-people"></i> Editorial </a> <a href="./jostasubmission.html" class="btn btn-outline-primary"> <i class="bi bi-person-lock"></i> Author Login </a> <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"> <i class="bi bi-cloud-arrow-down"></i> Zenodo </a></p>
+
+<div class="home-buttons">
+  <a href="./submit.html" class="btn btn-outline-success"><i class="bi bi-upload"></i> Submit</a>
+  <a href="./published.html" class="btn btn-outline-info"><i class="bi bi-book"></i> Read</a>
+  <a href="./editorial.html" class="btn btn-outline-warning"><i class="bi bi-people"></i> Editorial</a>
+  <a href="./jostasubmission.html" class="btn btn-outline-primary"><i class="bi bi-person-lock"></i> Author Login</a>
+  <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"><i class="bi bi-cloud-arrow-down"></i> Zenodo</a>
 </div>
+
 <section id="latest-articles" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="latest-articles">Latest articles</h2>
+<p><img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/license-CC--BY%204.0-blue.svg" class="img-fluid" alt="License"> <img src="https://img.shields.io/badge/open--source-yes-blue.svg" class="img-fluid" alt="Open Source"> <img src="https://img.shields.io/badge/DOI-enabled-orange.svg" class="img-fluid" alt="DOI"></p>
 <div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
 <ul class="pro-ul">
 <li class="pro-li">
@@ -1008,7 +1051,6 @@ You can <strong>register as a new author</strong> or <strong>log in</strong> usi
 <section id="greener-publishing" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="greener-publishing">🍃Greener publishing</h2>
 <p>As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint-aligning our commitment to open access with a sustainable future for scholarly communication.</p>
-<p><img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/license-CC--BY%204.0-blue.svg" class="img-fluid" alt="License"> <img src="https://img.shields.io/badge/open--source-yes-blue.svg" class="img-fluid" alt="Open Source"> <img src="https://img.shields.io/badge/DOI-enabled-orange.svg" class="img-fluid" alt="DOI"></p>
 <section id="copyright-info" style="background:#fdf6ec; border:1px solid #e2d8c8; border-radius:8px; padding:1.25rem 1.5rem; margin-top:1.5rem;">
 
 <h3 style="margin-top:0; color:#1f345c; font-family:Georgia, 'Times New Roman', serif;" class="anchored">Copyright Information</h3>
@@ -1042,7 +1084,6 @@ For commercial reuse, translation, or distribution of printed copies, prior writ
 </p>
 
 </section>
-
 
 
 

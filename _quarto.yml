@@ -85,4 +85,3 @@ format:
 execute:
   freeze: auto
   echo: false
-editor: visual

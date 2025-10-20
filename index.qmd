@@ -15,9 +15,14 @@ listing:
     - status
     - description
     - doi
----
+---  
 
-```{=html}
+<!-- Load Bootstrap Icons -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+
+<!-- Horizontal Button Group -->
+```{=html}  
 <section class="home-hero" aria-label="josta hero">
   <h1 class="home-title">Journal of Sustainable Technology in Agriculture</h1>
 </section>
@@ -37,25 +42,63 @@ listing:
   margin: 0;
   letter-spacing: 0.5px;
 }
+
+/* --- Button section styling --- */
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  background: #fffffa; /* professional beige-gray tone */
+  border-top: 1px solid #e0d6c5;
+  border-bottom: 1px solid #e0d6c5;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.home-buttons a.btn {
+  min-width: 140px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+.home-buttons a.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* mobile view: stack buttons neatly */
+@media (max-width: 600px) {
+  .home-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-buttons a.btn {
+    width: 90%;
+  }
+}
 </style>
 
 <div style="text-align:center;margin-bottom:1em">
   <img src="bannernew.webp" alt="JOSTA cover"
-       style="width:100%;max-height:220px;object-fit:cover;border-radius:10px">
+       style="width:100%;max-height:220px;object-fit:cover;border-radius:0">
 </div>
+
+<div class="home-buttons">
+  <a href="submit.qmd" class="btn btn-outline-success"><i class="bi bi-upload"></i> Submit</a>
+  <a href="published.qmd" class="btn btn-outline-info"><i class="bi bi-book"></i> Read</a>
+  <a href="editorial.qmd" class="btn btn-outline-warning"><i class="bi bi-people"></i> Editorial</a>
+  <a href="jostasubmission.qmd" class="btn btn-outline-primary"><i class="bi bi-person-lock"></i> Author Login</a>
+  <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"><i class="bi bi-cloud-arrow-down"></i> Zenodo</a>
+</div>
+
 ```
 
-<!-- Load Bootstrap Icons -->
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+## Latest articles {.unnumbered}  
+![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)  
 
-<!-- Horizontal Button Group -->
-
-::: {style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;"}
-<a href="submit.qmd" class="btn btn-outline-success"> <i class="bi bi-upload"></i> Submit </a> <a href="published.qmd" class="btn btn-outline-info"> <i class="bi bi-book"></i> Read </a> <a href="editorial.qmd" class="btn btn-outline-warning"> <i class="bi bi-people"></i> Editorial </a> <a href="jostasubmission.qmd" class="btn btn-outline-primary"> <i class="bi bi-person-lock"></i> Author Login </a> <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"> <i class="bi bi-cloud-arrow-down"></i> Zenodo </a>
-:::
-
-## Latest articles {.unnumbered}
 
 ::: {#articles}
 :::
@@ -201,7 +244,7 @@ The Journal of Sustainable Technology in Agriculture (JOSTA) is a peer-reviewed,
 
 We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world-promoting broad dissemination and knowledge sharing.
 
-Articles published in JOSTA are permanently archived in [Zenodo](https://zenodo.org) with dedicated community created for [JOSTA](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), ensuring your research is stored safely, secure and open for the future in CERN's data centre for as long as CERN exists.  
+Articles published in JOSTA are permanently archived in [Zenodo](https://zenodo.org) with dedicated community created for [JOSTA](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), ensuring your research is stored safely, secure and open for the future in CERN's data centre for as long as CERN exists.
 
 The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.
 
@@ -365,9 +408,9 @@ JOSTA is managed by [PAPAYA](https://www.statoberry.com/papaya.html), Academic P
 
 ## Our vision {.unnumbered}
 
-At JOSTA, we believe that scientific knowledge should be freely accessible and shared without unnecessary barriers. Our vision is to create a research ecosystem where agricultural innovations are communicated openly, reviewed rigorously, and applied meaningfully.  
+At JOSTA, we believe that scientific knowledge should be freely accessible and shared without unnecessary barriers. Our vision is to create a research ecosystem where agricultural innovations are communicated openly, reviewed rigorously, and applied meaningfully.
 
-We aim to provide a trusted platform that empowers researchers, educators, and practitioners to publish high-quality work in a transparent, supportive, and researcher-friendly environment. By combining open access with editorial excellence, JOSTA seeks to advance sustainable technologies in agriculture and foster a culture of collaboration and continuous learning.  
+We aim to provide a trusted platform that empowers researchers, educators, and practitioners to publish high-quality work in a transparent, supportive, and researcher-friendly environment. By combining open access with editorial excellence, JOSTA seeks to advance sustainable technologies in agriculture and foster a culture of collaboration and continuous learning.
 
 ## Why publish with us? {.unnumbered}
 
@@ -514,7 +557,7 @@ For a detailed description of the review process, see [Peer review process](peer
 
 ## 🔓Open Access {.unnumbered}
 
-JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.  
+JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
 
 All articles published in JOSTA are permanently archived in Zenodo, a research data repository operated by CERN and integrated with the OpenAIRE network. This ensures long-term preservation, discoverability, and citation of every article through a unique Digital Object Identifier (DOI). As part of OpenAIRE indexing, JOSTA’s publications are accessible to global research databases and funding agencies, guaranteeing broad visibility and compliance with open-science mandates.
 
@@ -575,32 +618,32 @@ All articles published in JOSTA are permanently archived in Zenodo, a research d
 
 ## Article processing charges (APC) {.unnumbered}
 
-At JOSTA, we uphold the principle that research quality should never be compromised by publication costs. 
+At JOSTA, we uphold the principle that research quality should never be compromised by publication costs.
 
 ✅ No submission fees\
 ✅ No charges for figures, tables, or page limits\
-✅ Online publication with permanent open-access availability  
-✅ No subscription fees  
+✅ Online publication with permanent open-access availability\
+✅ No subscription fees
 
-We are committed to supporting high-quality, impactful research and promoting affordable, accessible publishing for all. By removing financial barriers, we aim to encourage meaningful contributions to sustainable technology in agriculture. For more detailed description on APCs, see [Article Processing Charges (APCs)](APC.qmd).  
+We are committed to supporting high-quality, impactful research and promoting affordable, accessible publishing for all. By removing financial barriers, we aim to encourage meaningful contributions to sustainable technology in agriculture. For more detailed description on APCs, see [Article Processing Charges (APCs)](APC.qmd).
 
-::: {.callout-note}
+::: callout-note
 ## Commitment to transparency
 
-In the spirit of openness, JOSTA maintains complete transparency about its operational costs.  
+In the spirit of openness, JOSTA maintains complete transparency about its operational costs.\
 Our current running expenses include:
 
-- Crossref membership (implementation in progress)  
-- Website hosting and domain maintenance  
-- Server and infrastructure costs for the submission and review portal  
-- Editorial, copy-editing, and technical support services  
+-   Crossref membership (implementation in progress)\
+-   Website hosting and domain maintenance\
+-   Server and infrastructure costs for the submission and review portal\
+-   Editorial, copy-editing, and technical support services
 
-**How we sustain this model**  
+**How we sustain this model**
 
-JOSTA is proudly supported by our online data analysis platform [**RAISINS**](https://www.raisins.live/) and the revenue generated by [**Statoberry LLP**](https://www.statoberry.com/).  
+JOSTA is proudly supported by our online data analysis platform [**RAISINS**](https://www.raisins.live/) and the revenue generated by [**Statoberry LLP**](https://www.statoberry.com/).
 
 This allows us to offer **APC free publication** and maintain **high editorial standards** as a service to the global research community.
-:::  
+:::
 
 ## 🔑 Author login {.unnumbered}
 
@@ -614,17 +657,14 @@ Once registered, you can: - Submit the articles directly online\
 - Respond to editorial or reviewer feedback\
 - Upload revised versions or additional files
 
-This platform is open to all researchers worldwide helping us ensure a seamless, transparent, and efficient publication process.  
-
+This platform is open to all researchers worldwide helping us ensure a seamless, transparent, and efficient publication process.
 
 ## 🍃Greener publishing {.unnumbered}
 
-As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint-aligning our commitment to open access with a sustainable future for scholarly communication.
-
-![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)  
+As a digital-only journal, JOSTA embraces environmentally responsible publishing. By eliminating print processes, we reduce paper use, energy consumption, and carbon footprint-aligning our commitment to open access with a sustainable future for scholarly communication.  
 
 
-```{=html} 
+```{=html}
 <section id="copyright-info" style="background:#fdf6ec; border:1px solid #e2d8c8; border-radius:8px; padding:1.25rem 1.5rem; margin-top:1.5rem;">
 
 <h3 style="margin-top:0; color:#1f345c; font-family:Georgia, 'Times New Roman', serif;">Copyright Information</h3>
@@ -658,5 +698,4 @@ For commercial reuse, translation, or distribution of printed copies, prior writ
 </p>
 
 </section>
-
-```  
+```
