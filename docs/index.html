@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,13 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./submit.html" rel="next">
 <link href="./images/cover.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de84f8d6bb715db06a919283c2d1e787.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-9a023c9ade86a60361e96e3e3f11bc54.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-e25cc82807363e79c52e96bc8b7855f1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-2f249d55bd4fdd1b5a3bf17c44f225e6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -70,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-status','listing-description','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-editor","listing-language","listing-title","listing-author","listing-abstract","listing-keywords","listing-bibliography","listing-date","listing-path","listing-categories","listing-status","listing-doi","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -101,12 +132,12 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="JOSTA">
+<meta property="og:title" content="– JOSTA">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://www.jostapubs.com/images/cover.jpg">
 <meta property="og:site_name" content="JOSTA">
 <meta property="og:image:alt" content="JOSTA Volume 1 Cover">
-<meta name="twitter:title" content="JOSTA">
+<meta name="twitter:title" content="– JOSTA">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.jostapubs.com/images/papayalogo.png">
 <meta name="twitter:image:alt" content="JOSTA Journal">
@@ -289,8 +320,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-josta" id="toc-about-josta" class="nav-link active" data-scroll-target="#about-josta">About JOSTA</a>
-  <ul class="collapse">
+  <li><a href="#latest-articles" id="toc-latest-articles" class="nav-link active" data-scroll-target="#latest-articles">Latest articles</a></li>
+  <li><a href="#about-the-journal" id="toc-about-the-journal" class="nav-link" data-scroll-target="#about-the-journal">About the journal</a></li>
   <li><a href="#our-vision" id="toc-our-vision" class="nav-link" data-scroll-target="#our-vision">Our Vision</a></li>
   <li><a href="#why-publish-with-us" id="toc-why-publish-with-us" class="nav-link" data-scroll-target="#why-publish-with-us">Why Publish with Us?</a></li>
   <li><a href="#journal-metrics" id="toc-journal-metrics" class="nav-link" data-scroll-target="#journal-metrics">Journal Metrics</a></li>
@@ -302,7 +333,6 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#copyright-information" id="toc-copyright-information" class="nav-link" data-scroll-target="#copyright-information">Copyright Information</a></li>
   </ul></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -312,24 +342,277 @@ window.Quarto = {
 
 
 
-<div style="text-align: center; margin-bottom: 1em;">
-  <img src="websitecover.webp" alt="Banner" style="width: 100%; max-height: 200px; object-fit: cover;">
+<section class="home-hero" aria-label="josta hero">
+  <h1 class="home-title">Journal of Sustainable Technology in Agriculture</h1>
+</section>
+
+<style>
+.home-hero {
+  text-align: center;
+  padding: 1.5rem 0 0.75rem;
+  border-bottom: 2px solid #e0d6c5;
+  background: linear-gradient(180deg, #fdf6ec 0%, #fff 100%);
+}
+.home-title {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  color: #325d88;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+</style>
+
+<div style="text-align:center;margin-bottom:1em">
+  <img src="bannernew.webp" alt="JOSTA cover" style="width:100%;max-height:220px;object-fit:cover;border-radius:10px">
 </div>
+
 <!-- Load Bootstrap Icons -->
 <p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"></p>
 <!-- Horizontal Button Group -->
 <div style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-top: 1em;">
 <p><a href="./submit.html" class="btn btn-outline-success"> <i class="bi bi-upload"></i> Submit </a> <a href="./published.html" class="btn btn-outline-info"> <i class="bi bi-book"></i> Read </a> <a href="./editorial.html" class="btn btn-outline-warning"> <i class="bi bi-people"></i> Editorial </a> <a href="./jostasubmission.html" class="btn btn-outline-primary"> <i class="bi bi-person-lock"></i> Author Login </a> <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"> <i class="bi bi-cloud-arrow-down"></i> Zenodo </a></p>
 </div>
-<section id="about-josta" class="level1 unnumbered">
-<h1 class="unnumbered">About JOSTA</h1>
+<section id="latest-articles" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="latest-articles">Latest articles</h2>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+<ul class="pro-ul">
+<li class="pro-li">
+<!-- Title (dark sandstone navy) -->
+<h3 class="pro-title anchored">
+<a class="pro-link" href="./volume1/Denny/JOSTA20250617172925171.html">Dairy SHGs in Kerala: Economics and Loan Repayment Drivers</a>
+</h3>
+<!-- DOI clickable -->
+<!-- Categories under title -->
+<ul class="pro-cats" role="list">
+<li class="pro-chip">
+Orignal-Article
+</li>
+<li class="pro-chip">
+Economics
+</li>
+<li class="pro-chip">
+Policy
+</li>
+</ul>
+<!-- Author -->
+<div class="pro-authors">
+Denny Franco*, Anil Chauhan, Balwant S Chandel, Ravinder Malhotra, K. Ponnusamy, Ashadevi S S
+</div>
+<!-- Status -->
+<div class="pro-status">
+Online
+</div>
+<!-- Date -->
+<p><time class="pro-date">Jul 22, 2025</time></p>
+</li>
+<li class="pro-li">
+<!-- Title (dark sandstone navy) -->
+<h3 class="pro-title anchored">
+<a class="pro-link" href="./volume1/CROPS/JOSTA20250615173749999.html">Genetic Variability and Diversity Analysis in Sesame (<em>Sesamum indicum</em> L.)</a>
+</h3>
+<!-- DOI clickable -->
+<!-- Categories under title -->
+<ul class="pro-cats" role="list">
+<li class="pro-chip">
+Orignal-Article
+</li>
+<li class="pro-chip">
+Plant-Science
+</li>
+<li class="pro-chip">
+Crops
+</li>
+<li class="pro-chip">
+Genetics
+</li>
+</ul>
+<!-- Author -->
+<div class="pro-authors">
+Gayathri G <sup>*</sup>, Dijee Bastian
+</div>
+<!-- Status -->
+<div class="pro-status">
+Online
+</div>
+<!-- Date -->
+<p><time class="pro-date">Jun 24, 2025</time></p>
+</li>
+<li class="pro-li">
+<!-- Title (dark sandstone navy) -->
+<h3 class="pro-title anchored">
+<a class="pro-link" href="./volume1/AGRON/JOSTA615202501736.html">Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra</a>
+</h3>
+<!-- DOI clickable -->
+<!-- Categories under title -->
+<ul class="pro-cats" role="list">
+<li class="pro-chip">
+Orignal-Article
+</li>
+<li class="pro-chip">
+Plant-Science
+</li>
+<li class="pro-chip">
+Crops
+</li>
+<li class="pro-chip">
+Agronomy
+</li>
+</ul>
+<!-- Author -->
+<div class="pro-authors">
+Krishna Vikram, Atul Jayapal*, Shalini Pillai, Sheeba Rebecca Isaac, Mini V
+</div>
+<!-- Status -->
+<div class="pro-status">
+Online
+</div>
+<!-- Date -->
+<p><time class="pro-date">Jun 20, 2025</time></p>
+</li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<div style="text-align:center; margin-top: 0.75rem;">
+  <a href="./published.html" style="color:#0b5a9c; 
+            text-decoration:none; 
+            font-family:Georgia, 'Times New Roman', serif; 
+            font-size:0.9rem; 
+            font-weight:600;" onmouseover="this.style.color='#063b70';" onmouseout="this.style.color='#0b5a9c';">
+     Read more...
+  </a>
+</div>
+
+<style>
+:root {
+  --j-navy:#1f345c;
+  --j-teal:#0b5a56;
+  --j-brown:#8b6a3a;
+  --j-muted:#555b63;
+  --j-green:#007a4e;
+  --j-rule:#e7e2d4;
+  --j-beige:#fdf6ec;
+  --j-blue:#006699;
+  --j-grey:#7a7a7a;
+}
+
+/* list container */
+.pro-ul { margin:.25rem 0 0; padding:0; list-style:none; }
+.pro-li { padding:16px 0; border-bottom:1px solid var(--j-rule); }
+
+/* title */
+.pro-title { margin:.15rem 0 .3rem; }
+.pro-link,
+.pro-link:link,
+.pro-link:visited,
+.pro-link:active {
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:700;
+  font-size:1.16rem;
+  line-height:1.3;
+  color:var(--j-navy)!important;
+  text-decoration:none;
+}
+.pro-link:hover {
+  color:var(--j-teal)!important;
+  text-decoration:underline;
+}
+
+/* DOI */
+.pro-doi { margin:.15rem 0 .3rem; font-size:.9rem; color:var(--j-muted); }
+.pro-doi a { color:var(--j-blue); text-decoration:none; font-weight:600; }
+.pro-doi a:hover { text-decoration:underline; }
+
+/* categories – first green, others grey */
+.pro-cats {
+  list-style:none;
+  padding:0;
+  margin:.25rem 0 .45rem;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.4rem;
+}
+.pro-chip {
+  padding:4px 10px;
+  border-radius:999px;
+  border:none;
+  color:#fff;
+  font-weight:600;
+  font-size:.82rem;
+  font-family:Georgia,"Times New Roman",serif;
+}
+
+/* first category solid green */
+.pro-chip:first-child {
+  background:var(--j-green);
+}
+
+/* all other categories solid grey */
+.pro-chip:not(:first-child) {
+  background:var(--j-grey);
+}
+
+/* authors */
+.pro-authors { color:var(--j-muted); font-size:.95rem; margin:.1rem 0 .35rem; }
+
+/* status – green outline, text only */
+.pro-status {
+  display:inline-block;
+  padding:3px 8px;
+  border:1px solid var(--j-green);
+  border-radius:999px;
+  background:transparent;
+  color:var(--j-green);
+  font-weight:600;
+  font-size:.82rem;
+  margin:.15rem 0 .35rem 0;
+}
+
+/* date */
+.pro-date { display:block; color:#6b7280; font-size:.92rem; margin-top:.05rem; }
+
+/* “view all” button */
+.pro-more-wrap { text-align:center; margin-top:.9rem; }
+.pro-more {
+  display:inline-block;
+  padding:8px 16px;
+  border:1px solid #d8c9ab;
+  border-radius:999px;
+  background:linear-gradient(180deg,#fff 0%,var(--j-beige) 100%);
+  color:var(--j-navy);
+  font-weight:700;
+  text-decoration:none;
+}
+.pro-more:hover {
+  color:var(--j-teal);
+  border-color:#c7b896;
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark){
+  .pro-li { border-bottom-color:#3b4352; }
+  .pro-link { color:#b7ccff!important; }
+  .pro-link:hover { color:#7fe3c4!important; }
+  .pro-chip:first-child { background:#009a64; color:#fff; }
+  .pro-chip:not(:first-child) { background:#5b5b5b; color:#fff; }
+  .pro-status { border-color:#57d097; color:#57d097; }
+  .pro-more { border-color:#4b5565; background:linear-gradient(180deg,#222 0%,#1b1f28 100%); color:#cfe4ff; }
+  .pro-more:hover { color:#7fe3c4; }
+}
+</style>
+
+</section>
+<section id="about-the-journal" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="about-the-journal">About the journal</h2>
 <p>The Journal of Sustainable Technology in Agriculture (JOSTA) is a peer-reviewed, open-access e-journal dedicated to publishing high-quality research that fosters innovation and sustainability in agriculture. Founded by a collaborative group of scientists and professionals, JOSTA serves as a reliable and inclusive platform for sharing advancements that enhance agricultural practices through responsible technology use, practical innovation, and applied research.</p>
 <p>We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world-promoting broad dissemination and knowledge sharing.</p>
-<p>Articles published in JOSTA are permanently archived in trusted repositories, ensuring long-term accessibility and citation. The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.</p>
-<p>JOSTA is managed by PAPAYA publication division of Statoberry LLP and supported by domain experts in agriculture and allied sciences, ensuring both technical accuracy and contextual relevance in all published content.</p>
+<p>Articles published in JOSTA are permanently archived in <a href="https://zenodo.org">Zenodo</a>in the community created for <a href="https://zenodo.org/communities/josta/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest">JOSTA</a>, ensuring long-term accessibility and citation. The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.</p>
+<p>JOSTA is managed by <a href="https://www.statoberry.com/papaya.html">PAPAYA</a>, Academic Press of <a href="https://www.statoberry.com/">Statoberry LLP</a> and supported by domain experts in agriculture and allied sciences, ensuring both technical accuracy and contextual relevance in all published content.</p>
 <section class="josta-meta" id="journal-info" aria-labelledby="journal-info-title">
   <div class="container josta-wrap">
-    <h2 class="josta-title anchored" id="journal-info-title" data-anchor-id="about-josta">Journal information</h2>
+    <h2 class="josta-title anchored" id="journal-info-title">Journal information</h2>
 
     <ul class="josta-grid" role="list">
       <li class="josta-item sandstone1">
@@ -480,6 +763,7 @@ window.Quarto = {
     .josta-v { font-size: 0.95rem; }
   }
 </style>
+</section>
 <section id="our-vision" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="our-vision">Our Vision</h2>
 <p>JOSTA envisions a research environment where sharing agricultural innovations is simple, accessible, and inclusive. Our aim is to provide a dedicated platform for publishing high-quality agricultural research in a researcher-friendly manner-removing unnecessary barriers while maintaining high editorial standards. We believe in connecting researchers, educators, and practitioners by offering open access to well-reviewed, reliable research. By fostering a transparent and practical publishing process, JOSTA supports the continuous improvement of agricultural science and technology.</p>
@@ -715,7 +999,7 @@ You can <strong>register as a new author</strong> or <strong>log in</strong> usi
 
 
 
-</section>
+
 </section>
 </section>
 

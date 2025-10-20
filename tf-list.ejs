@@ -1,0 +1,51 @@
+<ul class="pro-ul">
+<% for (const item of items) {
+     const href    = item.path || item.url || "#";
+     const title   = item.title || "Untitled";
+     const date    = item.date || "";
+     const cats    = Array.isArray(item.categories) ? item.categories : (item.categories ? [item.categories] : []);
+     const a = Array.isArray(item.author)
+       ? item.author.map(x => typeof x === "string" ? x : (x && x.name) ? x.name : "").filter(Boolean)
+       : (typeof item.author === "string" ? [item.author] : (item.author && item.author.name) ? [item.author.name] : []);
+     const authors = a.join(", ");
+     const doiRaw  = item.data && item.data.doi ? String(item.data.doi).trim() : "";
+     const doiHref = doiRaw ? ("https://doi.org/" + doiRaw.replace(/^https?:\/\/(dx\.)?doi\.org\//i,"")) : "";
+     const status  = (item.data && item.data.status ? String(item.data.status) : "Online");
+%>
+  <li class="pro-li">
+    <!-- Title (dark sandstone navy) -->
+    <h3 class="pro-title">
+      <a class="pro-link" href="<%- href %>"><%= title %></a>
+    </h3>
+
+    <!-- DOI clickable -->
+    <% if (doiHref) { %>
+      <div class="pro-doi">
+        DOI: <a href="<%- doiHref %>" target="_blank" rel="noopener"><%= doiRaw %></a>
+      </div>
+    <% } %>
+
+    <!-- Categories under title -->
+    <% if (cats.length) { %>
+      <ul class="pro-cats" role="list">
+        <% for (const c of cats) { %><li class="pro-chip"><%= c %></li><% } %>
+      </ul>
+    <% } %>
+
+    <!-- Author -->
+    <% if (authors) { %>
+      <div class="pro-authors"><%= authors %></div>
+    <% } %>
+
+    <!-- Status -->
+    <% if (status) { %>
+      <div class="pro-status"><%= status %></div>
+    <% } %>
+
+    <!-- Date -->
+    <% if (date) { %>
+      <time class="pro-date"><%= date %></time>
+    <% } %>
+  </li>
+<% } %>
+</ul>

@@ -5,6 +5,9 @@
     ],
     "volume1issue1.qmd": [
       "volume1/**/*.qmd"
+    ],
+    "index.qmd": [
+      "volume1/**/*.qmd"
     ]
   }
 }
