@@ -62,7 +62,7 @@ abstract: |
 keywords: [biochar,okra,nutrient uptake, soil fertility, coastal sandy loam, Kerala]  
 bibliography: atulbiblio.bib
 path: "volume1/AGRON/JOSTA615202501736.html"
-categories: [Orignal-Article,Plant-Science, Crops,Agronomy]
+categories: [Original-Article,Plant-Science, Crops,Agronomy]
 status: Published (Online)
 date: 2025-06-20
 doi: 10.5281/zenodo.15706907 

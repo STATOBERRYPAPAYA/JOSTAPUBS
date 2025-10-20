@@ -30,7 +30,7 @@ keywords: [Sesame, genetic variability, heritability, correlation, path analysis
 bibliography: gayathribiblio.bib
 date: 2025-06-24
 path: "volume1/CROPS/JOSTA20250615173749999.html"
-categories: [Orignal-Article,Plant-Science, Crops, Genetics]
+categories: [Original-Article,Plant-Science, Crops, Genetics]
 status: Published (Online)
 doi: 10.5281/zenodo.15726530  
 ---

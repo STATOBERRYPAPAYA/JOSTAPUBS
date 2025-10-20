@@ -65,7 +65,7 @@ keywords: [dairy self-help groups, loan repayment, microfinance, tobit regressio
 bibliography: dennybiblio.bib
 date: 2025-07-22
 path: "volume1/Denny/JOSTA20250617172925171.html"
-categories: [Orignal-Article,Economics,Policy]
+categories: [Original-Article,Economics,Policy]
 status: Published (Online)
 doi: 10.5281/zenodo.16308321
 ---
