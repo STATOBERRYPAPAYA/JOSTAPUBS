@@ -33,7 +33,7 @@ keywords: [vegetable cowpea, non-allelic interaction, duplicate and complementar
 bibliography: lovelybiblio.bib
 date: 2025-06-17
 path: "volume1/lovelyB/generationmean.html"
-categories: [ Orignal-Article,Plant-Science, Crops,Genetics]
+categories: [ Original-Article,Plant-Science, Crops,Genetics]
 status: Published (Online)
 doi: 10.5281/zenodo.15684703 
 ---

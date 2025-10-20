@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  resources: 
+  resources:
     - "*.png"
     - "*.jpeg"
     - "*.svg"
@@ -19,7 +19,7 @@ website:
   twitter-card:
     image: images/papayalogo.png
     image-alt: "JOSTA Journal"
-    card-style: summary_large_image  
+    card-style: summary_large_image
   sidebar:
     logo: images/sidebarcover.png
     style: "docked"
@@ -29,19 +29,19 @@ website:
         text: Home
       - section: "Submit Articles"
         contents:
-        - submit.qmd
-        - authorguide.qmd  
-        - peerReview.qmd
-        - APC.qmd
-        - Ethics.qmd
+          - submit.qmd
+          - authorguide.qmd
+          - peerReview.qmd
+          - APC.qmd
+          - Ethics.qmd
       - published.qmd
       - section: "Volumes"
         contents:
           - section: "Volume 1"
             contents:
-            - section: "Issues"
-              contents:
-              - volume1issue1.qmd
+              - section: "Issues"
+                contents:
+                  - volume1issue1.qmd
       # - categories.qmd
       - href: editorial.qmd
         text: Editorial Board
@@ -56,16 +56,26 @@ website:
   page-footer:
     border: true
     left: |
-      Published by PAPAYA Academic Press <a href="https://www.statoberry.com/papaya">![](/images/papayalogo.png){style='width: auto; height: 25px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+      Published by PAPAYA Academic Press  
+      <a href="https://www.statoberry.com/papaya">
+        ![](/images/papayalogo.png){style='width:auto; height:25px; padding-left:10px; padding-right:10px; margin-bottom:5px;'}
+      </a>
     center: |
-      <a href="https://www.statoberry.com/papaya">![](/images/Josta.png){style='height: 90px;'}</a>
+      <a href="https://www.statoberry.com/papaya">
+        ![](/images/Josta.png){style='height:90px;'}
+      </a>  
+      <div style="margin-top:4px; font-size:0.9em; color:#555;">
+        ✉️ Contact: <a href="mailto:support@jostapubs.com">support@jostapubs.com</a>
+      </div>
     right: |
-      Licenced under [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
-      <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">![](/images/cclogo.png){style='width: 
-      auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
-  reader-mode: true
-  page-navigation: true
-  back-to-top-navigation: true
+      Licensed under [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+      <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+        ![](/images/cclogo.png){style='width:auto; height:35px; padding-left:10px; padding-right:10px; margin-bottom:5px;'}
+      </a>
+
+reader-mode: true
+page-navigation: true
+back-to-top-navigation: true
 
 format:
   html:
@@ -82,6 +92,7 @@ format:
     mainfont: Georgia
     monobackgroundcolor: "#f3fcd2"
     math: mathjax
+
 execute:
   freeze: auto
   echo: false

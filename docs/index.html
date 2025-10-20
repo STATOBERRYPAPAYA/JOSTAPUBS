@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-status','listing-description','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-abstract","listing-keywords","listing-bibliography","listing-date","listing-path","listing-categories","listing-status","listing-doi","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-reader-mode","listing-page-navigation","listing-back-to-top-navigation","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-abstract","listing-keywords","listing-bibliography","listing-date","listing-path","listing-categories","listing-status","listing-doi","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -174,11 +174,6 @@ window.Quarto = {
       </a>
       <div class="sidebar-tools-main">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -418,7 +413,7 @@ window.Quarto = {
 <li class="pro-li">
 <!-- Title (dark sandstone navy) -->
 <h3 class="pro-title anchored">
-<a class="pro-link" href="./volume1/Denny/JOSTA20250617172925171.html">Dairy SHGs in Kerala: Economics and Loan Repayment Drivers</a>
+<a class="pro-link" href="./volume1/issue1/Denny/JOSTA20250617172925171.html">Dairy SHGs in Kerala: Economics and Loan Repayment Drivers</a>
 </h3>
 <!-- DOI clickable -->
 <!-- Categories under title -->
@@ -447,7 +442,7 @@ Online
 <li class="pro-li">
 <!-- Title (dark sandstone navy) -->
 <h3 class="pro-title anchored">
-<a class="pro-link" href="./volume1/CROPS/JOSTA20250615173749999.html">Genetic Variability and Diversity Analysis in Sesame (<em>Sesamum indicum</em> L.)</a>
+<a class="pro-link" href="./volume1/issue1/CROPS/JOSTA20250615173749999.html">Genetic Variability and Diversity Analysis in Sesame (<em>Sesamum indicum</em> L.)</a>
 </h3>
 <!-- DOI clickable -->
 <!-- Categories under title -->
@@ -479,7 +474,7 @@ Online
 <li class="pro-li">
 <!-- Title (dark sandstone navy) -->
 <h3 class="pro-title anchored">
-<a class="pro-link" href="./volume1/AGRON/JOSTA615202501736.html">Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra</a>
+<a class="pro-link" href="./volume1/issue1/AGRON/JOSTA615202501736.html">Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra</a>
 </h3>
 <!-- DOI clickable -->
 <!-- Categories under title -->
@@ -1089,7 +1084,7 @@ For commercial reuse, translation, or distribution of printed copies, prior writ
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1664,13 +1659,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Published by PAPAYA Academic Press <a href="https://www.statoberry.com/papaya"><img src=".\images/papayalogo.png" class="img-fluid" style="width: auto; height: 25px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+<p>Published by PAPAYA Academic Press<br>
+<a href="https://www.statoberry.com/papaya"> <img src=".\images/papayalogo.png" class="img-fluid" style="width:auto; height:25px; padding-left:10px; padding-right:10px; margin-bottom:5px;"> </a></p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="https://www.statoberry.com/papaya"><img src=".\images/Josta.png" class="img-fluid" style="height: 90px;"></a></p>
+<a href="https://www.statoberry.com/papaya"> <img src=".\images/Josta.png" class="img-fluid" style="height:90px;"> </a><br>
+
+<div style="margin-top:4px; font-size:0.9em; color:#555;">
+<p>✉️ Contact: <a href="mailto:support@jostapubs.com">support@jostapubs.com</a></p>
+</div>
 </div>
     <div class="nav-footer-right">
-<p>Licenced under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a> <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img src=".\images/cclogo.png" class="img-fluid" style="width:  auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+<p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a><br>
+<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"> <img src=".\images/cclogo.png" class="img-fluid" style="width:auto; height:35px; padding-left:10px; padding-right:10px; margin-bottom:5px;"> </a></p>
 </div>
   </div>
 </footer>

@@ -4,7 +4,8 @@
       "volume1/**/*.qmd"
     ],
     "volume1issue1.qmd": [
-      "volume1/**/*.qmd"
+      "volume1/**/*.qmd",
+      "volume1/issue1/**/*.qmd"
     ],
     "index.qmd": [
       "volume1/**/*.qmd"

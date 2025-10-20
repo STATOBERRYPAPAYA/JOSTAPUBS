@@ -1,6 +1,7 @@
 ---
 title: ""
 listing:
+  id: volume1issue1
   type: grid
   contents: 
     - "volume1/**/*.qmd"
@@ -44,4 +45,8 @@ Volume I • Issue I • 2025
 </h2>
 :::
 
-This page lists all peer-reviewed papers published in the journal. Click on a title to read the full article.
+This page lists all peer-reviewed papers published in the journal. Click on a title to read the full article.  
+
+::: {#volume1issue1}
+:::  
+

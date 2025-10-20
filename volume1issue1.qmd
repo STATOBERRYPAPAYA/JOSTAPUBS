@@ -3,7 +3,7 @@ title: "Issue 1"
 listing:
   type: table
   contents: 
-    - "volume1/**/*.qmd"
+    - "volume1/issue1/**/*.qmd"
   sort: "date desc"
   fields: 
     - title
