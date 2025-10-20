@@ -14,7 +14,7 @@
 <a href="index.qmd" class="btn btn-outline-secondary"> <i  class="bi bi-house"></i> Home </a> <a href="submit.qmd" class="btn btn-outline-secondary"> <i class="bi bi-upload"></i> Submit Article </a>
 :::
 
-# Peer Review Policy {.unnumbered}
+# Peer review policy {.unnumbered}
 
 At the *Journal of Sustainable Technology in Agriculture (JOSTA)*, we are committed to upholding the highest standards of academic integrity, transparency, and scholarly excellence. Our peer review process ensures that all published articles meet the scientific and ethical benchmarks required for impactful agricultural research.
 
@@ -33,7 +33,7 @@ This model promotes objective evaluation based solely on the academic quality an
 -   For interdisciplinary manuscripts, multiple reviewers with complementary expertise may be invited.
 -   Invitations are sent via email with full instructions and secure access to the manuscript.
 
-## Review Process {.unnumbered}
+## Review process {.unnumbered}
 
 Upon accepting the invitation, reviewers are provided with:
 
@@ -51,7 +51,7 @@ Reviewers are asked to assess the manuscript on the following:
 -   Validity of conclusions
 -   Presentation and language
 
-## Reviewer Recommendations {.unnumbered}
+## Reviewer recommendations {.unnumbered}
 
 Reviewers are requested to select one of the following:
 
@@ -70,7 +70,7 @@ All manuscripts and review materials are handled as confidential documents. Revi
 -   Use the content strictly for review purposes
 -   Disclose any conflicts of interest
 
-## Acknowledgment of Reviewers {.unnumbered}
+## Acknowledgment of reviewers {.unnumbered}
 
 JOSTA provides an opportunity to acknowledge reviewers after publication. Reviewers are asked:
 
