@@ -97,27 +97,12 @@ listing:
 </div>
 ```
 
-## Latest articles {.unnumbered}
+## Recent articles {.unnumbered}
 
 ![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)
 
 ::: {#articles}
-:::
-
-```{=html}
-<div style="text-align:center; margin-top: 0.75rem;">
-  <a href="published.qmd" 
-     style="color:#0b5a9c; 
-            text-decoration:none; 
-            font-family:Georgia, 'Times New Roman', serif; 
-            font-size:0.9rem; 
-            font-weight:600;"
-     onmouseover="this.style.color='#063b70';" 
-     onmouseout="this.style.color='#0b5a9c';">
-     Read more...
-  </a>
-</div>
-```
+:::  
 
 ```{=html}
 <style>
@@ -237,7 +222,9 @@ listing:
   .pro-more:hover { color:#7fe3c4; }
 }
 </style>
-```
+```  
+
+<hr style="border: 2px solid #e7e2d4; margin-top: 2em; margin-bottom: 1em; border-radius: 2px;" />  
 
 ## About the journal {.unnumbered}
 
