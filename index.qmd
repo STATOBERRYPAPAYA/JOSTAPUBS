@@ -31,118 +31,113 @@ listing:
 </section>
 
 <style>
-.home-hero {
-  text-align: center;
-  padding: 1.5rem 0 0.75rem;
-  border-bottom: 2px solid #e0d6c5;
-  background: linear-gradient(180deg, #fdf6ec 0%, #fff 100%);
-}
-.home-title {
-  font-family: "Georgia", "Times New Roman", serif;
-  font-weight: 700;
-  font-size: clamp(1.5rem, 3.5vw, 2rem);
-  color: #325d88;
-  margin: 0;
-  letter-spacing: 0.5px;
+/* palette */
+:root{
+  --j-navy:#1f345c;
+  --j-brown:#8b6a3a;
+  --j-rule:#e7e2d4;   /* soft beige line */
+  --j-beige:#fdf6ec;  /* warm beige bg */
+  --j-ink:#325d88;    /* title blue */
 }
 
-/* --- Button section styling --- */
-.home-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.75rem;
-  background: #fffcbd; /* professional beige-gray tone */
-  border-top: 1px solid #e0d6c5;
-  border-bottom: 1px solid #e0d6c5;
-  padding: 1rem;
-  margin-top: 1rem;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+/* hero */
+.home-hero{
+  text-align:center;
+  padding:1.5rem 0 .75rem;
+  border-bottom:2px solid var(--j-rule);
+  background:linear-gradient(180deg,var(--j-beige) 0%, #fff 100%);
+}
+.home-title{
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:700;
+  font-size:clamp(1.5rem,3.5vw,2rem);
+  color:var(--j-ink);
+  margin:0;
+  letter-spacing:.5px;
 }
 
-.home-buttons a.btn {
-  min-width: 140px;
-  font-weight: 500;
-  border-radius: 6px;
-  transition: all 0.2s ease;
-}
-.home-buttons a.btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+/* banner */
+.hero-banner{ text-align:center; margin:.75rem 0 1rem; }
+.hero-banner img{
+  width:100%; max-height:220px; object-fit:cover; border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,.06);
 }
 
-/* mobile view: stack buttons neatly */
-@media (max-width: 600px) {
-  .home-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-  .home-buttons a.btn {
-    width: 90%;
-  }
+/* slim icon strip (section shortcuts) */
+.icon-strip{
+  display:flex; flex-wrap:wrap; justify-content:center; align-items:center;
+  gap:.9rem 1.1rem;
+  background:linear-gradient(180deg,#fff 0%, var(--j-beige) 90%);
+  border:1px solid var(--j-rule);
+  border-radius:10px;
+  padding:.6rem .9rem;
+  margin:0 auto 1rem;
+  max-width:1100px;
+}
+.icon-strip a{
+  font-size:1.25rem; line-height:1; color:var(--j-navy); text-decoration:none;
+  display:inline-flex; align-items:center; justify-content:center;
+  width:38px; height:38px; border-radius:50%;
+  border:1px solid var(--j-rule); background:#fff;
+  transition:transform .2s ease, box-shadow .2s ease, color .2s ease, border-color .2s ease;
+}
+.icon-strip a:hover, .icon-strip a:focus{
+  color:var(--j-brown);
+  border-color:var(--j-brown);
+  transform:translateY(-2px);
+  box-shadow:0 2px 6px rgba(0,0,0,.08);
+  outline:none;
+}
+
+/* primary action buttons */
+.home-buttons{
+  display:flex; flex-wrap:wrap; justify-content:center; gap:.75rem 1rem;
+  background:#fff; /* cleaner plate under buttons */
+  border-top:1px solid var(--j-rule);
+  border-bottom:1px solid var(--j-rule);
+  padding:1rem;
+  margin:0 auto 1rem;
+  max-width:1100px;
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.04);
+}
+.home-buttons a.btn{
+  min-width:130px; font-weight:500; border-radius:8px; transition:all .2s ease;
+}
+.home-buttons a.btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 2px 6px rgba(0,0,0,.08);
+}
+
+/* responsive tweaks */
+@media (max-width:700px){
+  .icon-strip{ gap:.7rem .8rem; }
+  .icon-strip a{ width:40px; height:40px; font-size:1.3rem; }
+  .home-buttons{ flex-direction:column; align-items:center; }
+  .home-buttons a.btn{ width:88%; }
 }
 </style>
 
-<div style="text-align:center;margin-bottom:1em">
-  <img src="bannernew.webp" alt="JOSTA cover"
-       style="width:100%;max-height:220px;object-fit:cover;border-radius:0">
-</div>  
-
-<!-- ===== Icon-only Section Navigation ===== -->
-<style>
-.icon-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.2rem;
-  background: #e6ffd4;            /* beige background */
-  border: 1px solid #e0d6c5;
-  border-radius: 10px;
-  padding: 0.8rem 1rem;
-  margin: 1.5rem auto;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
-}
-
-.icon-nav a {
-  font-size: 1.4rem;
-  color: #1f345c;                 /* JOSTA navy */
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.icon-nav a:hover {
-  color: #8b6a3a;                 /* sandstone hover */
-  transform: translateY(-2px);
-}
-
-@media (max-width: 600px) {
-  .icon-nav {
-    gap: 0.9rem;
-    padding: 0.7rem;
-  }
-  .icon-nav a {
-    font-size: 1.6rem;
-  }
-}
-</style>
-
-<!-- Clickable icons -->
-<div class="icon-nav">
-  <a href="#about" title="About"><i class="bi bi-info-circle-fill"></i></a>
-  <a href="#journal-info" title="Journal Info"><i class="bi bi-journal-text"></i></a>
-  <a href="#vision" title="Vision"><i class="bi bi-lightbulb-fill"></i></a>
-  <a href="#journalmetrics" title="Metrics"><i class="bi bi-bar-chart-line-fill"></i></a>
-  <a href="#peerpolicy" title="Peer Policy"><i class="bi bi-people-fill"></i></a>
-  <a href="#apc" title="APC"><i class="bi bi-cash-coin"></i></a>
-  <a href="#copyright-info" title="Copyright"><i class="bi bi-c-circle-fill"></i></a>
+<div class="hero-banner">
+  <img src="bannernew.webp" alt="JOSTA cover">
 </div>
 
+<!-- icon-only, unobtrusive quick links -->
+<nav class="icon-strip" aria-label="section shortcuts">
+  <a href="#about" title="About"><i class="bi bi-info-circle-fill" aria-hidden="true"></i></a>
+  <a href="#journal-info" title="Journal info"><i class="bi bi-journal-text" aria-hidden="true"></i></a>
+  <a href="#vision" title="Vision"><i class="bi bi-lightbulb-fill" aria-hidden="true"></i></a>
+  <a href="#journalmetrics" title="Metrics"><i class="bi bi-bar-chart-line-fill" aria-hidden="true"></i></a>
+  <a href="#peerpolicy" title="Peer policy"><i class="bi bi-people-fill" aria-hidden="true"></i></a>
+  <a href="#apc" title="APC"><i class="bi bi-cash-coin" aria-hidden="true"></i></a>
+  <a href="#copyright-info" title="Copyright"><i class="bi bi-c-circle-fill" aria-hidden="true"></i></a>
+</nav>
 
+<!-- primary actions -->
 <div class="home-buttons">
   <a href="submit.qmd" class="btn btn-outline-success"><i class="bi bi-upload"></i> Submit</a>
   <a href="published.qmd" class="btn btn-outline-info"><i class="bi bi-book"></i> Read</a>
   <a href="editorial.qmd" class="btn btn-outline-warning"><i class="bi bi-people"></i> Editorial</a>
-  <a href="jostasubmission.qmd" class="btn btn-outline-primary"><i class="bi bi-person-lock"></i> Author Login</a>
+  <a href="jostasubmission.qmd" class="btn btn-outline-primary"><i class="bi bi-person-lock"></i> Author login</a>
   <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"><i class="bi bi-cloud-arrow-down"></i> Zenodo</a>
 </div>
 ```
