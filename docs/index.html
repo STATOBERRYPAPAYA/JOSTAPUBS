@@ -317,13 +317,13 @@ window.Quarto = {
    
   <ul>
   <li><a href="#recent-articles" id="toc-recent-articles" class="nav-link active" data-scroll-target="#recent-articles">Recent articles</a></li>
-  <li><a href="#about-the-journal" id="toc-about-the-journal" class="nav-link" data-scroll-target="#about-the-journal">About the journal</a></li>
-  <li><a href="#our-vision" id="toc-our-vision" class="nav-link" data-scroll-target="#our-vision">Our vision</a></li>
+  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About the journal</a></li>
+  <li><a href="#vision" id="toc-vision" class="nav-link" data-scroll-target="#vision">Our vision</a></li>
   <li><a href="#why-publish-with-us" id="toc-why-publish-with-us" class="nav-link" data-scroll-target="#why-publish-with-us">Why publish with us?</a></li>
-  <li><a href="#journal-metrics" id="toc-journal-metrics" class="nav-link" data-scroll-target="#journal-metrics">Journal metrics</a></li>
-  <li><a href="#peer-review-policy" id="toc-peer-review-policy" class="nav-link" data-scroll-target="#peer-review-policy">Peer review policy</a></li>
+  <li><a href="#journalmetrics" id="toc-journalmetrics" class="nav-link" data-scroll-target="#journalmetrics">Journal metrics</a></li>
+  <li><a href="#peerpolicy" id="toc-peerpolicy" class="nav-link" data-scroll-target="#peerpolicy">Peer review policy</a></li>
   <li><a href="#open-access" id="toc-open-access" class="nav-link" data-scroll-target="#open-access">🔓Open access</a></li>
-  <li><a href="#article-processing-charges-apc" id="toc-article-processing-charges-apc" class="nav-link" data-scroll-target="#article-processing-charges-apc">Article processing charges (APC)</a></li>
+  <li><a href="#apc" id="toc-apc" class="nav-link" data-scroll-target="#apc">Article processing charges (APC)</a></li>
   <li><a href="#author-login" id="toc-author-login" class="nav-link" data-scroll-target="#author-login">🔑 Author login</a></li>
   <li><a href="#greener-publishing" id="toc-greener-publishing" class="nav-link" data-scroll-target="#greener-publishing">🍃Greener publishing</a></li>
   </ul>
@@ -364,7 +364,7 @@ window.Quarto = {
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.75rem;
-  background: #fffffa; /* professional beige-gray tone */
+  background: #fffcbd; /* professional beige-gray tone */
   border-top: 1px solid #e0d6c5;
   border-bottom: 1px solid #e0d6c5;
   padding: 1rem;
@@ -397,7 +397,57 @@ window.Quarto = {
 
 <div style="text-align:center;margin-bottom:1em">
   <img src="bannernew.webp" alt="JOSTA cover" style="width:100%;max-height:220px;object-fit:cover;border-radius:0">
+</div>  
+
+<!-- ===== Icon-only Section Navigation ===== -->
+<style>
+.icon-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  background: #e6ffd4;            /* beige background */
+  border: 1px solid #e0d6c5;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  margin: 1.5rem auto;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.icon-nav a {
+  font-size: 1.4rem;
+  color: #1f345c;                 /* JOSTA navy */
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.icon-nav a:hover {
+  color: #8b6a3a;                 /* sandstone hover */
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .icon-nav {
+    gap: 0.9rem;
+    padding: 0.7rem;
+  }
+  .icon-nav a {
+    font-size: 1.6rem;
+  }
+}
+</style>
+
+<!-- Clickable icons -->
+<div class="icon-nav">
+  <a href="#about" title="About"><i class="bi bi-info-circle-fill"></i></a>
+  <a href="#journal-info" title="Journal Info"><i class="bi bi-journal-text"></i></a>
+  <a href="#vision" title="Vision"><i class="bi bi-lightbulb-fill"></i></a>
+  <a href="#journalmetrics" title="Metrics"><i class="bi bi-bar-chart-line-fill"></i></a>
+  <a href="#peerpolicy" title="Peer Policy"><i class="bi bi-people-fill"></i></a>
+  <a href="#apc" title="APC"><i class="bi bi-cash-coin"></i></a>
+  <a href="#copyright-info" title="Copyright"><i class="bi bi-c-circle-fill"></i></a>
 </div>
+
 
 <div class="home-buttons">
   <a href="./submit.html" class="btn btn-outline-success"><i class="bi bi-upload"></i> Submit</a>
@@ -776,8 +826,8 @@ No matching items
 </style>
 <hr style="border: 2px solid #e7e2d4; margin-top: 2em; margin-bottom: 1em; border-radius: 2px;">
 </section>
-<section id="about-the-journal" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="about-the-journal">About the journal</h2>
+<section id="about" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="about">About the journal</h2>
 <p>The Journal of Sustainable Technology in Agriculture (JOSTA) is a peer-reviewed, open-access e-journal dedicated to publishing high-quality research that fosters innovation and sustainability in agriculture. Founded by a collaborative group of scientists and professionals, JOSTA serves as a reliable and inclusive platform for sharing advancements that enhance agricultural practices through responsible technology use, practical innovation, and applied research.</p>
 <p>We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world-promoting broad dissemination and knowledge sharing.</p>
 <p>Articles published in JOSTA are permanently archived in <a href="https://zenodo.org">Zenodo</a> with dedicated community created for <a href="https://zenodo.org/communities/josta/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest">JOSTA</a>, ensuring your research is stored safely, secure and open for the future in CERN’s data centre for as long as CERN exists.</p>
@@ -937,8 +987,8 @@ No matching items
   }
 </style>
 </section>
-<section id="our-vision" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="our-vision">Our vision</h2>
+<section id="vision" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="vision">Our vision</h2>
 <p>At JOSTA, we believe that scientific knowledge should be freely accessible and shared without unnecessary barriers. Our vision is to create a research ecosystem where agricultural innovations are communicated openly, reviewed rigorously, and applied meaningfully.</p>
 <p>We aim to provide a trusted platform that empowers researchers, educators, and practitioners to publish high-quality work in a transparent, supportive, and researcher-friendly environment. By combining open access with editorial excellence, JOSTA seeks to advance sustainable technologies in agriculture and foster a culture of collaboration and continuous learning.</p>
 </section>
@@ -951,8 +1001,8 @@ No matching items
 <li><p><strong>Supportive community</strong>: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.</p></li>
 </ul>
 </section>
-<section id="journal-metrics" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="journal-metrics">Journal metrics</h2>
+<section id="journalmetrics" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="journalmetrics">Journal metrics</h2>
 <section class="josta-metrics" id="journal-metrics" aria-labelledby="journal-metrics-title">
   <div class="container jm-wrap">
     <h2 class="jm-title anchored" id="journal-metrics-title">Journal metrics</h2>
@@ -1075,8 +1125,8 @@ No matching items
 <p><small><em>Note: Metrics are provisional and will be refined as the journal grows and indexing data becomes available.</em></small></p>
 </div>
 </section>
-<section id="peer-review-policy" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="peer-review-policy">Peer review policy</h2>
+<section id="peerpolicy" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="peerpolicy">Peer review policy</h2>
 <p>All submissions undergo an initial assessment by the managing editors. Suitable manuscripts are then assigned to the appropriate section editors, who identify independent experts in the relevant field to serve as reviewers. JOSTA follows a double-blind peer review process, where both authors and reviewers remain anonymous to ensure fairness and objectivity. Based on the reviewers’ feedback, authors may be requested to revise their manuscripts.</p>
 <p>For a detailed description of the review process, see <a href="./peerReview.html">Peer review process</a>.</p>
 </section>
@@ -1137,8 +1187,8 @@ No matching items
   }
 </style>
 </section>
-<section id="article-processing-charges-apc" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="article-processing-charges-apc">Article processing charges (APC)</h2>
+<section id="apc" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="apc">Article processing charges (APC)</h2>
 <p>At JOSTA, we uphold the principle that research quality should never be compromised by publication costs.</p>
 <p>✅ No submission fees<br>
 ✅ No charges for figures, tables, or page limits<br>
