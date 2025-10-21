@@ -1,51 +1,98 @@
-<ul class="pro-ul">
-<% for (const item of items) {
-     const href    = item.path || item.url || "#";
-     const title   = item.title || "Untitled";
-     const date    = item.date || "";
-     const cats    = Array.isArray(item.categories) ? item.categories : (item.categories ? [item.categories] : []);
-     const a = Array.isArray(item.author)
-       ? item.author.map(x => typeof x === "string" ? x : (x && x.name) ? x.name : "").filter(Boolean)
-       : (typeof item.author === "string" ? [item.author] : (item.author && item.author.name) ? [item.author.name] : []);
-     const authors = a.join(", ");
-     const doiRaw  = item.data && item.data.doi ? String(item.data.doi).trim() : "";
-     const doiHref = doiRaw ? ("https://doi.org/" + doiRaw.replace(/^https?:\/\/(dx\.)?doi\.org\//i,"")) : "";
-     const status  = (item.data && item.data.status ? String(item.data.status) : "Online");
+<ul class="pro-ul list" aria-live="polite">
+<% 
+  // graceful helpers
+  const toArray = (x) => Array.isArray(x) ? x : (x ? [x] : []);
+  const authorNames = (au) => {
+    if (!au) return [];
+    if (Array.isArray(au)) {
+      return au.map(a => (typeof a === "string") ? a : (a && a.name) ? a.name : "")
+               .filter(Boolean);
+    }
+    if (typeof au === "string") return [au];
+    if (au && au.name) return [au.name];
+    return [];
+  };
+
+  // loop items
+  if (items && items.length) {
+    for (const item of items) {
+      const href  = item.path || item.url || "#";
+      const title = item.title || "Untitled";
+      const date  = item.date || (item.data && item.data.date) || "";
+      const cats  = toArray(item.categories);
+      const authors = authorNames(item.author).join(", ");
+
+      const doiRaw  = (item.data && item.data.doi) ? String(item.data.doi).trim() : "";
+      const doiHref = doiRaw 
+        ? ("https://doi.org/" + doiRaw.replace(/^https?:\/\/(dx\.)?doi\.org\//i,""))
+        : "";
+
+      const status = (item.data && item.data.status) 
+        ? String(item.data.status) 
+        : "";
+
+      // optional fields commonly used in listings
+      const img   = item.image || (item.data && item.data.image) || "";
+      const desc  = item.description || (item.data && item.data.description) || "";
 %>
-  <li class="pro-li">
-    <!-- Title (dark sandstone navy) -->
+  <!-- IMPORTANT: include metadataAttrs(item) on the list item -->
+  <li class="pro-li" <%= metadataAttrs(item) %>>
+    <!-- title -->
     <h3 class="pro-title">
-      <a class="pro-link" href="<%- href %>"><%= title %></a>
+      <a class="pro-link listing-title" href="<%- href %>"><%= title %></a>
     </h3>
 
-    <!-- DOI clickable -->
+    <!-- optional image/thumbnail (if you use one in your items) -->
+    <% if (img) { %>
+      <div class="pro-thumb">
+        <a href="<%- href %>">
+          <img class="listing-image" src="<%- img %>" alt="">
+        </a>
+      </div>
+    <% } %>
+
+    <!-- categories -->
+    <% if (cats && cats.length) { %>
+      <ul class="pro-cats" role="list">
+        <% for (const c of cats) { %>
+          <li class="pro-chip listing-categories"><%= c %></li>
+        <% } %>
+      </ul>
+    <% } %>
+
+    <!-- authors -->
+    <% if (authors) { %>
+      <div class="pro-authors listing-author"><%= authors %></div>
+    <% } %>
+
+    <!-- doi -->
     <% if (doiHref) { %>
-      <div class="pro-doi">
+      <div class="pro-doi listing-doi">
         DOI: <a href="<%- doiHref %>" target="_blank" rel="noopener"><%= doiRaw %></a>
       </div>
     <% } %>
 
-    <!-- Categories under title -->
-    <% if (cats.length) { %>
-      <ul class="pro-cats" role="list">
-        <% for (const c of cats) { %><li class="pro-chip"><%= c %></li><% } %>
-      </ul>
-    <% } %>
-
-    <!-- Author -->
-    <% if (authors) { %>
-      <div class="pro-authors"><%= authors %></div>
-    <% } %>
-
-    <!-- Status -->
+    <!-- status badge/text -->
     <% if (status) { %>
-      <div class="pro-status"><%= status %></div>
+      <div class="pro-status listing-status"><%= status %></div>
     <% } %>
 
-    <!-- Date -->
+    <!-- date -->
     <% if (date) { %>
-      <time class="pro-date"><%= date %></time>
+      <time class="pro-date listing-date"><%= date %></time>
     <% } %>
+
+    <!-- description/excerpt -->
+    <% if (desc) { %>
+      <p class="pro-desc listing-description"><%= desc %></p>
+    <% } %>
+  </li>
+<% 
+    } // end for
+  } else { 
+%>
+  <li class="pro-li">
+    <em>No items found.</em>
   </li>
 <% } %>
 </ul>

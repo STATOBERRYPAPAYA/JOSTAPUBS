@@ -83,7 +83,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-status','listing-description','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-project","listing-website","listing-reader-mode","listing-page-navigation","listing-back-to-top-navigation","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-abstract","listing-keywords","listing-bibliography","listing-date","listing-path","listing-categories","listing-status","listing-doi","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
@@ -409,104 +410,252 @@ window.Quarto = {
 <h2 class="unnumbered anchored" data-anchor-id="latest-articles">Latest articles</h2>
 <p><img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/license-CC--BY%204.0-blue.svg" class="img-fluid" alt="License"> <img src="https://img.shields.io/badge/open--source-yes-blue.svg" class="img-fluid" alt="Open Source"> <img src="https://img.shields.io/badge/DOI-enabled-orange.svg" class="img-fluid" alt="DOI"></p>
 <div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
-<ul class="pro-ul">
-<li class="pro-li">
-<!-- Title (dark sandstone navy) -->
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-articles-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-articles'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-categories" data-direction="asc">
+          Categories
+        </option>
+         <option value="listing-status" data-direction="asc">
+          status
+        </option>
+         <option value="listing-doi" data-direction="asc">
+          doi
+        </option>
+         <option value="listing-description" data-direction="asc">
+          Description
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<ul class="pro-ul list" aria-live="polite">
+<!-- IMPORTANT: include metadataAttrs(item) on the list item -->
+<li class="pro-li" data-index="0" data-categories="T3JpZ2luYWwtQXJ0aWNsZSUyQ0Vjb25vbWljcyUyQ1BvbGljeQ==" data-listing-date-sort="1753122600000" data-listing-file-modified-sort="1760976342709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="37" data-listing-word-count-sort="7380">
+<!-- title -->
 <h3 class="pro-title anchored">
-<a class="pro-link" href="./volume1/issue1/Denny/JOSTA20250617172925171.html">Dairy SHGs in Kerala: Economics and Loan Repayment Drivers</a>
+<a class="pro-link listing-title" href="./volume1/issue1/Denny/JOSTA20250617172925171.html">Dairy SHGs in Kerala: Economics and Loan Repayment Drivers</a>
 </h3>
-<!-- DOI clickable -->
-<!-- Categories under title -->
+<!-- optional image/thumbnail (if you use one in your items) -->
+<!-- categories -->
 <ul class="pro-cats" role="list">
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Original-Article
 </li>
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Economics
 </li>
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Policy
 </li>
 </ul>
-<!-- Author -->
-<div class="pro-authors">
+<!-- authors -->
+<div class="pro-authors listing-author">
 Denny Franco*, Anil Chauhan, Balwant S Chandel, Ravinder Malhotra, K. Ponnusamy, Ashadevi S S
 </div>
-<!-- Status -->
-<div class="pro-status">
-Online
-</div>
-<!-- Date -->
-<p><time class="pro-date">Jul 22, 2025</time></p>
+<!-- doi -->
+<!-- status badge/text -->
+<!-- date -->
+<p><time class="pro-date listing-date">Jul 22, 2025</time></p>
+<!-- description/excerpt -->
+<p class="pro-desc listing-description">
+Microfinance activities play a vital role among the poor to raise their microenterprises especially in the primary agricultural sector of rural India and helped the marginalized people to elude from poverty. This paper detailed the economic performance of dairy-based SHGs and discuss the factors that influence the repayment performance of the SHGs in Kerala. The study consists of a sample of 80 dairy SHGs which is situated at a high altitude zone of Kerala where a large number of dairy-financed SHGs are existing. The results of economic performance analysis showed that the saving performance and repayment of the external bank linkage loans were quite impressive in the study area. However, the prompt repayment of internal loans lacking momentum. Results of Tobit regression have shown that peer pressure and dependency ratio have a positive influence, whereas homogeneity and loan amount has a negative influence on the repayment performance of the SHGs.
+</p>
 </li>
-<li class="pro-li">
-<!-- Title (dark sandstone navy) -->
+<!-- IMPORTANT: include metadataAttrs(item) on the list item -->
+<li class="pro-li" data-index="1" data-categories="T3JpZ2luYWwtQXJ0aWNsZSUyQ1BsYW50LVNjaWVuY2UlMkNDcm9wcyUyQ0dlbmV0aWNz" data-listing-date-sort="1750703400000" data-listing-file-modified-sort="1760976406362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4132">
+<!-- title -->
 <h3 class="pro-title anchored">
-<a class="pro-link" href="./volume1/issue1/CROPS/JOSTA20250615173749999.html">Genetic Variability and Diversity Analysis in Sesame (<em>Sesamum indicum</em> L.)</a>
+<a class="pro-link listing-title" href="./volume1/issue1/CROPS/JOSTA20250615173749999.html">Genetic Variability and Diversity Analysis in Sesame (<em>Sesamum indicum</em> L.)</a>
 </h3>
-<!-- DOI clickable -->
-<!-- Categories under title -->
+<!-- optional image/thumbnail (if you use one in your items) -->
+<!-- categories -->
 <ul class="pro-cats" role="list">
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Original-Article
 </li>
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Plant-Science
 </li>
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Crops
 </li>
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Genetics
 </li>
 </ul>
-<!-- Author -->
-<div class="pro-authors">
+<!-- authors -->
+<div class="pro-authors listing-author">
 Gayathri G <sup>*</sup>, Dijee Bastian
 </div>
-<!-- Status -->
-<div class="pro-status">
-Online
-</div>
-<!-- Date -->
-<p><time class="pro-date">Jun 24, 2025</time></p>
+<!-- doi -->
+<!-- status badge/text -->
+<!-- date -->
+<p><time class="pro-date listing-date">Jun 24, 2025</time></p>
+<!-- description/excerpt -->
+<p class="pro-desc listing-description">
+Sesame (<em>Sesamum indicum</em> L.) is an ancient oilseed crop of significant nutritional and economic value, but its productivity remains suboptimal due to limited genetic improvement. This study assessed genetic variability, correlation patterns, and genetic divergence among 40 sesame genotypes to identify superior parents for breeding programs. Evaluating nine quantitative traits, including days to flowering, plant height, branches per plant, and oil content, in a randomized block design with three replications, revealed significant genetic variation. High heritability and genetic advance were recorded for traits such as days to flowering (95.98%) and seed yield per plant (98.69%). Number of capsules per plant showed the highest direct effect on seed yield. Mahalanobis D² analysis grouped the genotypes into six clusters, with plant height contributing the most to total divergence. The study identified genotypes from divergent clusters (III, IV, V, and VI) as potential parents for hybridization to develop high-yielding varieties with improved oil content.
+</p>
 </li>
-<li class="pro-li">
-<!-- Title (dark sandstone navy) -->
+<!-- IMPORTANT: include metadataAttrs(item) on the list item -->
+<li class="pro-li" data-index="2" data-categories="T3JpZ2luYWwtQXJ0aWNsZSUyQ1BsYW50LVNjaWVuY2UlMkNDcm9wcyUyQ0Fncm9ub215" data-listing-date-sort="1750357800000" data-listing-file-modified-sort="1760976450080" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="34" data-listing-word-count-sort="6641">
+<!-- title -->
 <h3 class="pro-title anchored">
-<a class="pro-link" href="./volume1/issue1/AGRON/JOSTA615202501736.html">Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra</a>
+<a class="pro-link listing-title" href="./volume1/issue1/AGRON/JOSTA615202501736.html">Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra</a>
 </h3>
-<!-- DOI clickable -->
-<!-- Categories under title -->
+<!-- optional image/thumbnail (if you use one in your items) -->
+<!-- categories -->
 <ul class="pro-cats" role="list">
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Original-Article
 </li>
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Plant-Science
 </li>
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Crops
 </li>
-<li class="pro-chip">
+<li class="pro-chip listing-categories">
 Agronomy
 </li>
 </ul>
-<!-- Author -->
-<div class="pro-authors">
+<!-- authors -->
+<div class="pro-authors listing-author">
 Krishna Vikram, Atul Jayapal*, Shalini Pillai, Sheeba Rebecca Isaac, Mini V
 </div>
-<!-- Status -->
-<div class="pro-status">
-Online
+<!-- doi -->
+<!-- status badge/text -->
+<!-- date -->
+<p><time class="pro-date listing-date">Jun 20, 2025</time></p>
+<!-- description/excerpt -->
+<p class="pro-desc listing-description">
+The beneficial role of biochar in improving soil fertility is well known, but the optimal application rate in sandy loam soils remains unclear. To address this gap, a field experiment was conducted in 2023 on the coastal sandy loam soils of Kayamkulam, Kerala, to assess the impact of different biochar rates on okra yield, nutrient uptake, and soil fertility. The study followed a randomized block design with nine treatments: various combinations of biochar (5 and 10 t ha<span class="math inline">\(^{-1}\)</span>), farmyard manure (5 and 20 t ha<span class="math inline">\(^{-1}\)</span>), and two nutrient levels (75% and 100% RDF). Results revealed that the application of biochar at 10 t ha<span class="math inline">\(^{-1}\)</span> along with the recommended nutrient dose (110:35:70 kg N:P<span class="math inline">\(_2\)</span>O<span class="math inline">\(_5\)</span>:K<span class="math inline">\(_2\)</span>O ha<span class="math inline">\(^{-1}\)</span>) significantly improved okra yield and nutrient uptake while enhancing soil fertility. The findings highlight the potential of biochar as a soil conditioner and underscore the importance of application rate for achieving optimal benefits.
+</p>
+</li>
+<!-- IMPORTANT: include metadataAttrs(item) on the list item -->
+<li class="pro-li" data-index="3" data-categories="Q2FzZS1TdHVkeSUyQ0Vjb25vbWljcyUyQ1BvbGljeQ==" data-listing-date-sort="1750185000000" data-listing-file-modified-sort="1760976434694" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3898">
+<!-- title -->
+<h3 class="pro-title anchored">
+<a class="pro-link listing-title" href="./volume1/issue1/AGECONOMICS/JOSTA11CS1.html">Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala</a>
+</h3>
+<!-- optional image/thumbnail (if you use one in your items) -->
+<!-- categories -->
+<ul class="pro-cats" role="list">
+<li class="pro-chip listing-categories">
+Case-Study
+</li>
+<li class="pro-chip listing-categories">
+Economics
+</li>
+<li class="pro-chip listing-categories">
+Policy
+</li>
+</ul>
+<!-- authors -->
+<div class="pro-authors listing-author">
+Arshad N., Aswathy Vijayan<sup>*</sup>, Durga A. R., T. Paul Lazarus, Pratheesh P. Gopinath
 </div>
-<!-- Date -->
-<p><time class="pro-date">Jun 20, 2025</time></p>
+<!-- doi -->
+<!-- status badge/text -->
+<!-- date -->
+<p><time class="pro-date listing-date">Jun 18, 2025</time></p>
+<!-- description/excerpt -->
+<p class="pro-desc listing-description">
+Price fluctuations pose a major challenge in horticulture, especially for perishable crops like pineapple. Vazhakulam in Kerala is a leading hub for pineapple cultivation, with strong interstate marketing networks. This study investigates price volatility in the Vazhakulam pineapple market during covid lock down using daily price data from January 2017 to September 2022. The data was segmented into pre-pandemic (Jan 2017–Mar 2020) and pandemic/post-pandemic (Apr 2020–Sep 2022) periods. Time-series modeling using ARCH and GARCH approaches in R revealed that GARCH(1,1) was the most suitable model for capturing volatility patterns. Results showed significantly higher price instability during the pandemic period, driven by transport disruptions and reduced consumer demand. This volatility affected the economic viability of pineapple farming, leading many producers to reduce cultivation. The findings highlight the need for targeted policy support and risk management strategies to stabilize fruit markets and protect farmer livelihoods during times of crisis.
+</p>
+</li>
+<!-- IMPORTANT: include metadataAttrs(item) on the list item -->
+<li class="pro-li" data-index="4" data-categories="T3JpZ2luYWwtQXJ0aWNsZSUyQ1BsYW50LVNjaWVuY2UlMkNDcm9wcyUyQ0dlbmV0aWNz" data-listing-date-sort="1750098600000" data-listing-file-modified-sort="1760976393526" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="29" data-listing-word-count-sort="5658">
+<!-- title -->
+<h3 class="pro-title anchored">
+<a class="pro-link listing-title" href="./volume1/issue1/lovelyB/generationmean.html">Digenic Interactions on Yield in Yardlong Bean: A Generation Mean Analysis</a>
+</h3>
+<!-- optional image/thumbnail (if you use one in your items) -->
+<!-- categories -->
+<ul class="pro-cats" role="list">
+<li class="pro-chip listing-categories">
+Original-Article
+</li>
+<li class="pro-chip listing-categories">
+Plant-Science
+</li>
+<li class="pro-chip listing-categories">
+Crops
+</li>
+<li class="pro-chip listing-categories">
+Genetics
+</li>
+</ul>
+<!-- authors -->
+<div class="pro-authors listing-author">
+Lovely B.<sup>*</sup>, Radhadevi D.S, Vijayaraghava Kumar
+</div>
+<!-- doi -->
+<!-- status badge/text -->
+<!-- date -->
+<p><time class="pro-date listing-date">Jun 17, 2025</time></p>
+<!-- description/excerpt -->
+<p class="pro-desc listing-description">
+Vegetable cowpea [<em>Vigna unguiculata</em> ssp. <em>sesquipedalis</em> (L.) Verdc.] is a distinct form of cowpea cultivated in southern Asia and the Far East for its immature pods. Six parameter generation mean analysis of three cowpea crosses revealed complex gene action for several yield-related traits. Significant scale tests and epistasis indicated the inadequacy of the simple additive-dominance model, underscoring the role of non-allelic interactions in trait inheritance. Additive × additive, additive × dominance, and dominance × dominance effects were observed for traits such as pod length, pod yield per plant, pods per plant, and root weight. The presence of duplicate and complementary epistasis suggests that hybridization followed by selection in segregating generations would be effective for improving these traits. Traits like pod breadth, seeds per pod, and 100-seed weight, which lacked significant epistasis, can be improved using additive-dominance models. Recombination breeding is recommended for enhancing pod yield and pod weight.
+</p>
+</li>
+<!-- IMPORTANT: include metadataAttrs(item) on the list item -->
+<li class="pro-li" data-index="5" data-categories="T3JpZ2luYWwtQXJ0aWNsZSUyQ0RhdGEtU2NpZW5jZSUyQ1NvZnR3YXJl" data-listing-date-sort="1749321000000" data-listing-file-modified-sort="1760975552535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2573">
+<!-- title -->
+<h3 class="pro-title anchored">
+<a class="pro-link listing-title" href="./volume1/issue1/josta111raisins2025.html">RAISINS: Integrating R and AI for Agricultural Data Analysis</a>
+</h3>
+<!-- optional image/thumbnail (if you use one in your items) -->
+<!-- categories -->
+<ul class="pro-cats" role="list">
+<li class="pro-chip listing-categories">
+Original-Article
+</li>
+<li class="pro-chip listing-categories">
+Data-Science
+</li>
+<li class="pro-chip listing-categories">
+Software
+</li>
+</ul>
+<!-- authors -->
+<div class="pro-authors listing-author">
+Mohammed Hisham M., Jithin Chandran, Pratheesh P Gopinath<sup>*</sup>
+</div>
+<!-- doi -->
+<!-- status badge/text -->
+<!-- date -->
+<p><time class="pro-date listing-date">Jun 8, 2025</time></p>
+<!-- description/excerpt -->
+<p class="pro-desc listing-description">
+RAISINS (R and AI Solutions for INferential Statistics) is a web-based statistical analysis platform designed to bridge the gap between complex inferential methods and the practical needs of students and researchers, particularly in the agricultural sciences. By integrating the computational power of R and Python with the adaptive capabilities of OpenAI’s artificial intelligence APIs, RAISINS delivers an intuitive, code-free interface for performing advanced statistical analyses. Hosted on Posit Connect Cloud, the platform eliminates the need for local software installation, enabling seamless, browser-based access to a wide range of statistical tools. RAISINS simplifies model building, result interpretation, and reporting, making it especially valuable for non-statisticians and early-career researchers seeking reliable insights from agricultural data.
+</p>
 </li>
 </ul>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="articles-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <div style="text-align:center; margin-top: 0.75rem;">
   <a href="./published.html" style="color:#0b5a9c; 

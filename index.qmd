@@ -2,11 +2,13 @@
 title: ""
 listing:
   id: articles
-  template: tf-list.ejs
-  max-items: 3
-  contents: 
+  contents:
     - "volume1/**/*.qmd"
+  template: tf-list.ejs
   sort: "date desc"
+  page-size: 3       # show 3 items per page
+  sort-ui: true      # optional: sorting dropdown
+  filter-ui: true    # optional: search box
   fields: 
     - title
     - author
