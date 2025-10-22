@@ -301,7 +301,7 @@ JOSTA is managed by [PAPAYA](https://www.statoberry.com/papaya.html), Academic P
           <svg viewBox="0 0 24 24" class="josta-ic"><path d="M3 6h18M3 12h12M3 18h6"/></svg>
           Frequency
         </span>
-        <span class="josta-v">Quarterly · Online</span>
+        <span class="josta-v">Quarterly-Online</span>
       </li>
 
       <li class="josta-item sandstone3">
@@ -469,8 +469,8 @@ Open Access: Your work is freely accessible online from the moment of publicatio
 
       <li class="jm-card tone-2">
         <span class="jm-k">Average time to publication</span>
-        <span class="jm-v">25–30 days</span>
-        <span class="jm-badge">Fast track: 7 days</span>
+        <span class="jm-v">30–35 days</span>
+        <span class="jm-badge">Fast track: 14 days</span>
       </li>
 
       <li class="jm-card tone-3">
