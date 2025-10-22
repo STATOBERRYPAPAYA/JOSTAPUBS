@@ -65,3 +65,8 @@ Research on adaptation and mitigation strategies, carbon farming, climate-resili
 ## Forestry and Agroforestry {.unnumbered}
 
 Focuses on tree-based farming systems, biodiversity conservation, forest resource management, and ecosystem services. **Tags:** Forestry, Agroforestry
+
+## Library and Information Science {.unnumbered}
+
+Focuses on the organization, management, and dissemination of agricultural knowledge through digital libraries, open-access systems, bibliometrics, and information literacy for research and innovation. **Tags:** Library, InformationScience
+

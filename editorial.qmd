@@ -261,6 +261,22 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
 </div>  
 ```
 
+## Library and Information Science {.unnumbered}
+
+```{=html}
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Naseer A, PhD</h3>
+    <p>Assistant Librarian,<br>
+    College of Agriculture, Vellayani,<br>
+    Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:naseerkau@gmail.com">naseerkau@gmail.com</a></p>
+    <p>ORCID: <a href="https://orcid.org/0009-0009-1219-3157">0009-0009-1219-3157</a></p>
+    <p><a href="https://scholar.google.co.in/citations?user=xuPfy3EAAAAJ&hl=en&oi=ao">Google Scholar Profile</a></p>
+  </div>
+</div>  
+```
+
 ## Managing Assistant Editors {.unnumbered}
 
 ```{=html}
