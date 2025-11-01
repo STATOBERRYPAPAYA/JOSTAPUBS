@@ -1,0 +1,1779 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Varsha H">
+<meta name="author" content="Pratheesh P Gopinath*">
+<meta name="dcterms.date" content="2025-11-01">
+<meta name="keywords" content="Questionnaire, Validity, Reliability, Survey research, Agricultural statistics, Social science">
+<meta name="description" content="Survey research is essential for understanding attitudes, behaviours, and perceptions across diverse populations, providing the foundation for data-driven decisions and empirical analysis. Researchers often face difficulties in assessing the validity and reliability of survey instruments due to complex statistical procedures, limited access to integrated tools, and the need for multiple software platforms. Read more …">
+
+<title>Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians – JOSTA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/cover.jpg" rel="icon" type="image/jpeg">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e25cc82807363e79c52e96bc8b7855f1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-2f249d55bd4fdd1b5a3bf17c44f225e6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-278209a1080c747a323a5f6c0262cc7d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians – JOSTA">
+<meta property="og:description" content="Survey research is essential for understanding attitudes, behaviours, and perceptions across diverse populations, providing the foundation for data-driven decisions and empirical analysis. Researchers often face difficulties in assessing the validity and reliability of survey instruments due to complex statistical procedures, limited access to integrated tools, and the need for multiple software platforms. Read more …">
+<meta property="og:image" content="https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/images/cover.jpg">
+<meta property="og:site_name" content="JOSTA">
+<meta property="og:image:alt" content="JOSTA Volume 1 Cover">
+<meta name="twitter:title" content="Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians – JOSTA">
+<meta name="twitter:description" content="Survey research is essential for understanding attitudes, behaviours, and perceptions across diverse populations, providing the foundation for data-driven decisions and empirical analysis. Researchers often face difficulties in assessing the validity and reliability of survey instruments due to complex statistical procedures, limited access to integrated tools, and the need for multiple software platforms. Read more …">
+<meta name="twitter:image" content="https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/images/papayalogo.png">
+<meta name="twitter:image:alt" content="JOSTA Journal">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../../images/sidebarcover.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Submit Articles</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../submit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submit article</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../authorguide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Article submission</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../peerReview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Peer review policy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../APC.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Article Processing Charges (APCs)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Ethics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publication ethics and malpractice statement</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../published.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Latest Articles</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Volumes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Volume 1</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../volume1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Issues</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../editorial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial Board</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../editorialsection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial Sections</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Report a Problem</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../plagiarism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Plagiarism Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contact Us</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology"><span class="header-section-number">2</span> Methodology</a>
+  <ul class="collapse">
+  <li><a href="#reliability" id="toc-reliability" class="nav-link" data-scroll-target="#reliability"><span class="header-section-number">2.1</span> Reliability</a></li>
+  <li><a href="#validity" id="toc-validity" class="nav-link" data-scroll-target="#validity"><span class="header-section-number">2.2</span> Validity</a></li>
+  <li><a href="#framework-selection" id="toc-framework-selection" class="nav-link" data-scroll-target="#framework-selection"><span class="header-section-number">2.3</span> Framework selection</a></li>
+  <li><a href="#application-architecture" id="toc-application-architecture" class="nav-link" data-scroll-target="#application-architecture"><span class="header-section-number">2.4</span> Application Architecture</a></li>
+  </ul></li>
+  <li><a href="#system-architecture" id="toc-system-architecture" class="nav-link" data-scroll-target="#system-architecture"><span class="header-section-number">3</span> System Architecture</a></li>
+  <li><a href="#user-gratification-test" id="toc-user-gratification-test" class="nav-link" data-scroll-target="#user-gratification-test"><span class="header-section-number">4</span> User Gratification Test</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">5</span> Results</a>
+  <ul class="collapse">
+  <li><a href="#results-of-the-developed-web-application" id="toc-results-of-the-developed-web-application" class="nav-link" data-scroll-target="#results-of-the-developed-web-application"><span class="header-section-number">5.1</span> Results of the Developed Web Application</a></li>
+  <li><a href="#reliability-test" id="toc-reliability-test" class="nav-link" data-scroll-target="#reliability-test"><span class="header-section-number">5.2</span> Reliability Test</a></li>
+  <li><a href="#factor-analysis" id="toc-factor-analysis" class="nav-link" data-scroll-target="#factor-analysis"><span class="header-section-number">5.3</span> Factor Analysis</a></li>
+  <li><a href="#regression-analysis" id="toc-regression-analysis" class="nav-link" data-scroll-target="#regression-analysis"><span class="header-section-number">5.4</span> Regression Analysis</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">6</span> Discussion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">7</span> Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Original-Article</div>
+    <div class="quarto-category">Data-Science</div>
+    <div class="quarto-category">Software</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>Survey research is essential for understanding attitudes, behaviours, and perceptions across diverse populations, providing the foundation for data-driven decisions and empirical analysis. Researchers often face difficulties in assessing the validity and reliability of survey instruments due to complex statistical procedures, limited access to integrated tools, and the need for multiple software platforms. <a href="../../../volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html" style="color: grey; text-decoration: none;">Read more …</a></p>
+  </div>
+</div>
+
+<div class="quarto-title-meta-author column-body">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Varsha H <a href="mailto:hvarsha328@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://kau.in/people/sub-lt-dr-pratheesh-p-gopinath">Pratheesh P Gopinath*</a> <a href="mailto:pratheesh.pg@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta column-body">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 1, 2025</p>
+    </div>
+  </div>
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.65287/josta.202510.68E5">10.65287/josta.202510.68E5</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Survey research is essential for understanding attitudes, behaviours, and perceptions across diverse populations, providing the foundation for data-driven decisions and empirical analysis. Researchers often face difficulties in assessing the validity and reliability of survey instruments due to complex statistical procedures, limited access to integrated tools, and the need for multiple software platforms. To address these challenges, a user-friendly web application was developed to simplify and automate the testing of validity and reliability. The application integrates multiple statistical analyses into a single platform, offering real-time computation and graphical result displays for easy interpretation. This design minimises repetitive analyses, enhances efficiency, and supports users with limited statistical expertise. A user satisfaction survey involving 30 participants revealed that 90% were satisfied with the application’s performance, demonstrating its effectiveness in improving the accuracy, consistency, and overall quality of survey-based research.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Questionnaire, Validity, Reliability, Survey research, Agricultural statistics, Social science</p>
+  </div>
+</div>
+
+</header>
+
+
+<p><a href="https://doi.org/10.65287/josta.202510.68E5"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.68E5-blue?logo=doi" class="img-fluid" alt="DOI"></a><br>
+<a href="https://zenodo.org/records/17501814"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<div style="text-align: left; margin-top: 1rem;">
+<p><span class="j-btn-row"> <a href="pdfs/JOSTA-202510-68E5.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
+<p><a href="#" onclick="copyCitation(); return false;" class="j-copy-link"> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span> </a> </p>
+</div>
+<style>
+.j-btn-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+/* PDF button */
+.j-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8b6a3a;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.j-btn:hover {
+  background-color: #6d532d;
+}
+
+/* Copy link */
+.j-copy-link {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  color: #1f345c;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.j-copy-link:hover {
+  color: #0b5a56;
+  text-decoration: underline;
+}
+
+/* Tooltip */
+.tooltiptext {
+  visibility: hidden;
+  background-color: #0b5a56;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 1;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+.j-copy-link:focus .tooltiptext,
+.j-copy-link:active .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<script>
+function copyCitation() {
+  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). [Article Title]. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article 1729. https://doi.org/10.5281/zenodo.16308321");
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.visibility = 'visible';
+  tooltip.style.opacity = 1;
+  setTimeout(() => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = 0;
+  }, 1500);
+}
+</script>
+<!-- Hidden Citation Text -->
+<p><span id="citation-text" style="display: none;">Varsha, H., &amp; Gopinath, P. P. (2025). Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.68E5</span></p>
+<!-- JavaScript -->
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+<!-- CSS Styling -->
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Survey research is a widely used method for collecting quantitative data on human behaviour, attitudes, and opinions. The accuracy of insights derived from surveys largely depends on the quality of the instruments used, particularly the validity and reliability of questionnaires <span class="citation" data-cites="carmines1979reliability cronbach1951alpha">(<a href="#ref-carmines1979reliability" role="doc-biblioref">Carmines and Zeller 1979</a>; <a href="#ref-cronbach1951alpha" role="doc-biblioref">Cronbach 1951</a>)</span>. Validity ensures that a questionnaire measures the intended construct, while reliability indicates the consistency of measurements over time.</p>
+<p>However, assessing these psychometric properties can be challenging, as traditional methods often involve manual calculations or specialised statistical software that may not be readily accessible to all researchers <span class="citation" data-cites="pallant2020spss">(<a href="#ref-pallant2020spss" role="doc-biblioref">Pallant 2020</a>)</span>. To address this limitation, a user-friendly web application was developed to automate validity and reliability testing, providing real-time feedback through an intuitive interface <span class="citation" data-cites="kline2023sem">(<a href="#ref-kline2023sem" role="doc-biblioref">Kline 2023</a>)</span> This innovation enables researchers to perform comprehensive psychometric evaluations efficiently, regardless of their statistical expertise.</p>
+<p>In applied research contexts such as agriculture, questionnaires are among the most commonly used tools, yet many studies fail to report procedures for assessing validity (31%) and reliability (33%) <span class="citation" data-cites="radhakrishna2007questionnaire">(<a href="#ref-radhakrishna2007questionnaire" role="doc-biblioref">Radhakrishna 2007</a>)</span>. By automating these assessments, the developed web application reduces measurement errors-such as sampling, selection, and frame errors-thereby improving the precision and consistency of data collection <span class="citation" data-cites="singh2017questionnaire">(<a href="#ref-singh2017questionnaire" role="doc-biblioref">Singh 2017</a>)</span>.</p>
+<p>Overall, the web application enhances the methodological rigour of survey research by simplifying complex statistical evaluations, empowering researchers to design reliable and valid instruments, and strengthening the credibility of research outcomes. Its adoption can significantly improve research quality, particularly in developing regions where expertise in psychometric analysis is often limited.</p>
+</section>
+<section id="methodology" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="methodology"><span class="header-section-number">2</span> Methodology</h2>
+<section id="reliability" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="reliability"><span class="header-section-number">2.1</span> Reliability</h3>
+<p>Reliability ensures the consistency and stability of a measurement tool, producing similar results under identical conditions <span class="citation" data-cites="nunnally1994psychometric">(<a href="#ref-nunnally1994psychometric" role="doc-biblioref">Nunnally and Bernstein 1994</a>)</span>. It underpins the credibility of research by confirming that findings reflect true phenomena rather than measurement errors. <a href="#fig-figure1" class="quarto-xref">Figure&nbsp;1</a> categorises reliability into four types: Test-retest, Parallel-form, Interrater, and Internal consistency. Each type includes specific methods such as Pearson Correlation, ICC, Cohen’s Kappa, and Cronbach’s Alpha for assessing consistency. They ensure measurement stability, agreement, and internal accuracy across tests and raters.</p>
+<p>Assessing reliability often requires complex statistical calculations and multiple software tools, making it challenging for researchers without strong statistical expertise. Interpreting results like ICC, Cronbach’s Alpha, or Cohen’s Kappa can also be confusing and time-consuming. To overcome these difficulties, this web application was developed to provide an integrated, user-friendly platform that automates reliability testing and simplifies result interpretation.</p>
+<div id="fig-figure1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/fig1.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Types of reliability and statistical tests used to assess reliability
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="validity" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="validity"><span class="header-section-number">2.2</span> Validity</h3>
+<p>Validity testing ensures that research instruments accurately measure the intended constructs, enhancing the credibility and quality of findings <span class="citation" data-cites="cronbach1955construct">(<a href="#ref-cronbach1955construct" role="doc-biblioref">Cronbach and Meehl 1955</a>)</span>. It minimises measurement errors, strengthens reliability, and supports the generalization of results to broader contexts. Using valid tools ensures ethical responsibility, as accurate data lead to meaningful scientific contributions and sound decision-making in applied fields. Validity testing also refines instruments by confirming that each item measures only its intended construct, thereby advancing reliable and theory-based research.</p>
+<p><a href="#fig-figure2" class="quarto-xref">Figure&nbsp;2</a> classifies validity into Content, Construct, Criterion, and Face Validity. Each type uses specific methods like EFA, CFA, Correlation Analysis, and Expert Review to ensure instruments measure intended constructs accurately. Together, these tests strengthen measurement accuracy, relevance, and scientific credibility.</p>
+<p>Testing validity involves complex statistical methods like EFA, CFA, and correlation analyses, which require advanced statistical knowledge and multiple software tools. Interpreting these results can be time-consuming and confusing for non-experts. To overcome these challenges, this web application was developed to integrate all validity tests into one user-friendly platform, automating analysis and simplifying result interpretation.</p>
+<div id="fig-figure2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/fig2.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Types of validity and statistical tests to assess validity
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="framework-selection" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="framework-selection"><span class="header-section-number">2.3</span> Framework selection</h3>
+<p>The Shiny was the natural choice for building this application-combining the analytical muscle of R with the sleek interactivity of modern web design <span class="citation" data-cites="chang2023shiny">(<a href="#ref-chang2023shiny" role="doc-biblioref">Chang et al. 2023</a>)</span>. For researchers diving deep into survey validity and reliability, Shiny offers a powerful toolkit: real-time responsiveness, seamless integration with R’s rich statistical libraries, and effortless web deployment <span class="citation" data-cites="beeley2018shiny">(<a href="#ref-beeley2018shiny" role="doc-biblioref">Beeley 2018</a>)</span>. But what truly sets it apart is its flexibility. Whether a seasoned data scientist or a curious newcomer, Shiny makes complex analyses accessible and intuitive <span class="citation" data-cites="rstudio2020">(<a href="#ref-rstudio2020" role="doc-biblioref">R Core Team 2020</a>)</span>. By tailoring the interface to the unique needs of survey-based research, the platform doesn’t just crunch numbers-it tells a story, empowers exploration, and invites insight <span class="citation" data-cites="xie2018rmarkdown">(<a href="#ref-xie2018rmarkdown" role="doc-biblioref">Xie, Allaire, and Grolemund 2018</a>)</span>.</p>
+</section>
+<section id="application-architecture" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="application-architecture"><span class="header-section-number">2.4</span> Application Architecture</h3>
+<section id="user-interface-ui" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="user-interface-ui">User interface (UI)</h4>
+<p>The user interface of the Shiny app was meticulously designed to strike a balance between simplicity and functionality, ensuring that users can navigate the application with ease while accessing powerful analytical tools. The UI is structured into several key sections, as shown in <a href="#fig-figure3" class="quarto-xref">Figure&nbsp;3</a>.</p>
+<section id="navigation-sidebar" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="navigation-sidebar">Navigation Sidebar</h5>
+<p>The sidebar serves as the central hub for navigation, providing users with quick access to all the main functions of the app. This includes uploading data files, selecting statistical tests, and accessing help documentation. The sidebar’s organised layout ensures that users can find what they need without unnecessary clutter, enhancing the overall user experience.</p>
+</section>
+<section id="data-upload-mechanism" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="data-upload-mechanism">Data Upload Mechanism</h5>
+<p>A robust data upload mechanism is a crucial feature of the UI. Users are guided to upload their survey data in CSV format, which the app immediately processes. The application is designed to perform an initial check on the uploaded data, identifying any potential issues such as missing values or formatting errors. This immediate feedback loop allows users to correct problems before they begin their analyses, thereby streamlining the workflow <span class="citation" data-cites="rstudio2020">(<a href="#ref-rstudio2020" role="doc-biblioref">R Core Team 2020</a>)</span>.</p>
+</section>
+<section id="test-selection-interface" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="test-selection-interface">Test Selection Interface</h5>
+<p>The app offers a dropdown menu that categorizes the available tests under broader sections such as “Reliability” and “Validity.” Within these categories, users can further select specific tests like Cronbach’s Alpha, Intraclass Correlation Coefficient (ICC), or Factor Analysis. The structured organization of the test selection process ensures that users can easily find and apply the appropriate tests to their data, regardless of their statistical expertise.</p>
+</section>
+<section id="dynamic-result-display" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="dynamic-result-display">Dynamic Result Display</h5>
+<p>The results generated by the selected tests are presented in a dynamic and interactive format within the main panel of the UI. Depending on the nature of the test, results may be displayed as tables, graphs, or textual summaries. The UI also provides options for users to download or export these results in various formats, facilitating further analysis or inclusion in research reports. This feature ensures that the application not only performs the necessary calculations but also presents the findings in a clear and usable format <span class="citation" data-cites="chang2023shiny">(<a href="#ref-chang2023shiny" role="doc-biblioref">Chang et al. 2023</a>)</span>.</p>
+<div id="fig-figure3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/fig3.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: User interface of the developed app
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="server-side-logic" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="server-side-logic">Server-side logic</h4>
+<p>The server component of the Shiny app is where the real power of the application lies. It is responsible for processing the uploaded data and executing the complex statistical analyses required for testing validity and reliability. The server’s architecture follows a systematic workflow:</p>
+<section id="data-preprocessing" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="data-preprocessing">Data Preprocessing</h5>
+<p>Once a user uploads their data, the server immediately reads the CSV file into R and conducts a series of preprocessing steps. These include checking for missing data, validating data types, and ensuring that the dataset meets the prerequisites for the selected tests. Such preprocessing safeguards data quality and reduces the likelihood of analytical errors, If any issues are identified, the server communicates these back to the user through the UI, guiding corrections.</p>
+</section>
+<section id="execution-of-statistical-tests" class="level5" data-number="2.4.0.1">
+<h5 data-number="2.4.0.1" class="anchored" data-anchor-id="execution-of-statistical-tests"><span class="header-section-number">2.4.0.1</span> Execution of Statistical Tests</h5>
+<p>The core functionality of the server revolves around performing statistical tests. For reliability testing, this includes calculations for metrics like Cronbach’s Alpha, ICC, and Cohen’s Kappa <span class="citation" data-cites="cronbach1951alpha shrout1998reliability fleiss1971agreement cohen1992learned">(<a href="#ref-cronbach1951alpha" role="doc-biblioref">Cronbach 1951</a>; <a href="#ref-shrout1998reliability" role="doc-biblioref">Shrout 1998</a>; <a href="#ref-fleiss1971agreement" role="doc-biblioref">Fleiss 1971</a>; <a href="#ref-cohen1992learned" role="doc-biblioref">Cohen 1992</a>)</span>. For validity, the server can compute measures such as the Content Validity Ratio <span class="citation" data-cites="lawshe1975content">(<a href="#ref-lawshe1975content" role="doc-biblioref">Lawshe 1975</a>)</span> and conduct Factor Analysis. The server is optimised for efficiency, ensuring results are produced quickly, even for large datasets.</p>
+</section>
+<section id="reactive-programming" class="level5" data-number="2.4.0.2">
+<h5 data-number="2.4.0.2" class="anchored" data-anchor-id="reactive-programming"><span class="header-section-number">2.4.0.2</span> Reactive Programming</h5>
+<p>One of Shiny’s key strengths is its reactive programming model, which the server leverages fully. This model ensures that any changes made by the user-such as selecting different tests, uploading new datasets, or modifying parameters-trigger immediate updates in the displayed results <span class="citation" data-cites="chang2023shiny">(<a href="#ref-chang2023shiny" role="doc-biblioref">Chang et al. 2023</a>)</span>. This interactivity is essential for fostering an intuitive user experience and enabling researchers to explore different analyses in real time.</p>
+</section>
+</section>
+<section id="data-flow-within-the-application" class="level4" data-number="2.4.1">
+<h4 data-number="2.4.1" class="anchored" data-anchor-id="data-flow-within-the-application"><span class="header-section-number">2.4.1</span> Data flow within the application</h4>
+<p>The data flow within the Shiny app is designed to be seamless and efficient, guiding users through the process from data upload to result interpretation in a logical sequence. <a href="#fig-figure4" class="quarto-xref">Figure&nbsp;4</a> explains the following steps of the data flow within the application.</p>
+<section id="file-upload" class="level5" data-number="2.4.1.1">
+<h5 data-number="2.4.1.1" class="anchored" data-anchor-id="file-upload"><span class="header-section-number">2.4.1.1</span> File Upload</h5>
+<p>Users begin by uploading their survey data in a CSV format. The app’s UI facilitates this process, ensuring that users can easily locate and upload their files.</p>
+</section>
+<section id="data-validation" class="level5" data-number="2.4.1.2">
+<h5 data-number="2.4.1.2" class="anchored" data-anchor-id="data-validation"><span class="header-section-number">2.4.1.2</span> Data Validation</h5>
+<p>Upon upload, the server automatically validates the data, checking for common issues such as missing values, incorrect data types, or formatting errors. This step is crucial for ensuring that the dataset is ready for analysis.</p>
+</section>
+<section id="test-selection" class="level5" data-number="2.4.1.3">
+<h5 data-number="2.4.1.3" class="anchored" data-anchor-id="test-selection"><span class="header-section-number">2.4.1.3</span> Test Selection</h5>
+<p>Once the data is validated, users can select the desired statistical tests from the dropdown menu. The app’s organization of tests under broader categories like “Reliability” and “Validity” makes this process straightforward.</p>
+</section>
+<section id="data-analysis" class="level5" data-number="2.4.1.4">
+<h5 data-number="2.4.1.4" class="anchored" data-anchor-id="data-analysis"><span class="header-section-number">2.4.1.4</span> Data Analysis</h5>
+<p>The server processes the validated data and performs the selected statistical tests. Thanks to R’s powerful statistical packages <span class="citation" data-cites="beeley2018shiny">(<a href="#ref-beeley2018shiny" role="doc-biblioref">Beeley 2018</a>)</span>, the app can handle a wide range of analyses, from simple metrics like Cronbach’s Alpha to more complex procedures like Factor Analysis.</p>
+</section>
+<section id="result-presentation" class="level5" data-number="2.4.1.5">
+<h5 data-number="2.4.1.5" class="anchored" data-anchor-id="result-presentation"><span class="header-section-number">2.4.1.5</span> Result Presentation</h5>
+<p>After the analysis is complete, the results are dynamically displayed in the UI. Users can interact with these results, explore different aspects of the data, and even download the findings for further examination or reporting.</p>
+<p>This well-orchestrated data flow ensures that users can efficiently conduct their analyses, moving smoothly from one step to the next without unnecessary delays or complications.</p>
+<div id="fig-figure4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/fig4.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Data flow within the application
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+</section>
+</section>
+<section id="system-architecture" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="system-architecture"><span class="header-section-number">3</span> System Architecture</h2>
+<p>The architecture of the developed web application follows a client–server model designed for efficient data processing and real-time interaction. The User Interface (UI), built using Shiny’s front-end framework, allows users to upload datasets, select analysis options, and view results. The Server component, implemented in R, handles computation by executing automated reliability and validity analyses, including Cronbach’s alpha and other psychometric tests. Data and results flow dynamically between the UI and server, ensuring quick feedback and seamless operation. The Output module displays the processed results as tables, summary statistics, and downloadable files, enhancing user accessibility and experience. <a href="#fig-figure5" class="quarto-xref">Figure&nbsp;5</a> illustrates the overall system flow from user input to result generation.</p>
+<div id="fig-figure5" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/fig5.webp" class="img-fluid figure-img" style="width:2in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: System architecture of the developed web application
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="user-gratification-test" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="user-gratification-test"><span class="header-section-number">4</span> User Gratification Test</h2>
+<p>To evaluate the developed web application, user gratification was employed as the primary testing construct. User gratification, drawn from psychology and consumer behaviour theories, reflects the satisfaction users experience when interacting with a system <span class="citation" data-cites="ruggiero2000gratifications">(<a href="#ref-ruggiero2000gratifications" role="doc-biblioref">Ruggiero 2000</a>)</span>. It provides a holistic framework that incorporates both functional and hedonic dimensions of user experience.</p>
+<p>For academic research platforms, gratification is shaped by factors such as ease of use <span class="citation" data-cites="davis1989tam">(<a href="#ref-davis1989tam" role="doc-biblioref">Davis 1989</a>)</span>, trust in results <span class="citation" data-cites="gefen2011sem">(<a href="#ref-gefen2011sem" role="doc-biblioref">Gefen, Rigdon, and Straub 2011</a>)</span>, aesthetic appeal <span class="citation" data-cites="blythe2003funology">(<a href="#ref-blythe2003funology" role="doc-biblioref">Blythe and Hassenzahl 2003</a>)</span>, and the extent to which the system meets user requirements. Accordingly, the application was tested across these dimensions to determine its effectiveness in supporting research activities.</p>
+<p>A total of 30 participants were selected using convenience sampling, comprising postgraduate students and researchers in agricultural sciences. User gratification was measured using a 5-point Likert scale (1 = Strongly Disagree to 5 = Strongly Agree). The constructs included Technology (2 items), Hedonic (2 items), Risk (2 items), and Behavioural Intention (1 item).</p>
+<p>The functional aspects of gratification were assessed by examining accuracy, efficiency, and automation in validity and reliability testing. These features reduce manual effort and save time, directly contributing to user satisfaction. The hedonic aspects, including enjoyment, interactivity, and engagement <span class="citation" data-cites="venkatesh2008tam3">(<a href="#ref-venkatesh2008tam3" role="doc-biblioref">Venkatesh and Bala 2008</a>)</span>, were also measured, recognising their role in transforming data analysis into a more engaging process.</p>
+<p>Specific indicators such as convenience, authenticity of results, user engagement, privacy concerns, and behavioural intentions were incorporated into the evaluation. This ensured that both the technical performance and psychological impact of the system were captured. By adopting user gratification as a testing framework, the study provides insights into how well the application fulfils user expectations and promotes its continued use in academic research.</p>
+</section>
+<section id="results" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="results"><span class="header-section-number">5</span> Results</h2>
+<section id="results-of-the-developed-web-application" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="results-of-the-developed-web-application"><span class="header-section-number">5.1</span> Results of the Developed Web Application</h3>
+<p>The developed web application demonstrated effectiveness in automating the assessment of validity and reliability for survey instruments. The platform provided real-time feedback through an intuitive interface, eliminating the need for manual computation or advanced statistical software. Application of the tool reduced measurement errors and ensured more accurate data collection. In agricultural research and related fields, the web application enabled systematic reporting of psychometric properties, addressing the prevalent issue of omitted validity and reliability procedures. Overall, the tool enhanced methodological rigour and improved the credibility of research findings, particularly in contexts with limited statistical expertise and resources. <a href="#fig-figure6" class="quarto-xref">Figure&nbsp;6</a> shows the Result of the Developed Web Application.</p>
+<div id="fig-figure6" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/fig6.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Result of the developed web application
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="reliability-test" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="reliability-test"><span class="header-section-number">5.2</span> Reliability Test</h3>
+<p>The reliability of the user gratification construct was evaluated using Cronbach’s Alpha. <a href="#tbl-reliability" class="quarto-xref">Table&nbsp;1</a> presents the results for the four key dimensions: technology (convenience), hedonic (enjoyment), risk (privacy concern), and behavioural intention.</p>
+<p>All four dimensions demonstrated strong internal consistency. Technology (convenience) showed good reliability (α = 0.80), while hedonic (enjoyment) also indicated good reliability (α = 0.89). Risk (privacy concern) achieved the highest reliability (α = 0.97), reflecting excellent consistency. Behavioral intention was similarly reliable (α = 0.91). The overall scale demonstrated high internal consistency, with Cronbach’s α = 0.91, which is considered acceptable for research instruments.</p>
+<div id="tbl-reliability" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-reliability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Reliability analysis of user gratification dimensions
+</figcaption>
+<div aria-describedby="tbl-reliability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 40%">
+<col style="width: 33%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Sl. No.</strong></th>
+<th><strong>Factors</strong></th>
+<th><strong>Reliability (Cronbach’s Alpha)</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Technology (convenience)</td>
+<td>0.80</td>
+<td>Good</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Technology (authenticity of conversation)</td>
+<td>0.90</td>
+<td>Good</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Hedonic (enjoyment)</td>
+<td>0.89</td>
+<td>Good</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Hedonic (pass time)</td>
+<td>0.90</td>
+<td>Good</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Risk (Privacy concern)</td>
+<td>0.94</td>
+<td>Good</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Risk (immature technology)</td>
+<td>0.92</td>
+<td>Good</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Behaviour intention</td>
+<td>0.91</td>
+<td>Good</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Statistical capabilities</td>
+<td>0.89</td>
+<td>Good</td>
+</tr>
+<tr class="odd">
+<td><strong>Overall Reliability</strong></td>
+<td></td>
+<td><strong>0.91</strong></td>
+<td><strong>Acceptable</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="factor-analysis" class="level3" data-number="5.3">
+<h3 data-number="5.3" class="anchored" data-anchor-id="factor-analysis"><span class="header-section-number">5.3</span> Factor Analysis</h3>
+<p>An exploratory factor analysis (EFA) was conducted to examine the dimensionality of the user gratification construct for the web application. Factor loadings are presented in <a href="#tbl-factor" class="quarto-xref">Table&nbsp;2</a>. Items with loadings above 0.60 were retained as acceptable indicators of their respective factors.</p>
+<p>The results indicate strong item loadings across most constructs, with the majority exceeding the recommended threshold of 0.70, confirming convergent validity. The Technology (Authenticity of Conversation) factor showed particularly high loadings (α &gt; 0.81 to 0.92), reflecting the natural and human-like interaction experience provided by the chatbot. Hedonic (Enjoyment) and Hedonic (Pass Time) dimensions also demonstrated high loadings (ranging from 0.76 to 0.91), highlighting the engaging and enjoyable aspects of the application.</p>
+<p>Risk-related factors were also significant. Privacy Concerns had high loadings (0.85–0.93), showing that users remain cautious about data security. Similarly, Immature Technology loadings (0.84–0.95) suggested some limitations in system accuracy and responsiveness. Behavioral intention showed relatively lower loadings (0.58–0.75), but still indicated a positive tendency toward future use and recommendation of the chatbot.</p>
+<p>These findings confirm that the web application provides gratification both functionally (convenience, authenticity) and hedonically (enjoyment, pass time), while also highlighting areas of concern regarding privacy and system maturity.</p>
+<div id="tbl-factor" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-factor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Factor loadings for user gratification dimensions
+</figcaption>
+<div aria-describedby="tbl-factor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 51%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Factors</strong></th>
+<th style="text-align: center;"><strong>Loading</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Technology (Convenience)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The web application makes accessing validity and reliability tests easier.</td>
+<td style="text-align: center;">0.81</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">The interface of the web application is user-friendly.</td>
+<td style="text-align: center;">0.74</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Technology (Authenticity of Results)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">The web application provides accurate reliability and validity test results.</td>
+<td style="text-align: center;">0.81</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The results from the web application are as reliable as results from other software like SPSS or Mplus.</td>
+<td style="text-align: center;">0.86</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I trust the web application’s accuracy in delivering precise analysis for my survey data.</td>
+<td style="text-align: center;">0.92</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Hedonic (Enjoyment)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I find using the web application for conducting survey research tests enjoyable.</td>
+<td style="text-align: center;">0.81</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Using the web application adds an element of interest to analyzing survey data.</td>
+<td style="text-align: center;">0.92</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">The interactive features of the web application allow me to conduct validity and reliability tests anytime and anywhere using the developed web application.</td>
+<td style="text-align: center;">0.78</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Hedonic (Pass Time)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Utilizing the web application is a productive way to spend time on improving survey research quality.</td>
+<td style="text-align: center;">0.84</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Running tests on the web application helps alleviate the stress of manual calculations.</td>
+<td style="text-align: center;">0.88</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I enjoy exploring the web application to enhance my survey research in my free time.</td>
+<td style="text-align: center;">0.83</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Risk (Privacy Concerns)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I am concerned about the privacy of my survey data when using the web application.</td>
+<td style="text-align: center;">0.91</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">I feel that the web application might collect too much sensitive information.</td>
+<td style="text-align: center;">0.93</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Using the web application makes me concerned about the security of my uploaded data.</td>
+<td style="text-align: center;">0.85</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Risk (Immature Technology)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">The web application sometimes fails to perform all the intended validity and reliability tests.</td>
+<td style="text-align: center;">0.95</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The interface of the web application occasionally crashes or produces vague results.</td>
+<td style="text-align: center;">0.88</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I find that the web application struggles to handle large or complex datasets.</td>
+<td style="text-align: center;">0.84</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Behaviour Intention</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I will recommend others to use this web application for testing the reliability and validity of their survey data.</td>
+<td style="text-align: center;">0.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">I intend to use the web application for all my future survey research tests.</td>
+<td style="text-align: center;">0.69</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I plan to explore more web-based tools and applications like this one for survey data analysis.</td>
+<td style="text-align: center;">0.75</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="regression-analysis" class="level3" data-number="5.4">
+<h3 data-number="5.4" class="anchored" data-anchor-id="regression-analysis"><span class="header-section-number">5.4</span> Regression Analysis</h3>
+<p>A multiple regression analysis was conducted to examine the influence of six predictors: Technology Convenience, Technology Authenticity, Hedonic Enjoyment, Hedonic Pass Time, Risk Privacy, and Risk Immature Technology-on Behavioural Intention.</p>
+<p>The regression model was statistically significant, F(6,24) = 8.07, p &lt; 0.001, indicating that the predictors collectively explained a substantial portion of the variance in Behavioural Intention. The model accounted for 66.9% of the variance (R² = 0.669; Adjusted R² = 0.586). Among the predictors, Technology Authenticity (β = 0.641, p = 0.015) and Hedonic Pass Time (β = 0.421, p = 0.024) had significant positive effects on Behavioural Intention. This suggests that participants who perceived the web application as authentic and those who used it as a meaningful way to pass time were more likely to express stronger behavioural intention to use it. Technology Convenience (β = 0.256, p = 0.082) showed a positive but only marginally significant effect (p &lt; 0.10). Hedonic Enjoyment (β = 0.273, p = 0.412), Risk Privacy (β = 0.031, p = 0.632), and Risk Immature Technology (β = -0.066, p = 0.365) were not significant predictors of Behavioural Intention. <a href="#tbl-regression" class="quarto-xref">Table&nbsp;3</a> shows the results of the Regression analysis.</p>
+<div id="tbl-regression" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-regression-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Regression analysis of the developed web application
+</figcaption>
+<div aria-describedby="tbl-regression-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Variable</strong></th>
+<th><strong>Estimate</strong></th>
+<th><strong>Std. Error</strong></th>
+<th><strong>t value</strong></th>
+<th><strong>P-value</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Intercept</strong></td>
+<td>2.09</td>
+<td>0.88</td>
+<td>2.26</td>
+<td>0.02 *</td>
+</tr>
+<tr class="even">
+<td>Technology Convenience</td>
+<td>0.25</td>
+<td>0.15</td>
+<td>1.71</td>
+<td>0.08</td>
+</tr>
+<tr class="odd">
+<td>Technology Authenticity</td>
+<td>0.64</td>
+<td>0.21</td>
+<td>3.09</td>
+<td>0.01 **</td>
+</tr>
+<tr class="even">
+<td>Hedonic Enjoyment</td>
+<td>0.27</td>
+<td>0.24</td>
+<td>0.73</td>
+<td>0.41</td>
+</tr>
+<tr class="odd">
+<td>Hedonic PassTime</td>
+<td>0.42</td>
+<td>0.18</td>
+<td>2.15</td>
+<td>0.02 *</td>
+</tr>
+<tr class="even">
+<td>Risk Privacy</td>
+<td>0.03</td>
+<td>0.09</td>
+<td>0.25</td>
+<td>0.63</td>
+</tr>
+<tr class="odd">
+<td>Risk ImmatureTech</td>
+<td>-0.06</td>
+<td>0.11</td>
+<td>0.64</td>
+<td>0.36</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="discussion" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
+<p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
+<p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="conclusion" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
+<p>This web application marks a major advancement in survey research by offering a robust, user-friendly platform for evaluating the validity and reliability of questionnaire instruments. It integrates a wide range of statistical tests, supports diverse data types, and simplifies complex analyses for users of all expertise levels. Automating reliability and validity assessments enhances research accuracy and credibility. Future updates will introduce advanced analytics, machine learning, and seamless integration, while maintaining compatibility with the latest versions of R, Shiny, and other dependencies. Continuous performance monitoring and scalability improvements will ensure it remains a vital tool across research disciplines.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Acknowledgments">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Acknowledgments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The authors are grateful to the financial support and encouragement provided by Kerala Agricultural University throughout the conduct of the research work.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Technical Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Technical Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Access the web application for validity and reliability analysis:</strong><br>
+<a href="https://hvarsha328.shinyapps.io/Reliability_Validity_App/"><strong>Reliability &amp; Validity Web Application</strong></a></p>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<!-- References will be rendered here -->
+<div id="ref-beeley2018shiny" class="csl-entry" role="listitem">
+Beeley, Chris. 2018. <em>Web Application Development with r Using Shiny</em>. Packt Publishing Ltd.
+</div>
+<div id="ref-blythe2003funology" class="csl-entry" role="listitem">
+Blythe, Mark, and Marc Hassenzahl. 2003. <span>“The Semantics of Fun: Differentiating Enjoyable Experiences.”</span> In <em>Funology: From Usability to Enjoyment</em>, 100. Dordrecht, Netherlands: Springer.
+</div>
+<div id="ref-carmines1979reliability" class="csl-entry" role="listitem">
+Carmines, Edward G., and Richard A. Zeller. 1979. <em>Reliability and Validity Assessment</em>. Toronto: Sage Publications.
+</div>
+<div id="ref-chang2023shiny" class="csl-entry" role="listitem">
+Chang, Winston, Joe Cheng, J. J. Allaire, Carson Sievert, Barret Schloerke, Yihui Xie, Barbara Borges, et al. 2023. <em>Shiny: Web Application Framework for r</em>.
+</div>
+<div id="ref-cohen1992learned" class="csl-entry" role="listitem">
+Cohen, Jacob. 1992. <span>“Things i Have Learned (so Far).”</span> In <em>Annual Convention of the American Psychological Association</em>, 3:32–45. 1.
+</div>
+<div id="ref-cronbach1951alpha" class="csl-entry" role="listitem">
+Cronbach, Lee J. 1951. <span>“Coefficient Alpha and the Internal Structure of Tests.”</span> <em>Psychometrika</em> 16 (3): 297–334.
+</div>
+<div id="ref-cronbach1955construct" class="csl-entry" role="listitem">
+Cronbach, Lee J., and Paul E. Meehl. 1955. <span>“Construct Validity in Psychological Tests.”</span> <em>Psychological Bulletin</em> 52 (4): 281–302.
+</div>
+<div id="ref-davis1989tam" class="csl-entry" role="listitem">
+Davis, Fred D. 1989. <span>“Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology.”</span> <em>MIS Quarterly</em> 13 (3): 319–40.
+</div>
+<div id="ref-fleiss1971agreement" class="csl-entry" role="listitem">
+Fleiss, Joseph L. 1971. <span>“Measuring Nominal Scale Agreement Among Many Raters.”</span> <em>Psychological Bulletin</em> 76 (5): 378–87.
+</div>
+<div id="ref-gefen2011sem" class="csl-entry" role="listitem">
+Gefen, David, Edward E. Rigdon, and Detmar Straub. 2011. <span>“Editor’s Comments: An Update and Extension to SEM Guidelines for Administrative and Social Science Research.”</span> <em>MIS Quarterly</em>, iii–xiv.
+</div>
+<div id="ref-kline2023sem" class="csl-entry" role="listitem">
+Kline, Rex B. 2023. <em>Principles and Practice of Structural Equation Modeling</em>. New York: Guilford Publications.
+</div>
+<div id="ref-lawshe1975content" class="csl-entry" role="listitem">
+Lawshe, Charles H. 1975. <span>“A Quantitative Approach to Content Validity.”</span> <em>Personnel Psychology</em> 28 (4): 56–69.
+</div>
+<div id="ref-nunnally1994psychometric" class="csl-entry" role="listitem">
+Nunnally, Jum C., and Ira H. Bernstein. 1994. <em>Psychometric Theory</em>. 3rd ed. New York: McGraw-Hill.
+</div>
+<div id="ref-pallant2020spss" class="csl-entry" role="listitem">
+Pallant, Julie. 2020. <em>SPSS Survival Manual: A Step by Step Guide to Data Analysis Using IBM SPSS</em>. London: Routledge.
+</div>
+<div id="ref-rstudio2020" class="csl-entry" role="listitem">
+R Core Team. 2020. <em>RStudio: Integrated Development Environment for r</em>. RStudio, PBC.
+</div>
+<div id="ref-radhakrishna2007questionnaire" class="csl-entry" role="listitem">
+Radhakrishna, Rama B. 2007. <span>“Tips for Developing and Testing Questionnaires.”</span> <em>The Journal of Extension</em> 45 (1): 25.
+</div>
+<div id="ref-ruggiero2000gratifications" class="csl-entry" role="listitem">
+Ruggiero, Thomas E. 2000. <span>“Uses and Gratifications Theory in the 21st Century.”</span> <em>Mass Communication and Society</em> 3 (1): 3–37.
+</div>
+<div id="ref-shrout1998reliability" class="csl-entry" role="listitem">
+Shrout, Patrick E. 1998. <span>“Measurement Reliability and Agreement in Psychiatry.”</span> <em>Statistical Methods in Medical Research</em> 7 (3): 301–17.
+</div>
+<div id="ref-singh2017questionnaire" class="csl-entry" role="listitem">
+Singh, Ajay S. 2017. <span>“Common Procedures for Development, Validity and Reliability of a Questionnaire.”</span> <em>International Journal of Economics, Commerce and Management</em> 5 (5): 790–801.
+</div>
+<div id="ref-venkatesh2008tam3" class="csl-entry" role="listitem">
+Venkatesh, Viswanath, and Hillol Bala. 2008. <span>“Technology Acceptance Model 3 and a Research Agenda on Interventions.”</span> <em>Decision Sciences</em> 39 (2): 273–315.
+</div>
+<div id="ref-xie2018rmarkdown" class="csl-entry" role="listitem">
+Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Definitive Guide</em>. Chapman; Hall/CRC.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>18 October 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>31 October 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>01 November 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<em>Dr.&nbsp;K.Satheesh Kumar</em> <em>Assistant Professor</em> <em>SRM College of Agricultural Sciences</em> <em>SRM Nagar, Kattankulathur, Tamil Nadu</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Dr.&nbsp;Dinesh Kumar P</em> <em>Assistant Professor</em> <em>Alliance University</em> <em>Anekal, Bengaluru, Karnataka</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher.<br>
+This is an Open Access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>,<br>
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+</blockquote>
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.jostapubs\.com\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Published by PAPAYA Academic Press<br>
+<a href="https://www.statoberry.com/papaya"> <img src="../../..\images/papayalogo.png" class="img-fluid" style="width:auto; height:25px; padding-left:10px; padding-right:10px; margin-bottom:5px;"> </a></p>
+</div>   
+    <div class="nav-footer-center">
+<a href="https://www.statoberry.com/papaya"> <img src="../../..\images/Josta.png" class="img-fluid" style="height:90px;"> </a><br>
+
+<div style="margin-top:4px; font-size:0.9em; color:#555;">
+<p>✉️ Contact: <a href="mailto:support@jostapubs.com">support@jostapubs.com</a></p>
+</div>
+</div>
+    <div class="nav-footer-right">
+<p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a><br>
+<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"> <img src="../../..\images/cclogo.png" class="img-fluid" style="width:auto; height:35px; padding-left:10px; padding-right:10px; margin-bottom:5px;"> </a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

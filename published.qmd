@@ -1,11 +1,12 @@
 ---
 title: ""
 listing:
-  id: volume1issue1
+  id: latestpublished
   type: grid
   contents: 
     - "volume1/**/*.qmd"
   sort: "date desc"
+  page-size: 5 
   fields: 
     - title
     - author
@@ -37,16 +38,8 @@ listing:
 
 <!-- Volume info header -->
 
-::: {style="text-align: center; margin-top: 1rem; margin-bottom: 1.5rem;"}
-<h2 style="color:#0056b3; font-family: Georgia, serif; font-weight: 600;">
-
-Volume I • Issue I • 2025
-
-</h2>
-:::
-
 This page lists all peer-reviewed papers published in the journal. Click on a title to read the full article.  
 
-::: {#volume1issue1}
+::: {#latestpublished}
 :::  
 

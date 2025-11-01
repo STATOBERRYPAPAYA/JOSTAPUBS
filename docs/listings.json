@@ -1,18 +1,8 @@
 [
   {
-    "listing": "/volume1issue1.html",
+    "listing": "/volume1.html",
     "items": [
-      "/volume1/issue1/Denny/JOSTA20250617172925171.html",
-      "/volume1/issue1/CROPS/JOSTA20250615173749999.html",
-      "/volume1/issue1/AGRON/JOSTA615202501736.html",
-      "/volume1/issue1/AGECONOMICS/JOSTA11CS1.html",
-      "/volume1/issue1/lovelyB/generationmean.html",
-      "/volume1/issue1/josta111raisins2025.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
+      "/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html",
       "/volume1/issue1/Denny/JOSTA20250617172925171.html",
       "/volume1/issue1/CROPS/JOSTA20250615173749999.html",
       "/volume1/issue1/AGRON/JOSTA615202501736.html",
@@ -24,6 +14,19 @@
   {
     "listing": "/published.html",
     "items": [
+      "/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html",
+      "/volume1/issue1/Denny/JOSTA20250617172925171.html",
+      "/volume1/issue1/CROPS/JOSTA20250615173749999.html",
+      "/volume1/issue1/AGRON/JOSTA615202501736.html",
+      "/volume1/issue1/AGECONOMICS/JOSTA11CS1.html",
+      "/volume1/issue1/lovelyB/generationmean.html",
+      "/volume1/issue1/josta111raisins2025.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html",
       "/volume1/issue1/Denny/JOSTA20250617172925171.html",
       "/volume1/issue1/CROPS/JOSTA20250615173749999.html",
       "/volume1/issue1/AGRON/JOSTA615202501736.html",

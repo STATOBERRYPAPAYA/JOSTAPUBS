@@ -39,9 +39,7 @@ website:
         contents:
           - section: "Volume 1"
             contents:
-              - section: "Issues"
-                contents:
-                  - volume1issue1.qmd
+                  - volume1.qmd
       # - categories.qmd
       - href: editorial.qmd
         text: Editorial Board

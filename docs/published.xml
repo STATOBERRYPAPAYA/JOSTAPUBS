@@ -9,8 +9,818 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Mon, 21 Jul 2025 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Fri, 31 Oct 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians</title>
+  <dc:creator>Varsha H</dc:creator>
+  <dc:creator>Pratheesh P Gopinath*</dc:creator>
+  <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://doi.org/10.65287/josta.202510.68E5"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.68E5-blue?logo=doi" class="img-fluid" alt="DOI"></a><br>
+<a href="https://zenodo.org/records/17501814"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<div style="text-align: left; margin-top: 1rem;">
+<p><span class="j-btn-row"> <a href="pdfs/JOSTA-202510-68E5.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
+<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
+</div>
+<style>
+.j-btn-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+/* PDF button */
+.j-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8b6a3a;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.j-btn:hover {
+  background-color: #6d532d;
+}
+
+/* Copy link */
+.j-copy-link {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  color: #1f345c;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.j-copy-link:hover {
+  color: #0b5a56;
+  text-decoration: underline;
+}
+
+/* Tooltip */
+.tooltiptext {
+  visibility: hidden;
+  background-color: #0b5a56;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  z-index: 1;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.8rem;
+}
+.j-copy-link:focus .tooltiptext,
+.j-copy-link:active .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<script>
+function copyCitation() {
+  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). [Article Title]. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article 1729. https://doi.org/10.5281/zenodo.16308321");
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.visibility = 'visible';
+  tooltip.style.opacity = 1;
+  setTimeout(() => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = 0;
+  }, 1500);
+}
+</script>
+<!-- Hidden Citation Text -->
+<p><span id="citation-text" style="display: none;">Varsha, H., &amp; Gopinath, P. P. (2025). Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.68E5</span></p>
+<!-- JavaScript -->
+<script>
+  function copyCitation() {
+    const citation = document.getElementById("citation-text").innerText;
+    navigator.clipboard.writeText(citation);
+    
+    const tooltip = document.getElementById("tooltip");
+    tooltip.style.visibility = "visible";
+    tooltip.style.opacity = "1";
+    
+    setTimeout(() => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    }, 2000);
+  }
+</script>
+<!-- CSS Styling -->
+<style>
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #28a745;
+  color: white;
+}
+.download-btn i {
+  margin-right: 6px;
+}
+
+.copy-btn {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.copy-btn #tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+</style>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Survey research is a widely used method for collecting quantitative data on human behaviour, attitudes, and opinions. The accuracy of insights derived from surveys largely depends on the quality of the instruments used, particularly the validity and reliability of questionnaires <span class="citation" data-cites="carmines1979reliability cronbach1951alpha">(Carmines and Zeller 1979; Cronbach 1951)</span>. Validity ensures that a questionnaire measures the intended construct, while reliability indicates the consistency of measurements over time.</p>
+<p>However, assessing these psychometric properties can be challenging, as traditional methods often involve manual calculations or specialised statistical software that may not be readily accessible to all researchers <span class="citation" data-cites="pallant2020spss">(Pallant 2020)</span>. To address this limitation, a user-friendly web application was developed to automate validity and reliability testing, providing real-time feedback through an intuitive interface <span class="citation" data-cites="kline2023sem">(Kline 2023)</span> This innovation enables researchers to perform comprehensive psychometric evaluations efficiently, regardless of their statistical expertise.</p>
+<p>In applied research contexts such as agriculture, questionnaires are among the most commonly used tools, yet many studies fail to report procedures for assessing validity (31%) and reliability (33%) <span class="citation" data-cites="radhakrishna2007questionnaire">(Radhakrishna 2007)</span>. By automating these assessments, the developed web application reduces measurement errors-such as sampling, selection, and frame errors-thereby improving the precision and consistency of data collection <span class="citation" data-cites="singh2017questionnaire">(Singh 2017)</span>.</p>
+<p>Overall, the web application enhances the methodological rigour of survey research by simplifying complex statistical evaluations, empowering researchers to design reliable and valid instruments, and strengthening the credibility of research outcomes. Its adoption can significantly improve research quality, particularly in developing regions where expertise in psychometric analysis is often limited.</p>
+</section>
+<section id="methodology" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="methodology"><span class="header-section-number">2</span> Methodology</h2>
+<section id="reliability" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="reliability"><span class="header-section-number">2.1</span> Reliability</h3>
+<p>Reliability ensures the consistency and stability of a measurement tool, producing similar results under identical conditions <span class="citation" data-cites="nunnally1994psychometric">(Nunnally and Bernstein 1994)</span>. It underpins the credibility of research by confirming that findings reflect true phenomena rather than measurement errors. Figure&nbsp;1 categorises reliability into four types: Test-retest, Parallel-form, Interrater, and Internal consistency. Each type includes specific methods such as Pearson Correlation, ICC, Cohen’s Kappa, and Cronbach’s Alpha for assessing consistency. They ensure measurement stability, agreement, and internal accuracy across tests and raters.</p>
+<p>Assessing reliability often requires complex statistical calculations and multiple software tools, making it challenging for researchers without strong statistical expertise. Interpreting results like ICC, Cronbach’s Alpha, or Cohen’s Kappa can also be confusing and time-consuming. To overcome these difficulties, this web application was developed to provide an integrated, user-friendly platform that automates reliability testing and simplifies result interpretation.</p>
+<div id="fig-figure1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/figures/fig1.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Types of reliability and statistical tests used to assess reliability
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="validity" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="validity"><span class="header-section-number">2.2</span> Validity</h3>
+<p>Validity testing ensures that research instruments accurately measure the intended constructs, enhancing the credibility and quality of findings <span class="citation" data-cites="cronbach1955construct">(Cronbach and Meehl 1955)</span>. It minimises measurement errors, strengthens reliability, and supports the generalization of results to broader contexts. Using valid tools ensures ethical responsibility, as accurate data lead to meaningful scientific contributions and sound decision-making in applied fields. Validity testing also refines instruments by confirming that each item measures only its intended construct, thereby advancing reliable and theory-based research.</p>
+<p>Figure&nbsp;2 classifies validity into Content, Construct, Criterion, and Face Validity. Each type uses specific methods like EFA, CFA, Correlation Analysis, and Expert Review to ensure instruments measure intended constructs accurately. Together, these tests strengthen measurement accuracy, relevance, and scientific credibility.</p>
+<p>Testing validity involves complex statistical methods like EFA, CFA, and correlation analyses, which require advanced statistical knowledge and multiple software tools. Interpreting these results can be time-consuming and confusing for non-experts. To overcome these challenges, this web application was developed to integrate all validity tests into one user-friendly platform, automating analysis and simplifying result interpretation.</p>
+<div id="fig-figure2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/figures/fig2.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Types of validity and statistical tests to assess validity
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="framework-selection" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="framework-selection"><span class="header-section-number">2.3</span> Framework selection</h3>
+<p>The Shiny was the natural choice for building this application-combining the analytical muscle of R with the sleek interactivity of modern web design <span class="citation" data-cites="chang2023shiny">(Chang et al. 2023)</span>. For researchers diving deep into survey validity and reliability, Shiny offers a powerful toolkit: real-time responsiveness, seamless integration with R’s rich statistical libraries, and effortless web deployment <span class="citation" data-cites="beeley2018shiny">(Beeley 2018)</span>. But what truly sets it apart is its flexibility. Whether a seasoned data scientist or a curious newcomer, Shiny makes complex analyses accessible and intuitive <span class="citation" data-cites="rstudio2020">(R Core Team 2020)</span>. By tailoring the interface to the unique needs of survey-based research, the platform doesn’t just crunch numbers-it tells a story, empowers exploration, and invites insight <span class="citation" data-cites="xie2018rmarkdown">(Xie, Allaire, and Grolemund 2018)</span>.</p>
+</section>
+<section id="application-architecture" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="application-architecture"><span class="header-section-number">2.4</span> Application Architecture</h3>
+<section id="user-interface-ui" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="user-interface-ui">User interface (UI)</h4>
+<p>The user interface of the Shiny app was meticulously designed to strike a balance between simplicity and functionality, ensuring that users can navigate the application with ease while accessing powerful analytical tools. The UI is structured into several key sections, as shown in Figure&nbsp;3.</p>
+<section id="navigation-sidebar" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="navigation-sidebar">Navigation Sidebar</h5>
+<p>The sidebar serves as the central hub for navigation, providing users with quick access to all the main functions of the app. This includes uploading data files, selecting statistical tests, and accessing help documentation. The sidebar’s organised layout ensures that users can find what they need without unnecessary clutter, enhancing the overall user experience.</p>
+</section>
+<section id="data-upload-mechanism" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="data-upload-mechanism">Data Upload Mechanism</h5>
+<p>A robust data upload mechanism is a crucial feature of the UI. Users are guided to upload their survey data in CSV format, which the app immediately processes. The application is designed to perform an initial check on the uploaded data, identifying any potential issues such as missing values or formatting errors. This immediate feedback loop allows users to correct problems before they begin their analyses, thereby streamlining the workflow <span class="citation" data-cites="rstudio2020">(R Core Team 2020)</span>.</p>
+</section>
+<section id="test-selection-interface" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="test-selection-interface">Test Selection Interface</h5>
+<p>The app offers a dropdown menu that categorizes the available tests under broader sections such as “Reliability” and “Validity.” Within these categories, users can further select specific tests like Cronbach’s Alpha, Intraclass Correlation Coefficient (ICC), or Factor Analysis. The structured organization of the test selection process ensures that users can easily find and apply the appropriate tests to their data, regardless of their statistical expertise.</p>
+</section>
+<section id="dynamic-result-display" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="dynamic-result-display">Dynamic Result Display</h5>
+<p>The results generated by the selected tests are presented in a dynamic and interactive format within the main panel of the UI. Depending on the nature of the test, results may be displayed as tables, graphs, or textual summaries. The UI also provides options for users to download or export these results in various formats, facilitating further analysis or inclusion in research reports. This feature ensures that the application not only performs the necessary calculations but also presents the findings in a clear and usable format <span class="citation" data-cites="chang2023shiny">(Chang et al. 2023)</span>.</p>
+<div id="fig-figure3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/figures/fig3.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: User interface of the developed app
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="server-side-logic" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="server-side-logic">Server-side logic</h4>
+<p>The server component of the Shiny app is where the real power of the application lies. It is responsible for processing the uploaded data and executing the complex statistical analyses required for testing validity and reliability. The server’s architecture follows a systematic workflow:</p>
+<section id="data-preprocessing" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="data-preprocessing">Data Preprocessing</h5>
+<p>Once a user uploads their data, the server immediately reads the CSV file into R and conducts a series of preprocessing steps. These include checking for missing data, validating data types, and ensuring that the dataset meets the prerequisites for the selected tests. Such preprocessing safeguards data quality and reduces the likelihood of analytical errors, If any issues are identified, the server communicates these back to the user through the UI, guiding corrections.</p>
+</section>
+<section id="execution-of-statistical-tests" class="level5" data-number="2.4.0.1">
+<h5 data-number="2.4.0.1" class="anchored" data-anchor-id="execution-of-statistical-tests"><span class="header-section-number">2.4.0.1</span> Execution of Statistical Tests</h5>
+<p>The core functionality of the server revolves around performing statistical tests. For reliability testing, this includes calculations for metrics like Cronbach’s Alpha, ICC, and Cohen’s Kappa <span class="citation" data-cites="cronbach1951alpha shrout1998reliability fleiss1971agreement cohen1992learned">(Cronbach 1951; Shrout 1998; Fleiss 1971; Cohen 1992)</span>. For validity, the server can compute measures such as the Content Validity Ratio <span class="citation" data-cites="lawshe1975content">(Lawshe 1975)</span> and conduct Factor Analysis. The server is optimised for efficiency, ensuring results are produced quickly, even for large datasets.</p>
+</section>
+<section id="reactive-programming" class="level5" data-number="2.4.0.2">
+<h5 data-number="2.4.0.2" class="anchored" data-anchor-id="reactive-programming"><span class="header-section-number">2.4.0.2</span> Reactive Programming</h5>
+<p>One of Shiny’s key strengths is its reactive programming model, which the server leverages fully. This model ensures that any changes made by the user-such as selecting different tests, uploading new datasets, or modifying parameters-trigger immediate updates in the displayed results <span class="citation" data-cites="chang2023shiny">(Chang et al. 2023)</span>. This interactivity is essential for fostering an intuitive user experience and enabling researchers to explore different analyses in real time.</p>
+</section>
+</section>
+<section id="data-flow-within-the-application" class="level4" data-number="2.4.1">
+<h4 data-number="2.4.1" class="anchored" data-anchor-id="data-flow-within-the-application"><span class="header-section-number">2.4.1</span> Data flow within the application</h4>
+<p>The data flow within the Shiny app is designed to be seamless and efficient, guiding users through the process from data upload to result interpretation in a logical sequence. Figure&nbsp;4 explains the following steps of the data flow within the application.</p>
+<section id="file-upload" class="level5" data-number="2.4.1.1">
+<h5 data-number="2.4.1.1" class="anchored" data-anchor-id="file-upload"><span class="header-section-number">2.4.1.1</span> File Upload</h5>
+<p>Users begin by uploading their survey data in a CSV format. The app’s UI facilitates this process, ensuring that users can easily locate and upload their files.</p>
+</section>
+<section id="data-validation" class="level5" data-number="2.4.1.2">
+<h5 data-number="2.4.1.2" class="anchored" data-anchor-id="data-validation"><span class="header-section-number">2.4.1.2</span> Data Validation</h5>
+<p>Upon upload, the server automatically validates the data, checking for common issues such as missing values, incorrect data types, or formatting errors. This step is crucial for ensuring that the dataset is ready for analysis.</p>
+</section>
+<section id="test-selection" class="level5" data-number="2.4.1.3">
+<h5 data-number="2.4.1.3" class="anchored" data-anchor-id="test-selection"><span class="header-section-number">2.4.1.3</span> Test Selection</h5>
+<p>Once the data is validated, users can select the desired statistical tests from the dropdown menu. The app’s organization of tests under broader categories like “Reliability” and “Validity” makes this process straightforward.</p>
+</section>
+<section id="data-analysis" class="level5" data-number="2.4.1.4">
+<h5 data-number="2.4.1.4" class="anchored" data-anchor-id="data-analysis"><span class="header-section-number">2.4.1.4</span> Data Analysis</h5>
+<p>The server processes the validated data and performs the selected statistical tests. Thanks to R’s powerful statistical packages <span class="citation" data-cites="beeley2018shiny">(Beeley 2018)</span>, the app can handle a wide range of analyses, from simple metrics like Cronbach’s Alpha to more complex procedures like Factor Analysis.</p>
+</section>
+<section id="result-presentation" class="level5" data-number="2.4.1.5">
+<h5 data-number="2.4.1.5" class="anchored" data-anchor-id="result-presentation"><span class="header-section-number">2.4.1.5</span> Result Presentation</h5>
+<p>After the analysis is complete, the results are dynamically displayed in the UI. Users can interact with these results, explore different aspects of the data, and even download the findings for further examination or reporting.</p>
+<p>This well-orchestrated data flow ensures that users can efficiently conduct their analyses, moving smoothly from one step to the next without unnecessary delays or complications.</p>
+<div id="fig-figure4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/figures/fig4.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Data flow within the application
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+</section>
+</section>
+<section id="system-architecture" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="system-architecture"><span class="header-section-number">3</span> System Architecture</h2>
+<p>The architecture of the developed web application follows a client–server model designed for efficient data processing and real-time interaction. The User Interface (UI), built using Shiny’s front-end framework, allows users to upload datasets, select analysis options, and view results. The Server component, implemented in R, handles computation by executing automated reliability and validity analyses, including Cronbach’s alpha and other psychometric tests. Data and results flow dynamically between the UI and server, ensuring quick feedback and seamless operation. The Output module displays the processed results as tables, summary statistics, and downloadable files, enhancing user accessibility and experience. Figure&nbsp;5 illustrates the overall system flow from user input to result generation.</p>
+<div id="fig-figure5" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/figures/fig5.webp" class="img-fluid figure-img" style="width:2in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: System architecture of the developed web application
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="user-gratification-test" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="user-gratification-test"><span class="header-section-number">4</span> User Gratification Test</h2>
+<p>To evaluate the developed web application, user gratification was employed as the primary testing construct. User gratification, drawn from psychology and consumer behaviour theories, reflects the satisfaction users experience when interacting with a system <span class="citation" data-cites="ruggiero2000gratifications">(Ruggiero 2000)</span>. It provides a holistic framework that incorporates both functional and hedonic dimensions of user experience.</p>
+<p>For academic research platforms, gratification is shaped by factors such as ease of use <span class="citation" data-cites="davis1989tam">(Davis 1989)</span>, trust in results <span class="citation" data-cites="gefen2011sem">(Gefen, Rigdon, and Straub 2011)</span>, aesthetic appeal <span class="citation" data-cites="blythe2003funology">(Blythe and Hassenzahl 2003)</span>, and the extent to which the system meets user requirements. Accordingly, the application was tested across these dimensions to determine its effectiveness in supporting research activities.</p>
+<p>A total of 30 participants were selected using convenience sampling, comprising postgraduate students and researchers in agricultural sciences. User gratification was measured using a 5-point Likert scale (1 = Strongly Disagree to 5 = Strongly Agree). The constructs included Technology (2 items), Hedonic (2 items), Risk (2 items), and Behavioural Intention (1 item).</p>
+<p>The functional aspects of gratification were assessed by examining accuracy, efficiency, and automation in validity and reliability testing. These features reduce manual effort and save time, directly contributing to user satisfaction. The hedonic aspects, including enjoyment, interactivity, and engagement <span class="citation" data-cites="venkatesh2008tam3">(Venkatesh and Bala 2008)</span>, were also measured, recognising their role in transforming data analysis into a more engaging process.</p>
+<p>Specific indicators such as convenience, authenticity of results, user engagement, privacy concerns, and behavioural intentions were incorporated into the evaluation. This ensured that both the technical performance and psychological impact of the system were captured. By adopting user gratification as a testing framework, the study provides insights into how well the application fulfils user expectations and promotes its continued use in academic research.</p>
+</section>
+<section id="results" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="results"><span class="header-section-number">5</span> Results</h2>
+<section id="results-of-the-developed-web-application" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="results-of-the-developed-web-application"><span class="header-section-number">5.1</span> Results of the Developed Web Application</h3>
+<p>The developed web application demonstrated effectiveness in automating the assessment of validity and reliability for survey instruments. The platform provided real-time feedback through an intuitive interface, eliminating the need for manual computation or advanced statistical software. Application of the tool reduced measurement errors and ensured more accurate data collection. In agricultural research and related fields, the web application enabled systematic reporting of psychometric properties, addressing the prevalent issue of omitted validity and reliability procedures. Overall, the tool enhanced methodological rigour and improved the credibility of research findings, particularly in contexts with limited statistical expertise and resources. Figure&nbsp;6 shows the Result of the Developed Web Application.</p>
+<div id="fig-figure6" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/figures/fig6.webp" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Result of the developed web application
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="reliability-test" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="reliability-test"><span class="header-section-number">5.2</span> Reliability Test</h3>
+<p>The reliability of the user gratification construct was evaluated using Cronbach’s Alpha. Table&nbsp;1 presents the results for the four key dimensions: technology (convenience), hedonic (enjoyment), risk (privacy concern), and behavioural intention.</p>
+<p>All four dimensions demonstrated strong internal consistency. Technology (convenience) showed good reliability (α = 0.80), while hedonic (enjoyment) also indicated good reliability (α = 0.89). Risk (privacy concern) achieved the highest reliability (α = 0.97), reflecting excellent consistency. Behavioral intention was similarly reliable (α = 0.91). The overall scale demonstrated high internal consistency, with Cronbach’s α = 0.91, which is considered acceptable for research instruments.</p>
+<div id="tbl-reliability" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-reliability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Reliability analysis of user gratification dimensions
+</figcaption>
+<div aria-describedby="tbl-reliability-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 40%">
+<col style="width: 33%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Sl. No.</strong></th>
+<th><strong>Factors</strong></th>
+<th><strong>Reliability (Cronbach’s Alpha)</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Technology (convenience)</td>
+<td>0.80</td>
+<td>Good</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Technology (authenticity of conversation)</td>
+<td>0.90</td>
+<td>Good</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Hedonic (enjoyment)</td>
+<td>0.89</td>
+<td>Good</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Hedonic (pass time)</td>
+<td>0.90</td>
+<td>Good</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Risk (Privacy concern)</td>
+<td>0.94</td>
+<td>Good</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Risk (immature technology)</td>
+<td>0.92</td>
+<td>Good</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Behaviour intention</td>
+<td>0.91</td>
+<td>Good</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Statistical capabilities</td>
+<td>0.89</td>
+<td>Good</td>
+</tr>
+<tr class="odd">
+<td><strong>Overall Reliability</strong></td>
+<td></td>
+<td><strong>0.91</strong></td>
+<td><strong>Acceptable</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="factor-analysis" class="level3" data-number="5.3">
+<h3 data-number="5.3" class="anchored" data-anchor-id="factor-analysis"><span class="header-section-number">5.3</span> Factor Analysis</h3>
+<p>An exploratory factor analysis (EFA) was conducted to examine the dimensionality of the user gratification construct for the web application. Factor loadings are presented in Table&nbsp;2. Items with loadings above 0.60 were retained as acceptable indicators of their respective factors.</p>
+<p>The results indicate strong item loadings across most constructs, with the majority exceeding the recommended threshold of 0.70, confirming convergent validity. The Technology (Authenticity of Conversation) factor showed particularly high loadings (α &gt; 0.81 to 0.92), reflecting the natural and human-like interaction experience provided by the chatbot. Hedonic (Enjoyment) and Hedonic (Pass Time) dimensions also demonstrated high loadings (ranging from 0.76 to 0.91), highlighting the engaging and enjoyable aspects of the application.</p>
+<p>Risk-related factors were also significant. Privacy Concerns had high loadings (0.85–0.93), showing that users remain cautious about data security. Similarly, Immature Technology loadings (0.84–0.95) suggested some limitations in system accuracy and responsiveness. Behavioral intention showed relatively lower loadings (0.58–0.75), but still indicated a positive tendency toward future use and recommendation of the chatbot.</p>
+<p>These findings confirm that the web application provides gratification both functionally (convenience, authenticity) and hedonically (enjoyment, pass time), while also highlighting areas of concern regarding privacy and system maturity.</p>
+<div id="tbl-factor" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-factor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Factor loadings for user gratification dimensions
+</figcaption>
+<div aria-describedby="tbl-factor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 51%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Factors</strong></th>
+<th style="text-align: center;"><strong>Loading</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Technology (Convenience)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The web application makes accessing validity and reliability tests easier.</td>
+<td style="text-align: center;">0.81</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">The interface of the web application is user-friendly.</td>
+<td style="text-align: center;">0.74</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Technology (Authenticity of Results)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">The web application provides accurate reliability and validity test results.</td>
+<td style="text-align: center;">0.81</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The results from the web application are as reliable as results from other software like SPSS or Mplus.</td>
+<td style="text-align: center;">0.86</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I trust the web application’s accuracy in delivering precise analysis for my survey data.</td>
+<td style="text-align: center;">0.92</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Hedonic (Enjoyment)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I find using the web application for conducting survey research tests enjoyable.</td>
+<td style="text-align: center;">0.81</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Using the web application adds an element of interest to analyzing survey data.</td>
+<td style="text-align: center;">0.92</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">The interactive features of the web application allow me to conduct validity and reliability tests anytime and anywhere using the developed web application.</td>
+<td style="text-align: center;">0.78</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Hedonic (Pass Time)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Utilizing the web application is a productive way to spend time on improving survey research quality.</td>
+<td style="text-align: center;">0.84</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Running tests on the web application helps alleviate the stress of manual calculations.</td>
+<td style="text-align: center;">0.88</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I enjoy exploring the web application to enhance my survey research in my free time.</td>
+<td style="text-align: center;">0.83</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Risk (Privacy Concerns)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I am concerned about the privacy of my survey data when using the web application.</td>
+<td style="text-align: center;">0.91</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">I feel that the web application might collect too much sensitive information.</td>
+<td style="text-align: center;">0.93</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Using the web application makes me concerned about the security of my uploaded data.</td>
+<td style="text-align: center;">0.85</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Risk (Immature Technology)</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">The web application sometimes fails to perform all the intended validity and reliability tests.</td>
+<td style="text-align: center;">0.95</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The interface of the web application occasionally crashes or produces vague results.</td>
+<td style="text-align: center;">0.88</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I find that the web application struggles to handle large or complex datasets.</td>
+<td style="text-align: center;">0.84</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Behaviour Intention</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I will recommend others to use this web application for testing the reliability and validity of their survey data.</td>
+<td style="text-align: center;">0.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">I intend to use the web application for all my future survey research tests.</td>
+<td style="text-align: center;">0.69</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I plan to explore more web-based tools and applications like this one for survey data analysis.</td>
+<td style="text-align: center;">0.75</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="regression-analysis" class="level3" data-number="5.4">
+<h3 data-number="5.4" class="anchored" data-anchor-id="regression-analysis"><span class="header-section-number">5.4</span> Regression Analysis</h3>
+<p>A multiple regression analysis was conducted to examine the influence of six predictors: Technology Convenience, Technology Authenticity, Hedonic Enjoyment, Hedonic Pass Time, Risk Privacy, and Risk Immature Technology-on Behavioural Intention.</p>
+<p>The regression model was statistically significant, F(6,24) = 8.07, p &lt; 0.001, indicating that the predictors collectively explained a substantial portion of the variance in Behavioural Intention. The model accounted for 66.9% of the variance (R² = 0.669; Adjusted R² = 0.586). Among the predictors, Technology Authenticity (β = 0.641, p = 0.015) and Hedonic Pass Time (β = 0.421, p = 0.024) had significant positive effects on Behavioural Intention. This suggests that participants who perceived the web application as authentic and those who used it as a meaningful way to pass time were more likely to express stronger behavioural intention to use it. Technology Convenience (β = 0.256, p = 0.082) showed a positive but only marginally significant effect (p &lt; 0.10). Hedonic Enjoyment (β = 0.273, p = 0.412), Risk Privacy (β = 0.031, p = 0.632), and Risk Immature Technology (β = -0.066, p = 0.365) were not significant predictors of Behavioural Intention. Table&nbsp;3 shows the results of the Regression analysis.</p>
+<div id="tbl-regression" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-regression-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Regression analysis of the developed web application
+</figcaption>
+<div aria-describedby="tbl-regression-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Variable</strong></th>
+<th><strong>Estimate</strong></th>
+<th><strong>Std. Error</strong></th>
+<th><strong>t value</strong></th>
+<th><strong>P-value</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Intercept</strong></td>
+<td>2.09</td>
+<td>0.88</td>
+<td>2.26</td>
+<td>0.02 *</td>
+</tr>
+<tr class="even">
+<td>Technology Convenience</td>
+<td>0.25</td>
+<td>0.15</td>
+<td>1.71</td>
+<td>0.08</td>
+</tr>
+<tr class="odd">
+<td>Technology Authenticity</td>
+<td>0.64</td>
+<td>0.21</td>
+<td>3.09</td>
+<td>0.01 **</td>
+</tr>
+<tr class="even">
+<td>Hedonic Enjoyment</td>
+<td>0.27</td>
+<td>0.24</td>
+<td>0.73</td>
+<td>0.41</td>
+</tr>
+<tr class="odd">
+<td>Hedonic PassTime</td>
+<td>0.42</td>
+<td>0.18</td>
+<td>2.15</td>
+<td>0.02 *</td>
+</tr>
+<tr class="even">
+<td>Risk Privacy</td>
+<td>0.03</td>
+<td>0.09</td>
+<td>0.25</td>
+<td>0.63</td>
+</tr>
+<tr class="odd">
+<td>Risk ImmatureTech</td>
+<td>-0.06</td>
+<td>0.11</td>
+<td>0.64</td>
+<td>0.36</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="discussion" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
+<p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
+<p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="conclusion" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
+<p>This web application marks a major advancement in survey research by offering a robust, user-friendly platform for evaluating the validity and reliability of questionnaire instruments. It integrates a wide range of statistical tests, supports diverse data types, and simplifies complex analyses for users of all expertise levels. Automating reliability and validity assessments enhances research accuracy and credibility. Future updates will introduce advanced analytics, machine learning, and seamless integration, while maintaining compatibility with the latest versions of R, Shiny, and other dependencies. Continuous performance monitoring and scalability improvements will ensure it remains a vital tool across research disciplines.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Acknowledgments">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Acknowledgments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The authors are grateful to the financial support and encouragement provided by Kerala Agricultural University throughout the conduct of the research work.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Technical Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Technical Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Access the web application for validity and reliability analysis:</strong><br>
+<a href="https://hvarsha328.shinyapps.io/Reliability_Validity_App/"><strong>Reliability &amp; Validity Web Application</strong></a></p>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-beeley2018shiny" class="csl-entry">
+Beeley, Chris. 2018. <em>Web Application Development with r Using Shiny</em>. Packt Publishing Ltd.
+</div>
+<div id="ref-blythe2003funology" class="csl-entry">
+Blythe, Mark, and Marc Hassenzahl. 2003. <span>“The Semantics of Fun: Differentiating Enjoyable Experiences.”</span> In <em>Funology: From Usability to Enjoyment</em>, 100. Dordrecht, Netherlands: Springer.
+</div>
+<div id="ref-carmines1979reliability" class="csl-entry">
+Carmines, Edward G., and Richard A. Zeller. 1979. <em>Reliability and Validity Assessment</em>. Toronto: Sage Publications.
+</div>
+<div id="ref-chang2023shiny" class="csl-entry">
+Chang, Winston, Joe Cheng, J. J. Allaire, Carson Sievert, Barret Schloerke, Yihui Xie, Barbara Borges, et al. 2023. <em>Shiny: Web Application Framework for r</em>.
+</div>
+<div id="ref-cohen1992learned" class="csl-entry">
+Cohen, Jacob. 1992. <span>“Things i Have Learned (so Far).”</span> In <em>Annual Convention of the American Psychological Association</em>, 3:32–45. 1.
+</div>
+<div id="ref-cronbach1951alpha" class="csl-entry">
+Cronbach, Lee J. 1951. <span>“Coefficient Alpha and the Internal Structure of Tests.”</span> <em>Psychometrika</em> 16 (3): 297–334.
+</div>
+<div id="ref-cronbach1955construct" class="csl-entry">
+Cronbach, Lee J., and Paul E. Meehl. 1955. <span>“Construct Validity in Psychological Tests.”</span> <em>Psychological Bulletin</em> 52 (4): 281–302.
+</div>
+<div id="ref-davis1989tam" class="csl-entry">
+Davis, Fred D. 1989. <span>“Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology.”</span> <em>MIS Quarterly</em> 13 (3): 319–40.
+</div>
+<div id="ref-fleiss1971agreement" class="csl-entry">
+Fleiss, Joseph L. 1971. <span>“Measuring Nominal Scale Agreement Among Many Raters.”</span> <em>Psychological Bulletin</em> 76 (5): 378–87.
+</div>
+<div id="ref-gefen2011sem" class="csl-entry">
+Gefen, David, Edward E. Rigdon, and Detmar Straub. 2011. <span>“Editor’s Comments: An Update and Extension to SEM Guidelines for Administrative and Social Science Research.”</span> <em>MIS Quarterly</em>, iii–xiv.
+</div>
+<div id="ref-kline2023sem" class="csl-entry">
+Kline, Rex B. 2023. <em>Principles and Practice of Structural Equation Modeling</em>. New York: Guilford Publications.
+</div>
+<div id="ref-lawshe1975content" class="csl-entry">
+Lawshe, Charles H. 1975. <span>“A Quantitative Approach to Content Validity.”</span> <em>Personnel Psychology</em> 28 (4): 56–69.
+</div>
+<div id="ref-nunnally1994psychometric" class="csl-entry">
+Nunnally, Jum C., and Ira H. Bernstein. 1994. <em>Psychometric Theory</em>. 3rd ed. New York: McGraw-Hill.
+</div>
+<div id="ref-pallant2020spss" class="csl-entry">
+Pallant, Julie. 2020. <em>SPSS Survival Manual: A Step by Step Guide to Data Analysis Using IBM SPSS</em>. London: Routledge.
+</div>
+<div id="ref-rstudio2020" class="csl-entry">
+R Core Team. 2020. <em>RStudio: Integrated Development Environment for r</em>. RStudio, PBC.
+</div>
+<div id="ref-radhakrishna2007questionnaire" class="csl-entry">
+Radhakrishna, Rama B. 2007. <span>“Tips for Developing and Testing Questionnaires.”</span> <em>The Journal of Extension</em> 45 (1): 25.
+</div>
+<div id="ref-ruggiero2000gratifications" class="csl-entry">
+Ruggiero, Thomas E. 2000. <span>“Uses and Gratifications Theory in the 21st Century.”</span> <em>Mass Communication and Society</em> 3 (1): 3–37.
+</div>
+<div id="ref-shrout1998reliability" class="csl-entry">
+Shrout, Patrick E. 1998. <span>“Measurement Reliability and Agreement in Psychiatry.”</span> <em>Statistical Methods in Medical Research</em> 7 (3): 301–17.
+</div>
+<div id="ref-singh2017questionnaire" class="csl-entry">
+Singh, Ajay S. 2017. <span>“Common Procedures for Development, Validity and Reliability of a Questionnaire.”</span> <em>International Journal of Economics, Commerce and Management</em> 5 (5): 790–801.
+</div>
+<div id="ref-venkatesh2008tam3" class="csl-entry">
+Venkatesh, Viswanath, and Hillol Bala. 2008. <span>“Technology Acceptance Model 3 and a Research Agenda on Interventions.”</span> <em>Decision Sciences</em> 39 (2): 273–315.
+</div>
+<div id="ref-xie2018rmarkdown" class="csl-entry">
+Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Definitive Guide</em>. Chapman; Hall/CRC.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>18 October 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>31 October 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>01 November 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<em>Dr.&nbsp;K.Satheesh Kumar</em> <em>Assistant Professor</em> <em>SRM College of Agricultural Sciences</em> <em>SRM Nagar, Kattankulathur, Tamil Nadu</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Dr.&nbsp;Dinesh Kumar P</em> <em>Assistant Professor</em> <em>Alliance University</em> <em>Anekal, Bengaluru, Karnataka</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher.<br>
+This is an Open Access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>,<br>
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+</blockquote>
+
+
+
+</section>
+
+ ]]></description>
+  <category>Original-Article</category>
+  <category>Data-Science</category>
+  <category>Software</category>
+  <guid>https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html</guid>
+  <pubDate>Fri, 31 Oct 2025 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Dairy SHGs in Kerala: Economics and Loan Repayment Drivers</title>
   <dc:creator>Denny Franco*</dc:creator>
@@ -21,7 +831,6 @@
   <dc:creator>Ashadevi S S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/Denny/JOSTA20250617172925171.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1077,7 +1886,6 @@ Publication &amp; Reviewer Details
   <dc:creator>Dijee Bastian</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -2234,7 +3042,6 @@ Publication &amp; Reviewer Details
   <dc:creator>Mini V</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/AGRON/JOSTA615202501736.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -3542,7 +4349,6 @@ Publication &amp; Reviewer Details
 
 
 
-
 <p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg" class="img-fluid" alt="DOI"><img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
 <div style="text-align: left; margin-top: 1rem;">
 <p><span class="j-btn-row"> <a href="pdf/JOSTA11CS1.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
@@ -4194,7 +5000,6 @@ ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid
   <dc:creator>Vijayaraghava Kumar</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/lovelyB/generationmean.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -5661,7 +6466,6 @@ Assistant Professor&nbsp; Plant Breeding &amp; Genetics Kerala Agricultural Univ
   <dc:creator>Pratheesh P Gopinath&lt;sup&gt;*&lt;/sup&gt;</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/josta111raisins2025.html</link>
   <description><![CDATA[ 
-
 
 
 
