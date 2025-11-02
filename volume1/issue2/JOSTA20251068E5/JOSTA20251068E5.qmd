@@ -21,13 +21,27 @@ author:
     email: pratheesh.pg@kau.in
     url: https://kau.in/people/sub-lt-dr-pratheesh-p-gopinath
     note: Corresponding author
-    
+
 abstract: |
   Survey research is essential for understanding attitudes, behaviours, and perceptions across diverse populations, providing the foundation for data-driven decisions and empirical analysis. Researchers often face difficulties in assessing the validity and reliability of survey instruments due to complex statistical procedures, limited access to integrated tools, and the need for multiple software platforms. To address these challenges, a user-friendly web application was developed to simplify and automate the testing of validity and reliability. The application integrates multiple statistical analyses into a single platform, offering real-time computation and graphical result displays for easy interpretation. This design minimises repetitive analyses, enhances efficiency, and supports users with limited statistical expertise. A user satisfaction survey involving 30 participants revealed that 90% were satisfied with the application’s performance, demonstrating its effectiveness in improving the accuracy, consistency, and overall quality of survey-based research.  
   
 description: >
   Survey research is essential for understanding attitudes, behaviours, and perceptions across diverse populations, providing the foundation for data-driven decisions and empirical analysis. Researchers often face difficulties in assessing the validity and reliability of survey instruments due to complex statistical procedures, limited access to integrated tools, and the need for multiple software platforms. <a href="/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html" style="color: grey; text-decoration: none;">Read more ...</a>
 
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style>  
+    
 keywords: [Questionnaire, Validity, Reliability, Survey research, Agricultural statistics, Social science]  
 categories: [ Original-Article,Data-Science,Software]
 bibliography: JOSTA-202510-68E5.bib
@@ -283,35 +297,35 @@ The server component of the Shiny app is where the real power of the application
 
 Once a user uploads their data, the server immediately reads the CSV file into R and conducts a series of preprocessing steps. These include checking for missing data, validating data types, and ensuring that the dataset meets the prerequisites for the selected tests. Such preprocessing safeguards data quality and reduces the likelihood of analytical errors, If any issues are identified, the server communicates these back to the user through the UI, guiding corrections.
 
-##### Execution of Statistical Tests
+##### Execution of Statistical Tests {.unnumbered} 
 
 The core functionality of the server revolves around performing statistical tests. For reliability testing, this includes calculations for metrics like Cronbach’s Alpha, ICC, and Cohen’s Kappa [@cronbach1951alpha; @shrout1998reliability; @fleiss1971agreement; @cohen1992learned]. For validity, the server can compute measures such as the Content Validity Ratio [@lawshe1975content] and conduct Factor Analysis. The server is optimised for efficiency, ensuring results are produced quickly, even for large datasets.
 
-##### Reactive Programming
+##### Reactive Programming {.unnumbered} 
 
 One of Shiny’s key strengths is its reactive programming model, which the server leverages fully. This model ensures that any changes made by the user-such as selecting different tests, uploading new datasets, or modifying parameters-trigger immediate updates in the displayed results [@chang2023shiny]. This interactivity is essential for fostering an intuitive user experience and enabling researchers to explore different analyses in real time.
 
-#### Data flow within the application
+#### Data flow within the application {.unnumbered} 
 
 The data flow within the Shiny app is designed to be seamless and efficient, guiding users through the process from data upload to result interpretation in a logical sequence. @fig-figure4 explains the following steps of the data flow within the application.
 
-##### File Upload
+##### File Upload {.unnumbered} 
 
 Users begin by uploading their survey data in a CSV format. The app’s UI facilitates this process, ensuring that users can easily locate and upload their files.
 
-##### Data Validation
+##### Data Validation {.unnumbered} 
 
 Upon upload, the server automatically validates the data, checking for common issues such as missing values, incorrect data types, or formatting errors. This step is crucial for ensuring that the dataset is ready for analysis.
 
-##### Test Selection
+##### Test Selection {.unnumbered} 
 
 Once the data is validated, users can select the desired statistical tests from the dropdown menu. The app’s organization of tests under broader categories like "Reliability" and "Validity" makes this process straightforward.
 
-##### Data Analysis
+##### Data Analysis {.unnumbered} 
 
 The server processes the validated data and performs the selected statistical tests. Thanks to R’s powerful statistical packages [@beeley2018shiny], the app can handle a wide range of analyses, from simple metrics like Cronbach’s Alpha to more complex procedures like Factor Analysis.
 
-##### Result Presentation
+##### Result Presentation {.unnumbered} 
 
 After the analysis is complete, the results are dynamically displayed in the UI. Users can interact with these results, explore different aspects of the data, and even download the findings for further examination or reporting.
 
