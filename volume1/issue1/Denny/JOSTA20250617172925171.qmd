@@ -61,6 +61,22 @@ author:
 abstract: |
   Microfinance activities play a vital role among the poor to raise their microenterprises especially in the primary agricultural sector of rural India and helped the marginalized people to elude from poverty. This paper detailed the economic performance of dairy-based SHGs and discuss the factors that influence the repayment performance of the SHGs in Kerala. The study consists of a sample of 80 dairy SHGs which is situated at a high altitude zone of Kerala where a large number of dairy-financed SHGs are existing. The results of economic performance analysis showed that the saving performance and repayment of the external bank linkage loans were quite impressive in the study area. However, the prompt repayment of internal loans lacking momentum. Results of Tobit regression have shown that peer pressure and dependency ratio have a positive influence, whereas homogeneity and loan amount has a negative influence on the repayment performance of the SHGs.  
 
+description: >
+  Microfinance activities play a vital role among the poor to raise their microenterprises especially in the primary agricultural sector of rural India and helped the marginalized people to elude from poverty. This paper detailed the economic performance of dairy-based SHGs and discuss the factors that influence the repayment performance of the SHGs in Kerala. <a href="/volume1/issue1/Denny/JOSTA20250617172925171.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style>  
+    
 keywords: [dairy self-help groups, loan repayment, microfinance, tobit regression, rural finance, Kerala, primary sector]  
 bibliography: dennybiblio.bib
 date: 2025-07-22

@@ -9,14 +9,7 @@ listing:
   page-size: 3       # show 3 items per page
   sort-ui: true      # optional: sorting dropdown
   filter-ui: true    # optional: search box
-  fields: 
-    - title
-    - author
-    - date
-    - categories
-    - status
-    - description
-    - doi
+  fields: [title, author, date, categories, status, description, doi]  
 ---
 
 <!-- Load Bootstrap Icons -->
@@ -274,7 +267,10 @@ listing:
 
 The Journal of Sustainable Technology in Agriculture (JOSTA) is a peer-reviewed, open-access e-journal dedicated to publishing high-quality research that fosters innovation and sustainability in agriculture. Founded by a collaborative group of scientists and professionals, JOSTA serves as a reliable and inclusive platform for sharing advancements that enhance agricultural practices through responsible technology use, practical innovation, and applied research.
 
-We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world-promoting broad dissemination and knowledge sharing.
+We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world-promoting broad dissemination and knowledge sharing.  
+
+JOSTA is also a registered member of [Crossref](https://www.crossref.org/) 
+, the global scholarly infrastructure that connects research publications through persistent Digital Object Identifiers (DOIs). Every article published in JOSTA is assigned a unique Crossref DOI, ensuring permanent identification, reliable citation linking, and global discoverability across academic databases such as Google Scholar, Scopus, and OpenAIRE.
 
 Articles published in JOSTA are permanently archived in [Zenodo](https://zenodo.org) with dedicated community created for [JOSTA](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), ensuring your research is stored safely, secure and open for the future in CERN's data centre for as long as CERN exists.
 
@@ -591,7 +587,7 @@ For a detailed description of the review process, see [Peer review process](peer
 
 JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
 
-All articles published in JOSTA are permanently archived in Zenodo, a research data repository operated by CERN and integrated with the OpenAIRE network. This ensures long-term preservation, discoverability, and citation of every article through a unique Digital Object Identifier (DOI). As part of OpenAIRE indexing, JOSTA’s publications are accessible to global research databases and funding agencies, guaranteeing broad visibility and compliance with open-science mandates.
+We are a member in crossref and each article in JOSTA receives an unique DOI. All articles published in JOSTA are permanently archived in Zenodo, a research data repository operated by CERN and integrated with the OpenAIRE network. This ensures long-term preservation, discoverability. As part of OpenAIRE indexing, JOSTA’s publications are accessible to global research databases and funding agencies, guaranteeing broad visibility and compliance with open-science mandates.
 
 ```{=html}
 <section class="openaire-line">
@@ -665,7 +661,7 @@ We are committed to supporting high-quality, impactful research and promoting af
 In the spirit of openness, JOSTA maintains complete transparency about its operational costs.\
 Our current running expenses include:
 
--   Crossref membership (implementation in progress)\
+-   Crossref membership\
 -   Website hosting and domain maintenance\
 -   Server and infrastructure costs for the submission and review portal\
 -   Editorial, copy-editing, and technical support services

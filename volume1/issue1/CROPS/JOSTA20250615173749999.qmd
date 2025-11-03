@@ -25,6 +25,22 @@ author:
 
 abstract: |
   Sesame (*Sesamum indicum* L.) is an ancient oilseed crop of significant nutritional and economic value, but its productivity remains suboptimal due to limited genetic improvement. This study assessed genetic variability, correlation patterns, and genetic divergence among 40 sesame genotypes to identify superior parents for breeding programs. Evaluating nine quantitative traits, including days to flowering, plant height, branches per plant, and oil content, in a randomized block design with three replications, revealed significant genetic variation. High heritability and genetic advance were recorded for traits such as days to flowering (95.98%) and seed yield per plant (98.69%). Number of capsules per plant showed the highest direct effect on seed yield. Mahalanobis D² analysis grouped the genotypes into six clusters, with plant height contributing the most to total divergence. The study identified genotypes from divergent clusters (III, IV, V, and VI) as potential parents for hybridization to develop high-yielding varieties with improved oil content.  
+
+description: >
+  Sesame (*Sesamum indicum* L.) is an ancient oilseed crop of significant nutritional and economic value, but its productivity remains suboptimal due to limited genetic improvement. This study assessed genetic variability, correlation patterns, and genetic divergence among 40 sesame genotypes to identify superior parents for breeding programs. <a href="/volume1/issue1/CROPS/JOSTA20250615173749999.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style>  
    
 keywords: [Sesame, genetic variability, heritability, correlation, path analysis, genetic divergence, breeding]  
 bibliography: gayathribiblio.bib
