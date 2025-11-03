@@ -9,10 +9,10 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.39</generator>
+<generator>quarto-1.7.32</generator>
 <lastBuildDate>Fri, 31 Oct 2025 18:30:00 GMT</lastBuildDate>
 <item>
-  <title>Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians</title>
+  <title>Reliability and Validity in Agricultural Research: A Shiny App for Non-statisticians</title>
   <dc:creator>Varsha H</dc:creator>
   <dc:creator>Pratheesh P Gopinath*</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html</link>
@@ -21,164 +21,72 @@
 
 
 
-<p><a href="https://doi.org/10.65287/josta.202510.68E5"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.68E5-blue?logo=doi" class="img-fluid" alt="DOI"></a><br>
-<a href="https://zenodo.org/records/17501814"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+
+<p><a href="https://doi.org/10.65287/josta.202510.68E5"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.68E5-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17501814"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
 <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
-<div style="text-align: left; margin-top: 1rem;">
-<p><span class="j-btn-row"> <a href="pdfs/JOSTA-202510-68E5.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
-<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/JOSTA-202510-68E5.pdf" download="" class="j-btn" aria-label="download pdf">  <span>download pdf</span> </a></p>
+<p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
+<p><span class="j-chip" data-doi="10.65287/josta.202510.68E5" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
 </div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Varsha, H., &amp; Gopinath, P. P. (2025). Reliability and validity in agricultural research: A shiny app for non-statisticians. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.68E5
+</p>
 <style>
-.j-btn-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 1.2rem;
-  flex-wrap: nowrap;
-}
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
 
-/* PDF button */
-.j-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: .5rem;
-  font-family: "Segoe UI", Roboto, sans-serif;
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 0.6rem 1.2rem;
-  border-radius: 999px;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  background-color: #8b6a3a;
-  color: #fff;
-  transition: all 0.25s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-.j-btn:hover {
-  background-color: #6d532d;
-}
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
 
-/* Copy link */
-.j-copy-link {
-  font-family: "Segoe UI", Roboto, sans-serif;
-  font-size: 0.95rem;
-  color: #1f345c;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  gap: .4rem;
-  cursor: pointer;
-  transition: color 0.25s ease;
-}
-.j-copy-link:hover {
-  color: #0b5a56;
-  text-decoration: underline;
-}
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
 
-/* Tooltip */
-.tooltiptext {
-  visibility: hidden;
-  background-color: #0b5a56;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 0.4rem 0.6rem;
-  position: absolute;
-  z-index: 1;
-  top: -36px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 0.8rem;
-}
-.j-copy-link:focus .tooltiptext,
-.j-copy-link:active .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
 </style>
 <script>
-function copyCitation() {
-  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). [Article Title]. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article 1729. https://doi.org/10.5281/zenodo.16308321");
-  const tooltip = document.getElementById('tooltip');
-  tooltip.style.visibility = 'visible';
-  tooltip.style.opacity = 1;
-  setTimeout(() => {
-    tooltip.style.visibility = 'hidden';
-    tooltip.style.opacity = 0;
-  }, 1500);
-}
-</script>
-<!-- Hidden Citation Text -->
-<p><span id="citation-text" style="display: none;">Varsha, H., &amp; Gopinath, P. P. (2025). Reliability and Validity in Agricultural Research: A shiny App for Non-statisticians. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.68E5</span></p>
-<!-- JavaScript -->
-<script>
-  function copyCitation() {
-    const citation = document.getElementById("citation-text").innerText;
-    navigator.clipboard.writeText(citation);
-    
-    const tooltip = document.getElementById("tooltip");
-    tooltip.style.visibility = "visible";
-    tooltip.style.opacity = "1";
-    
-    setTimeout(() => {
-      tooltip.style.visibility = "hidden";
-      tooltip.style.opacity = "0";
-    }, 2000);
-  }
-</script>
-<!-- CSS Styling -->
-<style>
-.download-btn {
-  display: inline-flex;
-  align-items: center;
-  border: 2px solid #28a745;
-  background-color: transparent;
-  color: #28a745;
-  padding: 8px 14px;
-  border-radius: 6px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-.download-btn:hover {
-  background-color: #28a745;
-  color: white;
-}
-.download-btn i {
-  margin-right: 6px;
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
 }
 
-.copy-btn {
-  font-size: 0.9rem;
-  padding: 8px 14px;
-  border: 1px solid black;
-  background-color: white;
-  color: black;
-  border-radius: 6px;
-  cursor: pointer;
-  position: relative;
-}
-.copy-btn #tooltip {
-  visibility: hidden;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 4px;
-  padding: 2px 6px;
-  position: absolute;
-  z-index: 1;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.75rem;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-</style>
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<hr>
 <section id="introduction" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
 <p>Survey research is a widely used method for collecting quantitative data on human behaviour, attitudes, and opinions. The accuracy of insights derived from surveys largely depends on the quality of the instruments used, particularly the validity and reliability of questionnaires <span class="citation" data-cites="carmines1979reliability cronbach1951alpha">(Carmines and Zeller 1979; Cronbach 1951)</span>. Validity ensures that a questionnaire measures the intended construct, while reliability indicates the consistency of measurements over time.</p>
@@ -658,8 +566,7 @@ Table&nbsp;3: Regression analysis of the developed web application
 <h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
 <p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
 <p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
-<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
-<div style="page-break-after: always;"></div>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts. </p><div style="page-break-after: always;"></div><p></p>
 </section>
 <section id="conclusion" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
@@ -831,6 +738,7 @@ which permits unrestricted use, distribution, and reproduction in any medium, pr
   <dc:creator>Ashadevi S S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/Denny/JOSTA20250617172925171.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1886,6 +1794,7 @@ Publication &amp; Reviewer Details
   <dc:creator>Dijee Bastian</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -3042,6 +2951,7 @@ Publication &amp; Reviewer Details
   <dc:creator>Mini V</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/AGRON/JOSTA615202501736.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -4349,6 +4259,7 @@ Publication &amp; Reviewer Details
 
 
 
+
 <p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg" class="img-fluid" alt="DOI"><img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
 <div style="text-align: left; margin-top: 1rem;">
 <p><span class="j-btn-row"> <a href="pdf/JOSTA11CS1.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
@@ -5000,6 +4911,7 @@ ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid
   <dc:creator>Vijayaraghava Kumar</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/lovelyB/generationmean.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -6466,6 +6378,7 @@ Assistant Professor&nbsp; Plant Breeding &amp; Genetics Kerala Agricultural Univ
   <dc:creator>Pratheesh P Gopinath&lt;sup&gt;*&lt;/sup&gt;</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/josta111raisins2025.html</link>
   <description><![CDATA[ 
+
 
 
 
