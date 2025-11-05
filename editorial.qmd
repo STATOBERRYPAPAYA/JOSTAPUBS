@@ -122,6 +122,18 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
 ```{=html}
 <div class="editor-card">
   <div class="editor-info">
+    <h3>Ajay Nair, PhD</h3>
+    <p>Professor and Chair,<br>Department of Horticulture,<br>
+    Iowa State University,<br>
+    Ames, Iowa, United States</p>
+    <p>Email: <a href="mailto:nairajay@iastate.edu">nairajay@iastate.edu</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0002-6360-9556">0000-0002-6360-9556</a></p>
+    <p><a href="https://scholar.google.com/citations?user=PK2GVMwAAAAJ&hl=en&oi=ao">Google Scholar Profile</a></p>
+  </div>
+</div>
+
+<div class="editor-card">
+  <div class="editor-info">
     <h3>Beena R., PhD</h3>
     <p>Assistant Professor,<br>Department of Plant Physiology,<br>
     College of Agriculture, Vellayani<br>
