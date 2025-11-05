@@ -8,7 +8,6 @@ project:
     - "*.pdf"
     - CNAME
     - robots.txt
-    - sitemap.xml
 
 website:
   title: "JOSTA"
