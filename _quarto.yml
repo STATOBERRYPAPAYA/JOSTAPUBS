@@ -7,6 +7,8 @@ project:
     - "*.svg"
     - "*.pdf"
     - CNAME
+    - robots.txt
+    - sitemap.xml
 
 website:
   title: "JOSTA"
@@ -94,3 +96,8 @@ format:
 execute:
   freeze: auto
   echo: false
+metadata:
+  journal_title: "JOSTA: Journal of Sustainable Technology in Agriculture"
+  issn: "3107-6882"  
+filters:
+  - scholar-meta.lua

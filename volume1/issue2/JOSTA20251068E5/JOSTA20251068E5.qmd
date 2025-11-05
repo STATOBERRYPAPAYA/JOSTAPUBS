@@ -47,7 +47,11 @@ categories: [ Original-Article,Data-Science,Software]
 bibliography: JOSTA-202510-68E5.bib
 date: 2025-11-01
 status: Published (Online)
-doi: 10.65287/josta.202510.68E5
+doi: 10.65287/josta.202510.68E5  
+volume: "1"
+issue: "2"
+pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/pdfs/JOSTA-202510-68E5.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html"
 ---
 [![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.68E5-blue?logo=doi)](https://doi.org/10.65287/josta.202510.68E5) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17501814)  
 ![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
