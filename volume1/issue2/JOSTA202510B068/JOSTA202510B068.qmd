@@ -1,0 +1,446 @@
+---
+title: "Designs for sensory experiments and product optimisation: A comprehensive review"
+author:  
+  - name: Gaatha Prasad
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Statistics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: gaatha-2023-19-001@student.kau.in
+    
+  - name: Manju Mary Paul*
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Statistics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+        postal-code: 695522
+    email: manju.paul@kau.in
+    url: https://kau.in/people/manju-mary-paul
+    note: Corresponding author 
+    
+  - name: Pratheesh P Gopinath
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Statistics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: pratheesh.pg@kau.in
+    url: https://coavellayani.kau.in/people/sub-lt-dr-pratheesh-p-gopinath
+    orcid: 0000-0003-3290-0436
+
+  - name: Krishnasree V
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Home Science
+        address: College of Agriculture, Padannakkad
+        city: Kasaragod, Kerala
+        country: India
+    email: krishnasree.v@kau.in 
+    url: https://kau.in/people/krishnasree-v-dr 
+    orcid: 0000-0002-5923-2477
+    
+  - name: Gopika Somanath
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Extension
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: gopika.s@kau.in
+    url: https://www.kau.in/people/gopika-somanath-dr  
+
+abstract: |
+  Research in the fields of postharvest technology and food and nutrition are rapidly advancing with sensory experiments playing a major role in assessing consumer preference. Understanding various design and analysis approaches for conducting sensory experiments is crucial for obtaining meaningful results. This article provides a comprehensive review on evaluation methods, such as discrimination, affective, descriptive and quality tests; experimental designs, such as Completely Randomised Design, Randomised Complete Block Design, Balanced Incomplete Block Design, Factorial experiments, Williams Latin Square Design, and Response Surface Methodology (Central Composite Design, Box Behnken Design, Plackett-Burman Design), analysis techniques such as T-test, Analysis of Variance, Principal Component Analysis, and other non-parametric tests, along with different software packages used in sensory researches. It highlights the importance of selecting appropriate design and analysis methods based on study objectives and data characteristics with practical examples.  
+  
+description: >  
+  Research in the fields of postharvest technology and food and nutrition are rapidly advancing with sensory experiments playing a major role in assessing consumer preference.<a href="/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style> 
+
+keywords: [Experimental Designs, Statistical Analysis, Sensory Experiments, RSM]  
+categories: [Review-Article,Statistics,PostHarvest,Food]
+bibliography: gaathabiblio.bib
+date: 2025-11-08
+doi: 10.65287/josta.202510.B068  
+status: Published (Online)
+volume: "1"
+issue: "2"
+pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/pdfs/JOSTA-202510-B068.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html"
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.B068-blue?logo=doi)](https://doi.org/10.65287/josta.202510.B068) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17562199)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202510-B068.pdf" download class="j-btn" aria-label="download pdf">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202510.B068" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Gaatha, P., Manju, M. P., Gopinath, P. P., V, K., & Somanath, G. (2025). Designs for sensory experiments and product optimisation: A comprehensive review. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.B068
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+
+---  
+
+## Introduction
+
+Every step taken towards reduction in postharvest loss has a direct relation to nutritional and sensory quality [@ziv2021postharvest]. Sensory quality plays an important role in consumer acceptance of a product or produce. Sensory evaluation is an information-gathering process and a multidisciplinary science, including food science, psychology, statistics, and home economics, which measures, analyses, and interprets humans’ behavioural responses to different products based on the five senses of sight, hearing, taste, smell, and touch. This helps in understanding consumer preferences [@Sharif2017; @Stone2020; @yu2018design]. Sensory experiments are controlled scientific studies conducted to understand sensory preferences by human panels. This article covers the different experimental designs, analysis methods, and software packages used in sensory studies, whose understanding helps in conducting proper sensory analysis.
+
+In order to conduct a sensory experiment, an objective should be formulated. Depending on the objectives there are different methods for sensory evaluation such as affective test, discrimination test, descriptive test and quality test. Different situations in which the tests can be adopted has been shown below in @tbl-test.
+
+| **Test** | **What can be studied** | **Measures that can be used** |
+|---------------|---------------|-------------------------------------------|
+| **Affective tests** | Subjective attitudes, such as product acceptance and preference | nine-point hedonic scale [@Moskowitz1971] |
+| **Discrimination test** | Whether samples are detectably different from one another | Duo-Trio and Triangular method [@bi2015sensory] |
+| **Descriptive tests** | Sensory properties of products: perceived intensity of those properties [@Lawless2010] | Quantitative Descriptive Analysis (QDA): attributes are quantified using numerical scales<br> **Sensory profiling:** textural or flavour characteristics are described using words or intensity scales [@Lawless2010; @Risvik1994]<br> **Free Choice Profiling (FCP):** panelists can use their own words or use predefined words, but they have to use their words consistently throughout the experiment [@Punter2018] |
+| **Quality tests** | product's proximity to a standard | Projective maps: panelists would arrange products on a paper based on the products’ similarities or dissimilarities [@Risvik1994] |
+
+: Situations where different tests are used {#tbl-test}
+
+Since human panels are involved, there are chances of occurrence of several errors. Designing of experiments is important for the proper conduct of these tests. It is a critically important tool for improving the product realisation process. Design provides structure and ease for carrying out experiments and provides useful outcomes [@Montgomery2017; @RuizCapillas2021a; @RuizCapillas2021b]. The use of the right statistical design and analysis procedure is very much essential for proper product development. A comprehensive review of the existing designs and their applications, various tests that can be adopted, as well as different software available for various tests, has been done in this paper. This will be useful for researchers working in the area of sensory experiments with less statistical background.
+
+## Designs And Approaches in Sensory Experiments
+
+In design of experiments, the objects of comparison such as the combination of ingredients or the conditions suitable for the development of a particular product, are termed as Treatments. Experimental units are the subjects or objects on which treatments are applied. In case of sensory experiments, the evaluators or the samples used for the sensory evaluation can be the experimental unit depending on the objective. Evaluators can also be called as panelists. The outcomes observed as a result of the treatment is termed as responses. Responses are also known as the dependent factors, since it is dependent on the independent factors, whose influence on a response variable is being studied in the experiment. For example, consider the study on the effect of poppy, sucrose, and citric acid on the taste, smell, colour, and general acceptance of a Turkish sherbet, as carried out by @aydogdu2023poppy, where poppy, sucrose, and citric acid levels were the independent variables. The taste, smell, colour, and general acceptance were the dependent variables.
+
+While designing an experiment, three basic principles are to be followed, viz. randomization, replication, and local control (blocking). Randomization ensures equal chances for each experimental unit to receive each treatment. Replication is the repetition of treatments to obtain more accurate results. In sensory experiments, blocks could be panelists or sessions [@das1986design; @gacula2008sensory; @jankovic2021doe; @Lawless2010; @Montgomery2017]. The number of panelists is decided based on the extent of training. If the panelists are trained, only five to ten panelists would be required; 25 panelists are needed if they are semi-trained, and at least 100 panelists are required if they are untrained. Different designs are available, and one can choose their design based on the objective of the experiment [@BIS1971]. Through this paper, we intend to discuss various designs for sensory experiments and product formulation, as well as different analysis procedures to be adopted on the data generated.
+
+### Paired comparison design
+
+If the objective of the experiment is to identify the effect of flavouring on liking, or to identify a preferred product between two products, paired comparison designs are used. Here, the panelists are provided with two samples, and since the evaluation is being done by the same panelists, the scores will be correlated [@gacula2008sensory]. The null hypothesis would be that the two samples have the same effect. The objective is to select the better formulation.
+
+### Group comparison design
+
+For the comparison of two formulations based on a standard, group comparison designs are used. There must only be a small variation in scores among panelists and fairly homogeneous experimental units for the design to give better results [@gacula2008sensory]. The null hypothesis would be that both of the formulations are similar to the standard. The objective is to identify the one which is more similar to the standard in terms of liking.
+
+### Completely Randomised Design (CRD)
+
+When the comparison is among more than two formulations or combinations or characteristics, such as the effects of flavouring on liking, Completely Randomised Designs (CRD) are used. In CRD, treatments can be equally or unequally replicated and the experimental units are expected to be homogenous. The total number of samples would be the number of treatments × replication, and each sample would be given to the panelists [@Lawless2010]. @More2019 had three treatments, five replications, and the total number of samples were 15. Five trained panelists evaluated all of the samples to analyse the effect of red pumpkin powder on burfi (sweet dish). The levels of red pumpkin powder were varied as 15 percent, 17 percent, and 19 percent, keeping condensed milk solids and sugar levels constant. Usually, in CRD, sensory fatigue occurs in panelists when samples are tasted continuously. To avoid that, Monadic designs are often associated with CRD. In monadic designs, panelists are divided into groups, and each group is given one treatment. In sequential monadic designs, each panellist is given all the treatments but not the replications. Monadic designs are better when the number of panelists is large [@Lawless2010]. @fatoretto2018tomatoes conducted a sequential monadic experiment and gave two samples each of dehydrated Italian and grape tomatoes to each panellist. A total of 100 samples were made for 50 panelists. Other experiments that employed CRD include [@baclayon2020custard; @Suryani2016].
+
+### Randomised Complete Block Design (RCBD)
+
+For the same objective of comparison among more than two formulations, but with blocking, Randomised Complete Block Design (RCBD) can be used. Blocks could be panelists or sessions. In RCBD, every treatment must be equally replicated. In sensory experiments, with panellist as a block, all the treatments will be given in a randomised order to a panellist and then, after a small break, all treatments are given again in some other order. The number of times this process is repeated will be the number of replications. Similarly, the treatments are given to all the other blocks [@silva2014bibd]. If session is a block, each panellist will be attending each session and testing each of the samples. Sessions could be divided into periods such that each treatment appears only once in each session. The total number of sessions will be the number of replications of each treatment [@chambers1981statistical].
+
+### Balanced Incomplete Block Design (BIBD)
+
+When the number of treatments to be evaluated becomes larger, Balanced Incomplete Block Design (BIBD) is used. A BIBD is an arrangement of v treatments in b blocks such that there will be k(\<v) treatments in each block, each treatment will be repeated r times and every pair of treatments will be appearing together in λ(lambda) blocks. Here, any two blocks will have the same number of treatments, but the combinations can differ. These combinations should be arranged in such a manner that any two pairs occur the same number of times as any other pair. For example, @silva2014bibd employed BIBD to compare five grape juices made from different pulp concentrations for six attributes such as violet colour, grape aroma, sweetness, sourness, grape flavour, and mouthfeel. In a block, only three treatments (juices of different pulp concentrations) were taken, and there were ten blocks (sessions). Similarly, @hinneh2020chocolates employed BIBD for sensory profiling of chocolate in their experiment. Ten attributes; cocoa, acidity, astringency, bitterness, nuttiness, woodiness, floral, fresh fruit, browned fruit and spiciness were tested. The basic design had 16 chocolates (treatments) and 16 sessions, and in each session six chocolates were test. In BIBD, the number of sessions should at least equal the number of treatments.
+
+### Resolvable multisession sensory design
+
+@Saurav2017 developed this design specifically, to avoid carryover effect and reduce sensory fatigue. If there are v products to be tested, and ‘v’ is a prime number or prime power this design can be used. Here the number of panelists will also be ‘v’. ‘v’ can be denoted as v= 4t+1, 6t+1, or 4t+3, where ‘t’ is the number of sessions. Sessions are divided into periods such that total number of periods should be v-1 and each period should contain all the products. Order of products in each period is randomised such that a panellist should not be testing a single product more than once. After v-1 periods, each panellist will be testing v-1 products. This design is resolvable since in all the sessions each treatment is repeated the same number of times.
+
+### Latin Square Design (LSD)
+
+@wakeling1995consumer detailed the use of Latin squares [@williams1949experimental] in sensory experiments. They specified the number of consumers needed for testing a given number of products. The all-possible-combination approach and designs based on Mutually Orthogonal Latin Squares (MOLS) were also discussed. @Rodrigues2017 employed a special type of Latin square, known as the Sudoku design, in their experiment. The experiment tested 16 treatments (15 different samples and one repeat sample). A series of eight Sudoku designs were used four randomized independently and four others in the reverse order giving a 16 × 16 design. Sixteen panelists were assigned to test the 16 samples in random orders. The experiment had eight replications with different panelists, resulting in a total of 128 panelists. Here, the experimental unit was a particular order of 16 samples. @Saurav2017 detailed the applications of Williams Latin Square Design (LSD), which is popular in sensory trials due to the minimization of carryover effects. As in CRD, samples can also be presented monadically within Williams LSD [@depetris2024wine; @Nandorfy2023].
+
+### Factorial experiments
+
+When different levels of different factors are studied, factorial experiments are used. In full factorial experiments, in each replication, all possible combinations of all factors are investigated. If there are k factors with n levels, the total number of trials will be n^k^ [@das1986design]. @arpi2023physicochemical conducted a 2×3 factorial experiment in CRD, where one factor (concentration of cascara extract) was at two levels (20% and 25%) and the other factor (concentration of lemon extract) was at three levels (0%, 3%, and 5%). Six treatment combinations were there with three replications each. A total of 18 samples were made, and each panellist tested all these samples. Full factorial experiments result in higher costs as the number of factors and levels increases [@jankovic2021doe].
+
+### Response Surface Methodology (RSM)
+
+RSM is a collection of statistical and mathematical techniques used for developing new products, improving existing products, and optimising production processes. Optimisation techniques are used for the estimation of interactions among the independent variables and their quadratic effects on response variables. Optimisation experiments could be mixture experiments or non-mixture experiments, based on the independent and response variables. In a mixture experiment, the response variable is dependent on the proportions of the independent variables. When the level of one of the ingredients changes, the levels of the others will also change accordingly so that the total proportion equals 1. In non-mixture experiments, changing the level of one of the ingredients does not affect the levels of the others [@gacula2008sensory]. Most practical applications of RSM involve more than one response [@Myers2016].
+
+### Response surface designs
+
+Factor–response relationship is known as the response surface. To obtain optimum results, the treatment combinations should be carefully chosen. Designs used for statistical modelling of the optimisation of a product or process are called response surface designs. The commonly used designs are Central Composite Design (CCD), Box–Behnken Design (BBD), and Plackett–Burman Design (PBD) [@gacula2008sensory].
+
+#### Plackett-Burman Design {.unnumbered} 
+
+This design is popular as it allows the screening of main factors from a large number of variables that can be retained in the further optimisation process [@Siala2012]. It allows two levels for each control variable, similar to a two-level factorial model, and requires a much smaller number of experimental runs, making it more economical [@khuri2010rsm]. @boateng2021infrared, in their experiment, used PBD for screening important factors affecting infrared drying.
+
+#### Central Composite Design{.unnumbered}   
+
+CCD has an embedded factorial design and is preferred over 3^k^ factorial to model a quadratic relationship because it requires fewer assays to achieve better modelling. Along with the experimental points of the factorial design, CCD considers additional points known as star points or axial points and centre points. However, a CCD includes extreme points, which is not advisable for special processes such as extraction of a compound sensitive to high temperature and pressure [@gacula2008sensory; @Myers2016]. The total number of trials for the design is F + 2v + n~c~, where F is the number of factorial points, v is the number of factors, and n~c~ is the number of centre points. In their study, @Nahemiah2016 considered three factors at two levels, and axial and centre points were included to obtain values at five levels. The number of factorial points was 8, and one centre point was used; hence, the number of trials was 8 + 6 + 1 = 15. In this case, the axial level, $\alpha = \left(2^{\,n-1}\right)^{\frac{1}{n}} = 1.68$; where n is 3, the number of factors considered in the experiment. The axial point is calculated as: Centre ± \[$\alpha$× (High level − Low level) / 2\]. In their study, the centre point was replicated five times, and all other runs were replicated twice. @vanlinh2019interactions presented a 2^2^ factorial CCD design with 13 runs, while @anisa2017optimization demonstrated a face-centred CCD design.
+
+#### Box Behnken Design{.unnumbered}   
+
+In Box–Behnken Design (BBD), only three levels are needed for each factor. It considers face points rather than axial points, as in CCD. The number of design points increases with the number of factors; hence, the number of factors for product formulation is usually limited to four when this design is used [@gacula2008sensory]. Applying this design is popular in food processes due to its economical nature [@yolmeh2017applications]. The number of trials for BBD is given by the formula N = 2v(v − 1) + n~c~, where v is the number of factors and n~c~ is the number of centre points. In their study, @li2024bran developed a three level three factor design, with N= 2\*3(3-1) + n~c~ = 12+n~c~ , to improve the tensile properties, colour, and sensory quality of bran-yogurt stewing noodles. Design Expert software was used to generate the design. Here the centre point was replicated five times, resulting in a total of 17 trials.
+
+## Analysis of Sensory Data
+
+The common techniques used in the analysis of sensory data are discussed below. The selection of an analysis method depends on the type of data generated and the objective of the study. In CRD, RCBD, BIBD, Williams LSD, and resolvable multisession sensory designs, the experiment should generate numerical data (interval or ratio scale) [@Bower2013]. In comparison designs, the data generated can be numerical (scores) or ordinal (data from different scales). @yu2018design comprehensively reviewed the application of regression analysis in sensory data. Some other common analyses followed are discussed in this paper.
+
+### Paired t test
+
+For paired and group comparison design, for significance testing, a t test can be used for analysis of the data obtained. Most preferred t test is a paired t test. It is used in situations where each panelists evaluate both the product. Let X~1i~ be the response for first formulation by i^th^ panellist and X~2i~ be the response for the second formulation by the same panellist, X~1i~ – X~2i~ = d~i~. d~i~ is the observed difference. It is assumed that d is distributed normally with mean $\bar{d}$ and variance σ^2^, Test statistic is:
+
+$$t_{(n-1)} = \frac{\bar{d}}{\sigma / \sqrt{n}}$$ {#eq-eq1}
+
+Where, $sd = \sqrt{\frac{\sum_{i=1}^{n}(d_i - \bar{d})^2}{n - 1}}$. Since the null hypothesis is H~0~: µ~1~ = µ~2~; µ = µ~1~ - µ~2~ =0. µ1 is the mean score of first product and µ~2~ is the mean score of second product.If the t-value is greater than the critical value from the t-distribution table, the difference is considered significant [@gacula2008sensory]. Other variations of t-tests include the single-sample test, where a product is evaluated by panelists based on a control, and the independent t-test, where two products are evaluated by two different groups of panelists [@Lawless2010]. @Rao2024, in their comparative study on guava juices, used a t-test.
+
+### Mann-Whitney U test
+
+When the data generated are scores or ranks (ordinal data), instead of t test, its non-parametric counterpart, Mann-Whitney U test is used. Consider two samples a and b with n~a~ and n~b~ number of scores. The scores would then be combined and ranked. Then the rank scores will be divided by groups to find T~a~ and T~b~, sums of rank scores of a and b respectively.
+
+$$U_a = T_a - \frac{n_a(n_a + 1)}{2}$$ {#eq-eq2}
+
+$$U_b = T_b - \frac{n_b(n_b + 1)}{2}$$ {#eq-eq3} 
+
+U is the minimum of U~a~ and U~b~. If the value is greater than the critical value from the Mann–Whitney table, there is a significant difference [@macfarland2016nonparametric].
+
+### Chi square test
+
+Chi-square tests are used in the case of difference tests or discrimination tests (Nominal data) [@boggs1949sensory].
+
+$$\chi^2 = \frac{(a - rb)^2}{r(a - b)}$$ {#eq-eq4}
+
+where O~ij~ and E~ij~ are the observed and expected frequencies respectively.
+
+### Analysis of Variance (ANOVA)
+
+For designs with more than two treatments, and the data generated are normally distributed, ANOVA (Analysis of Variance) can be conducted. A normality test is recommended before proceeding with ANOVA. In ANOVA the total variation in the observed data is partitioned into different sources. Number of sources in ANOVA is dependent on the designs used. For example, in CRD the source of variation is from treatments, so one-way ANOVA is performed. And if RCBD is used, two-way ANOVA is performed where block effect is also accounted for. From ANOVA, F ratio statistic is obtained and if found significant, indicates that at least one treatment mean is significantly different from one or more treatments in the experiment. To identify the treatments that are similar, pairwise comparisons can be carried out using multiple comparison procedures. Least Significant Difference (LSD) test, Tukey’s test, and Duncan’s Multiple Range Test (DMRT) are some of the common multiple comparison tests used [@gacula2013statistical; @agbangba2024posthoc].
+
+#### Least Significant Difference{.unnumbered}   
+
+LSD allows for a direct comparison of two means from two different groups by calculating the smallest significance as if a test had been run on those two means. Any difference between the means greater than the LSD is considered statistically significant. If t is the critical value from the 𝑡-distribution table, MSE is the mean square error obtained from the results of the ANOVA test, and n~i~ and n~j~ are the number of scores used to calculate the means:
+
+$$LSD = t_{(\alpha/2, df)} \times \sqrt{MSE \times \left(\frac{1}{n_i} + \frac{1}{n_j}\right)}$$ {#eq-eq5}
+
+µ~i~ and µ~j~ are the mean scores of the two groups. d~ij~ =\|µ~i~ - µ~j~\|, will be calculated and when d~ij~\> LSD, significance will be declared [@gacula2013statistical].
+
+#### Duncan’s Multiple Range Test (DMRT){.unnumbered}   
+
+It is more useful than LSD when there are more number of pairs to be compared. 
+$$T = q_{(\alpha/2, df, ds)} \times \sqrt{MSE \times \left(\frac{1}{n_i} + \frac{1}{n_j}\right)}$$ {#eq-eq6}
+
+T is the lowest significant difference, q is the critical value from the q distribution table, n~i~ and n~j~ are the number of scores used to calculate the means, r is the range, or the number of means being compared, df is the error degrees of freedom and MSE is the mean square error obtained from the results of the ANOVA test. Here the sample mean will be arranged in ascending order to find the degrees of separation and T values will be calculated. If difference of mean pairs is greater than T, significant difference will be declared. As the range r increases, the critical value q and, consequently, the T value also increase. This means that, comparisons between means that are farther apart require a larger difference to be considered significant. Therefore, the values of T in DMRT differ for each range, with smaller T values for adjacent means and larger ones for more widely separated means, making the test stepwise and more precise in identifying significant differences among treatments[@gacula2013statistical].
+
+#### Tukey’s test {.unnumbered}   
+
+Tukey’s test is designed for equal variance and group size. The critical difference to be exceeded is called the Honestly Significant Difference (HSD). If µ~i~ and µ~j~ are the means to be compared and n is the number of scores used for calculating mean
+
+$$HSD = \frac{(\mu_i - \mu_j)}{\sqrt{MSE / n}}$$ {#eq-eq7}
+
+If µ~i~ - µ~j~\> HSD, there is significant difference [@gacula2013statistical].
+
+LSD is a sensitive procedure; however, it does not regulate the overall (experiment-wise) error rate. When applied to multiple pairwise comparisons, it can substantially increase the likelihood of Type I errors. In contrast, Tukey’s HSD and DMRT provides stronger protection against false positives and is therefore typically a more reliable option for comparing several means [@Montgomery2017].
+
+### Kruskal-Wallis H test
+
+It is the nonparametric counterpart of one-way ANOVA. Consider a, b, …, n groups, with n~a~, n~b~ ,…, n~n~ scores, for Kruskal-Wallis test, the scores are combined and ranked, and the rank scores are summed by group to obtain T~1~, T~2~, …,T~n~. Let T~c~ denote the rank sum of each sample, n~c~ denote the number of scores for each sample and N is the total number of participants. If the H value is greater than the chi-square table value, there is a significant difference between at least one treatment pair [@kruskal1952ranks].
+
+$$H = \left[ \frac{12}{N(N + 1)} \sum \frac{T_c^2}{n_c} \right] - 3(N + 1)$$ {#eq-eq8}
+
+Dunn’s test can be performed as the post hoc test if the test is found significant.
+
+### Friedman’s test
+
+It is the nonparametric counterpart of two-way ANOVA, where sessions or panelists could be considered as blocks. @Pereira2015 reviewed @siegel1988nonparametric, describing the test statistic and post hoc analysis. The data are represented with n rows and k columns. The rows represent the blocks, and the columns represent the treatments. R~·k~ is the sum of ranks for treatment k over n blocks.
+
+$$T = \left[ \frac{12}{nK(K + 1)} \sum R_{.k}^2 \right] - 3n(K + 1)$$ {#eq-eq9}
+
+Wilcoxon test, Wilcoxon-Nemenyi-McDonald-Thompson test, sign test, or Dunn’s test can be considered for post hoc analysis.
+
+### Principal Component Analysis (PCA)
+
+PCA is mostly used in Quantitative Descriptive Analysis (QDA) and for analysing projective maps [@Valentin2012] with seven or more samples. Attributes are often removed from the analysis if they appear in lower quantities or occur fewer times [@civille2012sensory]. In QDA, data can be averaged across panelists or used in raw form. Averaging simplifies the data but masks individual differences [@Naes2021]. A product (columns) × attribute (rows) matrix is reduced to a smaller number of independent components or factors without sacrificing the information contained in the larger dataset. Each of the original attributes is then projected onto the resulting components to interpret them. The cosine of the angle between the attribute vector and each component gives the correlation between them, and the length of the vector is proportional to the variance [@greenhoff1994preferencemapping].
+
+### Multiple Factor Analysis (MFA)
+
+Multiple Factor Analysis (MFA) is a multivariate method used when the same set of individuals is described by several groups of variables. By balancing each group’s contribution, MFA creates a unified space that allows joint interpretation of all data blocks. In sensory science, it is particularly useful when products are evaluated by multiple panels or when sensory and physicochemical measurements are combined. MFA helps identify product similarities, assess agreement between groups, and determine how different variable sets contribute to product discrimination [@PagesHusson2014].
+
+### Thurstonian models
+
+Since the discrimination tests like triangle tests, duo-trio tests etc results in binary data, Thurstonian models are used for the analysis, where the binary data are transformed to relative sensory differences [@christensen2009samedifferent]. It measures how well individuals can distinguish between two similar stimuli based on their internal sensory responses. It produces a value called d′ (d-prime), d′ quantifies the separation between the two internal response distributions in standard deviation units. Higher values of d′, reflects better discrimination [@lee2004thurstonian]. @bi2024thurstonian modelled the duo trio test and its variants, deriving Thurstonian psychometric functions, comparing statistical power across formats, and providing R code for computing d′ and its variance to improve precision in sensory test sensitivity assessment.
+
+### General Procrustean Analysis (GPA)
+
+In Free Choice Profiling, each panellist is using their own words, hence the data cannot be averaged. Instead, an individual matrix is created for each panellist to compute an n-dimensional product space, and these product spaces are then averaged to form a consensus configuration. Procrustes ANOVA (PANOVA) is conducted before applying transformations. Three transformations-rotation, translation, and isotropic scaling-are then performed to align the individual configurations, minimizing differences and generating the final consensus space [@Bower2013].
+
+### Linear Mixed Effects Model
+
+Mixed-effects models are widely applied in sensory and consumer research because they incorporate both fixed sources of variation, such as products, and random sources, such as assessors. Their ability to account for repeated measurements, assessor variability, and assessor–product interactions enables more reliable estimation of product differences. In sensory profiling, product effects are typically treated as fixed, whereas assessors and their interactions with products are modeled as random to permit generalization beyond the specific panel [@Lawless2010]. Compared with traditional ANOVA, mixed-effects models also handle unbalanced data and missing observations more effectively. Recent advances, including automated model-selection tools proposed by [@Kuznetsova2015] have further improved their practical application. Overall, these developments demonstrate the strong suitability of mixed-effects models for analyzing sensory responses under realistic experimental conditions.
+
+### Ordinal Logistic Regression
+
+The ordinal logistic regression or proportional odds model (POM), is used to analyze ordered categorical responses without assuming equal spacing between categories. It models the cumulative probability of a response being at or below each category under the assumption that predictor effects on the log-odds are constant across thresholds, known as the proportional odds assumption [@Agresti2010]. This makes POM appropriate for sensory and consumer research that commonly employs ordinal rating scales. For example, [@fatoretto2018tomatoes] applied POM to evaluate dehydrated tomato samples and demonstrated that processing treatments significantly increased the likelihood of higher sensory ratings. By retaining the ordinal nature of sensory scores, the POM provides a robust framework for assessing product differences in ordered sensory datasets.
+
+### RSM Analysis
+
+The mathematical model for first order and second order response surface are given below. First order response surface: 
+$$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \varepsilon$$ {#eq-eq10}
+
+where x~1~,x~2~ are the design variables, β~1~, β~2~ are the regression coefficients. Second order response surface: 
+$$y = \beta_0 + \sum_{i=1}^{q} \beta_i x_i + \sum_{i=1}^{q} \beta_{i} x_i^2 + \sum_{i<j} \sum_{1<j}\beta_{ij} x_i x_j+ε$$ {#eq-eq11}
+
+where x~i~, x~j~ are the design variables, β~0~, β~i~, β~ij~ are the regression coefficients, x~i~^2^ is the quadratic effect and x~i~, x~j~ are the interaction effect and ε is the error associated [@Myers2016]. Second order response surface models are more suited for sensory experiments since it can represent more complex relationships [@Nwabueze2010]. Response surface plots are the visualisation of the effects of variables on the response. This could be two-dimensional contour maps or three-dimensional maps, providing an accurate geometric depiction. Plots are made by fitting regression model by keeping non-significant (P \> 0.05) variable constant and varying other variables. Optimal conditions are found out by superimposing the response surfaces [@Annor2009; @Nwabueze2010; @Myers2016]. Both three dimensional and contour maps are observed together for better understanding. Since the minimum or maximum point is at the centre of the design space, the contour plots will show a circle or ellipse at the centre. When the target point is neither maximum nor minimum point (saddle point), the contour plots show parabolic or hyperbolic contours [@Myers2016]. The interaction among the input variables and parameters is called a design space [@bastogne2017qbd]. Designs, analysis and software or packages used in different studies are summarised in @tbl-software.
+
+| **Authors** | **Design** | **Method** | **Data Collection** | **Software / Packages used** | **Analysis** |
+|------------|------------|------------|------------|------------|------------|
+| @depetris2024wine | Williams LSD | Liking, description | 7 point hedonic scale | R - FactoMineR | Regression analysis, Correspondence analysis, Multidimensional analysis |
+| @hasanah2024yogurt | CRD | Liking | 1–5 scaling | SPSS | ANOVA - DMRT |
+| @putra2024icecream | Factorial RCBD |  | Hedonic scaling | Minitab | ANOVA |
+| @gao2024aroma |  | Ranking descriptive analysis |  | XLSTAT | GPA, Partial Least Square Regression |
+| @yadav2024process | CCD | Optimisation | Measurements and scores | Design Expert | RSM |
+| @yunindanova2024characteristics |  | Free choice profiling | Line scale | XLSTAT | GPA |
+| @yang2024study | Williams LSD | Liking | 9 point hedonic scale | SAS | ANOVA |
+| @hong2023processedmeat | Sequential monadic | Liking, familiarity | 9 point hedonic | Stata17 | Paired t test |
+| @arpi2023physicochemical | Factorial CRD | Liking | 5 point hedonic scale |  | ANOVA, DMRT |
+| @Rao2024 | Monadic | QDA 0–10 scale |  | Microsoft Office | T test |
+| @aydogdu2023poppy | CRD–sensory / CCD–optimisation | Optimisation | 9 point hedonic scaling | SPSS | ANOVA, RSM |
+| @Nandorfy2023 | Williams LSD | QDA | Attributes–words | Compusense, R | ANOVA |
+| @Bokic2022 |  | Descriptive | 10 mm scale anchored with words | XLSTAT | Arithmetic mean, Tukey’s HSD, PCA |
+| @koh2022noodles | Factorial experiment – product / BIBD – evaluation | Ranking, hedonic tests | Rank: 1–3; 7 point hedonic scale | SPSS | Friedman’s test, LSD |
+| @mongi2022beefsausage | RCBD | Descriptive testing, Affective testing | 9 point hedonic scale | R, Latentix software | Conjoint analysis, PCA, PLSR |
+| @varela2021volatile | Williams Latin Square | QDA |  | Compusense, XLSTAT, SensoMineR, FactoMineR | PCA, PLSR, MFA (Multiple Factor Analysis, Napping) |
+| @Oduro2021 | BIBD | Relative preference mapping, T map, liking | 9 point scale | XLSTAT | ANOVA, GPA |
+| @khemacheevakul2021chocolates |  | Liking | 9 point hedonic | R, tempR | ANOVA |
+| @hussein2021spirulina |  |  | 10 point hedonic scaling | SAS | ANOVA, LSD |
+| @Orden2019 | RCBD | Sensory profiling | Projective mapping | SensoGraph, C# | MFA, Confidence ellipses, Gabriel’s Graph |
+| @batali2020dripbrew | Williams Latin Square | Descriptive analysis | 15 cm line scaling | RedJade, R, FactoMineR | Conversion of 15 point to 100, 3-factor 2-way interaction ANOVA, PCA, Correlation |
+| @hinneh2020chocolates | BIBD | Descriptive | 0–10 rating ordinal scale | Minitab | PCA, PLS |
+| @baclayon2020custard | CRD | Descriptive | 9 point hedonic scale, descriptive scoring | Microsoft Excel | ANOVA |
+| @Semjon2020 |  | Liking | 5 point scale | R | MFA |
+| @More2019 | CRD | Descriptive | 9 point hedonic scale |  | ANOVA |
+| @michell2020microgreens |  | Descriptive | 9 point hedonic scale | XLSTAT | ANOVA, PCA |
+| @Ser2019 |  |  | 9 point hedonic scale | XLSTAT | GPA |
+| @chan2019applepectin | BBD | Optimisation | Measurements, score | Minitab | RSM |
+| @Rytz2017 | Fractional Factorial Design | Descriptive analysis | 0–10 coded scale | R | ANOVA, LSD |
+| @Nahemiah2016 | CCD | Optimisation | Measurements, sensory scores | Minitab, MATLAB | RSM |
+| @Suryani2016 | CRD | Liking | 4 point hedonic scaling |  | ANOVA |
+| @Symoneaux2015 | CCD | Optimisation | Measurements, score | Statgraphics Centurion XVI | RSM |
+| @vanlinh2019interactions | CCD | Optimisation | Measurements, score |  | RSM |
+| @Song2021 | BBD | Optimisation | Measurements, score | Minitab | RSM |
+
+: Design, analysis and software used {#tbl-software}
+
+{{< pagebreak >}}
+
+## Conclusion
+
+Designs are adopted based on the objective of the sensory experiments. If the objective is comparison between two products, paired comparison or group comparison designs could be used. If there are more than two combinations of ingredients and one has to choose the best combination, CRD or RCBD could be used. When the number of treatments is larger, BIBD can be used. When different factors are varied in different levels to make various combinations, factorial experiments are conducted. Response surface designs are used for product optimisation. Response surface graphs helps in understanding the effects of variables on responses much easily. For pairwise and groupwise comparison designs, a t test or Mann Whitney U test can be performed for analysis. For designs with more than two treatments ANOVA or Kruskal Wallis test can be used. For analysis of nominal data chi square test or Thurstonian models are used.
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**
+
+-   **Submitted:** *21 October 2025*  
+-   **Accepted:** *08 November 2025*  
+-   **Published (Online):** *09 November 2025*
+
+---
+
+**Reviewer Information**
+
+- **Reviewer 1:**  
+  **Dr. Rohit Kundu**  
+  *Scientist*  
+  *ICAR-IASRI, New Delhi*
+
+  
+- **Reviewer 2:**  
+  **Dr. Muhammed Jaslam P K**  
+  *Research Scientist II*  
+  *University of Idaho*  
+  *Moscow, United States*
+
+:::   
+
+::: {.callout-note appearance="simple"}
+
+## Disclaimer/Publisher’s Note  
+
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).  
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.  
+
+:::  
+
+>© Copyright (2025): Author(s). The licensee is the journal publisher.  
+This is an Open Access article distributed under the terms of the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/4.0/),  
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.  

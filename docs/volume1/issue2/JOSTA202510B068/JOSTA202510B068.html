@@ -1,0 +1,1958 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Gaatha Prasad">
+<meta name="author" content="Manju Mary Paul*">
+<meta name="author" content="Pratheesh P Gopinath">
+<meta name="author" content="Krishnasree V">
+<meta name="author" content="Gopika Somanath">
+<meta name="dcterms.date" content="2025-11-08">
+<meta name="keywords" content="Experimental Designs, Statistical Analysis, Sensory Experiments, RSM">
+<meta name="description" content="Research in the fields of postharvest technology and food and nutrition are rapidly advancing with sensory experiments playing a major role in assessing consumer preference.Read more …">
+
+<title>Designs for sensory experiments and product optimisation: A comprehensive review – JOSTA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/cover.jpg" rel="icon" type="image/jpeg">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e25cc82807363e79c52e96bc8b7855f1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-2f249d55bd4fdd1b5a3bf17c44f225e6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-278209a1080c747a323a5f6c0262cc7d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script><style>
+  /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+  #title-block-header .quarto-description,
+  #title-block-header .description,
+  header.quarto-title-block .quarto-description,
+  header.quarto-title-block .description,
+  header.quarto-title-block p.lead {
+    display: none !important;
+  }
+</style>
+<meta name="citation_title" content="Designs for sensory experiments and product optimisation: A comprehensive review">
+<meta name="citation_author" content="Gaatha Prasad">
+<meta name="citation_author" content="Manju Mary Paul*">
+<meta name="citation_author" content="Pratheesh P Gopinath">
+<meta name="citation_author" content="Krishnasree V">
+<meta name="citation_author" content="Gopika Somanath">
+<meta name="citation_publication_date" content="November 8, 2025">
+<meta name="citation_journal_title" content="JOSTA: Journal of Sustainable Technology in Agriculture">
+<meta name="citation_volume" content="1">
+<meta name="citation_issue" content="2">
+<meta name="citation_doi" content="10.65287/josta.202510.B068">
+<meta name="citation_fulltext_html_url" content="https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html">
+<meta name="citation_pdf_url" content="https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/pdfs/JOSTA-202510-B068.pdf">
+<link rel="canonical" href="https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html">
+<meta name="DC.Title" content="Designs for sensory experiments and product optimisation: A comprehensive review">
+<meta name="DC.Identifier" content="10.65287/josta.202510.B068">
+<meta name="DC.Type" content="Text">
+<meta name="DC.Format" content="text/html">
+<meta name="DC.Language" content="en">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ScholarlyArticle",
+  "name":"Designs for sensory experiments and product optimisation: A comprehensive review",
+  "author":[{"@type":"Person","name":"Gaatha Prasad"},{"@type":"Person","name":"Manju Mary Paul*"},{"@type":"Person","name":"Pratheesh P Gopinath"},{"@type":"Person","name":"Krishnasree V"},{"@type":"Person","name":"Gopika Somanath"}],
+  "datePublished":"November 8, 2025",
+  "isPartOf":{"@type":"Periodical","name":"JOSTA: Journal of Sustainable Technology in Agriculture", "issn": "3107-6882"},
+  "identifier":"10.65287/josta.202510.B068",
+  "url":"https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html",
+  "sameAs":"https://doi.org/10.65287/josta.202510.B068",
+  "pagination":"-",
+  "headline":"Designs for sensory experiments and product optimisation: A comprehensive review",
+  "description":"Research in the fields of postharvest technology and food and nutrition are rapidly advancing with sensory experiments playing a major role in assessing consumer preference. Understanding various design and analysis approaches for conducting sensory experiments is crucial for obtaining meaningful results. This article provides a comprehensive review on evaluation methods, such as discrimination, affective, descriptive and quality tests; experimental designs, such as Completely Randomised Design, Randomised Complete Block Design, Balanced Incomplete Block Design, Factorial experiments, Williams Latin Square Design, and Response Surface Methodology (Central Composite Design, Box Behnken Design, Plackett-Burman Design), analysis techniques such as T-test, Analysis of Variance, Principal Component Analysis, and other non-parametric tests, along with different software packages used in sensory researches. It highlights the importance of selecting appropriate design and analysis methods based on study objectives and data characteristics with practical examples.",
+  "encoding":{"@type":"MediaObject","fileFormat":"application/pdf","contentUrl":"https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/pdfs/JOSTA-202510-B068.pdf"}
+}
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Designs for sensory experiments and product optimisation: A comprehensive review – JOSTA">
+<meta property="og:description" content="Research in the fields of postharvest technology and food and nutrition are rapidly advancing with sensory experiments playing a major role in assessing consumer preference.Read more …">
+<meta property="og:image" content="https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/images/cover.jpg">
+<meta property="og:site_name" content="JOSTA">
+<meta property="og:image:alt" content="JOSTA Volume 1 Cover">
+<meta name="twitter:title" content="Designs for sensory experiments and product optimisation: A comprehensive review – JOSTA">
+<meta name="twitter:description" content="Research in the fields of postharvest technology and food and nutrition are rapidly advancing with sensory experiments playing a major role in assessing consumer preference.Read more …">
+<meta name="twitter:image" content="https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/images/papayalogo.png">
+<meta name="twitter:image:alt" content="JOSTA Journal">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Designs for sensory experiments and product optimisation: A comprehensive review</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../../images/sidebarcover.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Submit Articles</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../submit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submit article</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../authorguide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Article submission</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../peerReview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Peer review policy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../APC.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Article Processing Charges (APCs)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Ethics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publication ethics and malpractice statement</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../published.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Latest Articles</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Volumes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Volume 1</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../volume1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Issues</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../editorial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial Board</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../editorialsection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Editorial Sections</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Report a Problem</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../plagiarism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Plagiarism Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contact Us</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#designs-and-approaches-in-sensory-experiments" id="toc-designs-and-approaches-in-sensory-experiments" class="nav-link" data-scroll-target="#designs-and-approaches-in-sensory-experiments"><span class="header-section-number">2</span> Designs And Approaches in Sensory Experiments</a>
+  <ul class="collapse">
+  <li><a href="#paired-comparison-design" id="toc-paired-comparison-design" class="nav-link" data-scroll-target="#paired-comparison-design"><span class="header-section-number">2.1</span> Paired comparison design</a></li>
+  <li><a href="#group-comparison-design" id="toc-group-comparison-design" class="nav-link" data-scroll-target="#group-comparison-design"><span class="header-section-number">2.2</span> Group comparison design</a></li>
+  <li><a href="#completely-randomised-design-crd" id="toc-completely-randomised-design-crd" class="nav-link" data-scroll-target="#completely-randomised-design-crd"><span class="header-section-number">2.3</span> Completely Randomised Design (CRD)</a></li>
+  <li><a href="#randomised-complete-block-design-rcbd" id="toc-randomised-complete-block-design-rcbd" class="nav-link" data-scroll-target="#randomised-complete-block-design-rcbd"><span class="header-section-number">2.4</span> Randomised Complete Block Design (RCBD)</a></li>
+  <li><a href="#balanced-incomplete-block-design-bibd" id="toc-balanced-incomplete-block-design-bibd" class="nav-link" data-scroll-target="#balanced-incomplete-block-design-bibd"><span class="header-section-number">2.5</span> Balanced Incomplete Block Design (BIBD)</a></li>
+  <li><a href="#resolvable-multisession-sensory-design" id="toc-resolvable-multisession-sensory-design" class="nav-link" data-scroll-target="#resolvable-multisession-sensory-design"><span class="header-section-number">2.6</span> Resolvable multisession sensory design</a></li>
+  <li><a href="#latin-square-design-lsd" id="toc-latin-square-design-lsd" class="nav-link" data-scroll-target="#latin-square-design-lsd"><span class="header-section-number">2.7</span> Latin Square Design (LSD)</a></li>
+  <li><a href="#factorial-experiments" id="toc-factorial-experiments" class="nav-link" data-scroll-target="#factorial-experiments"><span class="header-section-number">2.8</span> Factorial experiments</a></li>
+  <li><a href="#response-surface-methodology-rsm" id="toc-response-surface-methodology-rsm" class="nav-link" data-scroll-target="#response-surface-methodology-rsm"><span class="header-section-number">2.9</span> Response Surface Methodology (RSM)</a></li>
+  <li><a href="#response-surface-designs" id="toc-response-surface-designs" class="nav-link" data-scroll-target="#response-surface-designs"><span class="header-section-number">2.10</span> Response surface designs</a></li>
+  </ul></li>
+  <li><a href="#analysis-of-sensory-data" id="toc-analysis-of-sensory-data" class="nav-link" data-scroll-target="#analysis-of-sensory-data"><span class="header-section-number">3</span> Analysis of Sensory Data</a>
+  <ul class="collapse">
+  <li><a href="#paired-t-test" id="toc-paired-t-test" class="nav-link" data-scroll-target="#paired-t-test"><span class="header-section-number">3.1</span> Paired t test</a></li>
+  <li><a href="#mann-whitney-u-test" id="toc-mann-whitney-u-test" class="nav-link" data-scroll-target="#mann-whitney-u-test"><span class="header-section-number">3.2</span> Mann-Whitney U test</a></li>
+  <li><a href="#chi-square-test" id="toc-chi-square-test" class="nav-link" data-scroll-target="#chi-square-test"><span class="header-section-number">3.3</span> Chi square test</a></li>
+  <li><a href="#analysis-of-variance-anova" id="toc-analysis-of-variance-anova" class="nav-link" data-scroll-target="#analysis-of-variance-anova"><span class="header-section-number">3.4</span> Analysis of Variance (ANOVA)</a></li>
+  <li><a href="#kruskal-wallis-h-test" id="toc-kruskal-wallis-h-test" class="nav-link" data-scroll-target="#kruskal-wallis-h-test"><span class="header-section-number">3.5</span> Kruskal-Wallis H test</a></li>
+  <li><a href="#friedmans-test" id="toc-friedmans-test" class="nav-link" data-scroll-target="#friedmans-test"><span class="header-section-number">3.6</span> Friedman’s test</a></li>
+  <li><a href="#principal-component-analysis-pca" id="toc-principal-component-analysis-pca" class="nav-link" data-scroll-target="#principal-component-analysis-pca"><span class="header-section-number">3.7</span> Principal Component Analysis (PCA)</a></li>
+  <li><a href="#multiple-factor-analysis-mfa" id="toc-multiple-factor-analysis-mfa" class="nav-link" data-scroll-target="#multiple-factor-analysis-mfa"><span class="header-section-number">3.8</span> Multiple Factor Analysis (MFA)</a></li>
+  <li><a href="#thurstonian-models" id="toc-thurstonian-models" class="nav-link" data-scroll-target="#thurstonian-models"><span class="header-section-number">3.9</span> Thurstonian models</a></li>
+  <li><a href="#general-procrustean-analysis-gpa" id="toc-general-procrustean-analysis-gpa" class="nav-link" data-scroll-target="#general-procrustean-analysis-gpa"><span class="header-section-number">3.10</span> General Procrustean Analysis (GPA)</a></li>
+  <li><a href="#linear-mixed-effects-model" id="toc-linear-mixed-effects-model" class="nav-link" data-scroll-target="#linear-mixed-effects-model"><span class="header-section-number">3.11</span> Linear Mixed Effects Model</a></li>
+  <li><a href="#ordinal-logistic-regression" id="toc-ordinal-logistic-regression" class="nav-link" data-scroll-target="#ordinal-logistic-regression"><span class="header-section-number">3.12</span> Ordinal Logistic Regression</a></li>
+  <li><a href="#rsm-analysis" id="toc-rsm-analysis" class="nav-link" data-scroll-target="#rsm-analysis"><span class="header-section-number">3.13</span> RSM Analysis</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">4</span> Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Designs for sensory experiments and product optimisation: A comprehensive review</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Review-Article</div>
+    <div class="quarto-category">Statistics</div>
+    <div class="quarto-category">PostHarvest</div>
+    <div class="quarto-category">Food</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>Research in the fields of postharvest technology and food and nutrition are rapidly advancing with sensory experiments playing a major role in assessing consumer preference.<a href="../../../volume1/issue2/JOSTA202510B068/JOSTA202510B068.html" style="color: grey; text-decoration: none;">Read more …</a></p>
+  </div>
+</div>
+
+<div class="quarto-title-meta-author column-body">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Gaatha Prasad <a href="mailto:gaatha-2023-19-001@student.kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://kau.in/people/manju-mary-paul">Manju Mary Paul*</a> <a href="mailto:manju.paul@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://coavellayani.kau.in/people/sub-lt-dr-pratheesh-p-gopinath">Pratheesh P Gopinath</a> <a href="mailto:pratheesh.pg@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-3290-0436" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://kau.in/people/krishnasree-v-dr">Krishnasree V</a> <a href="mailto:krishnasree.v@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-5923-2477" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://www.kau.in/people/gopika-somanath-dr">Gopika Somanath</a> <a href="mailto:gopika.s@kau.in" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kerala Agricultural University
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta column-body">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 8, 2025</p>
+    </div>
+  </div>
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.65287/josta.202510.B068">10.65287/josta.202510.B068</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Research in the fields of postharvest technology and food and nutrition are rapidly advancing with sensory experiments playing a major role in assessing consumer preference. Understanding various design and analysis approaches for conducting sensory experiments is crucial for obtaining meaningful results. This article provides a comprehensive review on evaluation methods, such as discrimination, affective, descriptive and quality tests; experimental designs, such as Completely Randomised Design, Randomised Complete Block Design, Balanced Incomplete Block Design, Factorial experiments, Williams Latin Square Design, and Response Surface Methodology (Central Composite Design, Box Behnken Design, Plackett-Burman Design), analysis techniques such as T-test, Analysis of Variance, Principal Component Analysis, and other non-parametric tests, along with different software packages used in sensory researches. It highlights the importance of selecting appropriate design and analysis methods based on study objectives and data characteristics with practical examples.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Experimental Designs, Statistical Analysis, Sensory Experiments, RSM</p>
+  </div>
+</div>
+
+</header>
+
+
+<p><a href="https://doi.org/10.65287/josta.202510.B068"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.B068-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17562199"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/JOSTA-202510-B068.pdf" download="" class="j-btn" aria-label="download pdf"> <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i> <span>download pdf</span> </a></p>
+<p><a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation"> <i class="bi bi-clipboard" aria-hidden="true"></i> <span>copy citation</span> <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span> </a></p>
+<p><span class="j-chip" data-doi="10.65287/josta.202510.B068" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
+</div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Gaatha, P., Manju, M. P., Gopinath, P. P., V, K., &amp; Somanath, G. (2025). Designs for sensory experiments and product optimisation: A comprehensive review. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.B068
+</p>
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<hr>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Every step taken towards reduction in postharvest loss has a direct relation to nutritional and sensory quality <span class="citation" data-cites="ziv2021postharvest">(<a href="#ref-ziv2021postharvest" role="doc-biblioref">Ziv and Fallik 2021</a>)</span>. Sensory quality plays an important role in consumer acceptance of a product or produce. Sensory evaluation is an information-gathering process and a multidisciplinary science, including food science, psychology, statistics, and home economics, which measures, analyses, and interprets humans’ behavioural responses to different products based on the five senses of sight, hearing, taste, smell, and touch. This helps in understanding consumer preferences <span class="citation" data-cites="Sharif2017 Stone2020 yu2018design">(<a href="#ref-Sharif2017" role="doc-biblioref">Sharif et al. 2017</a>; <a href="#ref-Stone2020" role="doc-biblioref">Stone, Bleibaum, and Thomas 2020</a>; <a href="#ref-yu2018design" role="doc-biblioref">Yu, Low, and Zhou 2018</a>)</span>. Sensory experiments are controlled scientific studies conducted to understand sensory preferences by human panels. This article covers the different experimental designs, analysis methods, and software packages used in sensory studies, whose understanding helps in conducting proper sensory analysis.</p>
+<p>In order to conduct a sensory experiment, an objective should be formulated. Depending on the objectives there are different methods for sensory evaluation such as affective test, discrimination test, descriptive test and quality test. Different situations in which the tests can be adopted has been shown below in <a href="#tbl-test" class="quarto-xref">Table&nbsp;1</a>.</p>
+<div id="tbl-test" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-test-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Situations where different tests are used
+</figcaption>
+<div aria-describedby="tbl-test-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 58%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Test</strong></th>
+<th><strong>What can be studied</strong></th>
+<th><strong>Measures that can be used</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Affective tests</strong></td>
+<td>Subjective attitudes, such as product acceptance and preference</td>
+<td>nine-point hedonic scale <span class="citation" data-cites="Moskowitz1971">(<a href="#ref-Moskowitz1971" role="doc-biblioref">Moskowitz and Sidel 1971</a>)</span></td>
+</tr>
+<tr class="even">
+<td><strong>Discrimination test</strong></td>
+<td>Whether samples are detectably different from one another</td>
+<td>Duo-Trio and Triangular method <span class="citation" data-cites="bi2015sensory">(<a href="#ref-bi2015sensory" role="doc-biblioref">Bi 2015</a>)</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Descriptive tests</strong></td>
+<td>Sensory properties of products: perceived intensity of those properties <span class="citation" data-cites="Lawless2010">(<a href="#ref-Lawless2010" role="doc-biblioref">Lawless and Heymann 2010</a>)</span></td>
+<td>Quantitative Descriptive Analysis (QDA): attributes are quantified using numerical scales<br> <strong>Sensory profiling:</strong> textural or flavour characteristics are described using words or intensity scales <span class="citation" data-cites="Lawless2010 Risvik1994">(<a href="#ref-Lawless2010" role="doc-biblioref">Lawless and Heymann 2010</a>; <a href="#ref-Risvik1994" role="doc-biblioref">Risvik et al. 1994</a>)</span><br> <strong>Free Choice Profiling (FCP):</strong> panelists can use their own words or use predefined words, but they have to use their words consistently throughout the experiment <span class="citation" data-cites="Punter2018">(<a href="#ref-Punter2018" role="doc-biblioref">Punter 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td><strong>Quality tests</strong></td>
+<td>product’s proximity to a standard</td>
+<td>Projective maps: panelists would arrange products on a paper based on the products’ similarities or dissimilarities <span class="citation" data-cites="Risvik1994">(<a href="#ref-Risvik1994" role="doc-biblioref">Risvik et al. 1994</a>)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Since human panels are involved, there are chances of occurrence of several errors. Designing of experiments is important for the proper conduct of these tests. It is a critically important tool for improving the product realisation process. Design provides structure and ease for carrying out experiments and provides useful outcomes <span class="citation" data-cites="Montgomery2017 RuizCapillas2021a RuizCapillas2021b">(<a href="#ref-Montgomery2017" role="doc-biblioref">Montgomery 2017</a>; <a href="#ref-RuizCapillas2021a" role="doc-biblioref">Ruiz-Capillas and Herrero 2021</a>; <a href="#ref-RuizCapillas2021b" role="doc-biblioref">Ruiz-Capillas et al. 2021</a>)</span>. The use of the right statistical design and analysis procedure is very much essential for proper product development. A comprehensive review of the existing designs and their applications, various tests that can be adopted, as well as different software available for various tests, has been done in this paper. This will be useful for researchers working in the area of sensory experiments with less statistical background.</p>
+</section>
+<section id="designs-and-approaches-in-sensory-experiments" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="designs-and-approaches-in-sensory-experiments"><span class="header-section-number">2</span> Designs And Approaches in Sensory Experiments</h2>
+<p>In design of experiments, the objects of comparison such as the combination of ingredients or the conditions suitable for the development of a particular product, are termed as Treatments. Experimental units are the subjects or objects on which treatments are applied. In case of sensory experiments, the evaluators or the samples used for the sensory evaluation can be the experimental unit depending on the objective. Evaluators can also be called as panelists. The outcomes observed as a result of the treatment is termed as responses. Responses are also known as the dependent factors, since it is dependent on the independent factors, whose influence on a response variable is being studied in the experiment. For example, consider the study on the effect of poppy, sucrose, and citric acid on the taste, smell, colour, and general acceptance of a Turkish sherbet, as carried out by <span class="citation" data-cites="aydogdu2023poppy">Aydoğdu, Tokatlı Demirok, and Yıkmış (<a href="#ref-aydogdu2023poppy" role="doc-biblioref">2023</a>)</span>, where poppy, sucrose, and citric acid levels were the independent variables. The taste, smell, colour, and general acceptance were the dependent variables.</p>
+<p>While designing an experiment, three basic principles are to be followed, viz.&nbsp;randomization, replication, and local control (blocking). Randomization ensures equal chances for each experimental unit to receive each treatment. Replication is the repetition of treatments to obtain more accurate results. In sensory experiments, blocks could be panelists or sessions <span class="citation" data-cites="das1986design gacula2008sensory jankovic2021doe Lawless2010 Montgomery2017">(<a href="#ref-das1986design" role="doc-biblioref">Das and Giri 1986</a>; <a href="#ref-gacula2008sensory" role="doc-biblioref">Gacula 2008</a>; <a href="#ref-jankovic2021doe" role="doc-biblioref">Jankovic, Chaudhary, and Goia 2021</a>; <a href="#ref-Lawless2010" role="doc-biblioref">Lawless and Heymann 2010</a>; <a href="#ref-Montgomery2017" role="doc-biblioref">Montgomery 2017</a>)</span>. The number of panelists is decided based on the extent of training. If the panelists are trained, only five to ten panelists would be required; 25 panelists are needed if they are semi-trained, and at least 100 panelists are required if they are untrained. Different designs are available, and one can choose their design based on the objective of the experiment <span class="citation" data-cites="BIS1971">(<a href="#ref-BIS1971" role="doc-biblioref">Indian Standards et al. 1971</a>)</span>. Through this paper, we intend to discuss various designs for sensory experiments and product formulation, as well as different analysis procedures to be adopted on the data generated.</p>
+<section id="paired-comparison-design" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="paired-comparison-design"><span class="header-section-number">2.1</span> Paired comparison design</h3>
+<p>If the objective of the experiment is to identify the effect of flavouring on liking, or to identify a preferred product between two products, paired comparison designs are used. Here, the panelists are provided with two samples, and since the evaluation is being done by the same panelists, the scores will be correlated <span class="citation" data-cites="gacula2008sensory">(<a href="#ref-gacula2008sensory" role="doc-biblioref">Gacula 2008</a>)</span>. The null hypothesis would be that the two samples have the same effect. The objective is to select the better formulation.</p>
+</section>
+<section id="group-comparison-design" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="group-comparison-design"><span class="header-section-number">2.2</span> Group comparison design</h3>
+<p>For the comparison of two formulations based on a standard, group comparison designs are used. There must only be a small variation in scores among panelists and fairly homogeneous experimental units for the design to give better results <span class="citation" data-cites="gacula2008sensory">(<a href="#ref-gacula2008sensory" role="doc-biblioref">Gacula 2008</a>)</span>. The null hypothesis would be that both of the formulations are similar to the standard. The objective is to identify the one which is more similar to the standard in terms of liking.</p>
+</section>
+<section id="completely-randomised-design-crd" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="completely-randomised-design-crd"><span class="header-section-number">2.3</span> Completely Randomised Design (CRD)</h3>
+<p>When the comparison is among more than two formulations or combinations or characteristics, such as the effects of flavouring on liking, Completely Randomised Designs (CRD) are used. In CRD, treatments can be equally or unequally replicated and the experimental units are expected to be homogenous. The total number of samples would be the number of treatments × replication, and each sample would be given to the panelists <span class="citation" data-cites="Lawless2010">(<a href="#ref-Lawless2010" role="doc-biblioref">Lawless and Heymann 2010</a>)</span>. <span class="citation" data-cites="More2019">More and Chavan (<a href="#ref-More2019" role="doc-biblioref">2019</a>)</span> had three treatments, five replications, and the total number of samples were 15. Five trained panelists evaluated all of the samples to analyse the effect of red pumpkin powder on burfi (sweet dish). The levels of red pumpkin powder were varied as 15 percent, 17 percent, and 19 percent, keeping condensed milk solids and sugar levels constant. Usually, in CRD, sensory fatigue occurs in panelists when samples are tasted continuously. To avoid that, Monadic designs are often associated with CRD. In monadic designs, panelists are divided into groups, and each group is given one treatment. In sequential monadic designs, each panellist is given all the treatments but not the replications. Monadic designs are better when the number of panelists is large <span class="citation" data-cites="Lawless2010">(<a href="#ref-Lawless2010" role="doc-biblioref">Lawless and Heymann 2010</a>)</span>. <span class="citation" data-cites="fatoretto2018tomatoes">Fatoretto et al. (<a href="#ref-fatoretto2018tomatoes" role="doc-biblioref">2018</a>)</span> conducted a sequential monadic experiment and gave two samples each of dehydrated Italian and grape tomatoes to each panellist. A total of 100 samples were made for 50 panelists. Other experiments that employed CRD include <span class="citation" data-cites="baclayon2020custard Suryani2016">(<a href="#ref-baclayon2020custard" role="doc-biblioref">Baclayon, Cerna, and Cimafranca 2020</a>; <a href="#ref-Suryani2016" role="doc-biblioref">Suryani and Norhasanah 2016</a>)</span>.</p>
+</section>
+<section id="randomised-complete-block-design-rcbd" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="randomised-complete-block-design-rcbd"><span class="header-section-number">2.4</span> Randomised Complete Block Design (RCBD)</h3>
+<p>For the same objective of comparison among more than two formulations, but with blocking, Randomised Complete Block Design (RCBD) can be used. Blocks could be panelists or sessions. In RCBD, every treatment must be equally replicated. In sensory experiments, with panellist as a block, all the treatments will be given in a randomised order to a panellist and then, after a small break, all treatments are given again in some other order. The number of times this process is repeated will be the number of replications. Similarly, the treatments are given to all the other blocks <span class="citation" data-cites="silva2014bibd">(<a href="#ref-silva2014bibd" role="doc-biblioref">Silva et al. 2014</a>)</span>. If session is a block, each panellist will be attending each session and testing each of the samples. Sessions could be divided into periods such that each treatment appears only once in each session. The total number of sessions will be the number of replications of each treatment <span class="citation" data-cites="chambers1981statistical">(<a href="#ref-chambers1981statistical" role="doc-biblioref">Chambers, Bowers, and Dayton 1981</a>)</span>.</p>
+</section>
+<section id="balanced-incomplete-block-design-bibd" class="level3" data-number="2.5">
+<h3 data-number="2.5" class="anchored" data-anchor-id="balanced-incomplete-block-design-bibd"><span class="header-section-number">2.5</span> Balanced Incomplete Block Design (BIBD)</h3>
+<p>When the number of treatments to be evaluated becomes larger, Balanced Incomplete Block Design (BIBD) is used. A BIBD is an arrangement of v treatments in b blocks such that there will be k(&lt;v) treatments in each block, each treatment will be repeated r times and every pair of treatments will be appearing together in λ(lambda) blocks. Here, any two blocks will have the same number of treatments, but the combinations can differ. These combinations should be arranged in such a manner that any two pairs occur the same number of times as any other pair. For example, <span class="citation" data-cites="silva2014bibd">Silva et al. (<a href="#ref-silva2014bibd" role="doc-biblioref">2014</a>)</span> employed BIBD to compare five grape juices made from different pulp concentrations for six attributes such as violet colour, grape aroma, sweetness, sourness, grape flavour, and mouthfeel. In a block, only three treatments (juices of different pulp concentrations) were taken, and there were ten blocks (sessions). Similarly, <span class="citation" data-cites="hinneh2020chocolates">Hinneh et al. (<a href="#ref-hinneh2020chocolates" role="doc-biblioref">2020</a>)</span> employed BIBD for sensory profiling of chocolate in their experiment. Ten attributes; cocoa, acidity, astringency, bitterness, nuttiness, woodiness, floral, fresh fruit, browned fruit and spiciness were tested. The basic design had 16 chocolates (treatments) and 16 sessions, and in each session six chocolates were test. In BIBD, the number of sessions should at least equal the number of treatments.</p>
+</section>
+<section id="resolvable-multisession-sensory-design" class="level3" data-number="2.6">
+<h3 data-number="2.6" class="anchored" data-anchor-id="resolvable-multisession-sensory-design"><span class="header-section-number">2.6</span> Resolvable multisession sensory design</h3>
+<p><span class="citation" data-cites="Saurav2017">Saurav et al. (<a href="#ref-Saurav2017" role="doc-biblioref">2017</a>)</span> developed this design specifically, to avoid carryover effect and reduce sensory fatigue. If there are v products to be tested, and ‘v’ is a prime number or prime power this design can be used. Here the number of panelists will also be ‘v’. ‘v’ can be denoted as v= 4t+1, 6t+1, or 4t+3, where ‘t’ is the number of sessions. Sessions are divided into periods such that total number of periods should be v-1 and each period should contain all the products. Order of products in each period is randomised such that a panellist should not be testing a single product more than once. After v-1 periods, each panellist will be testing v-1 products. This design is resolvable since in all the sessions each treatment is repeated the same number of times.</p>
+</section>
+<section id="latin-square-design-lsd" class="level3" data-number="2.7">
+<h3 data-number="2.7" class="anchored" data-anchor-id="latin-square-design-lsd"><span class="header-section-number">2.7</span> Latin Square Design (LSD)</h3>
+<p><span class="citation" data-cites="wakeling1995consumer">Wakeling and MacFie (<a href="#ref-wakeling1995consumer" role="doc-biblioref">1995</a>)</span> detailed the use of Latin squares <span class="citation" data-cites="williams1949experimental">(<a href="#ref-williams1949experimental" role="doc-biblioref">Williams 1949</a>)</span> in sensory experiments. They specified the number of consumers needed for testing a given number of products. The all-possible-combination approach and designs based on Mutually Orthogonal Latin Squares (MOLS) were also discussed. <span class="citation" data-cites="Rodrigues2017">Rodrigues et al. (<a href="#ref-Rodrigues2017" role="doc-biblioref">2017</a>)</span> employed a special type of Latin square, known as the Sudoku design, in their experiment. The experiment tested 16 treatments (15 different samples and one repeat sample). A series of eight Sudoku designs were used four randomized independently and four others in the reverse order giving a 16 × 16 design. Sixteen panelists were assigned to test the 16 samples in random orders. The experiment had eight replications with different panelists, resulting in a total of 128 panelists. Here, the experimental unit was a particular order of 16 samples. <span class="citation" data-cites="Saurav2017">Saurav et al. (<a href="#ref-Saurav2017" role="doc-biblioref">2017</a>)</span> detailed the applications of Williams Latin Square Design (LSD), which is popular in sensory trials due to the minimization of carryover effects. As in CRD, samples can also be presented monadically within Williams LSD <span class="citation" data-cites="depetris2024wine Nandorfy2023">(<a href="#ref-depetris2024wine" role="doc-biblioref">Depetris Chauvin et al. 2024</a>; <a href="#ref-Nandorfy2023" role="doc-biblioref">Nandorfy et al. 2023</a>)</span>.</p>
+</section>
+<section id="factorial-experiments" class="level3" data-number="2.8">
+<h3 data-number="2.8" class="anchored" data-anchor-id="factorial-experiments"><span class="header-section-number">2.8</span> Factorial experiments</h3>
+<p>When different levels of different factors are studied, factorial experiments are used. In full factorial experiments, in each replication, all possible combinations of all factors are investigated. If there are k factors with n levels, the total number of trials will be n<sup>k</sup> <span class="citation" data-cites="das1986design">(<a href="#ref-das1986design" role="doc-biblioref">Das and Giri 1986</a>)</span>. <span class="citation" data-cites="arpi2023physicochemical">Arpi et al. (<a href="#ref-arpi2023physicochemical" role="doc-biblioref">2023</a>)</span> conducted a 2×3 factorial experiment in CRD, where one factor (concentration of cascara extract) was at two levels (20% and 25%) and the other factor (concentration of lemon extract) was at three levels (0%, 3%, and 5%). Six treatment combinations were there with three replications each. A total of 18 samples were made, and each panellist tested all these samples. Full factorial experiments result in higher costs as the number of factors and levels increases <span class="citation" data-cites="jankovic2021doe">(<a href="#ref-jankovic2021doe" role="doc-biblioref">Jankovic, Chaudhary, and Goia 2021</a>)</span>.</p>
+</section>
+<section id="response-surface-methodology-rsm" class="level3" data-number="2.9">
+<h3 data-number="2.9" class="anchored" data-anchor-id="response-surface-methodology-rsm"><span class="header-section-number">2.9</span> Response Surface Methodology (RSM)</h3>
+<p>RSM is a collection of statistical and mathematical techniques used for developing new products, improving existing products, and optimising production processes. Optimisation techniques are used for the estimation of interactions among the independent variables and their quadratic effects on response variables. Optimisation experiments could be mixture experiments or non-mixture experiments, based on the independent and response variables. In a mixture experiment, the response variable is dependent on the proportions of the independent variables. When the level of one of the ingredients changes, the levels of the others will also change accordingly so that the total proportion equals 1. In non-mixture experiments, changing the level of one of the ingredients does not affect the levels of the others <span class="citation" data-cites="gacula2008sensory">(<a href="#ref-gacula2008sensory" role="doc-biblioref">Gacula 2008</a>)</span>. Most practical applications of RSM involve more than one response <span class="citation" data-cites="Myers2016">(<a href="#ref-Myers2016" role="doc-biblioref">Myers, Montgomery, and Anderson-Cook 2016</a>)</span>.</p>
+</section>
+<section id="response-surface-designs" class="level3" data-number="2.10">
+<h3 data-number="2.10" class="anchored" data-anchor-id="response-surface-designs"><span class="header-section-number">2.10</span> Response surface designs</h3>
+<p>Factor–response relationship is known as the response surface. To obtain optimum results, the treatment combinations should be carefully chosen. Designs used for statistical modelling of the optimisation of a product or process are called response surface designs. The commonly used designs are Central Composite Design (CCD), Box–Behnken Design (BBD), and Plackett–Burman Design (PBD) <span class="citation" data-cites="gacula2008sensory">(<a href="#ref-gacula2008sensory" role="doc-biblioref">Gacula 2008</a>)</span>.</p>
+<section id="plackett-burman-design" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="plackett-burman-design">Plackett-Burman Design</h4>
+<p>This design is popular as it allows the screening of main factors from a large number of variables that can be retained in the further optimisation process <span class="citation" data-cites="Siala2012">(<a href="#ref-Siala2012" role="doc-biblioref">Siala et al. 2012</a>)</span>. It allows two levels for each control variable, similar to a two-level factorial model, and requires a much smaller number of experimental runs, making it more economical <span class="citation" data-cites="khuri2010rsm">(<a href="#ref-khuri2010rsm" role="doc-biblioref">Khuri and Mukhopadhyay 2010</a>)</span>. <span class="citation" data-cites="boateng2021infrared">Boateng and Yang (<a href="#ref-boateng2021infrared" role="doc-biblioref">2021</a>)</span>, in their experiment, used PBD for screening important factors affecting infrared drying.</p>
+</section>
+<section id="central-composite-design" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="central-composite-design">Central Composite Design</h4>
+<p>CCD has an embedded factorial design and is preferred over 3<sup>k</sup> factorial to model a quadratic relationship because it requires fewer assays to achieve better modelling. Along with the experimental points of the factorial design, CCD considers additional points known as star points or axial points and centre points. However, a CCD includes extreme points, which is not advisable for special processes such as extraction of a compound sensitive to high temperature and pressure <span class="citation" data-cites="gacula2008sensory Myers2016">(<a href="#ref-gacula2008sensory" role="doc-biblioref">Gacula 2008</a>; <a href="#ref-Myers2016" role="doc-biblioref">Myers, Montgomery, and Anderson-Cook 2016</a>)</span>. The total number of trials for the design is F + 2v + n<sub>c</sub>, where F is the number of factorial points, v is the number of factors, and n<sub>c</sub> is the number of centre points. In their study, <span class="citation" data-cites="Nahemiah2016">Nahemiah (<a href="#ref-Nahemiah2016" role="doc-biblioref">2016</a>)</span> considered three factors at two levels, and axial and centre points were included to obtain values at five levels. The number of factorial points was 8, and one centre point was used; hence, the number of trials was 8 + 6 + 1 = 15. In this case, the axial level, <span class="math inline">\(\alpha = \left(2^{\,n-1}\right)^{\frac{1}{n}} = 1.68\)</span>; where n is 3, the number of factors considered in the experiment. The axial point is calculated as: Centre ± [<span class="math inline">\(\alpha\)</span>× (High level − Low level) / 2]. In their study, the centre point was replicated five times, and all other runs were replicated twice. <span class="citation" data-cites="vanlinh2019interactions">Van Linh et al. (<a href="#ref-vanlinh2019interactions" role="doc-biblioref">2019</a>)</span> presented a 2<sup>2</sup> factorial CCD design with 13 runs, while <span class="citation" data-cites="anisa2017optimization">Anisa, Solomon, and Solomon (<a href="#ref-anisa2017optimization" role="doc-biblioref">2017</a>)</span> demonstrated a face-centred CCD design.</p>
+</section>
+<section id="box-behnken-design" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="box-behnken-design">Box Behnken Design</h4>
+<p>In Box–Behnken Design (BBD), only three levels are needed for each factor. It considers face points rather than axial points, as in CCD. The number of design points increases with the number of factors; hence, the number of factors for product formulation is usually limited to four when this design is used <span class="citation" data-cites="gacula2008sensory">(<a href="#ref-gacula2008sensory" role="doc-biblioref">Gacula 2008</a>)</span>. Applying this design is popular in food processes due to its economical nature <span class="citation" data-cites="yolmeh2017applications">(<a href="#ref-yolmeh2017applications" role="doc-biblioref">Yolmeh and Jafari 2017</a>)</span>. The number of trials for BBD is given by the formula N = 2v(v − 1) + n<sub>c</sub>, where v is the number of factors and n<sub>c</sub> is the number of centre points. In their study, <span class="citation" data-cites="li2024bran">Li et al. (<a href="#ref-li2024bran" role="doc-biblioref">2024</a>)</span> developed a three level three factor design, with N= 2*3(3-1) + n<sub>c</sub> = 12+n<sub>c</sub> , to improve the tensile properties, colour, and sensory quality of bran-yogurt stewing noodles. Design Expert software was used to generate the design. Here the centre point was replicated five times, resulting in a total of 17 trials.</p>
+</section>
+</section>
+</section>
+<section id="analysis-of-sensory-data" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="analysis-of-sensory-data"><span class="header-section-number">3</span> Analysis of Sensory Data</h2>
+<p>The common techniques used in the analysis of sensory data are discussed below. The selection of an analysis method depends on the type of data generated and the objective of the study. In CRD, RCBD, BIBD, Williams LSD, and resolvable multisession sensory designs, the experiment should generate numerical data (interval or ratio scale) <span class="citation" data-cites="Bower2013">(<a href="#ref-Bower2013" role="doc-biblioref">Bower 2013</a>)</span>. In comparison designs, the data generated can be numerical (scores) or ordinal (data from different scales). <span class="citation" data-cites="yu2018design">Yu, Low, and Zhou (<a href="#ref-yu2018design" role="doc-biblioref">2018</a>)</span> comprehensively reviewed the application of regression analysis in sensory data. Some other common analyses followed are discussed in this paper.</p>
+<section id="paired-t-test" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="paired-t-test"><span class="header-section-number">3.1</span> Paired t test</h3>
+<p>For paired and group comparison design, for significance testing, a t test can be used for analysis of the data obtained. Most preferred t test is a paired t test. It is used in situations where each panelists evaluate both the product. Let X<sub>1i</sub> be the response for first formulation by i<sup>th</sup> panellist and X<sub>2i</sub> be the response for the second formulation by the same panellist, X<sub>1i</sub> – X<sub>2i</sub> = d<sub>i</sub>. d<sub>i</sub> is the observed difference. It is assumed that d is distributed normally with mean <span class="math inline">\(\bar{d}\)</span> and variance σ<sup>2</sup>, Test statistic is:</p>
+<p><span id="eq-eq1"><span class="math display">\[t_{(n-1)} = \frac{\bar{d}}{\sigma / \sqrt{n}} \tag{1}\]</span></span></p>
+<p>Where, <span class="math inline">\(sd = \sqrt{\frac{\sum_{i=1}^{n}(d_i - \bar{d})^2}{n - 1}}\)</span>. Since the null hypothesis is H<sub>0</sub>: µ<sub>1</sub> = µ<sub>2</sub>; µ = µ<sub>1</sub> - µ<sub>2</sub> =0. µ1 is the mean score of first product and µ<sub>2</sub> is the mean score of second product.If the t-value is greater than the critical value from the t-distribution table, the difference is considered significant <span class="citation" data-cites="gacula2008sensory">(<a href="#ref-gacula2008sensory" role="doc-biblioref">Gacula 2008</a>)</span>. Other variations of t-tests include the single-sample test, where a product is evaluated by panelists based on a control, and the independent t-test, where two products are evaluated by two different groups of panelists <span class="citation" data-cites="Lawless2010">(<a href="#ref-Lawless2010" role="doc-biblioref">Lawless and Heymann 2010</a>)</span>. <span class="citation" data-cites="Rao2024">Rao et al. (<a href="#ref-Rao2024" role="doc-biblioref">2024</a>)</span>, in their comparative study on guava juices, used a t-test.</p>
+</section>
+<section id="mann-whitney-u-test" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="mann-whitney-u-test"><span class="header-section-number">3.2</span> Mann-Whitney U test</h3>
+<p>When the data generated are scores or ranks (ordinal data), instead of t test, its non-parametric counterpart, Mann-Whitney U test is used. Consider two samples a and b with n<sub>a</sub> and n<sub>b</sub> number of scores. The scores would then be combined and ranked. Then the rank scores will be divided by groups to find T<sub>a</sub> and T<sub>b</sub>, sums of rank scores of a and b respectively.</p>
+<p><span id="eq-eq2"><span class="math display">\[U_a = T_a - \frac{n_a(n_a + 1)}{2} \tag{2}\]</span></span></p>
+<p><span id="eq-eq3"><span class="math display">\[U_b = T_b - \frac{n_b(n_b + 1)}{2} \tag{3}\]</span></span></p>
+<p>U is the minimum of U<sub>a</sub> and U<sub>b</sub>. If the value is greater than the critical value from the Mann–Whitney table, there is a significant difference <span class="citation" data-cites="macfarland2016nonparametric">(<a href="#ref-macfarland2016nonparametric" role="doc-biblioref">MacFarland and Yates 2016</a>)</span>.</p>
+</section>
+<section id="chi-square-test" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="chi-square-test"><span class="header-section-number">3.3</span> Chi square test</h3>
+<p>Chi-square tests are used in the case of difference tests or discrimination tests (Nominal data) <span class="citation" data-cites="boggs1949sensory">(<a href="#ref-boggs1949sensory" role="doc-biblioref">Boggs and Hanson 1949</a>)</span>.</p>
+<p><span id="eq-eq4"><span class="math display">\[\chi^2 = \frac{(a - rb)^2}{r(a - b)} \tag{4}\]</span></span></p>
+<p>where O<sub>ij</sub> and E<sub>ij</sub> are the observed and expected frequencies respectively.</p>
+</section>
+<section id="analysis-of-variance-anova" class="level3" data-number="3.4">
+<h3 data-number="3.4" class="anchored" data-anchor-id="analysis-of-variance-anova"><span class="header-section-number">3.4</span> Analysis of Variance (ANOVA)</h3>
+<p>For designs with more than two treatments, and the data generated are normally distributed, ANOVA (Analysis of Variance) can be conducted. A normality test is recommended before proceeding with ANOVA. In ANOVA the total variation in the observed data is partitioned into different sources. Number of sources in ANOVA is dependent on the designs used. For example, in CRD the source of variation is from treatments, so one-way ANOVA is performed. And if RCBD is used, two-way ANOVA is performed where block effect is also accounted for. From ANOVA, F ratio statistic is obtained and if found significant, indicates that at least one treatment mean is significantly different from one or more treatments in the experiment. To identify the treatments that are similar, pairwise comparisons can be carried out using multiple comparison procedures. Least Significant Difference (LSD) test, Tukey’s test, and Duncan’s Multiple Range Test (DMRT) are some of the common multiple comparison tests used <span class="citation" data-cites="gacula2013statistical agbangba2024posthoc">(<a href="#ref-gacula2013statistical" role="doc-biblioref">Gacula 2013</a>; <a href="#ref-agbangba2024posthoc" role="doc-biblioref">Agbangba et al. 2024</a>)</span>.</p>
+<section id="least-significant-difference" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="least-significant-difference">Least Significant Difference</h4>
+<p>LSD allows for a direct comparison of two means from two different groups by calculating the smallest significance as if a test had been run on those two means. Any difference between the means greater than the LSD is considered statistically significant. If t is the critical value from the 𝑡-distribution table, MSE is the mean square error obtained from the results of the ANOVA test, and n<sub>i</sub> and n<sub>j</sub> are the number of scores used to calculate the means:</p>
+<p><span id="eq-eq5"><span class="math display">\[LSD = t_{(\alpha/2, df)} \times \sqrt{MSE \times \left(\frac{1}{n_i} + \frac{1}{n_j}\right)} \tag{5}\]</span></span></p>
+<p>µ<sub>i</sub> and µ<sub>j</sub> are the mean scores of the two groups. d<sub>ij</sub> =|µ<sub>i</sub> - µ<sub>j</sub>|, will be calculated and when d<sub>ij</sub>&gt; LSD, significance will be declared <span class="citation" data-cites="gacula2013statistical">(<a href="#ref-gacula2013statistical" role="doc-biblioref">Gacula 2013</a>)</span>.</p>
+</section>
+<section id="duncans-multiple-range-test-dmrt" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="duncans-multiple-range-test-dmrt">Duncan’s Multiple Range Test (DMRT)</h4>
+<p>It is more useful than LSD when there are more number of pairs to be compared. <span id="eq-eq6"><span class="math display">\[T = q_{(\alpha/2, df, ds)} \times \sqrt{MSE \times \left(\frac{1}{n_i} + \frac{1}{n_j}\right)} \tag{6}\]</span></span></p>
+<p>T is the lowest significant difference, q is the critical value from the q distribution table, n<sub>i</sub> and n<sub>j</sub> are the number of scores used to calculate the means, r is the range, or the number of means being compared, df is the error degrees of freedom and MSE is the mean square error obtained from the results of the ANOVA test. Here the sample mean will be arranged in ascending order to find the degrees of separation and T values will be calculated. If difference of mean pairs is greater than T, significant difference will be declared. As the range r increases, the critical value q and, consequently, the T value also increase. This means that, comparisons between means that are farther apart require a larger difference to be considered significant. Therefore, the values of T in DMRT differ for each range, with smaller T values for adjacent means and larger ones for more widely separated means, making the test stepwise and more precise in identifying significant differences among treatments<span class="citation" data-cites="gacula2013statistical">(<a href="#ref-gacula2013statistical" role="doc-biblioref">Gacula 2013</a>)</span>.</p>
+</section>
+<section id="tukeys-test" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="tukeys-test">Tukey’s test</h4>
+<p>Tukey’s test is designed for equal variance and group size. The critical difference to be exceeded is called the Honestly Significant Difference (HSD). If µ<sub>i</sub> and µ<sub>j</sub> are the means to be compared and n is the number of scores used for calculating mean</p>
+<p><span id="eq-eq7"><span class="math display">\[HSD = \frac{(\mu_i - \mu_j)}{\sqrt{MSE / n}} \tag{7}\]</span></span></p>
+<p>If µ<sub>i</sub> - µ<sub>j</sub>&gt; HSD, there is significant difference <span class="citation" data-cites="gacula2013statistical">(<a href="#ref-gacula2013statistical" role="doc-biblioref">Gacula 2013</a>)</span>.</p>
+<p>LSD is a sensitive procedure; however, it does not regulate the overall (experiment-wise) error rate. When applied to multiple pairwise comparisons, it can substantially increase the likelihood of Type I errors. In contrast, Tukey’s HSD and DMRT provides stronger protection against false positives and is therefore typically a more reliable option for comparing several means <span class="citation" data-cites="Montgomery2017">(<a href="#ref-Montgomery2017" role="doc-biblioref">Montgomery 2017</a>)</span>.</p>
+</section>
+</section>
+<section id="kruskal-wallis-h-test" class="level3" data-number="3.5">
+<h3 data-number="3.5" class="anchored" data-anchor-id="kruskal-wallis-h-test"><span class="header-section-number">3.5</span> Kruskal-Wallis H test</h3>
+<p>It is the nonparametric counterpart of one-way ANOVA. Consider a, b, …, n groups, with n<sub>a</sub>, n<sub>b</sub> ,…, n<sub>n</sub> scores, for Kruskal-Wallis test, the scores are combined and ranked, and the rank scores are summed by group to obtain T<sub>1</sub>, T<sub>2</sub>, …,T<sub>n</sub>. Let T<sub>c</sub> denote the rank sum of each sample, n<sub>c</sub> denote the number of scores for each sample and N is the total number of participants. If the H value is greater than the chi-square table value, there is a significant difference between at least one treatment pair <span class="citation" data-cites="kruskal1952ranks">(<a href="#ref-kruskal1952ranks" role="doc-biblioref">Kruskal and Wallis 1952</a>)</span>.</p>
+<p><span id="eq-eq8"><span class="math display">\[H = \left[ \frac{12}{N(N + 1)} \sum \frac{T_c^2}{n_c} \right] - 3(N + 1) \tag{8}\]</span></span></p>
+<p>Dunn’s test can be performed as the post hoc test if the test is found significant.</p>
+</section>
+<section id="friedmans-test" class="level3" data-number="3.6">
+<h3 data-number="3.6" class="anchored" data-anchor-id="friedmans-test"><span class="header-section-number">3.6</span> Friedman’s test</h3>
+<p>It is the nonparametric counterpart of two-way ANOVA, where sessions or panelists could be considered as blocks. <span class="citation" data-cites="Pereira2015">Pereira, Afonso, and Medeiros (<a href="#ref-Pereira2015" role="doc-biblioref">2015</a>)</span> reviewed <span class="citation" data-cites="siegel1988nonparametric">Siegel and Castellan (<a href="#ref-siegel1988nonparametric" role="doc-biblioref">1988</a>)</span>, describing the test statistic and post hoc analysis. The data are represented with n rows and k columns. The rows represent the blocks, and the columns represent the treatments. R<sub>·k</sub> is the sum of ranks for treatment k over n blocks.</p>
+<p><span id="eq-eq9"><span class="math display">\[T = \left[ \frac{12}{nK(K + 1)} \sum R_{.k}^2 \right] - 3n(K + 1) \tag{9}\]</span></span></p>
+<p>Wilcoxon test, Wilcoxon-Nemenyi-McDonald-Thompson test, sign test, or Dunn’s test can be considered for post hoc analysis.</p>
+</section>
+<section id="principal-component-analysis-pca" class="level3" data-number="3.7">
+<h3 data-number="3.7" class="anchored" data-anchor-id="principal-component-analysis-pca"><span class="header-section-number">3.7</span> Principal Component Analysis (PCA)</h3>
+<p>PCA is mostly used in Quantitative Descriptive Analysis (QDA) and for analysing projective maps <span class="citation" data-cites="Valentin2012">(<a href="#ref-Valentin2012" role="doc-biblioref">Valentin et al. 2012</a>)</span> with seven or more samples. Attributes are often removed from the analysis if they appear in lower quantities or occur fewer times <span class="citation" data-cites="civille2012sensory">(<a href="#ref-civille2012sensory" role="doc-biblioref">Civille and Oftedal 2012</a>)</span>. In QDA, data can be averaged across panelists or used in raw form. Averaging simplifies the data but masks individual differences <span class="citation" data-cites="Naes2021">(<a href="#ref-Naes2021" role="doc-biblioref">Næs et al. 2021</a>)</span>. A product (columns) × attribute (rows) matrix is reduced to a smaller number of independent components or factors without sacrificing the information contained in the larger dataset. Each of the original attributes is then projected onto the resulting components to interpret them. The cosine of the angle between the attribute vector and each component gives the correlation between them, and the length of the vector is proportional to the variance <span class="citation" data-cites="greenhoff1994preferencemapping">(<a href="#ref-greenhoff1994preferencemapping" role="doc-biblioref">Greenhoff and MacFie 1994</a>)</span>.</p>
+</section>
+<section id="multiple-factor-analysis-mfa" class="level3" data-number="3.8">
+<h3 data-number="3.8" class="anchored" data-anchor-id="multiple-factor-analysis-mfa"><span class="header-section-number">3.8</span> Multiple Factor Analysis (MFA)</h3>
+<p>Multiple Factor Analysis (MFA) is a multivariate method used when the same set of individuals is described by several groups of variables. By balancing each group’s contribution, MFA creates a unified space that allows joint interpretation of all data blocks. In sensory science, it is particularly useful when products are evaluated by multiple panels or when sensory and physicochemical measurements are combined. MFA helps identify product similarities, assess agreement between groups, and determine how different variable sets contribute to product discrimination <span class="citation" data-cites="PagesHusson2014">(<a href="#ref-PagesHusson2014" role="doc-biblioref">Pagès and Husson 2014</a>)</span>.</p>
+</section>
+<section id="thurstonian-models" class="level3" data-number="3.9">
+<h3 data-number="3.9" class="anchored" data-anchor-id="thurstonian-models"><span class="header-section-number">3.9</span> Thurstonian models</h3>
+<p>Since the discrimination tests like triangle tests, duo-trio tests etc results in binary data, Thurstonian models are used for the analysis, where the binary data are transformed to relative sensory differences <span class="citation" data-cites="christensen2009samedifferent">(<a href="#ref-christensen2009samedifferent" role="doc-biblioref">Christensen and Brockhoff 2009</a>)</span>. It measures how well individuals can distinguish between two similar stimuli based on their internal sensory responses. It produces a value called d′ (d-prime), d′ quantifies the separation between the two internal response distributions in standard deviation units. Higher values of d′, reflects better discrimination <span class="citation" data-cites="lee2004thurstonian">(<a href="#ref-lee2004thurstonian" role="doc-biblioref">Lee and O’Mahony 2004</a>)</span>. <span class="citation" data-cites="bi2024thurstonian">Bi and Kuesten (<a href="#ref-bi2024thurstonian" role="doc-biblioref">2024</a>)</span> modelled the duo trio test and its variants, deriving Thurstonian psychometric functions, comparing statistical power across formats, and providing R code for computing d′ and its variance to improve precision in sensory test sensitivity assessment.</p>
+</section>
+<section id="general-procrustean-analysis-gpa" class="level3" data-number="3.10">
+<h3 data-number="3.10" class="anchored" data-anchor-id="general-procrustean-analysis-gpa"><span class="header-section-number">3.10</span> General Procrustean Analysis (GPA)</h3>
+<p>In Free Choice Profiling, each panellist is using their own words, hence the data cannot be averaged. Instead, an individual matrix is created for each panellist to compute an n-dimensional product space, and these product spaces are then averaged to form a consensus configuration. Procrustes ANOVA (PANOVA) is conducted before applying transformations. Three transformations-rotation, translation, and isotropic scaling-are then performed to align the individual configurations, minimizing differences and generating the final consensus space <span class="citation" data-cites="Bower2013">(<a href="#ref-Bower2013" role="doc-biblioref">Bower 2013</a>)</span>.</p>
+</section>
+<section id="linear-mixed-effects-model" class="level3" data-number="3.11">
+<h3 data-number="3.11" class="anchored" data-anchor-id="linear-mixed-effects-model"><span class="header-section-number">3.11</span> Linear Mixed Effects Model</h3>
+<p>Mixed-effects models are widely applied in sensory and consumer research because they incorporate both fixed sources of variation, such as products, and random sources, such as assessors. Their ability to account for repeated measurements, assessor variability, and assessor–product interactions enables more reliable estimation of product differences. In sensory profiling, product effects are typically treated as fixed, whereas assessors and their interactions with products are modeled as random to permit generalization beyond the specific panel <span class="citation" data-cites="Lawless2010">(<a href="#ref-Lawless2010" role="doc-biblioref">Lawless and Heymann 2010</a>)</span>. Compared with traditional ANOVA, mixed-effects models also handle unbalanced data and missing observations more effectively. Recent advances, including automated model-selection tools proposed by <span class="citation" data-cites="Kuznetsova2015">(<a href="#ref-Kuznetsova2015" role="doc-biblioref">Kuznetsova et al. 2015</a>)</span> have further improved their practical application. Overall, these developments demonstrate the strong suitability of mixed-effects models for analyzing sensory responses under realistic experimental conditions.</p>
+</section>
+<section id="ordinal-logistic-regression" class="level3" data-number="3.12">
+<h3 data-number="3.12" class="anchored" data-anchor-id="ordinal-logistic-regression"><span class="header-section-number">3.12</span> Ordinal Logistic Regression</h3>
+<p>The ordinal logistic regression or proportional odds model (POM), is used to analyze ordered categorical responses without assuming equal spacing between categories. It models the cumulative probability of a response being at or below each category under the assumption that predictor effects on the log-odds are constant across thresholds, known as the proportional odds assumption <span class="citation" data-cites="Agresti2010">(<a href="#ref-Agresti2010" role="doc-biblioref">Agresti 2010</a>)</span>. This makes POM appropriate for sensory and consumer research that commonly employs ordinal rating scales. For example, <span class="citation" data-cites="fatoretto2018tomatoes">(<a href="#ref-fatoretto2018tomatoes" role="doc-biblioref">Fatoretto et al. 2018</a>)</span> applied POM to evaluate dehydrated tomato samples and demonstrated that processing treatments significantly increased the likelihood of higher sensory ratings. By retaining the ordinal nature of sensory scores, the POM provides a robust framework for assessing product differences in ordered sensory datasets.</p>
+</section>
+<section id="rsm-analysis" class="level3" data-number="3.13">
+<h3 data-number="3.13" class="anchored" data-anchor-id="rsm-analysis"><span class="header-section-number">3.13</span> RSM Analysis</h3>
+<p>The mathematical model for first order and second order response surface are given below. First order response surface: <span id="eq-eq10"><span class="math display">\[y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \varepsilon \tag{10}\]</span></span></p>
+<p>where x<sub>1</sub>,x<sub>2</sub> are the design variables, β<sub>1</sub>, β<sub>2</sub> are the regression coefficients. Second order response surface: <span id="eq-eq11"><span class="math display">\[y = \beta_0 + \sum_{i=1}^{q} \beta_i x_i + \sum_{i=1}^{q} \beta_{i} x_i^2 + \sum_{i&lt;j} \sum_{1&lt;j}\beta_{ij} x_i x_j+ε \tag{11}\]</span></span></p>
+<p>where x<sub>i</sub>, x<sub>j</sub> are the design variables, β<sub>0</sub>, β<sub>i</sub>, β<sub>ij</sub> are the regression coefficients, x<sub>i</sub><sup>2</sup> is the quadratic effect and x<sub>i</sub>, x<sub>j</sub> are the interaction effect and ε is the error associated <span class="citation" data-cites="Myers2016">(<a href="#ref-Myers2016" role="doc-biblioref">Myers, Montgomery, and Anderson-Cook 2016</a>)</span>. Second order response surface models are more suited for sensory experiments since it can represent more complex relationships <span class="citation" data-cites="Nwabueze2010">(<a href="#ref-Nwabueze2010" role="doc-biblioref">Nwabueze 2010</a>)</span>. Response surface plots are the visualisation of the effects of variables on the response. This could be two-dimensional contour maps or three-dimensional maps, providing an accurate geometric depiction. Plots are made by fitting regression model by keeping non-significant (P &gt; 0.05) variable constant and varying other variables. Optimal conditions are found out by superimposing the response surfaces <span class="citation" data-cites="Annor2009 Nwabueze2010 Myers2016">(<a href="#ref-Annor2009" role="doc-biblioref">Annor et al. 2009</a>; <a href="#ref-Nwabueze2010" role="doc-biblioref">Nwabueze 2010</a>; <a href="#ref-Myers2016" role="doc-biblioref">Myers, Montgomery, and Anderson-Cook 2016</a>)</span>. Both three dimensional and contour maps are observed together for better understanding. Since the minimum or maximum point is at the centre of the design space, the contour plots will show a circle or ellipse at the centre. When the target point is neither maximum nor minimum point (saddle point), the contour plots show parabolic or hyperbolic contours <span class="citation" data-cites="Myers2016">(<a href="#ref-Myers2016" role="doc-biblioref">Myers, Montgomery, and Anderson-Cook 2016</a>)</span>. The interaction among the input variables and parameters is called a design space <span class="citation" data-cites="bastogne2017qbd">(<a href="#ref-bastogne2017qbd" role="doc-biblioref">Bastogne 2017</a>)</span>. Designs, analysis and software or packages used in different studies are summarised in <a href="#tbl-software" class="quarto-xref">Table&nbsp;2</a>.</p>
+<div id="tbl-software" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-software-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Design, analysis and software used
+</figcaption>
+<div aria-describedby="tbl-software-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Authors</strong></th>
+<th><strong>Design</strong></th>
+<th><strong>Method</strong></th>
+<th><strong>Data Collection</strong></th>
+<th><strong>Software / Packages used</strong></th>
+<th><strong>Analysis</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="citation" data-cites="depetris2024wine">Depetris Chauvin et al. (<a href="#ref-depetris2024wine" role="doc-biblioref">2024</a>)</span></td>
+<td>Williams LSD</td>
+<td>Liking, description</td>
+<td>7 point hedonic scale</td>
+<td>R - FactoMineR</td>
+<td>Regression analysis, Correspondence analysis, Multidimensional analysis</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="hasanah2024yogurt">Hasanah and Musi (<a href="#ref-hasanah2024yogurt" role="doc-biblioref">2024</a>)</span></td>
+<td>CRD</td>
+<td>Liking</td>
+<td>1–5 scaling</td>
+<td>SPSS</td>
+<td>ANOVA - DMRT</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="putra2024icecream">Putra et al. (<a href="#ref-putra2024icecream" role="doc-biblioref">2024</a>)</span></td>
+<td>Factorial RCBD</td>
+<td></td>
+<td>Hedonic scaling</td>
+<td>Minitab</td>
+<td>ANOVA</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="gao2024aroma">Gao et al. (<a href="#ref-gao2024aroma" role="doc-biblioref">2024</a>)</span></td>
+<td></td>
+<td>Ranking descriptive analysis</td>
+<td></td>
+<td>XLSTAT</td>
+<td>GPA, Partial Least Square Regression</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="yadav2024process">Yadav, Rai, and Rathaur (<a href="#ref-yadav2024process" role="doc-biblioref">2024</a>)</span></td>
+<td>CCD</td>
+<td>Optimisation</td>
+<td>Measurements and scores</td>
+<td>Design Expert</td>
+<td>RSM</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="yunindanova2024characteristics">Yunindanova et al. (<a href="#ref-yunindanova2024characteristics" role="doc-biblioref">2024</a>)</span></td>
+<td></td>
+<td>Free choice profiling</td>
+<td>Line scale</td>
+<td>XLSTAT</td>
+<td>GPA</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="yang2024study">Yang et al. (<a href="#ref-yang2024study" role="doc-biblioref">2024</a>)</span></td>
+<td>Williams LSD</td>
+<td>Liking</td>
+<td>9 point hedonic scale</td>
+<td>SAS</td>
+<td>ANOVA</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="hong2023processedmeat">Hong et al. (<a href="#ref-hong2023processedmeat" role="doc-biblioref">2023</a>)</span></td>
+<td>Sequential monadic</td>
+<td>Liking, familiarity</td>
+<td>9 point hedonic</td>
+<td>Stata17</td>
+<td>Paired t test</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="arpi2023physicochemical">Arpi et al. (<a href="#ref-arpi2023physicochemical" role="doc-biblioref">2023</a>)</span></td>
+<td>Factorial CRD</td>
+<td>Liking</td>
+<td>5 point hedonic scale</td>
+<td></td>
+<td>ANOVA, DMRT</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="Rao2024">Rao et al. (<a href="#ref-Rao2024" role="doc-biblioref">2024</a>)</span></td>
+<td>Monadic</td>
+<td>QDA 0–10 scale</td>
+<td></td>
+<td>Microsoft Office</td>
+<td>T test</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="aydogdu2023poppy">Aydoğdu, Tokatlı Demirok, and Yıkmış (<a href="#ref-aydogdu2023poppy" role="doc-biblioref">2023</a>)</span></td>
+<td>CRD–sensory / CCD–optimisation</td>
+<td>Optimisation</td>
+<td>9 point hedonic scaling</td>
+<td>SPSS</td>
+<td>ANOVA, RSM</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="Nandorfy2023">Nandorfy et al. (<a href="#ref-Nandorfy2023" role="doc-biblioref">2023</a>)</span></td>
+<td>Williams LSD</td>
+<td>QDA</td>
+<td>Attributes–words</td>
+<td>Compusense, R</td>
+<td>ANOVA</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="Bokic2022">Bokić et al. (<a href="#ref-Bokic2022" role="doc-biblioref">2022</a>)</span></td>
+<td></td>
+<td>Descriptive</td>
+<td>10 mm scale anchored with words</td>
+<td>XLSTAT</td>
+<td>Arithmetic mean, Tukey’s HSD, PCA</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="koh2022noodles">Koh et al. (<a href="#ref-koh2022noodles" role="doc-biblioref">2022</a>)</span></td>
+<td>Factorial experiment – product / BIBD – evaluation</td>
+<td>Ranking, hedonic tests</td>
+<td>Rank: 1–3; 7 point hedonic scale</td>
+<td>SPSS</td>
+<td>Friedman’s test, LSD</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="mongi2022beefsausage">Mongi and Gomezulu (<a href="#ref-mongi2022beefsausage" role="doc-biblioref">2022</a>)</span></td>
+<td>RCBD</td>
+<td>Descriptive testing, Affective testing</td>
+<td>9 point hedonic scale</td>
+<td>R, Latentix software</td>
+<td>Conjoint analysis, PCA, PLSR</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="varela2021volatile">Varela et al. (<a href="#ref-varela2021volatile" role="doc-biblioref">2021</a>)</span></td>
+<td>Williams Latin Square</td>
+<td>QDA</td>
+<td></td>
+<td>Compusense, XLSTAT, SensoMineR, FactoMineR</td>
+<td>PCA, PLSR, MFA (Multiple Factor Analysis, Napping)</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="Oduro2021">Oduro, Saalia, and Adjei (<a href="#ref-Oduro2021" role="doc-biblioref">2021</a>)</span></td>
+<td>BIBD</td>
+<td>Relative preference mapping, T map, liking</td>
+<td>9 point scale</td>
+<td>XLSTAT</td>
+<td>ANOVA, GPA</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="khemacheevakul2021chocolates">Khemacheevakul et al. (<a href="#ref-khemacheevakul2021chocolates" role="doc-biblioref">2021</a>)</span></td>
+<td></td>
+<td>Liking</td>
+<td>9 point hedonic</td>
+<td>R, tempR</td>
+<td>ANOVA</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="hussein2021spirulina">Hussein et al. (<a href="#ref-hussein2021spirulina" role="doc-biblioref">2021</a>)</span></td>
+<td></td>
+<td></td>
+<td>10 point hedonic scaling</td>
+<td>SAS</td>
+<td>ANOVA, LSD</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="Orden2019">Orden et al. (<a href="#ref-Orden2019" role="doc-biblioref">2019</a>)</span></td>
+<td>RCBD</td>
+<td>Sensory profiling</td>
+<td>Projective mapping</td>
+<td>SensoGraph, C#</td>
+<td>MFA, Confidence ellipses, Gabriel’s Graph</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="batali2020dripbrew">Batali et al. (<a href="#ref-batali2020dripbrew" role="doc-biblioref">2020</a>)</span></td>
+<td>Williams Latin Square</td>
+<td>Descriptive analysis</td>
+<td>15 cm line scaling</td>
+<td>RedJade, R, FactoMineR</td>
+<td>Conversion of 15 point to 100, 3-factor 2-way interaction ANOVA, PCA, Correlation</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="hinneh2020chocolates">Hinneh et al. (<a href="#ref-hinneh2020chocolates" role="doc-biblioref">2020</a>)</span></td>
+<td>BIBD</td>
+<td>Descriptive</td>
+<td>0–10 rating ordinal scale</td>
+<td>Minitab</td>
+<td>PCA, PLS</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="baclayon2020custard">Baclayon, Cerna, and Cimafranca (<a href="#ref-baclayon2020custard" role="doc-biblioref">2020</a>)</span></td>
+<td>CRD</td>
+<td>Descriptive</td>
+<td>9 point hedonic scale, descriptive scoring</td>
+<td>Microsoft Excel</td>
+<td>ANOVA</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="Semjon2020">Semjon et al. (<a href="#ref-Semjon2020" role="doc-biblioref">2020</a>)</span></td>
+<td></td>
+<td>Liking</td>
+<td>5 point scale</td>
+<td>R</td>
+<td>MFA</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="More2019">More and Chavan (<a href="#ref-More2019" role="doc-biblioref">2019</a>)</span></td>
+<td>CRD</td>
+<td>Descriptive</td>
+<td>9 point hedonic scale</td>
+<td></td>
+<td>ANOVA</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="michell2020microgreens">Michell et al. (<a href="#ref-michell2020microgreens" role="doc-biblioref">2020</a>)</span></td>
+<td></td>
+<td>Descriptive</td>
+<td>9 point hedonic scale</td>
+<td>XLSTAT</td>
+<td>ANOVA, PCA</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="Ser2019">Ser (<a href="#ref-Ser2019" role="doc-biblioref">2019</a>)</span></td>
+<td></td>
+<td></td>
+<td>9 point hedonic scale</td>
+<td>XLSTAT</td>
+<td>GPA</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="chan2019applepectin">Chan, Tan, and Chin (<a href="#ref-chan2019applepectin" role="doc-biblioref">2019</a>)</span></td>
+<td>BBD</td>
+<td>Optimisation</td>
+<td>Measurements, score</td>
+<td>Minitab</td>
+<td>RSM</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="Rytz2017">Rytz et al. (<a href="#ref-Rytz2017" role="doc-biblioref">2017</a>)</span></td>
+<td>Fractional Factorial Design</td>
+<td>Descriptive analysis</td>
+<td>0–10 coded scale</td>
+<td>R</td>
+<td>ANOVA, LSD</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="Nahemiah2016">Nahemiah (<a href="#ref-Nahemiah2016" role="doc-biblioref">2016</a>)</span></td>
+<td>CCD</td>
+<td>Optimisation</td>
+<td>Measurements, sensory scores</td>
+<td>Minitab, MATLAB</td>
+<td>RSM</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="Suryani2016">Suryani and Norhasanah (<a href="#ref-Suryani2016" role="doc-biblioref">2016</a>)</span></td>
+<td>CRD</td>
+<td>Liking</td>
+<td>4 point hedonic scaling</td>
+<td></td>
+<td>ANOVA</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="Symoneaux2015">Symoneaux et al. (<a href="#ref-Symoneaux2015" role="doc-biblioref">2015</a>)</span></td>
+<td>CCD</td>
+<td>Optimisation</td>
+<td>Measurements, score</td>
+<td>Statgraphics Centurion XVI</td>
+<td>RSM</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="vanlinh2019interactions">Van Linh et al. (<a href="#ref-vanlinh2019interactions" role="doc-biblioref">2019</a>)</span></td>
+<td>CCD</td>
+<td>Optimisation</td>
+<td>Measurements, score</td>
+<td></td>
+<td>RSM</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="Song2021">Song, Moon, and Ha (<a href="#ref-Song2021" role="doc-biblioref">2021</a>)</span></td>
+<td>BBD</td>
+<td>Optimisation</td>
+<td>Measurements, score</td>
+<td>Minitab</td>
+<td>RSM</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+</section>
+<section id="conclusion" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">4</span> Conclusion</h2>
+<p>Designs are adopted based on the objective of the sensory experiments. If the objective is comparison between two products, paired comparison or group comparison designs could be used. If there are more than two combinations of ingredients and one has to choose the best combination, CRD or RCBD could be used. When the number of treatments is larger, BIBD can be used. When different factors are varied in different levels to make various combinations, factorial experiments are conducted. Response surface designs are used for product optimisation. Response surface graphs helps in understanding the effects of variables on responses much easily. For pairwise and groupwise comparison designs, a t test or Mann Whitney U test can be performed for analysis. For designs with more than two treatments ANOVA or Kruskal Wallis test can be used. For analysis of nominal data chi square test or Thurstonian models are used.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<!-- References will be rendered here -->
+<div id="ref-agbangba2024posthoc" class="csl-entry" role="listitem">
+Agbangba, C. E., E. Sacla Aide, H. Honfo, and R. Glèlè Kakai. 2024. <span>“On the Use of Post-Hoc Tests in Environmental and Biological Sciences: A Critical Review.”</span> <em>Heliyon</em> 10 (3). <a href="https://doi.org/10.1016/j.heliyon.2024.e25131">https://doi.org/10.1016/j.heliyon.2024.e25131</a>.
+</div>
+<div id="ref-Agresti2010" class="csl-entry" role="listitem">
+Agresti, Alan. 2010. <em>Analysis of Ordinal Categorical Data</em>. Hoboken, NJ: John Wiley &amp; Sons.
+</div>
+<div id="ref-anisa2017optimization" class="csl-entry" role="listitem">
+Anisa, A., W. K. Solomon, and A. Solomon. 2017. <span>“Optimization of Roasting Time and Temperature for Brewed Hararghe Coffee (Coffea Arabica l.) Using Central Composite Design.”</span> <em>International Food Research Journal</em> 24 (6).
+</div>
+<div id="ref-Annor2009" class="csl-entry" role="listitem">
+Annor, G. A., E. Sakyi-Dawson, F. Saalia, Samuel Sefa-Dedeh, E. O. Afoakwa, Kwaku Tano-Debrah, and A. S. Budu. 2009. <span>“Response Surface Methodology for Studying the Quality Characteristics of Cowpea (<em>Vigna Unguiculata</em>)-Based Tempeh.”</span> <em>Journal of Food Process Engineering</em>. <a href="https://doi.org/10.1111/j.1745-4530.2008.00292.x">https://doi.org/10.1111/j.1745-4530.2008.00292.x</a>.
+</div>
+<div id="ref-arpi2023physicochemical" class="csl-entry" role="listitem">
+Arpi, N., M. Muzaifa, R. Andini, H. P. Widayat, C. Nilda, and F. Nisa. 2023. <span>“Physicochemical and Sensory Characteristics of Cascara Syrup with the Addition of Lemon (Citrus Limon) Extract.”</span> In <em>IOP Conference Series: Earth and Environmental Science</em>. Vol. 1177. 1. <a href="https://doi.org/10.1088/1755-1315/1177/1/012028">https://doi.org/10.1088/1755-1315/1177/1/012028</a>.
+</div>
+<div id="ref-aydogdu2023poppy" class="csl-entry" role="listitem">
+Aydoğdu, B. İ., N. Tokatlı Demirok, and S. Yıkmış. 2023. <span>“Modeling of Sensory Properties of Poppy Sherbet by Turkish Consumers and Changes in Quality Properties During Storage Process.”</span> <em>Foods</em> 12 (16). <a href="https://doi.org/10.3390/foods12163114">https://doi.org/10.3390/foods12163114</a>.
+</div>
+<div id="ref-baclayon2020custard" class="csl-entry" role="listitem">
+Baclayon, L., J. Cerna, and L. Cimafranca. 2020. <span>“Sensory Quality of Custard Tart as Affected by Varying Levels of Mabolo (Dispyros Blancoi a. DC) Flesh.”</span> <em>Annals of Tropical Research</em>. <a href="https://doi.org/10.32945/atr4227.2020">https://doi.org/10.32945/atr4227.2020</a>.
+</div>
+<div id="ref-bastogne2017qbd" class="csl-entry" role="listitem">
+Bastogne, T. 2017. <span>“Quality-by-Design of Nanopharmaceuticals – a State of the Art.”</span> <em>Nanomedicine: Nanotechnology, Biology, and Medicine</em> 13 (7). <a href="https://doi.org/10.1016/j.nano.2017.05.014">https://doi.org/10.1016/j.nano.2017.05.014</a>.
+</div>
+<div id="ref-batali2020dripbrew" class="csl-entry" role="listitem">
+Batali, M. E., S. C. Frost, C. B. Lebrilla, W. D. Ristenpart, and J. X. Guinard. 2020. <span>“Sensory and Monosaccharide Analysis of Drip Brew Coffee Fractions Versus Brewing Time.”</span> <em>Journal of the Science of Food and Agriculture</em> 100 (7). <a href="https://doi.org/10.1002/jsfa.10323">https://doi.org/10.1002/jsfa.10323</a>.
+</div>
+<div id="ref-bi2015sensory" class="csl-entry" role="listitem">
+Bi, J. 2015. <em>Sensory Discrimination Tests and Measurements: Sensometrics in Sensory Evaluation</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-bi2024thurstonian" class="csl-entry" role="listitem">
+Bi, J., and C. Kuesten. 2024. <span>“Thurstonian Models for the Duo‐trio and Its Variants.”</span> <em>Journal of Sensory Studies</em> 39 (5): e12949.
+</div>
+<div id="ref-boateng2021infrared" class="csl-entry" role="listitem">
+Boateng, I. D., and X. M. Yang. 2021. <span>“Process Optimization of Intermediate-Wave Infrared Drying: Screening by Plackett–Burman; Comparison of Box-Behnken and Central Composite Design and Evaluation: A Case Study.”</span> <em>Industrial Crops and Products</em> 162. <a href="https://doi.org/10.1016/j.indcrop.2021.113287">https://doi.org/10.1016/j.indcrop.2021.113287</a>.
+</div>
+<div id="ref-boggs1949sensory" class="csl-entry" role="listitem">
+Boggs, M. M., and H. L. Hanson. 1949. <span>“Analysis of Foods by Sensory Difference Tests.”</span> In <em>Advances in Food Research</em>, 2:219–58. Academic Press.
+</div>
+<div id="ref-Bokic2022" class="csl-entry" role="listitem">
+Bokić, J., J. Kojić, J. Krulj, L. Pezo, V. Banjac, D. Škrobot, and M. Bodroža-Solarov. 2022. <span>“Development of a Novel Rice-Based Snack Enriched with Chicory Root: Physicochemical and Sensory Properties.”</span> <em>Foods</em> 11 (16): 2393.
+</div>
+<div id="ref-Bower2013" class="csl-entry" role="listitem">
+Bower, J. A. 2013. <em>Statistical Methods for Food Science: Introductory Procedures for the Food Practitioner</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-chambers1981statistical" class="csl-entry" role="listitem">
+Chambers, E., J. A. Bowers, and A. D. Dayton. 1981. <span>“Statistical Designs and Panel Training/Experience for Sensory Analysis.”</span> <em>Journal of Food Science</em> 46 (6). <a href="https://doi.org/10.1111/j.1365-2621.1981.tb04515.x">https://doi.org/10.1111/j.1365-2621.1981.tb04515.x</a>.
+</div>
+<div id="ref-chan2019applepectin" class="csl-entry" role="listitem">
+Chan, Y. ten, M. C. Tan, and N. L. Chin. 2019. <span>“Application of Box-Behnken Design in Optimization of Ultrasound Effect on Apple Pectin as Sugar Replacer.”</span> <em>LWT</em> 115. <a href="https://doi.org/10.1016/j.lwt.2019.108449">https://doi.org/10.1016/j.lwt.2019.108449</a>.
+</div>
+<div id="ref-christensen2009samedifferent" class="csl-entry" role="listitem">
+Christensen, R. H. B., and P. B. Brockhoff. 2009. <span>“Estimation and Inference in the Same-Different Test.”</span> <em>Food Quality and Preference</em> 20 (7). <a href="https://doi.org/10.1016/j.foodqual.2009.05.005">https://doi.org/10.1016/j.foodqual.2009.05.005</a>.
+</div>
+<div id="ref-civille2012sensory" class="csl-entry" role="listitem">
+Civille, G. V., and K. N. Oftedal. 2012. <span>“Sensory Evaluation Techniques – Make <span>‘Good for You’</span> Taste <span>‘Good’</span>.”</span> <em>Physiology and Behavior</em> 107 (4). <a href="https://doi.org/10.1016/j.physbeh.2012.04.015">https://doi.org/10.1016/j.physbeh.2012.04.015</a>.
+</div>
+<div id="ref-das1986design" class="csl-entry" role="listitem">
+Das, M. N., and N. C. Giri. 1986. <em>Design and Analysis of Experiments</em>. New Jersey: Wiley East Ltd.
+</div>
+<div id="ref-depetris2024wine" class="csl-entry" role="listitem">
+Depetris Chauvin, N., D. Valentin, J. H. Behrens, and H. Rodrigues. 2024. <span>“Country-of-Origin as Bias Inducer in Experts’ Wine Judgments – a Sensory Experiment in a World Wine Fair.”</span> <em>International Journal of Gastronomy and Food Science</em> 35. <a href="https://doi.org/10.1016/j.ijgfs.2024.100883">https://doi.org/10.1016/j.ijgfs.2024.100883</a>.
+</div>
+<div id="ref-fatoretto2018tomatoes" class="csl-entry" role="listitem">
+Fatoretto, M. B., I. A. R. de Lara, A. C. Loro, and M. H. F. Spoto. 2018. <span>“Sensory Evaluation of Dehydrated Tomatoes Using the Proportional Odds Mixed Model.”</span> <em>Journal of Food Processing and Preservation</em> 42 (11). <a href="https://doi.org/10.1111/jfpp.13822">https://doi.org/10.1111/jfpp.13822</a>.
+</div>
+<div id="ref-gacula2008sensory" class="csl-entry" role="listitem">
+Gacula, M. C. Jr. 2008. <em>Design and Analysis of Sensory Optimization</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-gacula2013statistical" class="csl-entry" role="listitem">
+———. 2013. <em>Statistical Methods in Food and Consumer Research</em>. Elsevier.
+</div>
+<div id="ref-gao2024aroma" class="csl-entry" role="listitem">
+Gao, L., B. Shi, L. Zhao, H. Wang, Y. Xiang, and K. Zhong. 2024. <span>“Aroma Characteristics of Green Huajiao in Sichuan and Chongqing Area Using Sensory Analysis Combined with GC-MS.”</span> <em>Foods</em> 13 (6). <a href="https://doi.org/10.3390/foods13060836">https://doi.org/10.3390/foods13060836</a>.
+</div>
+<div id="ref-greenhoff1994preferencemapping" class="csl-entry" role="listitem">
+Greenhoff, K., and H. J. H. MacFie. 1994. <span>“Preference Mapping in Practice.”</span> In <em>Measurement of Food Preferences</em>, 137–66.
+</div>
+<div id="ref-hasanah2024yogurt" class="csl-entry" role="listitem">
+Hasanah, N., and N. A. Musi. 2024. <span>“Sensory Properties of Yogurt Dairy and Yogurt Goat’s with Added Edamame.”</span> <em>International Journal of Technology, Food and Agriculture</em> 1 (1). <a href="https://doi.org/10.25047/tefa.v1i1.4560">https://doi.org/10.25047/tefa.v1i1.4560</a>.
+</div>
+<div id="ref-hinneh2020chocolates" class="csl-entry" role="listitem">
+Hinneh, M., E. E. Abotsi, D. Van de Walle, D. A. Tzompa-Sosa, A. De Winne, J. Simonis, and K. Dewettinck. 2020. <span>“Pod Storage with Roasting: A Tool to Diversifying the Flavor Profiles of Dark Chocolates Produced from <span>‘Bulk’</span> Cocoa Beans? (Part II: Quality and Sensory Profiling of Chocolates).”</span> <em>Food Research International</em> 132: 109116.
+</div>
+<div id="ref-hong2023processedmeat" class="csl-entry" role="listitem">
+Hong, X., C. Li, L. Wang, M. Wang, S. Grasso, and F. J. Monahan. 2023. <span>“Consumer Preferences for Processed Meat Reformulation Strategies: A Prototype for Sensory Evaluation Combined with a Choice-Based Conjoint Experiment.”</span> <em>Agriculture (Switzerland)</em> 13 (2). <a href="https://doi.org/10.3390/agriculture13020234">https://doi.org/10.3390/agriculture13020234</a>.
+</div>
+<div id="ref-hussein2021spirulina" class="csl-entry" role="listitem">
+Hussein, A., G. Ibrahim, M. Kamil, M. El-Shamarka, S. Mostafa, and D. Mohamed. 2021. <span>“Spirulina-Enriched Pasta as Functional Food Rich in Protein and Antioxidant.”</span> <em>Biointerface Research in Applied Chemistry</em> 11 (6). <a href="https://doi.org/10.33263/BRIAC116.1473614750">https://doi.org/10.33263/BRIAC116.1473614750</a>.
+</div>
+<div id="ref-BIS1971" class="csl-entry" role="listitem">
+Indian Standards, Bureau of, S. G. Pitroda, J. Nehru, Mazdoor Kisan Shakti Sangathan, and Bhartṛhari. 1971. <span>“<span class="nocase">IS 383 (1970): Specification for coarse and fine aggregates from natural sources for concrete</span>.”</span> Bureau of Indian Standards; Specification, Vol. Ninth (Second). <a href="https://law.resource.org/pub/in/bis/S03/is.383.1970.pdf">https://law.resource.org/pub/in/bis/S03/is.383.1970.pdf</a>.
+</div>
+<div id="ref-jankovic2021doe" class="csl-entry" role="listitem">
+Jankovic, A., G. Chaudhary, and F. Goia. 2021. <span>“Designing the Design of Experiments (DOE) – an Investigation on the Influence of Different Factorial Designs on the Characterization of Complex Systems.”</span> <em>Energy and Buildings</em> 250. <a href="https://doi.org/10.1016/j.enbuild.2021.111298">https://doi.org/10.1016/j.enbuild.2021.111298</a>.
+</div>
+<div id="ref-khemacheevakul2021chocolates" class="csl-entry" role="listitem">
+Khemacheevakul, K., J. Wolodko, H. Nguyen, and W. Wismer. 2021. <span>“Temporal Sensory Perceptions of Sugar-Reduced 3D Printed Chocolates.”</span> <em>Foods</em> 10 (9). <a href="https://doi.org/10.3390/foods10092082">https://doi.org/10.3390/foods10092082</a>.
+</div>
+<div id="ref-khuri2010rsm" class="csl-entry" role="listitem">
+Khuri, A. I., and S. Mukhopadhyay. 2010. <span>“Response Surface Methodology.”</span> <em>Wiley Interdisciplinary Reviews: Computational Statistics</em> 2 (2). <a href="https://doi.org/10.1002/wics.73">https://doi.org/10.1002/wics.73</a>.
+</div>
+<div id="ref-koh2022noodles" class="csl-entry" role="listitem">
+Koh, W. Y., P. Matanjun, X. X. Lim, and R. Kobun. 2022. <span>“Sensory, Physicochemical, and Cooking Qualities of Instant Noodles Incorporated with Red Seaweed (Eucheuma Denticulatum).”</span> <em>Foods</em> 11 (17). <a href="https://doi.org/10.3390/foods11172669">https://doi.org/10.3390/foods11172669</a>.
+</div>
+<div id="ref-kruskal1952ranks" class="csl-entry" role="listitem">
+Kruskal, W. H., and W. A. Wallis. 1952. <span>“Use of Ranks in One-Criterion Variance Analysis.”</span> <em>Journal of the American Statistical Association</em> 47 (260). <a href="https://doi.org/10.1080/01621459.1952.10483441">https://doi.org/10.1080/01621459.1952.10483441</a>.
+</div>
+<div id="ref-Kuznetsova2015" class="csl-entry" role="listitem">
+Kuznetsova, Alexandra, Rune Haubo Bojesen Christensen, Camille Bavay, and Per Bruun Brockhoff. 2015. <span>“Automated Mixed ANOVA Modeling of Sensory and Consumer Data.”</span> <em>Food Quality and Preference</em> 40: 31–38. <a href="https://doi.org/10.1016/j.foodqual.2014.08.004">https://doi.org/10.1016/j.foodqual.2014.08.004</a>.
+</div>
+<div id="ref-Lawless2010" class="csl-entry" role="listitem">
+Lawless, Harry T., and Hildegarde Heymann. 2010. <em>Sensory Evaluation of Food: Principles and Practices</em>. Springer Science &amp; Business Media.
+</div>
+<div id="ref-lee2004thurstonian" class="csl-entry" role="listitem">
+Lee, H. S., and M. O’Mahony. 2004. <span>“Sensory Difference Testing: Thurstonian Models.”</span> <em>Food Science and Biotechnology</em> 13 (6).
+</div>
+<div id="ref-li2024bran" class="csl-entry" role="listitem">
+Li, Y., G. Yao, W. Shen, Z. Wang, C. Guo, and X. Jia. 2024. <span>“Optimizing the Quality of Bran-Fortified Stewing Noodles Using Extruded Wheat Bran and Improvers.”</span> <em>Italian Journal of Food Science / Rivista Italiana Di Scienza Degli Alimenti</em> 36 (2).
+</div>
+<div id="ref-macfarland2016nonparametric" class="csl-entry" role="listitem">
+MacFarland, T. W., and J. M. Yates. 2016. <em>Introduction to Nonparametric Statistics for the Biological Sciences Using r</em>. Springer. <a href="https://doi.org/10.1007/978-3-319-30634-6">https://doi.org/10.1007/978-3-319-30634-6</a>.
+</div>
+<div id="ref-michell2020microgreens" class="csl-entry" role="listitem">
+Michell, K. A., H. Isweiri, S. E. Newman, M. Bunning, L. L. Bellows, M. M. Dinges, L. E. Grabos, et al. 2020. <span>“Microgreens: Consumer Sensory Perception and Acceptance of an Emerging Functional Food Crop.”</span> <em>Journal of Food Science</em> 85 (4). <a href="https://doi.org/10.1111/1750-3841.15075">https://doi.org/10.1111/1750-3841.15075</a>.
+</div>
+<div id="ref-mongi2022beefsausage" class="csl-entry" role="listitem">
+Mongi, R. J., and A. D. Gomezulu. 2022. <span>“Descriptive Sensory Analysis, Consumer Acceptability, and Conjoint Analysis of Beef Sausages Prepared from a Pigeon Pea Protein Binder.”</span> <em>Heliyon</em> 8 (9). <a href="https://doi.org/10.1016/j.heliyon.2022.e10703">https://doi.org/10.1016/j.heliyon.2022.e10703</a>.
+</div>
+<div id="ref-Montgomery2017" class="csl-entry" role="listitem">
+Montgomery, D. C. 2017. <em>Design and Analysis of Experiments</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-More2019" class="csl-entry" role="listitem">
+More, K. D., and K. D. Chavan. 2019. <span>“Sensory Quality of Red Pumpkin (Cucurbita Pepo l.) Burfi.”</span> <em>IJCS</em> 7 (5): 1323–26.
+</div>
+<div id="ref-Moskowitz1971" class="csl-entry" role="listitem">
+Moskowitz, H. R., and J. L. Sidel. 1971. <span>“Magnitude and Hedonic Scales of Food Acceptability.”</span> <em>Journal of Food Science</em> 36 (4). <a href="https://doi.org/10.1111/j.1365-2621.1971.tb15160.x">https://doi.org/10.1111/j.1365-2621.1971.tb15160.x</a>.
+</div>
+<div id="ref-Myers2016" class="csl-entry" role="listitem">
+Myers, R. H., D. C. Montgomery, and C. M. Anderson-Cook. 2016. <em>Response Surface Methodology: Process and Product Optimization Using Designed Experiments</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-Naes2021" class="csl-entry" role="listitem">
+Næs, T., O. Tomic, I. Endrizzi, and P. Varela. 2021. <span>“Principal Components Analysis of Descriptive Sensory Data: Reflections, Challenges, and Suggestions.”</span> <em>Journal of Sensory Studies</em> 36 (5). <a href="https://doi.org/10.1111/joss.12692">https://doi.org/10.1111/joss.12692</a>.
+</div>
+<div id="ref-Nahemiah2016" class="csl-entry" role="listitem">
+Nahemiah, D. 2016. <span>“Application of Response Surface Methodology (RSM) for the Production and Optimization of Extruded Instant Porridge from Broken Rice Fractions Blended with Cowpea.”</span> <em>International Journal of Nutrition and Food Sciences</em> 5 (2). <a href="https://doi.org/10.11648/j.ijnfs.20160502.13">https://doi.org/10.11648/j.ijnfs.20160502.13</a>.
+</div>
+<div id="ref-Nandorfy2023" class="csl-entry" role="listitem">
+Nandorfy, D. E., D. Likos, S. Lewin, S. Barter, S. Kassara, S. Wang, A. Kulcsar, et al. 2023. <span>“Enhancing the Sensory Properties and Consumer Acceptance of Warm Climate Red Wine Through Blending.”</span> <em>Oeno One</em> 57 (4). <a href="https://doi.org/10.20870/oeno-one.2023.57.3.7651">https://doi.org/10.20870/oeno-one.2023.57.3.7651</a>.
+</div>
+<div id="ref-Nwabueze2010" class="csl-entry" role="listitem">
+Nwabueze, T. U. 2010. <span>“Basic Steps in Adapting Response Surface Methodology as Mathematical Modelling for Bioprocess Optimisation in the Food Systems.”</span> <em>International Journal of Food Science and Technology</em> 45 (9). <a href="https://doi.org/10.1111/j.1365-2621.2010.02256.x">https://doi.org/10.1111/j.1365-2621.2010.02256.x</a>.
+</div>
+<div id="ref-Oduro2021" class="csl-entry" role="listitem">
+Oduro, A. F., F. K. Saalia, and M. Y. B. Adjei. 2021. <span>“Sensory Acceptability and Proximate Composition of 3-Blend Plant-Based Dairy Alternatives.”</span> <em>Foods</em> 10 (3). <a href="https://doi.org/10.3390/foods10030482">https://doi.org/10.3390/foods10030482</a>.
+</div>
+<div id="ref-Orden2019" class="csl-entry" role="listitem">
+Orden, D., E. Fernández-Fernández, J. M. Rodríguez-Nogales, and J. Vila-Crespo. 2019. <span>“Testing SensoGraph, a Geometric Approach for Fast Sensory Evaluation.”</span> <em>Food Quality and Preference</em> 72. <a href="https://doi.org/10.1016/j.foodqual.2018.09.005">https://doi.org/10.1016/j.foodqual.2018.09.005</a>.
+</div>
+<div id="ref-PagesHusson2014" class="csl-entry" role="listitem">
+Pagès, J., and F. Husson. 2014. <span>“Multiple Factor Analysis: Presentation of the Method Using Sensory Data.”</span> In <em>Mathematical and Statistical Methods in Food Science and Technology</em>, 87–102. John Wiley &amp; Sons.
+</div>
+<div id="ref-Pereira2015" class="csl-entry" role="listitem">
+Pereira, D. G., A. Afonso, and F. M. Medeiros. 2015. <span>“Overview of Friedman’s Test and Post-Hoc Analysis.”</span> <em>Communications in Statistics–Simulation and Computation</em> 44 (10): 2636–53.
+</div>
+<div id="ref-Punter2018" class="csl-entry" role="listitem">
+Punter, P. H. 2018. <span>“Free Choice Profiling.”</span> In <em>Descriptive Analysis in Sensory Evaluation</em>, 493–511.
+</div>
+<div id="ref-putra2024icecream" class="csl-entry" role="listitem">
+Putra, I. G. A. M., P. T. Maharani, F. M. Yusuf, M. K. P. Kirana, S. A. P. S. Abilita, and I. W. M. A. Saputra. 2024. <span>“Sensory Evaluation and Physical Characteristics of Ice Cream with the Comparison of Soy Whey and Moringa Leaves Puree.”</span> <em>SEAS (Sustainable Environment Agricultural Science)</em> 8 (1): 52–59.
+</div>
+<div id="ref-Rao2024" class="csl-entry" role="listitem">
+Rao, B. G., U. Kavyashree, S. S. Shilpa, and S. Kirti. 2024. <span>“Comparative Study NFC and RFC on Nutritional and Sensory Profile of Guava Juices.”</span> <em>Journal of Food, Nutrition and Diet Science</em>, 41–50.
+</div>
+<div id="ref-Risvik1994" class="csl-entry" role="listitem">
+Risvik, E., J. A. McEwan, J. S. Colwill, R. Rogers, and D. H. Lyon. 1994. <span>“Projective Mapping: A Tool for Sensory Analysis and Consumer Research.”</span> <em>Food Quality and Preference</em> 5 (4). <a href="https://doi.org/10.1016/0950-3293(94)90051-5">https://doi.org/10.1016/0950-3293(94)90051-5</a>.
+</div>
+<div id="ref-Rodrigues2017" class="csl-entry" role="listitem">
+Rodrigues, J. F., A. P. L. da Silveira, J. S. de S. Bueno Filho, V. R. de Souza, A. B. V. da Silva, and A. C. M. Pinheiro. 2017. <span>“Order and Session Size Effects on Treatment Discrimination: Case Study Liking for Dulce de Leche.”</span> <em>Food Research International</em> 102. <a href="https://doi.org/10.1016/j.foodres.2017.09.019">https://doi.org/10.1016/j.foodres.2017.09.019</a>.
+</div>
+<div id="ref-RuizCapillas2021a" class="csl-entry" role="listitem">
+Ruiz-Capillas, C., and A. M. Herrero. 2021. <span>“Sensory Analysis and Consumer Research in New Product Development.”</span> <em>Foods</em> 10 (3). <a href="https://doi.org/10.3390/foods10030582">https://doi.org/10.3390/foods10030582</a>.
+</div>
+<div id="ref-RuizCapillas2021b" class="csl-entry" role="listitem">
+Ruiz-Capillas, C., A. M. Herrero, T. Pintado, and G. Delgado-Pando. 2021. <span>“Sensory Analysis and Consumer Research in New Meat Products Development.”</span> <em>Foods</em> 10 (2). <a href="https://doi.org/10.3390/foods10020429">https://doi.org/10.3390/foods10020429</a>.
+</div>
+<div id="ref-Rytz2017" class="csl-entry" role="listitem">
+Rytz, A., M. Moser, M. Lepage, C. Mokdad, M. Perrot, N. Antille, and N. Pineau. 2017. <span>“Using Fractional Factorial Designs with Mixture Constraints to Improve Nutritional Value and Sensory Properties of Processed Food.”</span> <em>Food Quality and Preference</em> 58. <a href="https://doi.org/10.1016/j.foodqual.2017.01.004">https://doi.org/10.1016/j.foodqual.2017.01.004</a>.
+</div>
+<div id="ref-Saurav2017" class="csl-entry" role="listitem">
+Saurav, S., C. Varghese, E. Varghese, and S. Jaggi. 2017. <span>“Designs for Sensory Trials Involving Foods of Animal Origin.”</span> <em>The Pharma Innovation Journal</em> 7 (11): 405–8. <a href="https://www.thepharmajournal.com/archives/?year=2018&amp;vol=7&amp;issue=11&amp;ArticleId=2751">https://www.thepharmajournal.com/archives/?year=2018&amp;vol=7&amp;issue=11&amp;ArticleId=2751</a>.
+</div>
+<div id="ref-Semjon2020" class="csl-entry" role="listitem">
+Semjon, B., D. Marcinčáková, B. Koréneková, M. Bartkovský, J. Nagy, P. Turek, and S. Marcinčák. 2020. <span>“Multiple Factorial Analysis of Physicochemical and Organoleptic Properties of Breast and Thigh Meat of Broilers Fed a Diet Supplemented with Humic Substances.”</span> <em>Poultry Science</em> 99 (3). <a href="https://doi.org/10.1016/j.psj.2019.11.012">https://doi.org/10.1016/j.psj.2019.11.012</a>.
+</div>
+<div id="ref-Ser2019" class="csl-entry" role="listitem">
+Ser, G. 2019. <span>“Using Generalized Procrustes Analysis for Evaluation of Sensory Characteristic Data of Lamb Meat.”</span> <em>Turkish Journal of Agriculture - Food Science and Technology</em> 7 (6). <a href="https://doi.org/10.24925/turjaf.v7i6.840-844.2214">https://doi.org/10.24925/turjaf.v7i6.840-844.2214</a>.
+</div>
+<div id="ref-Sharif2017" class="csl-entry" role="listitem">
+Sharif, M. K., M. S. Butt, H. R. Sharif, and M. Nasir. 2017. <span>“Sensory Evaluation and Consumer Acceptability.”</span> In <em>Handbook of Food Science and Technology</em>, 10:362–86.
+</div>
+<div id="ref-Siala2012" class="csl-entry" role="listitem">
+Siala, R., F. Frikha, S. Mhamdi, M. Nasri, and A. Sellami Kamoun. 2012. <span>“Optimization of Acid Protease Production by <em>Aspergillus Niger</em> I1 on Shrimp Peptone Using Statistical Experimental Design.”</span> <em>The Scientific World Journal</em> 2012 (1): 564932.
+</div>
+<div id="ref-siegel1988nonparametric" class="csl-entry" role="listitem">
+Siegel, S., and N. J. Jr Castellan. 1988. <em>Nonparametric Statistics for the Behavioral Sciences</em>. 2nd ed. McGraw-Hill.
+</div>
+<div id="ref-silva2014bibd" class="csl-entry" role="listitem">
+Silva, R. de C. dos S. N. da, V. P. R. Minim, A. N. da Silva, A. A. Simiqueli, S. M. della Lucia, and L. A. Minim. 2014. <span>“Balanced Incomplete Block Design: An Alternative for Data Collection in the Optimized Descriptive Profile.”</span> <em>Food Research International</em> 64. <a href="https://doi.org/10.1016/j.foodres.2014.06.042">https://doi.org/10.1016/j.foodres.2014.06.042</a>.
+</div>
+<div id="ref-Song2021" class="csl-entry" role="listitem">
+Song, H., E. W. Moon, and J. H. Ha. 2021. <span>“Application of Response Surface Methodology Based on a Box-Behnken Design to Determine Optimal Parameters to Produce Brined Cabbage Used in Kimchi.”</span> <em>Foods</em> 10 (8). <a href="https://doi.org/10.3390/foods10081935">https://doi.org/10.3390/foods10081935</a>.
+</div>
+<div id="ref-Stone2020" class="csl-entry" role="listitem">
+Stone, H., R. N. Bleibaum, and H. A. Thomas. 2020. <em>Sensory Evaluation Practices</em>. Academic Press.
+</div>
+<div id="ref-Suryani2016" class="csl-entry" role="listitem">
+Suryani, N., and Norhasanah. 2016. <span>“Study of Sensory Characteristics and Nutrient Content of Catfish and Tempeh-Based Drumstick as an Alternative Food for Children with Autism.”</span> <em>Pakistan Journal of Nutrition</em> 15 (1). <a href="https://doi.org/10.3923/pjn.2016.66.71">https://doi.org/10.3923/pjn.2016.66.71</a>.
+</div>
+<div id="ref-Symoneaux2015" class="csl-entry" role="listitem">
+Symoneaux, R., S. Chollet, C. Patron, R. Bauduin, J. M. Le Quéré, and A. Baron. 2015. <span>“Prediction of Sensory Characteristics of Cider According to Their Biochemical Composition: Use of a Central Composite Design and External Validation by Cider Professionals.”</span> <em>LWT</em> 61 (1). <a href="https://doi.org/10.1016/j.lwt.2014.11.030">https://doi.org/10.1016/j.lwt.2014.11.030</a>.
+</div>
+<div id="ref-Valentin2012" class="csl-entry" role="listitem">
+Valentin, D., S. Chollet, M. Lelièvre, and H. Abdi. 2012. <span>“Quick and Dirty but Still Pretty Good: A Review of New Descriptive Methods in Food Science.”</span> <em>International Journal of Food Science and Technology</em> 47 (8): 1563–78.
+</div>
+<div id="ref-vanlinh2019interactions" class="csl-entry" role="listitem">
+Van Linh, N. T., V. T. Ngoc Mai, T. T. Yen Nhi, and T. D. Lam. 2019. <span>“Interactions of Xanthan Gum and Carboxymethyl Cellulose on Physical and Sensory of Cloudy Asparagus Juice Using Response Surface Methodology.”</span> <em>Asian Journal of Chemistry</em> 31 (10). <a href="https://doi.org/10.14233/ajchem.2019.22146">https://doi.org/10.14233/ajchem.2019.22146</a>.
+</div>
+<div id="ref-varela2021volatile" class="csl-entry" role="listitem">
+Varela, C., C. Bartel, D. Espinase Nandorfy, E. Bilogrevic, T. Tran, A. Heinrich, T. Balzan, K. Bindon, and A. Borneman. 2021. <span>“Volatile Aroma Composition and Sensory Profile of Shiraz and Cabernet Sauvignon Wines Produced with Novel Metschnikowia Pulcherrima Yeast Starter Cultures.”</span> <em>Australian Journal of Grape and Wine Research</em> 27 (3). <a href="https://doi.org/10.1111/ajgw.12484">https://doi.org/10.1111/ajgw.12484</a>.
+</div>
+<div id="ref-wakeling1995consumer" class="csl-entry" role="listitem">
+Wakeling, I. N., and H. J. MacFie. 1995. <span>“Designing Consumer Trials Balanced for First and Higher Orders of Carry-over Effect When Only a Subset of k Samples from t May Be Tested.”</span> <em>Food Quality and Preference</em> 6 (4): 299–308.
+</div>
+<div id="ref-williams1949experimental" class="csl-entry" role="listitem">
+Williams, E. J. 1949. <span>“Experimental Designs Balanced for the Estimation of Residual Effects of Treatments.”</span> <em>Australian Journal of Chemistry</em> 2 (2): 149–68.
+</div>
+<div id="ref-yadav2024process" class="csl-entry" role="listitem">
+Yadav, A., D. Rai, and A. Rathaur. 2024. <span>“Process Optimization for the Development of Ashwagandha Root Extract Enriched Shrikhand Using Response Surface Methodology.”</span> <em>Journal of Food Chemistry and Nanotechnology</em> 10 (S1): S47–56.
+</div>
+<div id="ref-yang2024study" class="csl-entry" role="listitem">
+Yang, A., Z. Zhang, K. Jiang, K. Xu, F. Meng, W. Wu, and B. Wang. 2024. <span>“Study on Ultrasound-Assisted Extraction of Cold Brew Coffee Using Physicochemical, Flavor, and Sensory Evaluation.”</span> <em>Food Bioscience</em> 61: 104455.
+</div>
+<div id="ref-yolmeh2017applications" class="csl-entry" role="listitem">
+Yolmeh, M., and S. M. Jafari. 2017. <span>“Applications of Response Surface Methodology in the Food Industry Processes.”</span> <em>Food and Bioprocess Technology</em> 10 (3). <a href="https://doi.org/10.1007/s11947-016-1855-2">https://doi.org/10.1007/s11947-016-1855-2</a>.
+</div>
+<div id="ref-yu2018design" class="csl-entry" role="listitem">
+Yu, P., M. Y. Low, and W. Zhou. 2018. <span>“Design of Experiments and Regression Modelling in Food Flavour and Sensory Analysis: A Review.”</span> <em>Trends in Food Science and Technology</em> 71. <a href="https://doi.org/10.1016/j.tifs.2017.11.013">https://doi.org/10.1016/j.tifs.2017.11.013</a>.
+</div>
+<div id="ref-yunindanova2024characteristics" class="csl-entry" role="listitem">
+Yunindanova, M. B., S. P. Putri, H. Novarianto, and E. Fukusaki. 2024. <span>“Characteristics of Kopyor Coconut (Cocos Nucifera l.) Using Sensory Analysis and Metabolomics-Based Approach.”</span> <em>Journal of Bioscience and Bioengineering</em> 138 (1): 44–53.
+</div>
+<div id="ref-ziv2021postharvest" class="csl-entry" role="listitem">
+Ziv, C., and E. Fallik. 2021. <span>“Postharvest Storage Techniques and Quality Evaluation of Fruits and Vegetables for Reducing Food Loss.”</span> <em>Agronomy</em> 11 (6): 1133.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>21 October 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>08 November 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>09 November 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<strong>Dr.&nbsp;Rohit Kundu</strong><br>
+<em>Scientist</em><br>
+<em>ICAR-IASRI, New Delhi</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<strong>Dr.&nbsp;Muhammed Jaslam P K</strong><br>
+<em>Research Scientist II</em><br>
+<em>University of Idaho</em><br>
+<em>Moscow, United States</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher.<br>
+This is an Open Access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>,<br>
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+</blockquote>
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.jostapubs\.com\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Published by PAPAYA Academic Press<br>
+<a href="https://www.statoberry.com/papaya"> <img src="../../..\images/papayalogo.png" class="img-fluid" style="width:auto; height:25px; padding-left:10px; padding-right:10px; margin-bottom:5px;"> </a></p>
+</div>   
+    <div class="nav-footer-center">
+<a href="https://www.statoberry.com/papaya"> <img src="../../..\images/Josta.png" class="img-fluid" style="height:90px;"> </a><br>
+
+<div style="margin-top:4px; font-size:0.9em; color:#555;">
+<p>✉️ Contact: <a href="mailto:support@jostapubs.com">support@jostapubs.com</a></p>
+</div>
+</div>
+    <div class="nav-footer-right">
+<p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a><br>
+<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"> <img src="../../..\images/cclogo.png" class="img-fluid" style="width:auto; height:35px; padding-left:10px; padding-right:10px; margin-bottom:5px;"> </a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
