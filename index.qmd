@@ -131,7 +131,139 @@ listing:
   <a href="editorial.qmd" class="btn btn-outline-warning"><i class="bi bi-people"></i> Editorial</a>
   <a href="jostasubmission.qmd" class="btn btn-outline-primary"><i class="bi bi-person-lock"></i> Author login</a>
   <a href="https://zenodo.org/communities/josta/records" class="btn btn-outline-secondary"><i class="bi bi-cloud-arrow-down"></i> Zenodo</a>
+</div>  
+
+
+<!-- JOSTA credibility & indexing marquee (3 image logos + 2 vector icons) -->
+<div class="josta-ribbon" aria-label="journal indexing and credibility badges">
+  <div class="jr-track">
+
+    <!-- Open Access (inline vector) -->
+    <span class="jr-chip jr-oa" aria-label="Open Access">
+      <svg class="jr-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M7 10V7a5 5 0 0 1 10 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <rect x="5" y="10" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+        <circle cx="12" cy="15" r="1.8" fill="currentColor"/>
+      </svg>
+      <span>Open Access</span>
+    </span>
+
+    <!-- Peer-reviewed (inline vector) -->
+    <span class="jr-chip jr-peer" aria-label="Peer-reviewed">
+      <svg class="jr-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 20a6 6 0 0 1 9-5m9 5a6 6 0 0 0-9-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M6 9.5a3 3 0 1 0 6 0a3 3 0 0 0-6 0" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M14 8l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span>Peer-reviewed</span>
+    </span>
+
+    <!-- OpenAIRE (image logo) -->
+    <a class="jr-chip jr-openaire" href="https://www.openaire.eu/" target="_blank" rel="noopener" aria-label="OpenAIRE indexed">
+      <img class="jr-icon jr-img" src="www/openaire.png" alt="OpenAIRE">
+      <span>indexed</span>
+    </a>
+
+    <!-- Zenodo (image logo) -->
+    <a class="jr-chip jr-zenodo" href="https://zenodo.org/communities/josta/" target="_blank" rel="noopener" aria-label="Zenodo archived">
+      <img class="jr-icon jr-img" src="www/zenodo.png" alt="Zenodo">
+      <span>archived</span>
+    </a>
+
+    <!-- Crossref (image logo) -->
+    <a class="jr-chip jr-crossref" href="https://www.crossref.org/" target="_blank" rel="noopener" aria-label="Crossref DOI">
+      <img class="jr-icon jr-img" src="www/crossref.png" alt="Crossref">
+      <span>Crossref DOI</span>
+    </a>
+
+    <!-- duplicate for seamless scroll -->
+    <span class="jr-chip jr-oa" aria-label="Open Access">
+      <svg class="jr-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M7 10V7a5 5 0 0 1 10 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <rect x="5" y="10" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+        <circle cx="12" cy="15" r="1.8" fill="currentColor"/>
+      </svg>
+      <span>Open Access</span>
+    </span>
+
+    <span class="jr-chip jr-peer" aria-label="Peer-reviewed">
+      <svg class="jr-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 20a6 6 0 0 1 9-5m9 5a6 6 0 0 0-9-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M6 9.5a3 3 0 1 0 6 0a3 3 0 0 0-6 0" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M14 8l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span>Peer-reviewed</span>
+    </span>
+
+    <a class="jr-chip jr-openaire" href="https://www.openaire.eu/" target="_blank" rel="noopener" aria-label="OpenAIRE indexed">
+      <img class="jr-icon jr-img" src="www/openaire.png" alt="OpenAIRE">
+      <span>indexed</span>
+    </a>
+
+    <a class="jr-chip jr-zenodo" href="https://zenodo.org/communities/josta/" target="_blank" rel="noopener" aria-label="Zenodo archived">
+      <img class="jr-icon jr-img" src="www/zenodo.png" alt="Zenodo">
+      <span>archived</span>
+    </a>
+
+    <a class="jr-chip jr-crossref" href="https://www.crossref.org/" target="_blank" rel="noopener" aria-label="Crossref DOI">
+      <img class="jr-icon jr-img" src="www/crossref.png" alt="Crossref">
+      <span>Crossref DOI</span>
+    </a>
+  </div>
 </div>
+
+<style>
+:root {
+  --navy:#1f345c; --teal:#0b5a56; --sand:#8b6a3a;
+  --bg: rgba(0,0,0,.05);
+}
+
+/* container */
+.josta-ribbon { --speed: 28s; --gap: 1rem; background: var(--bg); border-radius: 16px; overflow: hidden; padding: .5rem 0; }
+.jr-track { display: inline-flex; align-items: center; gap: var(--gap); animation: jr-scroll var(--speed) linear infinite; will-change: transform; }
+.josta-ribbon:hover .jr-track { animation-play-state: paused; }
+
+/* chips */
+.jr-chip {
+  display: inline-flex; align-items: center; gap: .5rem;
+  padding: .45rem .9rem; border-radius: 999px;
+  font: 600 .95rem/1 "Segoe UI", system-ui, sans-serif;
+  color: #fff; white-space: nowrap; text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1); position: relative; overflow: hidden;
+}
+.jr-chip::after {
+  content: ""; position: absolute; inset: 0 -50% 0 0;
+  background: linear-gradient(110deg, transparent 0%, rgba(255,255,255,.25) 40%, transparent 80%);
+  transform: translateX(-120%); animation: jr-shine 5s ease-in-out infinite;
+}
+
+/* gradients */
+.jr-oa { background: linear-gradient(90deg,#ff9a3d,#ff6a00); }
+.jr-peer { background: linear-gradient(90deg,#4bb543,#1fa26e); }
+.jr-openaire { background: linear-gradient(90deg,#fc6726,#f28150); }
+.jr-zenodo { background: linear-gradient(90deg,#00aaff,#0077cc); }
+.jr-crossref { background: linear-gradient(90deg,#6969fa,#060696); }
+
+/* icons */
+.jr-icon { height: 22px; width: auto; color:#fff; filter: drop-shadow(0 0 2px rgba(255,255,255,.35)); transition: transform .3s ease; }
+.jr-img { filter: none; } /* don't invert your uploaded images */
+.jr-chip:hover .jr-icon { transform: scale(1.1); }
+
+/* animations */
+@keyframes jr-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes jr-shine { 0%, 70% { transform: translateX(-120%); } 100% { transform: translateX(120%); } }
+
+/* responsive */
+@media (max-width: 520px) {
+  .jr-chip { padding: .35rem .7rem; font-size: .9rem; }
+  .jr-icon { height: 18px; }
+}
+
+/* accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .jr-track, .jr-chip::after { animation: none !important; }
+}
+</style>
 ```
 
 ## Recent articles {.unnumbered}
