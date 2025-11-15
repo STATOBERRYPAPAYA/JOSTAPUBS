@@ -10,7 +10,720 @@
 <atom:link href="https://www.jostapubs.com/volume1.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Fri, 07 Nov 2025 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 14 Nov 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Best-Worst Scaling in Agricultural Research: A Review of Methods and Applications</title>
+  <dc:creator>Anjana Bivas T</dc:creator>
+  <dc:creator>Pratheesh P Gopinath*</dc:creator>
+  <dc:creator>Manju Mary Paul</dc:creator>
+  <dc:creator>Smija P K</dc:creator>
+  <dc:creator>Durga A R</dc:creator>
+  <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://doi.org/10.65287/josta.202510.BD6A"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.BD6A-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17613929"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/JOSTA-202510-BD6A.pdf" download="" class="j-btn" aria-label="download pdf">  <span>download pdf</span> </a></p>
+<p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
+<p><span class="j-chip" data-doi="10.65287/josta.202510.BD6A" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
+</div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Bivas T, A., Gopinath, P. P., paul, . manju ., P K, S., &amp; A R, D. (2025). Best-Worst Scaling in Agricultural Research: A Review of Methods and Applications. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.BD6A
+</p>
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Agriculture serves as the foundation of global food systems, supporting human sustenance, economic stability, and environmental sustainability. Its effectiveness largely depends on the decisions and preferences of farmers, consumers, and policymakers. Choices such as selecting resilient crop varieties and inputs, implementing sustainable farming practices, and responding to consumer demand influence productivity and yields while shaping ecological outcomes, biodiversity conservation, and the equitable allocation of resources. Moreover, understanding these preferences enables producers and policymakers to align agricultural outputs with consumer needs, ensuring that market demand is met efficiently and sustainably.Gaining insights into stakeholder preferences is therefore essential for designing effective agricultural policies, promoting technology adoption, and developing marketing strategies <span class="citation" data-cites="Custodio2023 Sawassi2025">(Custodio, Demont, and De Steur 2023; Sawassi et al. 2025)</span>.</p>
+<p>Over the years, several preference elicitation and scaling techniques, such as Likert scales, rating, ranking, and pairwise comparison methods, have been widely employed in agricultural and consumer research. Likert and rating scales capture perceived importance or agreement, while ranking methods require respondents to order all items simultaneously, which can become cognitively demanding as the number of attributes increases. Pairwise comparisons simplify the task but still fail to reflect the relative importance among multiple competing attributes. As noted by <span class="citation" data-cites="Parvin2016">Parvin (2016)</span>, these methods tend to be cognitively more demanding and are susceptible to response and scale-use biases, which can compromise the reliability and comparability of results across respondents.</p>
+<p>Best-Worst Scaling (BWS) is a stated preference method, developed by Jordan J Louviere in 1987, that addresses these limitations by asking respondents to identify both the most and least important items within a choice set. Unlike traditional rating or ranking methods, which require evaluating all items simultaneously, BWS divides the task into smaller, more cognitively manageable parts, simplifying the process and helping respondents make more distinct trade-offs between attributes<span class="citation" data-cites="Erdem2012">(Erdem, Rigby, and Wossink 2012)</span>. This approach captures the extremes in the inclinations of respondents and reduces the cognitive burden on respondents, making it easier for the surveyor to obtain more accurate and reliable responses with reduced biases <span class="citation" data-cites="Kiritchenko2017">(Kiritchenko and Mohammad 2017)</span>, <span class="citation" data-cites="Burton2021">(Burton et al. 2021)</span>.</p>
+<p>Three main variants of BWS, Case 1 (Object case), Case 2 (Profile case), and Case 3 (Multi-profile case), facilitate identifying preferences according to the context and the nature of items or profiles to be evaluated. Case 1 is the simplest form of BWS, allowing respondents to choose the best and worst items in a list and make a relative ranking of the items <span class="citation" data-cites="Flynn2014">Flynn and Marley (2014)</span>. Cases 2 and 3 deal with profiles which are combinations of levels of attributes. In the profile case, choices are made within the individual profiles, whereas in the multi-profile case, choices are made between whole profiles <span class="citation" data-cites="Louviere2015 Cheung2016">(J. J. Louviere, Flynn, and Marley 2015; Cheung et al. 2016)</span>.</p>
+<p>While previous reviews have examined the methodological evolution and applications of BWS across disciplines <span class="citation" data-cites="Schuster2024 Hollin2022 Beres2024">(Schuster et al. 2024; Hollin et al. 2022; Beres et al. 2024)</span>, most have centred on health and policy domains. Comprehensive analyses focusing specifically on the agricultural sector remain limited. The present review aims to address this gap by systematically examining the use of BWS within agricultural research, highlighting methodological developments, thematic areas, and conceptual contributions. By integrating evidence and perspectives from existing studies, the review presents a coherent narrative on the expanding role of BWS in shaping preference-based research within agriculture.</p>
+</section>
+<section id="statistical-foundations-of-bws" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="statistical-foundations-of-bws"><span class="header-section-number">2</span> Statistical foundations of BWS</h2>
+<p>The Random Utility Theory (RUT) underpins the fundamental principle of BWS <span class="citation" data-cites="Beres2024">Beres et al. (2024)</span>, which states that individuals make their choices based on the perceived utility characteristics or the characteristics of a product, which comprises observable attributes and some unobservable random component, as shown in Equation&nbsp;1.</p>
+<p><span id="eq-eq1"><img src="https://latex.codecogs.com/png.latex?%0AU_%7Bij%7D%20=%20V_%7Bij%7D%20+%20%5Cvarepsilon_%7Bij%7D%0A%5Ctag%7B1%7D"></span></p>
+<p>where U<sub>ij</sub> is the total utility of the j<sup>th</sup> item for the i<sup>th</sup> consumer, V<sub>ij</sub> denote the utility from the observed characteristics, and ε<sub>ij</sub> is the random component. The stochastic component implies that while exact choices cannot be predicted, the probability of each alternative being selected can be estimated statistically <span class="citation" data-cites="Adikari2024">Adikari and Diawara (2024)</span>.</p>
+<p>In the context of BWS, this framework can be used to compare the ‘best’ and ‘worst’ choices of an individual.By requiring respondents to identify both extremes of preference within each choice set, BWS captures a fuller range of the utility distribution compared to traditional choice experiments. According to RUT, an item’s relative preference compared to others depends on how frequently it is chosen <span class="citation" data-cites="Louviere2013">(J. Louviere et al. 2013)</span>. Recent methodological developments have further extended RUT to account for individual-level preference heterogeneity, allowing researchers to better understand differences in choices across respondents <span class="citation" data-cites="Holmes2017">(Holmes, Adamowicz, and Carlsson 2017)</span>.</p>
+<p>In agricultural research, RUT and BWS provide a framework for examining how different stakeholders evaluate competing options such as crop varieties, input combinations, market choices, or policy measures, based on perceived benefits and trade-offs. By linking observable attributes like yield, price, sustainability, and quality with individual preferences, BWS enables researchers to quantify the relative importance of these factors, offering valuable insights into agricultural decision-making.</p>
+</section>
+<section id="experimental-designs-in-bws" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="experimental-designs-in-bws"><span class="header-section-number">3</span> Experimental Designs in BWS</h2>
+<p>The efficiency of a BWS study depends critically on the construction of choice sets in the questionnaire. Asking respondents to rank a large number of items can create cognitive strain and reduce data quality. <span class="citation" data-cites="Parvin2016">Parvin (2016)</span> noted out that it is challenging for the respondents to rank more than seven items in a single choice set. To address this, BWS organizes the items into smaller and manageable choice sets, typically containing three to six items each, allowing respondents to make meaningful comparisons without fatigue.</p>
+<p>A statistically efficient design ensures that each item or attribute level appears an equal number of times across all choice sets, and that every possible pair of items co-occurs equally often with similar frequency <span class="citation" data-cites="Lee2008">Lee, Soutar, and Louviere (2008)</span>. This balance and orthogonality in the design facilitate the derivation of precise and reliable preference estimates.</p>
+<p>Early BWS studies used 2<sup>J</sup> designs <span class="citation" data-cites="Flynn2014">Flynn and Marley (2014)</span> to generate choice sets, where J represents the number of items. However, as the number of items increases, the number of possible combinations grows exponentially, making such designs impractical for real-world surveys and burdensome for respondents. To overcome this challenge, recent studies employ Balanced Incomplete Block Design (BIBD) to generate combinations of items in each choice set, as it ensures the balanced occurrence and co-occurrence of objects. This approach is commonly used in the BWS object case (Case 1), where individual items are evaluated directly by respondents, allowing for manageable questionnaires without compromising statistical efficiency.</p>
+<p>In profile and multi-profile cases, the focus shifts from single items to combinations of attributes that define a product or alternative. Here, the profiles are created using Orthogonal Arrays (OA). If there are K attributes, each with L<sub>k</sub> (k = 1, 2, …, K) levels, an L<sup>K</sup> OA can be used to create profiles while maintaining orthogonality. Each profile is considered as a choice set in BWS case 2, while in Case 3 multiple profiles are combined into choice sets using BIBD. This approach allows researchers to estimate the relative importance of individual attributes and their levels, while keeping the task manageable for respondents <span class="citation" data-cites="AizakiFogarty2019 Aizaki2021">(Aizaki and Fogarty 2019; Aizaki 2021)</span>.</p>
+</section>
+<section id="statistical-models-for-analysis" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="statistical-models-for-analysis"><span class="header-section-number">4</span> Statistical Models for Analysis</h2>
+<p>Depending on the complexity of the data and objectives of the research, different analytical models are employed to extract insights from best–worst choices. These models range from simple counting approaches, which provide a basic understanding of preference patterns, to more sophisticated econometric models capable of capturing heterogeneity in preferences.</p>
+<section id="counting-approach" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="counting-approach"><span class="header-section-number">4.1</span> Counting approach</h3>
+<p>The counting method, which involves the frequencies of each item being selected as ‘best’ and ‘worst,’ is a simple yet effective approach used to analyse BWS data <span class="citation" data-cites="Burns2022">Burns et al. (2022)</span>. The Best-Worst (B-W) score is obtained by subtracting the number of times an item is marked as worst (Wᵢ) from the number of times it is marked as best (Bᵢ), which is then divided by the total number of respondents (n) and the frequency of an item appeared in each choice set (r) to get the standardised score (Equation&nbsp;2;Equation&nbsp;3) <span class="citation" data-cites="Massey2015 Yin2023">(Massey et al. 2015; Yin, Kamimura, and Imoto 2023)</span>. The Square root B-W score (Equation&nbsp;4) and Standard B-W score (Equation&nbsp;5) also represent the preferences <span class="citation" data-cites="Torok2023">Torok et al. (2023)</span>.</p>
+<p><span id="eq-eq2"><img src="https://latex.codecogs.com/png.latex?B%5C!-%5C!W%5C%20Score%20=%20B_i%20-%20W_i%20%5Ctag%7B2%7D"></span></p>
+<p><span id="eq-eq3"><img src="https://latex.codecogs.com/png.latex?%5Ctext%7BStandard%20%7D%20B%5C!-%5C!W%5C%20%5Ctext%7Bscore%7D%20=%20%5Cfrac%7BB_i%20-%20W_i%7D%7Br%20%5Ctimes%20n%7D%20%5Ctag%7B3%7D"></span></p>
+<p><span id="eq-eq4"><img src="https://latex.codecogs.com/png.latex?%5Ctext%7BSqrt.%20%7D%20B%5C!-%5C!W%5C%20%5Ctext%7Bscore%7D%20=%20%5Csqrt%7B%5Cfrac%7BB_i%7D%7BW_i%7D%7D%20%5Ctag%7B4%7D"></span></p>
+<p><span id="eq-eq5"><img src="https://latex.codecogs.com/png.latex?%5Ctext%7BStandard%20Sqrt.%20%7D%20B%5C!-%5C!W%5C%20%5Ctext%7Bscore%7D%20=%20%5Cfrac%7B%5Ctext%7BSqrt.%20%7D%20B%5C!-%5C!W%5C%20%5Ctext%7Bscore%7D%7D%7B%5Cmax(%5Ctext%7BSqrt.%20%7D%20B%5C!-%5C!W%5C%20%5Ctext%7Bscore%7D)%7D%20%5Ctag%7B5%7D"></span></p>
+</section>
+<section id="modelling-approaches" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="modelling-approaches"><span class="header-section-number">4.2</span> Modelling approaches</h3>
+<p>Statistical models grounded in econometric theory and probabilistic frameworks enable rigorous estimation of preference parameters. Modelling approaches provide greater analytical precision and account for response heterogeneity, compared to count-based methods. These models estimate the likelihood of an individual choosing a particular item as ‘best’ or ‘worst’. The probabilistic model represented in Equation&nbsp;6 forms the theoretical foundation for the statistical models used in the analysis of BWS data. It considers a finite set of alternatives and estimates the probability of selecting an item as best, worst, or jointly as a best–worst pair based on underlying choice processes <span class="citation" data-cites="Marley2005">(A. A. Marley and Louviere 2005)</span>.</p>
+<p><span id="eq-eq6"><img src="https://latex.codecogs.com/png.latex?%5Cmathrm%7BBW%7D_X(x,%20y)%20=%0A%5Cfrac%7BB_X(x)%5C,%20W_X(y)%7D%0A%7B%5Cdisplaystyle%20%5Csum_%7B%5Csubstack%7Br,s%20%5Cin%20X%20%5C%5C%20r%20%5Cne%20s%7D%7D%20B_X(r)%5C,%20W_X(s)%7D%20%5Ctag%7B6%7D"></span></p>
+<p>where B<sub>X</sub>(x) is the probability that the alternative x is chosen as best in X, W<sub>X</sub>(y) is the probability that the alternative y is chosen as worst in X, and BW<sub>X</sub>(x, y) is the joint probability of the alternative x is chosen as best in X and the alternative y ≠ x is chosen as worst in X.</p>
+<p>Advanced models can capture preference heterogeneity across respondents that arises due to geographic, socioeconomic, or behavioural factors. This can be used in agricultural studies to identify the difference in choices of farmers and consumers based on farm size, access to resources, and individual-level factors.</p>
+<section id="multinomial-logit-model-mnl" class="level4" data-number="4.2.1">
+<h4 data-number="4.2.1" class="anchored" data-anchor-id="multinomial-logit-model-mnl"><span class="header-section-number">4.2.1</span> Multinomial Logit Model (MNL)</h4>
+<p>MNL is based on the assumption that the preferences of individuals in a population are homogeneous. The joint probability of selecting an item as best and another as worst within a choice set is used to estimate the preference for that item <span class="citation" data-cites="Marley2015a">(A. A. J. Marley, Flynn, and Australia 2015)</span>. Conceptually, the MNL model represents the probability of choosing a specific best–worst pair based on the relative utilities of the available items in a choice set. This probabilistic framework allows the model to capture the trade-offs respondents make when identifying their most and least preferred items. The resulting estimates provide a population-level measure of preference intensity of each item compared to a reference, making the MNL a fundamental model for advanced analyses of best–worst data <span class="citation" data-cites="Cheung2019">(Cheung et al. 2019)</span>.</p>
+</section>
+<section id="latent-class-analysis-lca" class="level4" data-number="4.2.2">
+<h4 data-number="4.2.2" class="anchored" data-anchor-id="latent-class-analysis-lca"><span class="header-section-number">4.2.2</span> Latent Class Analysis (LCA)</h4>
+<p>LCA is a cluster analysis method used to uncover the unobserved heterogeneity among respondents when observable characteristics alone cannot form homogeneous groups. Based on this, respondents will be categorised into different latent classes sharing hidden attributes that can affect the selection. The optimal number of clusters is determined by statistical fit criteria such as Bayesian Information Criterion (BIC), Akaike Information Criterion (AIC), and McFadden’s Pseudo R-squared (ρ²), which are commonly used to assess model performance <span class="citation" data-cites="Cheung2019 Barrowclough2023 Merlino2025">(Cheung et al. 2019; Barrowclough et al. 2023; Merlino et al. 2025)</span>.</p>
+</section>
+<section id="hierarchical-bayesian-model-hb" class="level4" data-number="4.2.3">
+<h4 data-number="4.2.3" class="anchored" data-anchor-id="hierarchical-bayesian-model-hb"><span class="header-section-number">4.2.3</span> Hierarchical Bayesian Model (HB)</h4>
+<p>HB models capture both within-respondent and across-respondent heterogeneity, producing individual-specific preference estimates <span class="citation" data-cites="Lagerkvist2012 Yeh2020">(Lagerkvist, Okello, and Karanja 2012; Yeh, Hartmann, and Langen 2020)</span>. <span class="citation" data-cites="Lagerkvist2012">Lagerkvist, Okello, and Karanja (2012)</span> demonstrated that the HB model outperforms the LCA by capturing both between- and within-respondent preference variation. Its ability to estimate individual-level parameters from limited data makes it particularly useful for analysing best–worst choices.</p>
+</section>
+<section id="random-parameter-logit-rpl-or-mixed-logit-mxl-model" class="level4" data-number="4.2.4">
+<h4 data-number="4.2.4" class="anchored" data-anchor-id="random-parameter-logit-rpl-or-mixed-logit-mxl-model"><span class="header-section-number">4.2.4</span> Random Parameter Logit (RPL) or Mixed Logit (MXL) Model</h4>
+<p>RPL model provides a more accurate depiction of real-world choice behaviour by allowing for random differences in individual preferences and accounting for correlations among unobserved factors <span class="citation" data-cites="Viciunaite2023">(Viciunaite 2023)</span>. It is a generalisation of MNL, used to estimate the individual heterogeneity in preferences. Unlike the MNL, which assumes uniform preferences across respondents, the RPL allows parameters to vary randomly within the population, implying that different people have different preferences. The preference heterogeneity can be estimated by finding the standard deviation of each parameter’s distribution <span class="citation" data-cites="Cheung2019">(Cheung et al. 2019)</span>.</p>
+</section>
+<section id="paired-marginal-and-marginal-sequential-models-for-profile-case" class="level4" data-number="4.2.5">
+<h4 data-number="4.2.5" class="anchored" data-anchor-id="paired-marginal-and-marginal-sequential-models-for-profile-case"><span class="header-section-number">4.2.5</span> Paired, Marginal, and Marginal Sequential Models for Profile Case</h4>
+<p>Three different choice modelling methods, paired, marginal, and marginal sequential models, are used to analyse the responses obtained from a BWS case 2 survey. All models assume that each attribute level provides some utility to the respondent, but differ in how the best and worst levels are determined. The utility of the level chosen as worst is considered the negative of the utility of the level selected as best.</p>
+<p>The paired model identifies that the chosen best–worst pair represents the largest utility difference among all possible pairs in the set. The marginal model assumes that the best level has the maximum utility and the worst level the minimum utility among all levels, whereas in the marginal sequential model, the best level has the maximum utility among all levels and the worst level the minimum utility among the remaining levels.</p>
+<p>In all three models, the estimated coefficients indicate the relative preference of respondents for each attribute level, providing insights into the trade-offs made when identifying the most and least important options <span class="citation" data-cites="AizakiFogarty2019">(Aizaki and Fogarty 2019)</span>.</p>
+</section>
+</section>
+</section>
+<section id="bibliometric-insights-into-bws-in-agriculture" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="bibliometric-insights-into-bws-in-agriculture"><span class="header-section-number">5</span> Bibliometric Insights into BWS in Agriculture</h2>
+<p>A bibliometric analysis was conducted using the bibliometrix package <span class="citation" data-cites="AriaCuccurullo2017">(Aria and Cuccurullo 2017)</span> in R to examine studies employing BWS to elicit choices in agricultural contexts. The Dimensions database was selected for its broad coverage of multidisciplinary research <span class="citation" data-cites="Hook2018">(Hook, Porter, and Herzog 2018)</span>. Publications from 2011 to 2025 were retrieved using the search string: (“Best-Worst Scaling” OR “BWS”) AND (“agriculture” OR “farm” OR “food”). The search was limited to peer-reviewed journal articles and conference papers published in English, ensuring the inclusion of relevant and high-quality academic outputs. Although larger datasets can be obtained from other databases, the export restrictions in these platforms limit their use for the present analysis. The selection of Dimensions thus ensured consistency, transparency, and replicability of the bibliometric workflow.</p>
+<p>After screening for relevance and removing duplicates, a total of 75 documents from 54 sources were retained for analysis. The chosen timespan captures both the emergence and evolution of BWS applications in agriculture, beginning with the earliest identifiable studies in 2011. The relatively small corpus reflects the recent adoption of BWS in this field and the method’s growing recognition as a robust alternative to traditional preference elicitation approaches. This also indicates a research gap and an opportunity for further exploration of BWS across diverse agricultural decision-making contexts.</p>
+<p>These records were analysed to interpret the research trends, current status, thematic distribution, advancements, and interrelationships among studies in this field. The analysis revealed an increasing trend in the scientific production, as shown in Figure&nbsp;1, with an overall growth rate of 13.65% during the study period. The highest number of publications occurred in 2025, followed by 2020. From 2011 to 2017, the publication activity remained relatively stable and gained acceleration from 2018 onward, indicating a growing interest in BWS-based agricultural studies.</p>
+<div id="fig-figure1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/figures/fig1.png" style="width:70.0%" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Annual scientific production
+</figcaption>
+</figure>
+</div>
+<p>A total of 27 countries across the world have engaged in agricultural research employing BWS during this period. Japan (<img src="https://latex.codecogs.com/png.latex?n">=15) recorded the highest number of publications, followed by Italy (<img src="https://latex.codecogs.com/png.latex?n">=13) and the USA(<img src="https://latex.codecogs.com/png.latex?n">=12). Figure&nbsp;2 illustrates the publication output of all the contributing countries, showing the trends in their research activity. The results indicate that while a few countries, particularly Japan, Italy, the USA, Germany, and the UK, dominate the field, several others are gradually adopting BWS in agricultural studies, reflecting its growing global relevance.</p>
+<div id="fig-figure2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/figures/fig2.png" style="width:60.0%" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Country-wise distribution of publications
+</figcaption>
+</figure>
+</div>
+<p>A total of 221 researchers contributed to the 75 examined articles, of which four were single-authored. The average number of authors per article is 3.63. Out of the total, 31 authors have published more than one article. Borra and Massaglia (<img src="https://latex.codecogs.com/png.latex?n">=6) are the authors with highest number of publications. Merlino (<img src="https://latex.codecogs.com/png.latex?n">=5), Aizaki (<img src="https://latex.codecogs.com/png.latex?n">=4), Blanc (<img src="https://latex.codecogs.com/png.latex?n">=3), Madureira (<img src="https://latex.codecogs.com/png.latex?n">=3), Nunes (<img src="https://latex.codecogs.com/png.latex?n">=3), Peano (<img src="https://latex.codecogs.com/png.latex?n">=3), Ujiie (<img src="https://latex.codecogs.com/png.latex?n">=3), Veiga (<img src="https://latex.codecogs.com/png.latex?n">=3), and Yang S (<img src="https://latex.codecogs.com/png.latex?n">=3) are the other relevant authors in this field, as given in Figure&nbsp;3. An international co-authorship of 37.33% was identified, indicating the strong level of cross-country collaboration among the authors.</p>
+<div id="fig-figure3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/figures/fig3.png" style="width:60.0%" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Most relevant authors
+</figcaption>
+</figure>
+</div>
+<p>The reviewed studies were published in 54 journals. The most relevant journals among them were Foods (<img src="https://latex.codecogs.com/png.latex?n">= 6), Journal of Dairy Science (<img src="https://latex.codecogs.com/png.latex?n">=4), Agricultural Economics (<img src="https://latex.codecogs.com/png.latex?n">=3), Food Quality and Preference (<img src="https://latex.codecogs.com/png.latex?n">=3), Journal of Environmental Management (<img src="https://latex.codecogs.com/png.latex?n">=3), Sustainability (<img src="https://latex.codecogs.com/png.latex?n">=3), Agribusiness (<img src="https://latex.codecogs.com/png.latex?n">=2), Agriculture (<img src="https://latex.codecogs.com/png.latex?n">=2), Australian Journal of Agriculture (<img src="https://latex.codecogs.com/png.latex?n">=2), British Food Journal (<img src="https://latex.codecogs.com/png.latex?n">=2), and Land Use Policy (<img src="https://latex.codecogs.com/png.latex?n">=2).</p>
+<p>The citations of the articles were analysed and found that, on an average, each article had 19.8 citations, with an average of 3.11 citations per document per year. Eight studies had more than fifty citations, with <span class="citation" data-cites="Dekhili2011">(Dekhili, Sirieix, and Cohen 2011)</span> recording the highest (140), followed by <span class="citation" data-cites="Dumbrell2016">(Dumbrell, Kragt, and Gibson 2016)</span> with 109 and <span class="citation" data-cites="Massaglia2019">(Massaglia et al. 2019)</span> with 101. The citation network (Figure&nbsp;4) revealed the interrelations among influential studies, highlighting the focal role of <span class="citation" data-cites="Dekhili2011">(Dekhili, Sirieix, and Cohen 2011)</span> in connecting multiple research clusters within the field.</p>
+<div id="fig-figure4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/figures/fig4.png" style="width:80.0%" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Network visualization of citations
+</figcaption>
+</figure>
+</div>
+<p>The bibliometric findings reveal a steady growth in the use of BWS within agricultural research over the past fifteen years. The method’s expanding adoption across countries and journals reflects its growing credibility as a reliable approach for capturing stakeholder preferences and supporting evidence-based decision-making. Although the number of retrieved publications is modest, this primarily reflects database-specific constraints and the relatively recent integration of BWS into agricultural research workflows. The observed trends highlight the increasing recognition of BWS as a valuable tool for understanding preferences in agricultural decision-making, signifying its potential for broader application in future agricultural studies.</p>
+</section>
+<section id="applications-of-bws-in-agricultural-research" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="applications-of-bws-in-agricultural-research"><span class="header-section-number">6</span> Applications of BWS in Agricultural Research</h2>
+<p>The application of BWS in the agricultural sector has increased significantly over the years. The bibliometric analysis substantiates that there is a growing trend in its application from 2011 to 2025. The involvement of smaller choice sets and the ability to capture nuanced distinctions in preferences made BWS a more preferred method of choice evaluation over the traditional rating and ranking methods. This section examines the major studies that have employed BWS to understand the preferences of agricultural stakeholders.</p>
+<p>The reviewed body of literature demonstrates that BWS has been applied across a broad spectrum of agricultural contexts, encompassing consumer behaviour, farm management, sustainability practices, policy evaluation, and genetic improvement. Table&nbsp;1 presents an overview of the reviewed studies, summarising the types of BWS and the analytical methods used in different research contexts. It illustrates the wide range of agricultural and allied topics where BWS has been applied, with the three cases of BWS being applied to address distinct study objectives.</p>
+<p>Among the reviewed literature, BWS Case 1 is the dominant one, featuring in the majority of publications. Research by <span class="citation" data-cites="BavieraPuig2025">(Baviera-Puig et al. 2025)</span>, <span class="citation" data-cites="Uliano2025">(Uliano and Lerro 2025)</span>, <span class="citation" data-cites="Wardyani2025">(Wardyani et al. 2025)</span>, <span class="citation" data-cites="Cammarelle2024">(Cammarelle et al. 2024)</span>, <span class="citation" data-cites="Torok2023">(Torok et al. 2023)</span>, <span class="citation" data-cites="AizakiTakeshita2023">(Aizaki and Takeshita 2023)</span>, <span class="citation" data-cites="Giuggioli2023">(Giuggioli et al. 2023)</span>, <span class="citation" data-cites="Chrysochou2022">(Chrysochou et al. 2022)</span>, <span class="citation" data-cites="Sarma2020">(Sarma 2020)</span>, <span class="citation" data-cites="Massaglia2019">(Massaglia et al. 2019)</span>, <span class="citation" data-cites="Bazzani2016">(Bazzani et al. 2016)</span>, and <span class="citation" data-cites="Dekhili2011">(Dekhili, Sirieix, and Cohen 2011)</span> used Case 1 to identify the preference patterns of consumers in the purchase of different agricultural products. It has also been employed to capture the choice behaviour of farmers regarding the selection of farm inputs as given in <span class="citation" data-cites="Ahoudou2023">(Ahoudou et al. 2023)</span>, <span class="citation" data-cites="Burns2022">(Burns et al. 2022)</span>, <span class="citation" data-cites="Maruyama2022">(Maruyama et al. 2022)</span>, and <span class="citation" data-cites="Aizaki2016">(Aizaki et al. 2016)</span>. The studies by <span class="citation" data-cites="Merlino2025">(Merlino et al. 2025)</span>, <span class="citation" data-cites="Liu2025">(Liu et al. 2025)</span>, <span class="citation" data-cites="Zander2024">(Zander et al. 2024)</span>, <span class="citation" data-cites="Aizaki2025">(Aizaki, Akahori, and Yamamoto 2025)</span>, <span class="citation" data-cites="Chang2022">(Chang et al. 2022)</span>, <span class="citation" data-cites="Bhatta2022">(Bhatta, Zander, and Garnett 2022)</span>, <span class="citation" data-cites="Caputo2020">(Caputo and Lusk 2020)</span>, <span class="citation" data-cites="Jackson2020">(Jackson et al. 2020)</span>, <span class="citation" data-cites="Dumbrell2016">(Dumbrell, Kragt, and Gibson 2016)</span>, and <span class="citation" data-cites="Cross2012">(Cross, Rigby, and Edwards-Jones 2012)</span> adopted BWS to analyse different agricultural technologies, practices, and policies. Additionally, <span class="citation" data-cites="Ibe2024">(Ibe et al. 2024)</span> and <span class="citation" data-cites="Burns2022">(Burns et al. 2022)</span> applied BWS to support genetic breeding activities, while <span class="citation" data-cites="AttaMicheels2020">(Atta and Micheels 2020)</span> identified the risks in agricultural production through an object case study.</p>
+<p>BWS Cases 2 and 3 appeared in fewer studies which evaluated different attributes or profiles. These studies explored themes such as consumer choices <span class="citation" data-cites="AizakiSato2020 Ola2020 Mizuki2025 Rolfe2023">(Aizaki and Sato 2020; Ola and Menapace 2020; Mizuki and Yasue 2025; Rolfe et al. 2023)</span>, production strategies <span class="citation" data-cites="Sackett2013 Chelanga2025 Shittu2021">(Sackett, Shupp, and Tonsor 2013; Chelang’a et al. 2025; Shittu et al. 2021)</span>, and agricultural policies <span class="citation" data-cites="Guo2020">(Guo and Shen 2020)</span>.</p>
+<p>Across the reviewed studies, the analysis of the data is widely done through count-based methods as well as advanced modelling methods, including MNL, LCA, HB, and RPL, to capture different patterns of preference heterogeneity among respondents. Many of the researchers have applied LCA to identify the latent characteristics that can influence decision-making.</p>
+<p>Collectively, these applications underscore the practical value of BWS in guiding agricultural innovation, marketing, and policymaking. By quantifying what stakeholders value most and least, BWS contributes to evidence-based strategies that align agricultural development with stakeholder priorities. Beyond identifying preferences, BWS has provided actionable insights that have informed marketing strategies, guided policy priorities, and shaped technology adoption frameworks. The studies applying BWS to consumer choice contexts have refined the design and marketing of agri-food products, while farmer-oriented studies have supported evidence-based input subsidy and risk management programs. Policy-oriented research has aided in prioritising sustainability measures and resource allocation in line with stakeholder values. Overall, the methodological rigour and interpretive strength of BWS have enabled a deeper understanding of stakeholder preferences and their translation into practically relevant interventions. The growing body of evidence positions BWS as a bridge between preference research and real-world agricultural policymaking.</p>
+<div id="tbl-Summary" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-Summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Summary of agricultural studies employing BWS
+</figcaption>
+<div aria-describedby="tbl-Summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 12%">
+<col style="width: 31%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Subject area</th>
+<th>Author</th>
+<th>Research objective</th>
+<th>Analysis method(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>BWS Case 1</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Consumer choices</td>
+<td><span class="citation" data-cites="BavieraPuig2025">(Baviera-Puig et al. 2025)</span></td>
+<td>Understanding the preferences for olive oil in the Iberian Peninsula and developing marketing strategies in the sector</td>
+<td>Count analysis, LCA</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Uliano2025">(Uliano and Lerro 2025)</span></td>
+<td>Preferences of Italian consumers and willingness to pay for antioxidant-rich pomegranates, based on the product attributes</td>
+<td>Count analysis</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Wardyani2025">(Wardyani et al. 2025)</span></td>
+<td>Preferences of farmer market consumers for agricultural products in Taiwan</td>
+<td>Count analysis, RPL, LCA</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Cammarelle2024">(Cammarelle et al. 2024)</span></td>
+<td>Identification of attributes considered by consumers in the purchase of processed tomato products</td>
+<td>Count analysis, cluster analysis</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Torok2023">(Torok et al. 2023)</span></td>
+<td>Analysing international and country-specific preference patterns of fresh fruit and vegetable purchase by consumers in five selected European countries</td>
+<td>Count analysis</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="AizakiTakeshita2023">(Aizaki and Takeshita 2023)</span></td>
+<td>Comparison of consumer preferences for sustainable dairy activities among the UK, the Netherlands, France, Italy, and Japan</td>
+<td>Count analysis, conditional logit</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Giuggioli2023">(Giuggioli et al. 2023)</span></td>
+<td>Assessing choices during avocado purchase</td>
+<td>Count analysis, HB, LCA</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Rolfe2023">(Rolfe et al. 2023)</span></td>
+<td>Assessing the consumer support for avocados, environmental standard approaches, ecolabelling, and willingness to pay</td>
+<td>Count analysis, RPL</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Chrysochou2022">(Chrysochou et al. 2022)</span></td>
+<td>Identifying the important attributes of olive oil consumers choose during purchase</td>
+<td>Count analysis, LCA</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Sarma2020">(Sarma 2020)</span></td>
+<td>Identifying preferences of Bangladesh consumers regarding the food quality and safety attributes of fresh vegetables</td>
+<td>Count analysis</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Massaglia2019">(Massaglia et al. 2019)</span></td>
+<td>Examining the relative importance and the influence of demographic factors on consumer choices in fruits and vegetables</td>
+<td>Count analysis, LCA</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Bazzani2016">(Bazzani et al. 2016)</span></td>
+<td>Comparison of consumer preferences on food attributes in Europe and the US</td>
+<td>MNL</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Dekhili2011">(Dekhili, Sirieix, and Cohen 2011)</span></td>
+<td>Exploring the importance of origin attributes in olive oil purchase</td>
+<td>Count analysis, LCA</td>
+</tr>
+<tr class="odd">
+<td>Farm management and input selection</td>
+<td><span class="citation" data-cites="Ahoudou2023">(Ahoudou et al. 2023)</span></td>
+<td>Assessment of farmers’ choices in selecting sweet potato varieties in Benin and the ranking of traits involved</td>
+<td>Count analysis, LCA</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Maruyama2022">(Maruyama et al. 2022)</span></td>
+<td>Preference analysis for different agricultural inputs for rice production in the Senegal River Basin</td>
+<td>Count analysis, cluster analysis</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Aizaki2016">(Aizaki et al. 2016)</span></td>
+<td>Assessment of non-farmer community’s preference to assist with farm tasks</td>
+<td>Count analysis</td>
+</tr>
+<tr class="even">
+<td>Genetic improvement</td>
+<td><span class="citation" data-cites="Burns2022">(Burns et al. 2022)</span></td>
+<td>Identifying important genetic traits of cattle among European dairy farmers</td>
+<td>Count analysis, LCA</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Ibe2024">(Ibe et al. 2024)</span></td>
+<td>Identification of Nigerian farmers’ preferences for plantain characteristics to aid variety development</td>
+<td>Count analysis</td>
+</tr>
+<tr class="even">
+<td>Agricultural technologies, practices, and policies</td>
+<td><span class="citation" data-cites="Merlino2025">(Merlino et al. 2025)</span></td>
+<td>Perceptions of Italian consumers regarding technological innovations for sustainable agriculture</td>
+<td>HB, LCA</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Liu2025">(Liu et al. 2025)</span></td>
+<td>Consumer choices on adoption of sustainable environmental practices to reduce greenhouse gas emissions</td>
+<td>RPL</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Zander2024">(Zander et al. 2024)</span></td>
+<td>Adoption of agroecological practices by Kenyan farmers to formulate community-specific policies</td>
+<td>Count analysis</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Aizaki2025">(Aizaki, Akahori, and Yamamoto 2025)</span></td>
+<td>Measuring relative importance of agricultural and rural multifunctionality in Japan</td>
+<td>Count analysis, cluster analysis</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Chang2022">(Chang et al. 2022)</span></td>
+<td>Farmers’ preferences for adoption of green manure cover crops</td>
+<td>Count analysis, LCA</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Bhatta2022">(Bhatta, Zander, and Garnett 2022)</span></td>
+<td>Perceptions of people in western Nepal on governance of forest resource use</td>
+<td>Count analysis</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Caputo2020">(Caputo and Lusk 2020)</span></td>
+<td>Consumer preferences on 13 agricultural and food policies in the US</td>
+<td>RPL</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Jackson2020">(Jackson et al. 2020)</span></td>
+<td>Assessment of dairy farm management attributes</td>
+<td>HB, LCA</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="citation" data-cites="Dumbrell2016">(Dumbrell, Kragt, and Gibson 2016)</span></td>
+<td>Identification of carbon farming activities farmers prefer to adopt</td>
+<td>Conditional logit</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Cross2012">(Cross, Rigby, and Edwards-Jones 2012)</span></td>
+<td>Effectiveness of measures to reduce human exposure to <em>E. coli</em> O157</td>
+<td>Conditional logit</td>
+</tr>
+<tr class="even">
+<td>Risk assessment</td>
+<td><span class="citation" data-cites="AttaMicheels2020">(Atta and Micheels 2020)</span></td>
+<td>Ranking of important sources of risk in agricultural production among grain and oilseed farmers in Saskatchewan</td>
+<td>MNL, LCA</td>
+</tr>
+<tr class="odd">
+<td><strong>BWS Case 2</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Consumer choices</td>
+<td><span class="citation" data-cites="AizakiSato2020">(Aizaki and Sato 2020)</span></td>
+<td>Impact of multidimensional country-of-origin attributes (growing, processing, company) on purchase of processed food in Japan</td>
+<td>Paired model</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Ola2020">(Ola and Menapace 2020)</span></td>
+<td>Attitudes of Kenyan horticultural farmers toward market attributes for long-term engagement in high-value markets</td>
+<td>Marginal sequential model</td>
+</tr>
+<tr class="even">
+<td>Production strategies</td>
+<td><span class="citation" data-cites="Sackett2013">(Sackett, Shupp, and Tonsor 2013)</span></td>
+<td>Ranking sustainable farming production attributes and identifying heterogeneity across demographic classes</td>
+<td>Count analysis, Paired model, Marginal model, LCA</td>
+</tr>
+<tr class="odd">
+<td><strong>BWS Case 3</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Production strategies</td>
+<td><span class="citation" data-cites="Chelanga2025">(Chelang’a et al. 2025)</span></td>
+<td>Developing climate-smart dairy strategies in Central Kenya based on farmer preferences</td>
+<td>Count analysis, LCA</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="citation" data-cites="Shittu2021">(Shittu et al. 2021)</span></td>
+<td>Examination of Nigerian smallholder farmers shifting to climate-smart agriculture</td>
+<td>RPL</td>
+</tr>
+<tr class="even">
+<td>Consumer choices</td>
+<td><span class="citation" data-cites="Mizuki2025">(Mizuki and Yasue 2025)</span></td>
+<td>Consumer behaviour on low-amylose rice using two-stage BWS and sensory evaluation</td>
+<td>MNL</td>
+</tr>
+<tr class="odd">
+<td>Agricultural policies</td>
+<td><span class="citation" data-cites="Guo2020">(Guo and Shen 2020)</span></td>
+<td>Perceptions of rural Chinese residents on agri-environmental policies</td>
+<td>MNL, RPL, LCA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="conclusion" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
+<p>The application of BWS in agricultural research has been increasing rapidly in recent years, as confirmed by the bibliometric analysis, with the object case (Case 1) emerging as the most commonly employed. BWS proves to be a significant tool in the field of agriculture for understanding farmer preferences and consumer choices. By capturing the most and least preferred items, it enables the relative ranking of attributes. This knowledge helps the researchers to prioritise the traits for product development and trend prediction, enabling policymakers to use the interpretations obtained from BWS to frame policies.</p>
+<p>The review underscores that the three cases of BWS facilitate more precise measurement of preferences in different contexts of agricultural studies, such as environmental sustainability, productivity, and cost-related trade-offs. By providing a robust statistical foundation, BWS supports more informed policy formulation and management decisions. It effectively addresses the limitations of traditional preference measurement techniques and offers a comprehensive understanding of stakeholder choices through the adoption of advanced modelling approaches. Consequently, BWS enables more targeted and effective interventions in the field of agriculture.</p>
+<p>Careful experimental design, precise statistical analysis, and thoughtful interpretation of results will open up new avenues for applying BWS in agricultural research. Future research should focus on developing more efficient experimental designs that better capture heterogeneity in responses. As noted by <span class="citation" data-cites="Gopinath2021">(Gopinath et al. 2021)</span>, developing robust, open-source web applications with intuitive, interactive interfaces can make agricultural data analysis more accessible for researchers. Such platforms and software tools can promote wider adoption of BWS in the agricultural sector, from on-farm management to policy making.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-Adikari2024" class="csl-entry">
+Adikari, S., and N. Diawara. 2024. <span>“Utility in Time Description in Priority Best–Worst Discrete Choice Models: An Empirical Evaluation Using Flynn’s Data.”</span> <em>Stats</em> 7 (1): 185–202. <a href="https://doi.org/10.3390/stats7010012">https://doi.org/10.3390/stats7010012</a>.
+</div>
+<div id="ref-Ahoudou2023" class="csl-entry">
+Ahoudou, I., D. E. Sogbohossou, N. V. F. Hotegni, C. O. Adjé, F. A. Komlan, I. Moumouni-Moussa, and E. G. Achigan-Dako. 2023. <span>“Farmers’ Selection Criteria for Sweet Potato Varieties in Benin: An Application of Best-Worst Scaling.”</span> <em>Experimental Agriculture</em> 59: e25. <a href="https://doi.org/10.1017/S0014479723000224">https://doi.org/10.1017/S0014479723000224</a>.
+</div>
+<div id="ref-Aizaki2021" class="csl-entry">
+Aizaki, H. 2021. <span>“An Illustrative Example of Case 3 Best-Worst Scaling.”</span> <em>Non-Market Valuation with R, NMVR Project Team</em>.
+</div>
+<div id="ref-Aizaki2025" class="csl-entry">
+Aizaki, H., H. Akahori, and Y. Yamamoto. 2025. <span>“Measuring Public Relative Importance for Agricultural and Rural Multifunctionality: An Application of Case 1 Best–Worst Scaling.”</span> <em>Paddy and Water Environment</em> 23 (1): 49–60. <a href="https://doi.org/10.1007/s10333-024-00998-2">https://doi.org/10.1007/s10333-024-00998-2</a>.
+</div>
+<div id="ref-AizakiFogarty2019" class="csl-entry">
+Aizaki, H., and J. Fogarty. 2019. <span>“An r Package and Tutorial for Case 2 Best–Worst Scaling.”</span> <em>Journal of Choice Modelling</em> 32: 100171. <a href="https://doi.org/10.1016/j.jocm.2019.100171">https://doi.org/10.1016/j.jocm.2019.100171</a>.
+</div>
+<div id="ref-Aizaki2016" class="csl-entry">
+Aizaki, H., T. Onimaru, C. Katayama, and K. Ishida. 2016. <span>“Non-Farmers’ Preference for Assisting with Farm Tasks as a Method of Health Promotion.”</span> <em>Japan Agricultural Research Quarterly: JARQ</em> 50 (2): 135–42. <a href="https://doi.org/10.6090/jarq.50.135">https://doi.org/10.6090/jarq.50.135</a>.
+</div>
+<div id="ref-AizakiSato2020" class="csl-entry">
+Aizaki, H., and K. Sato. 2020. <span>“Consumer Preferences for Three Dimensions of Country of Origin of a Processed Food Product.”</span> <em>British Food Journal</em> 122 (11): 3361–82. <a href="https://doi.org/10.1108/BFJ-10-2019-0762">https://doi.org/10.1108/BFJ-10-2019-0762</a>.
+</div>
+<div id="ref-AizakiTakeshita2023" class="csl-entry">
+Aizaki, H., and H. Takeshita. 2023. <span>“Comparing Consumer Preferences for Sustainable Dairy Activities Among Countries.”</span> <em>Behaviormetrika</em> 50 (2): 653–77. <a href="https://doi.org/10.1007/s41237-022-00192-w">https://doi.org/10.1007/s41237-022-00192-w</a>.
+</div>
+<div id="ref-AriaCuccurullo2017" class="csl-entry">
+Aria, M., and C. Cuccurullo. 2017. <span>“Bibliometrix: An r-Tool for Comprehensive Science Mapping Analysis.”</span> <em>Journal of Informetrics</em> 11 (4): 959–75. <a href="https://doi.org/10.1016/j.joi.2017.08.007">https://doi.org/10.1016/j.joi.2017.08.007</a>.
+</div>
+<div id="ref-AttaMicheels2020" class="csl-entry">
+Atta, C., and E. T. Micheels. 2020. <span>“Identifying Risk in Production Agriculture: An Application of Best-Worst Scaling.”</span> <em>International Food and Agribusiness Management Review</em> 23 (2): 283–300. <a href="https://doi.org/10.22434/IFAMR2019.0133">https://doi.org/10.22434/IFAMR2019.0133</a>.
+</div>
+<div id="ref-Barrowclough2023" class="csl-entry">
+Barrowclough, M., B. Messman, D. Lannin, M. Boerngen, and M. Kibler. 2023. <span>“Measuring Mental Health Service Preferences Amongst Illinois Dairy Producers.”</span> <em>Journal of Agromedicine</em> 28 (4): 890–902. <a href="https://doi.org/10.1080/1059924X.2023.2229815">https://doi.org/10.1080/1059924X.2023.2229815</a>.
+</div>
+<div id="ref-BavieraPuig2025" class="csl-entry">
+Baviera-Puig, A., I. López-Cortés, J. A. Pereira, and N. Rodrigues. 2025. <span>“Consumer Preferences for Olive Oil in the Iberian Peninsula.”</span> <em>Cogent Food &amp; Agriculture</em> 11 (1): 2497921. <a href="https://doi.org/10.1080/23311932.2025.2497921">https://doi.org/10.1080/23311932.2025.2497921</a>.
+</div>
+<div id="ref-Bazzani2016" class="csl-entry">
+Bazzani, C., G. W. Gustavsen, R. M. Jr Nayga, and K. Rickertsen. 2016. <span>“Are Consumers’ Preferences for Food Values in the US and Norway Similar? A Best-Worst Scaling Approach.”</span> <a href="https://doi.org/10.22004/ag.econ.235844">https://doi.org/10.22004/ag.econ.235844</a>.
+</div>
+<div id="ref-Beres2024" class="csl-entry">
+Beres, L. K., N. B. Campoamor, R. Hawthorn, M. L. Mugambi, M. Mulabe, N. Vhlakis, M. Kabongo, A. Schuster, and J. F. Bridges. 2024. <span>“Using Best-Worst Scaling to Inform Policy Decisions in Africa: A Literature Review.”</span> <em>BMC Public Health</em> 24 (1): 2607. <a href="https://doi.org/10.1186/s12889-024-20068-w">https://doi.org/10.1186/s12889-024-20068-w</a>.
+</div>
+<div id="ref-Bhatta2022" class="csl-entry">
+Bhatta, M., K. K. Zander, and S. T. Garnett. 2022. <span>“Governance of Forest Resource Use in Western Nepal: Current State and Community Preferences.”</span> <em>Ambio</em> 51 (7): 1711–25. <a href="https://doi.org/10.1007/s13280-021-01694-9">https://doi.org/10.1007/s13280-021-01694-9</a>.
+</div>
+<div id="ref-Burns2022" class="csl-entry">
+Burns, J. G., K. Glenk, V. Eory, G. Simm, and E. Wall. 2022. <span>“Preferences of European Dairy Stakeholders in Breeding for Resilient and Efficient Cattle: A Best-Worst Scaling Approach.”</span> <em>Journal of Dairy Science</em> 105 (2): 1265–80. <a href="https://doi.org/10.3168/jds.2021-20316">https://doi.org/10.3168/jds.2021-20316</a>.
+</div>
+<div id="ref-Burton2021" class="csl-entry">
+Burton, N., M. Burton, C. Fisher, P. G. Pena, G. Rhodes, and L. Ewing. 2021. <span>“Beyond Likert Ratings: Improving the Robustness of Developmental Research Measurement Using Best–Worst Scaling.”</span> <em>Behavior Research Methods</em> 53 (5): 2273–79. <a href="https://doi.org/10.3758/s13428-021-01566-w">https://doi.org/10.3758/s13428-021-01566-w</a>.
+</div>
+<div id="ref-Cammarelle2024" class="csl-entry">
+Cammarelle, A., F. Bimbo, B. De Devitiis, M. E. Latino, A. Corallo, and R. Viscecchia. 2024. <span>“Preferences for Processed Tomato Products’ Attributes: An Explorative Analysis of Italian Consumers Using a Large Sample.”</span> <em>Frontiers in Sustainable Food Systems</em> 8: 1444902. <a href="https://doi.org/10.3389/fsufs.2024.1444902">https://doi.org/10.3389/fsufs.2024.1444902</a>.
+</div>
+<div id="ref-Caputo2020" class="csl-entry">
+Caputo, V., and J. L. Lusk. 2020. <span>“What Agricultural and Food Policies Do US Consumers Prefer? A Best–Worst Scaling Approach.”</span> <em>Agricultural Economics</em> 51 (1): 75–93. <a href="https://doi.org/10.1111/agec.12542">https://doi.org/10.1111/agec.12542</a>.
+</div>
+<div id="ref-Chang2022" class="csl-entry">
+Chang, S. H. E., X. Y. Yi, J. Sauer, C. B. Yin, and F. D. Li. 2022. <span>“Explaining Farmers’ Reluctance to Adopt Green Manure Cover Crops Planting for Sustainable Agriculture in Northwest China.”</span> <a href="https://doi.org/10.1016/j.jia.2022.09.005">https://doi.org/10.1016/j.jia.2022.09.005</a>.
+</div>
+<div id="ref-Chelanga2025" class="csl-entry">
+Chelang’a, N. C., M. Mathenge, D. Okello Otieno, and M. Sassi. 2025. <span>“Smallholder Farmers’ Preferences for Climate-Smart Dairy Strategies in Central Kenya.”</span> <em>NJAS: Impact in Agricultural and Life Sciences</em> 97 (1): 2533955. <a href="https://doi.org/10.1080/27685241.2025.2533955">https://doi.org/10.1080/27685241.2025.2533955</a>.
+</div>
+<div id="ref-Cheung2019" class="csl-entry">
+Cheung, K. L., S. Mayer, J. Simon, H. de Vries, S. M. Evers, I. E. Kremer, and M. Hiligsmann. 2019. <span>“Comparison of Statistical Analysis Methods for Object Case Best–Worst Scaling.”</span> <em>Journal of Medical Economics</em> 22 (6): 509–15. <a href="https://doi.org/10.1080/13696998.2018.1553781">https://doi.org/10.1080/13696998.2018.1553781</a>.
+</div>
+<div id="ref-Cheung2016" class="csl-entry">
+Cheung, K. L., B. F. Wijnen, I. L. Hollin, E. M. Janssen, J. F. Bridges, S. M. Evers, and M. Hiligsmann. 2016. <span>“Using Best–Worst Scaling to Investigate Preferences in Health Care.”</span> <em>Pharmacoeconomics</em> 34 (12): 1195–1209. <a href="https://doi.org/10.1007/s40273-016-0429-5">https://doi.org/10.1007/s40273-016-0429-5</a>.
+</div>
+<div id="ref-Chrysochou2022" class="csl-entry">
+Chrysochou, P., A. Tiganis, I. T. Trigui, and K. G. Grunert. 2022. <span>“A Cross-Cultural Study on Consumer Preferences for Olive Oil.”</span> <em>Food Quality and Preference</em> 97: 104460. <a href="https://doi.org/10.1016/j.foodqual.2021.104460">https://doi.org/10.1016/j.foodqual.2021.104460</a>.
+</div>
+<div id="ref-Cross2012" class="csl-entry">
+Cross, P., D. Rigby, and G. Edwards-Jones. 2012. <span>“Eliciting Expert Opinion on the Effectiveness and Practicality of Interventions in the Farm and Rural Environment to Reduce Human Exposure to <em>Escherichia Coli</em> O157.”</span> <em>Epidemiology and Infection</em> 140 (4): 643–54. <a href="https://doi.org/10.1017/S0950268811001257">https://doi.org/10.1017/S0950268811001257</a>.
+</div>
+<div id="ref-Custodio2023" class="csl-entry">
+Custodio, M. C., M. Demont, and H. De Steur. 2023. <span>“Market Intelligence for Guiding Crop Improvement: A Systematic Review of Stakeholder Preference Studies in the Rice Sector in the Global South and Beyond.”</span> <em>Comprehensive Reviews in Food Science and Food Safety</em> 22 (6): 4404–32. <a href="https://doi.org/10.1111/1541-4337.13228">https://doi.org/10.1111/1541-4337.13228</a>.
+</div>
+<div id="ref-Dekhili2011" class="csl-entry">
+Dekhili, S., L. Sirieix, and E. Cohen. 2011. <span>“How Consumers Choose Olive Oil: The Importance of Origin Cues.”</span> <em>Food Quality and Preference</em> 22 (8): 757–62. <a href="https://doi.org/10.1016/j.foodqual.2011.06.005">https://doi.org/10.1016/j.foodqual.2011.06.005</a>.
+</div>
+<div id="ref-Dumbrell2016" class="csl-entry">
+Dumbrell, N. P., M. E. Kragt, and F. L. Gibson. 2016. <span>“What Carbon Farming Activities Are Farmers Likely to Adopt? A Best–Worst Scaling Survey.”</span> <em>Land Use Policy</em> 54: 29–37. <a href="https://doi.org/10.1016/j.landusepol.2016.02.002">https://doi.org/10.1016/j.landusepol.2016.02.002</a>.
+</div>
+<div id="ref-Erdem2012" class="csl-entry">
+Erdem, S., D. Rigby, and A. Wossink. 2012. <span>“Using Best–Worst Scaling to Explore Perceptions of Relative Responsibility for Ensuring Food Safety.”</span> <em>Food Policy</em> 37 (6): 661–70. <a href="https://doi.org/10.1016/j.foodpol.2012.07.010">https://doi.org/10.1016/j.foodpol.2012.07.010</a>.
+</div>
+<div id="ref-Flynn2014" class="csl-entry">
+Flynn, T. N., and A. A. Marley. 2014. <span>“Best-Worst Scaling: Theory and Methods.”</span> In <em>Handbook of Choice Modelling</em>, 178–201. Edward Elgar Publishing. <a href="https://doi.org/10.4337/9781781003152.00014">https://doi.org/10.4337/9781781003152.00014</a>.
+</div>
+<div id="ref-Giuggioli2023" class="csl-entry">
+Giuggioli, N. R., V. M. Merlino, A. Sparacino, C. Peano, D. Borra, and S. Massaglia. 2023. <span>“Customer Preferences Heterogeneity Toward Avocado: A Latent Class Approach Based on the Best–Worst Scaling Choice Modeling.”</span> <em>Agricultural and Food Economics</em> 11 (1): 46. <a href="https://doi.org/10.1186/s40100-023-00289-0">https://doi.org/10.1186/s40100-023-00289-0</a>.
+</div>
+<div id="ref-Gopinath2021" class="csl-entry">
+Gopinath, P. P., R. Parsad, B. Joseph, and A. VS. 2021. <span>“grapesAgri1: Collection of Shiny Apps for Data Analysis in Agriculture.”</span> <em>Journal of Open Source Software</em> 6 (63): 3437. <a href="https://doi.org/10.21105/joss.03437">https://doi.org/10.21105/joss.03437</a>.
+</div>
+<div id="ref-Guo2020" class="csl-entry">
+Guo, Q., and J. Shen. 2020. <span>“Valuing Rural Residents’ Attitude Regarding Agri-Environmental Policy in China: A Best-Worst Scaling Analysis.”</span> Research Institute for Economics; Business Administration, Kobe University.
+</div>
+<div id="ref-Hollin2022" class="csl-entry">
+Hollin, I. L., J. Paskett, A. L. Schuster, N. L. Crossnohere, and J. F. Bridges. 2022. <span>“Best–Worst Scaling and the Prioritization of Objects in Health: A Systematic Review.”</span> <em>Pharmacoeconomics</em> 40 (9): 883–99. <a href="https://doi.org/10.1007/s40273-022-01167-1">https://doi.org/10.1007/s40273-022-01167-1</a>.
+</div>
+<div id="ref-Holmes2017" class="csl-entry">
+Holmes, T. P., W. L. Adamowicz, and F. Carlsson. 2017. <span>“Choice Experiments.”</span> In <em>A Primer on Nonmarket Valuation</em>, 133–86. Dordrecht: Springer Netherlands. <a href="https://doi.org/10.1007/978-94-007-7104-8_5">https://doi.org/10.1007/978-94-007-7104-8_5</a>.
+</div>
+<div id="ref-Hook2018" class="csl-entry">
+Hook, D. W., S. J. Porter, and C. Herzog. 2018. <span>“Dimensions: Building Context for Search and Evaluation.”</span> <em>Frontiers in Research Metrics and Analytics</em> 3 (1): 23–33. <a href="https://doi.org/10.3389/frma.2018.00023">https://doi.org/10.3389/frma.2018.00023</a>.
+</div>
+<div id="ref-Ibe2024" class="csl-entry">
+Ibe, R. B., D. O. Ibitoye, D. Kadjo, and D. Amah. 2024. <span>“Farmers’ Preference for Plantain Attributes in Nigeria: A Best-Worst Scaling Approach.”</span> <em>Nigerian Journal of Agricultural Economics</em> 14 (1): 34–42. <a href="https://doi.org/10.22004/ag.econ.358610">https://doi.org/10.22004/ag.econ.358610</a>.
+</div>
+<div id="ref-Jackson2020" class="csl-entry">
+Jackson, A., M. Green, K. Millar, and J. Kaler. 2020. <span>“Is It Just about Grazing? UK Citizens Have Diverse Preferences for How Dairy Cows Should Be Managed.”</span> <em>Journal of Dairy Science</em> 103 (4): 3250–63. <a href="https://doi.org/10.3168/jds.2019-17111">https://doi.org/10.3168/jds.2019-17111</a>.
+</div>
+<div id="ref-Kiritchenko2017" class="csl-entry">
+Kiritchenko, S., and S. Mohammad. 2017. <span>“Best-Worst Scaling More Reliable Than Rating Scales: A Case Study on Sentiment Intensity Annotation.”</span> In <em>Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</em>, 465–70. <a href="https://doi.org/10.18653/v1/P17-2074">https://doi.org/10.18653/v1/P17-2074</a>.
+</div>
+<div id="ref-Lagerkvist2012" class="csl-entry">
+Lagerkvist, C. J., J. Okello, and N. Karanja. 2012. <span>“Anchored Vs. Relative Best–Worst Scaling and Latent Class Vs. Hierarchical Bayesian Analysis of Best–Worst Choice Data: Investigating the Importance of Food Quality Attributes in a Developing Country.”</span> <em>Food Quality and Preference</em> 25 (1): 29–40. <a href="https://doi.org/10.1016/j.foodqual.2012.01.002">https://doi.org/10.1016/j.foodqual.2012.01.002</a>.
+</div>
+<div id="ref-Lee2008" class="csl-entry">
+Lee, J. A., G. Soutar, and J. Louviere. 2008. <span>“The Best–Worst Scaling Approach: An Alternative to Schwartz’s Values Survey.”</span> <em>Journal of Personality Assessment</em> 90 (4): 335–47. <a href="https://doi.org/10.1080/00223890802107925">https://doi.org/10.1080/00223890802107925</a>.
+</div>
+<div id="ref-Liu2025" class="csl-entry">
+Liu, J., B. Fan, J. Lai, B. Kassas, and A. Ropicki. 2025. <span>“Shaping Consumer Perceptions of Sustainable Practices in Livestock Production Through Effective Communication Design.”</span> <em>Agribusiness</em>. <a href="https://doi.org/10.1002/agr.70010">https://doi.org/10.1002/agr.70010</a>.
+</div>
+<div id="ref-Louviere2015" class="csl-entry">
+Louviere, J. J., T. N. Flynn, and A. A. J. Marley. 2015. <em>Best-Worst Scaling: Theory, Methods and Applications</em>. Cambridge University Press. <a href="https://doi.org/10.1017/CBO9781107337855">https://doi.org/10.1017/CBO9781107337855</a>.
+</div>
+<div id="ref-Louviere2013" class="csl-entry">
+Louviere, J., I. Lings, T. Islam, S. Gudergan, and T. Flynn. 2013. <span>“An Introduction to the Application of (Case 1) Best–Worst Scaling in Marketing Research.”</span> <em>International Journal of Research in Marketing</em> 30 (3): 292–303. <a href="https://doi.org/10.1016/j.ijresmar.2012.10.002">https://doi.org/10.1016/j.ijresmar.2012.10.002</a>.
+</div>
+<div id="ref-Marley2015a" class="csl-entry">
+Marley, A. A. J., T. N. Flynn, and V. Australia. 2015. <span>“Best Worst Scaling: Theory and Practice.”</span> In <em>International Encyclopedia of the Social &amp; Behavioral Sciences</em>, 2nd ed., 2:548–52. Amsterdam: Elsevier.
+</div>
+<div id="ref-Marley2005" class="csl-entry">
+Marley, A. A., and J. J. Louviere. 2005. <span>“Some Probabilistic Models of Best, Worst, and Best–Worst Choices.”</span> <em>Journal of Mathematical Psychology</em> 49 (6): 464–80. <a href="https://doi.org/10.1016/j.jmp.2005.05.003">https://doi.org/10.1016/j.jmp.2005.05.003</a>.
+</div>
+<div id="ref-Maruyama2022" class="csl-entry">
+Maruyama, Y., K. Ujiie, C. Ahmed, M. Diagne, and M. Irie. 2022. <span>“Farmers’ Preferences of the Agricultural Inputs for Rice Farming in Senegal River Basin, Mauritania: A Best-Worst Scaling Approach.”</span> <em>Journal of Arid Land Studies</em> 32 (S): 61–65. <a href="https://doi.org/10.14976/jals.32.S_61">https://doi.org/10.14976/jals.32.S_61</a>.
+</div>
+<div id="ref-Massaglia2019" class="csl-entry">
+Massaglia, S., D. Borra, C. Peano, F. Sottile, and V. M. Merlino. 2019. <span>“Consumer Preference Heterogeneity Evaluation in Fruit and Vegetable Purchasing Decisions Using the Best–Worst Approach.”</span> <em>Foods</em> 8 (7): 266. <a href="https://doi.org/10.3390/foods8070266">https://doi.org/10.3390/foods8070266</a>.
+</div>
+<div id="ref-Massey2015" class="csl-entry">
+Massey, G. R., P. Z. Wang, D. S. Waller, and E. V. Lanasier. 2015. <span>“Best–Worst Scaling: A New Method for Advertisement Evaluation.”</span> <em>Journal of Marketing Communications</em> 21 (6): 425–49. <a href="https://doi.org/10.1080/13527266.2013.828769">https://doi.org/10.1080/13527266.2013.828769</a>.
+</div>
+<div id="ref-Merlino2025" class="csl-entry">
+Merlino, V. M., L. Baima, C. Costamagna, D. Borra, S. Massaglia, S. Blanc, and F. Brun. 2025. <span>“Evaluating Consumer Acceptance of Technological Advancements in Sustainable Agriculture.”</span> <em>Applied Food Research</em>, 101362. <a href="https://doi.org/10.1016/j.afres.2025.101362">https://doi.org/10.1016/j.afres.2025.101362</a>.
+</div>
+<div id="ref-Mizuki2025" class="csl-entry">
+Mizuki, A., and H. Yasue. 2025. <span>“Consumer Preferences for Low-Amylose Rice: A Sensory Evaluation and Best–Worst Scaling Approach.”</span> <em>Foods</em> 14 (12): 2128. <a href="https://doi.org/10.3390/foods14122128">https://doi.org/10.3390/foods14122128</a>.
+</div>
+<div id="ref-Ola2020" class="csl-entry">
+Ola, O., and L. Menapace. 2020. <span>“Smallholders’ Perceptions and Preferences for Market Attributes Promoting Sustained Participation in Modern Agricultural Value Chains.”</span> <em>Food Policy</em> 97: 101962. <a href="https://doi.org/10.1016/j.foodpol.2020.101962">https://doi.org/10.1016/j.foodpol.2020.101962</a>.
+</div>
+<div id="ref-Parvin2016" class="csl-entry">
+Parvin, S. 2016. <span>“Review of Best-Worst Scaling Method: A New Method over Other Scales in Marketing Research.”</span> <em>Journal of Business Studies</em> 37 (1).
+</div>
+<div id="ref-Rolfe2023" class="csl-entry">
+Rolfe, J., J. De Valck, D. Rajapaksa, N. Flint, M. Star, and D. Akbar. 2023. <span>“Willingness to Pay for Higher Environmental Standards for Avocado Production in Great Barrier Reef Catchments.”</span> <em>Food Quality and Preference</em> 110: 104940. <a href="https://doi.org/10.1016/j.foodqual.2023.104940">https://doi.org/10.1016/j.foodqual.2023.104940</a>.
+</div>
+<div id="ref-Sackett2013" class="csl-entry">
+Sackett, H. M., R. Shupp, and G. Tonsor. 2013. <span>“Consumer Perceptions of Sustainable Farming Practices: A Best-Worst Scenario.”</span> <em>Agricultural and Resource Economics Review</em> 42 (2): 275–90. <a href="https://doi.org/10.1017/S1068280500004378">https://doi.org/10.1017/S1068280500004378</a>.
+</div>
+<div id="ref-Sarma2020" class="csl-entry">
+Sarma, P. K. 2020. <span>“Investigating Consumers’ Preference on Fresh Vegetables in Bangladesh: Best-Worst Scaling Approach.”</span> <em>Journal of Critical Reviews</em> 7 (11): 1821–32. <a href="https://doi.org/10.19080/ARTOAJ.2020.24.556254">https://doi.org/10.19080/ARTOAJ.2020.24.556254</a>.
+</div>
+<div id="ref-Sawassi2025" class="csl-entry">
+Sawassi, A., G. Ladisa, A. Scardigno, and C. Bogliotti. 2025. <span>“Incorporating Stakeholders’ Preferences into a Decision-Making Framework for Planning Large-Scale Agricultural Best Management Practices’ Implementation in East Africa.”</span> <em>Agriculture</em> 15 (13): 1384. <a href="https://doi.org/10.3390/agriculture15131384">https://doi.org/10.3390/agriculture15131384</a>.
+</div>
+<div id="ref-Schuster2024" class="csl-entry">
+Schuster, A. L., N. L. Crossnohere, N. B. Campoamor, I. L. Hollin, and J. F. Bridges. 2024. <span>“The Rise of Best-Worst Scaling for Prioritization: A Transdisciplinary Literature Review.”</span> <em>Journal of Choice Modelling</em> 50: 100466. <a href="https://doi.org/10.1016/j.jocm.2023.100466">https://doi.org/10.1016/j.jocm.2023.100466</a>.
+</div>
+<div id="ref-Shittu2021" class="csl-entry">
+Shittu, A. M., M. O. Kehinde, A. G. Adeyonu, and O. T. Ojo. 2021. <span>“Willingness to Accept Incentives for a Shift to Climate-Smart Agriculture Among Smallholder Farmers in Nigeria.”</span> <em>Journal of Agricultural and Applied Economics</em> 53 (4): 531–51. <a href="https://doi.org/10.1017/aae.2021.19">https://doi.org/10.1017/aae.2021.19</a>.
+</div>
+<div id="ref-Torok2023" class="csl-entry">
+Torok, A., C. H. Yeh, D. Menozzi, P. Balogh, and P. Czine. 2023. <span>“European Consumers’ Preferences for Fresh Fruit and Vegetables–a Cross-Country Analysis.”</span> <em>Journal of Agriculture and Food Research</em> 14: 100883. <a href="https://doi.org/10.1016/j.jafr.2023.100883">https://doi.org/10.1016/j.jafr.2023.100883</a>.
+</div>
+<div id="ref-Uliano2025" class="csl-entry">
+Uliano, A., and M. Lerro. 2025. <span>“Generational Preferences and Willingness to Pay for Antioxidant-Rich Pomegranates: Insights into Consumer Behavior and Market Potential.”</span> <em>Agriculture</em> 15 (11): 1162. <a href="https://doi.org/10.3390/agriculture15111162">https://doi.org/10.3390/agriculture15111162</a>.
+</div>
+<div id="ref-Viciunaite2023" class="csl-entry">
+Viciunaite, V. 2023. <span>“Alternative Food Networks on Digital Platforms: Consumer Preferences for Platform Versus Local Food Attributes.”</span> <em>Journal of Rural Studies</em> 100: 103017. <a href="https://doi.org/10.1016/j.jrurstud.2023.103017">https://doi.org/10.1016/j.jrurstud.2023.103017</a>.
+</div>
+<div id="ref-Wardyani2025" class="csl-entry">
+Wardyani, L., S. T. Ho, K. Ujiie, and S. H. Yang. 2025. <span>“The Potential Opportunity of Add‐on Service Values in Farmers’ Markets—a Best–Worst Scaling Method.”</span> <em>Australian Journal of Agricultural and Resource Economics</em> 69 (2): 383–404. <a href="https://doi.org/10.1111/1467-8489.12597">https://doi.org/10.1111/1467-8489.12597</a>.
+</div>
+<div id="ref-Yeh2020" class="csl-entry">
+Yeh, C. H., M. Hartmann, and N. Langen. 2020. <span>“The Role of Trust in Explaining Food Choice: Combining Choice Experiment and Attribute Best–Worst Scaling.”</span> <em>Foods</em> 9 (1): 45. <a href="https://doi.org/10.3390/foods9010045">https://doi.org/10.3390/foods9010045</a>.
+</div>
+<div id="ref-Yin2023" class="csl-entry">
+Yin, Z., Y. Kamimura, and T. Imoto. 2023. <span>“Public Tolerance of Lethal Wildlife Management in Japan: A Best–Worst Scaling Questionnaire Analysis.”</span> <em>Journal of Environmental Management</em> 345: 118602. <a href="https://doi.org/10.1016/j.jenvman.2023.118602">https://doi.org/10.1016/j.jenvman.2023.118602</a>.
+</div>
+<div id="ref-Zander2024" class="csl-entry">
+Zander, K. K., A. G. Drucker, L. Aluso, D. K. Mengistu, C. Fadda, C. Termote, and K. Davis. 2024. <span>“Using Best-Worst Scaling to Inform Agroecological Interventions in Western Kenya.”</span> <em>Environment, Development and Sustainability</em>, 1–25. <a href="https://doi.org/10.1007/s10668-024-05173-5">https://doi.org/10.1007/s10668-024-05173-5</a>.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>24 October 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>14 November 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>15 November 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<em>Anonymous</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Anonymous</em></p></li>
+</ul>
+</div>
+</div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>Review-Article</category>
+  <category>Data-Science</category>
+  <category>Statistics</category>
+  <guid>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</guid>
+  <pubDate>Fri, 14 Nov 2025 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Designs for sensory experiments and product optimisation: A comprehensive review</title>
   <dc:creator>Gaatha Prasad</dc:creator>

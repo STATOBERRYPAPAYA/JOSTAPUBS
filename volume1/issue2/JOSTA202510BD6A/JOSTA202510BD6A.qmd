@@ -1,0 +1,377 @@
+---
+title: "Best-Worst Scaling in Agricultural Research: A Review of Methods and Applications"
+author:  
+  - name: Anjana Bivas T
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Statistics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: anjanabivast@gmail.com
+    orcid: "0009-0008-2828-4347"
+
+  - name: Pratheesh P Gopinath*
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Statistics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: pratheesh.pg@kau.in
+    orcid: "0000-0003-3290-0436"
+    url: https://kau.in/people/sub-lt-dr-pratheesh-p-gopinath
+    note: Corresponding author
+    
+  - name: Manju Mary Paul
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Statistics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: manju.paul@kau.in
+    orcid: "0000-0002-2529-5584"
+    url: https://kau.in/people/manju-mary-paul
+    
+  - name: Smija P K
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Extension
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: smija.pk@kau.in
+    orcid: "0009-0008-4281-4148"
+    url: https://kau.in/people/smt-smija-pk
+    
+  - name: Durga A R
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Economics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: durga.ar@kau.in
+    url: https://www.kau.in/people/durga-ar
+
+abstract: |
+  Understanding stakeholder preferences is essential for designing effective agricultural policies, promoting technology adoption, and aligning market strategies with consumer demand. Best–Worst Scaling (BWS) is a robust stated preference method that captures preferences by choosing the most and least important attributes within a choice set. This review highlights the statistical foundations of BWS, including Random Utility Theory, and common analytical models such as Multinomial Logit, Latent Class Analysis, Random Parameter Logit, and Hierarchical Bayesian frameworks to estimate preference heterogeneity. A bibliometric analysis of BWS applications in agricultural research highlights increasing adoption, publication trends, and leading contributors in the field. The findings reveal that BWS provides actionable insights into consumer and farmer preferences, informing product development, policy formulation, and sustainable decision-making, and demonstrates its growing relevance as a rigorous tool for evidence-based agricultural research.  
+  
+description: >  
+   Understanding stakeholder preferences is essential for designing effective agricultural policies, promoting technology adoption, and aligning market strategies with consumer demand. Best–Worst Scaling (BWS) is a robust stated preference method <a href="/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style> 
+
+keywords: [Best-Worst Scaling, Preference elicitation, Choice models, Consumer choices, Agricultural decision-making]  
+categories: [Review-Article,Data-Science,Statistics]
+bibliography: JOSTA202510BD6A.bib
+date: 2025-11-15
+doi: 10.65287/josta.202510.BD6A  
+status: Published (Online)
+volume: "1"
+issue: "2"
+pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/pdfs/JOSTA-202510-BD6A.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html"
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.BD6A-blue?logo=doi)](https://doi.org/10.65287/josta.202510.BD6A) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17613929)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202510-BD6A.pdf" download class="j-btn" aria-label="download pdf">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202510.BD6A" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Bivas T, A., Gopinath, P. P., paul, . manju ., P K, S., & A R, D. (2025). Best-Worst Scaling in Agricultural Research: A Review of Methods and Applications. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.BD6A
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>  
+
+
+## Introduction
+
+Agriculture serves as the foundation of global food systems, supporting human sustenance, economic stability, and environmental sustainability. Its effectiveness largely depends on the decisions and preferences of farmers, consumers, and policymakers. Choices such as selecting resilient crop varieties and inputs, implementing sustainable farming practices, and responding to consumer demand influence productivity and yields while shaping ecological outcomes, biodiversity conservation, and the equitable allocation of resources. Moreover, understanding these preferences enables producers and policymakers to align agricultural outputs with consumer needs, ensuring that market demand is met efficiently and sustainably.Gaining insights into stakeholder preferences is therefore essential for designing effective agricultural policies, promoting technology adoption, and developing marketing strategies [@Custodio2023; @Sawassi2025].
+
+Over the years, several preference elicitation and scaling techniques, such as Likert scales, rating, ranking, and pairwise comparison methods, have been widely employed in agricultural and consumer research. Likert and rating scales capture perceived importance or agreement, while ranking methods require respondents to order all items simultaneously, which can become cognitively demanding as the number of attributes increases. Pairwise comparisons simplify the task but still fail to reflect the relative importance among multiple competing attributes. As noted by @Parvin2016, these methods tend to be cognitively more demanding and are susceptible to response and scale-use biases, which can compromise the reliability and comparability of results across respondents.
+
+Best-Worst Scaling (BWS) is a stated preference method, developed by Jordan J Louviere in 1987, that addresses these limitations by asking respondents to identify both the most and least important items within a choice set. Unlike traditional rating or ranking methods, which require evaluating all items simultaneously, BWS divides the task into smaller, more cognitively manageable parts, simplifying the process and helping respondents make more distinct trade-offs between attributes[@Erdem2012]. This approach captures the extremes in the inclinations of respondents and reduces the cognitive burden on respondents, making it easier for the surveyor to obtain more accurate and reliable responses with reduced biases [@Kiritchenko2017], [@Burton2021].
+
+Three main variants of BWS, Case 1 (Object case), Case 2 (Profile case), and Case 3 (Multi-profile case), facilitate identifying preferences according to the context and the nature of items or profiles to be evaluated. Case 1 is the simplest form of BWS, allowing respondents to choose the best and worst items in a list and make a relative ranking of the items @Flynn2014. Cases 2 and 3 deal with profiles which are combinations of levels of attributes. In the profile case, choices are made within the individual profiles, whereas in the multi-profile case, choices are made between whole profiles [@Louviere2015; @Cheung2016].
+
+While previous reviews have examined the methodological evolution and applications of BWS across disciplines [@Schuster2024; @Hollin2022; @Beres2024], most have centred on health and policy domains. Comprehensive analyses focusing specifically on the agricultural sector remain limited. The present review aims to address this gap by systematically examining the use of BWS within agricultural research, highlighting methodological developments, thematic areas, and conceptual contributions. By integrating evidence and perspectives from existing studies, the review presents a coherent narrative on the expanding role of BWS in shaping preference-based research within agriculture.
+
+## Statistical foundations of BWS
+
+The Random Utility Theory (RUT) underpins the fundamental principle of BWS @Beres2024, which states that individuals make their choices based on the perceived utility characteristics or the characteristics of a product, which comprises observable attributes and some unobservable random component, as shown in @eq-eq1.
+
+$$
+U_{ij} = V_{ij} + \varepsilon_{ij}
+$$ {#eq-eq1}
+
+where U~ij~ is the total utility of the j^th^ item for the i^th^ consumer, V~ij~ denote the utility from the observed characteristics, and ε~ij~ is the random component. The stochastic component implies that while exact choices cannot be predicted, the probability of each alternative being selected can be estimated statistically @Adikari2024.
+
+In the context of BWS, this framework can be used to compare the ‘best’ and ‘worst’ choices of an individual.By requiring respondents to identify both extremes of preference within each choice set, BWS captures a fuller range of the utility distribution compared to traditional choice experiments. According to RUT, an item’s relative preference compared to others depends on how frequently it is chosen [@Louviere2013]. Recent methodological developments have further extended RUT to account for individual-level preference heterogeneity, allowing researchers to better understand differences in choices across respondents [@Holmes2017].
+
+In agricultural research, RUT and BWS provide a framework for examining how different stakeholders evaluate competing options such as crop varieties, input combinations, market choices, or policy measures, based on perceived benefits and trade-offs. By linking observable attributes like yield, price, sustainability, and quality with individual preferences, BWS enables researchers to quantify the relative importance of these factors, offering valuable insights into agricultural decision-making.
+
+## Experimental Designs in BWS
+
+The efficiency of a BWS study depends critically on the construction of choice sets in the questionnaire. Asking respondents to rank a large number of items can create cognitive strain and reduce data quality. @Parvin2016 noted out that it is challenging for the respondents to rank more than seven items in a single choice set. To address this, BWS organizes the items into smaller and manageable choice sets, typically containing three to six items each, allowing respondents to make meaningful comparisons without fatigue.
+
+A statistically efficient design ensures that each item or attribute level appears an equal number of times across all choice sets, and that every possible pair of items co-occurs equally often with similar frequency @Lee2008. This balance and orthogonality in the design facilitate the derivation of precise and reliable preference estimates.
+
+Early BWS studies used 2^J^ designs @Flynn2014 to generate choice sets, where J represents the number of items. However, as the number of items increases, the number of possible combinations grows exponentially, making such designs impractical for real-world surveys and burdensome for respondents. To overcome this challenge, recent studies employ Balanced Incomplete Block Design (BIBD) to generate combinations of items in each choice set, as it ensures the balanced occurrence and co-occurrence of objects. This approach is commonly used in the BWS object case (Case 1), where individual items are evaluated directly by respondents, allowing for manageable questionnaires without compromising statistical efficiency.
+
+In profile and multi-profile cases, the focus shifts from single items to combinations of attributes that define a product or alternative. Here, the profiles are created using Orthogonal Arrays (OA). If there are K attributes, each with L~k~ (k = 1, 2, …, K) levels, an L^K^ OA can be used to create profiles while maintaining orthogonality. Each profile is considered as a choice set in BWS case 2, while in Case 3 multiple profiles are combined into choice sets using BIBD. This approach allows researchers to estimate the relative importance of individual attributes and their levels, while keeping the task manageable for respondents [@AizakiFogarty2019; @Aizaki2021].
+
+## Statistical Models for Analysis
+
+Depending on the complexity of the data and objectives of the research, different analytical models are employed to extract insights from best–worst choices. These models range from simple counting approaches, which provide a basic understanding of preference patterns, to more sophisticated econometric models capable of capturing heterogeneity in preferences.
+
+### Counting approach
+
+The counting method, which involves the frequencies of each item being selected as ‘best’ and ‘worst,’ is a simple yet effective approach used to analyse BWS data @Burns2022. The Best-Worst (B-W) score is obtained by subtracting the number of times an item is marked as worst (Wᵢ) from the number of times it is marked as best (Bᵢ), which is then divided by the total number of respondents (n) and the frequency of an item appeared in each choice set (r) to get the standardised score (@eq-eq2;@eq-eq3) [@Massey2015; @Yin2023]. The Square root B-W score (@eq-eq4) and Standard B-W score (@eq-eq5) also represent the preferences @Torok2023.
+
+$$B\!-\!W\ Score = B_i - W_i$$ {#eq-eq2}
+
+$$\text{Standard } B\!-\!W\ \text{score} = \frac{B_i - W_i}{r \times n}$$ {#eq-eq3}
+
+$$\text{Sqrt. } B\!-\!W\ \text{score} = \sqrt{\frac{B_i}{W_i}}$$ {#eq-eq4}
+
+$$\text{Standard Sqrt. } B\!-\!W\ \text{score} = \frac{\text{Sqrt. } B\!-\!W\ \text{score}}{\max(\text{Sqrt. } B\!-\!W\ \text{score})}$$ {#eq-eq5}
+
+### Modelling approaches
+
+Statistical models grounded in econometric theory and probabilistic frameworks enable rigorous estimation of preference parameters. Modelling approaches provide greater analytical precision and account for response heterogeneity, compared to count-based methods. These models estimate the likelihood of an individual choosing a particular item as ‘best’ or ‘worst’. The probabilistic model represented in @eq-eq6 forms the theoretical foundation for the statistical models used in the analysis of BWS data. It considers a finite set of alternatives and estimates the probability of selecting an item as best, worst, or jointly as a best–worst pair based on underlying choice processes [@Marley2005].
+
+$$\mathrm{BW}_X(x, y) =
+\frac{B_X(x)\, W_X(y)}
+{\displaystyle \sum_{\substack{r,s \in X \\ r \ne s}} B_X(r)\, W_X(s)}$$ {#eq-eq6}
+
+where B~X~(x) is the probability that the alternative x is chosen as best in X, W~X~(y) is the probability that the alternative y is chosen as worst in X, and BW~X~(x, y) is the joint probability of the alternative x is chosen as best in X and the alternative y ≠ x is chosen as worst in X.
+
+Advanced models can capture preference heterogeneity across respondents that arises due to geographic, socioeconomic, or behavioural factors. This can be used in agricultural studies to identify the difference in choices of farmers and consumers based on farm size, access to resources, and individual-level factors.
+
+#### Multinomial Logit Model (MNL)
+
+MNL is based on the assumption that the preferences of individuals in a population are homogeneous. The joint probability of selecting an item as best and another as worst within a choice set is used to estimate the preference for that item [@Marley2015a]. Conceptually, the MNL model represents the probability of choosing a specific best–worst pair based on the relative utilities of the available items in a choice set. This probabilistic framework allows the model to capture the trade-offs respondents make when identifying their most and least preferred items. The resulting estimates provide a population-level measure of preference intensity of each item compared to a reference, making the MNL a fundamental model for advanced analyses of best–worst data [@Cheung2019].
+
+#### Latent Class Analysis (LCA)
+
+LCA is a cluster analysis method used to uncover the unobserved heterogeneity among respondents when observable characteristics alone cannot form homogeneous groups. Based on this, respondents will be categorised into different latent classes sharing hidden attributes that can affect the selection. The optimal number of clusters is determined by statistical fit criteria such as Bayesian Information Criterion (BIC), Akaike Information Criterion (AIC), and McFadden’s Pseudo R-squared (ρ²), which are commonly used to assess model performance [@Cheung2019; @Barrowclough2023; @Merlino2025].
+
+#### Hierarchical Bayesian Model (HB)
+
+HB models capture both within-respondent and across-respondent heterogeneity, producing individual-specific preference estimates [@Lagerkvist2012; @Yeh2020]. @Lagerkvist2012 demonstrated that the HB model outperforms the LCA by capturing both between- and within-respondent preference variation. Its ability to estimate individual-level parameters from limited data makes it particularly useful for analysing best–worst choices.
+
+#### Random Parameter Logit (RPL) or Mixed Logit (MXL) Model
+
+RPL model provides a more accurate depiction of real-world choice behaviour by allowing for random differences in individual preferences and accounting for correlations among unobserved factors [@Viciunaite2023]. It is a generalisation of MNL, used to estimate the individual heterogeneity in preferences. Unlike the MNL, which assumes uniform preferences across respondents, the RPL allows parameters to vary randomly within the population, implying that different people have different preferences. The preference heterogeneity can be estimated by finding the standard deviation of each parameter’s distribution [@Cheung2019].
+
+#### Paired, Marginal, and Marginal Sequential Models for Profile Case
+
+Three different choice modelling methods, paired, marginal, and marginal sequential models, are used to analyse the responses obtained from a BWS case 2 survey. All models assume that each attribute level provides some utility to the respondent, but differ in how the best and worst levels are determined. The utility of the level chosen as worst is considered the negative of the utility of the level selected as best.
+
+The paired model identifies that the chosen best–worst pair represents the largest utility difference among all possible pairs in the set. The marginal model assumes that the best level has the maximum utility and the worst level the minimum utility among all levels, whereas in the marginal sequential model, the best level has the maximum utility among all levels and the worst level the minimum utility among the remaining levels.
+
+In all three models, the estimated coefficients indicate the relative preference of respondents for each attribute level, providing insights into the trade-offs made when identifying the most and least important options [@AizakiFogarty2019].
+
+## Bibliometric Insights into BWS in Agriculture
+
+A bibliometric analysis was conducted using the bibliometrix package [@AriaCuccurullo2017] in R to examine studies employing BWS to elicit choices in agricultural contexts. The Dimensions database was selected for its broad coverage of multidisciplinary research [@Hook2018]. Publications from 2011 to 2025 were retrieved using the search string: ("Best-Worst Scaling" OR "BWS") AND ("agriculture" OR "farm" OR "food"). The search was limited to peer-reviewed journal articles and conference papers published in English, ensuring the inclusion of relevant and high-quality academic outputs. Although larger datasets can be obtained from other databases, the export restrictions in these platforms limit their use for the present analysis. The selection of Dimensions thus ensured consistency, transparency, and replicability of the bibliometric workflow.
+
+After screening for relevance and removing duplicates, a total of 75 documents from 54 sources were retained for analysis. The chosen timespan captures both the emergence and evolution of BWS applications in agriculture, beginning with the earliest identifiable studies in 2011. The relatively small corpus reflects the recent adoption of BWS in this field and the method’s growing recognition as a robust alternative to traditional preference elicitation approaches. This also indicates a research gap and an opportunity for further exploration of BWS across diverse agricultural decision-making contexts.
+
+These records were analysed to interpret the research trends, current status, thematic distribution, advancements, and interrelationships among studies in this field. The analysis revealed an increasing trend in the scientific production, as shown in @fig-figure1, with an overall growth rate of 13.65% during the study period. The highest number of publications occurred in 2025, followed by 2020. From 2011 to 2017, the publication activity remained relatively stable and gained acceleration from 2018 onward, indicating a growing interest in BWS-based agricultural studies.
+
+![Annual scientific production](figures/fig1.png){#fig-figure1 width="70%" height="auto"}
+
+A total of 27 countries across the world have engaged in agricultural research employing BWS during this period. Japan ($n$=15) recorded the highest number of publications, followed by Italy ($n$=13) and the USA($n$=12). @fig-figure2 illustrates the publication output of all the contributing countries, showing the trends in their research activity. The results indicate that while a few countries, particularly Japan, Italy, the USA, Germany, and the UK, dominate the field, several others are gradually adopting BWS in agricultural studies, reflecting its growing global relevance.
+
+![Country-wise distribution of publications](figures/fig2.png){#fig-figure2 width="60%" height="auto"}
+
+A total of 221 researchers contributed to the 75 examined articles, of which four were single-authored. The average number of authors per article is 3.63. Out of the total, 31 authors have published more than one article. Borra and Massaglia ($n$=6) are the authors with highest number of publications. Merlino ($n$=5), Aizaki ($n$=4), Blanc ($n$=3), Madureira ($n$=3), Nunes ($n$=3), Peano ($n$=3), Ujiie ($n$=3), Veiga ($n$=3), and Yang S ($n$=3) are the other relevant authors in this field, as given in @fig-figure3. An international co-authorship of 37.33% was identified, indicating the strong level of cross-country collaboration among the authors.
+
+![Most relevant authors](figures/fig3.png){#fig-figure3 width="60%" height="auto"}
+
+The reviewed studies were published in 54 journals. The most relevant journals among them were Foods ($n$= 6), Journal of Dairy Science ($n$=4), Agricultural Economics ($n$=3), Food Quality and Preference ($n$=3), Journal of Environmental Management ($n$=3), Sustainability ($n$=3), Agribusiness ($n$=2), Agriculture ($n$=2), Australian Journal of Agriculture ($n$=2), British Food Journal ($n$=2), and Land Use Policy ($n$=2).
+
+The citations of the articles were analysed and found that, on an average, each article had 19.8 citations, with an average of 3.11 citations per document per year. Eight studies had more than fifty citations, with [@Dekhili2011] recording the highest (140), followed by [@Dumbrell2016] with 109 and [@Massaglia2019] with 101. The citation network (@fig-figure4) revealed the interrelations among influential studies, highlighting the focal role of [@Dekhili2011] in connecting multiple research clusters within the field.
+
+![Network visualization of citations](figures/fig4.png){#fig-figure4 width="80%" height="auto"}
+
+The bibliometric findings reveal a steady growth in the use of BWS within agricultural research over the past fifteen years. The method’s expanding adoption across countries and journals reflects its growing credibility as a reliable approach for capturing stakeholder preferences and supporting evidence-based decision-making. Although the number of retrieved publications is modest, this primarily reflects database-specific constraints and the relatively recent integration of BWS into agricultural research workflows. The observed trends highlight the increasing recognition of BWS as a valuable tool for understanding preferences in agricultural decision-making, signifying its potential for broader application in future agricultural studies.
+
+## Applications of BWS in Agricultural Research
+
+The application of BWS in the agricultural sector has increased significantly over the years. The bibliometric analysis substantiates that there is a growing trend in its application from 2011 to 2025. The involvement of smaller choice sets and the ability to capture nuanced distinctions in preferences made BWS a more preferred method of choice evaluation over the traditional rating and ranking methods. This section examines the major studies that have employed BWS to understand the preferences of agricultural stakeholders.
+
+The reviewed body of literature demonstrates that BWS has been applied across a broad spectrum of agricultural contexts, encompassing consumer behaviour, farm management, sustainability practices, policy evaluation, and genetic improvement. @tbl-Summary presents an overview of the reviewed studies, summarising the types of BWS and the analytical methods used in different research contexts. It illustrates the wide range of agricultural and allied topics where BWS has been applied, with the three cases of BWS being applied to address distinct study objectives.
+
+Among the reviewed literature, BWS Case 1 is the dominant one, featuring in the majority of publications. Research by [@BavieraPuig2025], [@Uliano2025], [@Wardyani2025], [@Cammarelle2024], [@Torok2023], [@AizakiTakeshita2023], [@Giuggioli2023], [@Chrysochou2022], [@Sarma2020], [@Massaglia2019], [@Bazzani2016], and [@Dekhili2011] used Case 1 to identify the preference patterns of consumers in the purchase of different agricultural products. It has also been employed to capture the choice behaviour of farmers regarding the selection of farm inputs as given in [@Ahoudou2023], [@Burns2022], [@Maruyama2022], and [@Aizaki2016]. The studies by [@Merlino2025], [@Liu2025], [@Zander2024], [@Aizaki2025], [@Chang2022], [@Bhatta2022], [@Caputo2020], [@Jackson2020], [@Dumbrell2016], and [@Cross2012] adopted BWS to analyse different agricultural technologies, practices, and policies. Additionally, [@Ibe2024] and [@Burns2022] applied BWS to support genetic breeding activities, while [@AttaMicheels2020] identified the risks in agricultural production through an object case study.
+
+BWS Cases 2 and 3 appeared in fewer studies which evaluated different attributes or profiles. These studies explored themes such as consumer choices [@AizakiSato2020; @Ola2020; @Mizuki2025; @Rolfe2023], production strategies [@Sackett2013; @Chelanga2025; @Shittu2021], and agricultural policies [ @Guo2020].
+
+Across the reviewed studies, the analysis of the data is widely done through count-based methods as well as advanced modelling methods, including MNL, LCA, HB, and RPL, to capture different patterns of preference heterogeneity among respondents. Many of the researchers have applied LCA to identify the latent characteristics that can influence decision-making.
+
+Collectively, these applications underscore the practical value of BWS in guiding agricultural innovation, marketing, and policymaking. By quantifying what stakeholders value most and least, BWS contributes to evidence-based strategies that align agricultural development with stakeholder priorities. Beyond identifying preferences, BWS has provided actionable insights that have informed marketing strategies, guided policy priorities, and shaped technology adoption frameworks. The studies applying BWS to consumer choice contexts have refined the design and marketing of agri-food products, while farmer-oriented studies have supported evidence-based input subsidy and risk management programs. Policy-oriented research has aided in prioritising sustainability measures and resource allocation in line with stakeholder values. Overall, the methodological rigour and interpretive strength of BWS have enabled a deeper understanding of stakeholder preferences and their translation into practically relevant interventions. The growing body of evidence positions BWS as a bridge between preference research and real-world agricultural policymaking.
+
+| Subject area | Author | Research objective | Analysis method(s) |
+|--------------|--------|--------------------|---------------------|
+| **BWS Case 1** |  |  |  |
+| Consumer choices | [@BavieraPuig2025] | Understanding the preferences for olive oil in the Iberian Peninsula and developing marketing strategies in the sector | Count analysis, LCA |
+|  | [@Uliano2025] | Preferences of Italian consumers and willingness to pay for antioxidant-rich pomegranates, based on the product attributes | Count analysis |
+|  | [@Wardyani2025] | Preferences of farmer market consumers for agricultural products in Taiwan | Count analysis, RPL, LCA |
+|  | [@Cammarelle2024] | Identification of attributes considered by consumers in the purchase of processed tomato products | Count analysis, cluster analysis |
+|  | [@Torok2023] | Analysing international and country-specific preference patterns of fresh fruit and vegetable purchase by consumers in five selected European countries | Count analysis |
+|  | [@AizakiTakeshita2023] | Comparison of consumer preferences for sustainable dairy activities among the UK, the Netherlands, France, Italy, and Japan | Count analysis, conditional logit |
+|  | [@Giuggioli2023] | Assessing choices during avocado purchase | Count analysis, HB, LCA |
+|  | [@Rolfe2023] | Assessing the consumer support for avocados, environmental standard approaches, ecolabelling, and willingness to pay | Count analysis, RPL |
+|  | [@Chrysochou2022] | Identifying the important attributes of olive oil consumers choose during purchase | Count analysis, LCA |
+|  | [@Sarma2020] | Identifying preferences of Bangladesh consumers regarding the food quality and safety attributes of fresh vegetables | Count analysis |
+|  | [@Massaglia2019] | Examining the relative importance and the influence of demographic factors on consumer choices in fruits and vegetables | Count analysis, LCA |
+|  | [@Bazzani2016] | Comparison of consumer preferences on food attributes in Europe and the US | MNL |
+|  | [@Dekhili2011] | Exploring the importance of origin attributes in olive oil purchase | Count analysis, LCA |
+| Farm management and input selection | [@Ahoudou2023] | Assessment of farmers’ choices in selecting sweet potato varieties in Benin and the ranking of traits involved | Count analysis, LCA |
+|  | [@Maruyama2022] | Preference analysis for different agricultural inputs for rice production in the Senegal River Basin | Count analysis, cluster analysis |
+|  | [@Aizaki2016] | Assessment of non-farmer community’s preference to assist with farm tasks | Count analysis |
+| Genetic improvement | [@Burns2022] | Identifying important genetic traits of cattle among European dairy farmers | Count analysis, LCA |
+|  | [@Ibe2024] | Identification of Nigerian farmers’ preferences for plantain characteristics to aid variety development | Count analysis |
+| Agricultural technologies, practices, and policies | [@Merlino2025] | Perceptions of Italian consumers regarding technological innovations for sustainable agriculture | HB, LCA |
+|  | [@Liu2025] | Consumer choices on adoption of sustainable environmental practices to reduce greenhouse gas emissions | RPL |
+|  | [@Zander2024] | Adoption of agroecological practices by Kenyan farmers to formulate community-specific policies | Count analysis |
+|  | [@Aizaki2025] | Measuring relative importance of agricultural and rural multifunctionality in Japan | Count analysis, cluster analysis |
+|  | [@Chang2022] | Farmers’ preferences for adoption of green manure cover crops | Count analysis, LCA |
+|  | [@Bhatta2022] | Perceptions of people in western Nepal on governance of forest resource use | Count analysis |
+|  | [@Caputo2020] | Consumer preferences on 13 agricultural and food policies in the US | RPL |
+|  | [@Jackson2020] | Assessment of dairy farm management attributes | HB, LCA |
+|  | [@Dumbrell2016] | Identification of carbon farming activities farmers prefer to adopt | Conditional logit |
+|  | [@Cross2012] | Effectiveness of measures to reduce human exposure to *E. coli* O157 | Conditional logit |
+| Risk assessment | [@AttaMicheels2020] | Ranking of important sources of risk in agricultural production among grain and oilseed farmers in Saskatchewan | MNL, LCA |
+| **BWS Case 2** |  |  |  |
+| Consumer choices | [@AizakiSato2020] | Impact of multidimensional country-of-origin attributes (growing, processing, company) on purchase of processed food in Japan | Paired model |
+|  | [@Ola2020] | Attitudes of Kenyan horticultural farmers toward market attributes for long-term engagement in high-value markets | Marginal sequential model |
+| Production strategies | [@Sackett2013] | Ranking sustainable farming production attributes and identifying heterogeneity across demographic classes | Count analysis, Paired model, Marginal model, LCA |
+| **BWS Case 3** |  |  |  |
+| Production strategies | [@Chelanga2025] | Developing climate-smart dairy strategies in Central Kenya based on farmer preferences | Count analysis, LCA |
+|  | [@Shittu2021] | Examination of Nigerian smallholder farmers shifting to climate-smart agriculture | RPL |
+| Consumer choices | [@Mizuki2025] | Consumer behaviour on low-amylose rice using two-stage BWS and sensory evaluation | MNL |
+| Agricultural policies | [@Guo2020] | Perceptions of rural Chinese residents on agri-environmental policies | MNL, RPL, LCA |
+
+: Summary of agricultural studies employing BWS {#tbl-Summary}
+
+## Conclusion
+
+The application of BWS in agricultural research has been increasing rapidly in recent years, as confirmed by the bibliometric analysis, with the object case (Case 1) emerging as the most commonly employed. BWS proves to be a significant tool in the field of agriculture for understanding farmer preferences and consumer choices. By capturing the most and least preferred items, it enables the relative ranking of attributes. This knowledge helps the researchers to prioritise the traits for product development and trend prediction, enabling policymakers to use the interpretations obtained from BWS to frame policies.
+
+The review underscores that the three cases of BWS facilitate more precise measurement of preferences in different contexts of agricultural studies, such as environmental sustainability, productivity, and cost-related trade-offs. By providing a robust statistical foundation, BWS supports more informed policy formulation and management decisions. It effectively addresses the limitations of traditional preference measurement techniques and offers a comprehensive understanding of stakeholder choices through the adoption of advanced modelling approaches. Consequently, BWS enables more targeted and effective interventions in the field of agriculture.
+
+Careful experimental design, precise statistical analysis, and thoughtful interpretation of results will open up new avenues for applying BWS in agricultural research. Future research should focus on developing more efficient experimental designs that better capture heterogeneity in responses. As noted by [@Gopinath2021], developing robust, open-source web applications with intuitive, interactive interfaces can make agricultural data analysis more accessible for researchers. Such platforms and software tools can promote wider adoption of BWS in the agricultural sector, from on-farm management to policy making.
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**
+
+-   **Submitted:** *24 October 2025*\
+-   **Accepted:** *14 November 2025*\
+-   **Published (Online):** *15 November 2025*
+
+------------------------------------------------------------------------
+
+**Reviewer Information**
+
+-   **Reviewer 1:**\
+    *Anonymous*
+
+-   **Reviewer 2:**\
+    *Anonymous*
+:::
