@@ -58,10 +58,14 @@ abstract: |
 keywords: [price volatility, ARCH, GARCH, COVID, Vazhakkulam, pineapple]  
 bibliography: aswathypineapple.bib
 date: 2025-06-18
-path: "volume1/AGECONOMICS/JOSTA11CS1.html"
+path: "volume1/issue1/AGECONOMICS/JOSTA11CS1.html"
 categories: [Case-Study,Economics,Policy]
 status: Published (Online)
-doi: 10.5281/zenodo.15689170 
+doi: 10.5281/zenodo.15689170  
+volume: "1"
+issue: "1"
+pdf_url: "https://www.jostapubs.com/volume1/issue1/AGECONOMICS/pdf/JOSTA11CS1.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue1/AGECONOMICS/JOSTA11CS1.html"
 ---
 
 ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg)![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)

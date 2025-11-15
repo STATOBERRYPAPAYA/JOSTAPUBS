@@ -32,10 +32,14 @@ abstract: |
 keywords: [vegetable cowpea, non-allelic interaction, duplicate and complementary epistasis, scale values, genetic components]  
 bibliography: lovelybiblio.bib
 date: 2025-06-17
-path: "volume1/lovelyB/generationmean.html"
+path: "volume1/issue1/lovelyB/generationmean.html"
 categories: [ Original-Article,Plant-Science, Crops,Genetics]
 status: Published (Online)
-doi: 10.5281/zenodo.15684703 
+doi: 10.5281/zenodo.15684703  
+volume: "1"
+issue: "1"
+pdf_url: "https://www.jostapubs.com/volume1/issue1/lovelyB/pdfs/generationmean.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue1/lovelyB/generationmean.html"
 ---
 
 ![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15684703-1f345c?style=flat-square)

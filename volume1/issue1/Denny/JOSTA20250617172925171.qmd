@@ -80,10 +80,14 @@ include-in-header:
 keywords: [dairy self-help groups, loan repayment, microfinance, tobit regression, rural finance, Kerala, primary sector]  
 bibliography: dennybiblio.bib
 date: 2025-07-22
-path: "volume1/Denny/JOSTA20250617172925171.html"
+path: "volume1/issue1/Denny/JOSTA20250617172925171.html"
 categories: [Original-Article,Economics,Policy]
 status: Published (Online)
 doi: 10.5281/zenodo.16308321
+volume: "1"
+issue: "1"
+pdf_url: "https://www.jostapubs.com/volume1/issue1/Denny/pdfs/JOSTA20250617172925171.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue1/Denny/JOSTA20250617172925171.html"
 ---
 ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16308321.svg)
 ![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)

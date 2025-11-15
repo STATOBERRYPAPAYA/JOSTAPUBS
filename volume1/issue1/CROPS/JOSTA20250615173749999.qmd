@@ -45,10 +45,14 @@ include-in-header:
 keywords: [Sesame, genetic variability, heritability, correlation, path analysis, genetic divergence, breeding]  
 bibliography: gayathribiblio.bib
 date: 2025-06-24
-path: "volume1/CROPS/JOSTA20250615173749999.html"
+path: "volume1/issue1/CROPS/JOSTA20250615173749999.html"
 categories: [Original-Article,Plant-Science, Crops, Genetics]
 status: Published (Online)
-doi: 10.5281/zenodo.15726530  
+doi: 10.5281/zenodo.15726530 
+volume: "1"
+issue: "1"
+pdf_url: "https://www.jostapubs.com/volume1/issue1/CROPS/pdf/JOSTA20250615173749999.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html"
 ---
 
 ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15726530.svg)

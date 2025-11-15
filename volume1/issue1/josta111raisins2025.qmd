@@ -39,10 +39,14 @@ abstract: |
 keywords: [Data Analysis, Agriculture Research, Design of Experiments, Statistical Genetics, Social Sciences, Open AI, Python, R]
 bibliography: paper1.bib
 date: 06-08-2025
-path: "volume1/josta111raisins2025.html"
+path: "volume1/issue1/josta111raisins2025.html"
 categories: [ Original-Article,Data-Science, Software]
 status: Published (Online)
 doi: https://doi.org/10.5281/zenodo.15622128
+volume: "1"
+issue: "1"
+pdf_url: "https://www.jostapubs.com/volume1/issue1/pdfs/josta_raisins.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue1/josta111raisins2025.html"
 ---
 
 ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg) ![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
