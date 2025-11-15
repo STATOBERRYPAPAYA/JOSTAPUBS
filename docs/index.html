@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-status','listing-description','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-project","listing-website","listing-reader-mode","listing-page-navigation","listing-back-to-top-navigation","listing-format","listing-execute","listing-metadata","listing-filters","listing-language","listing-title","listing-author","listing-abstract","listing-keywords","listing-bibliography","listing-date","listing-path","listing-categories","listing-status","listing-doi","listing-volume","listing-issue","listing-pdf_url","listing-canonical_url","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-include-in-header"],
+      searchColumns: ["listing-project","listing-website","listing-reader-mode","listing-page-navigation","listing-back-to-top-navigation","listing-format","listing-execute","listing-metadata","listing-filters","listing-language","listing-title","listing-author","listing-abstract","listing-description","listing-include-in-header","listing-keywords","listing-bibliography","listing-date","listing-path","listing-categories","listing-status","listing-doi","listing-volume","listing-issue","listing-pdf_url","listing-canonical_url","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -619,6 +619,9 @@ window.Quarto = {
          <option value="listing-author" data-direction="asc">
           Author
         </option>
+         <option value="listing-description" data-direction="asc">
+          Description
+        </option>
          <option value="listing-date-sort" data-direction="asc">
           Date - Oldest
         </option>
@@ -633,9 +636,6 @@ window.Quarto = {
         </option>
          <option value="listing-doi" data-direction="asc">
           doi
-        </option>
-         <option value="listing-description" data-direction="asc">
-          Description
         </option>
      </select>
   </div>
@@ -847,7 +847,7 @@ The beneficial role of biochar in improving soil fertility is well known, but th
 </p>
 </li>
 <!-- IMPORTANT: include metadataAttrs(item) on the list item -->
-<li class="pro-li" data-index="6" data-categories="Q2FzZS1TdHVkeSUyQ0Vjb25vbWljcyUyQ1BvbGljeQ==" data-listing-date-sort="1750185000000" data-listing-file-modified-sort="1763222368966" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3898">
+<li class="pro-li" data-index="6" data-categories="Q2FzZS1TdHVkeSUyQ0Vjb25vbWljcyUyQ1BvbGljeQ==" data-listing-date-sort="1750185000000" data-listing-file-modified-sort="1763223378559" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3898">
 <!-- title -->
 <h3 class="pro-title anchored">
 <a class="pro-link listing-title" href="./volume1/issue1/AGECONOMICS/JOSTA11CS1.html">Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala</a>
@@ -875,7 +875,7 @@ Arshad N., Aswathy Vijayan<sup>*</sup>, Durga A. R., T. Paul Lazarus, Pratheesh 
 <p><time class="pro-date listing-date">Jun 18, 2025</time></p>
 <!-- description/excerpt -->
 <p class="pro-desc listing-description">
-Price fluctuations pose a major challenge in horticulture, especially for perishable crops like pineapple. Vazhakulam in Kerala is a leading hub for pineapple cultivation, with strong interstate marketing networks. This study investigates price volatility in the Vazhakulam pineapple market during covid lock down using daily price data from January 2017 to September 2022. The data was segmented into pre-pandemic (Jan 2017–Mar 2020) and pandemic/post-pandemic (Apr 2020–Sep 2022) periods. Time-series modeling using ARCH and GARCH approaches in R revealed that GARCH(1,1) was the most suitable model for capturing volatility patterns. Results showed significantly higher price instability during the pandemic period, driven by transport disruptions and reduced consumer demand. This volatility affected the economic viability of pineapple farming, leading many producers to reduce cultivation. The findings highlight the need for targeted policy support and risk management strategies to stabilize fruit markets and protect farmer livelihoods during times of crisis.
+Price fluctuations pose a major challenge in horticulture, especially for perishable crops like pineapple. Vazhakulam in Kerala is a leading hub for pineapple cultivation, with strong interstate marketing networks. This study investigates price volatility in the Vazhakulam pineapple market during covid lock down using daily price data from January 2017 to September 2022. <a href="./volume1/issue1/AGECONOMICS/JOSTA11CS1.html" style="color: grey; text-decoration: none;">Read more …</a>
 </p>
 </li>
 <!-- IMPORTANT: include metadataAttrs(item) on the list item -->

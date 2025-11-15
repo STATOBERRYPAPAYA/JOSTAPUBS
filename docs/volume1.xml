@@ -1642,7 +1642,6 @@ which permits unrestricted use, distribution, and reproduction in any medium, pr
 
 
 
-
 <p><a href="https://doi.org/10.65287/josta.202510.68E5"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.68E5-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17501814"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
 <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
 <!-- josta inline actions: pdf • copy citation • citation count -->
@@ -2187,7 +2186,8 @@ Table&nbsp;3: Regression analysis of the developed web application
 <h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
 <p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
 <p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
-<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts. </p><div style="page-break-after: always;"></div><p></p>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
+<div style="page-break-after: always;"></div>
 </section>
 <section id="conclusion" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
