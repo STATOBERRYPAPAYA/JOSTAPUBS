@@ -93,6 +93,20 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
   </div>
 </div>
 
+
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Munashe D. Shoko, PhD</h3>
+    <p>Professor,<br>Department of Soil and Plant Science,<br>
+    Gary Magadzire School of Agriculture and Engineering,<br>
+    Great Zimbabwe University,<br>
+    Masvingo, Zimbabwe</p>
+    <p>Email: <a href="mailto:profshoko@gmail.com">profshoko@gmail.com</a></p>
+    <p>ORCID: <a href=""></a></p>
+    <p><a href="">Google Scholar Profile</a></p>
+  </div>
+</div>
+
 <div class="editor-card">
   <div class="editor-info">
     <h3>Beena R., PhD</h3>
@@ -128,6 +142,34 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
     <p><a href="https://scholar.google.com/citations?user=YuuqprgAAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div>
+```
+
+## Soil Science and Agroecology {.unnumbered}
+
+```{=html}
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Cosmas Parwada, PhD</h3>
+    <p>Executive Dean,<br>Faculty of Agriculture Environment and Natural Resources Management<br>
+    Midlands State University (MSU),<br>
+    Gweru, Zimbabwe</p>
+    <p>Email: <a href="mailto:cparwada@gmail.com">cparwada@gmail.com</a></p>
+    <p>ORCID: <a href=""></a></p>
+    <p><a href="https://scholar.google.com/citations?hl=en&user=ssqjGhoAAAAJ">Google Scholar Profile</a></p>
+  </div>
+</div>
+
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Kiran Karthik Raj, PhD</h3>
+    <p>Assistant Professor,<br>Department of Soil Science & Agricultural Chemistry,<br>
+    College of Agriculture, Vellayani,<br>
+    Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:kiran.kr@kau.in">kiran.kr@kau.in</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0001-7313-5828">0000-0001-7313-5828</a></p>
+    <p><a href="https://scholar.google.co.in/citations?user=CGQbWCwAAAAJ&hl=en">Google Scholar Profile</a></p>
+  </div>
+</div>  
 ```
 
 ## Data Science and Statistics in Agriculture {.unnumbered}
@@ -214,22 +256,6 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
     <p>Email: <a href="mailto:esakkimuthu.m@kau.in">esakkimuthu.m@kau.in</a></p>
     <p>ORCID: <a href=""></a></p>
     <p><a href="https://scholar.google.co.in/citations?user=XOcrnykAAAAJ&hl=en&oi=ao">Google Scholar Profile</a></p>
-  </div>
-</div>  
-```
-
-## Soil Science and Agroecology {.unnumbered}
-
-```{=html}
-<div class="editor-card">
-  <div class="editor-info">
-    <h3>Kiran Karthik Raj, PhD</h3>
-    <p>Assistant Professor,<br>Department of Soil Science & Agricultural Chemistry,<br>
-    College of Agriculture, Vellayani,<br>
-    Kerala Agricultural University</p>
-    <p>Email: <a href="mailto:kiran.kr@kau.in">kiran.kr@kau.in</a></p>
-    <p>ORCID: <a href="https://orcid.org/0000-0001-7313-5828">0000-0001-7313-5828</a></p>
-    <p><a href="https://scholar.google.co.in/citations?user=CGQbWCwAAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div>  
 ```
