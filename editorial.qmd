@@ -93,6 +93,17 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
   </div>
 </div>
 
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Ömer Faruk Coşkun, PhD</h3>
+    <p>Professor,<br>Department of Horticulture,<br>
+    Hatay Mustafa Kemal University,<br>
+    Antakya, Türkiye</p>
+    <p>Email: <a href="mailto:omerfaruk.coskun@mku.edu.tr">omerfaruk.coskun@mku.edu.tr</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0001-5398-5737">0000-0001-5398-5737</a></p>
+    <p><a href="https://scholar.google.com.tr/citations?user=b1vZwkkAAAAJ">Google Scholar Profile</a></p>
+  </div>
+</div>
 
 <div class="editor-card">
   <div class="editor-info">
