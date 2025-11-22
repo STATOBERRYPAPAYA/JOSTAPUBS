@@ -166,7 +166,16 @@ listing:
       </svg>
       <span>CODEN: JSTACI</span>
     </span>
-
+    
+    <!-- Google Scholar (image logo, white background) -->
+<a class="jr-chip jr-gscholar" 
+   href="https://scholar.google.com/scholar?hl=en&q=JOSTA+Journal+of+Sustainable+Technology+in+Agriculture" 
+   target="_blank" 
+   rel="noopener" 
+   aria-label="Google Scholar indexed">
+  <img class="jr-icon jr-img" src="www/gscholar.webp" alt="Google Scholar">
+  <span>indexed</span>
+</a>
     <!-- duplicate for seamless scroll -->
     <span class="jr-chip jr-oa" aria-label="Open Access">
       <svg class="jr-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -209,6 +218,17 @@ listing:
       </svg>
       <span>CODEN: JSTACI</span>
     </span>
+    
+    <!-- Google Scholar (image logo, white background) -->
+<a class="jr-chip jr-gscholar" 
+   href="https://scholar.google.com/scholar?hl=en&q=JOSTA+Journal+of+Sustainable+Technology+in+Agriculture" 
+   target="_blank" 
+   rel="noopener" 
+   aria-label="Google Scholar indexed">
+  <img class="jr-icon jr-img" src="www/gscholar.webp" alt="Google Scholar">
+  <span>indexed</span>
+</a>
+
 
   </div>
 </div>
@@ -269,6 +289,20 @@ listing:
   transform: translateX(-120%);
   animation: jr-shine 5s ease-in-out infinite;
 }
+
+/* Google Scholar chip */
+.jr-gscholar {
+  background: #ffffff;                    /* pure white background */
+  color: #1f345c;                         /* JOSTA navy for text */
+  border: 1px solid rgba(0,0,0,.12);      /* light border for contrast */
+}
+
+.jr-gscholar .jr-icon {
+  height: 22px;
+  width: auto;
+  filter: none;                           /* keep original gscholar colors */
+}
+
 
 /* gradients */
 .jr-oa {
