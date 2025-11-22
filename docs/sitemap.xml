@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.jostapubs.com/volume1.html</loc>
-    <lastmod>2025-11-03T05:43:07.060Z</lastmod>
+    <lastmod>2025-11-01T14:45:01.513Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html</loc>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://www.jostapubs.com/published.html</loc>
-    <lastmod>2025-11-03T05:43:07.060Z</lastmod>
+    <lastmod>2025-11-01T14:36:27.659Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/peerReview.html</loc>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://www.jostapubs.com/index.html</loc>
-    <lastmod>2025-11-21T09:26:21.509Z</lastmod>
+    <lastmod>2025-11-22T02:42:59.119Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/editorialsection.html</loc>
@@ -54,7 +54,7 @@
   </url>
   <url>
     <loc>https://www.jostapubs.com/editorial.html</loc>
-    <lastmod>2025-11-21T09:40:06.882Z</lastmod>
+    <lastmod>2025-11-22T02:42:59.118Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/Ethics.html</loc>
@@ -91,5 +91,9 @@
   <url>
     <loc>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</loc>
     <lastmod>2025-11-20T08:05:16.003Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html</loc>
+    <lastmod>2025-11-22T03:20:15.246Z</lastmod>
   </url>
 </urlset>

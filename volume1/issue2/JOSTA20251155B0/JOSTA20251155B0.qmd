@@ -1,0 +1,329 @@
+---
+title: "Barriers to Agroecological Transition: Understanding Farmers Constraints in Meghalaya"
+author:  
+  - name: Dimrimchi M Sangma*
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Extension
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: sdimrimchi@gmail.com
+    note: Corresponding author
+
+  - name: Archana R Sathyan
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Extension
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: archana.rs@kau.in
+    orcid: "0000-0002-7526-4452"
+    url: https://kau.in/people/archana-raghavan-sathyan-dr
+    
+  - name: Allan Thomas
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Extension
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: t.allan@kau.in
+    orcid: "0000-0002-6402-2909"
+    url: https://kau.in/people/allan-thomas-dr
+
+  - name: Sheeja K Raj 
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agronomy
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: sheeja.raj@kau.in
+    orcid: "0000-0002-3068-7494"
+    url: https://kau.in/people/dr-sheeja-k-raj
+    
+abstract: |
+  Agroecology provides a transformative pathway toward sustainable and resilient food systems by integrating ecological principles with local knowledge. This study, conducted in the Selsella Block of South West Garo Hills, Meghalaya, analyzed farmers’ socio-economic characteristics, their influence on the adoption of agroecological practices, and the constraints limiting adoption. Forty farmers practicing sustainable or integrated farming were selected through a multistage sampling method, and data were gathered using semi-structured interviews via KoboToolbox. Data analysis incorporated frequency distributions, mean scores, the Agroecology Adoption Index (AAI), correlation analysis, and Garrett’s ranking technique to accurately interpret trends and patterns. The AAI value of 68.10 percent indicates that farms are transitioning toward fully agroecological systems. Factors such as landholding size, income, education, attitude, and risk-taking ability significantly influenced adoption. Major constraints included limited market access, inadequate training, and weak institutional support. Enhancing capacity-building, improving market linkages, and strengthening policy frameworks are essential to advance agroecological transitions in Meghalaya.  
+
+description: >  
+   Agroecology provides a transformative pathway toward sustainable and resilient food systems by integrating ecological principles with local knowledge. This study, conducted in the Selsella Block of South West Garo Hills, Meghalaya <a href="/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style> 
+
+keywords: [Agroecology, Constraints, Resilient, TAPE, Sustainable]  
+categories: [Original-Article,Extension,Sustainability]
+bibliography: JOSTA-202511-55B0.bib
+date: 2025-11-22
+doi: 10.65287/josta.202511.55B0
+status: Published (Online)
+volume: "1"
+issue: "2"
+pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/pdfs/JOSTA-202511-55B0.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html"
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.55B0-blue?logo=doi)](https://doi.org/10.65287/josta.202511.55B0) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17677521)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202511-55B0.pdf" download class="j-btn" aria-label="download pdf">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202511.55B0" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Sangma, D. M., Raghavan Sathyan, A., Thomas, A., & Raj, S. K. (2025). Barriers to Agroecological Transition: Understanding Farmers Constraints in Meghalaya. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202511.55B0
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+---  
+
+## Introduction
+
+Agroecology emerges as a promising and scientifically grounded response to the complex challenges of modern agriculture such as biodiversity loss, environmental degradation and the growing unsustainability of conventional farming systems [@valenzuela2016agroecology]. It represents a comprehensive and systems-based approach that utilizes ecological principles and concepts to guide the design, organization, and management of sustainable farming systems [@fao2019tape]. It seeks to enhance the interrelationships among plants, animals, humans and the environment with the goal of achieving a balanced integration of productivity, biodiversity and overall ecosystem health [@gliessman1998agroecology; @Zhang2022biodiversity; @vikas2024agroecological]. Despite its transformative potential, awareness and practical understanding of agroecological principles remain limited among many farmers and policymakers.
+
+India provides a compelling backdrop for this discussion. Across India, generations of farmers have practiced indigenous farming methods that preserve soil fertility, enhance crop diversity and reduce reliance on synthetic inputs, embodying principles of ecological balance and traditional knowledge long before the term “Agroecology” was formally recognized [@nicholls2018pathways; @bisht2022agroecological].
+
+Among the states in India, the Northeast region is well renowned for its rich agricultural diversity, deep-rooted cultural heritage and indigenous traditional knowledge systems [@singh2024review; @Pandey2024meitei]. Meghalaya, in particular, stands out due to its unique agroecological landscape, where traditional farming practices such as shifting cultivation (jhum), terrace (bun) farming and agroforestry are extensively practiced by indigenous communities [@tiwari2018shifting; @borah2018managing; @tynsong2020traditional]. These practices are integrated with local environmental conditions, promoting biodiversity conservation, soil fertility and climate resilience. Therefore, Meghalaya's farming traditions exemplify a harmonious relationship between people and nature, making it a pivotal region for agroecological research and sustainable agricultural development. This strong cultural and ecological foundation positions Meghalaya as a “critical hub” for advancing agroecology in Northeast India and beyond.
+
+However, in the past few years, evolving socio-economic pressures, population growth and increased market integration have significantly transformed traditional agricultural systems in Meghalaya. The intensification and commercialization of farming have gradually displaced long-standing agroecological practices [@krishna2020agriculture; @behera2023commercialization]. As farmers adapt to new economic realities, many indigenous methods rooted in traditional knowledge are being modified or replaced by input-intensive and market-driven approaches. This transition highlights the urgent need to critically examine the current patterns, scope and determinants of agroecological adoption, to better understand how farming communities balance livelihood enhancement with environmental sustainability [@giri2020traditional; @tyngkan2022determinants].
+
+Nevertheless, Meghalaya’s strong base of indigenous knowledge and traditional ecological practices, coupled with a growing interest in sustainable agriculture, presents significant potential for advancing agroecological transformation in the region [@borah2024traditional]. Although Meghalaya’s traditional farming systems are well documented, there is limited empirical research examining how farmers understand and adopt agroecological principles in the context of today’s rapidly changing socio-economic environment. Most existing studies concentrate on specific indigenous practices rather than comprehensively exploring socio-economic determinants or evaluating farms through a multidimensional agroecology framework. Key constraints, including market pressures, livelihood transitions, and the erosion of traditional knowledge, remain insufficiently investigated.
+
+## Materials and methods
+
+Multistage sampling technique was employed to select primary sampling units. The study was conducted in South West Garo Hills District of Meghalaya. Selsella Block was purposively chosen due to its high concentration of farmers practicing organic farming, agroforestry and other sustainable agriculture systems, based on the records with the Block Agriculture Office (BAO). Within this block, Harigaon and Sankarigre villages were selected as representative sites owing to their notable progress in integrated farming systems, organic farming practices and sustainable farming initiatives. A sampling frame was prepared for each village and 40 farmers (20 from Harigaon and 20 from Sankarigre) were selected through simple random sampling. The study area was purposively chosen to represent regions where traditional and sustainable farming systems coexist, enabling assessment of both the potential and the gaps in agroecological adoption.
+
+Data were collected using the KoboToolbox platform through semi-structured, pre-tested interview schedule, field observations and participatory discussions with farmers. KoboToolbox facilitated efficient digital data capture on mobile devices, supporting offline data entry, conditional question logic and real-time synchronization, thereby ensuring accuracy and ease of data management for the study. The assessment of agroecological performance utilized the Food and Agriculture Organization’s (FAO) Tool for Agroecology Performance Evaluation “TAPE” [@fao2019tape]. This comprehensive tool evaluates farm performance across ten key dimensions of agroecology: Diversity, Synergy, Efficiency, Recycling, Resilience, Co-creation and Sharing of Knowledge, Human and Social Values, Culture and Food Traditions, Responsible Governance and Circular and Solidarity Economy. ‘TAPE’ provides a holistic framework to measure and guide the transition toward sustainable agroecological systems by capturing environmental, social and economic aspects at the farm level [@Mottet2020assessing; @gharbi2025assessment].
+
+An (AAI) was developed to quantify the extent to which farmers practiced agroecological principles within their farming systems. The index was constructed using data obtained through content analysis of farmer interviews, field observations and participatory assessments. Each farmer’s practices were evaluated across the ten dimensions of agroecology defined by the ‘TAPE’.
+
+For each dimension, a set of thematic indicators and sub-codes were identified to represent the corresponding agroecological attributes. The frequency and intensity of these codes across farms were used to indicate the relative level of adoption. The individual scores for all ten dimensions were aggregated for each respondent and standardized to obtain a composite index value. The formula used was:
+$$
+\text{Agroecology Adoption Index (AAI)} = \frac{\sum_{i=1}^{n} X_{i}}{n}
+$$ {#eq-eq1}
+
+where X~i~ represents the score (frequency of codes) obtained in each dimension and n is the total number of dimensions this study.
+
+The resulting index values were classified into three categories i.e. Low, Medium and High based on the distribution of scores (mean ± standard deviation). This index provided a comprehensive measure of the level of agroecology adoption among farmers, integrating ecological, social and economic dimensions into a single analytical framework.
+
+Descriptive statistics such as mean, standard deviation, frequency and percentage were used to analyse the socio-economic characteristics of respondents and to provide a clear profile of the farming households. The relationship between socio-economic variables and the level of agroecology adoption was examined using correlation analysis to identify significant influencing factors.
+
+For identifying and prioritising the constraints faced by farmers in adopting agroecological practices, Garrett Ranking Technique was employed. The major constraints identified during the preliminary survey were arranged in ascending order of importance by the farmers and converted into ranks using Garrett’s formula. These ranks were then transformed into scores with the help of Garrett’s table. The formula used for converting ranks into percentages is as follows:
+$$
+\text{Percent Position} = 100 \left( \frac{R_{ij} - 0.5}{N_{j}} \right)
+$$ {#eq-eq2}
+
+where R~ij~ = the rank assigned to the i^th^ constraint experienced by the j^th^ individual represents the position or order of importance given by each respondent to a specific constraint based on their perception and experience and N~j~ = the number of constraints ranked by the j^th^ individual
+
+## Results
+
+The socio-economic conditions and psychological factors of the farmers were examined by considering factors such as age, education, land holding, irrigation, annual income, family size, economic status, crop component, tree component, livestock component, renewable energy, risk-taking ability, attitude, innovativeness, market orientation and nutrition, culture and tradition.
+
+### Socio- economic conditions and psychological factors of farmers 
+
+A total of 40 farmers were selected for the study, and the results show that farmers in Meghalaya exhibited moderate levels of agroecological adoption influenced by socio-economic and psychological factors. About, 55.00 percent of middle-aged farmers demonstrate an optimal blend of experience and adaptability conducive to sustainable practices. Around 37.50 percent of small landholding farmers promote mixed farming and resource recycling, reflecting indigenous ecological knowledge. A significant 75.00 percent of farmers depend primarily on rainfed agriculture, with only 25.00 percent utilizing irrigation sources such as tube wells and ponds, highlighting the need for improved water management. Moderate income, evident in 85.00 percent of farmers and family labour availability support crop-livestock integration, enhancing resilience. However, renewable energy adoption remains low at 35.00 percent. Positive attitudes observed in 52.50 percent of farmers and moderate risk-taking, at 45.00 percent, contributing to gradual agroecology adoption, yet weak market orientation and limited institutional support continue to constrain broader uptake.
+
+Given in @tbl-socio, the correlation analysis shows that landholding size ($r = 0.482^{**}$), annual income ($r = 0.468^{**}$), crop component diversity ($r = 0.527^{**}$) and livestock component ($r = 0.498^{**}$) have strong, significant positive relationships with agroecological adoption. Irrigation access ($r = 0.356^{*}$) and renewable energy use ($r = 0.302^{*}$) are also significant, indicating the importance of infrastructure and resource availability. Among psychosocial factors, risk-taking ability ($r = 0.411^{**}$), attitude ($r = 0.563^{**}$) and innovativeness ($r = 0.474^{**}$) show significant positive correlations, highlighting their influence on adoption behaviour. However, age ($r = 0.214$), family size ($r = 0.188$) and market orientation ($r = 0.245$) show positive but non-significant correlations. Lastly, nutrition, culture and tradition ($r = 0.338^{*}$) show a significant correlation. As noted, significance levels are denoted as: $^{*}p < 0.05$; $^{**}p < 0.01$; $^{***}p < 0.001$.
+
+| Sl. No. | Variable                        | Correlation coefficient ($r$) |
+|:--------:|---------------------------------|:----------------------------:|
+| 1 | Age | 0.214 |
+| 2 | Landholding size | 0.482** |
+| 3 | Irrigation access | 0.356* |
+| 4 | Annual income | 0.468** |
+| 5 | Family size | 0.188 |
+| 6 | Crop component diversity | 0.527** |
+| 7 | Livestock component | 0.498** |
+| 8 | Renewable energy use | 0.302* |
+| 9 | Risk-taking ability | 0.411** |
+| 10 | Attitude | 0.563** |
+| 11 | Innovativeness | 0.474** |
+| 12 | Market orientation | 0.245 |
+| 13 | Nutrition, culture, and tradition | 0.338* |
+
+: Socio-economic and psychological characteristics of farmers and their level of agroecological adoption in Meghalaya {#tbl-socio}
+
+### Extent of agroecological adoption among the farms in Meghalaya 
+
+The Agroecology adoption index (AAI) for Selsella block in Meghalaya showed a moderate overall average adoption score of 68.10 percent, presented in @tbl-agroecon, indicating farms are transitioning toward agroecology. According to [@fao2019tape], farms scoring below 50.00 percent are considered non-agroecological systems, those scoring between 50.00 and 70.00 percent are classified as in transition to agroecological farms, while farms scoring above 70.00 percent are categorized as agroecological farms.
+
+“High” adoption was recorded in Diversity (72.10%), Synergies (70.50%) and Circular Economy (70.40%), reflecting diversified production and resource recycling rooted in traditional knowledge. “Medium” adoption was observed in Efficiency, Recycling, Resilience, Knowledge Sharing and Human & Social Values, showing partial institutionalization." “Lower” adoption in Culture, Traditions (65.50%) and Governance (65.40%) indicates limited formal support and integration of indigenous cultural values. These results reveal progressive agroecological transition driven by diversification and synergy but constrained by governance and institutional gaps.
+
+| Dimensions             | Score (%) | Category          |
+|:-----------------------|:---------:|:-----------------:|
+| Diversity              | 72.10     | High              |
+| Synergies              | 70.50     | High              |
+| Efficiency             | 69.50     | Medium            |
+| Recycling              | 67.50     | Medium            |
+| Resilience             | 66.50     | Medium            |
+| Knowledge Sharing      | 66.30     | Medium            |
+| Human & Social Values  | 67.30     | Medium            |
+| Culture & Traditions   | 65.50     | Low               |
+| Governance             | 65.40     | Low               |
+| Circular Economy       | 70.40     | High              |
+| **Adoption level**     | **68.10** | **Transition stage** |
+
+: Agroecological performance of farms in Meghalaya based on FAO’s ten dimensions using AAI {#tbl-agroecon}
+
+![Agroecological performance of farms in Meghalaya based on FAO’s ten dimensions](figures/fig1.png){#fig-figure1 width="384"}
+
+{{< pagebreak >}}
+
+### Constraints faced by farmer’s in in adopting Agroecological Practices in Meghalaya
+
+As given in @fig-figure2 The study identified and ranked the major constraints hindering the adoption of agroecological practices. The study identifies limited market access (mean score 74.20) as the foremost constraint confronting farmers, significantly impeding their ability to connect agricultural produce with dependable buyers and efficient value chains. This challenge restricts market opportunities and adversely affects farm incomes. These findings corroborate earlier research by [@akoijam2018exploring], underscoring the persistent issue of inadequate market linkages as a critical barrier to agricultural advancement in Meghalaya.
+
+The lack of training and education on agroecological practices ranked second (mean score 70.80), highlighting the need for systematic capacity-building initiatives to strengthen farmer’s understanding and adoption of agroecological principles. Limited knowledge on agroecology was the third major constraint (mean score 68.60), suggesting that while awareness of sustainable practices exists, deeper technical knowledge remains insufficient [@krishnan2024performance].
+
+The lack of efficient value chains (66.30) and few policies based on agroecology (63.90) occupied the fourth and fifth ranks respectively, reflecting institutional and infrastructural gaps in promoting an enabling ecosystem for agroecological transition.
+
+Lower-ranked constraints such as government subsidies favouring synthetic inputs (61.70), lack of assured market price (59.50) and climate variability (56.80) indicate systemic barriers that indirectly limit farmer’s motivation to adopt sustainable practices. The high initial investment for farm transition (54.20) and limited access to credit or finance (51.40) were ranked lowest, suggesting that although financial constraints exist, knowledge and market-related factors are perceived as more immediate challenges.
+
+Overall, these findings emphasize that market accessibility, farmer education and institutional support are key determinants influencing the adoption and sustainability of agroecological farming systems in Meghalaya. Strengthening local markets, developing value chains and implementing dedicated agroecology policies could substantially mitigate these constraints.
+
+![Major Constraints faced by farmers in adopting Agroecological practices in Meghalaya](figures/fig2.png){#fig-figure2 width="384"}
+
+## Discussion
+
+The study shows that agroecology adoption in Meghalaya is influenced by farmers’ socio-economic and psychological characteristics. Middle-aged farmers adopt more, likely due to their practical experience and adaptability, aligning with [@singh2024review], who noted that experiential knowledge increases openness to sustainable innovations. Likewise, the tendency of small landholding farmers to practice mixed farming corresponds with [@tiwari2018shifting], who reported that indigenous farming systems in Meghalaya encourage integrated practices due to land constraints.
+
+Furthermore, the heavy reliance on rainfed agriculture underscores structural limitations in rural infrastructure, aligning with findings by [@tyngkan2022determinants], who identified water insecurity as a key constraint to sustainable agricultural intensification in the region. Moderate income and family labour encourage crop–livestock integration, enhancing nutrient cycling and resilience. However, the low adoption of renewable energy reflects technological and financial barriers, a trend similarly reported by [@krishnan2024performance] in their analysis of sustainable technology uptake in hill farming systems. Psychological attributes, including positive attitudes and risk-taking ability, play a supportive role in gradual agroecological adoption. These findings are consistent with [@vikas2024agroecological]. Weak market orientation and limited institutional support hinder wider scaling, consistent with Akoijam (2018), who reported that inadequate market linkages and weak extension services remain major bottlenecks in Meghalaya’s agricultural sector.
+
+The correlation analysis shows that socio-economic and psychological factors influence agroecological adoption. Larger landholdings, higher income and stronger market orientation support adoption, while limited resources restrict it. These results align with [@das2024gender;@Nonglait2023], who found that weak market linkages, poor institutional support and resource constraints hinder agroecological progress in Meghalaya. Similarly, the significant correlations for crop components and livestock integration show that diversified farming strengthens ecological resilience, consistent with Tiwari and Pant (2018). Access to irrigation and renewable energy also showed positive associations, indicating that better water availability and sustainable energy use help facilitate the shift toward agroecological practice. This trend supports the argument by Krishnan et al. (2024) who reported that infrastructural support is essential for sustaining ecological transitions in rainfed and hill-based systems.
+
+In addition to that, psychological factors such as attitude, risk-taking ability and innovativeness, were among the strongest predictors of adoption. These results align with, [@Gokul2025agronomic], who emphasized that farmers’ mindset, openness to new ideas and willingness to take risks significantly enhance the likelihood of adopting agroecological practices. Lastly, the positive correlation of nutrition, culture and tradition indicates the continued influence of indigenous knowledge in promoting ecological farming. This is consistent with [@nicholls2018pathways], who emphasized the role of cultural heritage in sustaining agroecological practices.
+
+The results of the Agroecology adoption index reveal that farmers in Meghalaya are undergoing a gradual but uneven transition toward agroecology. The high scores in Diversity, Synergies and Circular Economy indicates strong indigenous practices in diversified cropping and resource recycling. This aligns with the findings of [@Rai2022], who noted that traditional mixed farming systems in Northeast India form a strong foundation for agroecological intensification. Medium adoption levels in Efficiency, Recycling, Resilience, Knowledge Sharing and Human & Social Values suggest that while farmers are integrating ecological principles, these dimensions are not yet fully institutionalized. Similar patterns were reported by [@Muthukumar2023], who observed that farmers adopt ecological practices informally but lack structured training, extension support and technical guidance.
+The low adoption in Culture, Traditions and Governance reflects gaps in the formal recognition of indigenous cultural systems within agricultural planning. This governance limitation observed in the present study aligns with the conclusion by [@Chaudhury2023], who reported that inadequate institutional backing slows the formal scaling of agroecology despite strong community-level ecological knowledge. 
+
+The results of the constraint analysis reveal that farmers in the Selsella block encounter multiple barriers that limit the adoption of agroecological practices. Limited market access was the most critical constraint, linked to poor infrastructure and low price realization. This aligns with [@Marak2022], who noted that weak market linkages restrict farmers’ access to profitable value chains. The lack of training and education, identified as the second major constraint. This observation aligns with [@Ralte2023], who emphasized that limited skill development restricts farmers from adopting ecologically intensive farming systems.
+
+Limited knowledge about agroecology, despite general awareness, was ranked as the third major constraint. This aligns with [@Goswami2024], who found that hill-region farmers understand sustainability concepts but lack the technical skills to implement agroecological practices effectively. Institutional shortcomings such as inefficient value chains and limited policy support, also hinder farmers’ transition. These results align with [@Sarmah2023], who found that weak governance structures and inadequate policy frameworks slows agroecological scaling in Northeast India. Subsidies favouring synthetic inputs, unstable market prices, and climate variability, further challenge adoption. Similar issues were highlighted by [@Kumar2024], who reported that existing subsidy systems and price fluctuations discourage long-term ecological investment. Although financial barriers like high initial investment and limited credit access were ranked lower, they still remain relevant, similar patterns were observed by [@Das2022].
+
+## Conclusion
+
+This study examined agroecological adoption in the Selsella block of Meghalaya and found a moderate transition level, influenced by farmers’ socio-economic characteristics, diversified farming practices and positive attitudes, but constrained by limited irrigation, weak market access and inadequate institutional support. The Agroecology adoption index score of 68.10% highlights strengths in Diversity, Synergy and Circular Economy, while revealing gaps in Governance and cultural integration. Major constraints include poor market connectivity, limited training and weak policy support. Strengthening market linkages, expanding farmer training and improving policy frameworks are essential to increase adoption and support sustainable rural development. By documenting the multidimensional status of agroecological adoption this study provides empirical evidence from a tribal rainfed region, where limited research exists. It offers policy-relevant insights into the socio-economic and institutional factors and contributes to policy development by identifying priority areas, such as market infrastructure, extension support, farmer training and governance mechanisms, that can guide future state-level strategies and frameworks aimed at scaling agroecology in Meghalaya.
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**  
+
+- **Submitted:** *10 November 2025*  
+- **Accepted:** *21 November 2025*  
+- **Published (Online):** *22 November 2025*  
+
+---  
+**Reviewer Information**  
+
+
+- **Reviewer 1:**  
+  **Dr. Hema M**  
+  *Assistant Professor*  
+  *Kerala Agricultural University*  
+
+- **Reviewer 2:**  
+  *Anonymous*
+
+:::
+
+::: {.callout-note appearance="simple"}
+
+## Disclaimer/Publisher’s Note  
+
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).  
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.  
+
+:::  
+
+>© Copyright (2025): Author(s). The licensee is the journal publisher.  
+This is an Open Access article distributed under the terms of the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/4.0/),  
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.  
