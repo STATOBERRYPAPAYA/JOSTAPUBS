@@ -10,7 +10,472 @@
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Fri, 21 Nov 2025 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 25 Nov 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Semantic Variances in Career Expectations among Stakeholders in the Agricultural Sector: Opportunities and Challenges</title>
+  <dc:creator>Amina M*</dc:creator>
+  <dc:creator>Dimrimchi M Sangma</dc:creator>
+  <dc:creator>Archana R Sathyan</dc:creator>
+  <dc:creator>Allan Thomas</dc:creator>
+  <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://doi.org/10.65287/josta.202511.1441"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.55B0-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17718198"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/JOSTA-202511-1441.pdf" download="" class="j-btn" aria-label="download pdf">  <span>download pdf</span> </a></p>
+<p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
+<p><span class="j-chip" data-doi="10.65287/josta.202511.55B0" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
+</div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Amina, M., Sangma, D. M., Raghavan Sathyan, A., &amp; Thomas, A. (2025). Semantic Variances in Career Expectations among Stakeholders in the Agricultural Sector: Opportunities and Challenges. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202511.1441
+</p>
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<hr>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Career expectations play a critical role in shaping the professional pathways of agricultural graduates, yet these expectations differ substantially among key stakeholders, including students, educators, industry employers, and extension officers. Although the agricultural sector is widely perceived as offering strong career prospects-driven by global challenges such as food security, climate change, and the push for sustainable agricultural practices, there is often a measurable gap between these optimistic views and actual industry experiences. This misalignment can result in professional dissatisfaction, skills job mismatches, and reduced retention in the sector <span class="citation" data-cites="scasta2018employer ganiev2018career zinnah2001assessment">(Scasta 2018; Ganiev, Sanaev, and Pardaev 2018; Zinnah et al. 2001)</span>. Despite an increasing global demand for skilled agricultural professionals, many graduates continue to experience uncertainty in their career progression due to unclear advancement trajectories and limited visibility of growth opportunities within the sector and high competitions <span class="citation" data-cites="black2025social hassen2025taking">(Black et al. 2025; Hassen et al. 2025)</span>. These concerns are further amplified by work-life balance challenges, including extended working hours, seasonal workload peaks, and expectations of availability beyond regular schedules. Such conditions create a paradox wherein the sector presents significant opportunities but simultaneously imposes structural constraints that may undermine long-term career satisfaction and workforce stability <span class="citation" data-cites="mabaso2023employer adedapo2014determinants">(Mabaso and Monyane 2023; Adedapo et al. 2014)</span>. The importance of examining stakeholders’ career expectation variances lies in the discrete perspectives each group brings to the agricultural profession. While students focus on educational quality and employment prospects, educators emphasise curriculum relevance and skill development, employers prioritise practical competencies and productivity, and extension officers consider field realities and community engagement <span class="citation" data-cites="raju2023study sadovska2025engagement">(Raju and Devarani 2023; Sadovska et al. 2025)</span>. Understanding this diversity of views helps identify key gaps and areas of convergence, offering a basis for targeted policy and institutional reforms.</p>
+<p>Exploring stakeholders’ semantic perceptions is essential because students, educators, employers, and extension officers each frame agricultural careers through different experiential and institutional lenses. These perceptual differences influence how key dimensions such as job security, career advancement, competency relevance, and work-life balance are understood across the sector. Semantic differential analysis makes it possible to systematically capture these evaluative variations, revealing where expectations converge or diverge. Such evidence is critical for policy reform, as it identifies misalignments between graduate preparation and sectoral realities and highlights areas where curricula, skill development, and workforce strategies require adjustment. Based on this rationale, the study was conducted to examine the stakeholder perceptions to generate actionable insights for strengthening agri-graduates career readiness and aligning policy with contemporary agricultural workforce needs.</p>
+</section>
+<section id="methodology" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="methodology"><span class="header-section-number">2</span> Methodology</h2>
+<p>This study used a descriptive, quantitative research design to examine variations in career expectations among key stakeholder groups within the agricultural sector. The survey included 40 respondents selected through simple random sampling, such as Assistant Directors of Agriculture, Agricultural Officers, Bank Sector Employers, Private Sector Employers, and Faculty Members. The investigation was part of a larger research project on agricultural students’ career orientations, with stakeholder perceptions incorporated to provide a system-wide understanding of how career conditions are viewed across the agricultural hierarchy. Since stakeholders influence policy decisions, training programs, hiring practices, and workplace norms, assessing their perceptions is crucial for identifying gaps between educational preparation and workforce realities using semantic differentials.</p>
+<p>A structured questionnaire using a 7-point semantic differential scale was administered to capture nuanced stakeholder perceptions across four core career dimensions: job market accessibility, career advancement opportunities, job security, and work–life balance. Uniform bipolar adjective pairs (e.g., Secure-Insecure, Clear Path-Unclear Path, Balanced-Stressful) were applied across all stakeholder categories to ensure comparability. Content validity was established through expert review in agricultural extension, human resource development, and rural management. The resulting data were analysed using descriptive statistics, including means, standard deviations, and response ranges. Higher mean scores (above 5.5) were interpreted as indicating an optimistic perception, whereas lower scores (below 3.5) signalled apprehension or concern, enabling systematic identification of positive and negative evaluative trends. These statistical patterns revealed both convergence and divergence in stakeholder attitudes, providing an evidence base for policy adjustments and curriculum refinements aimed at strengthening agricultural career preparedness.</p>
+</section>
+<section id="results" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="results"><span class="header-section-number">3</span> Results</h2>
+<p>The analysis of career expectations among agricultural sector stakeholders reveals generally positive perceptions regarding several key aspects of the profession. The job market was viewed favourably (M = 6.01, 83.4%), with stakeholders indicating that they perceive the agricultural job market as highly accessible. Similarly, the demand for the profession (M = 5.82, 80.4%) and opportunities for skill enhancement (M = 5.82, 80.4%) were also seen in a positive light, reflecting confidence in the growing relevance of agricultural graduates and the abundant opportunities for professional growth. Job security (M = 5.53, 75.6%) and career success determination (M = 5.57, 76.2%) were similarly rated favourably, signaling that stakeholders view agricultural careers as offering stability and a balanced pathway to success.</p>
+<div id="tbl-scale" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-scale-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Semantic differential scale Mean score with anchors
+</figcaption>
+<div aria-describedby="tbl-scale-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Statement</strong></th>
+<th style="text-align: left;"><strong>Left Anchor (1)</strong></th>
+<th style="text-align: left;"><strong>Mean Score</strong></th>
+<th style="text-align: left;"><strong>Right Anchor (7)</strong></th>
+<th style="text-align: left;"><strong>Position in Scale (%)</strong></th>
+<th style="text-align: left;"><strong>Interpretation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Job market</td>
+<td style="text-align: left;">Highly Accessible</td>
+<td style="text-align: left;">6.01</td>
+<td style="text-align: left;">Extremely competitive</td>
+<td style="text-align: left;">83.40%</td>
+<td style="text-align: left;">Optimistic</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Demand for the profession</td>
+<td style="text-align: left;">Declining</td>
+<td style="text-align: left;">5.82</td>
+<td style="text-align: left;">Increasing</td>
+<td style="text-align: left;">80.40%</td>
+<td style="text-align: left;">Optimistic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Career progression</td>
+<td style="text-align: left;">Unpredictable</td>
+<td style="text-align: left;">3.53</td>
+<td style="text-align: left;">Clearly defined</td>
+<td style="text-align: left;">42.10%</td>
+<td style="text-align: left;">Neutral/Mixed</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Opportunities for skill enhancement</td>
+<td style="text-align: left;">Limited</td>
+<td style="text-align: left;">5.82</td>
+<td style="text-align: left;">Abundant</td>
+<td style="text-align: left;">80.40%</td>
+<td style="text-align: left;">Optimistic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Job security</td>
+<td style="text-align: left;">Very unstable</td>
+<td style="text-align: left;">5.53</td>
+<td style="text-align: left;">Highly stable</td>
+<td style="text-align: left;">75.60%</td>
+<td style="text-align: left;">Optimistic</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Work schedule</td>
+<td style="text-align: left;">Overly demanding</td>
+<td style="text-align: left;">2.91</td>
+<td style="text-align: left;">Flexible and manageable</td>
+<td style="text-align: left;">31.80%</td>
+<td style="text-align: left;">Concern</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Personal time for Family/leisure</td>
+<td style="text-align: left;">Rarely</td>
+<td style="text-align: left;">2.91</td>
+<td style="text-align: left;">Frequently</td>
+<td style="text-align: left;">31.80%</td>
+<td style="text-align: left;">Concern</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Work life balance</td>
+<td style="text-align: left;">Highly stressful</td>
+<td style="text-align: left;">3.35</td>
+<td style="text-align: left;">Well-managed</td>
+<td style="text-align: left;">39.10%</td>
+<td style="text-align: left;">Concern</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Availability Expectation</td>
+<td style="text-align: left;">Excessive</td>
+<td style="text-align: left;">2.42</td>
+<td style="text-align: left;">Minimal</td>
+<td style="text-align: left;">23.60%</td>
+<td style="text-align: left;">Concern</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Career success determination</td>
+<td style="text-align: left;">Work intensity</td>
+<td style="text-align: left;">5.57</td>
+<td style="text-align: left;">Work-life balance</td>
+<td style="text-align: left;">76.20%</td>
+<td style="text-align: left;">Optimistic</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="fig-figure2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/figures/fig1.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Semantic Differential Profile of Career Expectations
+</figcaption>
+</figure>
+</div>
+<div style="page-break-after: always;"></div>
+<div id="tbl-desc" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-desc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Descriptive statistics of career expectations
+</figcaption>
+<div aria-describedby="tbl-desc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Statements</strong></th>
+<th style="text-align: left;"><strong>Mean</strong></th>
+<th style="text-align: left;"><strong>Median</strong></th>
+<th style="text-align: left;"><strong>Std</strong></th>
+<th style="text-align: left;"><strong>Min</strong></th>
+<th style="text-align: left;"><strong>Max</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Job market</td>
+<td style="text-align: left;">6.007</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">1.366</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Demand for the profession</td>
+<td style="text-align: left;">5.822</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">1.690</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Career progression</td>
+<td style="text-align: left;">3.526</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1.513</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Opportunities for skill enhancement</td>
+<td style="text-align: left;">5.822</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">1.690</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Job security</td>
+<td style="text-align: left;">5.534</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">1.871</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Work schedule</td>
+<td style="text-align: left;">2.910</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1.256</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Personal time for Family/leisure</td>
+<td style="text-align: left;">2.908</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1.199</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Work life balance</td>
+<td style="text-align: left;">3.347</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1.213</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Availability Expectation</td>
+<td style="text-align: left;">2.417</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1.078</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Career success determination</td>
+<td style="text-align: left;">5.574</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">1.534</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">7</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>However, the analysis also highlighted concerns related to career progression and work-life balance. The perception of career progression was more mixed (M = 3.53, 42.1%), with respondents expressing uncertainty about the clarity and predictability of growth opportunities in the sector. Moreover, there were consistent concerns about work-life quality. Work schedule (M = 2.91, 31.8%) and personal time for family/leisure (M = 2.91, 31.8%) were rated lower, suggesting that agricultural professionals face challenges in balancing work and personal time. Issues with work-life balance (M = 3.35, 39.1%) and availability expectations (M = 2.42, 23.6%) further underscored the high demands placed on professionals in the field, with limited flexibility to manage personal and professional commitments.</p>
+</section>
+<section id="discussion" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="discussion"><span class="header-section-number">4</span> Discussion</h2>
+<p>The findings of this study reveal a dual perspective among stakeholders in the agricultural sector. On the positive side, stakeholders’ express optimism about the job market, demand for the profession, and opportunities for skill enhancement, all of which indicate a favourable outlook on agricultural careers. These results align with existing research highlighting an increasing global demand for skilled professionals in agriculture, driven by critical issues such as food security, climate change, and the shift toward sustainable farming practices <span class="citation" data-cites="hassen2025taking santhanam2024elaborating">(Hassen et al. 2025; Santhanam-Martin et al. 2024)</span>. The agricultural sector is undergoing transformative changes that require a skilled and adaptive workforce capable of addressing these challenges <span class="citation" data-cites="dedieu2022perspectives">(Dedieu et al. 2022)</span>. Moreover, the positive views on job security and career success found in this study echo broader findings suggesting that agriculture remains a stable career choice with promising long-term prospects, which enhances its appeal among younger professionals seeking secure and impactful career pathways <span class="citation" data-cites="scasta2018employer bhurke2018agriculture">(Scasta 2018; Bhurke and Patil 2018)</span>.</p>
+<p>On the flip side, concerns regarding career progression and work-life balance present significant challenges. The career progression aspect was perceived as unpredictable (M = 3.53), mirroring earlier studies that have highlighted a lack of clear career paths and growth opportunities within the agricultural sector <span class="citation" data-cites="zulaikha2021perceptions">(Zulaikha, Martono, and Himam 2021)</span>. This uncertainty around career growth can hinder the professional development of agricultural graduates and may discourage them from pursuing long-term careers in the field <span class="citation" data-cites="manyasi2023trends wilkes2019decade">(Manyasi et al. 2023; Wilkes and Burns 2019)</span>.</p>
+<p>Moreover, the concerns around work-life balance were particularly notable, with respondents expressing dissatisfaction with work schedules, personal time for family and leisure, and availability expectations <span class="citation" data-cites="suryaja2019work guest2002perspectives tijani2013perception">(Suryaja and Thomas 2019; Guest 2002; Tijani and Omirin 2013)</span>. These low ratings suggest that agricultural professionals are often faced with demanding work conditions, which limit their ability to manage personal time and professional responsibilities effectively. These finding echoes research showing the growing significance of work-life balance in career satisfaction, especially in industries like agriculture, where irregular hours and seasonal pressures are common <span class="citation" data-cites="adisa2024agricultural kong2015meeting">(Adisa et al. 2024; Kong, Wang, and Fu 2015)</span>.</p>
+<p>In conclusion, the study underscores the need to address the concerns around work-life integration within the agricultural sector. While the sector is perceived positively in terms of career opportunities and job security, the lack of clear career progression and the strain on work-life balance may deter young professionals from committing to long-term careers in agriculture. As the sector continues to evolve, it is crucial for policymakers and institutions to focus on creating transparent career pathways, introducing work-life balance reforms, and fostering environments that support both professional development and personal well-being.</p>
+</section>
+<section id="conclusion" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">5</span> Conclusion</h2>
+<p>The study demonstrates that stakeholders hold generally positive views regarding employment opportunities, job security, and skill development in the agricultural sector; however, concerns persist about unclear career advancement pathways and difficulties in maintaining work–life balance and even cases of job quitting and job hopping. These findings indicate perceptual gaps that, if unaddressed, may affect long-term satisfaction and retention. From a policy perspective, the results underscore the need for clearer, competency-linked career progression systems and measures that mitigate workload pressures, especially during seasonal peaks. Institutions can support this by aligning training with sectoral demands, strengthening career guidance, and improving transparency around growth opportunities. Ensuring structured advancement routes and reasonable work expectations can enhance both workforce stability and sectoral attractiveness.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-adedapo2014determinants" class="csl-entry">
+Adedapo, A. O., P. A. Sawant, F. Kobba, and R. N. Bhise. 2014. <span>“Determinants of Career Choice of Agricultural Profession Among the Students of College of Agriculture in Maharashtra State, India.”</span> <em>IOSR Journal of Agriculture and Veterinary Science</em> 7 (9): 12–18. <a href="https://doi.org/10.5897/JAERD2013.0508">https://doi.org/10.5897/JAERD2013.0508</a>.
+</div>
+<div id="ref-adisa2024agricultural" class="csl-entry">
+Adisa, R. S., M. O. Adeyemi, J. O. Ifabiyi, and M. O. Abdrashid. 2024. <span>“Agricultural Extension Agents’ Perception of Work-Life Balance in Kwara State, Nigeria.”</span> <em>Journal of Agriculture and Food Sciences</em> 22 (1): 158–66. <a href="https://doi.org/10.4314/jafs.v22i1.12">https://doi.org/10.4314/jafs.v22i1.12</a>.
+</div>
+<div id="ref-bhurke2018agriculture" class="csl-entry">
+Bhurke, V., and R. Patil. 2018. <span>“Agriculture Students’ Career Aspiration and Awareness of Opportunities in Emerging Rural Market: A Collaborative Framework for Enhancing Employability.”</span> <em>International Journal of Agricultural Sciences</em> 14 (2): 327–34. <a href="https://doi.org/10.15740/HAS/IJAS/14.2/327-334">https://doi.org/10.15740/HAS/IJAS/14.2/327-334</a>.
+</div>
+<div id="ref-black2025social" class="csl-entry">
+Black, R., P. N. Hoare, N. McDonald, and P. McIlveen. 2025. <span>“A Social Cognitive Career Theory Study of Agricultural Mechanical Trade Workers.”</span> <em>Journal of Career Assessment</em> 33 (1): 32–52. <a href="https://doi.org/10.1177/10690727241245962">https://doi.org/10.1177/10690727241245962</a>.
+</div>
+<div id="ref-dedieu2022perspectives" class="csl-entry">
+Dedieu, B., R. Nettle, S. M. D. A. Schiavi, M. T. Sraïri, and P. D. Malanski. 2022. <span>“Which Perspectives for Work in Agriculture? Food for Thought for a Research Agenda.”</span> <em>Frontiers in Sustainable Food Systems</em> 6: 857887. <a href="https://doi.org/10.3389/fsufs.2022.857887">https://doi.org/10.3389/fsufs.2022.857887</a>.
+</div>
+<div id="ref-ganiev2018career" class="csl-entry">
+Ganiev, I., G. Sanaev, and K. Pardaev. 2018. <span>“Career Expectations of Undergraduate and Graduate Students at Agricultural Universities in Uzbekistan.”</span>
+</div>
+<div id="ref-guest2002perspectives" class="csl-entry">
+Guest, D. E. 2002. <span>“Perspectives on the Study of Work-Life Balance.”</span> <em>Social Science Information</em> 41 (2): 255–79.
+</div>
+<div id="ref-hassen2025taking" class="csl-entry">
+Hassen, J. Y., G. S. Endris, M. G. Wordofa, C. S. Aweke, J. W. Hussein, and L. Kasa. 2025. <span>“Taking Youth Aspirations in Agriculture Seriously: Implications for Livelihood Programming in a Fragile Ecosystem.”</span> <em>Cogent Social Sciences</em> 11 (1): 2473641.
+</div>
+<div id="ref-kong2015meeting" class="csl-entry">
+Kong, H., S. Wang, and X. Fu. 2015. <span>“Meeting Career Expectation: Can It Enhance Job Satisfaction of Generation y?”</span> <em>International Journal of Contemporary Hospitality Management</em> 27 (1): 147–68.
+</div>
+<div id="ref-mabaso2023employer" class="csl-entry">
+Mabaso, C. M., and T. J. Monyane. 2023. <span>“Employer Perceptions of Graduate Employability in the Era of the Fourth Industrial Revolution: Implications for Human Resource Practices.”</span> <em>South African Journal of Industrial Psychology</em> 49: a2214. <a href="https://doi.org/10.4102/sajip.v49i0.2214">https://doi.org/10.4102/sajip.v49i0.2214</a>.
+</div>
+<div id="ref-manyasi2023trends" class="csl-entry">
+Manyasi, A. N., S. O. Odebero, A. C. Ndiema, and J. B. Ouda. 2023. <span>“Trends in Progression in Agriculture Career Among Students in Tertiary Institutions of Kakamega and Bungoma Counties, Kenya.”</span> <em>African Journal of Empirical Research</em> 4 (2): 845–60.
+</div>
+<div id="ref-raju2023study" class="csl-entry">
+Raju, M. S., and L. Devarani. 2023. <span>“A Study on Career Aspirations of Agricultural Students in India.”</span> <em>Indian Research Journal of Extension Education</em> 23 (4): 79–84.
+</div>
+<div id="ref-sadovska2025engagement" class="csl-entry">
+Sadovska, V., N. Rastorgueva, P. Migliorini, and M. Melin. 2025. <span>“Engagement of Stakeholders in Action-Oriented Education for Sustainability: A Study of Motivations and Benefits and Development of a Process Model.”</span> <em>The Journal of Agricultural Education and Extension</em> 31 (4): 575–97.
+</div>
+<div id="ref-santhanam2024elaborating" class="csl-entry">
+Santhanam-Martin, M., R. Wilkinson, L. Cowan, and R. Nettle. 2024. <span>“Elaborating Decent Work for Agriculture: Job Experiences and Workforce Retention in the Australian Orchard Industry.”</span> <em>Journal of Rural Studies</em> 111: 103330. <a href="https://doi.org/10.1016/j.jrurstud.2023.103330">https://doi.org/10.1016/j.jrurstud.2023.103330</a>.
+</div>
+<div id="ref-scasta2018employer" class="csl-entry">
+Scasta, J. A. 2018. <span>“Employer Expectations of 21st Century Entry-Level Agricultural Leadership, Education, and Communications Graduates: A Qualitative Study.”</span> Doctoral dissertation, Texas A&amp;M University.
+</div>
+<div id="ref-suryaja2019work" class="csl-entry">
+Suryaja, V., and A. Thomas. 2019. <span>“Work Life Quality of Agricultural Professionals in Commercial Banks of Kerala.”</span> <em>Asian Journal of Agricultural Extension, Economics &amp; Sociology</em>.
+</div>
+<div id="ref-tijani2013perception" class="csl-entry">
+Tijani, S. A., and T. I. Omirin. 2013. <span>“Perception of Agricultural Extension as a Career Among Postgraduate Students of Agriculture in Selected Universities in South-West, Nigeria.”</span> <em>Journal of Agricultural Extension</em> 17 (2): 149–58.
+</div>
+<div id="ref-wilkes2019decade" class="csl-entry">
+Wilkes, J., and A. Burns. 2019. <span>“A Decade of Agriculture Graduates’ Employability and Career Pathways.”</span> <em>International Journal of Innovation in Science and Mathematics Education</em> 27 (4).
+</div>
+<div id="ref-zinnah2001assessment" class="csl-entry">
+Zinnah, M. M., R. Steele, A. Carson, and F. Annor-Frempong. 2001. <span>“Assessment of Tertiary Agricultural Education in Ghana.”</span> In <em>Presentation at the Association for International Agricultural and Extension Education Annual Conference</em>, 4–7.
+</div>
+<div id="ref-zulaikha2021perceptions" class="csl-entry">
+Zulaikha, Y., E. Martono, and F. Himam. 2021. <span>“Perceptions of Students of the Faculty of Agriculture on the Social Status and Career Prospects in the Agricultural Sector.”</span> <em>Agrisocionomics: Jurnal Sosial Ekonomi Pertanian</em> 5 (1): 11–18.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>11 November 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>25 November 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>26 November 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<em>Dr.&nbsp;Arjun Prasad Verma,</em><br>
+<em>Assistant Professor,</em><br>
+<em>Banda University of Agriculture and Technology,</em><br>
+<em>Banda (Uttar Pradesh), India</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Anonymous</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher.<br>
+This is an Open Access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>,<br>
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+</blockquote>
+
+
+
+</section>
+
+ ]]></description>
+  <category>Original-Article</category>
+  <category>Extension</category>
+  <category>Sustainability</category>
+  <guid>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</guid>
+  <pubDate>Tue, 25 Nov 2025 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Barriers to Agroecological Transition: Understanding Farmers Constraints in Meghalaya</title>
   <dc:creator>Dimrimchi M Sangma*</dc:creator>

@@ -1,0 +1,266 @@
+---
+title: "Semantic Variances in Career Expectations among Stakeholders in the Agricultural Sector: Opportunities and Challenges"
+author: 
+  - name: Amina M*
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Extension
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: am2732264@gmail.com
+    note: Corresponding author
+    
+  - name: Dimrimchi M Sangma
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Extension
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: sdimrimchi@gmail.com
+    
+  - name: Archana R Sathyan
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Extension
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: archana.rs@kau.in
+    orcid: "0000-0002-7526-4452"
+    url: https://kau.in/people/archana-raghavan-sathyan-dr
+    
+  - name: Allan Thomas
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Extension
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: t.allan@kau.in
+    orcid: "0000-0002-6402-2909"
+    url: https://kau.in/people/allan-thomas-dr
+
+abstract: |
+  This study examines the semantic differences in career expectations among key stakeholders in the agricultural sector. Using a semantic differential scale, the research evaluates perceptions related to job opportunities, career progression, work-life balance, and job security.  The findings indicated strong optimism regarding job market accessibility (M = 6.01), growing professional demand (M = 5.82), skill enhancement opportunities (M = 5.82), and job security (M = 5.53). Stakeholders also expressed confidence in the long-term viability of agricultural careers (career success determination, M = 5.57). However, concerns emerged around career progression clarity (M = 3.53) and work–life balance indicators, particularly work schedule (M = 2.91), personal time availability (M = 2.91), overall work–life balance (M = 3.35), and expectations of constant availability (M = 2.42). These results revealed a clear dichotomy, while employment prospects and professional stability appeared strong, work–life balance remained a critical constraint. Addressing these gaps through structured career pathways, workload rationalization, and supportive institutional policies is essential for aligning stakeholder expectations with real-world professional experiences. This will improve long-term satisfaction and retention in the agricultural sector. Addressing these concerns through targeted policy interventions and robust institutional support is vital to align stakeholder expectations with the lived experiences of agricultural professionals.  
+
+description: >  
+   This study examines the semantic differences in career expectations among key stakeholders in the agricultural sector. Using a semantic differential scale, the research evaluates perceptions related to job opportunities, career progression, work-life balance, and job security. <a href="/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style>
+
+keywords: [Career Expectations, Job Security, Stakeholder Perceptions, Work-Life Balance]  
+categories: [Original-Article,Extension,Sustainability]
+bibliography: JOSTA-202511-1441.bib
+date: 2025-11-26
+doi: 10.65287/josta.202511.1441
+status: Published (Online)
+volume: "1"
+issue: "2"
+pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/pdfs/JOSTA-202511-1441.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html"
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.55B0-blue?logo=doi)](https://doi.org/10.65287/josta.202511.1441) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17718198)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202511-1441.pdf" download class="j-btn" aria-label="download pdf">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202511.55B0" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Amina, M., Sangma, D. M., Raghavan Sathyan, A., & Thomas, A. (2025). Semantic Variances in Career Expectations among Stakeholders in the Agricultural Sector: Opportunities and Challenges. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202511.1441
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+---  
+
+## Introduction
+
+Career expectations play a critical role in shaping the professional pathways of agricultural graduates, yet these expectations differ substantially among key stakeholders, including students, educators, industry employers, and extension officers. Although the agricultural sector is widely perceived as offering strong career prospects-driven by global challenges such as food security, climate change, and the push for sustainable agricultural practices, there is often a measurable gap between these optimistic views and actual industry experiences. This misalignment can result in professional dissatisfaction, skills job mismatches, and reduced retention in the sector [@scasta2018employer; @ganiev2018career; @zinnah2001assessment]. Despite an increasing global demand for skilled agricultural professionals, many graduates continue to experience uncertainty in their career progression due to unclear advancement trajectories and limited visibility of growth opportunities within the sector and high competitions [@black2025social;@hassen2025taking]. These concerns are further amplified by work-life balance challenges, including extended working hours, seasonal workload peaks, and expectations of availability beyond regular schedules. Such conditions create a paradox wherein the sector presents significant opportunities but simultaneously imposes structural constraints that may undermine long-term career satisfaction and workforce stability [@mabaso2023employer; @adedapo2014determinants]. The importance of examining stakeholders’ career expectation variances lies in the discrete perspectives each group brings to the agricultural profession. While students focus on educational quality and employment prospects, educators emphasise curriculum relevance and skill development, employers prioritise practical competencies and productivity, and extension officers consider field realities and community engagement [@raju2023study; @sadovska2025engagement]. Understanding this diversity of views helps identify key gaps and areas of convergence, offering a basis for targeted policy and institutional reforms. 
+
+Exploring stakeholders’ semantic perceptions is essential because students, educators, employers, and extension officers each frame agricultural careers through different experiential and institutional lenses. These perceptual differences influence how key dimensions such as job security, career advancement, competency relevance, and work-life balance are understood across the sector. Semantic differential analysis makes it possible to systematically capture these evaluative variations, revealing where expectations converge or diverge. Such evidence is critical for policy reform, as it identifies misalignments between graduate preparation and sectoral realities and highlights areas where curricula, skill development, and workforce strategies require adjustment. Based on this rationale, the study was conducted to examine the stakeholder perceptions to generate actionable insights for strengthening agri-graduates career readiness and aligning policy with contemporary agricultural workforce needs.
+
+## Methodology
+
+This study used a descriptive, quantitative research design to examine variations in career expectations among key stakeholder groups within the agricultural sector. The survey included 40 respondents selected through simple random sampling, such as Assistant Directors of Agriculture, Agricultural Officers, Bank Sector Employers, Private Sector Employers, and Faculty Members. The investigation was part of a larger research project on agricultural students’ career orientations, with stakeholder perceptions incorporated to provide a system-wide understanding of how career conditions are viewed across the agricultural hierarchy. Since stakeholders influence policy decisions, training programs, hiring practices, and workplace norms, assessing their perceptions is crucial for identifying gaps between educational preparation and workforce realities using semantic differentials. 
+
+A structured questionnaire using a 7-point semantic differential scale was administered to capture nuanced stakeholder perceptions across four core career dimensions: job market accessibility, career advancement opportunities, job security, and work–life balance. Uniform bipolar adjective pairs (e.g., Secure-Insecure, Clear Path-Unclear Path, Balanced-Stressful) were applied across all stakeholder categories to ensure comparability. Content validity was established through expert review in agricultural extension, human resource development, and rural management. The resulting data were analysed using descriptive statistics, including means, standard deviations, and response ranges. Higher mean scores (above 5.5) were interpreted as indicating an optimistic perception, whereas lower scores (below 3.5) signalled apprehension or concern, enabling systematic identification of positive and negative evaluative trends. These statistical patterns revealed both convergence and divergence in stakeholder attitudes, providing an evidence base for policy adjustments and curriculum refinements aimed at strengthening agricultural career preparedness.
+
+## Results
+
+The analysis of career expectations among agricultural sector stakeholders reveals generally positive perceptions regarding several key aspects of the profession. The job market was viewed favourably (M = 6.01, 83.4%), with stakeholders indicating that they perceive the agricultural job market as highly accessible. Similarly, the demand for the profession (M = 5.82, 80.4%) and opportunities for skill enhancement (M = 5.82, 80.4%) were also seen in a positive light, reflecting confidence in the growing relevance of agricultural graduates and the abundant opportunities for professional growth. Job security (M = 5.53, 75.6%) and career success determination (M = 5.57, 76.2%) were similarly rated favourably, signaling that stakeholders view agricultural careers as offering stability and a balanced pathway to success.
+
+| **Statement** | **Left Anchor (1)** | **Mean Score** | **Right Anchor (7)** | **Position in Scale (%)** | **Interpretation** |
+|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|
+| Job market | Highly Accessible | 6.01 | Extremely competitive | 83.40% | Optimistic |
+| Demand for the profession | Declining | 5.82 | Increasing | 80.40% | Optimistic |
+| Career progression | Unpredictable | 3.53 | Clearly defined | 42.10% | Neutral/Mixed |
+| Opportunities for skill enhancement | Limited | 5.82 | Abundant | 80.40% | Optimistic |
+| Job security | Very unstable | 5.53 | Highly stable | 75.60% | Optimistic |
+| Work schedule | Overly demanding | 2.91 | Flexible and manageable | 31.80% | Concern |
+| Personal time for Family/leisure | Rarely | 2.91 | Frequently | 31.80% | Concern |
+| Work life balance | Highly stressful | 3.35 | Well-managed | 39.10% | Concern |
+| Availability Expectation | Excessive | 2.42 | Minimal | 23.60% | Concern |
+| Career success determination | Work intensity | 5.57 | Work-life balance | 76.20% | Optimistic |
+
+: Semantic differential scale Mean score with anchors {#tbl-scale}
+
+![Semantic Differential Profile of Career Expectations](figures/fig1.png){#fig-figure2 width="384"}
+
+{{< pagebreak >}}
+
+| **Statements** | **Mean** | **Median** | **Std** | **Min** | **Max** |
+|:---------------------|:---------|:---------|:---------|:---------|:---------|
+| Job market | 6.007 | 7 | 1.366 | 1 | 7 |
+| Demand for the profession | 5.822 | 7 | 1.690 | 1 | 7 |
+| Career progression | 3.526 | 3 | 1.513 | 1 | 7 |
+| Opportunities for skill enhancement | 5.822 | 7 | 1.690 | 1 | 7 |
+| Job security | 5.534 | 7 | 1.871 | 1 | 7 |
+| Work schedule | 2.910 | 3 | 1.256 | 1 | 5 |
+| Personal time for Family/leisure | 2.908 | 3 | 1.199 | 1 | 5 |
+| Work life balance | 3.347 | 3 | 1.213 | 1 | 5 |
+| Availability Expectation | 2.417 | 3 | 1.078 | 1 | 5 |
+| Career success determination | 5.574 | 6 | 1.534 | 1 | 7 |
+
+: Descriptive statistics of career expectations {#tbl-desc}
+
+However, the analysis also highlighted concerns related to career progression and work-life balance. The perception of career progression was more mixed (M = 3.53, 42.1%), with respondents expressing uncertainty about the clarity and predictability of growth opportunities in the sector. Moreover, there were consistent concerns about work-life quality. Work schedule (M = 2.91, 31.8%) and personal time for family/leisure (M = 2.91, 31.8%) were rated lower, suggesting that agricultural professionals face challenges in balancing work and personal time. Issues with work-life balance (M = 3.35, 39.1%) and availability expectations (M = 2.42, 23.6%) further underscored the high demands placed on professionals in the field, with limited flexibility to manage personal and professional commitments.
+
+## Discussion
+
+The findings of this study reveal a dual perspective among stakeholders in the agricultural sector. On the positive side, stakeholders’ express optimism about the job market, demand for the profession, and opportunities for skill enhancement, all of which indicate a favourable outlook on agricultural careers. These results align with existing research highlighting an increasing global demand for skilled professionals in agriculture, driven by critical issues such as food security, climate change, and the shift toward sustainable farming practices [@hassen2025taking; @santhanam2024elaborating]. The agricultural sector is undergoing transformative changes that require a skilled and adaptive workforce capable of addressing these challenges [@dedieu2022perspectives]. Moreover, the positive views on job security and career success found in this study echo broader findings suggesting that agriculture remains a stable career choice with promising long-term prospects, which enhances its appeal among younger professionals seeking secure and impactful career pathways [@scasta2018employer; @bhurke2018agriculture].
+
+On the flip side, concerns regarding career progression and work-life balance present significant challenges. The career progression aspect was perceived as unpredictable (M = 3.53), mirroring earlier studies that have highlighted a lack of clear career paths and growth opportunities within the agricultural sector [@zulaikha2021perceptions]. This uncertainty around career growth can hinder the professional development of agricultural graduates and may discourage them from pursuing long-term careers in the field [@manyasi2023trends; @wilkes2019decade].
+
+Moreover, the concerns around work-life balance were particularly notable, with respondents expressing dissatisfaction with work schedules, personal time for family and leisure, and availability expectations [@suryaja2019work; @guest2002perspectives; @tijani2013perception]. These low ratings suggest that agricultural professionals are often faced with demanding work conditions, which limit their ability to manage personal time and professional responsibilities effectively. These finding echoes research showing the growing significance of work-life balance in career satisfaction, especially in industries like agriculture, where irregular hours and seasonal pressures are common [@adisa2024agricultural; @kong2015meeting].
+
+In conclusion, the study underscores the need to address the concerns around work-life integration within the agricultural sector. While the sector is perceived positively in terms of career opportunities and job security, the lack of clear career progression and the strain on work-life balance may deter young professionals from committing to long-term careers in agriculture. As the sector continues to evolve, it is crucial for policymakers and institutions to focus on creating transparent career pathways, introducing work-life balance reforms, and fostering environments that support both professional development and personal well-being.
+
+## Conclusion
+
+The study demonstrates that stakeholders hold generally positive views regarding employment opportunities, job security, and skill development in the agricultural sector; however, concerns persist about unclear career advancement pathways and difficulties in maintaining work–life balance and even cases of job quitting and job hopping. These findings indicate perceptual gaps that, if unaddressed, may affect long-term satisfaction and retention. From a policy perspective, the results underscore the need for clearer, competency-linked career progression systems and measures that mitigate workload pressures, especially during seasonal peaks. Institutions can support this by aligning training with sectoral demands, strengthening career guidance, and improving transparency around growth opportunities. Ensuring structured advancement routes and reasonable work expectations can enhance both workforce stability and sectoral attractiveness.
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**
+
+-   **Submitted:** *11 November 2025*\
+-   **Accepted:** *25 November 2025*\
+-   **Published (Online):** *26 November 2025*
+
+------------------------------------------------------------------------
+
+**Reviewer Information**
+
+-   **Reviewer 1:**\
+    *Dr. Arjun Prasad Verma,*  
+    *Assistant Professor,*  
+    *Banda University of Agriculture and Technology,*   
+    *Banda (Uttar Pradesh), India*  
+
+-   **Reviewer 2:**\
+    *Anonymous*
+:::
+
+::: {.callout-note appearance="simple"}
+
+## Disclaimer/Publisher’s Note  
+
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).  
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.  
+
+:::  
+
+>© Copyright (2025): Author(s). The licensee is the journal publisher.  
+This is an Open Access article distributed under the terms of the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/4.0/),  
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.  
