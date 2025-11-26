@@ -1069,5 +1069,15 @@ As a digital-only journal, JOSTA embraces environmentally responsible publishing
     </a>.
   </p>
 
+  <!-- Added "Read full policy" section -->
+  <div style="margin-top:1.25rem; padding:0.75rem 1rem; background:#fff; border-left:4px solid #1f345c; border-radius:4px;">
+    <p style="margin:0; font-size:0.95rem; line-height:1.5; color:#1f345c; font-weight:600;">
+      Also read the full Copyright & Licensing Policy:
+      <a href="https://www.jostapubs.com/license.html" style="color:#0b3c91; text-decoration:none; font-weight:600;">
+       here
+      </a>
+    </p>
+  </div>
+
 </section>
 ```
