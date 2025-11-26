@@ -72,7 +72,7 @@ issue: "2"
 pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/pdfs/JOSTA-202511-1441.pdf"
 canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html"
 ---
-[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.55B0-blue?logo=doi)](https://doi.org/10.65287/josta.202511.1441) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17718198)  
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.1441-blue?logo=doi)](https://doi.org/10.65287/josta.202511.1441) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17718198)  
 ![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
 
