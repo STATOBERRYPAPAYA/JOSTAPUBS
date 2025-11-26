@@ -50,6 +50,12 @@ website:
         text: Report a Problem
       - href: plagiarism.qmd
         text: Plagiarism Policy
+      - href: license.qmd
+        text: License and Copyright
+      - href: archive.qmd
+        text: Archiving & Digital Preservation
+      - href: selfarchive.qmd
+        text: Self-Archiving Policy
       - href: contact.qmd
         text: Contact Us
   page-footer:

@@ -115,5 +115,14 @@
   },
   "volume1/issue2/JOSTA2025111441/JOSTA2025111441.qmd": {
     "JOSTA2025111441.html": "9398ecae"
+  },
+  "license.qmd": {
+    "license.html": "8b7e2ebe"
+  },
+  "archive.qmd": {
+    "archive.html": "47217310"
+  },
+  "selfarchive.qmd": {
+    "selfarchive.html": "05270e2e"
   }
 }

@@ -1,0 +1,137 @@
+```{=html}
+<!-- Load Roboto font -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+  .deposit-shell {
+    background: #f8f3ea;
+    padding: 2.2rem 0;
+  }
+
+  .deposit-doc {
+    font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #e0d6c7;
+    border-radius: 12px;
+    padding: 2.3rem 2.5rem;
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: #2e2e2e;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.04);
+  }
+
+  .deposit-doc h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.35rem;
+    font-weight: 500;
+    color: #1f345c;
+  }
+
+  .deposit-doc .deposit-meta {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #7b7466;
+    margin-bottom: 1.7rem;
+  }
+
+  .deposit-doc h2 {
+    font-size: 1.15rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0.55rem;
+    font-weight: 500;
+    color: #1f345c;
+    border-left: 4px solid #8b6a3a;
+    padding-left: 0.6rem;
+  }
+
+  .deposit-doc ul {
+    padding-left: 1.25rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .deposit-doc a {
+    color: #0b3c91;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .deposit-doc a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<section class="deposit-shell">
+  <div class="deposit-doc">
+
+    <h1>Self-archiving policy</h1>
+    <div class="deposit-meta">Author rights and repository deposit permissions</div>
+
+    <p>
+      JOSTA – Journal of Sustainable Technology in Agriculture follows a progressive self-archiving policy that enables authors to share and deposit all versions of their scholarly work in repositories of their choice. This policy supports open access, research dissemination, and compliance with institutional and funder mandates.
+    </p>
+
+    <h2>1. Versions authors may deposit</h2>
+    <p>Authors are permitted to deposit the following versions of their work without restriction:</p>
+
+    <ul>
+      <li><strong>Submitted version (preprint):</strong> The manuscript originally submitted to the journal.</li>
+      <li><strong>Accepted version (postprint):</strong> The peer-reviewed, author-accepted manuscript, prior to journal formatting.</li>
+      <li><strong>Published version (Version of Record):</strong> The final PDF published by JOSTA.</li>
+    </ul>
+
+    <p>
+      All versions may be deposited in <strong>institutional repositories</strong>, <strong>disciplinary repositories</strong>, <strong>national repositories</strong>, 
+      <strong>personal websites</strong>, or <strong>academic profile platforms</strong> (e.g., ResearchGate, ORCID, Academia.edu) as permitted by their terms.
+    </p>
+
+    <h2>2. Citation and attribution requirements</h2>
+    <p>
+      When depositing any version, authors must include:
+    </p>
+
+    <ul>
+      <li>The full citation of the article as published in JOSTA</li>
+      <li>The DOI assigned by Crossref</li>
+      <li>A link to the official publication page on the JOSTA website</li>
+      <li>A note indicating the version being deposited (if not the Version of Record)</li>
+    </ul>
+
+    <p>
+      Example attribution statement:
+      <br>
+      <em>“This is the accepted version of the article published in JOSTA. The Version of Record is available at [DOI link].”</em>
+    </p>
+
+    <h2>3. Embargoes</h2>
+    <p>
+      JOSTA does <strong>not impose any embargo periods</strong>. Authors may deposit any version of their work immediately upon submission, acceptance, or publication.
+    </p>
+
+    <h2>4. Licensing and reuse</h2>
+    <p>
+      The published Version of Record is licensed under the 
+      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
+        CC BY-NC-ND 4.0 license
+      </a>.  
+      Deposited copies of the published version must remain unmodified and include the corresponding Creative Commons license information.
+    </p>
+
+    <h2>5. Compliance with funder and institutional mandates</h2>
+    <p>
+      This self-archiving policy is fully compliant with the open-access requirements of major research funders, institutions, and national open-science frameworks. Authors may use repository deposits to fulfil grant or institutional OA obligations.
+    </p>
+
+    <h2>6. Publisher support</h2>
+    <p>
+      Authors seeking guidance on deposit versions, citation formatting, or repository compliance may contact the editorial office at:  
+      <a href="mailto:support@jostapubs.com">support@jostapubs.com</a>.
+    </p>
+
+  </div>
+</section>
+```  
+

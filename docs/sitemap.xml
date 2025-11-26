@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.jostapubs.com/volume1.html</loc>
-    <lastmod>2025-11-01T14:45:01.513Z</lastmod>
+    <lastmod>2025-11-03T05:43:07.060Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</loc>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://www.jostapubs.com/index.html</loc>
-    <lastmod>2025-11-22T13:10:53.535Z</lastmod>
+    <lastmod>2025-11-26T10:55:11.559Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/peerReview.html</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://www.jostapubs.com/published.html</loc>
-    <lastmod>2025-11-01T14:36:27.659Z</lastmod>
+    <lastmod>2025-11-03T05:43:07.060Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/submit.html</loc>
@@ -94,10 +94,22 @@
   </url>
   <url>
     <loc>https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html</loc>
-    <lastmod>2025-11-22T03:27:48.218Z</lastmod>
+    <lastmod>2025-11-26T07:03:49.600Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</loc>
-    <lastmod>2025-11-26T03:08:20.111Z</lastmod>
+    <lastmod>2025-11-26T07:03:49.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/license.html</loc>
+    <lastmod>2025-11-26T07:58:47.860Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/archive.html</loc>
+    <lastmod>2025-11-26T10:35:55.368Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/selfarchive.html</loc>
+    <lastmod>2025-11-26T10:42:14.638Z</lastmod>
   </url>
 </urlset>

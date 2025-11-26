@@ -1,0 +1,253 @@
+```{=html}
+
+<!-- Load Roboto font -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+  .license-shell {
+    background: #f8f3ea; /* soft JOSTA beige */
+    padding: 2rem 0;
+  }
+
+  .license-doc {
+    font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #e0d6c7;
+    border-radius: 10px;
+    padding: 2rem 2.25rem;
+    font-size: 0.97rem;
+    line-height: 1.65;
+    color: #333333;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+  }
+
+  .license-doc h1 {
+    font-size: 1.7rem;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    color: #1f345c; /* JOSTA navy */
+  }
+
+  .license-doc .license-meta {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #7b7466;
+    margin-bottom: 1.25rem;
+  }
+
+  .license-doc h2 {
+    font-size: 1.1rem;
+    margin-top: 1.6rem;
+    margin-bottom: 0.45rem;
+    font-weight: 500;
+    color: #1f345c;
+    border-left: 4px solid #8b6a3a; /* sandstone accent */
+    padding-left: 0.55rem;
+  }
+
+  .license-doc ol {
+    padding-left: 1.25rem;
+    margin-top: 0.35rem;
+  }
+
+  .license-doc ol li {
+    margin-bottom: 0.6rem;
+  }
+
+  .license-doc ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0.35rem;
+    padding-left: 1.1rem;
+  }
+
+  .license-doc a {
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .license-doc a:hover {
+    text-decoration: underline;
+  }
+
+  .license-doc em {
+    font-style: italic;
+  }
+
+  .license-doc .cc-badge {
+    text-align: center;
+    margin: 1.4rem 0 0.3rem 0;
+  }
+
+  .license-doc .cc-badge img {
+    border-width: 0;
+  }
+
+  .license-doc .publisher-link {
+    font-weight: 500;
+    color: #8b6a3a;
+  }
+</style>
+
+<section class="license-shell">
+  <div class="license-doc">
+
+    <h1>License and copyright notice</h1>
+    <div class="license-meta">Effective date: 2025</div>
+
+    <p>
+      This License and Copyright Notice (“Notice”) governs the use of all articles published in the
+      <em>Journal of Sustainable Technology in Agriculture (JOSTA)</em>, the journal website, and the
+      formatted materials produced by the publisher.
+    </p>
+
+    <h2>1. Copyright ownership</h2>
+    <ol>
+      <li>
+        Copyright for each article published in JOSTA remains with the respective author(s). No transfer of copyright
+        to the journal or publisher is required.
+      </li>
+      <li>
+        By publishing in JOSTA, authors grant the publisher a non-exclusive right to publish, host, and distribute
+        the article under the license specified in Section 2.
+      </li>
+    </ol>
+
+    <h2>2. Article license (CC BY-NC-ND 4.0)</h2>
+    <ol>
+      <li>
+        All articles published in JOSTA are licensed under the
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
+          Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+        </a>
+        license.
+      </li>
+      <li>
+        This license applies to the full text of all published articles, including supplementary material
+        designated as part of the article.
+      </li>
+      <li>
+        Under this license, users are permitted to:
+        <ul>
+          <li>read, download, copy, distribute, print, and link to the article;</li>
+          <li>use the article for lawful, non-commercial purposes; and</li>
+          <li>share the article in its original, unmodified form, with appropriate attribution.</li>
+        </ul>
+      </li>
+      <li>
+        Users are not permitted to:
+        <ul>
+          <li>create derivative or adapted versions of the article;</li>
+          <li>use the article, in whole or in part, for commercial purposes.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <div class="cc-badge">
+      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
+        <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"
+             alt="CC BY-NC-ND 4.0 License">
+      </a>
+    </div>
+
+    <h2>3. Open access policy</h2>
+    <ol>
+      <li>
+        JOSTA is a fully open-access journal. All articles are made freely available online immediately upon
+        publication, without subscription fees or access charges.
+      </li>
+      <li>
+        Users may access and use the published content for any lawful, non-commercial purpose without prior permission,
+        subject to the terms of the CC BY-NC-ND 4.0 license.
+      </li>
+      <li>
+        This open-access policy is aligned with the principles of the
+        <a href="https://www.budapestopenaccessinitiative.org/" target="_blank">
+          Budapest Open Access Initiative (BOAI)
+        </a>.
+      </li>
+    </ol>
+
+    <h2>4. Permitted use and reuse</h2>
+    <ol>
+      <li>
+        Subject to Section 2, users may:
+        <ul>
+          <li>share the article in its original, unaltered form;</li>
+          <li>use the article for teaching, learning, and non-commercial research;</li>
+          <li>link to or cite the article in scholarly and professional works.</li>
+        </ul>
+      </li>
+      <li>
+        All reuse must include clear attribution to the author(s) and to JOSTA as the publishing journal.
+      </li>
+    </ol>
+
+    <h2>5. Layout, branding, and formatted versions</h2>
+    <ol>
+      <li>
+        The design, layout, and branding of the JOSTA website and formatted PDF versions are the copyrighted
+        property of
+        <a href="https://www.statoberry.com/papaya.html" target="_blank" class="publisher-link">
+          PAPAYA Academic Press (Statoberry LLP)
+        </a>.
+      </li>
+      <li>
+        This includes, but is not limited to:
+        <ul>
+          <li>website templates, structure, and styling;</li>
+          <li>journal typography, cover design, and page layout;</li>
+          <li>logos, icons, and visual identity elements;</li>
+          <li>formatted or typeset PDF versions produced by the journal.</li>
+        </ul>
+      </li>
+      <li>
+        These rights do not restrict the reuse of article content under the CC BY-NC-ND 4.0 license.
+      </li>
+    </ol>
+
+    <h2>6. Commercial use, translations, and reprints</h2>
+    <ol>
+      <li>
+        Commercial reuse, translation, reprinting, or redistribution of formatted or branded journal materials
+        requires prior written permission from the publisher.
+      </li>
+      <li>
+        Requests for such permissions should be directed to:
+        <br><br>
+        <strong>PAPAYA Academic Press (Statoberry LLP)</strong><br>
+        Kerala, India<br>
+        Email:
+        <a href="mailto:support@jostapubs.com">support@jostapubs.com</a>
+      </li>
+      <li>
+        These restrictions apply only to formatted and branded materials and do not alter the CC BY-NC-ND 4.0
+        license granted for the article content.
+      </li>
+    </ol>
+
+    <h2>7. Archiving and preservation</h2>
+    <ol>
+      <li>
+        All published articles are permanently archived in Zenodo under the dedicated JOSTA community:
+        <a href="https://zenodo.org/communities/josta/" target="_blank">
+          Zenodo – JOSTA Community
+        </a>.
+      </li>
+      <li>
+        Zenodo provides long-term digital preservation using CERN’s secure data infrastructure to ensure persistent
+        access to published content.
+      </li>
+      <li>
+        JOSTA articles are also indexed in
+        <a href="https://www.openaire.eu" target="_blank">OpenAIRE</a>,
+        supporting global discoverability and compliance with open-science mandates.
+      </li>
+    </ol>
+
+  </div>
+</section>
+```

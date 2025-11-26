@@ -1,0 +1,152 @@
+
+```{=html}
+<!-- Load Roboto font -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+  .arch-shell {
+    background: #f8f3ea;
+    padding: 2.2rem 0;
+  }
+
+  .arch-doc {
+    font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #e0d6c7;
+    border-radius: 12px;
+    padding: 2.3rem 2.5rem;
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: #2e2e2e;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.04);
+  }
+
+  .arch-doc h1 {
+    font-size: 1.9rem;
+    margin-bottom: 0.35rem;
+    font-weight: 500;
+    color: #1f345c;
+  }
+
+  .arch-doc .arch-meta {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #7b7466;
+    margin-bottom: 1.7rem;
+  }
+
+  .arch-doc h2 {
+    font-size: 1.18rem;
+    margin-top: 1.8rem;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+    color: #1f345c;
+    border-left: 4px solid #8b6a3a;
+    padding-left: 0.6rem;
+  }
+
+  .arch-doc a {
+    color: #0b3c91;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .arch-doc a:hover {
+    text-decoration: underline;
+  }
+
+  .arch-doc ul {
+    padding-left: 1.25rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+  }
+</style>
+
+<section class="arch-shell">
+  <div class="arch-doc">
+
+    <h1>Archiving & digital preservation</h1>
+    <div class="arch-meta">Ensuring permanent accessibility and integrity of the scholarly record</div>
+
+    <p>
+      JOSTA – Journal of Sustainable Technology in Agriculture implements a multi-layered digital preservation strategy to ensure the long-term accessibility, authenticity, and safekeeping of all published content. Our approach complies with best practices recommended by DOAJ, OpenAIRE, and international scholarly communication standards.
+    </p>
+
+    <!-- INTERNET ARCHIVE -->
+    <h2>1. Internet Archive</h2>
+    <p>
+      The <strong>Internet Archive (Wayback Machine)</strong> serves as the primary preservation system for JOSTA. All full-text PDF files and their associated metadata are archived to ensure permanent availability, independent of website hosting or publisher infrastructure.
+    </p>
+
+    <p>
+      Access preserved JOSTA content:
+      <br>
+      <a href="https://archive.org/details/@josta_open-access_journal" target="_blank">
+        Internet Archive – JOSTA Preservation
+      </a>
+    </p>
+
+    <ul>
+      <li>Permanent archiving of article PDFs and metadata</li>
+      <li>Preservation of article landing pages and journal structure</li>
+      <li>Independent, third-party redundancy</li>
+      <li>Access ensured even if the journal website undergoes changes or becomes unavailable</li>
+    </ul>
+
+    <!-- ZENODO -->
+    <h2>2. Zenodo (CERN)</h2>
+    <p>
+      JOSTA maintains an official community on <strong>Zenodo</strong>, managed by CERN and OpenAIRE. Zenodo preserves the article record, metadata, DOI information, and public documentation necessary for long-term scholarly stewardship.
+    </p>
+
+    <p>
+      JOSTA Zenodo Community:
+      <br>
+      <a href="https://zenodo.org/communities/josta/" target="_blank">Zenodo – JOSTA Community</a>
+    </p>
+
+    <ul>
+      <li>Preservation of article metadata and publication record</li>
+      <li>Stable DOI management independent of journal hosting</li>
+      <li>OpenAIRE-compliant metadata exposure</li>
+      <li>Long-term preservation provided by CERN infrastructure</li>
+    </ul>
+
+    <!-- GITHUB -->
+    <h2>3. GitHub repository</h2>
+    <p>
+      The full journal website is maintained and version-controlled via GitHub. This provides a complete historical record of all article pages, metadata files, and website content, enabling restoration of any previous version if needed.
+    </p>
+
+    <ul>
+      <li>Permanent version history for all site files</li>
+      <li>Ability to roll back to earlier states of the journal</li>
+      <li>Independent redundancy outside hosting and archive networks</li>
+    </ul>
+
+    <!-- PUBLISHER BACKUPS -->
+    <h2>4. Publisher-maintained secure backups</h2>
+    <p>
+      <strong>PAPAYA Academic Press (Statoberry LLP)</strong> maintains additional secure backup layers to provide long-term redundancy and continuity.
+    </p>
+
+    <ul>
+      <li>Regular cloud-based encrypted backups</li>
+      <li>Local mirrored storage</li>
+      <li>Offline archival copies (PDFs + metadata)</li>
+      <li>Secure storage of indexing, layout, and publication files</li>
+    </ul>
+
+    <!-- COMMITMENT -->
+    <h2>5. Preservation commitment</h2>
+    <p>
+      By combining the Internet Archive (primary PDF and metadata preservation), Zenodo (metadata and DOI preservation), GitHub (versioned website backup), and internal archival layers, JOSTA ensures that all published content will remain permanently accessible regardless of organisational, technical, or infrastructural changes.
+    </p>
+
+  </div>
+</section>
+
+```  

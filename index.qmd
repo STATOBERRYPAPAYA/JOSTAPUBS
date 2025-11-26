@@ -527,13 +527,70 @@ The Journal of Sustainable Technology in Agriculture (JOSTA) is a peer-reviewed,
 We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world-promoting broad dissemination and knowledge sharing.  
 
 JOSTA is also a registered member of [Crossref](https://www.crossref.org/) 
-, the global scholarly infrastructure that connects research publications through persistent Digital Object Identifiers (DOIs). Every article published in JOSTA is assigned a unique Crossref DOI, ensuring permanent identification, reliable citation linking, and global discoverability across academic databases such as Google Scholar, Scopus, and OpenAIRE.
+, the global scholarly infrastructure that connects research publications through persistent Digital Object Identifiers (DOIs). Every article published in JOSTA is assigned a unique Crossref DOI, ensuring permanent identification, reliable citation linking, and global discoverability across academic databases such as Google Scholar and OpenAIRE.
 
-Articles published in JOSTA are permanently archived in [Zenodo](https://zenodo.org) with dedicated community created for [JOSTA](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), ensuring your research is stored safely, secure and open for the future in CERN's data centre for as long as CERN exists.
+Articles published in JOSTA are permanently archived in [Zenodo](https://zenodo.org) with dedicated community created for [JOSTA](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), ensuring your research is stored safely, secure and open for the future in CERN's data centre for as long as CERN exists. Through `OpenAIRE` indexing, JOSTA’s publications are accessible to global research databases and funding agencies, guaranteeing broad visibility and compliance with open-science mandates.  
+
+```{=html}
+<section class="openaire-line">
+  <div class="container oa-line-wrap">
+    <img src="openaire.webp" alt="OpenAIRE" class="oa-logo">
+    <span class="oa-text">
+      All articles published are indexed in <strong>OpenAIRE</strong> as they are archived in <strong>Zenodo</strong>.
+    </span>
+    <img src="zenodo.webp" alt="Zenodo" class="oa-logo">
+  </div>
+</section>
+
+<style>
+  .openaire-line {
+    background: #fdf6ec; /* Sandstone beige */
+    border-top: 1px solid #e2d8c8;
+    border-bottom: 1px solid #e2d8c8;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 12px 0;
+  }
+
+  .oa-line-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 12px;
+    text-align: center;
+    font-size: 1rem;
+    color: #325d88; /* Sandstone navy */
+    font-weight: 500;
+  }
+
+  .oa-logo {
+    height: 24px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    filter: drop-shadow(0 0.5px 1px rgba(0,0,0,0.08));
+  }
+
+  .oa-text strong {
+    color: #0b5a56; /* Sandstone teal accent */
+  }
+
+  @media (max-width: 600px) {
+    .oa-line-wrap {
+      flex-direction: column;
+      gap: 6px;
+      font-size: 0.95rem;
+    }
+    .oa-logo { height: 22px; }
+  }
+</style>
+```
 
 The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.
 
-JOSTA is managed by [PAPAYA](https://www.statoberry.com/papaya.html), Academic Press of [Statoberry LLP](https://www.statoberry.com/) and supported by domain experts in agriculture and allied sciences, ensuring both technical accuracy and contextual relevance in all published content.
+JOSTA is managed by [PAPAYA](https://www.statoberry.com/papaya.html), Academic Press of [Statoberry LLP](https://www.statoberry.com/) and supported by domain experts in agriculture and allied sciences, ensuring both technical accuracy and contextual relevance in all published content.  
+
+Article metadata and publication records are preserved in [Zenodo](https://zenodo.org), while full-text PDFs are permanently archived in the [Internet Archive](https://archive.org/details/@josta_open-access_journal). Website pages are version-controlled through GitHub. For more details see to [archiving & Digital Preservation](archive.qmd)
 
 ```{=html}
 <section class="josta-meta" id="journal-info" aria-labelledby="journal-info-title">
@@ -721,21 +778,20 @@ JOSTA is managed by [PAPAYA](https://www.statoberry.com/papaya.html), Academic P
 </style>
 ```
 
-## Our vision {#vision .unnumbered}
+## Aim & scope {#vision .unnumbered}
 
-At JOSTA, we believe that scientific knowledge should be freely accessible and shared without unnecessary barriers. Our vision is to create a research ecosystem where agricultural innovations are communicated openly, reviewed rigorously, and applied meaningfully.
+The *Journal of Sustainable Technology in Agriculture (JOSTA)* is dedicated to advancing high-quality, peer-reviewed research that strengthens scientific understanding, technological innovation, and sustainable development within the agricultural sciences. Positioned at the intersection of biological, environmental, technological, and socio-economic disciplines, the journal provides a multidisciplinary platform for researchers, educators, practitioners, and policymakers working toward resilient and productive agricultural systems. JOSTA recognises that modern agriculture requires integrated solutions that draw from different disciplines in agricultural science like plant science, soil ecology, data science, economics, and extension education and therefore welcomes scholarly work that bridges these domains to address challenges in food security, climate resilience, ecological sustainability, and rural development.
 
-We aim to provide a trusted platform that empowers researchers, educators, and practitioners to publish high-quality work in a transparent, supportive, and researcher-friendly environment. By combining open access with editorial excellence, JOSTA seeks to advance sustainable technologies in agriculture and foster a culture of collaboration and continuous learning.
+The scope of JOSTA spans a broad range of thematic areas. In crop and plant sciences, the journal publishes research related to crop physiology, plant responses to stress, varietal improvement, horticultural innovations, and sustainable agronomic practices that enhance yield and resource-use efficiency. Studies exploring cutting-edge advances in protected cultivation, climate-smart agriculture, and plant biotechnology are also encouraged. Within soil science and agroecology, JOSTA highlights work on soil fertility, nutrient cycling, soil organic carbon dynamics, land degradation, and restoration ecology. Manuscripts addressing agroecological production systems, ecosystem services, soil-plant interactions, and climate-soil linkages form a key component of the journal’s mission to promote sustainable land management.
 
-## Why publish with us? {.unnumbered}
+Recognising the increasing importance of data-driven decision-making, the journal provides a dedicated space for research in statistics, data science, and computational modelling applied to agriculture. Submissions may include experimental design, statistical inference, predictive analytics, machine learning approaches, remote sensing applications, GIS-based assessments, big-data analytics, and precision agriculture decision support tools. These analytical contributions play a crucial role in strengthening evidence-based agricultural policies and management strategies.
 
-Open Access: Your work is freely accessible online from the moment of publication, increasing its reach and impact.
+JOSTA also emphasises socio-economic and institutional perspectives in agriculture. Manuscripts in agricultural economics and policy may cover production efficiency, market behaviour, resource allocation, climate economics, value-chain assessments, sustainability governance, and behavioural factors influencing technology adoption. Given the central role of people and institutions in agricultural transformation, the journal welcomes contributions to agricultural extension, education, and rural development. Topics may include technology transfer, farmer capacity building, innovation systems, participatory research, rural resilience, gender inclusion, youth engagement, and community-based development models.
 
--   **Streamlined process**: We offer a simple, submission-friendly system that focuses on quality without the complexity of traditional publishing.
+In addition, JOSTA recognises the growing relevance of information science in modern research ecosystems. The journal invites studies related to knowledge management, academic communication, scientometrics, digital libraries, metadata standards, and open-science practices that enhance transparency, accessibility, and dissemination of agricultural research.
 
--   **Permanent archiving**: Accepted articles are hosted on trusted platforms like Zenodo, ensuring long-term availability and proper citation.
+By maintaining an open-access publishing model supported by rigorous double-anonymous peer review, JOSTA ensures that valuable research is freely available to global audiences without subscription or financial barriers. The journal aims to foster collaboration among scientists, promote methodological transparency, and encourage interdisciplinary approaches that drive innovation in sustainable agricultural technologies. Through this commitment, JOSTA seeks to contribute meaningfully to global efforts in food system transformation and to support the scientific community in addressing agricultural and environmental challenges of the future.  
 
--   **Supportive community**: Our team is dedicated to helping researchers at every stage of the publishing process, with fair and timely peer review.
 
 ## Journal metrics {#journalmetrics .unnumbered}
 
@@ -872,64 +928,58 @@ For a detailed description of the review process, see [Peer review process](peer
 
 ## 🔓Open access {.unnumbered}
 
-JOSTA is a fully open-access journal. This means all published articles are available online without subscription or payment barriers, ensuring maximum visibility and accessibility. Open access increases the global reach, readership, and impact of your research.
-
-We are a member in crossref and each article in JOSTA receives an unique DOI. All articles published in JOSTA are permanently archived in Zenodo, a research data repository operated by CERN and integrated with the OpenAIRE network. This ensures long-term preservation, discoverability. As part of OpenAIRE indexing, JOSTA’s publications are accessible to global research databases and funding agencies, guaranteeing broad visibility and compliance with open-science mandates.
+JOSTA is a fully open-access journal. All articles are freely available online without subscription or payment barriers, ensuring maximum visibility and global accessibility. Read our open access statement below. 
 
 ```{=html}
-<section class="openaire-line">
-  <div class="container oa-line-wrap">
-    <img src="openaire.webp" alt="OpenAIRE" class="oa-logo">
-    <span class="oa-text">
-      All articles published are indexed in <strong>OpenAIRE</strong> as they are archived in <strong>Zenodo</strong>.
-    </span>
-    <img src="zenodo.webp" alt="Zenodo" class="oa-logo">
-  </div>
-</section>
+<div class="josta-callout josta-callout-oa" aria-label="open access policy">
+  <h3 class="josta-callout-title">Open access statement</h3>
+  <p class="josta-callout-text">
+    JOSTA is an open access journal. All content is freely available without charge 
+    to users or their institutions. Readers may read, download, copy, distribute, 
+    print, search, or link to the full texts, or use them for any lawful purpose, 
+    without seeking prior permission from the authors or the publisher.
+  </p>
+  <p class="josta-callout-text">
+    This policy follows the 
+    <a href="https://www.budapestopenaccessinitiative.org/" target="_blank" rel="noopener">
+      BOAI
+    </a>
+    definition of open access.
+  </p>
+</div>
 
 <style>
-  .openaire-line {
-    background: #fdf6ec; /* Sandstone beige */
-    border-top: 1px solid #e2d8c8;
-    border-bottom: 1px solid #e2d8c8;
-    font-family: Georgia, "Times New Roman", serif;
-    padding: 12px 0;
+  .josta-callout {
+    border-left: 4px solid #8b6a3a; /* sandstone brown */
+    background: #f8f3ea;            /* soft beige */
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 0.5rem;
   }
 
-  .oa-line-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px 12px;
-    text-align: center;
-    font-size: 1rem;
-    color: #325d88; /* Sandstone navy */
-    font-weight: 500;
+  .josta-callout-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1f345c; /* josta navy */
   }
 
-  .oa-logo {
-    height: 24px;
-    width: auto;
-    display: inline-block;
-    vertical-align: middle;
-    filter: drop-shadow(0 0.5px 1px rgba(0,0,0,0.08));
+  .josta-callout-text {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
   }
 
-  .oa-text strong {
-    color: #0b5a56; /* Sandstone teal accent */
-  }
-
-  @media (max-width: 600px) {
-    .oa-line-wrap {
-      flex-direction: column;
-      gap: 6px;
-      font-size: 0.95rem;
-    }
-    .oa-logo { height: 22px; }
+  .josta-callout a {
+    text-decoration: underline;
   }
 </style>
 ```
+
+
+
+
 
 ## Article processing charges (APC) {#apc .unnumbered}
 
@@ -981,35 +1031,43 @@ As a digital-only journal, JOSTA embraces environmentally responsible publishing
 ```{=html}
 <section id="copyright-info" style="background:#fdf6ec; border:1px solid #e2d8c8; border-radius:8px; padding:1.25rem 1.5rem; margin-top:1.5rem;">
 
-<h3 style="margin-top:0; color:#1f345c; font-family:Georgia, 'Times New Roman', serif;">Copyright Information</h3>
+  <h3 style="margin-top:0; color:#1f345c; font-family:Georgia, 'Times New Roman', serif;">
+    Copyright information
+  </h3>
 
-<p style="font-size:1rem; line-height:1.6; color:#333;">
-All <strong>articles published in Journal of Sustainable Technology [JOSTA]</strong> remain the copyright of their respective authors and are distributed under the
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#006699; font-weight:600; text-decoration:none;">
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
-</a>.
-</p>
+  <p style="font-size:1rem; line-height:1.6; color:#333;">
+    All <strong>articles published in the Journal of Sustainable Technology in Agriculture (JOSTA)</strong> remain the copyright of their respective authors and are distributed under the
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#006699; font-weight:600; text-decoration:none;">
+      Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+    </a>.
+    <strong>This license applies to the full text of all published articles.</strong>
+  </p>
 
-<p style="text-align:center; margin:1rem 0;">
-  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-    <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative Commons License" style="border-width:0;"/>
-  </a>
-</p>
+  <p style="text-align:center; margin:1rem 0;">
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+      <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative Commons License" style="border-width:0;" />
+    </a>
+  </p>
 
-<div style="background:#fff; border-left:4px solid #8b6a3a; padding:0.75rem 1rem; border-radius:4px; margin-bottom:1rem;">
-  <ul style="margin:0; padding-left:1.2rem; line-height:1.7;">
-    <li><strong>Attribution</strong> - Credit must be given to the original authors and to <strong>JOSTA</strong> as the source of publication.</li>
-    <li><strong>Non-commercial</strong> - The material may not be used for commercial purposes.</li>
-    <li><strong>No derivatives</strong> - Reuse, remixing, or modification is not permitted without explicit permission.</li>
-  </ul>
-</div>
+  <div style="background:#fff; border-left:4px solid #8b6a3a; padding:0.75rem 1rem; border-radius:4px; margin-bottom:1rem;">
+    <ul style="margin:0; padding-left:1.2rem; line-height:1.7;">
+      <li><strong>Attribution</strong> – Appropriate credit must be given to the original authors and to <strong>JOSTA</strong> as the source of publication.</li>
+      <li><strong>Non-commercial</strong> – The material may not be used for commercial purposes.</li>
+      <li><strong>No derivatives</strong> – The material may not be remixed, transformed, or built upon without explicit permission.</li>
+    </ul>
+  </div>
 
-<p style="font-size:0.95rem; line-height:1.6; color:#444;">
-© 2025 <strong>Papaya Academic press, Statoberry LLP</strong>. All rights reserved for the <strong>JOSTA</strong> website design, layout, and journal branding.</p>  
+  <p style="font-size:0.95rem; line-height:1.6; color:#444;">
+    © 2025 <strong>PAPAYA Academic Press, Statoberry LLP</strong>. All rights reserved for the <strong>JOSTA</strong> website design, layout, and journal branding.
+  </p>
 
-<p style="font-size:0.95rem; line-height:1.6; color:#444;">
-For commercial reuse, translation, or distribution of printed copies, prior written permission from <strong>PAPAYA, Academic press</strong> is required.
-</p>
+  <p style="font-size:0.95rem; line-height:1.6; color:#444;">
+    For commercial reuse, translation, or distribution of printed copies of the journal’s formatted versions, prior written permission from <strong>PAPAYA Academic Press</strong> is required.
+    These restrictions do not apply to the article content itself, which remains available under the terms of the
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#006699; font-weight:600; text-decoration:none;">
+      CC BY-NC-ND 4.0 license
+    </a>.
+  </p>
 
 </section>
 ```
