@@ -57,7 +57,35 @@
 
 # Editorial Board {.unnumbered}
 
-The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an experienced and diverse Editorial Board comprising leading researchers, academicians, and practitioners in the fields of agricultural science, environmental sustainability, and applied technologies. Our editorial team is committed to maintaining high standards of academic integrity and scientific rigor, ensuring that all submissions undergo a thorough and fair peer-review process. The board works collectively to shape the journal’s vision, uphold its publication ethics, and promote the dissemination of innovative, practical, and impactful research that addresses the challenges and opportunities in sustainable agriculture and allied disciplines.
+```{=html}  
+<div style="background:#f8f3ea; border-left:4px solid #8b6a3a; padding:1.2rem 1.4rem; border-radius:8px; margin-top:1.2rem">
+
+  <h3 style="margin-top:0; color:#1f345c; font-weight:600;">
+    Editorial Board Policy
+  </h3>
+
+  <p style="margin:0 0 0.8rem 0; color:#333; line-height:1.65;">
+    The <strong>Journal of Sustainable Technology in Agriculture (JOSTA)</strong> follows a transparent and accountable editorial governance structure in line with COPE recommendations. Editorial Board members are selected based on expertise, scholarly contributions, and ethical standards.
+  </p>
+
+  <ul style="margin:0 0 1rem 1.2rem; color:#333; line-height:1.6;">
+    <li><strong>Responsibilities:</strong> Overseeing peer review, ensuring fairness, confidentiality, and scientific integrity.</li>
+    <li><strong>Expectations:</strong> Providing timely, high-quality reviews and informed editorial decisions.</li>
+    <li><strong>Term:</strong> Members are appointed for a <strong>three-year renewable term</strong>.</li>
+    <li><strong>Conflicts of interest:</strong> Editors must declare all potential conflicts and recuse themselves when necessary.</li>
+  </ul>
+
+  <p style="margin:0; color:#1f345c; font-weight:600;">
+    JOSTA adheres to the 
+    <a href="https://publicationethics.org/guidance/guideline/editorial-board-participation" 
+       style="color:#0b3c91; text-decoration:none;" target="_blank" rel="noopener">
+      COPE Guidelines for Editorial Board Participation
+    </a>.
+  </p>
+
+</div>
+```  
+
 
 ## Editor-in-Chief {.unnumbered}
 
