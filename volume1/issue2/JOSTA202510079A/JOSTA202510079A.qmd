@@ -1,0 +1,295 @@
+---
+title: "Functional Diversity of Microbial Communities in Nutrient Cycling and Soil Carbon Sequestration"
+author:  
+  - name: Muhilan Gangadaran*
+    affiliations:
+      - name: Tamil Nadu Agricultural University
+        department: Soil Science & Agricultural Chemistry
+        address: Agricultural College and Research Institute
+        city: Coimbatore, Tamil Nadu
+        country: India
+    email: muhilan2509@gmail.com
+    orcid: "0009-0002-2245-3409"
+    note: Corresponding author
+
+  - name: Elavarasi Prabakaran
+    affiliations:
+      - name: Tamil Nadu Agricultural University
+        department: Soil Science & Agricultural Chemistry
+        address: Agricultural College and Research Institute
+        city: Coimbatore, Tamil Nadu
+        country: India
+    email: elavarasi.praba94@gmail.com
+    orcid: "0009-0005-2247-8309"
+    
+  - name: Leninbabu K. P
+    affiliations:
+      - name: UAS, Bangalore
+        department: Soil Science & Agricultural Chemistry
+        address: Gandhi Krishi Vignana Kendra
+        city: Bangalore, Karnataka 
+        country: India
+    email: leninb281@gmail.com
+    orcid: "0009-0006-5067-3731"
+
+  - name: Abha Yadav
+    affiliations:
+      - name: Tamil Nadu Agricultural University
+        department: Soil Science & Agricultural Chemistry
+        address: Agricultural College and Research Institute
+        city: Coimbatore, Tamil Nadu
+        country: India
+    email: yadavabha98@gmail.com
+    orcid: "0009-0007-2116-0053"
+   
+  - name: Nikita Rajput
+    affiliations:
+      - name: Tamil Nadu Agricultural University
+        department: Soil Science & Agricultural Chemistry
+        address: Agricultural College and Research Institute
+        city: Coimbatore, Tamil Nadu
+        country: India
+    email: nikitarajput538@gmail.com
+    orcid: "0009-0007-2116-0053"
+
+  - name: Mohamed Aseemudheen M
+    affiliations:
+      - name: Tamil Nadu Agricultural University
+        department: Agricultural Extension & Rural Sociology
+        address: Agricultural College and Research Institute
+        city: Coimbatore, Tamil Nadu
+        country: India
+    email: aseem1264@gmail.com
+    orcid: "0009-0006-3041-4425"
+      
+abstract: |
+  The living soil system is fundamental to sustainable agriculture, with soil quality reflecting environmental stability and food security. However, soil health is declining due to unsustainable practices and climatic stresses such as drought and salinity. Soil microorganisms play a vital role in nutrient mobilization, solubilization, and improved nutrient availability. The rhizosphere, a dynamic root zone, fosters crucial microbe - plant interactions that enhance soil biodiversity, disease suppression, and physicochemical properties like *Rhizobium spp.*, *Azotobacter chroococcum* which enhances nitrogen fixation, *Bacillus megaterium*, *Pseudomonas fluorescens* converts insoluble phosphate to soluble phosphorus form etc. Beneficial microbes like plant growth-promoting rhizobacteria (PGPR) and arbuscular mycorrhizal fungi (AMF) boost crop productivity and tolerance to abiotic stress. Microbial communities also enhance soil structure, water retention, and organic matter dynamics. As sensitive indicators of soil health, microbes are key to sustainable agriculture. Future research should focus on identifying efficient microbial strains and understanding their metabolites to improve plant-soil interactions and support sustainable food production.  
+  
+description: >  
+   The living soil system is fundamental to sustainable agriculture, with soil quality reflecting environmental stability and food security. However, soil health is declining due to unsustainable practices and climatic stresses such as drought and salinity.<a href="/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style>
+
+keywords: [soil health, microorganisms, microbial community, rhizosphere]  
+categories: [Review-Article, Soil, Microbiology, Crops, PlantScience]
+bibliography: JOSTA-202510-079A.bib
+date: 2025-11-27
+doi: 10.65287/josta.202510.079A
+status: Published (Online)
+volume: "1"
+issue: "2"
+pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/pdfs/JOSTA-202510-079A.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html"
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.079A-blue?logo=doi)](https://doi.org/10.65287/josta.202510.079A) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17730550)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202510-079A.pdf" download class="j-btn" aria-label="download pdf">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202511.55B0" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Gangadaran, M., Elavarasi, P., Leninbabu, K. P., Yadav, A., Nikita, R., & Aseemudheen M, M. (2025). Functional Diversity of Microbial Communities in Nutrient Cycling and Soil Carbon Sequestration. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.079A
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+---  
+
+## Introduction
+
+Amidst the growing population, including urbanisation as well as industrialisation has now diminishes the growing agricultural land fields. This abrupt change had affected by demand of food and supply ratio, but still the growing population should satisfy the food for their daily needs [@Tilman2011]. However, the conventional agriculture is facing reduction in production and increased in cost of input. In addition, loss of agriculture productivity due to natural and anthropogenic activity leads that land degradation and reduced crop yield. Land use pattern shift varies frequently due to modernization and urbanization, hence reduces arable land. Farmers are also leaving this practice because of low-cost benefits and introduction of different variety of seed and technology. As the population continues to grow rapidly, the demand for agricultural land to cultivate crops is becoming increasingly important. For generating every single piece of crop, soil is the wholesome medium thorough which we can able to grow. To produce any crop, soil serves as the fundamental and indispensable medium for plant growth. To make soil alive or fertile, one must shall focus on corresponding way of making it naturally to Sustainable natural practices. The other part of organic farming is being not practices every corner which allows farmers to use intensive inorganic fertilizers, pesticide ultimately degrading soil systems [@VG2024].
+
+Also agriculture shifts in production and led to insecurity in food production because of climate change, anthropogenic activities, natural resource scavenging and ultimately leads to poor soil health. Continuing traditional practices like heavy application of pesticide and inorganic fertilizers had made soil productivity less and thus making soil organism less motile and active [@Bhattacharyya2012]. Plants interact with microorganisms in various ways such as positive, negative and neutral. It has been observed that the whole plant, root and shoot system including different organs like buds, flowers, fruits and seeds harbour many kinds of microorganisms inner (endophytes) and outer (epiphytes) surface of the plant and it encompasses various relation like competition, exploitation, neutrality, commensalism, and mutualism [@Barea2015; @Jacoby2017]. This review paper shall strongly focuses on importance of soil micro biome population in soil rhizosphere region and harnessing its critical role in promoting sustainable agriculture and crop resilient systems.
+
+### Functional regulation of microbial diversity in Rhizosphere
+
+Soil microorganisms were the key players in the soil system. They are often called as “Bio-engineer”. The presence of a diverse soil microbial community is crucial to the productivity of any ecosystem, since microorganisms affect all levels within the ecosystem. While potential harmful effects from soil microorganisms include plant diseases, production of plant-suppressive compounds, and loss of plant-available nutrients [@BrueW1987], the majority of soil microorganisms are beneficial to plant growth [@Vessey2003]. Harmful microorganisms suppress plant hormones primarily by producing excessive amounts of naturally occurring hormones, which disrupt the plant's delicate hormonal balance, or by producing phytotoxic metabolites that inhibit growth, for example, *Agrobacterium spp.* induces tumor or gall formation by causing an imbalance in auxin and cytokinin levels [@Koza2022].  
+
+The rhizosphere is a thin layer of soil that surrounds plant roots and is a central place for microbial activity. It's made up of soil particles, organic matter, plant roots, and a diverse community of microbes. The rhizosphere is a micro ecosystem where complex interactions take place between the plant roots and the microorganisms.
+
+Soil micro-biome community were significant contributor of our living eco-system which aid in servicing life on our planet, regulating carbon cycle, and other multifaceted nutrient transformation. But ongoing global climate change crisis, the abundant organisms in soil were prone to deteriorating in non-linear manner and thus circumstances paved way for soil degradation and poor land management scenarios [@Amundson2015]. Also increased land site prone for industrial deployment, mining site and alloy factories development in recent time causes soil to be getting polluted and prone for heavy-metal contamination [@Koushal2025]. Hence it subdues the critical utilisation of biological micro-organism rendering in boosting crop growth, development and food security. The functional aspects of microbial dynamics in soil function is given in @fig-figure1.
+
+![Microbial functional guilds supporting key soil functions](figures/fig1.png){#fig-figure1 width="85%"}
+
+### Effect of soil beneficial micro-organism in soil properties 
+
+#### Soil physical properties
+
+Microbial inoculants application increase biodiversity, creating suitable condition for development of beneficial microorganism. They also improve physical properties of soil such as; improve structure and aggregation of soil particles; reduce soil compaction, increase pore spaces and water infiltration [@Carvajal2012]. The basic buildings blocks of soil are mineral soil particles that are classified based on their sizes into clay (<2 $μm$), silt (2-63 $μm$) and sand (63-2,000 $μm$) [@Blott2012]. Most soil microorganisms live as interconnected assemblages associated with these particles, so that the soil structure ultimately determines their resources through oxygen diffusion, water flow, organic matter accessibility and nutrient availability [@Wilpiszeski2019]. Also it is one of the causes for soil genesis and transformation like agents of physical weathering.
+
+{{< pagebreak >}}
+
+#### Soil chemical properties
+
+Soil chemical properties are strongly associated with soil microorganisms. Soil microorganisms are primarily responsible for many critical processes associated with biogeochemical cycles, as well as the transformation and breakdown of soil components. They also play significant roles in the soil ecosystem [@DAcunto2018]. Although pH of the soil has been reduced when soil with good source of microorganisms. Since, they excrete organic acids when decomposing organic matter like phenolic, carboxylic acid, they will constantly reduce the state of pH of the soil. Each organism surveillance in soil depends on soil pH, as fungi prefers acidic range [@Ali2017], temperature of about 30-50℃ [@Zhang2016] and it contributes more to N2O emissions than bacteria in acidic soil [@Yin2023]. In the same way, bacterial population opts neutral soil reaction (6.0-7.0) [@Wang2019] and actinobacteria rely alkaline condition [@Araujo2020].
+
+#### Soil biological properties
+
+In general soil biology, enzyme assays have been established to a set of enzymes linked to high-functioning soil microbiota, such as protease, urease, various phosphatases, and sulfatase. Organisms, both animals (fauna / micro-fauna) and plants (flora / micro-flora) are important in the overall quality, fertility and stability of soil. These microorganisms are responsible for the formation of humus, a product of organic matter degradation and synthesis. Moreover, organisms helps in myriad of biochemical reactions and intricate biological processes that takes place. Fractionation of soil organic matter like humic acid, fulvic acid, hematomelanic acid and humin substances were secreted by microorganisms in the soil system and it aids in other biochemical reaction over soil. Addition of bio char (pyrolysis product) amendment improves soil properties and store long term carbon storage in soil and enhances microbial diversity and function in soil [@Gangadaran2024a].
+
+### Carbon sequestration and greenhouse gas regulation
+
+Microbial biomass carbon is a measure of the carbon contained within the living component of soil organic matter (*i.e.* bacteria and fungi). Microbes decompose soil organic matter which in turn releasing carbon dioxide and plant available nutrients. Farming systems that maximise organic matter return to soil and minimise soil disturbance tend to increase the microbial biomass. Soil properties such as pH, clay, and the availability of organic carbon all influence the size of the microbial biomass. Microbial biomass is also an early indicator of changes in total organic C. Unlike total organic C, microbial biomass C responds quickly to management changes. The interaction between plants and their surroundings is a dynamic process in which plants monitor their environment and react to changes. The root system, which was traditionally thought to only provide anchorage and uptake of nutrients and water, is a key element to a plant interacting with its surroundings [@Bais2006]. Chemical signals emitted by soil microorganisms are received and recognized by plants and then addressed through the release of chemical compounds in the form of root exudates. Secretion of these compounds varies between different plant species [@Rovira1969], ecotypes [@Micallef2009], and even distinct roots growth within a plant [@Uren2007].
+
+{{< pagebreak >}}
+
+### Soil structure and health: aggregation, porosity, water-holding capacity
+
+Earth crust is an important component for earth’s biosphere reserves. Every living entity forms an encircled environment through which they fulfil their life style. It was estimated that one gram of soil contains up to ten billion bacterial cells. Decline in soil fertility is major concern for food security. Soil microbes contribute to a wide range of function in controlling soil health and crop productivity [@Sahoo2015]. Soil microbes helps in maintaining the soil properties in both direct and indirect methods. Plant–microbe interaction is one of the important aspects for agriculture system. This association may help to achieve goal of future sustainable agriculture. Microorganism is fundamental component of soil for all nutrient cycles and plant nutrient. Variation in temperature, low water content, anthropogenic, and grazing causes detrimental impact on microbial diversity and soil process. Soil - root - microbes form a comparatively stable and beneficial association. Some microbes have negative impact also in rhizosphere zone and harmful for plant growth and development [@Ahmad2008]. Due to intensive cropping and unhealthy effect of fertilizers, this relation declines soil microbial diversity. There are some microbial plant growth promoting substance which was released by the microbes and their role in plant growth and development which was tabulated in @tbl-PGPR.
+
+
+| Sl. No. | Plant growth promoting microbes | Sources / plants | Plant growth regulation | References |
+|:--------:|:-------------------------------|:-----------------|:------------------------|:------------|
+| 1 | *Erwinia* species and *P. chlororaphis* | *Coffea rhizosp L* | Efficient uptake of insoluble phosphate from the soil | [@Diriba2013] |
+| 2 | *Pseudomonas aeruginosa* FP6 | Chili | Siderophore produced by biocontrol strain for *Rhizoctonia solani* and *Colletotrichum gloeosporioides* | [@Bakthavatchalu2016] |
+| 3 | *Bacillus amyloliquefaciens* 5113 and *Azospirillum brasilense* NO 40 | Wheat | Promote plant growth under drought condition, increase enzyme activity in wheat plant | [@Kasim2013] |
+| 4 | *Bacillus amyloliquefaciens* HK34 | *Panax* | Induction of systemic resistance against *Phytophthora cactorum* | [@Lee2015] |
+| 5 | *Bacillus thuringiensis* AZP2 | Wheat | Decrease volatile emissions and increase photosynthesis | [@Timmusk2014] |
+| 6 | *Bacillus thuringiensis* GDB-1 | *Lavandula dentata* | Enhanced phytoremediation of heavy metals (Pb, Zn, As, Cd, etc.) | [@Babu2013] |
+| 7 | *Pseudomonas putida* H-2-3 | Soybean | Improve plant growth under saline and drought condition. Increase leaf length and chlorophyll content | [@Kang2014] |
+| 8 | *Aeromonas hydrophila* QS74 and *A. hydrophila* QSRB5 | Maize | Enhanced soil aggregation and nutrient cycling | [@Shanmugam2025] |
+| 9 | *Bacillus subtilis* and *Bacillus amyloliquefaciens* | Tomato | Increased thickness of the upper epidermis, lower epidermis, palisade tissue, spongy tissue, and vascular bundles and improved photosynthetic efficiency | [@Gashash2022] |
+| 10 | FJS-3 (*Burkholderia pyromania*), FJS-7 (*Pseudomonas rhodesiae*), and FJS-16 (*Pseudomonas baetica*) | Tea plant, Tobacco, and Chili pepper | Increased plant biomass, enhanced chlorophyll content and carotenoid content | [@Zhang2024] |
+
+: Plant growth promoting substances (PGPR) released by beneficial microbes and their critical role in plant growth and development {#tbl-PGPR}
+
+### Use of microbial strains in producing bio fertilizers
+
+Bio-fertilizer are an important component of integrated nutrients management. Microorganisms that are used as bio-fertilizer components include; nitrogen fixers (N-fixer) (*Rhizobium, Azotobacter*), potassium and phosphorus solubilizers (*Bacillus megaterium*, *Pseudomonas fluorescens*, *Aspergillus spp.*, *Penicillium spp.*, *Trichoderma spp.*, and *Acidithiobacillus ferrooxidans*), growth promoting rhizobacteria (PGPRs) (*Pseudomonas, Azospirillum, Azotobacter, Bacillus*), endo (*Glomus intraradices*) and ecto mycorrhizal fungi (*Amanita, Boletus, and Laccaria*), cyanobacteria and other useful microscopic organisms. The use of bio-fertilizers leads to improved nutrients, water uptake, plant growth and plant tolerance to abiotic and biotic factors. The different mechanisms of action of biofertilizers, including nutrient uptake facilitation, phytohormone regulation, and phytoprotection, must be understood to effectively utilize their potential for increasing the ecological services of forest biomes and promoting production in agriculture sectors [@Liu2021]. Bio-fertilizer is a substance which contains living microorganisms which when applied to the soil; a seed or plant surface colonizes the rhizosphere [@Gangadaran2024a] and promotes growth by increasing the supply or availability of nutrients to the host plant and containing living cells of different of micro-organisms which have ability to convert nutritionally important elements from unavailable to available form through biological processes [@Vessey2003]. This biological fertilizers would play a key role in productivity and sustainability of soil and also in protecting the environment as eco-friendly and cost effective inputs for the small holder farmers. Adding of the nutrients through the natural processes of nitrogen fixation, solubilizing phosphorus, and stimulating plant growth through the synthesis of growth-promoting substances are a good way to sustain our agricultural systems. Soil management strategies today are mainly dependent on inorganic chemical-based fertilizers, which cause a serious threat to human health and the environment [@Ritika2014].
+
+### Interactions of functional guilds driving ecosystem multifunctionality
+
+Soil microbial communities are highly diverse, comprising a quarter of Earth’s total biodiversity, and are among the most abundant and diverse organisms on the planet. Soil plays a crucial role in biogeochemical cycles. Soil microbial diversity also plays a key role in maintaining EMF, facilitating material cycling and energy flow between aboveground and belowground communities through processes such as litter decomposition and organic matter mineralization. In agricultural ecosystems, soil microbial diversity shows a significant positive correlation with EMF. Based on early experiments, found that the functional complexity of soil communities enhances EMF indices derived from multiple methods. Research confirms that soil microbes are directly involved in complex physicochemical processes related to soil nutrients, thus influencing soil EF (Ecosystem Function) and EMF (Ecosystem Multifunctionality). While aboveground biodiversity has received more attention in BEMF(Biodiversity and Ecosystem Multifunctionality) research, studies on the impact of belowground biodiversity on overall EMF have lagged. Soil microbial diversity profoundly affects plant nutrient uptake and nutrient cycling between aboveground and belowground biological communities. Therefore, understanding the impact of belowground biodiversity on EF and EMF is of paramount importance.
+
+### Recent advancement of micro-biome in soil system by metagenomics study
+
+Soil microorganisms play an important role in the decomposition and circulation of organic matter, nutrients or xenobiotic. They are responsible for plant health and nutrition and have an impact on the structure and fertility of the soil [@Wolejko2020]. Soil metagenomics is a cultivation-independent molecular approach to explore and exploit the enormous diversity of soil microbial communities. This technology comprises isolation of soil DNA and production and screening of clone libraries. Screening of metagenomic soil libraries, especially by activity-based approaches, has led to the identification of various novel biomolecules, including enzymes and antibiotics of industrial importance [@Daniel2005]. Also, other method for quantifying the soil microbiome is profiling. The method of analysing soil microbial community composition and function is known as SM analysis. Since scientists have realised how important microorganisms are to the production and health of soil, this method has grown in popularity. This is a step-by-step instruction explaining our methodology for microbiome analysis [@Nalage2022; @Wydro2022]. It involves Sample collection, DNA extraction, sequencing and finally data interpretation. Thus, it aids in strain based bio-formulation preparation on crop specific target which facilitates better use of microbial activity in soil. Usually the character of any species or human or animal were determined by their DNA. Thus extraction of DNA will prone for species identification. Fig. 6. Explains different soil DNA extraction procedure.
+
+## Conclusion
+
+Soil forms the foundation of agricultural production and national food security; therefore, maintaining a healthy and fertile soil environment is essential for diversified cropping systems and long-term sustainability. This review highlights the critical role of the soil microbiome in regulating soil processes and demonstrates how biofertilizers contribute to improved soil fertility and crop productivity. Biofertilizers enhance plant growth through biological nitrogen fixation, solubilization of insoluble phosphates, synthesis of phytohormones, vitamins, and other growth-promoting substances, along with mobilization of nutrients and suppression of soil-borne pathogens. They also facilitate disease control, nutrient recycling, and promote a balanced soil ecosystem. Recent advancements in soil microbiome research have clarified the complex interactions among microbes, soil health, and ecosystem functioning, underscoring their importance in sustainable agriculture. Incorporating well-decomposed organic manures such as FYM, compost, and goat manure can further enrich the soil, support diverse microbial communities, and enhance ecological resilience. Overall, while the subject carries substantial relevance and potential benefits for agriculture, continued scientific refinement and systematic evaluation are essential to fully realize and apply these concepts effectively.
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**  
+
+- **Submitted:** *31 October 2025*  
+- **Accepted:** *26 November 2025*  
+- **Published (Online):** *27 November 2025*  
+
+---  
+**Reviewer Information**  
+
+
+- **Reviewer 1:**  
+  **Dr V. Siva Jyothi**  
+  *Assistant Professor and Head*  
+  *ANGRAU, Guntur, Andhra Pradesh*  
+
+- **Reviewer 2:**  
+  *Anonymous*
+
+:::
+
+::: {.callout-note appearance="simple"}
+
+## Disclaimer/Publisher’s Note  
+
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).  
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.  
+
+:::  
+
+> © Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.  
+
+
+ 

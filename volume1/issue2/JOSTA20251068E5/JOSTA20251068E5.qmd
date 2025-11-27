@@ -414,7 +414,5 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
 
 :::  
 
->© Copyright (2025): Author(s). The licensee is the journal publisher.  
-This is an Open Access article distributed under the terms of the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/4.0/),  
-which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.  
+> © Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.  
 

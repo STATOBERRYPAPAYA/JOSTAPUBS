@@ -9,8 +9,442 @@
 <link>https://www.jostapubs.com/volume1.html</link>
 <atom:link href="https://www.jostapubs.com/volume1.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 25 Nov 2025 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Wed, 26 Nov 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Functional Diversity of Microbial Communities in Nutrient Cycling and Soil Carbon Sequestration</title>
+  <dc:creator>Muhilan Gangadaran*</dc:creator>
+  <dc:creator>Elavarasi Prabakaran</dc:creator>
+  <dc:creator>Leninbabu K. P</dc:creator>
+  <dc:creator>Abha Yadav</dc:creator>
+  <dc:creator>Nikita Rajput</dc:creator>
+  <dc:creator>Mohamed Aseemudheen M</dc:creator>
+  <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://doi.org/10.65287/josta.202510.079A"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.079A-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17730550"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/JOSTA-202510-079A.pdf" download="" class="j-btn" aria-label="download pdf">  <span>download pdf</span> </a></p>
+<p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
+<p><span class="j-chip" data-doi="10.65287/josta.202511.55B0" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
+</div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Gangadaran, M., Elavarasi, P., Leninbabu, K. P., Yadav, A., Nikita, R., &amp; Aseemudheen M, M. (2025). Functional Diversity of Microbial Communities in Nutrient Cycling and Soil Carbon Sequestration. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.079A
+</p>
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<hr>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Amidst the growing population, including urbanisation as well as industrialisation has now diminishes the growing agricultural land fields. This abrupt change had affected by demand of food and supply ratio, but still the growing population should satisfy the food for their daily needs <span class="citation" data-cites="Tilman2011">(Tilman et al. 2011)</span>. However, the conventional agriculture is facing reduction in production and increased in cost of input. In addition, loss of agriculture productivity due to natural and anthropogenic activity leads that land degradation and reduced crop yield. Land use pattern shift varies frequently due to modernization and urbanization, hence reduces arable land. Farmers are also leaving this practice because of low-cost benefits and introduction of different variety of seed and technology. As the population continues to grow rapidly, the demand for agricultural land to cultivate crops is becoming increasingly important. For generating every single piece of crop, soil is the wholesome medium thorough which we can able to grow. To produce any crop, soil serves as the fundamental and indispensable medium for plant growth. To make soil alive or fertile, one must shall focus on corresponding way of making it naturally to Sustainable natural practices. The other part of organic farming is being not practices every corner which allows farmers to use intensive inorganic fertilizers, pesticide ultimately degrading soil systems <span class="citation" data-cites="VG2024">(V. G. et al. 2024)</span>.</p>
+<p>Also agriculture shifts in production and led to insecurity in food production because of climate change, anthropogenic activities, natural resource scavenging and ultimately leads to poor soil health. Continuing traditional practices like heavy application of pesticide and inorganic fertilizers had made soil productivity less and thus making soil organism less motile and active <span class="citation" data-cites="Bhattacharyya2012">(Bhattacharyya and Jha 2012)</span>. Plants interact with microorganisms in various ways such as positive, negative and neutral. It has been observed that the whole plant, root and shoot system including different organs like buds, flowers, fruits and seeds harbour many kinds of microorganisms inner (endophytes) and outer (epiphytes) surface of the plant and it encompasses various relation like competition, exploitation, neutrality, commensalism, and mutualism <span class="citation" data-cites="Barea2015 Jacoby2017">(Barea 2015; Jacoby et al. 2017)</span>. This review paper shall strongly focuses on importance of soil micro biome population in soil rhizosphere region and harnessing its critical role in promoting sustainable agriculture and crop resilient systems.</p>
+<section id="functional-regulation-of-microbial-diversity-in-rhizosphere" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="functional-regulation-of-microbial-diversity-in-rhizosphere"><span class="header-section-number">1.1</span> Functional regulation of microbial diversity in Rhizosphere</h3>
+<p>Soil microorganisms were the key players in the soil system. They are often called as “Bio-engineer”. The presence of a diverse soil microbial community is crucial to the productivity of any ecosystem, since microorganisms affect all levels within the ecosystem. While potential harmful effects from soil microorganisms include plant diseases, production of plant-suppressive compounds, and loss of plant-available nutrients <span class="citation" data-cites="BrueW1987">(BrueW 1987)</span>, the majority of soil microorganisms are beneficial to plant growth <span class="citation" data-cites="Vessey2003">(Vessey 2003)</span>. Harmful microorganisms suppress plant hormones primarily by producing excessive amounts of naturally occurring hormones, which disrupt the plant’s delicate hormonal balance, or by producing phytotoxic metabolites that inhibit growth, for example, <em>Agrobacterium spp.</em> induces tumor or gall formation by causing an imbalance in auxin and cytokinin levels <span class="citation" data-cites="Koza2022">(Koza et al. 2022)</span>.</p>
+<p>The rhizosphere is a thin layer of soil that surrounds plant roots and is a central place for microbial activity. It’s made up of soil particles, organic matter, plant roots, and a diverse community of microbes. The rhizosphere is a micro ecosystem where complex interactions take place between the plant roots and the microorganisms.</p>
+<p>Soil micro-biome community were significant contributor of our living eco-system which aid in servicing life on our planet, regulating carbon cycle, and other multifaceted nutrient transformation. But ongoing global climate change crisis, the abundant organisms in soil were prone to deteriorating in non-linear manner and thus circumstances paved way for soil degradation and poor land management scenarios <span class="citation" data-cites="Amundson2015">(Amundson et al. 2015)</span>. Also increased land site prone for industrial deployment, mining site and alloy factories development in recent time causes soil to be getting polluted and prone for heavy-metal contamination <span class="citation" data-cites="Koushal2025">(Koushal et al. 2025)</span>. Hence it subdues the critical utilisation of biological micro-organism rendering in boosting crop growth, development and food security. The functional aspects of microbial dynamics in soil function is given in Figure&nbsp;1.</p>
+<div id="fig-figure1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/figures/fig1.png" class="img-fluid figure-img" style="width:85.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Microbial functional guilds supporting key soil functions
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="effect-of-soil-beneficial-micro-organism-in-soil-properties" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="effect-of-soil-beneficial-micro-organism-in-soil-properties"><span class="header-section-number">1.2</span> Effect of soil beneficial micro-organism in soil properties</h3>
+<section id="soil-physical-properties" class="level4" data-number="1.2.1">
+<h4 data-number="1.2.1" class="anchored" data-anchor-id="soil-physical-properties"><span class="header-section-number">1.2.1</span> Soil physical properties</h4>
+<p>Microbial inoculants application increase biodiversity, creating suitable condition for development of beneficial microorganism. They also improve physical properties of soil such as; improve structure and aggregation of soil particles; reduce soil compaction, increase pore spaces and water infiltration <span class="citation" data-cites="Carvajal2012">(Carvajal-Muñoz and Carmona-Garcia 2012)</span>. The basic buildings blocks of soil are mineral soil particles that are classified based on their sizes into clay (&lt;2 <img src="https://latex.codecogs.com/png.latex?%CE%BCm">), silt (2-63 <img src="https://latex.codecogs.com/png.latex?%CE%BCm">) and sand (63-2,000 <img src="https://latex.codecogs.com/png.latex?%CE%BCm">) <span class="citation" data-cites="Blott2012">(Blott and Pye 2012)</span>. Most soil microorganisms live as interconnected assemblages associated with these particles, so that the soil structure ultimately determines their resources through oxygen diffusion, water flow, organic matter accessibility and nutrient availability <span class="citation" data-cites="Wilpiszeski2019">(Wilpiszeski et al. 2019)</span>. Also it is one of the causes for soil genesis and transformation like agents of physical weathering.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="soil-chemical-properties" class="level4" data-number="1.2.2">
+<h4 data-number="1.2.2" class="anchored" data-anchor-id="soil-chemical-properties"><span class="header-section-number">1.2.2</span> Soil chemical properties</h4>
+<p>Soil chemical properties are strongly associated with soil microorganisms. Soil microorganisms are primarily responsible for many critical processes associated with biogeochemical cycles, as well as the transformation and breakdown of soil components. They also play significant roles in the soil ecosystem <span class="citation" data-cites="DAcunto2018">(D’Acunto et al. 2018)</span>. Although pH of the soil has been reduced when soil with good source of microorganisms. Since, they excrete organic acids when decomposing organic matter like phenolic, carboxylic acid, they will constantly reduce the state of pH of the soil. Each organism surveillance in soil depends on soil pH, as fungi prefers acidic range <span class="citation" data-cites="Ali2017">(Ali, Fradi, and Al-araji 2017)</span>, temperature of about 30-50℃ <span class="citation" data-cites="Zhang2016">(Zhang et al. 2016)</span> and it contributes more to N2O emissions than bacteria in acidic soil <span class="citation" data-cites="Yin2023">(Yin et al. 2023)</span>. In the same way, bacterial population opts neutral soil reaction (6.0-7.0) <span class="citation" data-cites="Wang2019">(Wang et al. 2019)</span> and actinobacteria rely alkaline condition <span class="citation" data-cites="Araujo2020">(Araujo et al. 2020)</span>.</p>
+</section>
+<section id="soil-biological-properties" class="level4" data-number="1.2.3">
+<h4 data-number="1.2.3" class="anchored" data-anchor-id="soil-biological-properties"><span class="header-section-number">1.2.3</span> Soil biological properties</h4>
+<p>In general soil biology, enzyme assays have been established to a set of enzymes linked to high-functioning soil microbiota, such as protease, urease, various phosphatases, and sulfatase. Organisms, both animals (fauna / micro-fauna) and plants (flora / micro-flora) are important in the overall quality, fertility and stability of soil. These microorganisms are responsible for the formation of humus, a product of organic matter degradation and synthesis. Moreover, organisms helps in myriad of biochemical reactions and intricate biological processes that takes place. Fractionation of soil organic matter like humic acid, fulvic acid, hematomelanic acid and humin substances were secreted by microorganisms in the soil system and it aids in other biochemical reaction over soil. Addition of bio char (pyrolysis product) amendment improves soil properties and store long term carbon storage in soil and enhances microbial diversity and function in soil <span class="citation" data-cites="Gangadaran2024a">(Gangadaran et al. 2024)</span>.</p>
+</section>
+</section>
+<section id="carbon-sequestration-and-greenhouse-gas-regulation" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="carbon-sequestration-and-greenhouse-gas-regulation"><span class="header-section-number">1.3</span> Carbon sequestration and greenhouse gas regulation</h3>
+<p>Microbial biomass carbon is a measure of the carbon contained within the living component of soil organic matter (<em>i.e.</em> bacteria and fungi). Microbes decompose soil organic matter which in turn releasing carbon dioxide and plant available nutrients. Farming systems that maximise organic matter return to soil and minimise soil disturbance tend to increase the microbial biomass. Soil properties such as pH, clay, and the availability of organic carbon all influence the size of the microbial biomass. Microbial biomass is also an early indicator of changes in total organic C. Unlike total organic C, microbial biomass C responds quickly to management changes. The interaction between plants and their surroundings is a dynamic process in which plants monitor their environment and react to changes. The root system, which was traditionally thought to only provide anchorage and uptake of nutrients and water, is a key element to a plant interacting with its surroundings <span class="citation" data-cites="Bais2006">(Bais et al. 2006)</span>. Chemical signals emitted by soil microorganisms are received and recognized by plants and then addressed through the release of chemical compounds in the form of root exudates. Secretion of these compounds varies between different plant species <span class="citation" data-cites="Rovira1969">(Rovira 1969)</span>, ecotypes <span class="citation" data-cites="Micallef2009">(Micallef, Shiaris, and Colón-Carmona 2009)</span>, and even distinct roots growth within a plant <span class="citation" data-cites="Uren2007">(Uren 2007)</span>.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="soil-structure-and-health-aggregation-porosity-water-holding-capacity" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="soil-structure-and-health-aggregation-porosity-water-holding-capacity"><span class="header-section-number">1.4</span> Soil structure and health: aggregation, porosity, water-holding capacity</h3>
+<p>Earth crust is an important component for earth’s biosphere reserves. Every living entity forms an encircled environment through which they fulfil their life style. It was estimated that one gram of soil contains up to ten billion bacterial cells. Decline in soil fertility is major concern for food security. Soil microbes contribute to a wide range of function in controlling soil health and crop productivity <span class="citation" data-cites="Sahoo2015">(Sahoo et al. 2015)</span>. Soil microbes helps in maintaining the soil properties in both direct and indirect methods. Plant–microbe interaction is one of the important aspects for agriculture system. This association may help to achieve goal of future sustainable agriculture. Microorganism is fundamental component of soil for all nutrient cycles and plant nutrient. Variation in temperature, low water content, anthropogenic, and grazing causes detrimental impact on microbial diversity and soil process. Soil - root - microbes form a comparatively stable and beneficial association. Some microbes have negative impact also in rhizosphere zone and harmful for plant growth and development <span class="citation" data-cites="Ahmad2008">(Ahmad, Ahmad, and Khan 2008)</span>. Due to intensive cropping and unhealthy effect of fertilizers, this relation declines soil microbial diversity. There are some microbial plant growth promoting substance which was released by the microbes and their role in plant growth and development which was tabulated in Table&nbsp;1.</p>
+<div id="tbl-PGPR" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-PGPR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Plant growth promoting substances (PGPR) released by beneficial microbes and their critical role in plant growth and development
+</figcaption>
+<div aria-describedby="tbl-PGPR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 32%">
+<col style="width: 18%">
+<col style="width: 25%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Sl. No.</th>
+<th style="text-align: left;">Plant growth promoting microbes</th>
+<th style="text-align: left;">Sources / plants</th>
+<th style="text-align: left;">Plant growth regulation</th>
+<th style="text-align: left;">References</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><em>Erwinia</em> species and <em>P. chlororaphis</em></td>
+<td style="text-align: left;"><em>Coffea rhizosp L</em></td>
+<td style="text-align: left;">Efficient uptake of insoluble phosphate from the soil</td>
+<td style="text-align: left;"><span class="citation" data-cites="Diriba2013">(Muleta et al. 2013)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><em>Pseudomonas aeruginosa</em> FP6</td>
+<td style="text-align: left;">Chili</td>
+<td style="text-align: left;">Siderophore produced by biocontrol strain for <em>Rhizoctonia solani</em> and <em>Colletotrichum gloeosporioides</em></td>
+<td style="text-align: left;"><span class="citation" data-cites="Bakthavatchalu2016">(Sasirekha and Srividya 2016)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><em>Bacillus amyloliquefaciens</em> 5113 and <em>Azospirillum brasilense</em> NO 40</td>
+<td style="text-align: left;">Wheat</td>
+<td style="text-align: left;">Promote plant growth under drought condition, increase enzyme activity in wheat plant</td>
+<td style="text-align: left;"><span class="citation" data-cites="Kasim2013">(Kasim et al. 2013)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><em>Bacillus amyloliquefaciens</em> HK34</td>
+<td style="text-align: left;"><em>Panax</em></td>
+<td style="text-align: left;">Induction of systemic resistance against <em>Phytophthora cactorum</em></td>
+<td style="text-align: left;"><span class="citation" data-cites="Lee2015">(Lee et al. 2015)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><em>Bacillus thuringiensis</em> AZP2</td>
+<td style="text-align: left;">Wheat</td>
+<td style="text-align: left;">Decrease volatile emissions and increase photosynthesis</td>
+<td style="text-align: left;"><span class="citation" data-cites="Timmusk2014">(Timmusk et al. 2014)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;"><em>Bacillus thuringiensis</em> GDB-1</td>
+<td style="text-align: left;"><em>Lavandula dentata</em></td>
+<td style="text-align: left;">Enhanced phytoremediation of heavy metals (Pb, Zn, As, Cd, etc.)</td>
+<td style="text-align: left;"><span class="citation" data-cites="Babu2013">(Babu, Kim, and Oh 2013)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: left;"><em>Pseudomonas putida</em> H-2-3</td>
+<td style="text-align: left;">Soybean</td>
+<td style="text-align: left;">Improve plant growth under saline and drought condition. Increase leaf length and chlorophyll content</td>
+<td style="text-align: left;"><span class="citation" data-cites="Kang2014">(Kang et al. 2014)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: left;"><em>Aeromonas hydrophila</em> QS74 and <em>A. hydrophila</em> QSRB5</td>
+<td style="text-align: left;">Maize</td>
+<td style="text-align: left;">Enhanced soil aggregation and nutrient cycling</td>
+<td style="text-align: left;"><span class="citation" data-cites="Shanmugam2025">(Naveen and Balachandar 2025)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: left;"><em>Bacillus subtilis</em> and <em>Bacillus amyloliquefaciens</em></td>
+<td style="text-align: left;">Tomato</td>
+<td style="text-align: left;">Increased thickness of the upper epidermis, lower epidermis, palisade tissue, spongy tissue, and vascular bundles and improved photosynthetic efficiency</td>
+<td style="text-align: left;"><span class="citation" data-cites="Gashash2022">(Gashash et al. 2022)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">FJS-3 (<em>Burkholderia pyromania</em>), FJS-7 (<em>Pseudomonas rhodesiae</em>), and FJS-16 (<em>Pseudomonas baetica</em>)</td>
+<td style="text-align: left;">Tea plant, Tobacco, and Chili pepper</td>
+<td style="text-align: left;">Increased plant biomass, enhanced chlorophyll content and carotenoid content</td>
+<td style="text-align: left;"><span class="citation" data-cites="Zhang2024">(Zhang et al. 2024)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="use-of-microbial-strains-in-producing-bio-fertilizers" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="use-of-microbial-strains-in-producing-bio-fertilizers"><span class="header-section-number">1.5</span> Use of microbial strains in producing bio fertilizers</h3>
+<p>Bio-fertilizer are an important component of integrated nutrients management. Microorganisms that are used as bio-fertilizer components include; nitrogen fixers (N-fixer) (<em>Rhizobium, Azotobacter</em>), potassium and phosphorus solubilizers (<em>Bacillus megaterium</em>, <em>Pseudomonas fluorescens</em>, <em>Aspergillus spp.</em>, <em>Penicillium spp.</em>, <em>Trichoderma spp.</em>, and <em>Acidithiobacillus ferrooxidans</em>), growth promoting rhizobacteria (PGPRs) (<em>Pseudomonas, Azospirillum, Azotobacter, Bacillus</em>), endo (<em>Glomus intraradices</em>) and ecto mycorrhizal fungi (<em>Amanita, Boletus, and Laccaria</em>), cyanobacteria and other useful microscopic organisms. The use of bio-fertilizers leads to improved nutrients, water uptake, plant growth and plant tolerance to abiotic and biotic factors. The different mechanisms of action of biofertilizers, including nutrient uptake facilitation, phytohormone regulation, and phytoprotection, must be understood to effectively utilize their potential for increasing the ecological services of forest biomes and promoting production in agriculture sectors <span class="citation" data-cites="Liu2021">(Liu and Poobathy 2021)</span>. Bio-fertilizer is a substance which contains living microorganisms which when applied to the soil; a seed or plant surface colonizes the rhizosphere <span class="citation" data-cites="Gangadaran2024a">(Gangadaran et al. 2024)</span> and promotes growth by increasing the supply or availability of nutrients to the host plant and containing living cells of different of micro-organisms which have ability to convert nutritionally important elements from unavailable to available form through biological processes <span class="citation" data-cites="Vessey2003">(Vessey 2003)</span>. This biological fertilizers would play a key role in productivity and sustainability of soil and also in protecting the environment as eco-friendly and cost effective inputs for the small holder farmers. Adding of the nutrients through the natural processes of nitrogen fixation, solubilizing phosphorus, and stimulating plant growth through the synthesis of growth-promoting substances are a good way to sustain our agricultural systems. Soil management strategies today are mainly dependent on inorganic chemical-based fertilizers, which cause a serious threat to human health and the environment <span class="citation" data-cites="Ritika2014">(Ritika and Uptal 2014)</span>.</p>
+</section>
+<section id="interactions-of-functional-guilds-driving-ecosystem-multifunctionality" class="level3" data-number="1.6">
+<h3 data-number="1.6" class="anchored" data-anchor-id="interactions-of-functional-guilds-driving-ecosystem-multifunctionality"><span class="header-section-number">1.6</span> Interactions of functional guilds driving ecosystem multifunctionality</h3>
+<p>Soil microbial communities are highly diverse, comprising a quarter of Earth’s total biodiversity, and are among the most abundant and diverse organisms on the planet. Soil plays a crucial role in biogeochemical cycles. Soil microbial diversity also plays a key role in maintaining EMF, facilitating material cycling and energy flow between aboveground and belowground communities through processes such as litter decomposition and organic matter mineralization. In agricultural ecosystems, soil microbial diversity shows a significant positive correlation with EMF. Based on early experiments, found that the functional complexity of soil communities enhances EMF indices derived from multiple methods. Research confirms that soil microbes are directly involved in complex physicochemical processes related to soil nutrients, thus influencing soil EF (Ecosystem Function) and EMF (Ecosystem Multifunctionality). While aboveground biodiversity has received more attention in BEMF(Biodiversity and Ecosystem Multifunctionality) research, studies on the impact of belowground biodiversity on overall EMF have lagged. Soil microbial diversity profoundly affects plant nutrient uptake and nutrient cycling between aboveground and belowground biological communities. Therefore, understanding the impact of belowground biodiversity on EF and EMF is of paramount importance.</p>
+</section>
+<section id="recent-advancement-of-micro-biome-in-soil-system-by-metagenomics-study" class="level3" data-number="1.7">
+<h3 data-number="1.7" class="anchored" data-anchor-id="recent-advancement-of-micro-biome-in-soil-system-by-metagenomics-study"><span class="header-section-number">1.7</span> Recent advancement of micro-biome in soil system by metagenomics study</h3>
+<p>Soil microorganisms play an important role in the decomposition and circulation of organic matter, nutrients or xenobiotic. They are responsible for plant health and nutrition and have an impact on the structure and fertility of the soil <span class="citation" data-cites="Wolejko2020">(Wołejko et al. 2020)</span>. Soil metagenomics is a cultivation-independent molecular approach to explore and exploit the enormous diversity of soil microbial communities. This technology comprises isolation of soil DNA and production and screening of clone libraries. Screening of metagenomic soil libraries, especially by activity-based approaches, has led to the identification of various novel biomolecules, including enzymes and antibiotics of industrial importance <span class="citation" data-cites="Daniel2005">(Daniel 2005)</span>. Also, other method for quantifying the soil microbiome is profiling. The method of analysing soil microbial community composition and function is known as SM analysis. Since scientists have realised how important microorganisms are to the production and health of soil, this method has grown in popularity. This is a step-by-step instruction explaining our methodology for microbiome analysis <span class="citation" data-cites="Nalage2022 Wydro2022">(Nalage et al. 2022; Wydro 2022)</span>. It involves Sample collection, DNA extraction, sequencing and finally data interpretation. Thus, it aids in strain based bio-formulation preparation on crop specific target which facilitates better use of microbial activity in soil. Usually the character of any species or human or animal were determined by their DNA. Thus extraction of DNA will prone for species identification. Fig. 6. Explains different soil DNA extraction procedure.</p>
+</section>
+</section>
+<section id="conclusion" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">2</span> Conclusion</h2>
+<p>Soil forms the foundation of agricultural production and national food security; therefore, maintaining a healthy and fertile soil environment is essential for diversified cropping systems and long-term sustainability. This review highlights the critical role of the soil microbiome in regulating soil processes and demonstrates how biofertilizers contribute to improved soil fertility and crop productivity. Biofertilizers enhance plant growth through biological nitrogen fixation, solubilization of insoluble phosphates, synthesis of phytohormones, vitamins, and other growth-promoting substances, along with mobilization of nutrients and suppression of soil-borne pathogens. They also facilitate disease control, nutrient recycling, and promote a balanced soil ecosystem. Recent advancements in soil microbiome research have clarified the complex interactions among microbes, soil health, and ecosystem functioning, underscoring their importance in sustainable agriculture. Incorporating well-decomposed organic manures such as FYM, compost, and goat manure can further enrich the soil, support diverse microbial communities, and enhance ecological resilience. Overall, while the subject carries substantial relevance and potential benefits for agriculture, continued scientific refinement and systematic evaluation are essential to fully realize and apply these concepts effectively.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-Ahmad2008" class="csl-entry">
+Ahmad, F., I. Ahmad, and M. S. Khan. 2008. <span>“Screening of Free-Living Rhizospheric Bacteria for Their Multiple Plant Growth Promoting Activities.”</span> <em>Microbiological Research</em> 163 (2): 173–81. <a href="https://doi.org/10.1016/j.micres.2006.04.001">https://doi.org/10.1016/j.micres.2006.04.001</a>.
+</div>
+<div id="ref-Ali2017" class="csl-entry">
+Ali, Sadiq, Ahmed Fradi, and Alaa Al-araji. 2017. <span>“Effect of Some Physical Factors on Growth of Five Fungal Species.”</span> <em>European Academic Research</em> 5: 1069–78.
+</div>
+<div id="ref-Amundson2015" class="csl-entry">
+Amundson, R. et al. 2015. <span>“Soil and Human Security in the 21st Century.”</span> <em>Science</em> 348: 1261071. <a href="https://doi.org/10.1126/science.1261071">https://doi.org/10.1126/science.1261071</a>.
+</div>
+<div id="ref-Araujo2020" class="csl-entry">
+Araujo, R., V. V. S. R. Gupta, F. Reith, A. Bissett, P. Mele, and C. M. M. Franco. 2020. <span>“Biogeography and Emerging Significance of Actinobacteria in Australia and Northern Antarctica Soils.”</span> <em>Soil Biology and Biochemistry</em> 146: 107805. <a href="https://doi.org/10.1016/j.soilbio.2020.107805">https://doi.org/10.1016/j.soilbio.2020.107805</a>.
+</div>
+<div id="ref-Babu2013" class="csl-entry">
+Babu, A. G., J. D. Kim, and B. T. Oh. 2013. <span>“Enhancement of Heavy Metal Phytoremediation by Alnus Firma with Endophytic Bacillus Thuringiensis GDB-1.”</span> <em>Journal of Hazardous Materials</em> 250-251: 477–83. <a href="https://doi.org/10.1016/j.jhazmat.2013.02.014">https://doi.org/10.1016/j.jhazmat.2013.02.014</a>.
+</div>
+<div id="ref-Bais2006" class="csl-entry">
+Bais, H. P., T. L. Weir, L. G. Perry, S. Gilroy, and J. M. Vivanco. 2006. <span>“The Role of Root Exudates in Rhizosphere Interactions with Plants and Other Organisms.”</span> <em>Annual Review of Plant Biology</em> 57: 233–66. <a href="https://doi.org/10.1146/annurev.arplant.57.032905.105159">https://doi.org/10.1146/annurev.arplant.57.032905.105159</a>.
+</div>
+<div id="ref-Barea2015" class="csl-entry">
+Barea, J. M. 2015. <span>“Future Challenges and Perspectives for Applying Microbial Biotechnology in Sustainable Agriculture Based on a Better Understanding of Plant-Microbiome Interactions.”</span> <em>Journal of Soil Science and Plant Nutrition</em> 15 (2): 261–82. <a href="https://doi.org/10.4067/S0718-95162015005000021">https://doi.org/10.4067/S0718-95162015005000021</a>.
+</div>
+<div id="ref-Bhattacharyya2012" class="csl-entry">
+Bhattacharyya, P. N., and D. K. Jha. 2012. <span>“Plant Growth-Promoting Rhizobacteria (PGPR): Emergence in Agriculture.”</span> <em>World Journal of Microbiology and Biotechnology</em> 28 (4): 1327–50. <a href="https://doi.org/10.1007/s11274-011-0979-9">https://doi.org/10.1007/s11274-011-0979-9</a>.
+</div>
+<div id="ref-Blott2012" class="csl-entry">
+Blott, S. J., and K. Pye. 2012. <span>“Particle Size Scales and Classification of Sediment Types Based on Particle Size Distributions: Review and Recommended Procedures.”</span> <em>Sedimentology</em> 59: 2071–96. <a href="https://doi.org/10.1111/j.1365-3091.2012.01335.x">https://doi.org/10.1111/j.1365-3091.2012.01335.x</a>.
+</div>
+<div id="ref-BrueW1987" class="csl-entry">
+BrueW, G. W. 1987. <em>Soilborne Plant Pathogens</em>. New York, USA: Macmillian Publishing Co.
+</div>
+<div id="ref-Carvajal2012" class="csl-entry">
+Carvajal-Muñoz, J. S., and C. E. Carmona-Garcia. 2012. <span>“Benefits and Limitations of Biofertilization in Agricultural Practices.”</span> <em>Livestock Research for Rural Development</em> 24. <a href="http://www.lrrd.org/lrrd24/3/carv24043.htm">http://www.lrrd.org/lrrd24/3/carv24043.htm</a>.
+</div>
+<div id="ref-DAcunto2018" class="csl-entry">
+D’Acunto, L., J. F. Andrade, S. L. Poggio, and M. Semmartin. 2018. <span>“Diversifying Crop Rotation Increased Metabolic Soil Diversity and Activity of the Microbial Community.”</span> <em>Agriculture, Ecosystems &amp; Environment</em> 257: 159–64. <a href="https://doi.org/10.1016/j.agee.2018.02.011">https://doi.org/10.1016/j.agee.2018.02.011</a>.
+</div>
+<div id="ref-Daniel2005" class="csl-entry">
+Daniel, R. 2005. <span>“The Metagenomics of Soil.”</span> <em>Nature Reviews Microbiology</em> 3 (6): 470–78. <a href="https://doi.org/10.1038/nrmicro1160">https://doi.org/10.1038/nrmicro1160</a>.
+</div>
+<div id="ref-Gangadaran2024a" class="csl-entry">
+Gangadaran, Muhilan, U. Bagavathi Ammal, Rangasamy Rajakumar, and Venkatraman Ganesan Venkatesan. 2024. <span>“Black Treasure: Unlocking the Key Potential Effects of Biochar as Organic Input for Restoring Healthy Soil and Carbon Credit for Next-Gen Agriculture in Soil.”</span> <em>International Journal of Current Microbiology and Applied Sciences</em> 13 (12): 163–73. <a href="https://doi.org/10.20546/ijcmas.2024.1312.018">https://doi.org/10.20546/ijcmas.2024.1312.018</a>.
+</div>
+<div id="ref-Gashash2022" class="csl-entry">
+Gashash, E. A., N. A. Osman, A. A. Alsahli, H. M. Hewait, A. E. Ashmawi, K. S. Alshallash, A. M. El-Taher, E. S. Azab, H. S. Abd El-Raouf, and M. F. M. Ibrahim. 2022. <span>“Effects of Plant-Growth-Promoting Rhizobacteria (PGPR) and Cyanobacteria on Botanical Characteristics of Tomato (Solanum Lycopersicon l.) Plants.”</span> <em>Plants</em> 11 (20): 2732. <a href="https://doi.org/10.3390/plants11202732">https://doi.org/10.3390/plants11202732</a>.
+</div>
+<div id="ref-Jacoby2017" class="csl-entry">
+Jacoby, R., M. Peukert, A. Succurro, A. Koprivova, and S. Kopriva. 2017. <span>“The Role of Soil Microorganisms in Plant Mineral Nutrition—Current Knowledge and Future Directions.”</span> <em>Frontiers in Plant Science</em> 8. <a href="https://doi.org/10.3389/fpls.2017.01617">https://doi.org/10.3389/fpls.2017.01617</a>.
+</div>
+<div id="ref-Kang2014" class="csl-entry">
+Kang, S. M., R. Radhakrishnan, A. L. Khan, M. J. Kim, J. M. Park, B. R. Kim, D. H. Shin, and I. J. Lee. 2014. <span>“Gibberellin Secreting Rhizobacterium, Pseudomonas Putida h-2-3 Modulates the Hormonal and Stress Physiology of Soybean to Improve the Plant Growth Under Saline and Drought Conditions.”</span> <em>Plant Physiology and Biochemistry</em> 84: 115–24. <a href="https://doi.org/10.1016/j.plaphy.2014.09.001">https://doi.org/10.1016/j.plaphy.2014.09.001</a>.
+</div>
+<div id="ref-Kasim2013" class="csl-entry">
+Kasim, W. A., M. E. Osman, M. N. Omar, I. A. Abd ElDain, S. Bejai, and J. Meijer. 2013. <span>“Control of Drought Stress in Wheat Using Plant-Growth-Promoting Bacteria.”</span> <em>Journal of Plant Growth Regulation</em> 32: 122–30. <a href="https://doi.org/10.1007/s00344-012-9283-7">https://doi.org/10.1007/s00344-012-9283-7</a>.
+</div>
+<div id="ref-Koushal2025" class="csl-entry">
+Koushal, S., A. C. Kanagalabavi, A. Kumar, D. Arya, J. N. Nehul, C. K. Panigrahi, D. Haloi, N. Chauhan, and G. Muhilan. 2025. <span>“Bioremediation of Soil Pollution: An Effective Approach for Sustainable Agriculture.”</span> <em>International Journal of Plant and Soil Science</em> 37 (1): 400–410. <a href="https://doi.org/10.9734/ijpss/2025/v37i15282">https://doi.org/10.9734/ijpss/2025/v37i15282</a>.
+</div>
+<div id="ref-Koza2022" class="csl-entry">
+Koza, N. A., A. A. Adedayo, O. O. Babalola, and A. P. Kappo. 2022. <span>“Microorganisms in Plant Growth and Development: Roles in Abiotic Stress Tolerance and Secondary Metabolites Secretion.”</span> <em>Microorganisms</em> 10: 1528. <a href="https://doi.org/10.3390/microorganisms10081528">https://doi.org/10.3390/microorganisms10081528</a>.
+</div>
+<div id="ref-Lee2015" class="csl-entry">
+Lee, B. D., S. Dutta, H. Ryu, S. J. Yoo, D. S. Suh, and K. Park. 2015. <span>“Induction of Systemic Resistance in Panax Ginseng Against Phytophthora Cactorum by Native Bacillus Amyloliquefaciens HK34.”</span> <em>Journal of Ginseng Research</em> 39 (3): 213–20. <a href="https://doi.org/10.1016/j.jgr.2014.12.002">https://doi.org/10.1016/j.jgr.2014.12.002</a>.
+</div>
+<div id="ref-Liu2021" class="csl-entry">
+Liu, W. Y. Y., and R. Poobathy. 2021. <span>“Biofertilizer Utilization in Forestry.”</span> In <em>Biofertilizers</em>, edited by Inamuddin, M. I. Ahamed, R. Boddula, and M. Rezakazemi. Wiley. <a href="https://doi.org/10.1002/9781119724995.ch1">https://doi.org/10.1002/9781119724995.ch1</a>.
+</div>
+<div id="ref-Micallef2009" class="csl-entry">
+Micallef, S. A., M. P. Shiaris, and A. Colón-Carmona. 2009. <span>“Influence of Arabidopsis Thaliana Accessions on Rhizobacterial Communities and Natural Variation in Root Exudates.”</span> <em>Journal of Experimental Botany</em> 60 (6): 1729–42. <a href="https://doi.org/10.1093/jxb/erp053">https://doi.org/10.1093/jxb/erp053</a>.
+</div>
+<div id="ref-Diriba2013" class="csl-entry">
+Muleta, D., F. Assefa, E. Börjesson, and U. Granhall. 2013. <span>“Phosphate-Solubilising Rhizobacteria Associated with Coffea Arabica l. In Natural Coffee Forests of Southwestern Ethiopia.”</span> <em>Journal of the Saudi Society of Agricultural Sciences</em> 12 (1): 73–84. <a href="https://doi.org/10.1016/j.jssas.2012.07.002">https://doi.org/10.1016/j.jssas.2012.07.002</a>.
+</div>
+<div id="ref-Nalage2022" class="csl-entry">
+Nalage, D. et al. 2022. <em>First Three Days of Life</em>. Mumbai: Gaurang Publishing Globalize Pvt. Ltd.
+</div>
+<div id="ref-Shanmugam2025" class="csl-entry">
+Naveen, S., and D. Balachandar. 2025. <span>“Extracellular Polymeric Substances of Plant-Growth-Promoting Rhizobacteria Modulate the Positive Plant–Soil Feedback in Maize via Soil Conditioning.”</span> <em>Science of The Total Environment</em> 975: 179256. <a href="https://doi.org/10.1016/j.scitotenv.2025.179256">https://doi.org/10.1016/j.scitotenv.2025.179256</a>.
+</div>
+<div id="ref-Ritika2014" class="csl-entry">
+Ritika, B., and D. Uptal. 2014. <span>“Bio-Fertilizer a Way Towards Organic Agriculture: A Review.”</span> <em>Academic Journals</em> 8 (24): 2332–42.
+</div>
+<div id="ref-Rovira1969" class="csl-entry">
+Rovira, A. D. 1969. <span>“Plant Root Exudates.”</span> <em>Botanical Review</em> 35: 35–57. <a href="https://doi.org/10.1007/BF02859887">https://doi.org/10.1007/BF02859887</a>.
+</div>
+<div id="ref-Sahoo2015" class="csl-entry">
+Sahoo, R. K., M. W. Ansari, R. Tuteja, and N. Tuteja. 2015. <span>“Salt Tolerant SUV3 Overexpressing Transgenic Rice Plants Conserve Physicochemical Properties and Microbial Communities of Rhizosphere.”</span> <em>Chemosphere</em> 119: 1040–47. <a href="https://doi.org/10.1016/j.chemosphere.2014.08.011">https://doi.org/10.1016/j.chemosphere.2014.08.011</a>.
+</div>
+<div id="ref-Bakthavatchalu2016" class="csl-entry">
+Sasirekha, B., and S. Srividya. 2016. <span>“Siderophore Production by Pseudomonas Aeruginosa FP6, a Biocontrol Strain for Rhizoctonia Solani and Colletotrichum Gloeosporioides Causing Diseases in Chilli.”</span> <em>Agriculture and Natural Resources</em> 50 (4): 250–56.
+</div>
+<div id="ref-Tilman2011" class="csl-entry">
+Tilman, D., C. Balzer, J. Hill, and B. L. Befort. 2011. <span>“Global Food Demand and the Sustainable Intensification of Agriculture.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 108 (50): 20260–64. <a href="https://doi.org/10.1073/pnas.1116437108">https://doi.org/10.1073/pnas.1116437108</a>.
+</div>
+<div id="ref-Timmusk2014" class="csl-entry">
+Timmusk, S., I. A. Abd El-Daim, L. Copolovici, T. Tanilas, A. Kännaste, L. Behers, E. Nevo, G. Seisenbaeva, E. Stenström, and Ü. Niinemets. 2014. <span>“Drought-Tolerance of Wheat Improved by Rhizosphere Bacteria from Harsh Environments: Enhanced Biomass Production and Reduced Emissions of Stress Volatiles.”</span> <em>PLoS ONE</em> 9 (5): e96086. <a href="https://doi.org/10.1371/journal.pone.0096086">https://doi.org/10.1371/journal.pone.0096086</a>.
+</div>
+<div id="ref-Uren2007" class="csl-entry">
+Uren, N. C. 2007. <span>“Types, Amounts, and Possible Functions of Compounds Released into the Rhizosphere by Soil-Grown Plants.”</span> In <em>The Rhizosphere: Biochemistry and Organic Substances at the Soil–Plant Interface</em>, edited by R. Pinton, Z. Varanini, and P. Nannipieri, 2nd ed., 1–21. Boca Raton: CRC Press.
+</div>
+<div id="ref-VG2024" class="csl-entry">
+V. G., V., N. Indianraj, G. Muhilan, N. Naveen, and M. Karthikeyan. 2024. <span>“Organic Farming in India: A Dual Strategy for Climate Change Adaptation and Mitigation.”</span> <em>International Journal of Environment and Climate Change</em> 14 (11): 755–64. <a href="https://doi.org/10.9734/ijecc/2024/v14i114585">https://doi.org/10.9734/ijecc/2024/v14i114585</a>.
+</div>
+<div id="ref-Vessey2003" class="csl-entry">
+Vessey, J. K. 2003. <span>“Plant Growth Promoting Rhizobacteria as Biofertilizers.”</span> <em>Plant and Soil</em> 255: 571–86. <a href="https://doi.org/10.1023/A:1026037216893">https://doi.org/10.1023/A:1026037216893</a>.
+</div>
+<div id="ref-Wang2019" class="csl-entry">
+Wang, C., X. Zhou, D. Guo, et al. 2019. <span>“Soil pH Is the Primary Factor Driving the Distribution and Function of Microorganisms in Farmland Soils in Northeastern China.”</span> <em>Annals of Microbiology</em> 69: 1461–73. <a href="https://doi.org/10.1007/s13213-019-01529-9">https://doi.org/10.1007/s13213-019-01529-9</a>.
+</div>
+<div id="ref-Wilpiszeski2019" class="csl-entry">
+Wilpiszeski, R. L., J. A. Aufrecht, S. T. Retterer, M. B. Sullivan, D. E. Graham, E. M. Pierce, O. D. Zablocki, A. V. Palumbo, and D. A. Elias. 2019. <span>“Soil Aggregate Microbial Communities: Towards Understanding Microbiome Interactions at Biologically Relevant Scales.”</span> <em>Applied and Environmental Microbiology</em> 85: e00324–19. <a href="https://doi.org/10.1128/AEM.00324-19">https://doi.org/10.1128/AEM.00324-19</a>.
+</div>
+<div id="ref-Wolejko2020" class="csl-entry">
+Wołejko, E., A. Jabłońska-Trypuć, U. Wydro, A. Butarewicz, and B. Łozowicka. 2020. <span>“Soil Biological Activity as an Indicator of Soil Pollution with Pesticides – a Review.”</span> <em>Applied Soil Ecology</em> 147: 103356. <a href="https://doi.org/10.1016/j.apsoil.2019.09.006">https://doi.org/10.1016/j.apsoil.2019.09.006</a>.
+</div>
+<div id="ref-Wydro2022" class="csl-entry">
+Wydro, U. 2022. <span>“Soil Microbiome Study Based on DNA Extraction: A Review.”</span> <em>Water</em> 14 (24): 3999. <a href="https://doi.org/10.3390/w14243999">https://doi.org/10.3390/w14243999</a>.
+</div>
+<div id="ref-Yin2023" class="csl-entry">
+Yin, J., W. Cui, Y. Xu, Y. Ma, H. Chen, J. Guo, R. Liu, and Q. Chen. 2023. <span>“Understanding the Relative Contributions of Fungi and Bacteria Led Nitrous Oxide Emissions in an Acidic Soil Amended with Industrial Waste.”</span> <em>Ecotoxicology and Environmental Safety</em> 255: 114727. <a href="https://doi.org/10.1016/j.ecoenv.2023.114727">https://doi.org/10.1016/j.ecoenv.2023.114727</a>.
+</div>
+<div id="ref-Zhang2024" class="csl-entry">
+Zhang, T., Q. Jian, X. Yao, L. Guan, L. Li, F. Liu, C. Zhang, D. Li, H. Tang, and L. Lu. 2024. <span>“Plant Growth-Promoting Rhizobacteria (PGPR) Improve the Growth and Quality of Several Crops.”</span> <em>Heliyon</em> 10 (10): e31553. <a href="https://doi.org/10.1016/j.heliyon.2024.e31553">https://doi.org/10.1016/j.heliyon.2024.e31553</a>.
+</div>
+<div id="ref-Zhang2016" class="csl-entry">
+Zhang, T., N.-F. Wang, H.-Y. Liu, Y.-Q. Zhang, and L.-Y. Yu. 2016. <span>“Soil pH Is a Key Determinant of Soil Fungal Community Composition in the Ny-Ålesund Region, Svalbard (High Arctic).”</span> <em>Frontiers in Microbiology</em> 7: 227. <a href="https://doi.org/10.3389/fmicb.2016.00227">https://doi.org/10.3389/fmicb.2016.00227</a>.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>31 October 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>26 November 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>27 November 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<strong>Dr V. Siva Jyothi</strong><br>
+<em>Assistant Professor and Head</em><br>
+<em>ANGRAU, Guntur, Andhra Pradesh</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Anonymous</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
+</blockquote>
+
+
+
+</section>
+
+ ]]></description>
+  <category>Review-Article</category>
+  <category>Soil</category>
+  <category>Microbiology</category>
+  <category>Crops</category>
+  <category>PlantScience</category>
+  <guid>https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html</guid>
+  <pubDate>Wed, 26 Nov 2025 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Semantic Variances in Career Expectations among Stakeholders in the Agricultural Sector: Opportunities and Challenges</title>
   <dc:creator>Amina M*</dc:creator>
@@ -19,7 +453,6 @@
   <dc:creator>Allan Thomas</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -489,7 +922,6 @@ which permits unrestricted use, distribution, and reproduction in any medium, pr
 
 
 
-
 <p><a href="https://doi.org/10.65287/josta.202511.55B0"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.55B0-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17677521"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
 <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
 <!-- josta inline actions: pdf • copy citation • citation count -->
@@ -948,9 +1380,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
 </div>
 </div>
 <blockquote class="blockquote">
-<p>© Copyright (2025): Author(s). The licensee is the journal publisher.<br>
-This is an Open Access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>,<br>
-which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
 </blockquote>
 
 
@@ -1665,6 +2095,15 @@ Publication &amp; Reviewer Details
 </ul>
 </div>
 </div>
+</section>
+<section id="disclaimerpublishers-note" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="disclaimerpublishers-note"><span class="header-section-number">8</span> Disclaimer/Publisher’s Note</h2>
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+<p>:::</p>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
+</blockquote>
 
 
 
@@ -2568,9 +3007,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
 </div>
 </div>
 <blockquote class="blockquote">
-<p>© Copyright (2025): Author(s). The licensee is the journal publisher.<br>
-This is an Open Access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>,<br>
-which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
 </blockquote>
 
 
@@ -3286,9 +3723,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
 </div>
 </div>
 <blockquote class="blockquote">
-<p>© Copyright (2025): Author(s). The licensee is the journal publisher.<br>
-This is an Open Access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>,<br>
-which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
 </blockquote>
 
 
