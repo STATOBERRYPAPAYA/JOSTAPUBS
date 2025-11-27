@@ -376,6 +376,8 @@ Careful experimental design, precise statistical analysis, and thoughtful interp
     *Anonymous*
 :::  
 
+::: {.callout-note appearance="simple"}  
+
 ## Disclaimer/Publisher’s Note  
 
 The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).  

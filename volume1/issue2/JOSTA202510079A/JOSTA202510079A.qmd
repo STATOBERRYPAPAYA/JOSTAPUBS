@@ -50,7 +50,7 @@ author:
         city: Coimbatore, Tamil Nadu
         country: India
     email: nikitarajput538@gmail.com
-    orcid: "0009-0007-2116-0053"
+    orcid: "0009-0003-5011-5826"
 
   - name: Mohamed Aseemudheen M
     affiliations:

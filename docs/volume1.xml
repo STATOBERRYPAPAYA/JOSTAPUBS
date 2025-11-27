@@ -9,7 +9,7 @@
 <link>https://www.jostapubs.com/volume1.html</link>
 <atom:link href="https://www.jostapubs.com/volume1.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.39</generator>
+<generator>quarto-1.7.32</generator>
 <lastBuildDate>Wed, 26 Nov 2025 18:30:00 GMT</lastBuildDate>
 <item>
   <title>Functional Diversity of Microbial Communities in Nutrient Cycling and Soil Carbon Sequestration</title>
@@ -21,6 +21,7 @@
   <dc:creator>Mohamed Aseemudheen M</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -453,6 +454,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Allan Thomas</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -918,6 +920,7 @@ which permits unrestricted use, distribution, and reproduction in any medium, pr
   <dc:creator>Sheeja K Raj</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1403,6 +1406,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Durga A R</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -2095,12 +2099,20 @@ Publication &amp; Reviewer Details
 </ul>
 </div>
 </div>
-</section>
-<section id="disclaimerpublishers-note" class="level2" data-number="8">
-<h2 data-number="8" class="anchored" data-anchor-id="disclaimerpublishers-note"><span class="header-section-number">8</span> Disclaimer/Publisher’s Note</h2>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
 The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
-<p>:::</p>
+</div>
+</div>
 <blockquote class="blockquote">
 <p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
 </blockquote>
@@ -2125,6 +2137,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Gopika Somanath</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -3032,6 +3045,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
 
 
 
+
 <p><a href="https://doi.org/10.65287/josta.202510.68E5"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.68E5-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17501814"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
 <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
 <!-- josta inline actions: pdf • copy citation • citation count -->
@@ -3576,8 +3590,7 @@ Table&nbsp;3: Regression analysis of the developed web application
 <h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
 <p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
 <p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
-<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
-<div style="page-break-after: always;"></div>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts. </p><div style="page-break-after: always;"></div><p></p>
 </section>
 <section id="conclusion" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
@@ -3747,6 +3760,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Ashadevi S S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/Denny/JOSTA20250617172925171.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -4802,6 +4816,7 @@ Publication &amp; Reviewer Details
   <dc:creator>Dijee Bastian</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -5958,6 +5973,7 @@ Publication &amp; Reviewer Details
   <dc:creator>Mini V</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/AGRON/JOSTA615202501736.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -7265,6 +7281,7 @@ Publication &amp; Reviewer Details
 
 
 
+
 <p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg" class="img-fluid" alt="DOI"><img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
 <div style="text-align: left; margin-top: 1rem;">
 <p><span class="j-btn-row"> <a href="pdf/JOSTA11CS1.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
@@ -7916,6 +7933,7 @@ ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid
   <dc:creator>Vijayaraghava Kumar</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/lovelyB/generationmean.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -9382,6 +9400,7 @@ Assistant Professor&nbsp; Plant Breeding &amp; Genetics Kerala Agricultural Univ
   <dc:creator>Pratheesh P Gopinath&lt;sup&gt;*&lt;/sup&gt;</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/josta111raisins2025.html</link>
   <description><![CDATA[ 
+
 
 
 
