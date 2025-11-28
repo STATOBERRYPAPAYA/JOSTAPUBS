@@ -89,7 +89,7 @@ canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA20
     <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
   </a>
 
-  <span class="j-chip" data-doi="10.65287/josta.202511.55B0" aria-label="citation count">
+  <span class="j-chip" data-doi="10.65287/josta.202511.1441" aria-label="citation count">
     <span class="j-chip-count" id="j-cite-count">0</span>
     <span class="j-chip-label">citations</span>
   </span>

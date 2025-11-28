@@ -1,0 +1,360 @@
+---
+title: "Bibliometric Analysis on Livelihood Security Research: Trends, Patterns And Future Directions"
+author:  
+  - name: Athira K*
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Economics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: athirakrishnankadavil99@gmail.com
+    orcid: "0009-0009-7184-4247"
+    note: Corresponding author
+
+  - name: Aswathy Vijayan
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Economics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: aswathy.v@kau.in
+    orcid: "0000-0002-5137-6724"
+    url: https://kau.in/people/dr-aswathy-vijayan
+    
+  - name: Anil Kuruvila
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Economics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: anil.kuruvila@kau.in
+    orcid: "0009-0001-3762-164X"
+    url: https://kau.in/people/dr-anil-kuruvila
+    
+  - name: Jayadevan G.R
+    affiliations:
+      - name: Kerala Veterinary & Animal Sciences University
+        department: Dairy Business Management
+        address: College of Dairy Science and Technology, Kaimanam
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: jayadevan@kvasu.ac.in
+    orcid: "0000-0001-9673-8429"
+    url: https://www.kvasu.ac.in/faculty/details/8/26/26/268
+ 
+  - name: Anandhu S
+    affiliations:
+      - name: Kerala Agricultural University
+        department: Agricultural Economics
+        address: College of Agriculture, Vellayani
+        city: Thiruvananthapuram, Kerala
+        country: India
+    email: anandhucoa@gmail.com 
+    orcid: "0009-0001-3813-9038" 
+    
+
+abstract: |
+  Livelihood security has become a central theme in development research, closely linked with food security, climate change, and sustainability. This study presents a bibliometric analysis of 514 Scopus-indexed articles published between 2014 and 2024 in economics, econometrics, and finance. It explores publication trends, citation impact, key journals, authors, institutions, and global collaborations. Results show a steady rise in research, peaking in 2024, reflecting its growing global significance. Major journals such as Marine Policy, Environment, Development and Sustainability, and World Development shaped the discourse. India ranked highest in publications and citations, followed by the USA and Australia. Leading contributors include Belton B, Balasubramanya S, and institutions like Kwame Nkrumah University of Science and Technology and Michigan State University. Core themes include food security, climate change, and sustainability, with emerging interests in smallholder farming and adaptive management. The study concludes by emphasizing interdisciplinary and collaborative efforts for sustainable livelihood development.  
+  
+description: >  
+   Livelihood security has become a central theme in development research, closely linked with food security, climate change, and sustainability. This study presents a bibliometric analysis of 514 Scopus-indexed articles published between 2014 and 2024 in economics, econometrics, and finance.<a href="/volume1/issue2/JOSTA2025118B5B/JOSTA2025118B5B.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style>
+
+keywords: [Bibliometric Analysis, Climate Change, Food Security, Livelihood Security, Sustainability]  
+categories: [Review-Article, Economics, Policy]
+bibliography: JOSTA-202511-8B5B.bib
+date: 2025-11-10
+doi: 10.65287/josta.202511.8B5B
+status: Published (Online)
+volume: "1"
+issue: "2"
+pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025118B5B/pdfs/JOSTA-202511-8B5B.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025118B5B/JOSTA2025118B5B.html"
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.8B5B-blue?logo=doi)](https://doi.org/10.65287/josta.202511.8B5B) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17744445)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202511-8B5B.pdf" download class="j-btn" aria-label="download pdf">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202511.8B5B" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+K, A., Vijayan, A., Kuruvila, A., Geetha Raveendran Nair, J., & S, A. (2025). Bibliometric Analysis on Livelihood Security Research: Trends, Patterns And Future Directions. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202511.8B5B
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+---  
+
+## Introduction
+
+In recent decades, livelihood security had emerged as a critical focus area in development studies, emphasizing the need to ensure sustainable living conditions for both present and future generations. The concept of Sustainable Livelihood Security (SLS) represents a holistic approach that integrates current challenges and policy priorities in sustainable development [@Singh2010] and has been increasingly applied in policy analysis frameworks to connect poverty reduction with resilience strategies [@Pani2022]. SLS builds on the three pillars of sustainability: environmental preservation, economic growth, and social equity. It focuses on the interconnections necessary to achieve sustainable results [@Morse2013]. Livelihood security, as first conceptualized by Chambers and Conway, integrates capabilities, equity, and sustainability [@Chambers1992]. Livelihoods refer to the means of earning a living, influenced by factors such as birth, inheritance, and social roles, as well as broader social, economic, and environmental conditions. Equity ensures fair access to resources, while sustainability focuses on preserving these resources for future generations. Recent research also stresses the role of livelihood diversification, adaptive capacity, and social networks in reducing vulnerability to risks [@BeltranTolosa2022; @Barnes2025].
+
+In rural contexts, livelihoods often encompass a mix of on-farm and off-farm activities that help households secure food and income. However, various internal and external factors such as limited income, inadequate mobility strategies, and resource constraints frequently disrupt livelihood security, particularly for livestock-dependent households [@Martin2016]. Key determinants of rural livelihood security include age, farming experience, social participation, income levels, and livestock ownership. To address these challenges, interventions such as farm diversification, the adoption of Good Agricultural Practices (GAP), and empowering rural women to engage in value-addition activities had been suggested [@Mishra2023]. Moreover, livelihoods depend on the availability of household resources and their integration into legal, political, and social systems [@Narayani2011].
+
+Global crises such as climate change, armed conflicts, displacement, pandemics, and digital inequality further exacerbate the challenges to livelihood security, particularly in vulnerable regions. These crises not only hinder progress toward the Sustainable Development Goals (SDGs) but also deepen food and nutrition insecurity for millions worldwide [@UNDP2022]. Addressing this issue requires innovative strategies to enhance food and nutrition security, particularly for smallholder farmers in developing countries. Studies highlighted the importance of prioritizing off-farm and non-farm livelihood diversification rather than attempting all options simultaneously [@Haile2024]. Additionally, traditional farming systems like home gardens, which depend on household assets, play a crucial role in ensuring food security and conserving biodiversity [@George2024]. However, rural areas, particularly in India, continue to face a mix of sustainable and unsustainable farming practices, impacting productivity and resilience [@Abed2025].
+
+In recent years, livelihood security has attracted growing scholarly and policy attention due to challenges such as climate change, globalization, and persistent socio-economic inequalities. To understand the evolving dynamics of livelihood security, bibliometric analysis serves as a powerful tool. Recognized as a scientific discipline, bibliometric analysis systematically evaluates research trends, patterns, and knowledge gaps in specific domains [@Ellegaard2015]. By analyzing scholarly outputs, citation networks, and thematic clusters, bibliometric studies offer critical insights into the evolution of research fields, key contributors, and policy implications. With user-friendly, menu-driven tools for assessing research performance and tracking institutional progress, bibliometric methods have become reliable and informative instruments [@Kumar2023; @Donthu2021]. This study aims to conduct a comprehensive bibliometric analysis of livelihood security, identifying core themes, emerging trends, and existing research gaps. Leveraging advanced bibliometric tools, this paper seeks to provide a roadmap for academics, policymakers, and practitioners striving to enhance livelihood security across diverse contexts. This study utilizes the scopus database to analyze and summarize publications related to livelihood security.
+
+## Methodology
+
+This study aims to perform a bibliometric analysis of publications related to livelihood security available in the scopus database. To meet this aim, a set of research questions has been developed to guide the investigation. These questions act as the backbone of the study, keeping the analysis focused and systematic. The Table 1 given below shows the research questions and their significance.
+
+| **Sl. No.** | **Research Questions**                                                                 | **Significance**                                                                                                                                                                                                                     |
+|:------------:|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | What is the annual trend in publications and citations for livelihood security research? | It helps to know how livelihood security research has grown, attracted more academic focus, and become more influential over time. |
+| 2 | Which journals are the most relevant sources for livelihood security research? | Assists researchers in identifying prominent journals, guiding them to high-impact platforms for publication. |
+| 3 | Who are the leading authors contributing to livelihood security research? | Identifies influential authors driving advancements in livelihood security studies, fostering opportunities for collaboration and recognizing key contributors. |
+| 4 | What are the most relevant institutions contributing to livelihood security? | Provides insights into leading institutions, facilitating collaboration and identifying centres of expertise in livelihood security research. |
+| 5 | Which countries lead in publishing and citing livelihood security research? | Highlights global and regional contributors, emphasizing their role in advancing research and fostering international collaborations. |
+| 6 | What are the major global collaboration networks in livelihood security research? | Maps partnerships among countries, illustrating the interconnectedness of research efforts and identifying potential opportunities for collaborative studies. |
+
+: Research questions and their significance for livelihood security {#tbl-security}
+
+### Data extraction
+
+Scopus was chosen as the primary data source for its vast coverage of peer-reviewed content. It includes over 76 million records from 39,100+ journals 120,000 conferences and 206,000 books. The breadth of this coverage ensures that both established research and emerging themes are captured. Scopus ensures high-quality and reliable publications through curation by the Content Selection and Advisory Board (CSAB). The advanced citation linking in scopus provides 99.9% precision and 98.3% recall for assessing research impact. Scopus also creates detailed author and institutional profiles to highlight key contributors. The present research study was selected between 2014 to 2024 span of time. A total of 6867 articles were published in the field of livelihood security in scopus indexes and out of this the search was conducted on January 25, 2025, using “livelihood security” as the keyword. A total of 514 research articles were published in this period within the subject area of economics, econometrics and finance. 
+
+### Bibliometric methodology
+
+Bibliometric analysis employs quantitative techniques to explore connections within a vast body of scientific literature [@Karantali2024]. Among bibliometric tools, VOSviewer is widely recognized for its effectiveness in data visualization and mapping [@Das2021; @Ye2018; @Oyewola2022; @Gao2021]. Additionally, Biblioshiny, an R-based software tool, enables the identification of influential authors, major affiliations, leading countries, and frequently occurring keywords by generating network visualization graphs [@Thakuria2024; @Thangavel2023; @Rusydiana2021; @Srisusilawati2021]. A combination of VOSviewer, Biblioshiny, and MS Excel was used for data analysis. VOSviewer was utilized for visualizing bibliographic coupling among countries and analyzing keyword distribution. Biblioshiny was employed to examine annual publication trends, citation patterns, key journals, influential authors in livelihood security research, institutional contributors, leading countries, word cloud, and tree map visualizations.
+
+## Results and Discussions
+
+This section presents a bibliometric analysis based on the scopus database, designed to systematically address the specific research questions outlined.
+
+{{< pagebreak >}}
+
+### General overview
+
+The study focuses on publications from 2014 to 2024, revealing an annual growth rate of 11.99% in research on livelihood security. A total of 1,858 authors contributed, with 67 single-authored documents and an average of 3.86 co-authors per document. International collaborations account for 39.3% of the publications. The dataset includes 1,701 unique author keywords, 27,835 references, and an average of 18.6 citations per document.
+
+Among the 514 articles on livelihood security retrieved from the Scopus database, the annual publication trend is presented in @fig-figure1. A clear upward trajectory in research output is visible from 2014 to 2024. In 2014, 29 articles were published, followed by a slight decline in 2015 (18 articles). However, from 2016 onward, the field experienced steady growth, with significant milestones in 2021 (72 articles) and 2023 (74 articles). The year 2024 recorded the highest number of publications (90 articles), marking the peak of scholarly attention during the study period. This trend highlights the growing awareness and academic emphasis on livelihood-related studies over the years.
+
+![Annual publication trend from 2014 to 2024](figures/fig1.png){#fig-figure1 width="384"}
+
+The annual citation pattern of livelihood security publications from 2014 to 2024 is shown in @fig-figure2. The trend indicates considerable fluctuations during the period. In the early years (2014–2015), the average citation rate was in between 4 and 5 citations per article. From 2016 to 2020, the average remained steady in between 2 and 3 citations, reflecting moderate academic attention. A sharp increase was observed in 2021, when the citation rate exceeded 6 citations per article, representing the peak of scholarly influence. This surge suggests that research published around this period received strong recognition, possibly linked to heightened global debates on livelihood resilience, food security, and climate change during the COVID-19 pandemic. However, after 2021, the trend declined steeply, falling to in between 1 and 2 citations in 2022 and dropping close to 1 citation per article by 2024. A probable reason for this may be that newly published articles require time to accumulate citations. Since publications increased significantly during 2022–2024, most of these recent papers have not yet had sufficient time to be cited. Citations generally peak 2–4 years after publication, so the observed decline reflects a natural citation lag rather than reduced academic relevance.
+
+![Annual citation pattern from 2014 to 2024](figures/fig2.png){#fig-figure2 width="384"}
+
+### Key journals driving livelihood security research
+
+The most relevant sources for livelihood security research are shown in the @fig-figure3. Marine Policy leads with 65 documents, emphasizing marine and coastal resource management. Environment, Development and Sustainability (58 documents) and World Development (55 documents) focus on sustainability and global perspectives. Mid-level contributors include Food Policy (19 documents), Forest Policy and Economics (17 documents), and International Journal of Agricultural Sustainability (16 documents). Niche contributors like Economic Affairs (New Delhi) and Trees, Forests and People (14 documents each) added valuable perspectives. 
+
+![Most relevant journals in livelihood security research](figures/fig3.png){#fig-figure3 width="384"}
+
+{{< pagebreak >}}
+
+### Influential authors in livelihood security research
+
+The @fig-figure4 showcases the leading authors in the field of livelihood security, based on the number of documents they have authored. Belton B tops the list with 4 documents. Several other authors, including Balasubramanya S, Bell J D, Bennett N J, Das S, Failler P, Frankenberger T R, Grote U, Kristiansen S, and Larson A M, each have 3 documents to their names. This analysis highlights these prolific contributors and underscores their significant role in advancing research on livelihood security. 
+
+![Most relevant authors in livelihood security research](figures/fig4.png){#fig-figure4 width="384"}
+
+### Institutional contributions to livelihood 
+
+Most relevant affiliations as seen in @fig-figure5 reveals the leading institutions contributing to the field of livelihood security research. The top institution is Kwame Nkrumah University of Science and Technology (KNUST) with 23 articles, followed by University for Development Studies (UDS) with 18 articles. Michigan State University holds the third position with 15 articles. Other notable institutions include University of British Columbia (14 articles), Center for International Forestry Research (CIFOR) (13 articles), and Griffith University (12 articles). The University of Washington and the International Center for Agricultural Research in the Dry Areas (ICARDA) also make significant contributions with 11 and 10 articles respectively. James Cook University and Professor Jayashankar Telangana State Agricultural University (PJTSAU) each have 9 articles. Their prolific output indicates a strong commitment to understanding and improving livelihood security, making them pivotal contributors in this research domain. 
+
+![The distribution of different affiliations having livelihood security research from 2014 to 2024](figures/fig5.png){#fig-figure5 width="384"}
+
+{{< pagebreak >}}
+
+### Geographical focus: leading countries in livelihood security research
+
+The @fig-figure6 illustrates the countries that have received the highest number of citations in research related to livelihood security. The USA leads significantly with 939 citations, followed by India with 618 citations. Other prominent contributors include Canada (574 citations), the United Kingdom (469 citations), and Germany (463 citations). Countries like Kenya, Australia, Norway, Indonesia, and Italy follow, with citations ranging between 311 and 398. 
+
+![Most cited countries from 2014 to 2024](figures/fig6.jpg){#fig-figure6 width="384"}
+
+{{< pagebreak >}}
+
+### Global collaborative networks in livelihood security
+
+This bibliographic coupling analysis visualized in @fig-figure7 shows collaborative research connections among countries in livelihood security studies. The analysis was filtered by a minimum of 5 documents per country, resulting in 36 countries meeting the threshold out of 105. The United States emerges as the most significant contributor, followed by India, Germany, and Australia, which also play crucial roles in this field. The connecting lines depict collaborations, with thicker edges indicating stronger partnerships. Regional clusters are evident, with India, China, Bangladesh, Nepal, and South Africa forming a distinct collaboration network, while the United States, Canada, Australia, and the United Kingdom exhibit close research ties. Another important cluster includes Germany, Sweden, and Ethiopia, suggesting active cross-country partnerships. Several countries from Africa (Kenya, Ethiopia, Ghana, Cameroon, Nigeria), Asia (Thailand, Malaysia, Japan, Saudi Arabia), and Europe (France, Switzerland, Netherlands, Denmark) are also actively engaged. Overall, it shows strong regional and global research linkages in livelihood security. 
+
+![Bibliographic coupling of countries](figures/fig7.png){#fig-figure7 width="384"}
+
+### Emerging themes in livelihood security: keyword analysis
+
+The word cloud in @fig-figure8 represents key themes in livelihood security research, with dominant terms such as "food security," "livelihood," "climate change," and "sustainability." Other frequently appearing terms like "India," "adaptive management," "smallholder," "fishery management," and "developing world" reflects the wide-ranging focus on agriculture, rural development, environmental sustainability, and global challenges. 
+
+{{< pagebreak >}}
+
+![Word cloud of keywords](figures/fig8.png){#fig-figure8 width="384"}
+
+@fig-figure9 displays a tree map illustrating the distribution of key keywords in livelihood security research. Each rectangle represents a keyword, with size proportional to its frequency of occurrence in the literature. “Food security” (12%) and “livelihood” (11%) are the most prominent themes, followed by “climate change”, “sustainability”, and “India”, each accounting for about 4 percent. Other major keywords include “fishery management”, “sustainable development”, “smallholder”, and “vulnerability”, each with a share of around 3 percent. Terms such as “rural area”, “poverty”, “household income”, and “deforestation” account for about 2 percent, while issues like “nutrition”, “biodiversity”, “agriculture”, and ”social security” occur at low frequencies. 
+
+![Tree map of keywords](figures/fig9.png){#fig-figure9 width="384"}
+
+{{< pagebreak >}}
+
+The network visualization in @fig-figure10 represents a co-occurrence analysis of keywords in livelihood security research, filtered with a minimum threshold of 15 occurrences. Out of 2,717 keywords, 28 meet this criterion. Core terms like "food security" and "livelihood" are central, closely linked to topics such as "climate change," "sustainability," "sustainable development," and "poverty." Regional focuses, including "India," "Africa," and "Ethiopia," suggest geographical emphasis in the research. Keywords like "fishery management," "income," "gender," and "rural area" indicate the diverse themes studied. The coloured clusters show food security's key dimensions. The green cluster links it to agriculture and rural poverty, the red cluster connects it to climate change and sustainability, and the blue cluster focuses on livelihoods and social factors. Together, they highlight food security as a complex issue shaped by economic, environmental, and social influences. @fig-figure10 represents the distribution of keyword analysis.
+
+![Keyword distribution pattern](figures/fig10.png){#fig-figure10 width="384"}
+
+### Trending topics
+
+@tbl-trending shows that research on livelihood security has evolved over time, with different themes gaining prominence at various stages. Emerging topics such as household income, smallholders, agricultural practices, and Burkina Faso appear more recently, with their Q1 values starting around 2020 or later. Established themes like food security, livelihood, and climate change have the highest frequencies, with median years around 2021.The table also highlights a strong focus on sustainability and environmental concerns, as seen in frequent mentions of deforestation, fishery management, and adaptive management. Regional aspects are evident, with Indonesia, Ethiopia, and Burkina Faso appearing in the analysis. It reflects the interest in specific geographic contexts, particularly in developing regions. The temporal distribution in the table shows that earlier research (2015–2017) focused on broad concepts like food policy, agriculture, and biodiversity, while recent studies (2021–2024) have shifted towards socio-economic factors such as household income and smallholder farming. 
+
+## Keyword frequency and temporal distribution
+
+| **Term**                   | **Frequency** | **Year (Q1)** | **Year (Median)** | **Year (Q3)** |
+|:---------------------------|:-------------:|:--------------:|:-----------------:|:--------------:|
+| Food policy                | 9             | 2015           | 2016              | 2020           |
+| Biodiversity               | 12            | 2016           | 2017              | 2018           |
+| Agriculture                | 10            | 2017           | 2017              | 2019           |
+| Forests                    | 9             | 2017           | 2017              | 2018           |
+| Indonesia                  | 14            | 2018           | 2018              | 2022           |
+| Agricultural production    | 12            | 2015           | 2018              | 2020           |
+| Fishing community          | 12            | 2016           | 2018              | 2021           |
+| Fishery management         | 33            | 2017           | 2019              | 2021           |
+| Developing world           | 28            | 2016           | 2019              | 2021           |
+| Deforestation              | 17            | 2016           | 2019              | 2021           |
+| Vulnerability              | 26            | 2019           | 2020              | 2023           |
+| Adaptive management        | 24            | 2018           | 2020              | 2021           |
+| Food supply                | 22            | 2018           | 2020              | 2022           |
+| Food security              | 127           | 2018           | 2021              | 2023           |
+| Livelihood                 | 114           | 2019           | 2021              | 2023           |
+| Climate change             | 46            | 2018           | 2021              | 2023           |
+| Smallholder                | 28            | 2018           | 2022              | 2024           |
+| Household income           | 23            | 2020           | 2022              | 2024           |
+| Ethiopia                   | 11            | 2019           | 2022              | 2023           |
+| Burkina Faso               | 6             | 2022           | 2023              | 2023           |
+| Agricultural practice      | 5             | 2021           | 2023              | 2024           |
+| Rice                       | 5             | 2020           | 2023              | 2023           |
+
+: Trending topics with their frequency from 2014 to 2024 {#tbl-trending}
+
+## Limitations of the study
+
+This study is primarily limited to publications indexed in the Scopus database, specifically within the fields of economics, finance, and econometrics, thereby excluding other databases such as Web of Science or various regional repositories. Additionally, the focus on English-language articles means that valuable research published in other languages may be omitted. Moreover, the selected timeframe of 2014–2024 restricts the analysis, potentially overlooking earlier foundational work as well as very recent emerging trends. Furthermore, only articles have been considered as the document type for this analysis, excluding other forms of scholarly publications such as reviews, conference papers, or book chapters.
+
+## Conclusion
+
+The analysis showed that livelihood security research expanded steadily over the past decade, with publications rising sharply after 2016 and peaking in 2024, although citation rates fluctuated and reached their highest point in 2021 before declining in subsequent years. Marine Policy, Environment, Development and Sustainability, and World Development emerged as the leading journals, while authors such as Belton B, Balasubramanya S, and Bennett N J were among the most prolific contributors. Key institutions, including Kwame Nkrumah University of Science and Technology, the University for Development Studies, and Michigan State University, played major roles in shaping the research landscape. The USA recorded the highest number of citations, followed by India and Canada, indicating strong contributions from multiple regions. Collaboration networks further revealed the USA as a major global hub with strong links to India, Germany, and Australia, while India and China also demonstrated extensive international partnerships. Keyword analysis identified “food security,” “livelihood,” “climate change,” and “sustainability” as dominant themes, along with related concepts such as rural development, gender, adaptive management, fisheries, and smallholder farming, reflecting the interdisciplinary and global nature of livelihood security research. Overall, the bibliometric analysis of 514 Scopus-indexed articles published between 2014 and 2024 highlighted emerging research fronts and provided valuable insights for scholars and policymakers, emphasizing the need for strengthened international collaboration, targeted interventions, and sustainable practices to enhance livelihood resilience and support sustainable development.
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**  
+
+- **Submitted:** *10 November 2025*  
+- **Accepted:** *27 November 2025*  
+- **Published (Online):** *28 November 2025*  
+
+---  
+**Reviewer Information**  
+
+- **Reviewer 1:**  
+  **Dr. Lijo Thomas**  
+  *Principal Scientist*  
+  *ICAR-Indian Institute of Spices Research, Kozhikode*
+  
+
+- **Reviewer 2:**  
+  **Dr. Denny Franco**  
+  *Assistant Professor*  
+  *Kerala Agricultural University*
+
+:::
+
+::: {.callout-note appearance="simple"}
+
+## Disclaimer/Publisher’s Note  
+
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).  
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.  
+
+:::  
+
+>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.
