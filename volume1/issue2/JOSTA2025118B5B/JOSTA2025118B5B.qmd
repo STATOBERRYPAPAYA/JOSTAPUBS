@@ -78,7 +78,7 @@ include-in-header:
 keywords: [Bibliometric Analysis, Climate Change, Food Security, Livelihood Security, Sustainability]  
 categories: [Review-Article, Economics, Policy]
 bibliography: JOSTA-202511-8B5B.bib
-date: 2025-11-10
+date: 2025-11-28
 doi: 10.65287/josta.202511.8B5B
 status: Published (Online)
 volume: "1"
