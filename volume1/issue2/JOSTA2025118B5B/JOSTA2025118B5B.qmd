@@ -1,5 +1,5 @@
 ---
-title: "Bibliometric Analysis on Livelihood Security Research: Trends, Patterns And Future Directions"
+title: "Bibliometric Analysis on Livelihood Security Research: Trends, Patterns and Future Directions"
 author:  
   - name: Athira K*
     affiliations:
@@ -202,7 +202,7 @@ Scopus was chosen as the primary data source for its vast coverage of peer-revie
 
 Bibliometric analysis employs quantitative techniques to explore connections within a vast body of scientific literature [@Karantali2024]. Among bibliometric tools, VOSviewer is widely recognized for its effectiveness in data visualization and mapping [@Das2021; @Ye2018; @Oyewola2022; @Gao2021]. Additionally, Biblioshiny, an R-based software tool, enables the identification of influential authors, major affiliations, leading countries, and frequently occurring keywords by generating network visualization graphs [@Thakuria2024; @Thangavel2023; @Rusydiana2021; @Srisusilawati2021]. A combination of VOSviewer, Biblioshiny, and MS Excel was used for data analysis. VOSviewer was utilized for visualizing bibliographic coupling among countries and analyzing keyword distribution. Biblioshiny was employed to examine annual publication trends, citation patterns, key journals, influential authors in livelihood security research, institutional contributors, leading countries, word cloud, and tree map visualizations.
 
-## Results and Discussions
+## Results and discussions
 
 This section presents a bibliometric analysis based on the scopus database, designed to systematically address the specific research questions outlined.
 
