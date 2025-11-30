@@ -25,16 +25,19 @@ website:
     logo: images/sidebarcover.png
     style: "docked"
     search: true
+    collapse-level: 1     
     contents:
       - href: index.qmd
         text: Home
       - section: "Submit Articles"
         contents:
           - submit.qmd
-          - authorguide.qmd
+          - href: authorguide.qmd
+            text: Author Guidelines
           - peerReview.qmd
           - APC.qmd
-          - Ethics.qmd
+          - href: Ethics.qmd
+            text: Publication Ethics
       - published.qmd
       - section: "Volumes"
         contents:
@@ -45,16 +48,18 @@ website:
         text: Editorial Board
       - href: editorialsection.qmd
         text: Editorial Sections
+      - section: "Policies & Publishing Rights"
+        contents:
+        - href: plagiarism.qmd
+          text: Plagiarism Policy
+        - href: archive.qmd
+          text: Archiving & Digital Preservation
+        - href: selfarchive.qmd
+          text: Self-Archiving Policy
+        - href: license.qmd
+          text: License and Copyright
       - href: report.qmd
         text: Report a Problem
-      - href: plagiarism.qmd
-        text: Plagiarism Policy
-      - href: license.qmd
-        text: License and Copyright
-      - href: archive.qmd
-        text: Archiving & Digital Preservation
-      - href: selfarchive.qmd
-        text: Self-Archiving Policy
       - href: contact.qmd
         text: Contact Us
   page-footer:

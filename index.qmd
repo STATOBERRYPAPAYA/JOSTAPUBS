@@ -524,12 +524,18 @@ listing:
 
 The Journal of Sustainable Technology in Agriculture (JOSTA) is a peer-reviewed, open-access e-journal dedicated to publishing high-quality research that fosters innovation and sustainability in agriculture. Founded by a collaborative group of scientists and professionals, JOSTA serves as a reliable and inclusive platform for sharing advancements that enhance agricultural practices through responsible technology use, practical innovation, and applied research.
 
-We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our open-access model ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world-promoting broad dissemination and knowledge sharing.  
+We are committed to academic integrity and scientific excellence. All manuscripts submitted to JOSTA undergo a rigorous peer-review process to ensure validity, relevance, and quality. Our [open-access model](#open-access) ensures that published research is freely available to researchers, practitioners, educators, and policymakers around the world-promoting broad dissemination and knowledge sharing.  
 
-JOSTA is also a registered member of [Crossref](https://www.crossref.org/) 
+We are also a registered member of [Crossref](https://www.crossref.org/) 
 , the global scholarly infrastructure that connects research publications through persistent Digital Object Identifiers (DOIs). Every article published in JOSTA is assigned a unique Crossref DOI, ensuring permanent identification, reliable citation linking, and global discoverability across academic databases such as Google Scholar and OpenAIRE.
 
-Articles published in JOSTA are permanently archived in [Zenodo](https://zenodo.org) with dedicated community created for [JOSTA](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), ensuring your research is stored safely, secure and open for the future in CERN's data centre for as long as CERN exists. Through `OpenAIRE` indexing, JOSTA’s publications are accessible to global research databases and funding agencies, guaranteeing broad visibility and compliance with open-science mandates.  
+Article metadata and publication records are preserved in [Zenodo](https://zenodo.org), with all full-text PDFs permanently stored in the [Internet Archive](https://archive.org/details/@josta_open-access_journal). Website pages are version-controlled through `GitHub` to ensure transparent version history and long-term preservation. JOSTA maintains a dedicated [Zenodo community](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), providing secure, long-term archiving of published articles in CERN’s data centre for as long as CERN exists. Through [OpenAIRE indexing](https://www.openaire.eu/), JOSTA’s publications are integrated into global research infrastructures, ensuring broad visibility, discoverability, and compliance with open-science mandates. For further information, see the Archiving & Digital Preservation page (archive.qmd).  
+
+The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.
+
+JOSTA is managed by [PAPAYA](https://www.statoberry.com/papaya.html), Academic Press of [Statoberry LLP](https://www.statoberry.com/) and supported by domain experts in agriculture and allied sciences, ensuring both technical accuracy and contextual relevance in all published content. Technical support for JOSTA is provided by [Department of Agricultural Statistics](https://coavellayani.kau.in/institution/department-agricultural-statistics-0), College of Agriculture, Vellayani, Kerala Agricultural University, Kerala, India.   
+
+ 
 
 ```{=html}
 <section class="openaire-line">
@@ -585,12 +591,6 @@ Articles published in JOSTA are permanently archived in [Zenodo](https://zenodo.
   }
 </style>
 ```
-
-The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.
-
-JOSTA is managed by [PAPAYA](https://www.statoberry.com/papaya.html), Academic Press of [Statoberry LLP](https://www.statoberry.com/) and supported by domain experts in agriculture and allied sciences, ensuring both technical accuracy and contextual relevance in all published content.  
-
-Article metadata and publication records are preserved in [Zenodo](https://zenodo.org), while full-text PDFs are permanently archived in the [Internet Archive](https://archive.org/details/@josta_open-access_journal). Website pages are version-controlled through GitHub. For more details see to [archiving & Digital Preservation](archive.qmd)
 
 ```{=html}
 <section class="josta-meta" id="journal-info" aria-labelledby="journal-info-title">
@@ -795,6 +795,43 @@ JOSTA also addresses the post-production spectrum through the **Post-Harvest Tec
 Recognizing the essential role of information systems in modern science, JOSTA includes a dedicated section on **Library and Information Science**, focusing on digital libraries, metadata standards, bibliometrics, open-access ecosystems, information literacy, and agricultural knowledge management.
 
 Through rigorous double-anonymous peer review and a fully open-access publishing model, JOSTA ensures that research outputs remain freely accessible to the global community. The journal encourages interdisciplinary perspectives, methodological transparency, and collaborative innovation to support the sustainable transformation of agricultural systems and contribute to solving emerging environmental and developmental challenges.  
+```{=html} 
+<div class="josta-info-card" style="
+  background:#faf8f4;
+  border:1px solid #d7c7a3;
+  border-radius:10px;
+  padding:1rem 1.2rem;
+  margin-top:0.8rem;
+">
+  <h3 style="margin:0 0 .4rem 0; color:#1f345c; font-weight:600; font-size:1.05rem;">
+    Publication model
+  </h3>
+
+  <p style="margin:.2rem 0; color:#333; line-height:1.6; font-size:0.95rem;">
+    The <strong>JOSTA</strong> follows an 
+    <strong>online, Open-access, continuous publication model</strong>. Accepted articles are published immediately 
+    after final editorial processing to ensure rapid dissemination of research.
+  </p>
+
+  <p style="margin:.4rem 0 0 0; color:#333; line-height:1.6; font-size:0.95rem;">
+    For organisational clarity, articles published throughout the year are grouped into four issues 
+    corresponding to:
+  </p>
+
+  <ul style="margin:.4rem 0 0 1.2rem; color:#333; line-height:1.55; font-size:0.95rem;">
+    <li><strong>January – March</strong></li>
+    <li><strong>April – June</strong></li>
+    <li><strong>July – September</strong></li>
+    <li><strong>October – December</strong></li>
+  </ul>
+
+  <p style="margin:.6rem 0 0 0; color:#333; line-height:1.6; font-size:0.95rem;">
+    This system ensures both timely publication and structured indexing of articles.
+  </p>
+
+</div>
+```  
+
 
 ## Journal metrics {#journalmetrics .unnumbered}
 
