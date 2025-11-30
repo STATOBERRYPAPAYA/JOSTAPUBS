@@ -9,7 +9,7 @@
 <link>https://www.jostapubs.com/volume1.html</link>
 <atom:link href="https://www.jostapubs.com/volume1.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.32</generator>
+<generator>quarto-1.6.39</generator>
 <lastBuildDate>Thu, 27 Nov 2025 18:30:00 GMT</lastBuildDate>
 <item>
   <title>Bibliometric Analysis on Livelihood Security Research: Trends, Patterns and Future Directions</title>
@@ -21,6 +21,143 @@
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025118B5B/JOSTA2025118B5B.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA2025118B5B/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -658,6 +795,143 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -1091,6 +1365,143 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -1557,6 +1968,143 @@ which permits unrestricted use, distribution, and reproduction in any medium, pr
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -2043,6 +2591,143 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -2774,6 +3459,143 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -3678,6 +4500,143 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -4226,7 +5185,8 @@ Table&nbsp;3: Regression analysis of the developed web application
 <h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
 <p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
 <p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
-<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts. </p><div style="page-break-after: always;"></div><p></p>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
+<div style="page-break-after: always;"></div>
 </section>
 <section id="conclusion" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
@@ -4397,6 +5357,143 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume1/issue1/Denny/JOSTA20250617172925171.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue1/Denny/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -5453,6 +6550,143 @@ Publication &amp; Reviewer Details
   <link>https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue1/CROPS/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -6610,6 +7844,143 @@ Publication &amp; Reviewer Details
   <link>https://www.jostapubs.com/volume1/issue1/AGRON/JOSTA615202501736.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue1/AGRON/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -7914,6 +9285,143 @@ Publication &amp; Reviewer Details
   <link>https://www.jostapubs.com/volume1/issue1/AGECONOMICS/JOSTA11CS1.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -8570,6 +10078,143 @@ ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid
   <link>https://www.jostapubs.com/volume1/issue1/lovelyB/generationmean.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue1/lovelyB/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 
@@ -10037,6 +11682,143 @@ Assistant Professor&nbsp; Plant Breeding &amp; Genetics Kerala Agricultural Univ
   <link>https://www.jostapubs.com/volume1/issue1/josta111raisins2025.html</link>
   <description><![CDATA[ 
 
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue1/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
 
 
 

@@ -38,9 +38,8 @@ website:
       - published.qmd
       - section: "Volumes"
         contents:
-          - section: "Volume 1"
-            contents:
-                  - volume1.qmd
+          - href: volume1.qmd
+            text: Volume 1 (2025)
       # - categories.qmd
       - href: editorial.qmd
         text: Editorial Board

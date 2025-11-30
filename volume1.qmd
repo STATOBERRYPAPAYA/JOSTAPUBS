@@ -1,5 +1,5 @@
 ---
-title: "Issues"  
+title: "Volume 1"  
 listing:
   - id: v1issue2
     type: table
@@ -46,28 +46,25 @@ listing:
 <a href="index.qmd" class="btn btn-outline-secondary"> <i  class="bi bi-house"></i> Home </a>
 :::
 
-# Journal Articles {.unnumbered}   
+# Journal Articles in Volume 1 (2025) {.unnumbered}  
+This section serves as the archive of all articles published across the issues under Volume 1 (2025). It provides a consolidated list of the research contributions featured throughout the volume.
 
-::: {style="text-align: center; margin-top: 1rem; margin-bottom: 1.5rem;"}
-<h2 style="color:#0056b3; font-family: Georgia, serif; font-weight: 600;">
+## <span style="color:#1f345c;">Issue II</span> {.unnumbered #vol1issue2}
 
-Volume I • Issue II • 2025
-
-</h2>
-:::
-
+<div style="margin-top:-0.4rem; margin-bottom:1.2rem;
+            border-bottom:2px solid #1f345c;
+            max-width:160px;">
+</div>
 ::: {#v1issue2}
 :::
 
 <!-- Volume info header -->
+## <span style="color:#1f345c;">Issue I</span> {.unnumbered #vol1issue1}
 
-::: {style="text-align: center; margin-top: 1rem; margin-bottom: 1.5rem;"}
-<h2 style="color:#0056b3; font-family: Georgia, serif; font-weight: 600;">
-
-Volume I • Issue I • 2025
-
-</h2>
-:::  
+<div style="margin-top:-0.4rem; margin-bottom:1.2rem;
+            border-bottom:2px solid #1f345c;
+            max-width:160px;">
+</div>
 
 ::: {#v1issue1}
 :::
