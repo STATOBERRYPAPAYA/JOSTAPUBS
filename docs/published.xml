@@ -9,8 +9,546 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.39</generator>
-<lastBuildDate>Thu, 27 Nov 2025 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Mon, 01 Dec 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Genetic Engineering for Drought Tolerance In Crop Plants: Advances and Strategies</title>
+  <dc:creator>Aswathy Nair R S*</dc:creator>
+  <dc:creator>Seeja G</dc:creator>
+  <dc:creator>Adithya Rajendran S</dc:creator>
+  <dc:creator>Anu J Prakash</dc:creator>
+  <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025109178/JOSTA2025109178.html</link>
+  <description><![CDATA[ 
+
+
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA2025109178/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+
+
+
+
+<p><a href="https://doi.org/10.65287/josta.202510.9178"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202510.9178-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17785147"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/JOSTA-202510-9178.pdf" download="" class="j-btn" aria-label="download pdf">  <span>download pdf</span> </a></p>
+<p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
+<p><span class="j-chip" data-doi="10.65287/josta.202510.9178" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
+</div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Nair R S, A., Seeja, G., Rajendran S, A., &amp; J Prakash, A. (2025). Genetic Engineering for Drought Tolerance In Crop Plants: Advances and Strategies. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202510.9178
+</p>
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<hr>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Agriculture is an essential pillar of global economies and human survival, providing the primary source of food, fibre, and raw materials. However, agricultural productivity is increasingly jeopardized by climate change, which manifests through extreme weather events, particularly droughts. Drought stress is one of the most severe abiotic stresses, adversely affecting crop growth, development, and yields. This poses a significant threat to global food security, especially in regions where water scarcity is becoming more prevalent due to erratic rainfall patterns and prolonged dry periods. For centuries, farmers and plant breeders have utilized traditional breeding methods to enhance crop resilience to environmental stresses, including drought. These methods rely on the natural genetic variation within crop species and involve selecting and cross-breeding individuals with desirable traits. While traditional breeding has achieved notable successes, it is often a slow and labour-intensive process. Additionally, the genetic diversity available within crop species can limit the effectiveness of these efforts, and achieving significant improvements in drought tolerance may take several generations. The advent of genetic engineering (GE) has revolutionized the field of plant breeding by offering precise, efficient, and targeted methods for developing crops with enhanced stress tolerance. Unlike traditional breeding, genetic engineering allows for the direct manipulation of an organism’s DNA, enabling the introduction of specific genes that confer desired traits. This capability has significant implications for improving drought tolerance in crops, as it allows scientists to identify and incorporate genes from a wide range of organisms, including those not naturally available in the crop species.</p>
+<p>Drought significantly impacts crop plants by causing cellular dehydration and visible wilting due to reduced water availability, leading to stomatal closure, reduced photosynthesis, and chlorophyll degradation. This stress alters metabolism, resulting in the accumulation of Osmo protectants and harmful reactive oxygen species (ROS), and impairs nutrient uptake and transport. Growth inhibition occurs, affecting both root and shoot development, reducing leaf area, and leading to flower and fruit abortion as well as lower seed set and quality. Consequently, overall plant biomass and crop yield are significantly reduced. Drought also alters hormonal balance, increasing abscisic acid (ABA) and ethylene levels, which affect stomatal closure and leaf senescence. Morphological changes include smaller, thicker leaves and an increased root-to-shoot ratio. Furthermore, drought-stressed plants become more susceptible to pests and diseases due to weakened defence mechanisms. Mitigation strategies such as developing drought-resistant varieties, efficient irrigation management, soil moisture conservation practices, and the use of bio stimulants are essential to improve crop resilience and ensure food security in the face of climate change. In this review we deal with certain approaches for developing crop tolerant to drought by genetic engineering.</p>
+</section>
+<section id="approaches-for-genetic-engineering-for-drought-tolerance" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="approaches-for-genetic-engineering-for-drought-tolerance"><span class="header-section-number">2</span> Approaches for genetic engineering for drought tolerance</h2>
+<p>Genetic engineering offers multiple strategies to enhance drought tolerance in crops, leveraging various techniques and targeting different aspects of plant physiology and biochemistry. The following sections detail the primary approaches used in genetic engineering for improving drought tolerance:</p>
+<section id="introduction-to-drought-responsive-osmoprotectant-genes" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="introduction-to-drought-responsive-osmoprotectant-genes"><span class="header-section-number">2.1</span> Introduction to drought-responsive osmoprotectant genes</h3>
+<p>Also referred to as osmolytes, osmoprotectants play a crucial role in plants’ defence mechanisms against drought stress. During drought conditions, plants lose water to their environment, which disrupts cellular homeostasis and leads to several issues, such as reduced turgor pressure essential for maintaining cell rigidity. The decrease in turgor pressure can cause wilting, protein denaturation, and the production of reactive oxygen species (ROS), which are harmful molecules capable of cellular damage. Osmolytes can be divided into organic osmolytes and further sub-categorized into amino acids, carbohydrates, amines, sulfonium compounds, and others. These molecules act as stabilizers or destabilizers; for instance, urea is a destabilizing osmolyte, whereas polyols (e.g., sorbitol, glucose, sucrose), amino acids and their derivatives (e.g., betaine, taurine, proline, glycine), and certain methyl ammonium compounds (e.g., sarcosine, trimethylamine N-oxide (TMAO)) are stabilizing osmolytes. However, some commonly used protective osmolytes, like sorbitol, trehalose, betaine, proline, sucrose, and TMAO, can exhibit destabilizing effects on proteins under specific conditions (<span class="citation" data-cites="Yancey2005">Yancey (2005)</span>; <span class="citation" data-cites="Singh2011a">L. R. Singh et al. (2011)</span>). Osmo protectants have been a major focus in genetic engineering for enhancing crop tolerance to stress. Crops have been genetically modified with osmo protectants such as mannitol, glycine betaine, and trehalose, though the degree of stress tolerance in these engineered crops varies significantly (<span class="citation" data-cites="Sheveleva1997">Sheveleva et al. (1997)</span>; <span class="citation" data-cites="Huang2024">Huang et al. (2024)</span>). These small, low-molecular-weight molecules are electrically neutral, highly soluble, and non-toxic at molar concentrations (<span class="citation" data-cites="Ahn2011">Ahn, Park, and Park (2011)</span>). They enable plants to endure extreme osmotic environments by stabilizing proteins and membranes and reducing the osmotic potential of membranes to prevent intracellular dehydration (<span class="citation" data-cites="Wani2013">Wani et al. (2013)</span>). Accumulating inside the cell, osmo protectants help maintain osmotic balance between the cytosol and the external environment, providing adaptability to various adverse conditions, including high salinity and extreme temperatures, by increasing the osmotic pressure within the cytoplasm (<span class="citation" data-cites="Tiwari2010">Tiwari et al. (2010)</span>; <span class="citation" data-cites="Ranganayakulu2013">Ranganayakulu, Veeranagamallaiah, and Sudhakar (2013)</span>).</p>
+<section id="proline" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="proline">Proline</h4>
+<p>Proline is a crucial osmoprotectant involved in the response of plants to drought stress, with various genes and enzymes like delta-1-pyrroline-5-carboxylate synthetase (P5CS), proline dehydrogenase (ProDH), and ornithine-5-aminotransferase (OAT) playing key roles in its biosynthesis and degradation. These components significantly contribute to the development of drought resistance in plants. For instance, the introduction of a modified osmoregulatory gene, P5CSF129A, encoding mutagenized P5CS via Agrobacterium-mediated transformation in chickpea resulted in only a modest increase in transpiration efficiency, suggesting that elevated proline levels had minimal impact on yield components critical for mitigating drought stress effects (<span class="citation" data-cites="BhatnagarMathur2009">Bhatnagar-Mathur et al. (2009)</span>). Ethylene-responsive factors (ERFs) are also implicated in regulating plant responses to drought, though the underlying mechanisms for enhanced tolerance are not fully understood. Specifically, <span class="citation" data-cites="Du2023">Du et al. (2023)</span> has been shown to activate proline biosynthesis genes TaP5CS1 and TaP5CR1 by directly binding to GCC-box elements, leading to higher proline accumulation and improved drought tolerance in TaERF87- and TaP5CS1-overexpressing lines compared to wild-type plants under both normal and drought conditions. In tomato (<em>Solanum lycopersicum</em> L.), drought and salt stress trigger nitric oxide (NO) production, which enhances proline synthesis by activating genes and enzymes such as Δ¹-pyrroline-5-carboxylate synthetase (SIP5CS) and Δ¹-pyrroline-5-carboxylate reductase (SIP5CR). Tomatoes engineered to mimic S-nitrosylated SIP5CR exhibit improved growth and yield under stress conditions, offering a promising strategy for cultivating stress-tolerant tomatoes (<span class="citation" data-cites="Liu2024">W. Liu et al. (2024)</span>). In rice, several transgenic lines overexpressing PDH47 transcripts via Agrobacterium-mediated transformation have been developed. These lines show up-regulation of proline biosynthesis genes and down-regulation of proline catabolism genes, resulting in enhanced drought tolerance. Thus, the combined expression of proline metabolism genes and stress-responsive DEAD-box helicase like PDH47 could lead to the development of drought-tolerant rice and other economically significant crops (<span class="citation" data-cites="Boro2020">Boro (2020)</span>). Transgenic Arabidopsis plants expressing VyP5CR display improved survival rates, smaller stomata under severe drought, and stronger root growth in mannitol-containing media. Under drought stress, VyP5CR-overexpressing plants exhibit lower levels of malondialdehyde (MDA), hydrogen peroxide (H₂O₂), and superoxide (O₂⁻), alongside higher proline content and increased superoxide dismutase (SOD) and peroxidase (POD) activity (<span class="citation" data-cites="Chen2021">C. Chen et al. (2021)</span>). In rice, drought-tolerant genotypes show increased proline levels, total antioxidant capacity, and OsP5CS expression under osmotic stress compared to moderately drought-tolerant and susceptible genotypes. However, changes in imbibition rate, germination speed, radicle and plumule length, and fresh and dry weight were not consistent across these genotypes (<span class="citation" data-cites="Saddique2020">Saddique et al. (2020)</span>).</p>
+</section>
+<section id="trehalose" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="trehalose">Trehalose</h4>
+<p>Trehalose-6-phosphate phosphatase (TPP) family genes play a crucial role in the regulation of stomatal aperture. The gene AtTPPI, which responds to drought stress, is particularly significant in this context, indicating that AtTPPI-mediated stomatal regulation is vital for coping with drought stress and enhancing water use efficiency (WUE) (<span class="citation" data-cites="Lin2020">Lin et al. (2020)</span>). In an effort to increase trehalose synthesis, a bifunctional TPS-TPP enzyme gene from yeast was introduced into transgenic wheat plants. Those transformed with a 35S promoter construct exhibited a lower photosynthetic rate and reduced fructose 1–6-bisphosphatase (FBPase) activity during drought, which was attributed to decreased ribulose 1,5-bisphosphate (RuBP) regeneration due to constitutive trehalose and sucrose synthesis. However, plants transformed with the rd29A promoter maintained a higher photosynthetic rate after eight days of drought, as RuBP regeneration remained unaffected. Consequently, these transgenic wheat plants displayed greater biomass and grain weight compared to non-transgenic (NT) plants under drought conditions (<span class="citation" data-cites="RomeroReyes2023">Romero-Reyes et al. (2023)</span>). Trehalose-6-phosphate synthase (TPS) is key for synthesizing trehalose-6-phosphate (T6P). In cruciferous plants, 35 BnTPSs, 14 BoTPSs, and 17 BrTPSs have been identified, with the expression levels of four BnTPSs (BnTPS6, BnTPS8, BnTPS9, and BnTPS11) markedly increasing after drought stress. Additionally, three differentially expressed genes (BnTPS1, BnTPS5, and BnTPS9) showed variable expression patterns between source and sink tissues in yield-related materials. These findings offer a foundational reference for studying TPSs in rapeseed and provide a framework for future research on the roles of BnTPSs in both yield improvement and drought resistance (<span class="citation" data-cites="Yang2023">B. Yang et al. (2023)</span>).</p>
+</section>
+</section>
+<section id="overexpression-of-native-genes" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="overexpression-of-native-genes"><span class="header-section-number">2.2</span> Overexpression of native genes</h3>
+<section id="transcription-factors" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="transcription-factors">Transcription factors</h4>
+<p>Transcription factors that are part of regulons help mitigate the effects of abiotic stress through constitutive overexpression, which promotes greater tolerance by initiating stress responses (<span class="citation" data-cites="Yadav2013">Yadav et al. (2013)</span>). These transcription factors activate cascades of genes, enhancing tolerance to multiple stresses. Many transcription factors involved in drought stress responses belong to large families such as AP2/ERF, bZIP, NAC, MYB, MYC, Cys2His2 zinc-finger, SA-inducible DOF protein, and WRKY (<span class="citation" data-cites="Vinocur2005">Vinocur and Altman (2005)</span>).</p>
+<section id="cbfdreb" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="cbfdreb">CBF/DREB</h5>
+<p>A prominent class of transcription factors is the DREB/CBF group, which binds to drought-responsive cis-acting elements and is part of the ERF (ethylene responsive element binding factors) family (<span class="citation" data-cites="Khan2011">Khan (2011)</span>). The DREB1 and DREB2 classes are induced by cold and dehydration stress, respectively, and operate mainly in an ABA-independent pathway, except for CBF4, which requires CRT/DRE elements in an ABA-dependent pathway. In <em>Jatropha curcas</em>, the transcription factor JcCBF2 positively modulates physiological responses to drought, decreasing leaf area, increasing leaf thickness, and significantly increasing the accumulation of CTK, IAA, ABA, and JA. Additionally, JcCBF2 enhances the transcription level of MYB transcription factors (<span class="citation" data-cites="Wang2020b">L. Wang et al. (2020)</span>). CBF4, induced by ABA and osmotic stress, localizes to the nucleus and downregulates XER expression via the DRE element in its 5’-UTR. Genetic interaction studies confirm that xer is epistatic to cbf4 in stomatal development and responses to ABA, osmotic, and drought stress (<span class="citation" data-cites="Vonapartis2022">Vonapartis et al. (2022)</span>). PwNAC31, significantly upregulated under drought and ABA treatments, improves seed vigor and germination rates in Arabidopsis mutants, upregulating drought-responsive genes such as DREB2A and ERD1 (<span class="citation" data-cites="Huang2024">Huang et al. (2024)</span>). The RcDREB1 gene from castor bean (<em>Ricinus communis</em> L.), likely part of the CBF/DREB subfamily subgroup A-5, has been characterized and transgenic lines have shown enhanced drought tolerance (<span class="citation" data-cites="doRego2021">Rego et al. (2021)</span>). Additionally, the TaDREB2B transcription factor from Tripidium arundinaceum, expressed under the RD29A promoter in sugarcane, significantly improves drought tolerance by enhancing water retention and reducing membrane damage without compromising growth (<span class="citation" data-cites="Xiao2022">Xiao et al. (2022)</span>).</p>
+</section>
+<section id="myb-transcription-factor" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="myb-transcription-factor">MYB transcription factor</h5>
+<p>MYB proteins, widespread in plants, are implicated in ABA responses, enhancing ABA sensitivity and drought tolerance. The RD22 promoter region contains MYC (CANNTG) and MYB (C/TAACNA/G) cis-element recognition sites (<span class="citation" data-cites="Abe2003">Abe et al. (2003)</span>). Overexpression of OsMYB1R1 in plants results in increased relative electrical conductivity (REC), increased malondialdehyde (MDA) content, and decreased proline content compared to wild types, indicating OsMYB1R1 acts as a negative regulator in drought responses (<span class="citation" data-cites="Peng2023">Peng et al. (2023)</span>). Overexpression of MbMYB4 in Arabidopsis enhances tolerance to cold and drought stresses (<span class="citation" data-cites="Yao2022">Yao et al. (2022)</span>). MbMYBC1, responsive to cold and hydropenia signals, can be used in transgenic technology to improve plant tolerance to low temperature and drought stress (<span class="citation" data-cites="Liu2023">W. Liu et al. (2023)</span>). The VvMYBF1 gene aids in flavonoid accumulation and tolerance to salt and drought stresses, showing potential for increasing flavonoid content and improving stress tolerance in plants (<span class="citation" data-cites="Wang2020a">J. Wang et al. (2020)</span>). OsFLP-overexpressing plants show up-regulation of stress response genes like OsLEA3 and OsDREB2A, indicating that OsFLP contributes positively to drought stress tolerance by regulating transcripts of OsNAC1 and OsNAC6 (<span class="citation" data-cites="Qu2022">Qu et al. (2022)</span>). IbMYB48 from sweet potato mutant line JS6-5, a nuclear protein, shows increased ABA, JA, proline contents, and SOD activity when ectopically expressed in Arabidopsis, suggesting that IbMYB48 positively regulates tolerance to salt and drought stresses (<span class="citation" data-cites="Zhao2022">Zhao et al. (2022)</span>).</p>
+</section>
+<section id="bzip-transcription-factors" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="bzip-transcription-factors">bZIP transcription factors</h5>
+<p>The bZIP family is extensive, and one subgroup linked to stress responses includes the TGA/octopine synthase (ocs)-element-binding factor (OBF) proteins. These bind to the activation sequence-1 (as-1)/ocs element, which regulates stress-responsive genes such as <em>PR-1</em> and <em>Glutathione S-Transferase 6 (GST6)</em> (<span class="citation" data-cites="Lebel1998">Lebel et al. (1998)</span>; <span class="citation" data-cites="Chen1999">W. Chen and Singh (1999)</span>). Overexpressing <em>GmbZIP2</em> in soybean hairy roots enhances the expression of stress-responsive genes like <em>GmMYB48</em>, <em>GmWD40</em>, <em>GmDHN15</em>, <em>GmGST1</em>, and <em>GmLEA</em>, indicating that soybean bZIPs play crucial roles in abiotic stress resistance (<span class="citation" data-cites="Yang2020a">Y. Yang et al. (2020)</span>). <em>PhebZIP47</em>, a bZIP transcription factor from moso bamboo (<em>Phyllostachys edulis</em>), enhances drought tolerance in transgenic <em>Arabidopsis</em> and rice, reducing sensitivity to exogenous ABA treatment (<span class="citation" data-cites="Lan2023">Lan et al. (2023)</span>). In <em>Arabidopsis</em>, the <em>IDD14</em> transcription factor interacts with bZIP-type <em>ABFs/AREBs</em> to regulate ABA-mediated drought tolerance cooperatively (<span class="citation" data-cites="Liu2022">J. Liu et al. (2022)</span>). The overexpression of <em>Phehdz1</em> improves drought tolerance in transgenic rice, with many differentially expressed genes involved in MAPK signal transduction and secondary metabolite biosynthesis (<span class="citation" data-cites="Gao2021">Y. Gao et al. (2021)</span>). Conversely, <em>MdBT2</em> negatively regulates drought stress response by interacting with and ubiquitinating <em>MdNAC143</em>, a positive regulator under drought stress (<span class="citation" data-cites="Ji2020">Ji et al. (2020)</span>).</p>
+</section>
+<section id="wrky-transcription-factors" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="wrky-transcription-factors">WRKY transcription factors</h5>
+<p>The WRKY family is one of the largest groups of transcriptional regulators found exclusively in plants, with diverse roles in disease resistance, abiotic stress responses, nutrient deprivation, senescence, seed and trichome development, embryogenesis, and hormone-controlled processes. WRKY transcription factors can act as activators or repressors and form various homo- and heterodimer combinations (<span class="citation" data-cites="Bakshi2014">Bakshi and Oelmüller (2014)</span>). Overexpression of PheWRKY86 in moso bamboo improves drought stress tolerance in transgenic plants (<span class="citation" data-cites="Wu2022">Wu et al. (2022)</span>). GhWRKY1-like in Arabidopsis positively regulates drought tolerance by interacting with promoters of AtNCED2, AtNCED5, AtNCED6, and AtNCED9 to promote ABA biosynthesis (<span class="citation" data-cites="Hu2021">Hu et al. (2021)</span>). SlWRKY8, previously unstudied, shows up-regulation in response to Pseudomonas syringae pv. tomato DC3000 (Pst. DC3000), drought, salt, cold, ABA, and SA treatments, indicating its role in pathogen resistance and abiotic stress tolerance (<span class="citation" data-cites="Gao2020">Y. F. Gao et al. (2020)</span>). Overexpression of <em>IgWRKY50</em> and <em>IgWRKY32</em> in transgenic <em>Arabidopsis</em> enhances drought resistance by increasing osmotic regulatory substances, reducing MDA content, and enhancing SOD, POD, and CAT activities (<span class="citation" data-cites="Zhang2022">Zhang et al. (2022)</span>). <em>TaWRKY31</em> improves drought resistance by promoting ROS scavenging, reducing stomatal opening, and increasing expression levels of stress-related genes (<span class="citation" data-cites="Ge2024">Ge et al. (2024)</span>). <em>SbWRKY30</em> enhances drought tolerance in sorghum by directly activating <em>SbRD19</em>, making it a promising candidate for breeding drought-tolerant crops (<span class="citation" data-cites="Yang2020b">Z. Yang et al. (2020)</span>). The novel WRKY gene <em>ItfWRKY70</em> in sweet potato enhances drought tolerance by regulating stress-responsive genes, stomatal aperture, and the ROS scavenging system (<span class="citation" data-cites="Sun2022">S. Sun et al. (2022)</span>). Overexpression of <em>MdWRKY115</em> in <em>Arabidopsis</em> and apple callus enhances tolerance to drought and osmotic stresses, with DNA affinity purification sequencing showing <em>MdWRKY115</em> binds to the promoter of the stress-related gene <em>MdRD22</em> (<span class="citation" data-cites="Dong2024">Dong et al. (2024)</span>).</p>
+</section>
+</section>
+</section>
+<section id="root-architecture-modification" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="root-architecture-modification"><span class="header-section-number">2.3</span> Root architecture modification</h3>
+<section id="deep-root-systems" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="deep-root-systems">Deep root systems</h4>
+<p>Crops with deep roots are conducive to absorbing and utilizing water and nutrients in deeper soil, which is helpful to avoid drought and reduce yield loss. Deep rooting is a multifaceted trait influenced by factors such as root growth angle and root length <span class="citation" data-cites="Araki2002 Lynch2022">(Araki et al. 2002; Lynch 2022)</span>. The angle at which roots grow affects their horizontal and vertical spread within the soil, which is crucial for drought avoidance in crops like sorghum <span class="citation" data-cites="Mace2012">(Mace et al. 2012)</span>, wheat <span class="citation" data-cites="Christopher2013">(Christopher et al. 2013)</span>, and rice <span class="citation" data-cites="Uga2013b">(Uga et al. 2013)</span>. Studies have shown a correlation between root angle and rooting depth in various crops, including rice <span class="citation" data-cites="Kato2006">(Kato et al. 2006)</span>, chickpea <span class="citation" data-cites="Sayar2007 Kashiwagi2015">(Sayar, Khemira, and Kharrat 2007; Kashiwagi et al. 2015)</span>, and sorghum <span class="citation" data-cites="Singh2011b">(V. Singh et al. 2011)</span>. In rice, deep rooting not only improves drought tolerance but also enhances harvest index, nitrogen uptake, and cytokinin transport from root to shoot during grain filling <span class="citation" data-cites="AraiSanoh2014">(Arai-Sanoh et al. 2014)</span>.</p>
+<p>Orthologs of the DEEPER ROOTING 1 (DRO1) gene, which influences root growth angle, are found in many plants, both dicots and monocots <span class="citation" data-cites="Guseman2017">(Guseman et al. 2017)</span>. Similar to findings in rice, DRO1 orthologs in Arabidopsis and Prunus species also promote deeper rooting phenotypes when overexpressed <span class="citation" data-cites="Guseman2017">(Guseman et al. 2017)</span>. In wheat, the auxin-responsive transcription factor TaMOR-D from the D-genome, when overexpressed in rice and Arabidopsis, led to increased lateral roots, more crown roots, longer panicles, and higher grain yield in rice <span class="citation" data-cites="Li2016">(Li et al. 2016)</span>. Integrating AtDREB2A-CA into the cotton genome improved total root volume, surface area, and root length, while maintaining normal shoot growth and enhancing drought adaptation through improved photosynthetic parameters <span class="citation" data-cites="LiseideSa2017">(Lisei-de-Sá et al. 2017)</span>.</p>
+<p>Cloning and characterizing the DRO1 quantitative trait locus in rice, which controls root growth angle, revealed that DRO1 is negatively regulated by auxin and promotes asymmetric root growth and downward bending in response to gravity. Introducing DRO1 into a shallow-rooting rice cultivar resulted in deeper rooting and improved yield under drought conditions <span class="citation" data-cites="Uga2013b">(Uga et al. 2013)</span>.</p>
+</section>
+<section id="root-hair-enhancement" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="root-hair-enhancement">Root hair enhancement</h4>
+<p>Enhancing root hair development is another strategy to improve drought tolerance. Overexpression of the GbTCP5 gene in Arabidopsis increased root hair length, root hair and stem trichome density, and stem lignin content, indicating its role in regulating root hair development and secondary wall formation (<span class="citation" data-cites="Wang2020c">Y. Wang et al. (2020)</span>). In barley, the novel β-expansin gene HvEXPB7, predominantly expressed in roots and located in the plasma membrane, was identified as significant for root hair growth under drought stress, highlighting its role in drought tolerance (<span class="citation" data-cites="He2015">He et al. (2015)</span>).</p>
+<p>In soybean, the GsGF14o gene from Glycine soja plays a dual role in drought response by regulating both stomatal size and root hair development (<span class="citation" data-cites="Sun2014">X. Sun et al. (2014)</span>). Furthermore, WOX11 transgenic plants in rice demonstrated enhanced drought resistance through improved root hair development, along with better crown and lateral root development, indicating WOX11’s significant role in modulating the root system for drought adaptation (<span class="citation" data-cites="Cheng2016">Cheng, Zhou, and Zhao (2016)</span>).</p>
+</section>
+</section>
+</section>
+<section id="conclusion" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">3</span> Conclusion</h2>
+<p>Genetic engineering has emerged as a powerful tool in the quest to develop drought-tolerant crops, offering a variety of precise and efficient strategies that surpass the limitations of traditional breeding methods. Techniques such as the introduction of drought-responsive genes, overexpression of native genes, root architecture modification have demonstrated significant potential in enhancing crop resilience to water scarcity. These advancements not only improve the physiological and biochemical responses of plants to drought but also contribute to sustainable agricultural practices and global food security in the face of climate change. Future research should continue to explore and optimize these genetic engineering strategies, ensuring they are integrated effectively into agricultural systems to mitigate the adverse impacts of drought on crop productivity.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-Abe2003" class="csl-entry">
+Abe, H., T. Urao, T. Ito, M. Seki, K. Shinozaki, and K. Yamaguchi-Shinozaki. 2003. <span>“Arabidopsis AtMYC2 (bHLH) and AtMYB2 (MYB) Function as Transcriptional Activators in Abscissic Acid Signalling.”</span> <em>The Plant Cell</em> 15: 63–78.
+</div>
+<div id="ref-Ahn2011" class="csl-entry">
+Ahn, C., U. Park, and P. B. Park. 2011. <span>“Increased Salt and Drought Tolerance by d-Ononitol Production in Transgenic Arabidopsis Thaliana.”</span> <em>Biochemical and Biophysical Research Communications</em> 415 (4): 669–74.
+</div>
+<div id="ref-AraiSanoh2014" class="csl-entry">
+Arai-Sanoh, Y., T. Takai, S. Yoshinaga, H. Nakano, M. Kojima, H. Sakakibara, and Y. Uga. 2014. <span>“Deep Rooting Conferred by DEEPER ROOTING 1 Enhances Rice Yield in Paddy Fields.”</span> <em>Scientific Reports</em> 4 (1): 5563. <a href="https://doi.org/10.1038/srep05563">https://doi.org/10.1038/srep05563</a>.
+</div>
+<div id="ref-Araki2002" class="csl-entry">
+Araki, H., S. Morita, J. Tatsumi, and M. Iijima. 2002. <span>“Physiol-Morphological Analysis on Axile Root Growth in Upland Rice.”</span> <em>Plant Production Science</em> 5 (4): 286–93.
+</div>
+<div id="ref-Bakshi2014" class="csl-entry">
+Bakshi, M., and R. Oelmüller. 2014. <span>“WRKY Transcription Factors: Jack of Many Trades in Plants.”</span> <em>Plant Signaling &amp; Behavior</em> 9 (2): e27700. <a href="https://doi.org/10.4161/psb.27700">https://doi.org/10.4161/psb.27700</a>.
+</div>
+<div id="ref-BhatnagarMathur2009" class="csl-entry">
+Bhatnagar-Mathur, P., V. Vadez, M. Jyostna Devi, M. Lavanya, G. Vani, and K. K. Sharma. 2009. <span>“Genetic Engineering of Chickpea (<span class="nocase">Cicer arietinum</span> l.) with the <span>P5CSF129A</span> Gene for Osmoregulation with Implications on Drought Tolerance.”</span> <em>Molecular Breeding</em> 23 (4): 591–606.
+</div>
+<div id="ref-Boro2020" class="csl-entry">
+Boro, D. 2020. <span>“Molecular and Physiological Analysis of Transgenic Rice Harbouring Chimeric PDH47 Gene Against Abiotic Stress Tolerance.”</span> PhD thesis, Assam Agricultural University, Jorhat.
+</div>
+<div id="ref-Chen2021" class="csl-entry">
+Chen, C., X. Cui, P. Zhang, Z. Wang, and J. Zhang. 2021. <span>“Expression of the Pyrroline-5-Carboxylate Reductase (P5CR) Gene from the Wild Grapevine Vitis Yeshanensis Promotes Drought Resistance in Transgenic Arabidopsis.”</span> <em>Plant Physiology and Biochemistry</em> 168: 188–201. <a href="https://doi.org/10.1016/j.plaphy.2021.07.025">https://doi.org/10.1016/j.plaphy.2021.07.025</a>.
+</div>
+<div id="ref-Chen1999" class="csl-entry">
+Chen, W., and K. B. Singh. 1999. <span>“The Auxin, Hydrogen Peroxide and Salicylic Acid Induced Expression of the <span>Arabidopsis GST6</span> Promoter Is Mediated in Part by an Ocs Element.”</span> <em>The Plant Journal</em> 19 (6): 667–77.
+</div>
+<div id="ref-Cheng2016" class="csl-entry">
+Cheng, S., D. X. Zhou, and Y. Zhao. 2016. <span>“WUSCHEL-Related Homeobox Gene WOX11 Increases Rice Drought Resistance by Controlling Root Hair Formation and Root System Development.”</span> <em>Plant Signaling &amp; Behavior</em> 11: e1130198. <a href="https://doi.org/10.1080/15592324.2015.1130198">https://doi.org/10.1080/15592324.2015.1130198</a>.
+</div>
+<div id="ref-Christopher2013" class="csl-entry">
+Christopher, Jennifer T., Michael Christopher, Robyn Jennings, Stephen Jones, Skye Fletcher, Andrew Borrell, Ahmad M. Manschadi, David Jordan, Emma Mace, and Graeme Hammer. 2013. <span>“QTL for Root Angle and Number in a Population Developed from Bread Wheats (Triticum Aestivum) with Contrasting Adaptation to Water-Limited Environments.”</span> <em>Theoretical and Applied Genetics</em> 126 (6): 1563–74. <a href="https://doi.org/10.1007/s00122-013-2074-0">https://doi.org/10.1007/s00122-013-2074-0</a>.
+</div>
+<div id="ref-Dong2024" class="csl-entry">
+Dong, Q., Y. Tian, X. Zhang, D. Duan, H. Zhang, K. Yang, and F. Ma. 2024. <span>“Overexpression of the Transcription Factor MdWRKY115 Improves Drought and Osmotic Stress Tolerance by Directly Binding to the MdRD22 Promoter in Apple.”</span> <em>Horticultural Plant Journal</em> 10 (3): 629–40. <a href="https://doi.org/10.1016/j.hpj.2023.05.005">https://doi.org/10.1016/j.hpj.2023.05.005</a>.
+</div>
+<div id="ref-Du2023" class="csl-entry">
+Du, L., X. Huang, L. Ding, Z. Wang, D. Tang, B. Chen, and H. Mao. 2023. <span>“TaERF87 and TaAKS1 Synergistically Regulate TaP5CS1/TaP5CR1-Mediated Proline Biosynthesis to Enhance Drought Tolerance in Wheat.”</span> <em>New Phytologist</em> 237 (1): 232–50. <a href="https://doi.org/10.1111/nph.18549">https://doi.org/10.1111/nph.18549</a>.
+</div>
+<div id="ref-Gao2020" class="csl-entry">
+Gao, Y. F., J. K. Liu, F. M. Yang, G. Y. Zhang, D. Wang, L. Zhang, and Y. A. Yao. 2020. <span>“The WRKY Transcription Factor WRKY8 Promotes Resistance to Pathogen Infection and Mediates Drought and Salt Stress Tolerance in Solanum Lycopersicum.”</span> <em>Physiologia Plantarum</em> 168 (1): 98–117. <a href="https://doi.org/10.1111/ppl.12924">https://doi.org/10.1111/ppl.12924</a>.
+</div>
+<div id="ref-Gao2021" class="csl-entry">
+Gao, Y., H. Liu, K. Zhang, F. Li, M. Wu, and Y. Xiang. 2021. <span>“A Moso Bamboo Transcription Factor, Phehdz1, Positively Regulates the Drought Stress Response of Transgenic Rice.”</span> <em>Plant Cell Reports</em> 40: 187–204. <a href="https://doi.org/10.1007/s00299-020-02625-w">https://doi.org/10.1007/s00299-020-02625-w</a>.
+</div>
+<div id="ref-Ge2024" class="csl-entry">
+Ge, M., Y. Tang, Y. Guan, M. Lv, C. Zhou, H. Ma, and J. Lv. 2024. <span>“TaWRKY31, a Novel WRKY Transcription Factor in Wheat, Participates in Regulation of Plant Drought Stress Tolerance.”</span> <em>BMC Plant Biology</em> 24 (1): 27. <a href="https://doi.org/10.1186/s12870-024-XXXX-X">https://doi.org/10.1186/s12870-024-XXXX-X</a>.
+</div>
+<div id="ref-Guseman2017" class="csl-entry">
+Guseman, J. M., K. Webb, C. Srinivasan, and C. Dardick. 2017. <span>“DRO1 Influences Root System Architecture in Arabidopsis and Prunus Species.”</span> <em>The Plant Journal</em> 89 (6): 1093–1105. <a href="https://doi.org/10.1111/tpj.13470">https://doi.org/10.1111/tpj.13470</a>.
+</div>
+<div id="ref-He2015" class="csl-entry">
+He, X., J. Zeng, F. Cao, I. M. Ahmed, G. Zhang, E. Vincze, and F. Wu. 2015. <span>“HvEXPB7, a Novel β-Expansin Gene Revealed by the Root Hair Transcriptome of Tibetan Wild Barley, Improves Root Hair Growth Under Drought Stress.”</span> <em>Journal of Experimental Botany</em> 66 (22): 7405–19. <a href="https://doi.org/10.1093/jxb/erv436">https://doi.org/10.1093/jxb/erv436</a>.
+</div>
+<div id="ref-Hu2021" class="csl-entry">
+Hu, Q., C. Ao, X. Wang, Y. Wu, and X. Du. 2021. <span>“GhWRKY1-Like, a WRKY Transcription Factor, Mediates Drought Tolerance in Arabidopsis via Modulating ABA Biosynthesis.”</span> <em>BMC Plant Biology</em> 21: 1–13. <a href="https://doi.org/10.1186/s12870-021-03238-5">https://doi.org/10.1186/s12870-021-03238-5</a>.
+</div>
+<div id="ref-Huang2024" class="csl-entry">
+Huang, Y., B. Du, M. Yu, Y. Cao, K. Liang, and L. Zhang. 2024. <span>“Picea Wilsonii NAC31 and DREB2A Cooperatively Activate ERD1 to Modulate Drought Resistance in Transgenic Arabidopsis.”</span> <em>International Journal of Molecular Sciences</em> 25 (4): 2037. <a href="https://doi.org/10.3390/ijms25042037">https://doi.org/10.3390/ijms25042037</a>.
+</div>
+<div id="ref-Ji2020" class="csl-entry">
+Ji, X. L., H. L. Li, Z.-W. Qiao, J. C. Zhang, W. J. Sun, C. K. Wang, and Y. J. Hao. 2020. <span>“The BTB-TAZ Protein MdBT2 Negatively Regulates the Drought Stress Response by Interacting with the Transcription Factor MdNAC143 in Apple.”</span> <em>Plant Science</em> 301: 110689. <a href="https://doi.org/10.1016/j.plantsci.2020.110689">https://doi.org/10.1016/j.plantsci.2020.110689</a>.
+</div>
+<div id="ref-Kashiwagi2015" class="csl-entry">
+Kashiwagi, J., L. Krishnamurthy, R. Purushothaman, H. D. Upadhyaya, P. M. Gaur, C. L. L. Gowda, and R. K. Varshney. 2015. <span>“Scope for Improvement of Yield Under Drought Through the Root Traits in Chickpea (Cicer Arietinum l.).”</span> <em>Field Crops Research</em> 170: 47–54. <a href="https://doi.org/10.1016/j.fcr.2014.10.003">https://doi.org/10.1016/j.fcr.2014.10.003</a>.
+</div>
+<div id="ref-Kato2006" class="csl-entry">
+Kato, Y., J. Abe, A. Kamoshita, and J. Yamagishi. 2006. <span>“Genotypic Variation in Root Growth Angle in Rice (Oryza Sativa l.) and Its Association with Deep Root Development in Upland Fields with Different Water Regimes.”</span> <em>Plant and Soil</em> 287: 117–29. <a href="https://doi.org/10.1007/s11104-006-9008-4">https://doi.org/10.1007/s11104-006-9008-4</a>.
+</div>
+<div id="ref-Khan2011" class="csl-entry">
+Khan, M. S. 2011. <span>“The Role of DREB Transcription Factors in Abiotic Stress Tolerance of Plants.”</span> <em>Biotechnology &amp; Biotechnological Equipment</em> 25 (3): 2433–42. <a href="https://doi.org/10.5504/BBEQ.2011.0072">https://doi.org/10.5504/BBEQ.2011.0072</a>.
+</div>
+<div id="ref-Lan2023" class="csl-entry">
+Lan, Y., F. Pan, K. Zhang, L. Wang, H. Liu, C. Jiang, and Y. Xiang. 2023. <span>“PhebZIP47, a bZIP Transcription Factor from Moso Bamboo (Phyllostachys Edulis), Positively Regulates the Drought Tolerance of Transgenic Plants.”</span> <em>Industrial Crops and Products</em> 197: 116538. <a href="https://doi.org/10.1016/j.indcrop.2023.116538">https://doi.org/10.1016/j.indcrop.2023.116538</a>.
+</div>
+<div id="ref-Lebel1998" class="csl-entry">
+Lebel, E., P. Heifetz, L. Thorne, S. Uknes, J. Ryals, and E. Ward. 1998. <span>“Functional Analysis of Regulatory Sequences Controlling <span>PR‐1</span> Gene Expression in <span>Arabidopsis</span>.”</span> <em>The Plant Journal</em> 16 (2): 223–33.
+</div>
+<div id="ref-Li2016" class="csl-entry">
+Li, B., D. Liu, Q. Li, X. Mao, A. Li, J. Wang, and R. Jing. 2016. <span>“Overexpression of Wheat Gene TaMOR Improves Root System Architecture and Grain Yield in Oryza Sativa.”</span> <em>Journal of Experimental Botany</em> 67 (14): 4155–67. <a href="https://doi.org/10.1093/jxb/erw193">https://doi.org/10.1093/jxb/erw193</a>.
+</div>
+<div id="ref-Lin2020" class="csl-entry">
+Lin, Q., S. Wang, Y. Dao, J. Wang, and K. Wang. 2020. <span>“Arabidopsis Thaliana Trehalose-6-Phosphate Phosphatase Gene TPPI Enhances Drought Tolerance by Regulating Stomatal Apertures.”</span> <em>Journal of Experimental Botany</em> 71 (14): 4285–97. <a href="https://doi.org/10.1093/jxb/eraa173">https://doi.org/10.1093/jxb/eraa173</a>.
+</div>
+<div id="ref-LiseideSa2017" class="csl-entry">
+Lisei-de-Sá, M. E., F. Arraes, G. G. Brito, M. A. Beneventi, I. Lourenço-Tessutti, A. M. Basso, and M. F. Grossi-de-Sa. 2017. <span>“AtDREB2A-CA Influences Root Architecture and Increases Drought Tolerance in Transgenic Cotton.”</span> <em>Agricultural Sciences</em> 8 (10): 857–72. <a href="https://doi.org/10.4236/as.2017.810087">https://doi.org/10.4236/as.2017.810087</a>.
+</div>
+<div id="ref-Liu2022" class="csl-entry">
+Liu, J., D. Shu, Z. Tan, M. Ma, N. Guo, S. Gao, and D. Cui. 2022. <span>“The Arabidopsis IDD14 Transcription Factor Interacts with bZIP-Type ABFs/AREBs and Cooperatively Regulates ABA-Mediated Drought Tolerance.”</span> <em>New Phytologist</em> 236 (3): 929–42. <a href="https://doi.org/10.1111/nph.18381">https://doi.org/10.1111/nph.18381</a>.
+</div>
+<div id="ref-Liu2023" class="csl-entry">
+Liu, W., T. Wang, Y. Wang, X. Liang, J. Han, and D. Han. 2023. <span>“MbMYBC1, a m. Baccata MYB Transcription Factor, Contributes to Cold and Drought Stress Tolerance in Transgenic Arabidopsis.”</span> <em>Frontiers in Plant Science</em> 14: 1141446. <a href="https://doi.org/10.3389/fpls.2023.1141446">https://doi.org/10.3389/fpls.2023.1141446</a>.
+</div>
+<div id="ref-Liu2024" class="csl-entry">
+Liu, W., J. W. Wei, Q. Shan, M. Liu, J. Xu, and B. Gong. 2024. <span>“Genetic Engineering of Drought- and Salt-Tolerant Tomato via Delta1-Pyrroline-5-Carboxylate Reductase s-Nitrosylation.”</span> <em>Plant Physiology</em>, kiae156. <a href="https://doi.org/10.1093/plphys/kiae156">https://doi.org/10.1093/plphys/kiae156</a>.
+</div>
+<div id="ref-Lynch2022" class="csl-entry">
+Lynch, J. P. 2022. <span>“Harnessing Root Architecture to Address Global Challenges.”</span> <em>The Plant Journal</em> 109 (2): 415–31.
+</div>
+<div id="ref-Mace2012" class="csl-entry">
+Mace, E. S., V. Singh, E. J. Van Oosterom, G. L. Hammer, C. H. Hunt, and D. R. Jordan. 2012. <span>“QTL for Nodal Root Angle in Sorghum (Sorghum Bicolor l. Moench) Co-Locate with QTL for Traits Associated with Drought Adaptation.”</span> <em>Theoretical and Applied Genetics</em> 124: 97–109. <a href="https://doi.org/10.1007/s00122-011-1690-9">https://doi.org/10.1007/s00122-011-1690-9</a>.
+</div>
+<div id="ref-Peng2023" class="csl-entry">
+Peng, Y., N. Tang, J. Zou, J. Ran, and X. Chen. 2023. <span>“Rice MYB Transcription Factor OsMYB1R1 Negatively Regulates Drought Resistance.”</span> <em>Plant Growth Regulation</em> 99 (3): 515–25. <a href="https://doi.org/10.1007/s10725-022-00922-w">https://doi.org/10.1007/s10725-022-00922-w</a>.
+</div>
+<div id="ref-Qu2022" class="csl-entry">
+Qu, X., J. Zou, J. Wang, K. Yang, X. Wang, and J. Le. 2022. <span>“A Rice R2R3-Type MYB Transcription Factor OsFLP Positively Regulates Drought Stress Response via OsNAC.”</span> <em>International Journal of Molecular Sciences</em> 23 (11): 5873. <a href="https://doi.org/10.3390/ijms23115873">https://doi.org/10.3390/ijms23115873</a>.
+</div>
+<div id="ref-Ranganayakulu2013" class="csl-entry">
+Ranganayakulu, G. S., G. Veeranagamallaiah, and C. Sudhakar. 2013. <span>“Effect of Salt Stress on Osmolyte Accumulation in Two Groundnut Cultivars (Arachis Hypogaea l.) with Contrasting Salt Tolerance.”</span> <em>African Journal of Plant Science</em> 12: 586–92. <a href="https://doi.org/10.5897/AJPS11.063">https://doi.org/10.5897/AJPS11.063</a>.
+</div>
+<div id="ref-doRego2021" class="csl-entry">
+Rego, T. F. C. do, M. P. Santos, G. B. Cabral, T. de Moura Cipriano, N. L. de Sousa, O. A. de Souza Neto, and F. J. L. Aragão. 2021. <span>“Expression of a DREB 5-a Subgroup Transcription Factor Gene from Ricinus Communis (RcDREB1) Enhanced Growth, Drought Tolerance and Pollen Viability in Tobacco.”</span> <em>Plant Cell, Tissue and Organ Culture (PCTOC)</em> 146 (3): 493–504. <a href="https://doi.org/10.1007/s11240-021-02082-7">https://doi.org/10.1007/s11240-021-02082-7</a>.
+</div>
+<div id="ref-RomeroReyes2023" class="csl-entry">
+Romero-Reyes, A., J. P. Valenzuela-Avendaño, C. G. Figueroa-Soto, J. O. Mascorro-Gallardo, G. Iturriaga, A. Castellanos-Villegas, and E. M. Valenzuela-Soto. 2023. <span>“Wheat Transformation with ScTPS1-TPS2 Bifunctional Enzyme for Trehalose Biosynthesis Protects Photosynthesis During Drought Stress.”</span> <em>Applied Sciences</em> 13 (12): 7267. <a href="https://doi.org/10.3390/app13127267">https://doi.org/10.3390/app13127267</a>.
+</div>
+<div id="ref-Saddique2020" class="csl-entry">
+Saddique, M. A. B., Z. Ali, M. A. Sher, B. Farid, R. M. Ikram, and M. S. Ahmad. 2020. <span>“Proline, Total Antioxidant Capacity, and OsP5CS Gene Activity in Radical and Plumule of Rice Are Efficient Drought Tolerance Indicator Traits.”</span> <em>International Journal of Agronomy</em>, 1–9. <a href="https://doi.org/10.1155/2020/8862792">https://doi.org/10.1155/2020/8862792</a>.
+</div>
+<div id="ref-Sayar2007" class="csl-entry">
+Sayar, R., H. Khemira, and M. Kharrat. 2007. <span>“Inheritance of Deeper Root Length and Grain Yield in Half-Diallel Durum Wheat (Triticum Durum) Crosses.”</span> <em>Annals of Applied Biology</em> 151: 213–20. <a href="https://doi.org/10.1111/j.1744-7348.2007.00168.x">https://doi.org/10.1111/j.1744-7348.2007.00168.x</a>.
+</div>
+<div id="ref-Sheveleva1997" class="csl-entry">
+Sheveleva, E., W. Chmara, H. J. Bohnert, and R. G. Jensen. 1997. <span>“Increased Salt and Drought Tolerance by d-Ononitol Production in Transgenic Nicotiana Tabacum l.”</span> <em>Plant Physiology</em> 115 (3): 1211–19. <a href="https://doi.org/10.1104/pp.115.3.1211">https://doi.org/10.1104/pp.115.3.1211</a>.
+</div>
+<div id="ref-Singh2011a" class="csl-entry">
+Singh, L. R., N. K. Poddar, T. A. Dar, R. Kumar, and F. Ahmad. 2011. <span>“Protein and DNA Destabilization by Osmolytes: The Other Side of the Coin.”</span> <em>Life Sciences</em> 88 (3–4): 117–25. <a href="https://doi.org/10.1016/j.lfs.2010.10.020">https://doi.org/10.1016/j.lfs.2010.10.020</a>.
+</div>
+<div id="ref-Singh2011b" class="csl-entry">
+Singh, V., E. J. van Oosterom, D. R. Jordan, C. H. Hunt, and G. L. Hammer. 2011. <span>“Genetic Variability and Control of Nodal Root Angle in Sorghum.”</span> <em>Crop Science</em> 51 (5): 2011–20. <a href="https://doi.org/10.2135/cropsci2011.01.0038">https://doi.org/10.2135/cropsci2011.01.0038</a>.
+</div>
+<div id="ref-Sun2022" class="csl-entry">
+Sun, S., X. Li, S. Gao, N. Nie, H. Zhang, Y. Yang, and H. Zhai. 2022. <span>“A Novel WRKY Transcription Factor from Ipomoea Trifida, ItfWRKY70, Confers Drought Tolerance in Sweet Potato.”</span> <em>International Journal of Molecular Sciences</em> 23 (2): 686. <a href="https://doi.org/10.3390/ijms23020686">https://doi.org/10.3390/ijms23020686</a>.
+</div>
+<div id="ref-Sun2014" class="csl-entry">
+Sun, X., X. Luo, M. Sun, C. Chen, X. Ding, X. Wang, and Y. Zhu. 2014. <span>“A Glycine Soja 14-3-3 Protein GsGF14o Participates in Stomatal and Root Hair Development and Drought Tolerance in Arabidopsis Thaliana.”</span> <em>Plant and Cell Physiology</em> 55 (1): 99–118. <a href="https://doi.org/10.1093/pcp/pct161">https://doi.org/10.1093/pcp/pct161</a>.
+</div>
+<div id="ref-Tiwari2010" class="csl-entry">
+Tiwari, J. K., A. D. Munshi, R. Kumar, R. N. Pandey, A. Arora, J. S. Bhat, and A. K. Sureja. 2010. <span>“Effect of Salt Stress on Cucumber: Na+–k+ Ratio, Osmolyte Concentration, Phenols and Chlorophyll Content.”</span> <em>Acta Physiologiae Plantarum</em> 32 (1): 103–14. <a href="https://doi.org/10.1007/s11738-009-0385-1">https://doi.org/10.1007/s11738-009-0385-1</a>.
+</div>
+<div id="ref-Uga2013b" class="csl-entry">
+Uga, Y., E. Yamamoto, N. Kanno, S. Kawai, T. Mizubayashi, and S. Fukuoka. 2013. <span>“A Major QTL Controlling Deep Rooting on Rice Chromosome 4.”</span> <em>Scientific Reports</em> 3: 3040. <a href="https://doi.org/10.1038/srep03040">https://doi.org/10.1038/srep03040</a>.
+</div>
+<div id="ref-Vinocur2005" class="csl-entry">
+Vinocur, B., and A. Altman. 2005. <span>“Recent Advances in Engineering Plant Tolerance to Abiotic Stress: Achievements and Limitations.”</span> <em>Current Opinion in Biotechnology</em> 16: 123–32. <a href="https://doi.org/10.1016/j.copbio.2005.02.001">https://doi.org/10.1016/j.copbio.2005.02.001</a>.
+</div>
+<div id="ref-Vonapartis2022" class="csl-entry">
+Vonapartis, E., D. Mohamed, J. Li, W. Pan, J. Wu, and S. Gazzarrini. 2022. <span>“CBF4/DREB1D Represses XERICO to Attenuate ABA, Osmotic and Drought Stress Responses in Arabidopsis.”</span> <em>The Plant Journal</em> 110 (4): 961–77. <a href="https://doi.org/10.1111/tpj.15713">https://doi.org/10.1111/tpj.15713</a>.
+</div>
+<div id="ref-Wang2020a" class="csl-entry">
+Wang, J., F. Wang, C. Jin, Y. Tong, and T. Wang. 2020. <span>“A R2R3-MYB Transcription Factor VvMYBF1 from Grapevine (Vitis Vinifera l.) Regulates Flavonoids Accumulation and Abiotic Stress Tolerance in Transgenic Arabidopsis.”</span> <em>The Journal of Horticultural Science and Biotechnology</em> 95 (2): 147–61. <a href="https://doi.org/10.1080/14620316.2019.1665480">https://doi.org/10.1080/14620316.2019.1665480</a>.
+</div>
+<div id="ref-Wang2020b" class="csl-entry">
+Wang, L., Y. Wu, Y. Tian, T. Dai, G. Xie, Y. Xu, and F. Chen. 2020. <span>“Overexpressing Jatropha Curcas CBF2 in Nicotiana Benthamiana Improved Plant Tolerance to Drought Stress.”</span> <em>Gene</em> 742: 144588. <a href="https://doi.org/10.1016/j.gene.2020.144588">https://doi.org/10.1016/j.gene.2020.144588</a>.
+</div>
+<div id="ref-Wang2020c" class="csl-entry">
+Wang, Y., Y. Yu, J. Wang, Q. Chen, and Z. Ni. 2020. <span>“Heterologous Overexpression of the GbTCP5 Gene Increased Root Hair Length, Root Hair and Stem Trichome Density, and Lignin Content in Transgenic Arabidopsis.”</span> <em>Gene</em> 758: 144954. <a href="https://doi.org/10.1016/j.gene.2020.144954">https://doi.org/10.1016/j.gene.2020.144954</a>.
+</div>
+<div id="ref-Wani2013" class="csl-entry">
+Wani, S. H., N. B. Singh, A. Haribhushan, and J. I. Mir. 2013. <span>“Compatible Solute Engineering in Plants for Abiotic Stress Tolerance-Role of Glycine Betaine.”</span> <em>Current Genomics</em> 14: 157–65. <a href="https://doi.org/10.2174/1389202911314030001">https://doi.org/10.2174/1389202911314030001</a>.
+</div>
+<div id="ref-Wu2022" class="csl-entry">
+Wu, M., K. Zhang, Y. Xu, L. Wang, H. Liu, Z. Qin, and Y. Xiang. 2022. <span>“The Moso Bamboo WRKY Transcription Factor, PheWRKY86, Regulates Drought Tolerance in Transgenic Plants.”</span> <em>Plant Physiology and Biochemistry</em> 170: 180–91. <a href="https://doi.org/10.1016/j.plaphy.2021.10.024">https://doi.org/10.1016/j.plaphy.2021.10.024</a>.
+</div>
+<div id="ref-Xiao2022" class="csl-entry">
+Xiao, S., Y. Wu, S. Xu, H. Jiang, Q. Hu, W. Yao, and M. Zhang. 2022. <span>“Field Evaluation of TaDREB2B-Ectopic Expression Sugarcane (Saccharum Spp. Hybrid) for Drought Tolerance.”</span> <em>Frontiers in Plant Science</em> 13: 963377. <a href="https://doi.org/10.3389/fpls.2022.963377">https://doi.org/10.3389/fpls.2022.963377</a>.
+</div>
+<div id="ref-Yadav2013" class="csl-entry">
+Yadav, R. C., A. U. Solanke, P. Kumar, D. Pattanayak, N. R. Yadav, and P. A. Kumar. 2013. <span>“Genetic Engineering for Tolerance to Climate Change-Related Traits.”</span> In <em>Genomics and Breeding for Climate-Resilient Crops: Vol. 1 Concepts and Strategies</em>, 285–330. Springer. <a href="https://doi.org/10.1007/978-3-642-37045-8_7">https://doi.org/10.1007/978-3-642-37045-8_7</a>.
+</div>
+<div id="ref-Yancey2005" class="csl-entry">
+Yancey, P. H. 2005. <span>“Organic Osmolytes as Compatible, Metabolic and Counteracting Cytoprotectants in High Osmolarity and Other Stresses.”</span> <em>Journal of Experimental Biology</em> 208 (15): 2819–30. <a href="https://doi.org/10.1242/jeb.01730">https://doi.org/10.1242/jeb.01730</a>.
+</div>
+<div id="ref-Yang2023" class="csl-entry">
+Yang, B., L. Zhang, S. Xiang, H. Chen, C. Qu, K. Lu, and J. Li. 2023. <span>“Identification of Trehalose-6-Phosphate Synthase (TPS) Genes Associated with Both Source-/Sink-Related Yield Traits and Drought Response in Rapeseed (Brassica Napus l.).”</span> <em>Plants</em> 12 (5): 981. <a href="https://doi.org/10.3390/plants12050981">https://doi.org/10.3390/plants12050981</a>.
+</div>
+<div id="ref-Yang2020a" class="csl-entry">
+Yang, Y., T. F. Yu, J. Ma, J. Chen, Y. B. Zhou, M. Chen, and Z. S. Xu. 2020. <span>“The Soybean bZIP Transcription Factor Gene GmbZIP2 Confers Drought and Salt Resistances in Transgenic Plants.”</span> <em>International Journal of Molecular Sciences</em> 21 (2): 670. <a href="https://doi.org/10.3390/ijms21020670">https://doi.org/10.3390/ijms21020670</a>.
+</div>
+<div id="ref-Yang2020b" class="csl-entry">
+Yang, Z., X. Chi, F. Guo, X. Jin, H. Luo, A. Hawar, and B. Sun. 2020. <span>“SbWRKY30 Enhances the Drought Tolerance of Plants and Regulates a Drought Stress-Responsive Gene, SbRD19, in Sorghum.”</span> <em>Journal of Plant Physiology</em> 246: 153142. <a href="https://doi.org/10.1016/j.jplph.2020.153142">https://doi.org/10.1016/j.jplph.2020.153142</a>.
+</div>
+<div id="ref-Yao2022" class="csl-entry">
+Yao, C., X. Li, Y. Li, G. Yang, W. Liu, B. Shao, and D. Han. 2022. <span>“Overexpression of a Malus Baccata MYB Transcription Factor Gene MbMYB4 Increases Cold and Drought Tolerance in Arabidopsis Thaliana.”</span> <em>International Journal of Molecular Sciences</em> 23 (3): 1794. <a href="https://doi.org/10.3390/ijms23031794">https://doi.org/10.3390/ijms23031794</a>.
+</div>
+<div id="ref-Zhang2022" class="csl-entry">
+Zhang, J., D. Huang, X. Zhao, M. Zhang, Q. Wang, X. Hou, and P. Sun. 2022. <span>“Drought-Responsive WRKY Transcription Factor Genes IgWRKY50 and IgWRKY32 from Iris Germanica Enhance Drought Resistance in Transgenic Arabidopsis.”</span> <em>Frontiers in Plant Science</em> 13: 983600. <a href="https://doi.org/10.3389/fpls.2022.983600">https://doi.org/10.3389/fpls.2022.983600</a>.
+</div>
+<div id="ref-Zhao2022" class="csl-entry">
+Zhao, H., H. Zhao, Y. Hu, S. Zhang, S. He, H. Zhang, and H. Zhai. 2022. <span>“Expression of the Sweet Potato MYB Transcription Factor IbMYB48 Confers Salt and Drought Tolerance in Arabidopsis.”</span> <em>Genes</em> 13 (10): 1883. <a href="https://doi.org/10.3390/genes13101883">https://doi.org/10.3390/genes13101883</a>.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>24 October 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>01 December 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>02 December 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<strong>Dr.&nbsp;Veena Vighneswaran</strong><br>
+<em>Associate Professor</em><br>
+<em>Kerala Agricultural University</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<strong>Dr.&nbsp;Ajith P M</strong><br>
+<em>Associate Professor</em><br>
+<em>Kerala Agricultural University</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
+</blockquote>
+
+
+
+</section>
+
+ ]]></description>
+  <category>Review-Article</category>
+  <category>Breeding</category>
+  <category>Biotech</category>
+  <guid>https://www.jostapubs.com/volume1/issue2/JOSTA2025109178/JOSTA2025109178.html</guid>
+  <pubDate>Mon, 01 Dec 2025 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Bibliometric Analysis on Livelihood Security Research: Trends, Patterns and Future Directions</title>
   <dc:creator>Athira K*</dc:creator>
@@ -20,6 +558,7 @@
   <dc:creator>Anandhu S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025118B5B/JOSTA2025118B5B.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -795,6 +1334,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html</link>
   <description><![CDATA[ 
 
+
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
 
@@ -1364,6 +1904,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Allan Thomas</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -1967,6 +2508,7 @@ which permits unrestricted use, distribution, and reproduction in any medium, pr
   <dc:creator>Sheeja K Raj</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -2590,6 +3132,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Durga A R</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -3458,6 +4001,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Gopika Somanath</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -4500,6 +5044,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html</link>
   <description><![CDATA[ 
 
+
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
 
@@ -5185,8 +5730,7 @@ Table&nbsp;3: Regression analysis of the developed web application
 <h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
 <p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
 <p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
-<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
-<div style="page-break-after: always;"></div>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts. </p><div style="page-break-after: always;"></div><p></p>
 </section>
 <section id="conclusion" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
@@ -5356,6 +5900,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Ashadevi S S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/Denny/JOSTA20250617172925171.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -6549,6 +7094,7 @@ Publication &amp; Reviewer Details
   <dc:creator>Dijee Bastian</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -7843,6 +8389,7 @@ Publication &amp; Reviewer Details
   <dc:creator>Mini V</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/AGRON/JOSTA615202501736.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -9285,6 +9832,7 @@ Publication &amp; Reviewer Details
   <link>https://www.jostapubs.com/volume1/issue1/AGECONOMICS/JOSTA11CS1.html</link>
   <description><![CDATA[ 
 
+
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
 
@@ -10077,6 +10625,7 @@ ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid
   <dc:creator>Vijayaraghava Kumar</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/lovelyB/generationmean.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -11681,6 +12230,7 @@ Assistant Professor&nbsp; Plant Breeding &amp; Genetics Kerala Agricultural Univ
   <dc:creator>Pratheesh P Gopinath&lt;sup&gt;*&lt;/sup&gt;</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/josta111raisins2025.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
