@@ -1,5 +1,5 @@
 ---
-title: "Designs for sensory experiments and product optimisation: A comprehensive review"
+title: "Designs for Sensory Experiments and Product Optimisation: A Comprehensive Review"
 author:  
   - name: Gaatha Prasad
     affiliations:
