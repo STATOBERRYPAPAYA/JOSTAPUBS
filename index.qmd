@@ -115,9 +115,11 @@ listing:
 </div>  
 
 
-<!-- JOSTA credibility & indexing marquee (OA, peer-review, indexing, archiving, DOI, CODEN) -->
+<!-- JOSTA credibility & indexing marquee-->
 <div class="josta-ribbon" aria-label="journal indexing and credibility badges">
   <div class="jr-track">
+
+    <!-- ========== PRIMARY CHIP SET (START) ========== -->
 
     <!-- Open Access (inline vector) -->
     <span class="jr-chip jr-oa" aria-label="Open Access">
@@ -140,19 +142,31 @@ listing:
     </span>
 
     <!-- OpenAIRE (image logo) -->
-    <a class="jr-chip jr-openaire" href="https://www.openaire.eu/" target="_blank" rel="noopener" aria-label="OpenAIRE indexed">
+    <a class="jr-chip jr-openaire"
+       href="https://www.openaire.eu/"
+       target="_blank"
+       rel="noopener"
+       aria-label="OpenAIRE indexed">
       <img class="jr-icon jr-img" src="www/openaire.png" alt="OpenAIRE">
       <span>indexed</span>
     </a>
 
     <!-- Zenodo (image logo) -->
-    <a class="jr-chip jr-zenodo" href="https://zenodo.org/communities/josta/" target="_blank" rel="noopener" aria-label="Zenodo archived">
+    <a class="jr-chip jr-zenodo"
+       href="https://zenodo.org/communities/josta/"
+       target="_blank"
+       rel="noopener"
+       aria-label="Zenodo archived">
       <img class="jr-icon jr-img" src="www/zenodo.png" alt="Zenodo">
       <span>archived</span>
     </a>
 
     <!-- Crossref (image logo) -->
-    <a class="jr-chip jr-crossref" href="https://www.crossref.org/" target="_blank" rel="noopener" aria-label="Crossref DOI">
+    <a class="jr-chip jr-crossref"
+       href="https://www.crossref.org/"
+       target="_blank"
+       rel="noopener"
+       aria-label="Crossref DOI">
       <img class="jr-icon jr-img" src="www/crossref.png" alt="Crossref">
       <span>Crossref DOI</span>
     </a>
@@ -166,17 +180,33 @@ listing:
       </svg>
       <span>CODEN: JSTACI</span>
     </span>
-    
+
     <!-- Google Scholar (image logo, white background) -->
-<a class="jr-chip jr-gscholar" 
-   href="https://scholar.google.com/scholar?hl=en&q=JOSTA+Journal+of+Sustainable+Technology+in+Agriculture" 
-   target="_blank" 
-   rel="noopener" 
-   aria-label="Google Scholar indexed">
-  <img class="jr-icon jr-img" src="www/gscholar.webp" alt="Google Scholar">
-  <span>indexed</span>
-</a>
-    <!-- duplicate for seamless scroll -->
+    <a class="jr-chip jr-gscholar"
+       href="https://scholar.google.com/scholar?hl=en&q=JOSTA+Journal+of+Sustainable+Technology+in+Agriculture"
+       target="_blank"
+       rel="noopener"
+       aria-label="Google Scholar indexed">
+      <img class="jr-icon jr-img" src="www/gscholar.webp" alt="Google Scholar">
+      <span>indexed</span>
+    </a>
+
+    <!-- Internet Archive (image logo) -->
+    <a class="jr-chip jr-intarch"
+       href="https://archive.org/details/@josta_open-access_journal"
+       target="_blank"
+       rel="noopener"
+       aria-label="Internet Archive preserved">
+      <img class="jr-icon jr-img" src="www/intarch.webp" alt="Internet Archive">
+      <span>preserved</span>
+    </a>
+
+    <!-- ========== PRIMARY CHIP SET (END) ========== -->
+
+
+    <!-- ========== DUPLICATE CHIP SET FOR SEAMLESS SCROLL (START) ========== -->
+
+    <!-- Open Access (inline vector) - duplicate -->
     <span class="jr-chip jr-oa" aria-label="Open Access">
       <svg class="jr-icon" viewBox="0 0 24 24" aria-hidden="true">
         <path d="M7 10V7a5 5 0 0 1 10 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -186,6 +216,7 @@ listing:
       <span>Open Access</span>
     </span>
 
+    <!-- Peer-reviewed (inline vector) - duplicate -->
     <span class="jr-chip jr-peer" aria-label="Peer-reviewed">
       <svg class="jr-icon" viewBox="0 0 24 24" aria-hidden="true">
         <path d="M3 20a6 6 0 0 1 9-5m9 5a6 6 0 0 0-9-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -195,21 +226,37 @@ listing:
       <span>Peer-reviewed</span>
     </span>
 
-    <a class="jr-chip jr-openaire" href="https://www.openaire.eu/" target="_blank" rel="noopener" aria-label="OpenAIRE indexed">
+    <!-- OpenAIRE (image logo) - duplicate -->
+    <a class="jr-chip jr-openaire"
+       href="https://www.openaire.eu/"
+       target="_blank"
+       rel="noopener"
+       aria-label="OpenAIRE indexed">
       <img class="jr-icon jr-img" src="www/openaire.png" alt="OpenAIRE">
       <span>indexed</span>
     </a>
 
-    <a class="jr-chip jr-zenodo" href="https://zenodo.org/communities/josta/" target="_blank" rel="noopener" aria-label="Zenodo archived">
+    <!-- Zenodo (image logo) - duplicate -->
+    <a class="jr-chip jr-zenodo"
+       href="https://zenodo.org/communities/josta/"
+       target="_blank"
+       rel="noopener"
+       aria-label="Zenodo archived">
       <img class="jr-icon jr-img" src="www/zenodo.png" alt="Zenodo">
       <span>archived</span>
     </a>
 
-    <a class="jr-chip jr-crossref" href="https://www.crossref.org/" target="_blank" rel="noopener" aria-label="Crossref DOI">
+    <!-- Crossref (image logo) - duplicate -->
+    <a class="jr-chip jr-crossref"
+       href="https://www.crossref.org/"
+       target="_blank"
+       rel="noopener"
+       aria-label="Crossref DOI">
       <img class="jr-icon jr-img" src="www/crossref.png" alt="Crossref">
       <span>Crossref DOI</span>
     </a>
 
+    <!-- CODEN (styled like other chips) - duplicate -->
     <span class="jr-chip jr-coden" aria-label="CODEN JSTACI">
       <svg class="jr-icon" viewBox="0 0 24 24" aria-hidden="true">
         <rect x="3" y="6" width="18" height="12" rx="2"
@@ -218,17 +265,28 @@ listing:
       </svg>
       <span>CODEN: JSTACI</span>
     </span>
-    
-    <!-- Google Scholar (image logo, white background) -->
-<a class="jr-chip jr-gscholar" 
-   href="https://scholar.google.com/scholar?hl=en&q=JOSTA+Journal+of+Sustainable+Technology+in+Agriculture" 
-   target="_blank" 
-   rel="noopener" 
-   aria-label="Google Scholar indexed">
-  <img class="jr-icon jr-img" src="www/gscholar.webp" alt="Google Scholar">
-  <span>indexed</span>
-</a>
 
+    <!-- Google Scholar (image logo, white background) - duplicate -->
+    <a class="jr-chip jr-gscholar"
+       href="https://scholar.google.com/scholar?hl=en&q=JOSTA+Journal+of+Sustainable+Technology+in+Agriculture"
+       target="_blank"
+       rel="noopener"
+       aria-label="Google Scholar indexed">
+      <img class="jr-icon jr-img" src="www/gscholar.webp" alt="Google Scholar">
+      <span>indexed</span>
+    </a>
+
+    <!-- Internet Archive (image logo) - duplicate -->
+    <a class="jr-chip jr-intarch"
+       href="https://archive.org/details/@josta_open-access_journal"
+       target="_blank"
+       rel="noopener"
+       aria-label="Internet Archive preserved">
+      <img class="jr-icon jr-img" src="www/intarch.webp" alt="Internet Archive">
+      <span>preserved</span>
+    </a>
+
+    <!-- ========== DUPLICATE CHIP SET (END) ========== -->
 
   </div>
 </div>
@@ -261,7 +319,7 @@ listing:
   animation-play-state: paused;
 }
 
-/* chips */
+/* chips - base style */
 .jr-chip {
   display: inline-flex;
   align-items: center;
@@ -290,21 +348,22 @@ listing:
   animation: jr-shine 5s ease-in-out infinite;
 }
 
-/* Google Scholar chip */
-.jr-gscholar {
-  background: #ffffff;                    /* pure white background */
-  color: #1f345c;                         /* JOSTA navy for text */
-  border: 1px solid rgba(0,0,0,.12);      /* light border for contrast */
-}
-
-.jr-gscholar .jr-icon {
+/* icons */
+.jr-icon {
   height: 22px;
   width: auto;
-  filter: none;                           /* keep original gscholar colors */
+  color: #fff;
+  filter: drop-shadow(0 0 2px rgba(255,255,255,.35));
+  transition: transform .3s ease;
+}
+.jr-img {
+  filter: none; /* keep original logo colours */
+}
+.jr-chip:hover .jr-icon {
+  transform: scale(1.1);
 }
 
-
-/* gradients */
+/* gradients (service-specific) */
 .jr-oa {
   background: linear-gradient(90deg,#ff9a3d,#ff6a00);
 }
@@ -324,19 +383,27 @@ listing:
   background: linear-gradient(90deg,#7e7e7e,#4f4f4f);
 }
 
-/* icons */
-.jr-icon {
+/* Google Scholar chip */
+.jr-gscholar {
+  background: #ffffff;                    /* pure white background */
+  color: #1f345c;                         /* JOSTA navy for text */
+  border: 1px solid rgba(0,0,0,.12);      /* light border for contrast */
+}
+.jr-gscholar .jr-icon {
   height: 22px;
   width: auto;
-  color: #fff;
-  filter: drop-shadow(0 0 2px rgba(255,255,255,.35));
-  transition: transform .3s ease;
+  filter: none;                           /* keep original Google Scholar colours */
 }
-.jr-img {
-  filter: none; /* keep original logo colours */
+
+/* Internet Archive chip */
+.jr-intarch {
+  background: linear-gradient(90deg,#f2f2ed,#949403); /* dark archival look */
+  color: #ffffff;
 }
-.jr-chip:hover .jr-icon {
-  transform: scale(1.1);
+.jr-intarch .jr-icon {
+  height: 22px;
+  width: auto;
+  filter: none; /* keep original Internet Archive logo colours */
 }
 
 /* animations */
@@ -370,6 +437,7 @@ listing:
 </style>
 
 
+
 <!-- icon-only, unobtrusive quick links -->
 <nav class="icon-strip" aria-label="section shortcuts">
   <a href="#about" title="About"><i class="bi bi-info-circle-fill" aria-hidden="true"></i></a>
@@ -393,7 +461,7 @@ listing:
 
 ## Recent articles {.unnumbered}
 
-![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)
+![Open Access](https://img.shields.io/badge/open--access-yes-brightgreen.svg) ![License](https://img.shields.io/badge/license-CC--BY--NC--ND%204.0-blue.svg) ![Open Source](https://img.shields.io/badge/open--source-yes-blue.svg) ![DOI](https://img.shields.io/badge/DOI-enabled-orange.svg)
 
 ::: {#articles}
 :::  
@@ -529,7 +597,7 @@ We are committed to academic integrity and scientific excellence. All manuscript
 We are also a registered member of [Crossref](https://www.crossref.org/) 
 , the global scholarly infrastructure that connects research publications through persistent Digital Object Identifiers (DOIs). Every article published in JOSTA is assigned a unique Crossref DOI, ensuring permanent identification, reliable citation linking, and global discoverability across academic databases such as Google Scholar and OpenAIRE.
 
-Article metadata and publication records are preserved in [Zenodo](https://zenodo.org), with all full-text PDFs permanently stored in the [Internet Archive](https://archive.org/details/@josta_open-access_journal). Website pages are version-controlled through `GitHub` to ensure transparent version history and long-term preservation. JOSTA maintains a dedicated [Zenodo community](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), providing secure, long-term archiving of published articles in CERN’s data centre for as long as CERN exists. Through [OpenAIRE indexing](https://www.openaire.eu/), JOSTA’s publications are integrated into global research infrastructures, ensuring broad visibility, discoverability, and compliance with open-science mandates. For further information, see the Archiving & Digital Preservation page (archive.qmd).  
+Article metadata and publication records are preserved in [Zenodo](https://zenodo.org), with all full-text PDFs permanently stored in the [Internet Archive](https://archive.org/details/@josta_open-access_journal). Website pages are version-controlled through `GitHub` to ensure transparent version history and long-term preservation. JOSTA maintains a dedicated [Zenodo community](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), providing secure, long-term archiving of published articles in CERN’s data centre for as long as CERN exists. Through [OpenAIRE indexing](https://www.openaire.eu/), JOSTA’s publications are integrated into global research infrastructures, ensuring broad visibility, discoverability, and compliance with open-science mandates. For further information, see the [Archiving & Digital Preservation page](#archive.qmd).  
 
 The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.
 
