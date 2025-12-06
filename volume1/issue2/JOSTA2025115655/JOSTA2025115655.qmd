@@ -1,0 +1,435 @@
+---
+title: "Dielectric barrier discharge cold plasma for managing red flour beetle, *Tribolium castaneum* (Herbst)"
+author:  
+  - name: Muhammed Nasil
+    affiliations:
+      - name: Kerala Agricultural University 
+        department: Agricultural Entomology
+        address: College of Agriculture 
+        city: Thrissur
+        country: India
+    email: muhammed-2023-11-122@student.kau.in
+    orcid: "0009-0002-8780-4484"
+   
+  - name: Berin Pathrose*
+    affiliations:
+      - name: Kerala Agricultural University  
+        department: Agricultural Entomology
+        address: College of Agriculture
+        city: Thrissur
+        country: India
+    email: berin.pathrose@kau.in
+    orcid: "0000-0001-5345-7838"
+    url: https://kau.in/people/dr-berin-pathrose
+    note: Corresponding author
+
+  - name: N U Visakh
+    affiliations:
+      - name: Kerala Agricultural University  
+        department: Agricultural Entomology
+        address: ICAR-Krishi Vigyan Kendra 
+        city: Malappuram
+        country: India
+    email: visakh.nu@kau.in
+    orcid: "0000-0002-8322-811X"
+    url: https://kvkmalappuram.kau.in/people/dr-visakh-n-u
+
+  - name: Mani Chellappan
+    affiliations:
+      - name: Kerala Agricultural University  
+        department: Agricultural Entomology
+        address: College of Agriculture
+        city: Thrissur
+        country: India
+    email: mani.chellappan@kau.in
+    orcid: "0000-0002-3074-0590"
+    url: https://kau.in/people/drmani-chellappan
+    
+  - name: Haseena Bhaskar
+    affiliations:
+      - name: Kerala Agricultural University  
+        department: Agricultural Entomology
+        address: College of Agriculture
+        city: Thrissur
+        country: India
+    email: haseena.bhaskar@kau.in
+    orcid: "0000-0002-6701-5632"
+    url: https://kau.in/people/dr-haseena-bhaskar
+    
+  - name: K P Sudheer
+    affiliations:
+      - name: Kerala Agricultural University  
+        department: Agricultural Engineering
+        address: College of Agriculture
+        city: Thrissur
+        country: India
+    email: kp.sudheer@kau.in
+    orcid: "0000-0001-9981-2356"
+    url: https://kau.in/people/dr-sudheer-k-p
+    
+abstract: |
+  The red flour beetle, *Tribolium castaneum* (Coleoptera: Tenebrionidae), is one of the major stored products pests, causing substantial economic losses globally. The increasing restrictions on chemical fumigants necessitate the development of eco-friendly alternatives. This study has found the insecticidal potential of a pin-to-plate dielectric barrier discharge (DBD) cold plasma system against adult of the red flour beetle. Adults were exposed to plasma at varying voltages (15, 20, and 25 kV) and durations (30, 45, and 60 minutes) at a constant electrode distance of 9 cm with five adults per treatment. Mortality was assessed 3, 4, and 5 days post-treatment. Results showed mortality is directly dependent on voltage, exposure duration, and post-treatment time. The highest mortality (55±10.00%) was recorded at 25 kV after 60 minutes of exposure, observed 5 days after treatment. These findings conclude that cold plasma is a promising non-thermal technology for managing *T. castaneum*, but parameter optimisation is crucial for achieving maximum efficacy.  
+
+description: >  
+   The red flour beetle, *Tribolium castaneum* (Coleoptera: Tenebrionidae), is one of the major stored products pests, causing substantial economic losses globally. The increasing restrictions on chemical fumigants necessitate the development of eco-friendly alternatives.<a href="/volume1/issue2/JOSTA2025115655/JOSTA2025115655.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style>
+
+keywords: [Tribolium castaneum, Cold plasma, Pest management, Stored products, Non-thermal technology, Eco-friendly]  
+categories: [Original-Article,Pests,PostHarvest,Sustainable-Technology]
+bibliography: JOSTA-202511-5655.bib
+date: 2025-12-06
+doi: 10.65287/josta.202511.5655  
+status: Published (Online)
+volume: "1"
+issue: "2"
+pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025115655/pdfs/JOSTA-202511-5655.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025115655/JOSTA2025115655.html"  
+include-before-body:
+  text: |  
+    <!-- JOSTA issue banner -->
+    <section class="josta-issue-banner" aria-label="Journal issue banner">
+      <div class="jib-wrap">
+        
+        <!-- Cover -->
+        <div class="jib-cover">
+          <img src="cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+        </div>
+
+        <!-- Meta -->
+        <div class="jib-meta">
+          <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+          <h2 class="jib-subtitle">
+            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
+               target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+            &bull;
+            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
+               target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+            &bull; 2025
+          </h2>
+
+          <p class="jib-line">
+            <span class="jib-label">ISSN (online)</span>
+            <span class="jib-value">
+              <a href="https://portal.issn.org/resource/ISSN/3107-6882"
+                 target="_blank" rel="noopener" class="jib-issn-link">
+                3107-6882
+              </a>
+            </span>
+          </p>
+
+          <p class="jib-line">
+            <span class="jib-label">License</span>
+            <span class="jib-value">
+              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" 
+                 target="_blank" rel="noopener" class="jib-license-link">
+                CC BY-NC-ND 4.0
+              </a>
+            </span>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <style>
+      :root {
+        --j-navy:#0053ed;
+        --j-brown:#8b6a3a;
+        --j-green:#0b5a56;
+        --j-beige:#f8f3ea;
+      }
+
+      .josta-issue-banner {
+        background: linear-gradient(115deg, var(--j-beige), #ffffff);
+        border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+        padding: 1.8rem 1.4rem;
+        margin-bottom: 1.6rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .jib-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        gap: 1.6rem;
+        align-items: center;
+      }
+
+      /* Cover image — NO ROUNDED CORNERS */
+      .jib-cover img {
+        display: block;
+        max-width: 120px;
+        height: auto;
+        border-radius: 0;      /* removed curve */
+        box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+      }
+
+      .jib-journal-tag {
+        margin: 0 0 0.4rem 0;
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--j-green);
+      }
+
+      .jib-subtitle {
+        margin: 0 0 0.7rem 0;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--j-navy);
+        opacity: 0.85;
+      }
+
+      /* Volume/Issue links */
+      .jib-vi-link {
+        color: var(--j-navy);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .jib-vi-link:hover { text-decoration: underline; }
+
+      .jib-line {
+        margin: 0.15rem 0;
+        font-size: 0.95rem;
+        display: flex;
+        gap: 0.4rem;
+        align-items: baseline;
+        color: #333;
+      }
+
+      .jib-label {
+        font-weight: 600;
+        color: var(--j-navy);
+      }
+
+      /* ISSN link */
+      .jib-issn-link {
+        color: var(--j-navy);
+        text-decoration: none;
+      }
+      .jib-issn-link:hover { text-decoration: underline; }
+
+      /* License link */
+      .jib-license-link {
+        color: var(--j-green);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .jib-license-link:hover { text-decoration: underline; }
+
+      @media (max-width: 640px) {
+        .jib-wrap { flex-direction: row; align-items: flex-start; }
+        .jib-cover img { max-width: 90px; }
+        .jib-journal-tag { font-size: 1.05rem; }
+        .jib-subtitle { font-size: 0.9rem; }
+      }
+
+      @media (max-width: 480px) {
+        .jib-wrap { flex-direction: column; align-items: flex-start; }
+      }
+    </style>
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.5655-blue?logo=doi)](https://doi.org/10.65287/josta.202511.5655) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/17838540)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202511-5655.pdf" download class="j-btn" aria-label="download pdf">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202511.5655" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Nasil, M., Pathrose, B., N.U., V., Chellappan, M., Bhaskar, H., & Kundukulangara Pulissery, S. (2025). Dielectric barrier discharge cold plasma for managing red flour beetle, Tribolium castaneum (Herbst). 1(2). https://doi.org/10.65287/josta.202511.5655
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+---  
+
+## Introduction
+
+Pest infestations in stored food products are a primary threat to global food security. Post-harvest losses due to insect pests are estimated to be between 5-15% globally, and in some regions, losses can reach up to 20-30% representing a significant economic impact on the food supply chain [@Stathas2023effects]. Among these most notorious pests is the red flour beetle, *Tribolium castaneum* (Herbst). *T. castaneum* is one of the most widespread and damaging secondary pests of various stored grains and processed food products, such as flour, cereals, and processed foods [@Awadalla2023stored]. There was an increased population growth of these pests due to their high reproductive rate and rapid life cycle, thus leading to widespread infestations. Infestations can be due to direct feeding damage, contamination with insect fragments and faeces, and the formation of mould growth, resulting in larger economic losses and quality degradation. And also, the pests can secrete some chemicals like benzoquinones, which can impart a brownish tinge and a pungent, disagreeable odour to flour, making it unmarketable. [@Loconti1953odorous; @Negi2022defect].
+
+For decades, managing stored-product pests was highly relied on synthetic insecticides and fumigants. However, heavy examinations were done on the use of these chemicals due to concerns over insect resistance, harmful residues on food products, and negative environmental impacts [@Stejskal2021synthetic]. This has triggered research into non-chemical, physical treatment methods. Several physical treatments such as microwave (MW) irradiation and radiofrequency (RF) heating etc. were discovered for the management of these pests, but it liberates a higher heat energy at its higher treatment dosage making it undesirable effects on the food commodity. Cold plasma, regarded as the fourth state of matter, is a developing non-thermal technology having wide applications in the food processing and agricultural sectors [@Thirumdas2015cold]. It is actually a partially ionised gas generated by applying energy in the form of an electric field on any gas, thereby forming a rich mixture of reactive oxygen and nitrogen species (RONS), charged particles, and UV photons [@Chizoba2017review]. These reactive species are effective in killing microorganisms and insects without raising the temperature of the treated product, making it a better option for the commodities that are heat-labile [@Harikrishna2023review]. Moreover, the insecticidal properties of cold plasma against various storage pests have been demonstrated in various studies, including *Sitophilus oryzae, Plodia interpunctella,* and *Rhyzopertha dominica* [@Esmaeili2021green; @Madathil2021inpackage; @Than2024control]. Recently, [@Zinhoum2025] found the effectiveness of CP treatment on almond moth, *Ephestia cautella* and the saw-toothed grain beetle, *Oryzaephilus surinamensis*. The plasma-generated RONS dominate the insect's antioxidant defence systems, so that the mechanism of action is primarily attributed to oxidative stress, where it causes cellular damage and gradual death [@Ziuzina2021cold].
+
+However, further investigations are needed for the specific parameters for effective control of *T. castaneum* using DBD plasma. DBD is preferred because it is more efficient than other types due to the presence of a dielectric coating and generates a uniform, large-area discharge at atmospheric pressure, enabling continuous industrial processing unlike vacuum systems or narrow plasma jets. It also allows for in-package treatment to eliminate pests inside sealed products, preventing re-infestation while avoiding thermal damage to sensitive food items. Our research study is primarily aimed at determining if DBD cold plasma can serve as a viable, chemical-free alternative for managing this resilient pest in stored food products. To provide baseline efficacy data that can inform the development and optimisation of cold plasma technology is the awaited outcome for implementing it as a practical component of integrated pest management strategies for stored products. Considering the above aspects, this study aims to examine the efficacy of a DBD cold plasma system in inducing mortality in adult *T. castaneum* under different treatment conditions.
+
+## Materials and methods
+
+### Rearing of insects
+
+Cultures of *T. castaneum* were maintained in a laboratory setting. Following standard protocols established in other studies, we had reared the beetles on a medium of organic whole wheat flour supplemented by a 5% (by weight) brewer's yeast [@Dukic2020behavioural; @Visakh2022essential]. The cultures were taken in glass jars covered with muslin cloth for ventilation and maintained under controlled conditions to ensure a continuous availability of insects for the treatments. For this study, we have ensured a test population of uniform 3-5-day-old adults, so that the adults that emerged over three days were collected and kept for an additional two days.
+
+### Cold plasma apparatus and experimental procedure
+
+The cold plasma treatments were performed using a pin-to-plate type dielectric barrier discharge (DBD) unit operating at a frequency of 50 Hz, capable of generating up to 25 kV and a maximum power of 150 W, with a current load ranging from 0.3 mA to 2.8 mA. For the treatment, samples were placed on the lower electrode plate. There are four electrodes, each in one of the four chambers on either side of the machine (@fig-figure1). The electrode height can be adjusted from 7 to 10 cm as required. A five number of adult red flour beetles were placed in a 9 cm Petri plate for each treatment, and sealed by using a cling film (@fig-figure2). After that we had exposed the samples to cold plasma at three voltages (15, 20, and 25 kV) for three exposure times (30, 45, and 60 min) at a constant electrode height of 9 cm. A control group was maintained under identical conditions without plasma exposure. Each treatment was replicated four times. The experiment was performed under room conditions with a temperature of 30±2°C and a relative humidity of 70±5 per cent. The schematic diagram of the DBD cold plasma system setup is illustrated in @fig-figure3.
+
+![Dielectric barrier discharge (DBD) type Cold plasma apparatus](figures/fig1.jpg){#fig-figure1 width="384"}
+
+![Samples prepared in Petri plates and sealed with cling film](figures/fig2.jpg){#fig-figure2 width="384"}
+
+![Schematic representation of the experimental set-up](figures/fig3.png){#fig-figure3 width="384"}
+
+### Data analysis
+
+Following the treatment, adult beetles were monitored for mortality on the third, fourth, and fifth days. An insect was considered dead if it showed no movement when prodded. The percentage of adult mortality was calculated, and the data were analysed using a factorial completely randomised design (two factorial CRD) using GRAPES, which is an R-based statistical package [@Gopinath2020grapes].
+
+{{< pagebreak >}}
+
+## Results
+
+The effect of cold plasma on adult *T. castaneum* mortality in our study was significant over the untreated samples and directly correlated with applied voltage, exposure time, and post-treatment observation period. No mortality was recorded in any control groups.
+
+Mortality was first observed three days post-treatment, with the highest rate (10%) at 25 kV (@fig-figure4), it increased substantially by day 4 (35% maximum) (@fig-figure5). By day five, the mortality rates had significantly increased (@fig-figure6). There was a clear proportional relationship, where mortality increased with both voltage as well as exposure time. The maximum mortality of 55% was observed at 25 kV after a 60-minute exposure (@tbl-mortality). These results clearly show a dose-dependent relationship. For example, at 5 days post-treatment, increasing the voltage from 15 kV to 25 kV (at 60 min) raised mortality from 25% to 55%. Likewise, when we fixed the voltage to 20 kV, extending the exposure time from 30 minutes to 60 minutes increased the mortality from 30% to 50%. Conversely, the lowest treatment setting (15 kV for 30 min) resulted in 0% mortality across all observation days, confirming that treatment efficacy requires a minimum threshold of voltage and duration. The mortality percentage at higher different treatment combinations (25 kV-60 min, 25 kV-45 min, 20 kV-60 min) were found to be statistically significant from the lower combinations (p-value= 0). This delayed mortality suggests that the damage inflicted by the plasma's reactive species initiates physiological and metabolic disruptions that lead to death over several days, a phenomenon also observed by [@Ziuzina2021cold].
+
+![Mortality after 3 days](figures/fig4.png){#fig-figure4 width="384"}
+
+![Mortality after 4 days](figures/fig5.png){#fig-figure5 width="384"}
+
+![Mortality after 5 days](figures/fig6.png){#fig-figure6 width="384"}
+
+{{< pagebreak >}}
+
+| Voltage (kV) | Electrode height (cm) | Time (min) 60 | Time (min) 45 | Time (min) 30 |
+|---------------|---------------|---------------|---------------|---------------|
+| 25           | 9                     | 55 ± 10.00^a^ | 50 ± 11.54^a^ | 35 ± 19.14^b^ |
+| 20           | 9                     | 50 ± 11.54^a^ | 35 ± 10.00^b^ | 30 ± 11.54^b^ |
+| 15           | 9                     | 25 ± 10.00^b^ | 10 ± 11.54^c^ | 0 ± 0.00^c^   |
+| Control      |                       |  0 ± 0.00^c^  | 0 ± 0.00^c^   | 0 ± 0.00^c^   |
+
+: Mortality (%) after 5 days of post-treatment time {#tbl-mortality}
+
+## Discussions
+
+The mortality rates in this study, while significant, are lower than those reported elsewhere. For example, [@Ziuzina2021cold] achieved 95-100% mortality of adult beetles. However, their experiment involved direct plasma exposure, which is more intense than the indirect exposure through a sealed Petri plate used here. In another study, [@Ratish2018influence] reported 100% mortality across all *T. castaneum* life stages, but they used different plasma parameters and a lower electrode distance of 3.7 cm, whereas we used a higher distance of 9 cm. Plasma generation will be higher when the distance between the two electrodes is minimised [@Jin2022nonequal]. Similar results were also obtained in a study using *Callosobruchus chinensis*, which showed a complete elimination of the pest in chickpea under a shorter electrode distance of 3cm [@Pathan2022cold; @Pathan2021potential].
+
+A study on rice weevil *Sitophilus oryzae* at a higher voltage of 80kV (much higher than the present study) for 5 min at 5cm electrode height reported only 60% mortality in adults. When the exposure time increased to 10 minutes, complete mortality was achieved [@KirkBradley2024mortality]. Research by @KirkBradley2023acp indicated that a 100% mortality rate for adult *Callosobruchus maculatus* (Cowpea weevil) was achieved when specimens were exposed to a high voltage of 70 kV for 3 minutes, with an electrode spacing of 5 cm. A comparable mortality rate could be achieved by reducing the voltage to 2kV and narrowing the electrode gap to 3 cm, but this required an increase in treatment time to 24 minutes [@Anbarasan2023cold]. At a voltage of 24 kV a value very close to our study, but a lower electrode gap of 3 cm could obtain a complete mortality of adult rice weevil, *S. oryzae* when exposed for 30 sec under cold plasma [@Than2024control].
+
+Oxidative stress is the major mechanism involved in the insecticidal action of cold plasma. The RONS generated by the plasma can degrade the insect cuticle by penetrating the body wall, thus causing severe damage to vital cells and tissues, as shown by reduced insect respiration rates and alteration in the antioxidant enzyme levels [@Ziuzina2021cold]. Other than these morphological and physiological damages, it can also cause other biochemical changes in insects, such as lipid peroxidation, increased concentrations of glutathione S-transferase (GST), and catalase (CAT) [@Zilli2022plasma]. Significant increase in the activity of GST and CAT and also increased lipid peroxidation was noted in the insect *P. interpunctella* after cold plasma treatment which led to the severe larval mortality of 86% [@AbdElAziz2014]. @Ferreira2016 reported that cold plasma treatment in drosophila could cause abnormalities in the trachea which become curved and broken ultimately leading to the insect death. The same study also come up with another finding that this CP treatment can also affect the pigmentation and melanisation processes in the insects. Severe malformations in the reproductive structures were observed in the male red palm weevil *Rhynchophorus ferrugineus* due to exposure under cold plasma [@Mahmoud2015]. These all morphological and physiological abnormalities after CP exposure can lead to the death of insects. Compared to other physical methods, cold plasma offers a residue-free alternative to fumigation and other chemical methods and does not involve ionising radiation or high temperatures, which can degrade food quality [@Pankaj2018review].
+
+## Conclusions
+
+This study demonstrates the strong insecticidal effects of dielectric barrier discharge cold plasma on adult *T. castaneum*. The treatment potential is influenced by the applied voltage, exposure time, and post-treatment period, all of which have a significant impact on the mortality of the red flour beetle. The highest mortality rate of 55% was recorded after five days of treatment, at 25 kV and a 60-minute exposure and the lowest at 15 kV and 45-minute duration with a record of 10%, but no mortality could be observed at the same voltage with 30-minute exposure, which is same as the control value Our results show the potential of cold plasma as part of an integrated pest management (IPM) strategy for stored products, even though total mortality was not achieved.
+
+## Limitations and future line of work
+
+Despite its potential, widespread adoption of cold plasma technology for pest management is hindered by several barriers. The scalability of this technology from lab to industrial level, along with the initial capital investment in the equipment, is the major challenge. Since the penetration depth of plasma is mostly restricted to the surface level, it makes it challenging to treat large amounts of stored grain efficiently. The effectiveness can also vary greatly depending on the type of plasma system we use, the life stage of the target insect, and the commodity matrix. It may also take a longer exposure period to produce a substantial mortality rate. The research should concentrate on overcoming these obstacles. The main goal is to create cold plasma as a residue-free, sustainable substitute for chemical fumigants and other thermal technologies. Research should focus on improving the instrument designs for efficient treatment with less power consumption, investigating synergistic effects by combining plasma with other techniques in Integrated Pest Management (IPM) strategies, and thoroughly evaluating its effects on the nutritional and sensory quality of treated food products. Further studies are needed regarding the plasma-commodity interactions that is how the CP affect the quality of the food products, cost analysis of the machine and its safety assessment.
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**
+
+-   **Submitted:** *12 November 2025*\
+-   **Accepted:** *05 December 2025*\
+-   **Published (Online):** *06 December 2025*
+
+------------------------------------------------------------------------
+
+**Reviewer Information**
+
+-   **Reviewer 1:**\
+    **Dr. Kaushik Pramanik**  
+    *Assistant Professor*  
+    *Swami Vivekananda University, West Bengal*
+
+-   **Reviewer 2:**\
+    **Dr. Anu Thomas**  
+    *Assistant Professor*  
+    *College of Agriculture, Ambalavayal*
+:::
+
+::: {.callout-note appearance="simple"}
+## Disclaimer/Publisher’s Note
+
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).\
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+:::
+
+> © Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.
