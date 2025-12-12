@@ -9,8 +9,664 @@
 <link>https://www.jostapubs.com/volume1.html</link>
 <atom:link href="https://www.jostapubs.com/volume1.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Fri, 05 Dec 2025 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Thu, 11 Dec 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>The Future of Vertical Coordination in High Value Agricultural Markets: Insights from Structured Panel Discussion</title>
+  <dc:creator>Fasiya H S</dc:creator>
+  <dc:creator>Smija P K*</dc:creator>
+  <dc:creator>Hema M</dc:creator>
+  <dc:creator>Allan Thomas</dc:creator>
+  <link>https://www.jostapubs.com/volume1/issue2/JOSTA202512A575/JOSTA202512A575.html</link>
+  <description><![CDATA[ 
+
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA202512A575/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+
+
+
+
+<p><a href="https://doi.org/10.65287/josta.202512.A575"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202512.A575-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/17909071"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/JOSTA-202512-A575.pdf" download="" class="j-btn" aria-label="download pdf">  <span>download pdf</span> </a></p>
+<p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
+<p><span class="j-chip" data-doi="10.65287/josta.202512.A575" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
+</div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Fasiya, H. S., Smija, P. K., Hema, M., &amp; Thomas, A. (2025). The Future of Vertical Coordination in High Value Agricultural Markets: Insights from Structured Panel Discussion. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202512.A575
+</p>
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<hr>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>High value agricultural products command premium prices in global markets due to their superior quality, value added processing, and alignment with evolving consumer preferences <span class="citation" data-cites="WeinbergerLumpkin2005">(Weinberger and Lumpkin 2005)</span>. These commodities often require specialised marketing channels capable of connecting producers with discerning domestic and international buyers. As global demand for high-value food products accelerates, farming communities are incentivised to diversify into enterprises that offer higher returns on land, labour, and capital, thereby reinforcing their relevance as engines of rural income enhancement <span class="citation" data-cites="Birthal2007">(Birthal, Jha, and Singh 2007)</span>.</p>
+<p>Contemporary High Value Markets (HVMs) insist on verified origin, organic certification, fair-trade compliance, and robust traceability systems. Although these requirements create new opportunities for sustainable value capture, they also intensify the need for stronger vertical coordination among value-chain participants. Transaction Cost Economics provides a useful lens for analysing such coordination, positioning governance structures along a continuum from spot markets to full vertical integration, with optimal arrangements shaped by asset specificity, transaction frequency, and environmental uncertainty <span class="citation" data-cites="Williamson1979">(Williamson 1979)</span>. Within this continuum, institutional forms range from arm’s length exchanges and contractual partnerships to fully integrated hierarchies <span class="citation" data-cites="MartinezReed1996">(Martinez and Reed 1996)</span>.</p>
+<p>In HVMs particularly those involving stringent quality control, certification, and end to end product traceability, vertical coordination becomes a critical determinant of regulatory compliance and price realisation <span class="citation" data-cites="Ciliberti2020 Meemken2021">(Ciliberti, Evangelista, and Mencarelli 2020; Meemken et al. 2021)</span>. Empirical studies show that high asset specificity, frequent transactions, and elevated uncertainty collectively push firms toward greater integration to safeguard investments and reduce opportunism <span class="citation" data-cites="Whyte1994 Ruzzier2009 LajiliMahoney2006 Yuan2022">(Whyte 1994; Ruzzier 2009; Lajili and Mahoney 2006; Yuan et al. 2022)</span>. Firms also tailor their integration choices to their competitive strategies, balancing bureaucratic costs with the potential benefits of improved technological capabilities, environmental control, and product differentiation <span class="citation" data-cites="Boone1991 Harrigan1983">(Boone and Verbeke 1991; Harrigan 1983)</span>.</p>
+<p>Despite its advantages, vertical coordination presents notable challenges. It can stretch organisational resources across multiple stages of the value chain, reduce flexibility, and increase switching costs in rapidly changing markets. Such capital intensive commitments must therefore be justified through demonstrable efficiency gains or enhanced market power. These limitations highlight the growing relevance of hybrid governance structures such as contract farming, strategic alliances, and digitally mediated coordination platforms that combine the strengths of integration with the agility of market based mechanisms <span class="citation" data-cites="Porter1994 Ziggers1999 Becvarova2001 Blazkova2002">(Porter 1994; Ziggers and Trienekens 1999; Becvarova 2001; Blazkova 2002)</span>. Digital innovations are central to this shift, enabling firms to align coordination strategies with sustainable development goals through modular operations, socially responsible practices, and mass customisation capacities.</p>
+<p>These trends are particularly salient in Kerala’s spice sector, where post COVID 19 consumer shifts have amplified demand for nutraceuticals and sustainably produced commodities. The governance of high value spice supply chains is undergoing rapid transformation, driven by heightened quality expectations and increased demand for traceability.</p>
+<p>In this context, the objectives of this exploratory research are to:</p>
+<p>• Draw guidance from the spice tech industry to understand the inefficiencies that affect coordination efficiency within the spice value chain.</p>
+<p>• Examine various forms of vertical coordination mechanisms followed by spice tech firms, and identify thematic areas that can pave the way for future theoretical and empirical investigations.</p>
+<p>The rest of the article explains the materials and methods, presents the outputs of the panel discussion based on the broad prompts provided, and details the synthesis and thematic analysis.</p>
+</section>
+<section id="materials-and-methods" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="materials-and-methods"><span class="header-section-number">2</span> Materials and methods</h2>
+<p>Exploratory research serves as a preliminary stage of inquiry, helping researchers form an initial understanding of a phenomenon and identify questions that warrant deeper investigation in subsequent studies <span class="citation" data-cites="Marlow2005 Casula2021">(Marlow 2005; Casula, Rangarajan, and Shields 2021)</span>. Because every research topic is novel at some point and continues to evolve through innovation, exploration remains broadly relevant across disciplines. The flexible and open ended nature of exploratory inquiry allows researchers to engage with emerging issues, refine their focus, and lay the groundwork for more structured theoretical or empirical research <span class="citation" data-cites="Casula2021">(Casula, Rangarajan, and Shields 2021)</span>.</p>
+<p>In the current study, a panel discussion was used as a research tool for exploration <span class="citation" data-cites="JhaRajan2024">(Jha and Rajan 2024)</span>. The session was conducted on 25 March 2024 at the Seminar Hall, College of Agriculture, Vellayani. The panellists were selected based on their expertise , represented distinct but interconnected segments of vertical coordination in the spice value chain. The session was attended by a diverse audience comprising academicians from multiple disciplines, research scholars, and students, thereby fostering a rich, interdisciplinary exchange of perspectives. The discussion enabled triangulation of opinion and a thematic synthesis that would guide theoretical and empirical investigations. Current affiliations of the panellists are given:</p>
+<ol type="1">
+<li>Dr Thomas Jacob, Advisor, PDS Organic Spices, Kuttikanam</li>
+<li>Mr Bibin Mathews, Co-Founder, COO, Growcoms Pvt Ltd.</li>
+<li>Mr Rijish VR, Chief Executive Officer, Simplify Agri</li>
+</ol>
+<section id="dr.-thomas-j" class="level4" data-number="2.0.1">
+<h4 data-number="2.0.1" class="anchored" data-anchor-id="dr.-thomas-j"><span class="header-section-number">2.0.1</span> Dr.&nbsp;Thomas J</h4>
+<p>Dr.&nbsp;Thomas J is an Advisor to PDS Organic Spices, bringing over three decades of experience in spices, plantations, and medicinal plants. He is a former Professor and Head of the Aromatic and Medicinal Plants Research Station, Odakkali, and later served in major positions within India’s commodity boards under the Ministry of Commerce &amp; Industry, first as Director of Research at the Spices Board of India and then as Rubber Production Commissioner at the Rubber Board. At PDS Organic Spices, a unit of the Peermade Development Society, he has contributed to the growth of one of India’s leading export-oriented organic spice enterprises. The organisation works with nearly 3,000 small, marginal, and tribal farmers across Idukki, Kottayam, and Pathanamthitta, ensuring fair pricing and consistent export quality production. PDS operates a modern processing facility with steam sterilisation, advanced laboratories, and a strong Internal Control System for organic certification. Dr.&nbsp;Thomas brings critical expertise in global spice markets, quality protocols, and certification systems that determine premium pricing. His combined scientific, administrative, and field experience offers a highly relevant perspective for discussions on high value spice markets and farmer linked export systems.</p>
+</section>
+<section id="bibin-mathews" class="level4" data-number="2.0.2">
+<h4 data-number="2.0.2" class="anchored" data-anchor-id="bibin-mathews"><span class="header-section-number">2.0.2</span> Bibin Mathews</h4>
+<p>Bibin Mathews is the co-founder and Chief Operating Officer of Growcoms Pvt. Ltd., an innovative spice-tech company established in 2020–21. He has over 18 years of experience across sales, product development, and international business roles in companies such as AB Mauri, Jayanti Herbs and Spices, ITC Ltd., and VKL Seasonings. His career has provided strong expertise in global spice markets, B2B sales, product strategy, and supply chain optimisation. Growcoms operates a comprehensive farm-to-fork B2B platform offering spices, oleoresins, essential oils, and seasonings. The company has developed ‘Agrilin’, a blockchain enabled system designed to improve traceability, capacity utilisation, and supply chain transparency. The platform benefits farmers through better price realisation and processors through wider market access. Bibin’s leadership reflects a blend of technical innovation and deep market understanding, making his insights valuable for discussions on modernising spice value chains.</p>
+</section>
+<section id="rijish-vr" class="level4" data-number="2.0.3">
+<h4 data-number="2.0.3" class="anchored" data-anchor-id="rijish-vr"><span class="header-section-number">2.0.3</span> Rijish VR</h4>
+<p>Rijish VR is the Chief Executive Officer of Simplify Agri Private Limited, a technology driven startup focused on digital solutions for improving farm operations and productivity in field crops and spices. His work is distinguished by hands on agricultural experience, with the team actively engaging in farming and post-harvest activities since 2016. This farmer-grounded approach informs Simplify Agri’s digital tools for crop management, resource optimisation, and supply chain coordination. Their solutions incorporate data analytics, IoT-based monitoring, traceability, and user-friendly interfaces suitable even for farmers with limited digital literacy. Under Rijish’s leadership, Simplify Agri supports precision farming, smart irrigation, crop and soil tracking, and risk-based advisory systems. His perspective is highly relevant to discussions on digital transformation and AI enabled infrastructure in agriculture.</p>
+</section>
+</section>
+<section id="panel-discussion" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="panel-discussion"><span class="header-section-number">3</span> Panel discussion</h2>
+<section id="q-what-are-the-most-critical-inefficiencies-you-observe-at-different-stages-of-the-supply-chain-from-farmer-to-traderprocessor-and-from-processor-to-end-customers" class="level4" data-number="3.0.1">
+<h4 data-number="3.0.1" class="anchored" data-anchor-id="q-what-are-the-most-critical-inefficiencies-you-observe-at-different-stages-of-the-supply-chain-from-farmer-to-traderprocessor-and-from-processor-to-end-customers"><span class="header-section-number">3.0.1</span> Q: What are the most critical inefficiencies you observe at different stages of the supply chain from farmer to trader/processor, and from processor to end customers?</h4>
+</section>
+<section id="dr-thomas-js-perspective" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="dr-thomas-js-perspective"><span class="header-section-number">3.1</span> Dr Thomas J’s perspective</h3>
+<p>The fundamental problem is that most spice farmers have no direct relationship with the markets that truly value their produce. I saw brilliant farmers producing exceptional quality pepper, cardamom, and turmeric, but they had no choice but to sell to local traders at whatever price was offered that day. There was no mechanism to communicate the quality of their produce, or their sustainable farming practices to buyers in foreign countries who would pay premium prices for exactly these attributes. At PDS, we act as the bridge between farmers and international buyers. We’ve established an Internal Control System that tracks each farmer’s production, ensures organic certification compliance, and maintains complete traceability from farm to export container. But this model is difficult to replicate without substantial institutional support. Most farmer cooperatives and FPOs lack the technical expertise, capital, and market connections to establish such systems. On the processor to customer inefficiencies, Dr Thomas J highlighted branding challenges: Indian spices have a reputation for quality, but we’ve failed to build brands that capture premium value. When PDS exports to markets in the USA, the Netherlands, or Australia, we’re competing against branded products from Vietnam, Sri Lanka, and even companies that import Indian spices, repackage them, and sell them at 3-4 times the price we receive. The inefficiency isn’t just in logistics, it’s in our inability to tell the story of our farmers, our terroir, and our quality to end consumers. In traditional channels, a kilogram of organic pepper might pass through 4-5 hands before reaching an exporter. Each intermediary takes a margin, but few add genuine value in terms of quality assessment, processing, or certification. The farmer receives perhaps 40% of what the first buyer pays, and the exporter pays 60% more than what the farmer received, all captured by intermediaries who simply moved the product from one location to another. But in Kerala, where farms are highly fragmented, and spices are grown in mostly hilly terrains, the intermediaries are a necessary evil.</p>
+</section>
+<section id="bibin-mathews-perspective" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="bibin-mathews-perspective"><span class="header-section-number">3.2</span> Bibin Mathews’ perspective</h3>
+<p>The core problem is information asymmetry. Suppliers don’t know what quality parameters international buyers demand. Processors don’t know where to source specific grades consistently. Buyers don’t have visibility into the supply chain provenance. This asymmetry creates tremendous friction and value leakage. He explained Growcoms’ diagnosis: When we built Agrilin, our blockchain enabled platform, we started by mapping exactly where value was being destroyed in the spices supply chain. We found four critical inefficiencies: First, fragmentation, thousands of small farmers and hundreds of small processors who can’t achieve economies of scale individually. Second, lack of transparency, buyers have no way to verify quality claims or farming practices without expensive third-party audits. Third, underutilised processing capacity, small processing units operate at 30-40% capacity because they can’t access a consistent raw material supply. Fourth, quality inconsistency, the same ‘organic black pepper’ designation can mean vastly different things depending on source, processing, and storage. Also, environmental uncertainty due to climate change necessitates unforeseen adaptations. Spice companies, especially small and medium enterprises, struggle to access international buyers directly. They rely on trading houses and distributors. Agrilin addresses this by creating a managed marketplace where verified suppliers can connect directly with buyers, food companies, flavour houses, FMCG brands, etc., who are actively searching for reliable sources. Export contracts are formalised, but execution depends on informal networks. The blockchain layer ensures that every claim about organic certification, processing date, or origin can be verified instantly. Real time information flow about market requirements, integrated directly into the sourcing and processing stages, is essential to compete globally.</p>
+</section>
+<section id="rijish-vrs-perspective" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="rijish-vrs-perspective"><span class="header-section-number">3.3</span> Rijish VR’s perspective</h3>
+<p>The spices sector still relies on informal relationships and paper-based documentation, making it difficult for exporters to provide evidence of compliant cultivation, storage, or processing. There is typically no digital record of inputs, harvest, or post-harvest handling by the time produce reaches aggregators undermining traceability required for high-value export markets. Digitisation helps farmers to maintain systematic accounts of farm operations and expenditures, supporting accurate benefit–cost analysis and informed decision-making. Verified digital records also allow banks and microfinance institutions to assess production history and buyer commitments, reducing credit risk and enabling farmers to access better financing, hold produce longer, and secure higher prices.</p>
+<section id="q-what-are-the-specialised-labour-capabilities-employee-capabilities-required-at-each-stage-from-precision-farming-and-post-harvest-handling-to-international-marketing-what-are-the-critical-skill-gaps-you-observe-across-the-spices-supply-chain-to-what-extent-do-these-labour-constraints-affect-vertical-coordination" class="level4" data-number="3.3.1">
+<h4 data-number="3.3.1" class="anchored" data-anchor-id="q-what-are-the-specialised-labour-capabilities-employee-capabilities-required-at-each-stage-from-precision-farming-and-post-harvest-handling-to-international-marketing-what-are-the-critical-skill-gaps-you-observe-across-the-spices-supply-chain-to-what-extent-do-these-labour-constraints-affect-vertical-coordination"><span class="header-section-number">3.3.1</span> Q: What are the specialised labour capabilities/ employee capabilities required at each stage, from precision farming and post-harvest handling to international marketing? What are the critical skill gaps you observe across the spices supply chain? To what extent do these labour constraints affect vertical coordination?</h4>
+</section>
+</section>
+<section id="dr.-thomas-js-perspective" class="level3" data-number="3.4">
+<h3 data-number="3.4" class="anchored" data-anchor-id="dr.-thomas-js-perspective"><span class="header-section-number">3.4</span> Dr.&nbsp;Thomas J’s perspective</h3>
+<p>When we talk about specialised labour needs in spices, we need to differentiate between what we call ‘production excellence’ and ‘market readiness’ skills. At the farm level, the constraint is not lack of traditional farming knowledge; the constraint is knowledge about organic certification requirements, integrated pest management, maintaining harvest and input records for traceability, and understanding how their farming practices impact the final product quality that buyers evaluate. At PDS, this is addressed by investing significantly in certified training programs and regular visits by field extension officers. Maintaining compliance across thousands of small farms requires constant monitoring and support through our Internal Control System. Understanding international markets for high value products requires specialised expertise.</p>
+</section>
+<section id="bibin-mathews-perspective-1" class="level3" data-number="3.5">
+<h3 data-number="3.5" class="anchored" data-anchor-id="bibin-mathews-perspective-1"><span class="header-section-number">3.5</span> Bibin Mathews’ perspective</h3>
+<p>Specialised labour constraints exist for farmers who want to enter the market for high value products. Companies, too, require experienced and skilled employees to manage sourcing, factory operations, and trading. High value international buyers expect a reliable, year round supply despite the seasonal nature of spice production. Meeting these expectations requires forecasting, inventory optimisation across multiple storage locations, and coordination among numerous small suppliers’ skills typically found only in large corporations. Digital platforms such as Agrilin address this challenge by using data analytics to optimise procurement timing, quantity, and source diversification, effectively providing small and medium exporters with capabilities they could not afford to build in-house. Digital platforms can also substitute for certain specialised labour requirements. For instance, in quality assessment and grading, value chains traditionally rely on experienced traders who evaluate pepper through touch, smell, and visual inspection skills that take years to develop. Today, spectroscopy based systems combined with AI can provide objective, consistent, and verifiable quality assessments. Similarly, exporters no longer need to employ dedicated regulatory specialists to navigate complex international standards; decision support tools can guide users through compliance requirements tailored to their product and target markets.</p>
+</section>
+<section id="rijish-vrs-perspective-1" class="level3" data-number="3.6">
+<h3 data-number="3.6" class="anchored" data-anchor-id="rijish-vrs-perspective-1"><span class="header-section-number">3.6</span> Rijish VR’s perspective</h3>
+<p>Farmers can build specialised skills in multiple verticals and train their labour force to meet the requirements of high value markets when supported by the right digital tools. One of the major constraints, however, is the shortage of skilled personnel who understand farmers’ needs and can work with technology in a practical, collaborative manner. At Simplify Agri, we design digital solutions that work for farmers, labourers, and traders with limited literacy, not just for tech savvy agri entrepreneurs. This requires translating specialised knowledge into simple, actionable formats through visual cues, voice based guidance in local languages, and straightforward alerts. Instead of expecting every farmer to become a management expert, we embed this expertise into our systems: IoT devices monitor conditions continuously and trigger timely alerts, while algorithms convert complex technical insights into clear instructions that farmers can act on immediately.</p>
+<section id="q-the-spices-value-chain-is-characterised-by-significant-power-asymmetries.-how-do-you-counterbalance-the-bargaining-power-of-suppliersfarmers-or-customers" class="level4" data-number="3.6.1">
+<h4 data-number="3.6.1" class="anchored" data-anchor-id="q-the-spices-value-chain-is-characterised-by-significant-power-asymmetries.-how-do-you-counterbalance-the-bargaining-power-of-suppliersfarmers-or-customers"><span class="header-section-number">3.6.1</span> Q: The spices value chain is characterised by significant power asymmetries. How do you counterbalance the bargaining power of suppliers/farmers or customers?</h4>
+</section>
+</section>
+<section id="dr.-thomas-js-perspective-1" class="level3" data-number="3.7">
+<h3 data-number="3.7" class="anchored" data-anchor-id="dr.-thomas-js-perspective-1"><span class="header-section-number">3.7</span> Dr.&nbsp;Thomas J’s perspective</h3>
+<p>The bargaining power problem is fundamentally about alternatives. When a farmer has only one buyer in his village who will purchase his pepper, he has no negotiating position. The breakthrough at PDS has been creating a genuine alternative market channel direct export to international buyers which completely changes the power dynamic. PDS’s model established a ‘support price’ system within the network. Based on the understanding of international market prices and our export commitments, we commit to a base price with a premium for our certified organic farmers. This isn’t a government mandated MSP that may not reflect market realities; it’s a floor price backed by actual buyer commitments. Because farmers know they have this guaranteed outlet, they’re not forced to sell at distress prices during harvest season. Government support for collective institutions like cooperatives, FPOs, and NGOs like PDS is crucial for building farmer bargaining power. But the support needs to be strategic, focused on quality infrastructure, certification systems, market linkages, not just subsidies. The Spices Board’s support for processing infrastructure and certification has been valuable, but we need more emphasis on market development and brand building.</p>
+<p>Based on my firsthand observations, sustainability has shifted from a buzzword to the central driver of how spice tech companies operate today. Indian spices should command premium prices globally based on quality and sustainability, not compete as low cost commodities. PDS operates in regions where commercial agriculture competes with outmigration. When fair-trade premiums and organic pricing make spice farming economically viable, young people stay. Economic sustainability isn’t just farm income; it’s whether farming can support dignified livelihoods that keep rural communities intact. Without that, we’re not sustaining agriculture; we’re managing its decline.</p>
+</section>
+<section id="bibin-mathews-perspective-2" class="level3" data-number="3.8">
+<h3 data-number="3.8" class="anchored" data-anchor-id="bibin-mathews-perspective-2"><span class="header-section-number">3.8</span> Bibin Mathews’ perspective</h3>
+<p>Power imbalances in agricultural value chains largely stem from information asymmetry and fragmentation. Farmers don’t know what processors are paying elsewhere, processors don’t know what exporters are receiving, and everyone operates with limited market intelligence. Our approach at Growcoms is to create transparency through technology, document quality and marketplace dynamics that allow price discovery, and verified supplier networks that build reputation capital. Traditional supply chains are bilateral relationships, one farmer selling to one trader, one processor selling to one export house. This creates dependency. Our managed marketplace model creates multilateral networks, multiple verified suppliers connected to multiple qualified buyers, with transparent pricing and quality information. When a spice processor in Kerala can see real time demand from customers in three different countries, and those buyers can compare offers from multiple certified suppliers, you create competitive dynamics that balance bargaining power more effectively than any regulatory intervention. Large trading houses have advanced market intelligence systems; they know global production forecasts, shipping schedules, inventory levels, and demand trends. Small farmers and processors operate blind. We’re working to democratise this intelligence through our platform, providing our supplier network with insights about international demand trends, competitor pricing, and emerging market opportunities. Power doesn’t come from negotiating harder; it comes from having options. When a farmer has three verified buyers competing for his certified organic pepper, suddenly he’s not a price taker anymore. Market structure determines bargaining outcomes. And the business case for sustainability isn’t ethics, it’s risk mitigation. Climate change, resource depletion, and regulatory shifts make unsustainable practices financially suicidal. Companies are realizing that sustainable sourcing is the only sourcing that has a future.</p>
+</section>
+<section id="rijish-vrs-perspective-2" class="level3" data-number="3.9">
+<h3 data-number="3.9" class="anchored" data-anchor-id="rijish-vrs-perspective-2"><span class="header-section-number">3.9</span> Rijish VR’s perspective</h3>
+<p>High value buyers want reliability, consistent quality and timely supply. But they’re often reluctant to work with small farmers because of perceived unreliability. Our digital systems address this by creating verified track records. When a farmer consistently delivers promised quality and quantity, documented through our platform, they build reputation capital that translates into bargaining power. Buyers pay premiums for reliability, and digital reputation systems make reliability verifiable even for small suppliers who lack brand recognition. Data - agronomic data, supply chain data, and sustainability metrics, is becoming valuable. From what I’ve experienced on the ground, farming carries dignity and real profit potential. But to make others see that, we need data and a digital interface to communicate it. Farmers should own their data and benefit when it’s used. Banks refused to lend to spice farmers because they couldn’t assess credit risk. Once we provided three years of digitally verified farming records, crop performance data, and buyer contracts, the same farmers got loans at 4% lower interest. Data converted them from risky unknowns to bankable assets. Our platform is designed with farmer data ownership as a core principle. Data ownership sounds abstract until you realize that a farmer’s three-year production record, soil health data, and crop performance analytics could be worth more to an insurance company, a credit bureau, or a seed company than the farmer ever earned from crops. When buyers want access to detailed traceability information or sustainability data, farmers should be compensated for providing that data. This creates an additional value stream and shifts power dynamics by making farmers essential partners in meeting buyer requirements, not just suppliers of raw materials.</p>
+<section id="q-how-far-digital-transformation-progressed-in-spice-tech-sector-do-you-think-existing-systems-will-give-you-an-edge-what-are-the-constraints-and-policy-changes-required-to-address-the-progress" class="level4" data-number="3.9.1">
+<h4 data-number="3.9.1" class="anchored" data-anchor-id="q-how-far-digital-transformation-progressed-in-spice-tech-sector-do-you-think-existing-systems-will-give-you-an-edge-what-are-the-constraints-and-policy-changes-required-to-address-the-progress"><span class="header-section-number">3.9.1</span> Q: How far digital transformation progressed in spice tech sector? Do you think existing systems will give you an edge? What are the constraints and policy changes required to address the progress?</h4>
+</section>
+</section>
+<section id="dr.-thomas-js-perspective-2" class="level3" data-number="3.10">
+<h3 data-number="3.10" class="anchored" data-anchor-id="dr.-thomas-js-perspective-2"><span class="header-section-number">3.10</span> Dr.&nbsp;Thomas J’s perspective</h3>
+<p>While PDS Organic Spices has not implemented digital transformation initiatives as such, the organization operates through traditional vertical coordination supported by digitisation and digitalisation. Existing mechanisms are based on established trust with international buyers through consistent quality delivery, adherence to certification systems, and a strong farmer-facing business model. This gives PDS a clear edge in meeting the sustainability concerns of international markets and maintaining product diversity.</p>
+<p>However, quality certification is no longer just about meeting standards; it now requires proving through timestamps, geolocation data, and chemical signatures that every practice claim is verifiable. The digitalised audit trail has essentially become the product itself. Future investments in such systems will be necessary, though the transition should be smooth since the values of sustainability are already embedded within the cooperative’s social relations. Digital transformation in farm mechanisation is becoming essential as out-migration and absentee landowners increase in the spice-growing tracts.</p>
+<p>Emerging technologies such as artificial intelligence can further strengthen this move toward verifiable, data-driven systems. AI’s greatest potential lies in democratising expertise that currently resides with a few specialists: AI-powered chatbots with native language voice recognition could make institutional knowledge available to farmers instantly, and computer vision tools could automate quality assessment.</p>
+<p>The primary constraints limiting digital adoption in organizations like PDS include the high upfront investment required for technology infrastructure relative to the cooperative’s social service mission, digital literacy gaps among elderly and tribal farmers in remote regions, inadequate rural internet connectivity in hill areas, and the complexity of retrofitting established manual processes that have proven reliable over decades.</p>
+</section>
+<section id="bibin-mathews-perspective-3" class="level3" data-number="3.11">
+<h3 data-number="3.11" class="anchored" data-anchor-id="bibin-mathews-perspective-3"><span class="header-section-number">3.11</span> Bibin Mathews’ perspective</h3>
+<p>As supply chains become more specialised segregating organic from conventional, single-origin from blended, and multiple certification categories the coordination complexity increases sharply. Without digital systems to track these specifications, such specialisation becomes operationally unmanageable.</p>
+<p>Growcoms’ Agrilin blockchain platform exemplifies how digitalisation fundamentally restructures vertical coordination by creating transparent ledgers that provide end-to-end visibility across the spice supply chain, from farm to export markets. This initiative represents an important early step in the organisation’s broader digital transformation efforts. Unlike traditional coordination mechanisms that rely on contractual relationships and information asymmetry, blockchain redistributes power by giving farmers, processors, and buyers equal access to verified transaction data, quality parameters, and price information through smart contracts that automatically execute when predetermined conditions are met. This approach addresses long-standing fragmentation in the spice sector, where multiple intermediaries and inconsistent quality standards have impeded efficient market coordination.</p>
+<p>We have deliberately structured the Agrilin platform as independent modules farmer onboarding, quality verification, supply chain tracking, and buyer marketplace each functioning semi autonomously. The value lies not in any single component but in the way the modules integrate. This architectural choice protects the years of market intelligence the organisation has accumulated.</p>
+<p>For buyer companies, Agrilin delivers substantial benefits: strengthened quality assurance through tracking of pesticide residues for export compliance, automated documentation that reduces paperwork and manual errors, optimisation of underutilised processing capacity through improved demand forecasting, and enhanced transparency that builds trust with international markets requiring traceability. Public benefits include higher farmer price realisation as blockchain verified quality attracts premium pricing, elimination of counterfeit products, improved food safety, and promotion of ethical sourcing by documenting labour practices and certification status.</p>
+<p>Future progress will depend on advanced data analytics derived from the system’s expanding data repository. These datasets can be repurposed to generate deeper market intelligence, improve export coordination, and strengthen compliance systems. For this to be effective, the digital transformation mindset that has taken root among the firm’s core employees must also extend to other actors in the value chain. This requires horizontal coordination with compatible firms so that shared standards, interoperable systems, and common digital practices can reinforce sector-wide adoption.</p>
+</section>
+<section id="rijish-vrs-perspective-3" class="level3" data-number="3.12">
+<h3 data-number="3.12" class="anchored" data-anchor-id="rijish-vrs-perspective-3"><span class="header-section-number">3.12</span> Rijish VR’s perspective</h3>
+<p>Digital transformation in the spice-tech sector is progressing, but unevenly. As a startup, Simplify Agri focuses on digitalising farm records and marketing processes. Our direct involvement in farming has revealed a clear gap between technological potential and ground level adoption. Digital platforms often assume that algorithms can replace relationships, but farmers consistently told us they trust recommendations from peer farmers or local extension agents more than app notifications. In response, we built features that allow verified peer experiences to be shared within the platform. Technology must strengthen existing social trust networks not replace them. Farmers and consumers now function as two sides of the same system: consumers need traceable data on the products, and farmers require information on market preferences. Other stakeholders, including researchers, also depend on accurate farmer generated data.</p>
+<p>Our existing systems offer an advantage, but only partially. Companies partnering with Simplify Agri gain access to verified farm-level data that improves supply forecasting and quality assurance. However, data collection remains incomplete because farmer usage is inconsistent. Real time monitoring through IoT sensors has strong potential for predictive risk management, yet in practice sensor costs limit deployment to pilot farms, rural connectivity disruptions create data gaps, and farmers often lack the resources to act on alerts even when they receive them.</p>
+<p>Significant constraints remain, and targeted policy reforms are essential. The key limitations include the high cost of sensors and hardware, patchy last mile internet connectivity, low digital literacy among small and marginal farmers, and the absence of interoperable data standards across government and private systems. To accelerate progress, policy support must include: large scale public investment in rural digital infrastructure; equipment subsidies targeted to small and marginal farmers rather than only FPOs or large farms; mandatory digital literacy training integrated into extension services; national agricultural data standards enabling startups to integrate with government databases and certification systems; and clear data ownership frameworks that protect farmer privacy while enabling value added services.</p>
+</section>
+</section>
+<section id="results" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="results"><span class="header-section-number">4</span> Results</h2>
+<p>The thematic analysis of the structured panel discussion revealed a complex of interrelated themes that collectively shape coordination, governance, and value distribution within the high-value spice sector. Comparing the spice tech firm using constructs developed based on the themes can guide the measurement of the efficiency of processes involved in vertical coordination. Figure&nbsp;1 presents an overview of the thematic synthesis derived from the panel discussion.</p>
+<div id="fig-figure1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume1/issue2/JOSTA202512A575/figures/fig1.jpg" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: An overview of thematic synthesis
+</figcaption>
+</figure>
+</div>
+<p>Table&nbsp;1 presents the thematic synthesis organised according to major themes identified in the panel discussion and their corresponding sub-themes.</p>
+<div id="tbl-discussion" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-discussion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Thematic synthesis from panel discussion
+</figcaption>
+<div aria-describedby="tbl-discussion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 68%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Major Themes</strong></th>
+<th><strong>Sub-themes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Uncertainty in transactional interface</td>
+<td>Persistent structural frictions in fragmented exchange environments where intermediaries play an unavoidable yet value-capturing role, constraining transparency, weakening price discovery, and limiting producers’ control over value capture.</td>
+</tr>
+<tr class="even">
+<td>Digital interfaces: Profitability, Traceability &amp; Economic sustainability</td>
+<td>Digital agriculture interfaces for profitability visibility and technology diffusion.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Quality control and traceability</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Digitisation/digitalisation and economic sustainability of farms</td>
+</tr>
+<tr class="odd">
+<td>Sustainability as strategic necessity</td>
+<td>Sustainability has transitioned to a central organising principle for spice-tech companies, encompassing environmental adaptation in response to climate uncertainty.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Empirical testing of sustainable outcomes in food systems</td>
+</tr>
+<tr class="odd">
+<td>Modularization as Knowledge Protection Strategy</td>
+<td>Blockchain platforms structured as independent modules protect organisational knowledge through their integration architecture.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Modular organisational architectures serve as intellectual property protection mechanisms in technology-driven agricultural enterprises.</td>
+</tr>
+<tr class="odd">
+<td>Agricultural Data as an Asset: Data ownership &amp; Data value distribution</td>
+<td>Farmer-generated data creates substantial value for third parties such as insurance companies, credit bureaus, and seed companies.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Data value distribution is the next frontier of agricultural equity.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Data-Mediated Financial Inclusion</td>
+</tr>
+<tr class="even">
+<td>Strategic selectivity &amp; Frameworks for partial integration</td>
+<td>Strategic selectivity in vertical integration decision</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Frameworks for partial integration strategies in high-value agricultural markets.</td>
+</tr>
+<tr class="even">
+<td>Network effect &amp; Socially embedded organisations</td>
+<td>Informal networks remain essential for contract execution despite digital transformation.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Collective organisations as capability aggregators, socially embedded organisations, and locally facing firms: Function beyond volume aggregation to build competence, certifications, market intelligence, and negotiating capacity.</td>
+</tr>
+<tr class="even">
+<td>Emerging coordination mechanisms</td>
+<td>Digital marketplaces alter competitive dynamics and bargaining power distribution through multilateral networks.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Technology as social infrastructure and social production</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Farmers’ bargaining power within coordinated agribusiness systems through expertise development in specialised verticals.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Tacit knowledge versus codified quality standards: Knowledge translation mechanisms bridge traditional agricultural expertise with scientific quality parameters.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Need for inter-firm compatibility and horizontal integration, modularity, and agroecological transformations in the spice cultivation tracts.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Product differentiation strategies drive supply chain coordination requirements as specialisation increases complexity.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="discussion" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="discussion"><span class="header-section-number">5</span> Discussion</h2>
+<p>A foundational theme pertains to persistent transactional uncertainty, articulated by Dr.&nbsp;Thomas J, who noted that “Intermediaries are a necessary evil,” underscoring the structural frictions embedded in fragmented exchange environments. This reflects the broader scholarship on uncertainty in agrifood interfaces <span class="citation" data-cites="Reardon2009 Yuan2022 Smija2024">(Reardon et al. 2009; Yuan et al. 2022; Smija et al. 2024)</span>. The panellists consistently indicated that such uncertainty constrains transparency, weakens price discovery, and limits producers’ control over value capture.</p>
+<p>Aligned with these concerns, the role of digital agriculture interfaces in enhancing visibility and legitimacy emerged prominently. Rijish emphasised that “From what I’ve experienced on the ground, farming carries dignity and real profit potential. But to make others see that, we need data and a digital interface to communicate it,” highlighting how digital infrastructures can render farmer competence and product quality intelligible to markets. Such interfaces thus serve as vehicles for profitability visibility and technology diffusion, reducing asymmetry between field level realities and buyer expectations <span class="citation" data-cites="Benkler2006 TerHuurne2017 Kramer2021">(Benkler 2006; Ter Huurne et al. 2017; Kramer, Bitsch, and Hanf 2021)</span>.</p>
+<p>A strongly reiterated theme concerns sustainability as a strategic necessity. As Dr.&nbsp;Thomas J stated, “Based on my firsthand observations, sustainability has shifted from a buzzword to the central driver of how spice tech companies operate today.” The observation aligns with research positioning sustainability as an organising principle for high-value markets <span class="citation" data-cites="Meemken2021 Miao2025">(Meemken et al. 2021; Miao, Chen, and Jiang 2025)</span>. A sentiment echoed by Bibin Mathews’ remark that “environmental uncertainty due to climate change necessitates unforeseen adaptations” points to the themes; inter-firm compatibility, horizontal integration and modularity, and broader agroecological transformations in Kerala’s spice-growing tracts. Sustainability reappeared as a crosscutting anchor in Bibin’s remark: “The business case for sustainability isn’t ethics, it’s risk mitigation. Climate change, resource depletion, and regulatory shifts make unsustainable practices financially suicidal. Companies are realising that sustainable sourcing is the only sourcing that has a future.” Similarly, Dr Thomas framed sustainability in socio-economic terms, observing that “PDS operates in regions where commercial agriculture competes with outmigration. When fair-trade premiums and organic pricing make spice farming economically viable, young people stay. Economic sustainability isn’t just farm income; it’s whether farming can support dignified livelihoods that keep rural communities intact. Without that, we’re not sustaining agriculture; we’re managing its decline.” These observations align with empirical testing of sustainable outcomes in food systems <span class="citation" data-cites="Ament2022">(Ament et al. 2022)</span>.</p>
+<p>The discussions further highlighted strategic selectivity in vertical integration, with Dr.&nbsp;Thomas J explaining, “We’ve moved from asking ‘should we integrate?’ to asking ‘which coordination functions must we own and which can we orchestrate through partnerships?’ The answer determines survival in premium markets.” This underscores frameworks for partial integration strategies and hybrid coordination structures in high value markets <span class="citation" data-cites="Peterson2001 Ruzzier2009 Camanzi2018">(Peterson 2001; Ruzzier 2009; Camanzi et al. 2018)</span>.</p>
+<p>Rijish observed that “Farmers can develop expertise in verticals such as seed production, seedling production, input production with the help of advances in technology, farming is a profitable venture,” pointing to farmers’ bargaining power within coordinated agribusiness systems. Market empowerment is similarly shaped by traceability and quality assurance requirements. As Dr.&nbsp;Thomas asserted, “Quality certification used to be about meeting standards. Now it’s about proving, with timestamps, geolocation, and chemical signatures that every practice claim is verifiable. The audit trail has become the product itself.” This reflects the themes, quality control, traceability and task characteristics <span class="citation" data-cites="Eisenhardt1985">(Eisenhardt 1985)</span> in emerging high-value markets.</p>
+<p>Another critical theme pertains to knowledge translation. Bibin captured this challenge succinctly: “The irony is that farmers who produce the highest quality spices often can’t articulate why their product is superior. They know traditional cultivation wisdom but lack the vocabulary of international quality parameters like volatile oil content, piperine levels, microbial loads.” This gap between tacit knowledge and codified quality criteria highlights the need for novel coordination strategies and translation mechanisms that bridge traditional expertise with global standards <span class="citation" data-cites="Dentoni2020NewOrgForms">(Dentoni et al. 2020)</span>.</p>
+<p>The institutional role of collective organisations was emphasised by Dr.&nbsp;Thomas, who observed that “Cooperatives succeed when they stop thinking like purchasing agents and start thinking like capability builders. Our role isn’t just aggregating volume, it’s aggregating competence, certifications, market intelligence, and negotiating capacity.” This reinforces the conceptualisation of cooperatives as capability aggregators, socially embedded organisations, and locally facing firms <span class="citation" data-cites="ClarkRecord2017">(Clark and Record 2017)</span>.</p>
+<p>Digital marketplaces alter competitive dynamics and bargaining power distribution, which constituted another salient theme. Bibin noted that “Power doesn’t come from negotiating harder; it comes from having options. When a farmer has three verified buyers competing for his certified organic pepper, suddenly, he’s not a price taker anymore. Market structure determines bargaining outcomes.” Complementing this, Rijish highlighted the financial dimension: “Banks refused to lend to spice farmers because they couldn’t assess credit risk. Once we provided three years of digitally verified farming records, crop performance data, and buyer contracts, the same farmers got loans at 4% lower interest. Data converted them from risky unknowns to bankable assets.” These insights demonstrate how digitalisation restructures bargaining power, facilitates data mediated financial inclusion, and enhances the economic sustainability of farms <span class="citation" data-cites="Sharafizad2022 Stanescu2025">(Sharafizad, Redmond, and Parker 2022; Stanescu 2025)</span>.</p>
+<p>The relational dimension of coordination was equally prominent. Mr.&nbsp;Bibin Mathews remarked that “Export contracts are formalised, but execution depends on informal networks,” underscoring the enduring influence of network effects <span class="citation" data-cites="Granovetter1992 Uzzi1996 Uzzi1997 Gulati1998">(Granovetter 1992; Uzzi 1996, 1997; Gulati 1998)</span>. However, technological systems interface with these relational structures in complex ways. As Rijish observed, “Digital platforms promise to replace relationships with algorithms. But farmers told us they trust recommendations from peer farmers or local extension agents more than app notifications. So we built features where verified peer experiences are shared through the platform. Technology must amplify social trust, not replace it.” This positions technology as social infrastructure that supports, rather than supplants, social production <span class="citation" data-cites="Benkler2017 ChuPham2024 Kramer2021">(Benkler 2017; Chu and Pham 2024; Kramer, Bitsch, and Hanf 2021)</span>.</p>
+<p>Finally, the panel surfaced the emergence of data as an agricultural asset. Rijish’s reflection that “Data ownership sounds abstract until you realise that a farmer’s three-year production record, soil health data, and crop performance analytics could be worth more to an insurance company, a credit bureau, or a seed company than the farmer ever earned from crops” highlights, farmer-generated data creates value for third parties and data value distribution is the next frontier of agricultural equity as novel areas for research <span class="citation" data-cites="Lioutas2019 Tantalaki2019">(Lioutas et al. 2019; Tantalaki, Souravlas, and Roumeliotis 2019)</span>. Mr.&nbsp;Bibin Mathews also observed “At Growcoms, we deliberately structured our blockchain platform as independent modules, farmer onboarding, quality verification, supply chain tracking, buyer marketplace, each operating semi-autonomously. The knowledge isn’t in any single system; it’s in how the modules integrate.” highlights modularisation as a competitive strategy for the protection of organisational knowledge <span class="citation" data-cites="Baldwin2015">(Baldwin and Henkel 2015)</span>.</p>
+<p>Collectively, these themes illustrate how structural uncertainty, technological transformation, institutional capability building, and emergent data economies are reconfiguring vertical coordination in the spice value chain. They also point toward distinct future research avenues relating to horizontal coordination, data governance, hybrid coordination, and distributive equity.</p>
+</section>
+<section id="conclusion" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">6</span> Conclusion</h2>
+<p>The structured panel discussion demonstrates that sustainable vertical coordination in Kerala’s high-value spice markets requires a decisive shift from intermediary driven exchanges toward technologically enabled, institutionally grounded governance architectures. Digital tools, blockchain traceability, IoT monitoring, and AI-based quality assessment function not as substitutes for existing relational structures but as amplifiers of organisational capability and market legitimacy, contingent upon farmer-facing models, interoperable data standards, and effective knowledge translation mechanisms. Persistent systemic constraints, including production fragmentation, uneven digital literacy, and infrastructural deficits, necessitate hybrid governance structures that strategically distribute coordination functions among cooperatives, spice-tech firms, and farmer collectives. Strengthening these institutional and technological foundations is essential for meeting sustainability demands, improving price realisation, and securing positioning within premium global markets. The thematic constructs identified provide a structured framework for empirical assessment of coordination efficiency and future theoretical refinement in high-value agricultural value chains.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-Ament2022" class="csl-entry">
+Ament, J., D. Tobin, S. C. Merrill, C. Morgan, C. Morse, T.-L. Liu, and A. Trubek. 2022. <span>“From Polanyi to Policy: A Tool for Measuring Embeddedness and Designing Sustainable Agricultural Policies.”</span> <em>Frontiers in Sustainable Food Systems</em> 6: 983016. <a href="https://doi.org/10.3389/fsufs.2022.983016">https://doi.org/10.3389/fsufs.2022.983016</a>.
+</div>
+<div id="ref-Baldwin2015" class="csl-entry">
+Baldwin, C. Y., and J. Henkel. 2015. <span>“Modularity and Intellectual Property Protection.”</span> <em>Strategic Management Journal</em> 36 (11): 1637–55.
+</div>
+<div id="ref-Becvarova2001" class="csl-entry">
+Becvarova, V. 2001. <span>“The Influence of Vertical Integration on the Competitiveness of Agriculture.”</span> In <em>Production and Commercial Performance of the Agro-Food Complex</em>. SPU Nitra.
+</div>
+<div id="ref-Benkler2006" class="csl-entry">
+Benkler, Y. 2006. <em>The Wealth of Networks: How Social Production Transforms Markets and Freedom</em>. Yale University Press.
+</div>
+<div id="ref-Benkler2017" class="csl-entry">
+———. 2017. <span>“Peer Production, the Commons and the Future of the Firm.”</span> <em>Strategic Organization</em> 15 (2): 264–74.
+</div>
+<div id="ref-Birthal2007" class="csl-entry">
+Birthal, P. S., A. K. Jha, and H. Singh. 2007. <span>“Linking Farmers to Markets for High-Value Agricultural Commodities.”</span> <em>Agricultural Economics Research Review</em> 20: 425–39. <a href="https://doi.org/10.22004/ag.econ.47437">https://doi.org/10.22004/ag.econ.47437</a>.
+</div>
+<div id="ref-Blazkova2002" class="csl-entry">
+Blazkova, I. 2002. <span>“Vertical Integration as a Manifestation of Globalization in Agribusiness.”</span> In <em>International Scientific Days 2002: Economics and Management of Enterprises in the Process of Globalization</em>. SPU Nitra.
+</div>
+<div id="ref-Boone1991" class="csl-entry">
+Boone, C., and A. Verbeke. 1991. <span>“Strategic Management and Vertical Disintegration: A Transaction Cost Approach.”</span> In <em>Microeconomic Contribution to Strategic Management</em>, edited by J. Thepot and R. A. Thietard, 185–205. Économica.
+</div>
+<div id="ref-Camanzi2018" class="csl-entry">
+Camanzi, L., G. Bartoli, B. Biondi, and G. Malorgio. 2018. <span>“A Structural-Functional Theory Approach to Vertical Coordination in Agri-Food Supply Chains: Insights from the <span>‘Gran Suino Italiano’</span> Inter-Branch Organisation.”</span> <em>Economia Agro-Alimentare</em> 20 (2): 169–80.
+</div>
+<div id="ref-Casula2021" class="csl-entry">
+Casula, M., N. Rangarajan, and P. Shields. 2021. <span>“The Potential of Working Hypotheses for Deductive Exploratory Research.”</span> <em>Quality &amp; Quantity</em> 55 (5): 1703–25. <a href="https://doi.org/10.1007/s11135-020-01072-9">https://doi.org/10.1007/s11135-020-01072-9</a>.
+</div>
+<div id="ref-ChuPham2024" class="csl-entry">
+Chu, T. T., and T. T. T. Pham. 2024. <span>“Vertical Coordination in Agri-Food Supply Chain and Blockchain: A Proposed Framework Solution for Vietnamese Cashew Nut Business.”</span> <em>Regional Science Policy &amp; Practice</em> 16 (3): 12576. <a href="https://doi.org/10.1111/rsp3.12576">https://doi.org/10.1111/rsp3.12576</a>.
+</div>
+<div id="ref-Ciliberti2020" class="csl-entry">
+Ciliberti, S., P. Evangelista, and S. Mencarelli. 2020. <span>“The Influence of Supply Chain Integration on Sustainable Performance: A Moderated-Mediation Approach.”</span> <em>Business Strategy and the Environment</em> 29 (4): 1629–41.
+</div>
+<div id="ref-ClarkRecord2017" class="csl-entry">
+Clark, J. K., and M. Record. 2017. <span>“Local Capitalism and Civic Engagement: The Potential of Locally-Facing Firms.”</span> <em>Public Administration Review</em> 77 (6): 875–87.
+</div>
+<div id="ref-Dentoni2020NewOrgForms" class="csl-entry">
+Dentoni, Domenico, Jos Bijman, Marcia B. Bossle, Sam Gondwe, Perpetua Isubikalu, Chen Ji, Charles Kella, Stefano Pascucci, Annie Royer, and Lucas Vieira. 2020. <span>“New Organizational Forms in Emerging Economies: Bridging the Gap Between Agribusiness Management and International Development.”</span> <em>Journal of Agribusiness in Developing and Emerging Economies</em> 10 (1). <a href="https://doi.org/10.1108/JADEE-10-2019-0176">https://doi.org/10.1108/JADEE-10-2019-0176</a>.
+</div>
+<div id="ref-Eisenhardt1985" class="csl-entry">
+Eisenhardt, K. M. 1985. <span>“Control: Organizational and Economic Approaches.”</span> <em>Management Science</em> 31 (2): 134–49. <a href="https://doi.org/10.1287/mnsc.31.2.134">https://doi.org/10.1287/mnsc.31.2.134</a>.
+</div>
+<div id="ref-Granovetter1992" class="csl-entry">
+Granovetter, M. 1992. <span>“Problems of Explanation in Economic Sociology.”</span> In <em>Networks and Organizations: Structure, Form, and Action</em>, edited by N. Nohria and R. Eccles, 25–56. Harvard Business School Press.
+</div>
+<div id="ref-Gulati1998" class="csl-entry">
+Gulati, R. 1998. <span>“Alliances and Networks.”</span> <em>Strategic Management Journal</em> 19 (4): 293–317.
+</div>
+<div id="ref-Harrigan1983" class="csl-entry">
+Harrigan, K. R. 1983. <em>Strategies for Vertical Integration</em>. Lexington Books.
+</div>
+<div id="ref-JhaRajan2024" class="csl-entry">
+Jha, S. K., and T. A. Rajan. 2024. <span>“The Future of Incubation.”</span> <em>IIMB Management Review</em> 36 (1): 48–55. <a href="https://doi.org/10.1016/j.iimb.2024.03.003">https://doi.org/10.1016/j.iimb.2024.03.003</a>.
+</div>
+<div id="ref-Kramer2021" class="csl-entry">
+Kramer, M., L. Bitsch, and J. Hanf. 2021. <span>“Blockchain and Its Impacts on Agri-Food Supply Chain Network Management.”</span> <em>Sustainability</em> 13 (4): 2168. <a href="https://doi.org/10.3390/su13042168">https://doi.org/10.3390/su13042168</a>.
+</div>
+<div id="ref-LajiliMahoney2006" class="csl-entry">
+Lajili, K., and J. T. Mahoney. 2006. <span>“Revisiting Agency and Transaction Cost Theory Predictions on Vertical Financial Ownership and Contracting: Electronic Integration as an Organizational Form Choice.”</span> <em>Managerial and Decision Economics</em> 27 (7): 573–86.
+</div>
+<div id="ref-Lioutas2019" class="csl-entry">
+Lioutas, E. D., C. Charatsari, G. La Rocca, and M. De Rosa. 2019. <span>“Key Questions on the Use of Big Data in Farming: An Activity Theory Approach.”</span> <em>NJAS - Wageningen Journal of Life Sciences</em> 90–91: 42–49.
+</div>
+<div id="ref-Marlow2005" class="csl-entry">
+Marlow, C. R. 2005. <em>Research Methods for Generalist Social Work</em>. Thomson Brooks/Cole.
+</div>
+<div id="ref-MartinezReed1996" class="csl-entry">
+Martinez, S. W., and A. Reed. 1996. <span>“From Farmers to Consumers: Vertical Coordination in the Food Industry.”</span> Report No. 720. USDA Economic Research Service.
+</div>
+<div id="ref-Meemken2021" class="csl-entry">
+Meemken, E. M. et al. 2021. <span>“Sustainability Standards in Global Agrifood Supply Chains.”</span> <em>Nature Food</em> 2 (11): 835–42.
+</div>
+<div id="ref-Miao2025" class="csl-entry">
+Miao, S., B. Chen, and N. Jiang. 2025. <span>“Collaboration Among Governments, Agribusinesses, and Rural Households for Improving the Effectiveness of Conservation Tillage Technology Adoption.”</span> <em>Scientific Reports</em> 14 (1): 3668.
+</div>
+<div id="ref-Peterson2001" class="csl-entry">
+Peterson, H. 2001. <span>“Strategic Choice Along the Vertical Coordination Continuum.”</span> <em>International Food and Agribusiness Management Review</em> 4 (2): 149–66.
+</div>
+<div id="ref-Porter1994" class="csl-entry">
+Porter, M. E. 1994. <em>Competitive Strategy</em>. Victoria Publishing.
+</div>
+<div id="ref-Reardon2009" class="csl-entry">
+Reardon, T., C. B. Barrett, J. A. Berdegué, and J. F. M. Swinnen. 2009. <span>“Agrifood Industry Transformation and Small Farmers in Developing Countries.”</span> <em>World Development</em> 37 (11): 1717–27. <a href="https://doi.org/10.1016/j.worlddev.2008.08.023">https://doi.org/10.1016/j.worlddev.2008.08.023</a>.
+</div>
+<div id="ref-Ruzzier2009" class="csl-entry">
+Ruzzier, C. A. 2009. <span>“Asset Specificity and Vertical Integration: Williamson’s Hypothesis Reconsidered.”</span> <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.1374687">https://doi.org/10.2139/ssrn.1374687</a>.
+</div>
+<div id="ref-Sharafizad2022" class="csl-entry">
+Sharafizad, J., J. Redmond, and C. Parker. 2022. <span>“The Influence of Local Embeddedness on the Economic, Social, and Environmental Sustainability Practices of Regional Small Firms.”</span> <em>Entrepreneurship &amp; Regional Development</em> 34 (1–2): 57–81. <a href="https://doi.org/10.1080/08985626.2021.2024889">https://doi.org/10.1080/08985626.2021.2024889</a>.
+</div>
+<div id="ref-Smija2024" class="csl-entry">
+Smija, P. K., C. N. Rose, R. Stephen, G. S. Sreekala, P. P. Gopinath, and Y. Chadar. 2024. <span>“Smallholder Farmer’s Preferences for Sustained Participation in High-Value Markets for Black Pepper in Kerala, India.”</span> <em>Plant Science Today</em> 11 (Sp3): 349–61. <a href="https://doi.org/10.14719/pst.4894">https://doi.org/10.14719/pst.4894</a>.
+</div>
+<div id="ref-Stanescu2025" class="csl-entry">
+Stanescu, S. G. 2025. <span>“Digitalization and Blockchain Integration in Agri-Food Supply Chains: A Critical Review.”</span> <em>Sustainability</em> 17 (20): 9276. <a href="https://doi.org/10.3390/su17209276">https://doi.org/10.3390/su17209276</a>.
+</div>
+<div id="ref-Tantalaki2019" class="csl-entry">
+Tantalaki, N., S. Souravlas, and M. Roumeliotis. 2019. <span>“Data-Driven Decision Making in Precision Agriculture: The Rise of Big Data in Agricultural Systems.”</span> <em>Journal of Agricultural &amp; Food Information</em> 20 (4): 344–80. <a href="https://doi.org/10.1080/10496505.2019.1638264">https://doi.org/10.1080/10496505.2019.1638264</a>.
+</div>
+<div id="ref-TerHuurne2017" class="csl-entry">
+Ter Huurne, M., A. Ronteltap, R. Corten, and V. Buskens. 2017. <span>“Antecedents of Trust in the Sharing Economy: A Systematic Review.”</span> <em>Journal of Consumer Behaviour</em> 16 (6): 485–98.
+</div>
+<div id="ref-Uzzi1996" class="csl-entry">
+Uzzi, B. 1996. <span>“The Sources and Consequences of Embeddedness for the Economic Performance of Organizations: The Network Effect.”</span> <em>American Sociological Review</em> 61 (4): 674–98. <a href="https://doi.org/10.2307/2096399">https://doi.org/10.2307/2096399</a>.
+</div>
+<div id="ref-Uzzi1997" class="csl-entry">
+———. 1997. <span>“Social Structure and Competition in Interfirm Networks: The Paradox of Embeddedness.”</span> <em>Administrative Science Quarterly</em> 42: 35–67. <a href="https://doi.org/10.2307/2393808">https://doi.org/10.2307/2393808</a>.
+</div>
+<div id="ref-WeinbergerLumpkin2005" class="csl-entry">
+Weinberger, K., and T. A. Lumpkin. 2005. <span>“High Value Agricultural Products in Asia and the Pacific for Smallholder Farmers: Trends, Opportunities and Research Priorities.”</span> Rome: GFAR.
+</div>
+<div id="ref-Whyte1994" class="csl-entry">
+Whyte, G. 1994. <span>“The Role of Asset Specificity in the Vertical Integration Decision.”</span> <em>Journal of Economic Behavior &amp; Organization</em> 23 (3): 287–302. <a href="https://doi.org/10.1016/0167-2681(94)90003-5">https://doi.org/10.1016/0167-2681(94)90003-5</a>.
+</div>
+<div id="ref-Williamson1979" class="csl-entry">
+Williamson, O. E. 1979. <span>“Transaction-Cost Economics: The Governance of Contractual Relations.”</span> <em>Journal of Law and Economics</em> 22 (2): 233–61.
+</div>
+<div id="ref-Yuan2022" class="csl-entry">
+Yuan, C., C. Geng, J. Sun, and H. Cui. 2022. <span>“Vertical Integration and Corporate Value Under Uncertainty Shock: Evidence from the COVID-19 Pandemic.”</span> <em>China Economic Quarterly International</em> 2 (4): 239–51.
+</div>
+<div id="ref-Ziggers1999" class="csl-entry">
+Ziggers, G. W., and J. Trienekens. 1999. <span>“Quality Assurance in Food and Agribusiness Supply Chains: Developing Successful Partnerships.”</span> <em>International Journal of Production Economics</em> 60–61 (4): 271–79.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>01 December 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>10 December 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>12 December 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<strong>Dr.&nbsp;Ranganath G.</strong><br>
+<em>Assistant Professor</em><br>
+<em>Institute of Agribusiness Management</em><br>
+<em>UAS, GKVK, Bangalore</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Anonymous</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
+</blockquote>
+
+
+
+</section>
+
+ ]]></description>
+  <category>Original-Article</category>
+  <category>panel-discussion</category>
+  <category>Extension</category>
+  <category>AgriBusiness</category>
+  <guid>https://www.jostapubs.com/volume1/issue2/JOSTA202512A575/JOSTA202512A575.html</guid>
+  <pubDate>Thu, 11 Dec 2025 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Dielectric barrier discharge cold plasma for managing red flour beetle, Tribolium castaneum (Herbst)</title>
   <dc:creator>Muhammed Nasil</dc:creator>
@@ -21,7 +677,6 @@
   <dc:creator>K P Sudheer</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025115655/JOSTA2025115655.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
