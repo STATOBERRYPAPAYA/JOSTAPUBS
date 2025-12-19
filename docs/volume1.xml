@@ -9,7 +9,7 @@
 <link>https://www.jostapubs.com/volume1.html</link>
 <atom:link href="https://www.jostapubs.com/volume1.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.39</generator>
+<generator>quarto-1.7.32</generator>
 <lastBuildDate>Thu, 18 Dec 2025 18:30:00 GMT</lastBuildDate>
 <item>
   <title>Modeling Plant Disease Epidemics: A Comprehensive Review of Disease Progress Curves</title>
@@ -19,6 +19,7 @@
   <dc:creator>Aswathy Vijayan</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025127C2B/JOSTA2025127C2B.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -165,7 +166,7 @@
 <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
 <!-- josta inline actions: pdf • copy citation • citation count -->
 <div class="j-inline" style="margin-top:1rem;">
-<p><a href="pdfs/JOSTA-202512-7C2B.pdf" download="" class="j-btn" aria-label="download pdf">  <span>download pdf</span> </a></p>
+<p><a href="pdfs/JOSTA-202512-72CB.pdf" download="" class="j-btn">  <span>download pdf</span> </a></p>
 <p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
 <p><span class="j-chip" data-doi="10.65287/josta.202512.72CB" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
 </div>
