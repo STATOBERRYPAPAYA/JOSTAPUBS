@@ -1,5 +1,5 @@
 ---
-title: "Phytochemistry and Medicinal Significance of \\textit{Adhatoda vasica}: A Review"
+title: "Phytochemistry and Medicinal Significance of *Adhatoda vasica* : A Review"
 author:  
   - name: Mohammed Sadiq V P*
     affiliations:
