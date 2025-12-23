@@ -9,8 +9,691 @@
 <link>https://www.jostapubs.com/volume1.html</link>
 <atom:link href="https://www.jostapubs.com/volume1.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Thu, 18 Dec 2025 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Mon, 22 Dec 2025 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Phytochemistry and Medicinal Significance of : A Review</title>
+  <dc:creator>Mohammed Sadiq V P*</dc:creator>
+  <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025114C90/JOSTA2025114C90.html</link>
+  <description><![CDATA[ 
+
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume1/issue2/JOSTA2025114C90/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+        • 2025
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+
+
+
+
+<p><a href="https://doi.org/10.65287/josta.202511.4C90"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.4C90-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/18029258"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/JOSTA-202511-4C90.pdf" download="" class="j-btn">  <span>download pdf</span> </a></p>
+<p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
+<p><span class="j-chip" data-doi="10.65287/josta.202511.4C90" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
+</div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Mohammed, S. V. P. (2025). Phytochemistry and Medicinal Significance of Adhatoda vasica: A Review. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202511.4C90
+</p>
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<hr>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p><em>Adhatoda vasica</em>, commonly referred to as Vasaka or Malabar nut, is a perennial evergreen shrub revered in traditional Indian medicine for its broad spectrum of pharmacological activities. The Sanskrit term “Vasa” denotes “that which restores health.” Belonging to the family Acanthaceae, <em>A. vasica</em> is distributed across tropical and subtropical regions of South and Southeast Asia, including India, Sri Lanka, China, and Bangladesh. Adhatoda is widely distributed throughout India including states such as Kerala, Tamil Nadu, Andhra Pradesh, Madhya Pradesh, Uttarakhand, Punjab, Mizoram and Tripura <span class="citation" data-cites="IndiaFlora2025">(Sankara Rao, K. and Deepak Kumar 2025)</span>. It grows abundantly, even in marginal and wasteland areas <span class="citation" data-cites="Shamsuddin2021">(Shamsuddin et al. 2021)</span>, and also contributes to ecological restoration through phytoremediation of toxic elements such as mercury and chromium <span class="citation" data-cites="Isha2025">(Isha, Kumar, and Singh 2025)</span>. The foliage has insect repellant activity, and the stem is used for cleaning tooth and strengthening gum <span class="citation" data-cites="Kumar2016a">(V. Kumar, Kumar, and Singh 2016)</span>. <em>Adhatoda beddomie</em> is another important species of Adhatoda, predominantly distributed in kerala. It has lower levels of alkaloids, phenolics and steroids but a higher terpenoid content than A.<em>vasica</em> <span class="citation" data-cites="Nandhini2020">(Nandhini and Ilango 2020)</span>. Vasica and Ajagandhi are two improved varieties of A. <em>vasica</em> released from Kerala agricultural university with vasicine content 2.55% and 2.46% respectively <span class="citation" data-cites="Tomy2023">(Tomy et al. 2023)</span></p>
+<p>In India, it is known by various vernacular names—Adusa, Arusha, or Bansa (Hindi); Adalodakam (Malayalam); Adathodai (Tamil); Adulsa (Marathi); Addasaramu (Telugu); and Adusogae (Kannada). Morphologically, it is a compact evergreen shrub, 2–3.5 m tall, with opposite, lanceolate leaves possessing a bitter taste. The white flowers with purple streaks occur in dense spikes, both axillary and terminal <span class="citation" data-cites="Mehta2016">(J. Mehta 2016)</span>. Morphologically, it is a compact evergreen shrub, 1.5-2 m tall, with opposite decussate, petiolate, exstipulate leaf possessing a bitter taste. The flowers are either white or purple occur in dense spikes, both axillary and terminal <span class="citation" data-cites="Sampath2010 Tomy2023">(Sampath Kumar et al. 2010; Tomy et al. 2023)</span>.</p>
+</section>
+<section id="phytochemical-composition" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="phytochemical-composition"><span class="header-section-number">2</span> Phytochemical composition</h2>
+<p><em>Adhatoda vasica</em> contains a rich spectrum of phytochemicals, including alkaloids, flavonoids, phenols, steroids, carbohydrates, triterpenes, tannins, betaine, essential oils, and alkanes. Over 30 alkaloids have been identified, primarily quinazoline alkaloids such as vasicine and vasicinone, which are predominant in the leaves.</p>
+<div id="tbl-activity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-activity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Phytochemical composition of <em>Adhatoda vasica</em>
+</figcaption>
+<div aria-describedby="tbl-activity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phytochemical group</th>
+<th>Major compounds identified</th>
+<th>Functions</th>
+<th>References</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Alkaloids</td>
+<td>Vasicine, vasicinone, vasicinolone, adhatodine, deoxyvasicine, hydroxyl vasicine, vasicol</td>
+<td>Bronchodilatory, respiratory stimulant, antibacterial, antioxidant, abortifacient, wound healing and hepatoprotective functions</td>
+<td><span class="citation" data-cites="Soni2008">Soni et al. (2008)</span>; <span class="citation" data-cites="Kancharla2023">Kancharla et al. (2023)</span>; <span class="citation" data-cites="Doba2023">Doba and Goti (2023)</span>; <span class="citation" data-cites="Shoaib2021">Shoaib (2021)</span></td>
+</tr>
+<tr class="even">
+<td>Flavonoids</td>
+<td>Apigenin, astragalin, kaempferol, quercetin, vitexin</td>
+<td>Antioxidant and anti-inflammatory functions</td>
+<td><span class="citation" data-cites="Maurya2010">Maurya and Singh (2010)</span></td>
+</tr>
+<tr class="odd">
+<td>Terpenoids</td>
+<td><img src="https://latex.codecogs.com/png.latex?%CE%B1">-amyrin, epitaraxerol, <img src="https://latex.codecogs.com/png.latex?%CE%B2">-carotene</td>
+<td>Antithyroid, antioxidant and cardioprotective functions</td>
+<td><span class="citation" data-cites="Maurya2010">Maurya and Singh (2010)</span>; <span class="citation" data-cites="Shahzad2020">Shahzad et al. (2020)</span>; <span class="citation" data-cites="Banerji1999">Banerji et al. (1999)</span>; <span class="citation" data-cites="Jha2012">Jha et al. (2012)</span></td>
+</tr>
+<tr class="even">
+<td>Steroids</td>
+<td><img src="https://latex.codecogs.com/png.latex?%CE%B2">-sitosterol, <img src="https://latex.codecogs.com/png.latex?%CE%B1">-sitosterol</td>
+<td>Hepatoprotective, antibacterial, antioxidant and immunomodulatory functions</td>
+<td><span class="citation" data-cites="Roy2013">Roy, Shaik, and Faruquee (2013)</span>; <span class="citation" data-cites="Jain1980">Jain, Koul, and Atal (1980)</span></td>
+</tr>
+<tr class="odd">
+<td>Glycosides</td>
+<td><img src="https://latex.codecogs.com/png.latex?%CE%B2">-glucoside galactose</td>
+<td>Antidiabetic function</td>
+<td><span class="citation" data-cites="Jain1980">Jain, Koul, and Atal (1980)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>and responsible for the plant’s bronchodilatory and respiratory-stimulant effects. In addition, other significant alkaloids like vasicinolone, adhatodine, deoxyvasicine, hydroxyl vasicine, and vasicol contribute to the plant’s therapeutic potential <span class="citation" data-cites="Soni2008 Kancharla2023">(Soni et al. 2008; Kancharla et al. 2023)</span>. The medicinal benefits of <em>Adhatoda vasica</em> are further supported by the presence of major flavonoids including apigenin, astragalin, kaempferol, quercetin, and vitexin, as well as terpenoids such as <img src="https://latex.codecogs.com/png.latex?%CE%B1">-amyrin, epitaraxerol, and <img src="https://latex.codecogs.com/png.latex?%CE%B2">-carotene <span class="citation" data-cites="Maurya2010 Shahzad2020">(Maurya and Singh 2010; Shahzad et al. 2020)</span>. The essential oil extracted from the plant contains terpenoids, sesquiterpenes, and cyclic hydrocarbons. Among the major steroids, <img src="https://latex.codecogs.com/png.latex?%CE%B2">-sitosterol and <img src="https://latex.codecogs.com/png.latex?%CE%B1">-sitosterol are present in notable amounts.</p>
+<p>Additionally, vitamin C and amino acids like glycine, proline, serine, and valine are found in considerable quantities <span class="citation" data-cites="Megha2012">(Megha, Palathingal, and Bhagat 2012)</span>. Spectrophotometric analysis has confirmed the presence of important major elements such as potassium, sodium, calcium, and magnesium, along with trace elements including zinc, copper, chromium, nickel, cobalt, cadmium, lead, manganese, and iron <span class="citation" data-cites="Kumar2014">(M. Kumar et al. 2014)</span>. Fatty acids such as Crystalline acid, arachidic acid, linoleic acid, be-henic acid and oleic acid are also present in <em>Adhatoda vasica</em> which possess anticancerous, hepatoprotective, cardioprotective, muscle relaxant and gastroprotective properties <span class="citation" data-cites="Singh2011">(P. T. Singh, Singh, and Singh 2011)</span>.</p>
+</section>
+<section id="traditional-and-ethnomedicinal-uses" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="traditional-and-ethnomedicinal-uses"><span class="header-section-number">3</span> Traditional and ethnomedicinal uses</h2>
+<p>In Ayurveda, <em>A. vasica</em> is highly valued for treating respiratory disorders including asthma, bronchitis, cough, and tuberculosis <span class="citation" data-cites="Sampath2010">(Sampath Kumar et al. 2010)</span>. Its bitter-astringent taste (Tikta-Kashaya Rasa), pungent post-digestive effect (Katu Vipaka), and cooling potency (Sheeta Virya) contribute to its therapeutic action. Various preparations such as Kvatha (decoction), Avaleha (paste/jam), Sneha (medicated oil), and Sandhana (fermented products) are traditionally employed <span class="citation" data-cites="Gupta2010">(A. Gupta and Prajapati 2010)</span>.</p>
+<p>Ancient Ayurvedic texts—Charaka Samhita, Sushruta Samhita, and Bhavaprakasha Nighantu—document its role in balancing Kapha and Pitta doshas <span class="citation" data-cites="Kumar2016b">(N. Kumar 2016)</span>. The roots are used to promote postpartum recovery and treat gonorrhea, while flowers are employed for their bronchodilatory and expectorant effects <span class="citation" data-cites="Hussain2016 Shoaib2021">(Hussain and Hoq 2016; Shoaib 2021)</span>.</p>
+<p>In the Unani system, the plant is recognized for its antispasmodic, expectorant, antipyretic, and antibiotic properties, and is prescribed for conditions such as influenza, tuberculosis, bronchitis, and gastric ulcers <span class="citation" data-cites="Shamsi2019">(Shamsi, Khan, and Nikhat 2019)</span>.</p>
+</section>
+<section id="pharmacological-activities" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="pharmacological-activities"><span class="header-section-number">4</span> Pharmacological activities</h2>
+<section id="bronchodilator-and-anti-asthmatic-activity" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="bronchodilator-and-anti-asthmatic-activity"><span class="header-section-number">4.1</span> Bronchodilator and anti-asthmatic activity</h3>
+<p>Ethanolic extracts of <em>A. vasica</em> leaves significantly increased pre-convulsion time in histamine-induced bronchospasm in guinea pigs, demonstrating bronchodilatory efficacy comparable to ketotifen <span class="citation" data-cites="Dangi2015 Khandelwal2024">(Dangi, Patel, and Yaduvanshi 2015; Khandelwal et al. 2024)</span>. Vasicine and vasicinone act synergistically as bronchodilators, antitussives, and anti-inflammatory agents. It has expectorant activity, promoting the loosening and expulsion of mucus from the respiratory tract. The alkaloids vasicinone and vasicine have potent bronchodilator and anti-allergic activity <span class="citation" data-cites="Dhuley1999 Gangwar2014 Jyoti2018">(Dhuley 1999; Gangwar and Ghosh 2014; Jyoti et al. 2018)</span>.</p>
+</section>
+<section id="antibacterial-and-antimicrobial-activity" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="antibacterial-and-antimicrobial-activity"><span class="header-section-number">4.2</span> Antibacterial and antimicrobial activity</h3>
+<p>Leaf, stem, and root extracts of A. vasica exhibit broad-spectrum antibacterial activity against pathogens including <em>Klebsiella pneumoniae, Staphylococcus aureus, Proteus vulgaris, Pseudomonas aeruginosa</em>, and <em>Streptococcus pyogenes</em> <span class="citation" data-cites="Sharma2021">(Sharma and Agarwal 2021)</span>. Compounds extracted from the stem, such as <img src="https://latex.codecogs.com/png.latex?%CE%B2">-sitosterol, monopalmitin, vanillin, vasicinolone, and vasicinone, showed strong antibacterial activity against <em>Escherichia coli</em> and <em>Staphylococcus aureus</em> <span class="citation" data-cites="Ibrahim2019">(Ibrahim et al. 2019)</span>. While predominantly antibacterial, certain compounds like daucosterolpalmitate and vanillic acid also exhibited antifungal activity against <em>Candida albicans</em>, <em>Aspergillus niger</em>, and <em>Trichoderma reesei</em> <span class="citation" data-cites="AbdelRahman2017">(Abdel-Rahman et al. 2017)</span>. The efficacy varies with the solvent used, with ethanolic extracts generally showing superior inhibition.</p>
+</section>
+<section id="anti-diabetic-activity" class="level3" data-number="4.3">
+<h3 data-number="4.3" class="anchored" data-anchor-id="anti-diabetic-activity"><span class="header-section-number">4.3</span> Anti-diabetic activity</h3>
+<p>Diabetes mellitus is a chronic condition marked by high blood glucose due to low insulin or insulin resistance. Methanolic extracts of <em>A. vasica</em> (50-100 mg/kg) significantly reduced blood glucose levels in alloxan-induced diabetic rats, suggesting the hypoglycemic role of flavonoids, alkaloids, phenols and saponins <span class="citation" data-cites="Mehta2023 Ramachandran2016">(R. K. Mehta, Thapa, and Chaudhary 2023; Ramachandran, Rajendran, and Ramalingam 2016)</span>. Enhanced glucose uptake in rat hemidiaphragm models indicates insulin-like activity.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="anti-ulcer-activity" class="level3" data-number="4.4">
+<h3 data-number="4.4" class="anchored" data-anchor-id="anti-ulcer-activity"><span class="header-section-number">4.4</span> Anti-ulcer activity</h3>
+<p>A peptic ulcer is a painful sore in the stomach or small intestine caused by stomach acid eroding the protective mucus layer. Alcoholic, chloroform, and ether extracts of <em>A. vasica</em> (100-200 mg kg⁻¹) markedly reduced gastric acidity <span class="citation" data-cites="Guth1976">(Guth et al. 1976)</span>. The extracts significantly reduced the volume of gastric acid secretion, free and total acidity, and provided direct protective effects on the gastric mucosal lining. Furthermore, the ulcer index, a quantitative measure of gastric ulcer severity was decreased in the animals treated with the plant extracts <span class="citation" data-cites="Vinothapooshan2011b">(Vinothapooshan and Sundar 2011)</span>.</p>
+</section>
+<section id="uterotonic-and-abortifacient-activity" class="level3" data-number="4.5">
+<h3 data-number="4.5" class="anchored" data-anchor-id="uterotonic-and-abortifacient-activity"><span class="header-section-number">4.5</span> Uterotonic and abortifacient activity</h3>
+<p>Vasicine exhibits potent uterotonic activity comparable to oxytocin in human myometrial tissues <span class="citation" data-cites="Gupta1979">(O. P. Gupta et al. 1979)</span>. Oral administration of ethanolic extracts (175 mg kg⁻¹) in guinea pigs induced 100% abortion when administered post-conception, indicating prostaglandin-mediated uterine stimulation <span class="citation" data-cites="Atal1980 Chandhoke1982">(Atal 1980; Chandhoke 1982)</span>.</p>
+</section>
+<section id="antioxidant-activity" class="level3" data-number="4.6">
+<h3 data-number="4.6" class="anchored" data-anchor-id="antioxidant-activity"><span class="header-section-number">4.6</span> Antioxidant activity</h3>
+<p><em>Adhatoda vasica</em> exhibits significant antioxidant activity, primarily due to its high content of phenolic and flavonoid compounds. <em>A. vasica</em> scavenge DPPH radicals effectively, with flower extracts showing the highest activity (69% inhibition at 80 μg/ml) <span class="citation" data-cites="Khan2019">(Khan, Bhadauria, and Yadav 2019)</span>. In presence of plant extract, the Mo(IV) is found to be reduced to M0(V) and forms ammonium molybdenum complex which can be measured using UV- visible spectrophotometer <span class="citation" data-cites="Prathiba2019 Rao2013">(Prathiba 2019; Rao et al. 2013)</span>.</p>
+</section>
+<section id="anti-inflammatory-and-analgesic-activity" class="level3" data-number="4.7">
+<h3 data-number="4.7" class="anchored" data-anchor-id="anti-inflammatory-and-analgesic-activity"><span class="header-section-number">4.7</span> Anti-inflammatory and analgesic activity</h3>
+<p>The alkaloid fraction of <em>A. vasica</em> extract exhibited strong anti-inflammatory activity in carrageenan- and formalin-induced edema models, comparable to hydrocortisone <span class="citation" data-cites="Chakraborty2001 Basit2022">(Chakraborty and Brantner 2001; Basit et al. 2022)</span>. It also suppressed inflammatory cytokines such as TNF-<img src="https://latex.codecogs.com/png.latex?%CE%B1">, IL-1<img src="https://latex.codecogs.com/png.latex?%CE%B2">, IL-6, and IL-8 <span class="citation" data-cites="Amala2019">(Amala and Sujatha 2019)</span>. Furthermore, it inhibits the histamine release from mast cells contributing to reduced allergic responses (Pawar et al.). Experiment conducted in formalin induced zebra fish (Danio rerio) has proved the antinociceptive action of A.vasica plant extract at concentrations of 5, 10, 15, and 20 mg/ml <span class="citation" data-cites="Gao2022">(Gao et al. 2022)</span>.</p>
+</section>
+<section id="wound-healing-activity" class="level3" data-number="4.8">
+<h3 data-number="4.8" class="anchored" data-anchor-id="wound-healing-activity"><span class="header-section-number">4.8</span> Wound-healing activity</h3>
+<p><em>A. vasica</em> enhances the wound healing process by promoting the production of connective tissue components such as collagen and elastin. A one per cent methanolic extract of the aerial parts of the plant, formulated as an ointment, enhanced wound contraction and collagen synthesis in excision models in mice. Treated wounds showed higher hydroxyproline content and increased granulation tissue formation, confirming its tissue-repairing and antioxidant role <span class="citation" data-cites="Subhashini2011 Doba2023">(Subhashini and Arunachalam 2011; Doba and Goti 2023)</span>.</p>
+</section>
+<section id="anti-tubercular-activity" class="level3" data-number="4.9">
+<h3 data-number="4.9" class="anchored" data-anchor-id="anti-tubercular-activity"><span class="header-section-number">4.9</span> Anti-tubercular activity</h3>
+<p>Two semi-synthetic derivatives of vasicine, such as bromhexine and ambroxol, exhibit mucolytic and antimycobacterial properties by accumulating in macrophages and inhibiting bacterial fatty acid synthesis <span class="citation" data-cites="Grange1996 Narimanyan2005 Jha2012">(Grange and Snell 1996; Narimanyan et al. 2005; Jha et al. 2012)</span>. Quinazoline alkaloids of <em>A. vasica</em> show promise as leads for anti-TB drug development.</p>
+</section>
+<section id="thrombolytic-activity" class="level3" data-number="4.10">
+<h3 data-number="4.10" class="anchored" data-anchor-id="thrombolytic-activity"><span class="header-section-number">4.10</span> Thrombolytic activity</h3>
+<p>Methanolic extracts demonstrated moderate thrombolytic activity (53.23% clot lysis), attributed to alkaloids, tannins, flavonoids, and saponins <span class="citation" data-cites="Shahriar2023">(Shahriar 2023)</span>.</p>
+</section>
+<section id="hepatoprotective-activity" class="level3" data-number="4.11">
+<h3 data-number="4.11" class="anchored" data-anchor-id="hepatoprotective-activity"><span class="header-section-number">4.11</span> Hepatoprotective activity</h3>
+<p><em>Adhatoda vasica</em> exhibits hepatoprotective action by reducing oxidative stress and protecting the liver from damage induced by various toxins. In CCl₄-induced hepatotoxic rats, <em>A. vasica</em> extract (250–500 mg kg⁻¹) significantly reduced elevated serum AST, ALT, ALP, and bilirubin levels, indicating hepatoprotection through antioxidant mechanisms <span class="citation" data-cites="Afzal2013 Kumar2015">(Afzal et al. 2013; M. Kumar, Dandapat, and Sinha 2015)</span>.</p>
+</section>
+<section id="insecticidal-and-antifeedant-activity" class="level3" data-number="4.12">
+<h3 data-number="4.12" class="anchored" data-anchor-id="insecticidal-and-antifeedant-activity"><span class="header-section-number">4.12</span> Insecticidal and antifeedant activity</h3>
+<p>Adhatoda has been used as an insect repellent for decades in India. Its leaves are applied to control pests of oilseeds <span class="citation" data-cites="Singh2016">(R. Singh and Tiwari 2016)</span>. The alkaloid vasicinol has an antifertility effect on some insect species by blocking their oviducts <span class="citation" data-cites="Saxena1986">(Saxena et al. 1986)</span>. Studies have shown the effectiveness of crude leaf extract of Adhatoda against pests like cabbage aphid (<em>Brevicoryne brassicae</em>) and pink hibiscus mealy bug (<em>Maconellicoccus hirsutus</em>) <span class="citation" data-cites="Haifa2016">(Haifa and Ali 2016)</span>. The 24-hour LC50 of ethanol and water extracts of Adhatoda leaves against <em>Maconellicoccus hirsutus</em> are 25.70 ppm and 39.81 ppm, respectively. In the case of <em>Brevicoryne brassicae</em>, the acetonic and ethanolic extracts showed average killing rates of 57.2% and 47.1%, respectively. Adhatoda has also been studied for its larvicidal effects on the filariasis vector <em>Culex quinquefasciatus</em> and the dengue vector <em>Aedes aegypti</em> <span class="citation" data-cites="Thanigaivel2012">(Thanigaivel et al. 2012)</span>. The antifeedant effect of methanolic extract on various pest species such as cotton leaf worm (<em>Spodoptera littoralis</em>) and rice brown plant hopper has also been reported <span class="citation" data-cites="Sadek2003 Rana2015">(Sadek 2003; Rana et al. 2015)</span>.</p>
+<div id="tbl-activity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-activity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Insecticidal activity of <em>Adhatoda vasica</em> against selected insects
+</figcaption>
+<div aria-describedby="tbl-activity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 15%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Target insect</th>
+<th>Solvent</th>
+<th>Bioassay parameter</th>
+<th>Quantitative result</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cabbage aphid (<em>Brevicoryne brassicae</em>)</td>
+<td>Ethanolic leaf extract</td>
+<td>LC<sub>50</sub></td>
+<td>25.70 ppm</td>
+<td><span class="citation" data-cites="Haifa2016">Haifa and Ali (2016)</span></td>
+</tr>
+<tr class="even">
+<td>Cabbage aphid (<em>Brevicoryne brassicae</em>)</td>
+<td>Aqueous leaf extract</td>
+<td>LC<sub>50</sub></td>
+<td>39.81 ppm</td>
+<td><span class="citation" data-cites="Haifa2016">Haifa and Ali (2016)</span></td>
+</tr>
+<tr class="odd">
+<td>Pink hibiscus mealy bug (<em>Maconellicoccus hirsutus</em>)</td>
+<td>Ethanolic leaf extract</td>
+<td>LC<sub>50</sub></td>
+<td>25.70 ppm</td>
+<td><span class="citation" data-cites="Kalitha2021">Kalitha et al. (2021)</span></td>
+</tr>
+<tr class="even">
+<td>Pink hibiscus mealy bug (<em>Maconellicoccus hirsutus</em>)</td>
+<td>Aqueous leaf extract</td>
+<td>LC<sub>50</sub></td>
+<td>39.81 ppm</td>
+<td><span class="citation" data-cites="Kalitha2021">Kalitha et al. (2021)</span></td>
+</tr>
+<tr class="odd">
+<td>Southern house mosquito (<em>Culex quinquefasciatus</em>)</td>
+<td>Methanolic leaf extract</td>
+<td>LC<sub>50</sub></td>
+<td>56.13 ppm</td>
+<td><span class="citation" data-cites="Thanigaivel2012">Thanigaivel et al. (2012)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="anti-cancer-activity" class="level3" data-number="4.13">
+<h3 data-number="4.13" class="anchored" data-anchor-id="anti-cancer-activity"><span class="header-section-number">4.13</span> Anti-cancer activity</h3>
+<p>Hexane and methanolic extracts showed cytotoxic effects against leukemia (MOLM-14, NB-4) and solid tumor cell lines (HeLa, MCF-7, HepG2) with dose-dependent inhibition of proliferation <span class="citation" data-cites="Balachandran2017 Nirmala2019 Nikhitha2021">(Balachandran et al. 2017; Nirmala et al. 2019; Nikhitha, Swathy, and Chandran 2021)</span>. The mechanism involves apoptosis induction and p53/p21 gene modulation.</p>
+</section>
+<section id="immunomodulatory-activity" class="level3" data-number="4.14">
+<h3 data-number="4.14" class="anchored" data-anchor-id="immunomodulatory-activity"><span class="header-section-number">4.14</span> Immunomodulatory activity</h3>
+<p>Methanolic and chloroform extracts enhanced immune response in rats by increasing neutrophil adhesion, macrophage activity, and delayed type hypersensitivity <span class="citation" data-cites="Vinothapooshan2011a Sutare2020">(Vinothapreeshan and Sundar 2011; Sutare and Kareppa 2020)</span>.</p>
+</section>
+<section id="anti-mutagenic-activity" class="level3" data-number="4.15">
+<h3 data-number="4.15" class="anchored" data-anchor-id="anti-mutagenic-activity"><span class="header-section-number">4.15</span> Anti-mutagenic activity</h3>
+<p>Plant extracts reduced cadmium-induced chromosomal aberrations and oxidative stress markers in mice <span class="citation" data-cites="Jahangir2006">(Jahangir et al. 2006)</span>. Vasicine also showed strong inhibition of 2-aminofluorene-induced mutagenicity in <em>Salmonella typhimurium</em> strains <span class="citation" data-cites="Kaur2015">(Kaur, Kaur, and Arora 2015)</span>. Ultra-high-performance liquid chromatography (UHPLC) analysis revealed the presence of polyphenolic compounds and flavonoids, which may be responsible for the bioprotective activity of the plant extract. The extract was found to have protective antioxidant activity against free radicals, superoxides, and hydrogen peroxide radicals, thereby conferring antimutagenic potential.</p>
+</section>
+</section>
+<section id="conclusion" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">5</span> Conclusion</h2>
+<p><em>Adhatoda vasica</em> is a medicinally significant plant possessing a broad spectrum of pharmacological activities supported by its diverse phytochemical composition. Key bioactive alkaloids such as vasicine and vasicinone confer anti-asthmatic, anti-inflammatory, antimicrobial, hepatoprotective, antioxidant, and immunomodulatory properties. It has great prospects due to these pharmacological properties, suitability to waste lands and low input requirements. However, the absence of improved varieties, along with the lack of standardized cultivation practices and extraction or quality control protocols, remains a major limitation. The biosynthetic pathways and regulatory factors of major chemical constituents remain inadequately studied. Although preclinical findings are promising, comprehensive clinical trials and standardization of dosage, formulation, and safety parameters are imperative. Continued multidisciplinary research could facilitate the incorporation of <em>A. vasica</em> derived compounds into modern pharmacotherapy, validating its traditional use as a potent natural therapeutic agent.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-AbdelRahman2017" class="csl-entry">
+Abdel-Rahman, S. A., N. S. El-Gohary, E. R. El-Bendary, S. M. El-Ashry, and M. I. Shaaban. 2017. <span>“Synthesis, Antimicrobial, Antiquorum-Sensing, Antitumor and Cytotoxic Activities of New Series of Cyclopenta(hepta)[b]thiophene and Fused Cyclohepta[b]thiophene Analogs.”</span> <em>European Journal of Medicinal Chemistry</em> 140: 200–211.
+</div>
+<div id="ref-Afzal2013" class="csl-entry">
+Afzal, U., M. Gulfraz, S. Hussain, F. Malik, S. Maqsood, I. Shah, and S. Mahmood. 2013. <span>“Hepatoprotective Effects of Justicia Adhatoda l. Against Carbon Tetrachloride (CCl4) Induced Liver Injury in Swiss Albino Mice.”</span> <em>African Journal of Pharmacy and Pharmacology</em> 7 (1): 8–14.
+</div>
+<div id="ref-Amala2019" class="csl-entry">
+Amala, R., and S. Sujatha. 2019. <span>“Presence of Pyrroloquinazoline Alkaloid in Adhatoda Vasica Attenuates Inflammatory Response Through the Downregulation of Pro-Inflammatory Mediators in LPS Stimulated RAW 264.7 Macrophages.”</span> <em>BioImpacts</em> 11: 15–22.
+</div>
+<div id="ref-Atal1980" class="csl-entry">
+Atal, C. K. 1980. <em>Chemistry and Pharmacology of Vasicine, a New Oxytocic and Abortifacient</em>. Jammu-Tawi: Regional Research Laboratory, CSIR.
+</div>
+<div id="ref-Balachandran2017" class="csl-entry">
+Balachandran, C., Y. Arun, B. Sangeetha, V. Duraipandiyan, S. Awale, N. Emi, S. Ignacimuthu, and P. T. Perumal. 2017. <span>“In Vitro and in Vivo Anticancer Activity of 2-Acetyl-Benzylamine Isolated from Adhatoda Vasica l. Leaves.”</span> <em>Biomedicine and Pharmacotherapy</em> 93: 796–806.
+</div>
+<div id="ref-Banerji1999" class="csl-entry">
+Banerji, J., A. Chatterjee, M. Saha, K. P. Dhara, S. Kanrar, P. Mukherjee, A. Neuman, and T. Prange. 1999. <span>“Reactions and Rearrangements of Triterpenoids-3-Epitaraxerol and Its Transformation Products.”</span> <em>Indian Journal of Chemistry Section B</em> 38 (12): 1322–30. <a href="https://doi.org/10.1002/chin.200019166">https://doi.org/10.1002/chin.200019166</a>.
+</div>
+<div id="ref-Basit2022" class="csl-entry">
+Basit, A., T. Shuitian, A. Khan, S. M. Khan, R. Shahzad, M. Z. Khan, and M. Khan. 2022. <span>“Anti-Inflammatory and Analgesic Potential of Leaf Extract of Justicia Adhatoda (l.) (Acanthaceae) in Carrageenan and Formalin-Induced Models by Targeting Oxidative Stress.”</span> <em>Biomedicine and Pharmacotherapy</em> 153: 113322.
+</div>
+<div id="ref-Chakraborty2001" class="csl-entry">
+Chakraborty, A., and A. H. Brantner. 2001. <span>“Study of Alkaloids from Adhatoda Vasica Nees on Their Antiinflammatory Activity.”</span> <em>Phytotherapy Research</em> 15 (6): 532–34.
+</div>
+<div id="ref-Chandhoke1982" class="csl-entry">
+Chandhoke, N. 1982. <span>“Vasicine, the Alkaloid of Adhatoda Vasica.”</span> <em>Indian Drugs</em> 24 (9): 425–26.
+</div>
+<div id="ref-Dangi2015" class="csl-entry">
+Dangi, A., S. Patel, and P. S. Yaduvanshi. 2015. <span>“Phytochemical Screening and Assessment of Adhatoda Vasica (Leaf) for Antiasthmatic Activity.”</span> <em>Panacea Journal of Pharmacy and Pharmaceutical Sciences</em> 4 (3): 680–704.
+</div>
+<div id="ref-Dhuley1999" class="csl-entry">
+Dhuley, J. N. 1999. <span>“Antitussive Effect of Adhatoda Vasica Extract on Mechanical or Chemical Stimulation-Induced Coughing in Animals.”</span> <em>Journal of Ethnopharmacology</em> 67 (3): 361–65.
+</div>
+<div id="ref-Doba2023" class="csl-entry">
+Doba, J. P., and D. Goti. 2023. <span>“Phytopharmacological Evaluation of Adhatoda Vasica.”</span> <em>World Journal of Pharmaceutical Research</em> 12 (9): 759–80.
+</div>
+<div id="ref-Gangwar2014" class="csl-entry">
+Gangwar, A. K., and A. K. Ghosh. 2014. <span>“Medicinal Uses and Pharmacological Activity of Adhatoda Vasica.”</span> <em>International Journal of Herbal Medicine</em> 2 (1): 88–91.
+</div>
+<div id="ref-Gao2022" class="csl-entry">
+Gao, L., S. Cui, Z. Huang, and H. Cui. 2022. <span>“Adhatoda Vasica Is Effective in Relieving Pain Through Modulation of Inflammation.”</span> <em>Pharmacognosy Magazine</em> 18 (79): 593–99. <a href="https://doi.org/10.4103/pm.pm_114_22">https://doi.org/10.4103/pm.pm_114_22</a>.
+</div>
+<div id="ref-Grange1996" class="csl-entry">
+Grange, J. M., and N. J. Snell. 1996. <span>“Activity of Bromhexine and Ambroxol, Semi-Synthetic Derivatives of Vasicine from the Indian Shrub Adhatoda Vasica, Against Mycobacterium Tuberculosis in Vitro.”</span> <em>Journal of Ethnopharmacology</em> 50 (1): 49–53.
+</div>
+<div id="ref-Gupta2010" class="csl-entry">
+Gupta, A., and P. K. Prajapati. 2010. <span>“A Clinical Review of Different Formulations of Vasa (Adhatoda Vasica) on Tamaka Shwasa (Asthma).”</span> <em>Ayu</em> 31 (4): 520–24.
+</div>
+<div id="ref-Gupta1979" class="csl-entry">
+Gupta, O. P., B. L. Wakhloo, M. L. Sharma, and C. K. Atal. 1979. <span>“Vasicine—a Potent Uterine Stimulant—Studies on Human Myometrium.”</span> <em>Journal of Obstetrics and Gynaecology of India</em> 29 (5): 935–38.
+</div>
+<div id="ref-Guth1976" class="csl-entry">
+Guth, P. H., G. Paulsen, D. Lynn, and D. Aures. 1976. <span>“Mechanism of Prevention of Aspirin-Induced Gastric Lesions by Bile Duct Legation in the Rat.”</span> <em>Gastroenterology</em> 71 (5): 750–53.
+</div>
+<div id="ref-Haifa2016" class="csl-entry">
+Haifa, N. M., and S. M. Ali. 2016. <span>“Insecticidal Effect of Crude Plant Extract of Adhatoda Vasica Against Brevicoryne Brassicae.”</span> <em>World Journal of Experimental Biosciences</em> 4 (1): 49–52.
+</div>
+<div id="ref-Hussain2016" class="csl-entry">
+Hussain, M. T., and M. O. Hoq. 2016. <span>“Therapeutic Use of <span class="nocase">Adhatoda vasica</span>.”</span> <em>Asian Journal of Medical and Biological Research</em> 2 (2): 156–63.
+</div>
+<div id="ref-Ibrahim2019" class="csl-entry">
+Ibrahim, D., F. M. A. Ba, A. Elgaml, S. R. Gedara, and A. A. Gohar. 2019. <span>“Antimicrobial, Antiquorum-Sensing and Ex-Vivo Antispasmodic Activity of Adhatoda Vasica.”</span> <em>Journal of Pharmaceutical Research International</em> 31 (6): 1–16.
+</div>
+<div id="ref-Isha2025" class="csl-entry">
+Isha, P. Kumar, and A. N. Singh. 2025. <span>“An Overview of <em>Justicia Adhatoda</em>: A Medicinal Plant but Native Invader in India.”</span> <em>Conservation</em> 5 (1): 2.
+</div>
+<div id="ref-Jahangir2006" class="csl-entry">
+Jahangir, T., T. H. Khan, L. Prasad, and S. Sultana. 2006. <span>“Reversal of Cadmium Chloride-Induced Oxidative Stress and Genotoxicity by Adhatoda Vasica Extract in Swiss Albino Mice.”</span> <em>Biological Trace Element Research</em> 111 (1–3): 217–28.
+</div>
+<div id="ref-Jain1980" class="csl-entry">
+Jain, M., S. Koul, and C. K. Atal. 1980. <span>“Novel nor-Harmal Alkaloid from Adhatoda Vasica.”</span> <em>Phytochemistry</em> 19 (9): 1880–82. <a href="https://doi.org/10.1016/S0031-9422(00)83845-5">https://doi.org/10.1016/S0031-9422(00)83845-5</a>.
+</div>
+<div id="ref-Jha2012" class="csl-entry">
+Jha, D. K., L. Panda, P. Lavanya, S. Ramaiah, and A. Anbarasu. 2012. <span>“Detection and Confirmation of Alkaloids in Leaves of Justicia Adhatoda and Bioinformatics Approach to Elicit Its Anti-Tuberculosis Activity.”</span> <em>Applied Biochemistry and Biotechnology</em> 168 (5): 980–90.
+</div>
+<div id="ref-Jyoti2018" class="csl-entry">
+Jyoti, R., P. Shikha, K. V. Bihari, and S. U. Kumar. 2018. <span>“Role of Adhatoda Vasica in Management of Respiratory Disorders.”</span> <em>Environment Conservation Journal</em> 19 (3): 73–75.
+</div>
+<div id="ref-Kalitha2021" class="csl-entry">
+Kalitha, P. P. M., M. S. Sundaralingam, A. Sukumaran, and C. Mano. 2021. <span>“Insecticidal Effect of Adhatoda Vasica (Leaf) and Trigonella Foenum-Graecum (Seed) Extracts Against Mealy Bugs (Maconellicoccus Hirsutus) on Hibiscus Rosa-Sinensis Plant.”</span> <em>Asian Journal of Biological and Life Sciences</em> 10 (2): 500–506. <a href="https://doi.org/10.5530/ajbls.2021.10.66">https://doi.org/10.5530/ajbls.2021.10.66</a>.
+</div>
+<div id="ref-Kancharla2023" class="csl-entry">
+Kancharla, B., R. Singh, T. A. Gajendra, K. Ramakrishna, S. K. Singh, A. Kumar, and S. Hemalatha. 2023. <span>“Vasicinone, a Pyrroloquinazoline Alkaloid from Adhatoda Vasica Nees Enhances Memory and Cognition by Inhibiting Cholinesterases in Alzheimer’s Disease.”</span> <em>Phytomedicine Plus</em> 3 (2): 100439.
+</div>
+<div id="ref-Kaur2015" class="csl-entry">
+Kaur, A., D. Kaur, and S. Arora. 2015. <span>“Evaluation of Antioxidant and Anti-Mutagenic Potential of Justicia Adhatoda Leaves Extract.”</span> <em>African Journal of Biotechnology</em> 14 (21): 1807–19.
+</div>
+<div id="ref-Khan2019" class="csl-entry">
+Khan, A. M., S. Bhadauria, and R. Yadav. 2019. <span>“Phytochemical Screening and Antioxidant Activity of Extract of Different Parts of Adhatoda Vasica.”</span> <em>Research Journal of Pharmacology and Technology</em> 12 (12): 5699–5705.
+</div>
+<div id="ref-Khandelwal2024" class="csl-entry">
+Khandelwal, P., B. D. Wadhwani, R. S. Rao, D. Mali, P. Vyas, T. Kumar, and R. Nair. 2024. <span>“Exploring the Pharmacological and Chemical Aspects of Pyrrolo-Quinazoline Derivatives in Adhatoda Vasica.”</span> <em>Heliyon</em> 10 (4): e25727.
+</div>
+<div id="ref-Kumar2014" class="csl-entry">
+Kumar, M., S. Dandapat, A. Kumar, and M. P. Sinha. 2014. <span>“Pharmacological Screening of Leaf Extract of Adhatoda Vasica for Therapeutic Efficacy.”</span> <em>Global Journal of Pharmacology</em> 8 (4): 494–500.
+</div>
+<div id="ref-Kumar2015" class="csl-entry">
+Kumar, M., S. Dandapat, and M. P. Sinha. 2015. <span>“Hepatoprotective Activity of Adhatoda Vasica and Vitex Negundo Leaf Extracts Against Carbon Tetrachloride Induced Hepatotoxicity in Rats.”</span> <em>Advances in Biological Research</em> 9 (4): 242–46.
+</div>
+<div id="ref-Kumar2016b" class="csl-entry">
+Kumar, N. 2016. <span>“Pharmaceutical Attributes of Vasa (Adhatoda Vasica Linn.)–a Review.”</span> <em>World Journal of Pharmaceutical Research</em> 5 (4): 437–55.
+</div>
+<div id="ref-Kumar2016a" class="csl-entry">
+Kumar, V., R. Kumar, and V. Singh. 2016. <span>“Adhatoda Vasica: A Traditional Use Cum Health Benefit.”</span> <em>Ramnathakrish</em> 11 (1): 82–83.
+</div>
+<div id="ref-Maurya2010" class="csl-entry">
+Maurya, S., and D. Singh. 2010. <span>“Quantitative Analysis of Flavonoids in <span class="nocase">Adhatoda vasica</span> Nees Extracts.”</span> <em>Der Pharma Chemica</em> 2 (5): 242–46.
+</div>
+<div id="ref-Megha2012" class="csl-entry">
+Megha, J., T. Palathingal, and S. S. Bhagat. 2012. <span>“Effect of Environmental Conditions on the Vitamin c and Essential Oil Content of Adhatoda Vasica Growing in the Various Regions of Kerala and Maharashtra.”</span> <em>International Journal of Scientific Research</em> 3 (8): 31–33.
+</div>
+<div id="ref-Mehta2016" class="csl-entry">
+Mehta, J. 2016. <span>“Phenology of Adhatoda Vasica a Multifarious Useful Medicinal Plant.”</span> <em>International Journal of Applied Research</em> 2 (7): 791–94.
+</div>
+<div id="ref-Mehta2023" class="csl-entry">
+Mehta, R. K., R. Thapa, and M. K. Chaudhary. 2023. <span>“Evaluation of Anti-Diabetic Activity of <em>Justicia Adhatoda</em> (Linn.) Leaves in Diabetic Wistar Rats.”</span> <em>Journal of Universal College of Medical Sciences</em> 11 (1): 50–54.
+</div>
+<div id="ref-Nandhini2020" class="csl-entry">
+Nandhini, S., and K. Ilango. 2020. <span>“Comparative Study on Pharmacognostical, Phytochemical Investigations and Quantification of Vasicine Content in the Extracts of Adhatoda Vasica Nees and Adhatoda Beddomei c. B. Clarke.”</span> <em>Pharmacognosy Journal</em> 12 (4): 884–96. <a href="https://doi.org/10.5530/pj.2020.12.126">https://doi.org/10.5530/pj.2020.12.126</a>.
+</div>
+<div id="ref-Narimanyan2005" class="csl-entry">
+Narimanyan, M., M. Badalyan, V. Panosyan, E. Gabrielyan, A. Panossian, and G. Wikman. 2005. <span>“Randomized Trial of a Fixed Combination (KanJang) of Herbal Extracts Containing Adhatoda Vasica, Echinacea Purpurea and Eleutherococcus Senticosus in Patients with Upper Respiratory Tract Infections.”</span> <em>Phytomedicine</em> 12 (8): 539–47.
+</div>
+<div id="ref-Nikhitha2021" class="csl-entry">
+Nikhitha, J. N., K. S. Swathy, and R. P. Chandran. 2021. <span>“In Vitro Anticancer Activity of Ethanol Extract of Adhatoda Vasica Nees on Human Ovarian Cancer Cell Lines.”</span> <em>Journal of Genetic Engineering and Biotechnology</em> 19 (1): 116.
+</div>
+<div id="ref-Nirmala2019" class="csl-entry">
+Nirmala, S., P. N. Sabapathi, M. Sudhakar, N. Bathula, and Y. Sravanthi. 2019. <span>“Investigation of in Vitro Anti-Cancer Property of Adhatoda Vasica in Hela, HepG2, MCF-7, MDAMB-231 Cell Lines.”</span> <em>Research Journal of Pharmacognosy and Phytochemistry</em> 11 (4): 212–16.
+</div>
+<div id="ref-Prathiba2019" class="csl-entry">
+Prathiba, H. D. 2019. <span>“Free Radical Scavenging Potential of Leaf of Adhatoda Vasica and Lantana Camara by DPPH Assay.”</span> <em>International Journal of Pharmaceutical and Biological Sciences</em> 9 (Special Issue 1): 34–39.
+</div>
+<div id="ref-Ramachandran2016" class="csl-entry">
+Ramachandran, V., K. Rajendran, and G. Ramalingam. 2016. <span>“In-Vitro Study of Adhatoda Vasica Nees on Glucose Uptake by Isolated Rat Hemi-Diaphragm.”</span> <em>Journal of Pharmaceutical and Medical Chemistry</em> 2 (2): 141–43.
+</div>
+<div id="ref-Rana2015" class="csl-entry">
+Rana, M. S., M. A. A. Bachchu, M. A. Hossain, R. Ara, and H. Rahman. 2015. <span>“Effect of Some Indigenous Plant Extracts Against Brown Plant Hopper, Nilaparvata Lugens (Stal.) (Hemiptera: Delphacidae).”</span> <em>Bangladesh Journal of Entomology</em> 25 (1): 15–31.
+</div>
+<div id="ref-Rao2013" class="csl-entry">
+Rao, K. V. B., M. Munjal, A. Patnayak, L. Karthik, and G. Kumar. 2013. <span>“Phytochemical Composition, Antioxidant, Antimicrobial and Cytotoxic Potential of Methanolic Extracts of Adhatoda Vasica (Acanthaceae).”</span> <em>Research Journal of Pharmacology and Technology</em> 6 (9): 1004–9.
+</div>
+<div id="ref-Roy2013" class="csl-entry">
+Roy, D. C., M. M. Shaik, and H. Faruquee. 2013. <span>“A Brief Review on Phytochemistry and Pharmacological Properties of Adhatoda Vasica.”</span> <em>Journal of Tropical Medicinal Plants</em> 14: 115–24.
+</div>
+<div id="ref-Sadek2003" class="csl-entry">
+Sadek, M. 2003. <span>“Antifeedant and Toxic Activity of Adhatoda Vasica Leaf Extract Against Spodoptera Littoralis (Lep., Noctuidae).”</span> <em>Journal of Applied Entomology</em> 127 (7): 396–404.
+</div>
+<div id="ref-Sampath2010" class="csl-entry">
+Sampath Kumar, K. P., D. Bhownkik, Chiranjib, P. Tiwari, and L. Rawat. 2010. <span>“Indian Traditional Herbs Adhatoda Vasica and Its Medicinal Application.”</span> <em>Journal of Chemical and Pharmaceutical Research</em> 2 (1): 240–45.
+</div>
+<div id="ref-IndiaFlora2025" class="csl-entry">
+Sankara Rao, K. and Deepak Kumar. 2025. <span>“India Flora Online: Justicia Adhatoda.”</span> <a href="http://indiaflora-ces.iisc.ac.in/plants.php?name=Justicia adhatoda" class="uri">http://indiaflora-ces.iisc.ac.in/plants.php?name=Justicia adhatoda</a>.
+</div>
+<div id="ref-Saxena1986" class="csl-entry">
+Saxena, B. P., K. Tikku, C. K. Atal, and O. Koul. 1986. <span>“Insect Antifertility and Antifeedant Allelochemics in Adhatoda Vasica.”</span> <em>Insect Science and Its Application</em> 7 (4): 489–93.
+</div>
+<div id="ref-Shahriar2023" class="csl-entry">
+Shahriar, M. 2023. <span>“Phytochemical Screenings and Thrombolytic Activity of the Leaf Extracts of Adhatoda Vasica.”</span> <em>The Experiment</em> 7 (4): 438–61.
+</div>
+<div id="ref-Shahzad2020" class="csl-entry">
+Shahzad, Q., S. Sammi, A. Mehmood, and K. Naveed. 2020. <span>“Phytochemical Analysis and Antimicrobial Activity of <span class="nocase">Adhatoda vasica</span> Leaves.”</span> <em>Pure and Applied Biology</em> 9 (2): 1654–61.
+</div>
+<div id="ref-Shamsi2019" class="csl-entry">
+Shamsi, Y., R. Khan, and S. Nikhat. 2019. <span>“Clinically Significant Improvement in a Case of Bronchial Asthma with Unani Medicine: A Case Report.”</span> <em>Traditional and Integrative Medicine</em> 4 (3): 130–36.
+</div>
+<div id="ref-Shamsuddin2021" class="csl-entry">
+Shamsuddin, T., M. S. Alam, M. Junaid, R. Akter, S. M. Z. Hosen, S. Ferdousy, and N. J. Mouri. 2021. <span>“Adhatoda Vasica (Nees.): A Review on Its Botany, Traditional Uses, Phytochemistry, Pharmacological Activities and Toxicity.”</span> <em>Mini Reviews in Medicinal Chemistry</em> 21 (14): 1925–64.
+</div>
+<div id="ref-Sharma2021" class="csl-entry">
+Sharma, A., and M. Agarwal. 2021. <span>“Antimicrobial Activity of Adhatoda Vasica Nees.”</span> <em>World Journal of Pharmaceutical Research</em> 10 (11): 1328–42.
+</div>
+<div id="ref-Shoaib2021" class="csl-entry">
+Shoaib, A. 2021. <span>“A Systematic Ethnobotanical Review of Adhatoda Vasica (l.) Nees.”</span> <em>Cellular and Molecular Biology</em> 67 (4): 248–63.
+</div>
+<div id="ref-Singh2011" class="csl-entry">
+Singh, P. T., M. O. Singh, and H. B. Singh. 2011. <span>“Adhatoda Vasica Nees: Phytochemical and Pharmacological Profile.”</span> <em>The Natural Products Journal</em> 1 (1): 29–37. <a href="https://doi.org/10.2174/2210315511101010029">https://doi.org/10.2174/2210315511101010029</a>.
+</div>
+<div id="ref-Singh2016" class="csl-entry">
+Singh, R., and A. Tiwari. 2016. <span>“Adhatoda Vasica: A Miracle and Boon for Asthmatic People – a Review.”</span> <em>Research Journal of Pharmacognosy and Phytochemistry</em> 8 (4): 242–44.
+</div>
+<div id="ref-Soni2008" class="csl-entry">
+Soni, S., S. Anandjiwala, G. Patel, and M. Rajani. 2008. <span>“Validation of Different Methods of Preparation of <span class="nocase">Adhatoda vasica</span> Leaf Juice by Quantification of Total Alkaloids and Vasicine.”</span> <em>Indian Journal of Pharmaceutical Sciences</em> 70 (1): 36–42.
+</div>
+<div id="ref-Subhashini2011" class="csl-entry">
+Subhashini, S., and K. D. Arunachalam. 2011. <span>“Investigations on the Phytochemical Activities and Wound Healing Properties of Adhatoda Vasica Leave in Swiss Albino Mice.”</span> <em>African Journal of Plant Science</em> 5 (2): 133–45.
+</div>
+<div id="ref-Sutare2020" class="csl-entry">
+Sutare, M. S., and B. M. Kareppa. 2020. <span>“Pharmacological Activities of Potent Medicinal Plant Adhatoda Zeylanica Medik.: A Review.”</span> <em>International Journal of Life Science Review</em> 3 (2): 1–5.
+</div>
+<div id="ref-Thanigaivel2012" class="csl-entry">
+Thanigaivel, A., R. Chandrasekaran, K. Revathi, S. Nisha, S. Sathish-Narayanan, S. A. Kirubakaran, and S. Senthil-Nathan. 2012. <span>“Larvicidal Efficacy of Adhatoda Vasica (l.) Nees Against the Bancroftian Filariasis Vector Culex Quinquefasciatus Say and Dengue Vector Aedes Aegypti l. In in Vitro Condition.”</span> <em>Parasitology Research</em> 110 (5): 1993–99.
+</div>
+<div id="ref-Tomy2023" class="csl-entry">
+Tomy, T. P., P. Y. Ansary, S. M. Oommen, and V. V. Shincymol. 2023. <span>“Taxonomical Identification of Different Plant Sources of Vaasa (Adhatoda Spp.).”</span> <em>Kerala Journal of Ayurveda</em> 24 (3): 1–5. <a href="https://doi.org/10.55718/kja.212">https://doi.org/10.55718/kja.212</a>.
+</div>
+<div id="ref-Vinothapooshan2011b" class="csl-entry">
+Vinothapooshan, G., and G. Sundar. 2011. <span>“Immunomodulatory Activity of Various Extracts of Adhatoda Vasica Linn. In Experimental Rats.”</span> <em>African Journal of Pharmacy and Pharmacology</em> 5 (3): 308–16.
+</div>
+<div id="ref-Vinothapooshan2011a" class="csl-entry">
+Vinothapreeshan, G., and K. Sundar. 2011. <span>“Anti-Ulcer Activity of Adhatoda Vasica Leaves Against Gastric Ulcer in Rats.”</span> <em>Journal of Global Pharma Technology</em> 3 (2): 7–13.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>15 November 2025</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>20 December 2025</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>23 December 2025</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<em>Anonymous</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Anonymous</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
+</blockquote>
+
+
+
+</section>
+
+ ]]></description>
+  <category>Review-Article</category>
+  <category>Horticulture</category>
+  <category>Medicinal-plants</category>
+  <guid>https://www.jostapubs.com/volume1/issue2/JOSTA2025114C90/JOSTA2025114C90.html</guid>
+  <pubDate>Mon, 22 Dec 2025 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Modeling Plant Disease Epidemics: A Comprehensive Review of Disease Progress Curves</title>
   <dc:creator>Jithin Chandran</dc:creator>
@@ -19,7 +702,6 @@
   <dc:creator>Aswathy Vijayan</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251272CB/JOSTA20251272CB.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">

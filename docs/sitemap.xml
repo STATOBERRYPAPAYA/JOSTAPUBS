@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.jostapubs.com/volume1.html</loc>
-    <lastmod>2025-12-03T07:04:19.556Z</lastmod>
+    <lastmod>2025-12-19T06:59:08.556Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html</loc>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://www.jostapubs.com/index.html</loc>
-    <lastmod>2025-12-12T14:19:44.853Z</lastmod>
+    <lastmod>2025-12-19T06:59:08.547Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/editorialsection.html</loc>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://www.jostapubs.com/published.html</loc>
-    <lastmod>2025-11-28T06:20:24.526Z</lastmod>
+    <lastmod>2025-12-19T06:59:08.553Z</lastmod>
   </url>
   <url>
     <loc>https://www.jostapubs.com/selfarchive.html</loc>
@@ -138,6 +138,10 @@
   </url>
   <url>
     <loc>https://www.jostapubs.com/volume1/issue2/JOSTA20251272CB/JOSTA20251272CB.html</loc>
-    <lastmod>2025-12-19T08:09:55.100Z</lastmod>
+    <lastmod>2025-12-23T11:44:09.139Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jostapubs.com/volume1/issue2/JOSTA2025114C90/JOSTA2025114C90.html</loc>
+    <lastmod>2025-12-23T12:18:07.630Z</lastmod>
   </url>
 </urlset>
