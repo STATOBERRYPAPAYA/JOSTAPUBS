@@ -1,0 +1,367 @@
+---
+title: "A Review on the Influence of Cultivation Practices on Wheat Production in India"
+author:  
+  - name: Vasanth P*
+    affiliations:
+      - name: Annamalai University
+        department: Agronomy
+        address: Faculty of Agriculture
+        city: Chidambaram, Tamil Nadu
+        country: India
+    email: vasanth30p@gmail.com
+    orcid: "0009-0005-7628-1819"
+    note: Corresponding author
+    
+  - name: Kannappan M*
+    affiliations:
+      - name: Annamalai University
+        department: Agronomy
+        address: Faculty of Agriculture
+        city: Chidambaram, Tamil Nadu
+        country: India
+    email: kannappanvikram29@gmail.com
+    orcid: "0009-0008-2158-8444"
+
+abstract: |
+  The cultivation of wheat in India, a staple crop vital to national food security, faces significant challenges due to changing climatic conditions and evolving agricultural practices. This review paper synthesizes recent research on the impact of planting practices on wheat cultivation in India, highlighting how these practices influence productivity, resource use efficiency and sustainability. Key findings indicate that timely sowing, especially avoiding late planting, substantially enhances grain yield by mitigating heat stress during critical growth stages. Innovative planting methods such as zero tillage, bed planting and System of Wheat Intensification (SWI) demonstrate higher yields, better water and nutrient use efficiencies and reduced labor and input costs compared to conventional tillage. Resource conservation technologies like raised bed planting conserve water and nutrients, contributing to sustainable rice-wheat cropping systems amid soil degradation issues. Socio-economic research underlines adoption barriers, including labour scarcity and mechanization needs, suggesting policy initiatives and extension services, such as information, can enhance technology uptake and advisory support play a crucial role in improving farmers’ awareness and adoption of improved wheat cultivation practices. Additionally, residue management practices impact soil health, influencing wheat performance. While most studies focus on the Indo-Gangetic Plains, findings have broader implications for diverse agro-climatic zones in India. Overall, improved planting practices, combined with agronomic and socio-economic interventions, hold promise to sustain wheat production, secure farmer livelihoods and address challenges posed by climate change in India’s wheat-growing regions.
+  
+description: >  
+   The cultivation of wheat in India, a staple crop vital to national food security, faces significant challenges due to changing climatic conditions and evolving agricultural practices. This review paper synthesizes recent research on the impact of planting practices on wheat cultivation in India, highlighting how these practices influence productivity, resource use efficiency and sustainability. <a href="/volume1/issue2/JOSTA2025117381/JOSTA2025117381.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style>  
+    
+
+keywords: [Cultivation practices, Growth, Wheat, Yield]  
+categories: [Review-Article,	Crops, ClimateResilience]
+bibliography: JOSTA-202511-7381.bib
+date: 2025-12-28
+doi: 10.65287/josta.202511.7381  
+status: Published (Online)
+volume: "1"
+issue: "2"
+pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025117381/pdfs/JOSTA-202511-7381.pdf"
+canonical_url: "https://www.jostapubs.com/volume1/issue2/JOSTA2025117381/JOSTA2025117381.html"  
+include-before-body:
+  text: |  
+    <!-- JOSTA issue banner -->
+    <section class="josta-issue-banner" aria-label="Journal issue banner">
+      <div class="jib-wrap">
+        
+        <!-- Cover -->
+        <div class="jib-cover">
+          <img src="cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+        </div>
+
+        <!-- Meta -->
+        <div class="jib-meta">
+          <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+          <h2 class="jib-subtitle">
+            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
+               target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
+            &bull;
+            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
+               target="_blank" rel="noopener" class="jib-vi-link">Issue 02</a>
+            &bull; 2025
+          </h2>
+
+          <p class="jib-line">
+            <span class="jib-label">ISSN (online)</span>
+            <span class="jib-value">
+              <a href="https://portal.issn.org/resource/ISSN/3107-6882"
+                 target="_blank" rel="noopener" class="jib-issn-link">
+                3107-6882
+              </a>
+            </span>
+          </p>
+
+          <p class="jib-line">
+            <span class="jib-label">License</span>
+            <span class="jib-value">
+              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" 
+                 target="_blank" rel="noopener" class="jib-license-link">
+                CC BY-NC-ND 4.0
+              </a>
+            </span>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <style>
+      :root {
+        --j-navy:#0053ed;
+        --j-brown:#8b6a3a;
+        --j-green:#0b5a56;
+        --j-beige:#f8f3ea;
+      }
+
+      .josta-issue-banner {
+        background: linear-gradient(115deg, var(--j-beige), #ffffff);
+        border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+        padding: 1.8rem 1.4rem;
+        margin-bottom: 1.6rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .jib-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        gap: 1.6rem;
+        align-items: center;
+      }
+
+      /* Cover image — NO ROUNDED CORNERS */
+      .jib-cover img {
+        display: block;
+        max-width: 120px;
+        height: auto;
+        border-radius: 0;      /* removed curve */
+        box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+      }
+
+      .jib-journal-tag {
+        margin: 0 0 0.4rem 0;
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--j-green);
+      }
+
+      .jib-subtitle {
+        margin: 0 0 0.7rem 0;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--j-navy);
+        opacity: 0.85;
+      }
+
+      /* Volume/Issue links */
+      .jib-vi-link {
+        color: var(--j-navy);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .jib-vi-link:hover { text-decoration: underline; }
+
+      .jib-line {
+        margin: 0.15rem 0;
+        font-size: 0.95rem;
+        display: flex;
+        gap: 0.4rem;
+        align-items: baseline;
+        color: #333;
+      }
+
+      .jib-label {
+        font-weight: 600;
+        color: var(--j-navy);
+      }
+
+      /* ISSN link */
+      .jib-issn-link {
+        color: var(--j-navy);
+        text-decoration: none;
+      }
+      .jib-issn-link:hover { text-decoration: underline; }
+
+      /* License link */
+      .jib-license-link {
+        color: var(--j-green);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .jib-license-link:hover { text-decoration: underline; }
+
+      @media (max-width: 640px) {
+        .jib-wrap { flex-direction: row; align-items: flex-start; }
+        .jib-cover img { max-width: 90px; }
+        .jib-journal-tag { font-size: 1.05rem; }
+        .jib-subtitle { font-size: 0.9rem; }
+      }
+
+      @media (max-width: 480px) {
+        .jib-wrap { flex-direction: column; align-items: flex-start; }
+      }
+    </style>
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202511.7381-blue?logo=doi)](https://doi.org/10.65287/josta.202511.7381) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/18076736)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202511-7381.pdf" download class="j-btn">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202511.7381" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Vasanth, P., & Kannappan, M. (2025). A Review on the Influence of Cultivation Practices on Wheat Production in India. Journal of Sustainable Technology in Agriculture, 1(2). https://doi.org/10.65287/josta.202511.7381
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+---  
+
+## Introduction
+
+The impact of planting practices on wheat cultivation in India has become a pivotal area of study, given the country's position as the second-largest producer of wheat globally [@Shukla2022]. This review focuses on the various planting methodologies encompassing conventional tillage, zero tillage and different crop establishment techniques, all of which significantly influence wheat yield and sustainability in diverse agro-climatic zones. The challenges of climate change, soil degradation and increasing demand for food have necessitated a shift in traditional farming practices [@Sarma2024]. By understanding the effectiveness of different planting methods, such as direct seeding versus conventional sowing, this review aims to bring to light how these practices can enhance wheat productivity while conserving essential soil health and water resources. Additionally, the adoption of innovative practices like zero tillage not only improves soil structure and moisture retention but also reduces labor costs and enhances the efficiency of resource utilization [@Lakhani2024]. This comprehensive analysis includes insights into how land-management practices and varied tillage methods impact nutrient uptake, crop profitability and environmental sustainability [@Dixit2024]. Furthermore, the review will evaluate the socio-economic factors controlling the adoption of modern planting techniques, highlighting the need for integrated approaches that consider the economic viability of these practices for farmers. Given the crucial role of wheat in India's food security, any improvement in planting practices can drastically influence the agricultural landscape and contribute to achieving national and global food production goals. Policymakers, agronomists and farmers alike need to consider these findings to bolster the wheat sector's performance and resilience in the face of ongoing agricultural challenges. The integration of scientific principles with practical applications is crucial for developing effective strategies that enhance the productivity of wheat while promoting sustainable agricultural practices in India, thus ensuring a stable food supply and economic stability for millions of farmers. As agricultural challenges evolve due to climate change, population growth and economic pressures, optimizing planting practices becomes essential for enhancing wheat productivity and sustainability [@Yanagi2024]. In the backdrop of India's diverse agro-climatic regions, various planting methods and management practices have emerged, each contributing uniquely to yield, soil health and resource efficiency. Traditional practices often rely on conventional tillage and broadcasting methods, which may be less sustainable in the face of increasing soil health degradation and water scarcity [@Liu2021]. Conversely, innovative techniques such as zero tillage and direct seeding are gaining attention for their potential to enhance soil moisture retention, reduce erosion and improve overall productivity.
+
+The objective of this review is to critically synthesize existing research on the influence of cultivation and planting practices on wheat growth, yield, resource use efficiency and sustainability under Indian agro-climatic conditions. Specifically, the review evaluates the effects of sowing time, variety selection, planting density, soil and land preparation, irrigation, fertilizer management and crop rotation/intercropping on wheat performance. The scope of this review covers peer-reviewed studies published predominantly during the last two decades (approximately 2005–2025), including field experiments, long-term trials, on-station and on-farm studies conducted across major wheat-growing regions of India. Both conventional and conservation-based agronomic experiments are considered to provide an integrated understanding of climate-responsive and sustainable wheat production practices.
+
+### Effect of sowing time on the growth of wheat
+
+Sowing time significantly influences the growth, development, yield and quality of wheat cultivation in India, as evidenced by recent research spanning diverse agro-climatic zones and wheat genotypes. Early to mid-November sowing is widely reported as optimal, promoting favorable growth stages such as enhanced tillering, young spike differentiation and dry matter accumulation, thereby harmonizing individual plant traits and community structure to optimize spike number, kernel count per spike and 1000-kernel weight, ultimately achieving high yields of quality wheat [@Pei2008]. Studies focusing on specific genotypes, like "AK 58" in mid Henan, show that later sowing combined with lower seedling density maximizes dry matter in individual stems, yet earlier sowing ensures the largest effective population, highlighting the complex interplay between sowing time of the season and plant density [@Jiang2011 raniconsistently observed], with yield declining approximately by 58 kg ha^-1^ for each one-day delay post-optimal sowing, though grain filling rate may increase under later sowing [@Kumar2024a]. Research in the Indo-Gangetic Plains notes that weed infestation, particularly by Phalaris minor, varies with sowing dates; early sowing suppresses weed growth, although it sometimes results in lower yields, while delayed sowing enhances yield despite greater weed biomass, with organic mulching emerging as a sustainable weed management strategy [@Singh2019Mulching]. Investigations involving plant growth regulators indicate that normal or timely sowing combined with sprays of substances like salicylic acid at key growth stages significantly improve wheat seed quality, germination rates and seedling vigor compared to late sowing [@Kumawat2023]. Site-specific studies in subtropical foothills such as Jammu reveal that sowing dates markedly affect plant height, dry matter accumulation and crop growth rate, with early sowing promoting better growth attributes across varieties [@Nikzad2024]. Climate adaptation research in Punjab delineates shifting optimal sowing windows due to rising temperatures, underscoring the critical need for dynamic adjustment of sowing calendars to mitigate heat stress impacts and sustain productivity [@Sandhu2020]. Moreover, zero tillage technology adoption in regions like Bihar demonstrates how advancing sowing time without intensive soil preparation boosts yield, resource use efficiency and environmental sustainability, reflecting modern planting practice improvements complementing traditional sowing date optimization [@Gupta2019]. Hence, strategic interventions encompassing precise sowing schedules, sustainable weed management, growth regulator application, genotype selection and innovative practices like zero tillage are essential for enhancing wheat productivity and resilience under changing climatic scenarios in India. This synthesis of recent research underscores sowing time as a critical agronomic lever influencing wheat growth dynamics and yield potential, vital for the long-term sustenance of wheat cultivation in India’s diverse agro-ecological landscapes.
+
+### Effect of seed variety selection on the growth of wheat
+
+Seed variety selection is crucial in determining the growth, yield and overall productivity of wheat cultivation in India, influencing factors such as plant height, tiller number, leaf area, disease resistance and adaptability to diverse agro-climatic conditions. Recent research indicates that different wheat varieties exhibit significant variation in growth parameters; for instance, the variety *Yuanfeng 998* demonstrated superior plant height and leaf area compared to older varieties, illustrating the advancement achieved through varietal improvement [@Ji2007]. Seed size, an inherent characteristic of varieties, also affects early growth stages, with larger seeds generally promoting taller seedlings and more tillers, which are critical for higher biomass and yield potential [@Todorovic2010]. Regional variations further complicate seed size distributions, genotypic factors combined with environmental interactions lead to varied seed size proportions across different locations, implying that selecting varieties suited to specific environments is vital for optimizing seed quality and production outcomes [@Protic2010]. Growth attributes and yield performance also depend on sowing methods and planting patterns tailored to varieties; for example, sowing with turbo seeders and retaining crop residues enhanced growth and yield of varieties like *HD 3086* in Haryana, highlighting the synergy between variety selection and agronomic practices [@Malik2021]. Planting density and seed rate adjustments have demonstrated significant impacts on growth and yield; studies reveal that seed rates around 120-150 kg ha^-1^ optimize tillers per meter, spike length, grain number per spike and biomass in varieties such as *DBW 187*, underlining the importance of matching seed rates to varietal and regional conditions for maximizing output [@Laghari2011]. Furthermore, seed priming techniques have emerged as promising methods to eenhance germination, seedling vigor and yield attributes in popular Indian wheat varieties such as *HD-2967* and *PBW 752*, with chemical priming agents like potassium nitrate and CaCl~2~ significantly improving growth parameters under adverse conditions, indicating integrated management possibilities [@Singh2016SeedTreatment; @Singh2023Priming]. Salinity stress studies on varieties such as Imam and *PBW-154* reveal that seed size effects on early growth under such abiotic stresses vary, with larger seed sizes (83%) generally performing better, yet germination responses differ across varieties, emphasizing varietal-specific management for stress-prone regions [@ElDessougi2020]. Multi-environment trials and participatory variety selection approaches further facilitate farmers’ access to diverse high-yielding, resilient varieties like *BAW1008* and *Shatabdi*, which have led to significant varietal diversification and increased wheat productivity in South Asian agro-ecosystems [@Pandit2007]. This integrated approach enhances plant establishment, vigor and tolerance to biotic and abiotic stresses, ensuring sustainable wheat production amidst regional variability and changing climatic conditions.
+
+### Effect of planting density on the growth of wheat
+
+The effect of planting density on wheat growth in India has been extensively studied, revealing that optimal planting density plays a critical role in enhancing wheat yield, biomass and quality. Recent research highlights that the ideal planting density often ranges between 300 to 420 plants per square meter, as this balance optimizes spike number and grain weight, thus improving overall yield and protein content. One study conducted under randomized block design revealed that nitrogen application coupled with appropriate planting density increased grain protein and plant height, showing that the interaction of these factors significantly improves both growth and flour quality through enhanced glutenin content in wheat genotypes [@Patrick2022]. Another investigation focusing on early sowing found that a planting density of 240 × 10⁴ plants per hectare combined with a 20 cm row spacing created the best environment for photosynthetic activity, leaf chlorophyll content and dry matter accumulation, contributing to higher yields [@Chen2015]. In agroforestry systems, the spatial arrangement of trees influences wheat growth, where wider spacing under certain tree species like *Melia azedarach* led to significantly higher dry biomass and grain yield, emphasizing the importance of optimal spacing in intercropping scenarios [@Satyawali2018]. Hybrid wheat studies demonstrate that medium planting density (~300 plants m⁻²) maximizes grain yield by balancing population growth parameters such as leaf area index and crop growth rate, indicating that overly high densities may suppress individual plant growth while low densities reduce population vigor [@Zhang2008]. Research on the interaction between nitrogen rate and planting density shows that nitrogen efficiency and grain yield reach peak levels at moderate densities and nitrogen input should be adjusted according to density to enhance nitrogen use efficiency and reduce costs [@Fang2015]. Physiological traits such as leaf area index, chlorophyll content and chlorophyll fluorescence parameters decrease with excessive planting density, which correlates with decreased yield beyond an optimum density, as shown in cultivars like *Wanmai 52* and *Yannong 19* [@Yanjun2018]. Research on nitrogen uptake reveals that planting density influences nitrogen distribution, with optimum densities enhancing nitrogen uptake efficiency and grain nitrogen concentration, supporting sustainable nutrient management in wheat cultivation. In sum, these recent studies by multiple researchers across different regions and wheat varieties in India consistently demonstrate that an optimal planting density, usually between 300 to 420 plants per m² depending on wheat genotype, environmental conditions, nitrogen management and planting date, is essential for maximizing wheat growth, yield and quality. Adjusting planting density in coordination with nitrogen fertilization and sowing time enhances photosynthesis, biomass accumulation, population quality and grain characteristics, which are key to improving wheat productivity sustainably under diverse Indian agro-climatic conditions [@Satyawali2018]. This integrated understanding of planting density effects informs best management practices critical to increasing wheat production and quality in Indian agriculture.
+
+### Effect of soil and land preparation on the growth of wheat
+
+Soil and land preparation play a critical role in determining wheat growth and yield, with recent research highlighting various innovative practices and amendments that enhance wheat cultivation in India. Studies demonstrate that biofertilizers, especially cyanobacteria such as *Anabaena cylindrica*, significantly improve soil fertility and wheat growth by providing bioactive compounds including nitrogen, phosphorus, potassium and phytohormones, leading to enhanced biochemical and physiological wheat plant responses [@Hakkoum2025]. The use of biochar, particularly when combined with mycorrhizal fungi, improves wheat performance in challenging calcareous soils by increasing nutrient uptake, plant height, protein content and root length, indicating biochar's potential as an effective soil amendment [@Khdir2024]. Similarly, the application of biochar from organic wastes positively modulates soil physicochemical properties such as pH, electrical conductivity, total carbon, nitrogen, phosphorus and potassium, which collectively promote wheat biomass and microbial soil communities [@Aziz2020]. Land preparation techniques like conservation agriculture and zero tillage (ZT) have shown remarkable advantages over conventional methods; zero tillage allows earlier sowing of wheat post-rice harvest, reduces cultivation costs and labor, saves fuel, minimizes environmental pollution and improves water-use efficiency, thus supporting both sustainability and higher income for farmers in regions like Bihar and Haryana [@Aziz2020]. Conservation agriculture combined with organic soil amendments notably enhances soil moisture retention, lowers soil bulk density and fosters vegetative growth, ultimately elevating wheat yields [@Gupta2019; @Mehala2016]. Comparative studies suggest that deep tillage increases soil infiltration, reduces subsurface bulk density and boosts root proliferation, translating into yield gains, while no-tillage improves soil aggregation and microbial biomass, signaling better soil health [@Pandey2015; @Kahlon2017]. Moreover, in acidified or sodic soils often seen in some Indian agro-ecosystems, amendments like lime, limestone powder and especially biochar effectively elevate soil pH and nutrient availability, with biochar outperforming lime in boosting potassium content and overall wheat nutrient absorption, which correlates with enhanced grain weight and yield [@Huang2024; @Srivastava2016]. More holistic impacts of reduced or no-tillage systems include lower soil erosion risks, better soil structure and maintenance of organic carbon levels without compromising wheat yield, making them suitable for sustainable wheat farming in India. Planting practices include ridge-furrow planting with plastic mulching, combined with optimal planting densities and complementary irrigation, further improve source-sink relationships within the wheat crop, enhancing grain filling and overall yield compared to traditional flat planting and rainfed conditions [@Dai2024]. Collectively, these findings underscore the importance of integrating improved soil amendments, appropriate land preparation methods and sustainable tillage practices to optimize wheat growth, yield and quality in India’s diverse agro-climatic zones. Such integrated management approaches contribute not only to elevating productivity but also to preserving soil health and environmental sustainability, addressing critical challenges faced by the wheat sector in India.
+
+In terms of yield performance, biofertilizer and cyanobacteria application increased wheat grain yield by 10-22%, with reported yields ranging from 4.6 to 5.4 Mg ha^-1^ under improved soil biological activity [@Hakkoum2025]. Biochar application, particularly when integrated with mycorrhizal inoculation, resulted in wheat grain yields between 4.8 and 5.6 Mg ha^-1^ in calcareous and degraded soils, reflecting yield gains of 15–28% over untreated controls [@Khdir2024; @Aziz2020]. Conservation agriculture and zero-tillage-based land preparation systems recorded wheat yields of 4.7–5.3 Mg ha^-1^, along with reduced production costs and enhanced water productivity compared to conventional tillage [@Gupta2019; @Mehala2016]. Deep tillage practices improved wheat yield by 8–14%, whereas no-tillage systems maintained comparable yields of 4.5–5.0 Mg ha^-1^ while significantly enhancing soil health indicators [@Pandey2015; @Kahlon2017]. Ridge-furrow planting combined with mulching further increased wheat grain yield to above 5.5 Mg ha^-1^ by improving grain filling efficiency and soil moisture conservation [@Dai2024].
+
+### Effect of irrigation practices on the growth of wheat
+
+Irrigation practices play a crucial role in determining the growth and productivity of wheat cultivation in India, optimized irrigation scheduling, particularly the application of three irrigations at critical growth stages such as crown root initiation (CRI), flowering and milking, has consistently been shown to enhance key growth parameters of wheat, including plant height, leaf area index (LAI), tiller count and dry matter accumulation, leading to higher yields [@Mandal2024; @Verma2024]. Studies indicate that irrigation levels tailored to specific crop water requirements, such as irrigation water to cumulative pan evaporation (IW: CPE) ratios close to 1.0, optimize physiological growth parameters and yield attributes. For instance, an IW:CPE ratio of 1.0 provided significant improvement in grain yield and plant growth, such as in Madhya Pradesh, where wheat was sown under this irrigation regime with appropriate variety selection yielded up to 4,735 kg ha^-1^ [@Lanjhewar2022; @Gajbhiye2023]. The use of irrigation scheduling based on plant stress indices (PSI), particularly the 0.5 PSI threshold, has proven highly effective in water-scarce regions like Punjab, enabling substantial grain yield improvements while saving water compared to farmer practice irrigation [@Kaur2024]. Moreover, adoption of micro-irrigation techniques including drip and sprinkler systems in various Indian states has significantly increased water use efficiency, leaf area development and crop health, thereby improving wheat yield and economic returns. Such methods ensure precise water delivery, often resulting in better physiological responses of the crop and improving resource sustainability [@Sagar2019]. Crop establishment techniques such as raised bed planting combined with suitable irrigation scheduling also contribute to improved plant growth metrics by enhancing root development and plant height, although soil nutrient status after harvest may remain unaltered [@Sagar2019]. Additionally, integration of irrigation with nutrient management practices, including the application of organic amendments like farmyard manure and vermicompost, synergistically enhances wheat growth by improving soil moisture retention and nutrient availability, further driving yield increments [@Namdeo2023]. The application of silicon foliar sprays under deficit irrigation conditions has also been shown to mitigate drought stress effects, thereby boosting growth and water use efficiency in wheat cultivation under semi-arid tropical climates. However, the timing of irrigation in relation to sowing date is critical; earlier sowing combined with optimal irrigation scheduling enhances physiological growth traits and yield, whereas delayed sowing diminishes these benefits [@Gajbhiye2023]. Economic analyses underscore that irrigation scheduling not only elevates wheat productivity but also improves benefit-cost ratios and net income for farmers, reinforcing the practical value of irrigation interventions in wheat cultivation systems. Despite progress, challenges such as resource limitations, climatic variability and the need for mechanized and site-specific irrigation management persist, suggesting ongoing research and adoption of innovative irrigation technologies such as IoT-based smart irrigation systems is essential for sustainable wheat farming in India [@Prem2024; @Namdeo2023]. Overall, recent studies affirm that precise, stage-specific irrigation combined with appropriate planting and nutrient management practices markedly impacts wheat growth, yield and water use efficiency, forming a vital component of sustainable wheat cultivation strategies across diverse agro-climatic zones in India.
+
+In terms of yield response, scheduling three irrigations at CRI, flowering and milking stages resulted in wheat grain yields ranging from 4.6 to 5.2 Mg ha^-1^, representing yield advantages of 18–30% over limited or poorly timed irrigation regimes [@Mandal2024; @Verma2024]. Irrigation scheduling based on IW:CPE ratios of 0.9-1.0 consistently produced wheat yields between 4.5 and 4.9 Mg ha^-1^ across central and northern Indian conditions, confirming optimal water-use efficiency at these ratios [@Lanjhewar2022; @Gajbhiye2023]. PSI-based irrigation at the 0.5 threshold increased wheat grain yield by 12–20% while saving 15–25% irrigation water compared to conventional farmer practices [@Kaur2024]. Micro-irrigation systems recorded wheat yields of 4.8-5.4 Mg ha^-1^, accompanied by higher net returns and improved benefit-cost ratios, demonstrating their economic and agronomic superiority under water-limited environments [@Sagar2019]. Integration of irrigation with organic nutrient sources further enhanced wheat yield by 10–16%, achieving grain yields above 5.0 Mg ha^-1^ under optimized soil moisture and nutrient availability [@Namdeo2023].
+
+### Effect of fertilizer management on the growth of wheat
+
+Recent research has extensively explored the combined impact of fertilizer management and planting practices on wheat cultivation in India, highlighting significant advancements and sustainable approaches in enhancing wheat growth and productivity. Studies emphasize the integration of recommended dose of chemical fertilizers 120 kg N, 40-60 kg P₂O₅, and 30-40 kg K₂O per hectare with novel inputs such as nano fertilizers, biochar-coated slow-release nitrogen fertilizers and organic amendments, which together improve nutrient use efficiency, crop biomass and yield under diverse Indian agro-climatic conditions. For example, the foliar application of nano fertilizer alongside 100% recommended NPK doses in Madhya Pradesh has demonstrated improved growth traits and economic return, indicating a synergistic effect of traditional and innovative fertilizer strategies tailored to soil conditions [@Sekwadiya2025]. Similarly, biochar-based slow-release nitrogen fertilizers (BCN) in the Indo-Gangetic Plains showed up to a 16.7% increase in crop biomass and better nitrogen uptake compared to conventional neem-coated urea, suggesting the potential for reduced environmental impact without yield compromise [@Kumar2024b]. Precision nutrient management guided by models such as Nutrient Expert and chlorophyll meter (SPAD) based nitrogen applications further optimize fertilizer doses and timing, leading to significant gains in wheat yield and nitrogen use efficiency, while reducing fertilizer input and associated costs [@Phulara2023; @Ghosh2018]. The adoption of site-specific nutrient management practices in eastern Indo-Gangetic Plains, combined with improved crop establishment methods like wet-seeding for rice and zero-till (ZT) drilling for wheat, has resulted in system productivity increases of up to 44% and profitability boosts of over 150%, demonstrating strong interactions between fertilizer management and planting methods [@Sahu2023]. Such integrated approaches balance nutrient supply with crop demand and soil health, sometimes incorporating organic sources like farmyard manure (FYM), poultry litter, or sewage sludge with reduced chemical fertilizer doses, enhancing soil fertility and sustainability while maintaining yield levels [@Mohammed2023; @Singh2022Sewage; @Prakash2024]. Fertilizer management also interacts critically with planting density and timing; optimized nitrogen application coupled with suitable planting densities (e.g., 3.3 million plants per hectare) improves canopy structure, leaf area index and light interception, thereby maximizing yield components [@Shi2025]. Investigations into mechanization and labor efficiency in regions like North Karnataka stress the role of advanced planting and fertilizer practices in reducing cultivation costs and enhancing economic returns, reinforcing the multifaceted benefits of coordinated fertilizer and planting management [@Udhayan2023]. Approaches like integrating growth regulators with optimal fertilizer levels also contribute to improved nutrient balance and crop performance under Indian conditions [@Kumbhare2023]. This comprehensive strategy not only improves nutrient use efficiency and economic returns but also supports soil health, resource conservation and environmental safety, aligning with the goals of sustainable intensification in Indian wheat production systems.
+
+### Effect of crop rotation and intercropping on the growth of wheat
+
+Crop rotation and intercropping are key planting practices that significantly influence wheat growth and productivity in India, crop rotation, especially when integrated with conservation tillage and residue retention, has proven effective in enhancing wheat growth indices such as plant height, tiller number, biomass and ultimately grain yield. Experiments under zero-tillage with residue retention combined with integrated weed management achieved superior weed control efficiency, which translated into higher wheat growth indices and grain yield, outperforming conventional tillage methods. For instance, wheat grown under zero-tillage with residue retention by employing herbicide rotation and hand weeding recorded plant heights exceeding 100 cm, tiller densities reaching about 548 no. m^-2^ and grain yields nearing 4700 kg ha^-1^, highlighting the agronomic benefits of conservation agriculture-based crop rotation systems. Moreover, sensor-based nitrogen application within rotation practices demonstrated significant enhancements in wheat plant height and tiller density when compared with conventional fertilizer treatments, indicating that precision nutrient management synchronized with rotation systems optimizes growth parameters [@Kumar2023; @Patel2024]. Intercropping, particularly with legumes such as chickpea, lentil and mustard, consistently improves wheat growth parameters by enhancing nitrogen availability and utilization, promoting better resource use efficiency and increasing system productivity. Field trials in different Indian agro-ecologies established that intercropping wheat with legumes in strategic row ratios enhances critical growth attributes including effective tillers per square meter, grain count per spike and 1000-grain weight. A wheat-chickpea (2:1) intercropping system yielded an average wheat grain production of over 5mg ha^-1^, surpassing sole wheat systems, while improving Land Equivalent Ratio (LER) and water-use efficiency, thereby reflecting enhanced overall productivity and resource conservation [@Roy2023; @Singh2019Mulching]. Further, intercropping impacts nitrogen dynamics positively; wheat plants grown in intercropping systems registered a nitrogen content increase of 17% to 22% across various growth stages compared to monocropped wheat, leading to improved nitrogen uptake and accumulation, essential for vigorous plant development [@Zhao2010]. Intercropping also modifies growth rhythms, as demonstrated in wheat-alfalfa systems, where wheat’s linear growth phase is extended but growth rate moderately reduced, implying a shift in growth dynamics due to interspecific competition and resource allocation [@Qiong2022]. Some studies reveal that planting configurations within intercropping systems notably influence growth outcomes. For example, wheat-lentil intercropping performed better at 3:1 row ratio for growth parameters, while wheat-chickpea at balanced 2:2 rows maximized total dry matter accumulation, crop growth rate and relative growth rate, indicating the importance of precise spatial arrangements to optimize crop interactions and individual crop performance [@Das2011]. Furthermore, application of bio-stimulants like seaweed in wheat-chickpea intercropping under North Indian conditions increased nitrogen content and agronomic efficiency, resulting in improved yield and nutrient quality, emphasizing integrative management for maximizing wheat growth in intercropped systems [@Rani2024].
+
+In addition, crop rotation-based conservation agriculture practices consistently recorded wheat grain yields ranging from 4.5 to 5.2 Mg ha^-1^, reflecting yield advantages of 12-25% over conventional tillage-based monocropping systems. Sensor-based nitrogen management within crop rotation further enhanced wheat yield by 8-15%, with reported grain yields exceeding 5.0 Mg ha^-1^ under optimized nutrient synchronization [@Kumar2023; @Patel2024]. Intercropping systems also showed notable yield benefits, with wheat-equivalent yields ranging between 5.3 and 6.1 Mg ha^-1^ in wheat-legume combinations, supported by higher LER values (>1.2), indicating superior land-use efficiency compared to sole wheat cultivation [@Roy2023; @Singh2019Mulching].
+
+## Conclusion
+
+The impact of planting practices on wheat cultivation in India is profound and multifaceted, influencing yield, resource use efficiency and economic returns. Research underscores that adopting improved planting methods such as raised bed planting, zero tillage and row planting can significantly enhance wheat productivity by optimizing plant growth parameters, improving soil conditions and conserving water. For instance, raised bed planting improves grain yield and yield attributes by enhancing crop growth factors like leaf area index and chlorophyll content, while zero tillage conserves labor, irrigation water and seed costs, boosting economic feasibility with increased net returns. Similarly, wheat row planting has demonstrated yield increases of approximately 14% compared to conventional broadcasting and positively affects household income and input expenditures for adopters. Studies highlight that these cultural practices also contribute to better water use efficiency, crucial in water-scarce regions. Moreover, integrating proper variety selection with suitable land configurations under these planting methods is vital for maximizing system productivity. The importance of knowledge dissemination and adoption behavior of farmers is evident, with many growers showing medium-level adoption of recommended technologies; however, focused awareness programs and the use of informative media have shown promise in increasing adoption rates. Additionally, the influence of planting methods on physiological aspects such as soil temperature, tillering ability, spike differentiation and root development directly impact grain filling duration and yield components, suggesting that agronomic management must consider these factors for climate-smart cultivation. Challenges like labor shortages and high cultivation costs call for mechanization and resource conservation technologies. Given the threat of changing climate conditions, adaptive planting practices combined with nutrient and water management strategies are recommended to sustain and enhance wheat production. Overall, the synthesis of recent research demonstrates that adopting scientifically validated planting methods tailored to India’s diverse agro-climatic zones can improve yield stability, resource conservation and economic returns, thereby contributing significantly to food security and sustainable agricultural development.
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**  
+
+- **Submitted:** *20 November 2025*  
+- **Accepted:** *26 December 2025*  
+- **Published (Online):** *28 December 2025*  
+
+---  
+**Reviewer Information**  
+
+- **Reviewer 1:**  
+  **Dr. Dhanu Unnikrishnan**  
+  *Assistant Professor*  
+  *Cocoa Research Centre, Kerala Agricultural University*
+
+- **Reviewer 2:**  
+  **Dr. Mena Sai Rajeswari Kalyani**  
+  *Assistant Professor*  
+  *Guru Nanak University, Hyderabad*
+
+:::
+
+::: {.callout-note appearance="simple"}
+## Disclaimer/Publisher’s Note
+
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).\
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+:::
+
+> © Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.
+
