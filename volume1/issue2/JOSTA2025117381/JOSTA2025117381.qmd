@@ -12,7 +12,7 @@ author:
     orcid: "0009-0005-7628-1819"
     note: Corresponding author
     
-  - name: Kannappan M*
+  - name: Kannappan M
     affiliations:
       - name: Annamalai University
         department: Agronomy
