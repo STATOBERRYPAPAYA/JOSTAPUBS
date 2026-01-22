@@ -5,7 +5,8 @@
       "volume2/**/*.qmd"
     ],
     "published.qmd": [
-      "volume1/**/*.qmd"
+      "volume1/**/*.qmd",
+      "volume2/**/*.qmd"
     ],
     "volume1.qmd": [
       "volume1/issue2/**/*.qmd",

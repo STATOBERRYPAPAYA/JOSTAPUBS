@@ -4,6 +4,7 @@ listing:
   id: latestpublished
   type: grid
   contents: 
+    - "volume2/**/*.qmd"
     - "volume1/**/*.qmd"
   sort: "date desc"
   page-size: 5 
