@@ -9,7 +9,7 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.32</generator>
+<generator>quarto-1.8.25</generator>
 <lastBuildDate>Sat, 27 Dec 2025 18:30:00 GMT</lastBuildDate>
 <item>
   <title>A Review on the Influence of Cultivation Practices on Wheat Production in India</title>
@@ -470,7 +470,7 @@ Zhao, P., Y. Zheng, L. Tang, Y. Lu, J. X. Xiao, and Y. Dong. 2010. <span>“Effe
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -502,7 +502,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1158,7 +1158,7 @@ Vinothapreeshan, G., and K. Sundar. 2011. <span>“Anti-Ulcer Activity of Adhato
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1186,7 +1186,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1937,7 +1937,7 @@ Zwietering, Marcel H., Ilse Jongenburger, Frank M. Rombouts, and Karel Van’t R
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1965,7 +1965,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2590,7 +2590,7 @@ Ziggers, G. W., and J. Trienekens. 1999. <span>“Quality Assurance in Food and 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2621,7 +2621,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">

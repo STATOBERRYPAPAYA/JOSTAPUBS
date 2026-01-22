@@ -1,0 +1,452 @@
+---
+title: "Date Palm \\textit{Phoenix dactylifera} Propagation Techniques: A Comprehensive Review"
+author:  
+  - name: Muhammad Ammar Amjad*
+    affiliations:
+      - name: University of Agriculture 
+        department: 
+        address: Institute of Horticultural Sciences
+        city: Faisalabad
+        country: Pakistan
+    email: ammaragr999@yahoo.com
+    orcid: ""
+    note: Corresponding author
+
+  - name: Beenish Chaudhary
+    affiliations:
+      - name: University of Agriculture 
+        department: 
+        address: Institute of Horticultural Sciences
+        city: Faisalabad
+        country: Pakistan
+    email: beenish_chaudhary@yahoo.com
+    orcid: ""
+    
+  - name: Haram Murtaza
+    affiliations:
+      - name: The Islamia University of Bahawalpur 
+        department: Departement of Botany
+        address: Rahim Yar Khan Campus
+        city: Rahim Yar Khan
+        country: Pakistan
+    email: harammurtaza1089@gmail.com
+    orcid: ""    
+
+  - name: Mohsin Raza
+    affiliations:
+      - name: University of Agriculture 
+        department: 
+        address: Institute of Horticultural Sciences
+        city: Faisalabad
+        country: Pakistan
+    email: mr8835555@gmail.com
+    orcid: ""  
+    
+  - name: Maham Sajid
+    affiliations:
+      - name: Argonomic Research Institute 
+        department: 
+        address: Ayub Agricultural Research Institute
+        city: Faisalabad
+        country: Pakistan
+    email: mahamsajidsk@gmail.com
+    orcid: ""  
+       
+  - name: Aiman Shahid
+    affiliations:
+      - name: University of Agriculture Faisalabad 
+        department: Department of Biochemistry
+        address: Faculty of Sciences
+        city: Faisalabad
+        country: Pakistan
+    email: aimanshahid107@gmail.com
+    orcid: ""  
+             
+abstract: |
+  Date palm (*Phoenix dactylifera* L.) is a remarkable crop in arid/semi-arid region of the Earth. This fruit-bearing tree plays a crucial role in sustaining food supplies and enhancing economies in several developing countries, emphasizing the importance of effective cultivation and multiplication methods for these trees. Choosing the most appropriate propagation technique is crucial for ensuring the sustainable expansion and productivity of the global date palm industry. This narrative review thoroughly examines the different methods employed in date palm propagation along with its pros and cons. This also highlights advances in date palm propagation. The material was searched from google scholar database and the material was searched using different keywords (date palm, propagation, tissue culture, *in vitro* propagation, date palm biotechnology, CRISPR-CAS9) for integrative reviews published between 1990 to 2025. The total number of papers 36, including research articles, review articles, book chapters, reports and statistical reports. This review suggests that tissue culture is a suitable propagation method in Large-scale commercial production and rapid expansion of elite varieties.  
+
+description: >  
+    Date palm (*Phoenix dactylifera* L.) is a remarkable crop in arid/semi-arid region of the Earth. This fruit-bearing tree plays a crucial role in sustaining food supplies and enhancing economies in several developing countries, emphasizing the importance of effective cultivation and multiplication methods for these trees. <a href="/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style> 
+
+keywords: [Tissue Culture, CRISPR-CAS 9, Suckers, SSR markers, SNPs, DArT]  
+categories: [Review-Article,Horticulture, Plantation-crops]
+bibliography: JOSTA-202512-24E0.bib
+date: 2026-01-22
+doi: 10.65287/josta.202512.24E0
+status: Published (Online)
+volume: "2"
+issue: "1"
+pdf_url: "https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/pdfs/JOSTA-202512-24E0.pdf"
+canonical_url: "https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html" 
+include-before-body:
+  text: |  
+    <!-- JOSTA issue banner -->
+    <section class="josta-issue-banner" aria-label="Journal issue banner">
+      <div class="jib-wrap">
+        
+        <!-- Cover -->
+        <div class="jib-cover">
+          <img src="cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+        </div>
+
+        <!-- Meta -->
+        <div class="jib-meta">
+          <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+          <h2 class="jib-subtitle">
+            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
+               target="_blank" rel="noopener" class="jib-vi-link">Volume 02</a>
+            &bull;
+            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
+               target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+            &bull; 2026
+          </h2>
+
+          <p class="jib-line">
+            <span class="jib-label">ISSN (online)</span>
+            <span class="jib-value">
+              <a href="https://portal.issn.org/resource/ISSN/3107-6882"
+                 target="_blank" rel="noopener" class="jib-issn-link">
+                3107-6882
+              </a>
+            </span>
+          </p>
+
+          <p class="jib-line">
+            <span class="jib-label">License</span>
+            <span class="jib-value">
+              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" 
+                 target="_blank" rel="noopener" class="jib-license-link">
+                CC BY-NC-ND 4.0
+              </a>
+            </span>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <style>
+      :root {
+        --j-navy:#0053ed;
+        --j-brown:#8b6a3a;
+        --j-green:#0b5a56;
+        --j-beige:#f8f3ea;
+      }
+
+      .josta-issue-banner {
+        background: linear-gradient(115deg, var(--j-beige), #ffffff);
+        border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+        padding: 1.8rem 1.4rem;
+        margin-bottom: 1.6rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .jib-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        gap: 1.6rem;
+        align-items: center;
+      }
+
+      /* Cover image — NO ROUNDED CORNERS */
+      .jib-cover img {
+        display: block;
+        max-width: 120px;
+        height: auto;
+        border-radius: 0;      /* removed curve */
+        box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+      }
+
+      .jib-journal-tag {
+        margin: 0 0 0.4rem 0;
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--j-green);
+      }
+
+      .jib-subtitle {
+        margin: 0 0 0.7rem 0;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--j-navy);
+        opacity: 0.85;
+      }
+
+      /* Volume/Issue links */
+      .jib-vi-link {
+        color: var(--j-navy);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .jib-vi-link:hover { text-decoration: underline; }
+
+      .jib-line {
+        margin: 0.15rem 0;
+        font-size: 0.95rem;
+        display: flex;
+        gap: 0.4rem;
+        align-items: baseline;
+        color: #333;
+      }
+
+      .jib-label {
+        font-weight: 600;
+        color: var(--j-navy);
+      }
+
+      /* ISSN link */
+      .jib-issn-link {
+        color: var(--j-navy);
+        text-decoration: none;
+      }
+      .jib-issn-link:hover { text-decoration: underline; }
+
+      /* License link */
+      .jib-license-link {
+        color: var(--j-green);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .jib-license-link:hover { text-decoration: underline; }
+
+      @media (max-width: 640px) {
+        .jib-wrap { flex-direction: row; align-items: flex-start; }
+        .jib-cover img { max-width: 90px; }
+        .jib-journal-tag { font-size: 1.05rem; }
+        .jib-subtitle { font-size: 0.9rem; }
+      }
+
+      @media (max-width: 480px) {
+        .jib-wrap { flex-direction: column; align-items: flex-start; }
+      }
+    </style>
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202512.24E0-blue?logo=doi)](https://doi.org/10.65287/josta.202512.24E0) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/18322008)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202512-24E0.pdf" download class="j-btn" aria-label="download pdf">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202512.24E0" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Muhammad, A. A., Chaudhary, B., Murtaza, H., Raza, M., Sajid, M., & Shahid, A. (2026). Date Palm (Phoenix dactylifera) Propagation Techniques: A Comprehensive Review. Journal of Sustainable Technology in Agriculture, 2(1). https://doi.org/10.65287/josta.202512.24E0
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+---
+
+## Introduction
+
+The date palm (Phoenix dactylifera L.) is not merely a tree; it serves as a vital element of life in arid and semi-arid regions, representing significant economic and cultural value [@Chao2007]. This fruit-bearing tree plays a crucial role in sustaining food supplies and enhancing economies in several developing countries, emphasizing the importance of effective cultivation and multiplication methods for these trees [@Soomro2023]. However, increasing the number of date palms is more complex than it appears, primarily due to their distinctive biology [@Jaradat2015]. Being long-lived, single-stemmed plants that don’t reproduce naturally, the conventional methods we have used can frequently seem a bit limiting [@AlKhayri2018]. This inherently slow reproductive rate means that advancing date palm populations or enhancing their characteristics through standard breeding takes time, underscoring the necessity for diverse propagation strategies to navigate these natural limitations [@Jain2012].
+
+Proficiently propagating date palms is not only about increasing the number of trees planted. It is also crucial for establishing new farms, replacing aging and less efficient trees, and promoting superior varieties that yield larger harvests, have better-tasting fruit, or are resistant to common pests and diseases [@Hadrami2009]. The capacity to cultivate more of the top date palm varieties is vital for the sustained health and profitability of the entire date industry [@Supriatna2024]. This article intends to thoroughly examine the different methods employed in date palm propagation. This narrative review highlights the details of each technique, evaluate their advantages and disadvantages, compare their effectiveness based on existing research, consider the reasons behind choosing one method over another, delve into the latest innovations in the field, and specifically contrast traditional practices with modern techniques.
+
+## Literature search and selection
+
+The material was searched from Google Scholar database and the material was searched using different keywords (date palm, propagation, tissue culture, *in vitro* propagation, date palm biotechnology, CRISPR-CAS9) for integrative reviews published between 1990 to 2025. The total number of papers 36, including research articles, review articles, book chapters, reports and statistical reports.
+
+## Traditional propagation by seed
+
+Cultivating date palms from seeds, or sexual propagation, is an effective method to produce new plants using seeds from ripe dates. It typically begins with selecting the best seeds from fully matured dates [@Wakil2015]. After sourcing the seeds, it's crucial to clean them thoroughly to eliminate any sticky fruit pulp that may be present [@Alotaibi2023]. To enhance the chances of germination, these cleansed seeds are generally soaked in fresh water for approximately 48 to 72 hours, with daily water changes to prevent mold or bacterial growth [@Jaradat2013]. Occasionally, a technique called stratification is utilized, where the soaked seeds are placed in a moist medium, such as sand or vermiculite, and then refrigerated for one to three months. This simulates winter conditions and can significantly improve germination rates [@Robinson2009]. These preliminary steps are essential for breaking the seed's dormancy and preparing them for growth, demonstrating a solid grasp of seed biology [@Nonogaki2017]. Once prepared, the seeds can be sown in a potting mixture that provides good drainage, ideally one designed specifically for palm trees, typically made from a blend of peat, perlite, and sand [@Maid2019]. Maintaining the right moisture level not too wet, and not too dry along with a warm temperature between 80 to 100°F (27°C to 38°C) and some indirect light is crucial for successful germination [@Bareke2018]. However, one should not anticipate rapid results; date palm seeds can take their time, often requiring several weeks to a few months to germinate, influenced by factors such as temperature and seed quality [@Mubaiwa2025]. The particular environmental requirements for these seeds to sprout emphasize the necessity of a controlled environment, especially in their initial stages, reflecting the date palm's tropical or subtropical nature and its preference for warm, humid conditions during germination [@Klupczynska2021].
+
+One of the major advantages of growing plants from seeds is its straightforward nature, making it easy to start. It is also the fastest method to begin the propagation process [@Sallon2008]. Perhaps most crucially, seed propagation brings genetic variety into the creation of new plants. This genetic diversity is a significant benefit for breeding initiatives aiming to cultivate improved varieties of date palms, potentially offering greater resistance to diseases, better tolerance for challenging environmental factors such as saline or arid soils, or simply enhancing the quality of the fruit [@Forneck2005]. Although it may not be the preferred approach for producing exact replicas for commercial agriculture, seed propagation plays an essential role in the long-term genetic enhancement and adaptation of date palms to evolving conditions [@Salgotra2023].
+
+Despite its ease, seed propagation has some notable disadvantages that make it less suitable for commercial date farming, where the primary objective is to maintain consistent traits of a selected variety. Date palms are dioecious, meaning they consist of separate male and female trees. Therefore, when seeds are planted, roughly half will turn out to be male, which do not yield fruit. Additionally, it is impossible to distinguish between males and females until they bloom, which typically occurs around seven years later. This inherent unpredictability results in wasted resources in commercial orchards as growers may invest in trees that will never produce fruit. Furthermore, since date palms are heterozygous, offspring grown from seeds will not be exact replicas of the parent trees. Seedlings exhibit significant genetic variation, which can lead to inconsistent fruit quality, differences in ripening times, and unpredictable yields compared to the parent palm. In fact, it is relatively uncommon for more than 10 percent of seed-grown palms to yield fruit suitable for commercial sale. To add to the challenges, date palms grown from seeds require a lengthy maturation period, often taking 8 to 10 years or even more before they begin to produce fruit, significantly diminishing the return on investment for growers. The inconsistency in fruit quality and the timing of harvest further complicates marketing the dates as a uniform product, creating a substantial obstacle in commercial environments. The numerous drawbacks of seed propagation in commercial date production explain why vegetative propagation methods are preferred when the goal is to preserve the purity of a cultivar and guarantee dependable fruit quality and yield [@Jain2012; @McDonald2012].
+
+{{< pagebreak >}}
+
+## Traditional propagation by offshoots
+
+Cultivating date palms through offshoots, also referred to as asexual or vegetative propagation, is a time-honored technique that utilizes the young plants, known as offshoots or suckers, which grow from buds at the base of the mother plant during its early growth stages [@Bhansali2009]. These offshoots are genetic clones of the mother plant, ensuring they share the same genetic traits and produce identical desirable qualities. The procedure for detaching these offshoots requires a gentle approach and generally involves several steps. Firstly, you carefully excavate the soil surrounding the base of the offshoot to uncover its connection to the mother plant. Next, most of the leaves are trimmed back, leaving only about a dozen of the newest leaves tied together for easier handling. The roots of the offshoot are then cut back to a length ranging from 2 to 10 cm. Finally, a robust, wide chisel is driven between the offshoot and the mother plant, often utilizing a sledgehammer, to sever their bond. This detachment process demands skill to minimize stress on both the mother plant and the offshoot, as any damage can significantly influence the survival and growth of the offshoot.
+
+The size of the offshoot is a critical factor in its ability to successfully take root and flourish. An ideal base diameter is typically between 10 and 35 cm. Offshoots within this size range usually possess more roots already developed and higher levels of stored carbohydrates and substances that promote root growth, which are essential for their survival and growth after separation. After being detached, the offshoots are usually replanted directly into the field where the new date palm plantation will be set up. Occasionally, they may first spend a year or two in a nursery to establish a stronger foundation before being relocated to their final site. Planting them at the correct depth is also crucial, with the area from which the roots emerge ideally placed 25 to 50 cm below the soil level. Regular watering is essential to maintain adequate soil moisture, particularly during the initial establishment period when the offshoot is forming its new root system.
+
+Propagation through offshoots provides several notable benefits. Primarily, the offspring are genetically identical to the parent plant, guaranteeing that the fruit they yield will maintain the same high standards and desirable properties. This form of "true-to-type" propagation is crucial for commercial cultivators aiming to uphold the specific traits of their selected varieties. Moreover, palms that are cultivated from offshoots tend to bear fruit sooner, generally within 3 to 5 years of planting, which is considerably earlier than the extended timeline required for palms grown from seeds. This early production can lead to significant financial advantages, delivering a quicker return on investment.
+
+On the flip side, there are also certain drawbacks associated with using offshoots. A significant limitation is the number of offshoots that a single mother plant can produce throughout its lifetime, usually ranging from 20 to 30, with only 3 to 4 being viable for planting in a given year. Some high-quality varieties may yield very few or even no offshoots, which further limits the application of this method for expanding their numbers. Consequently, the rate of propagation tends to be relatively slow and often fails to meet the swiftly rising demand for date palm trees. Additionally, the process of separating and planting offshoots demands considerable labor and requires skilled personnel. There is also the potential risk of introducing diseases and pests from the parent palm to the offshoots, with the red palm weevil posing a particularly vital threat. To prevent infestation, cut surfaces must be dressed with insecticides immediately after maintenance operations. This creates a chemical barrier at the injury site, countering the risk posed by semiochemicals released from the wound that otherwise signal suitable egg-laying locations to female weevils [@Naveed2023]. The survival rates of offshoots can vary significantly, ranging from as low as 10% to as high as 90%, influenced by factors such as the offshoot's size, the specific variety, and the surrounding environmental conditions. For example, offshoots from the Medjool variety tend to be more difficult to establish than those from varieties like Deglet Nour or Zahidi. Finally, mother palms only generate offshoots during their juvenile stage, which typically lasts around 10 to 15 years, thus limiting the long-term availability of these young plants from older, potentially superior palm specimens.
+
+## Modern propagation by tissue culture
+
+Tissue culture, also known as micropropagation, provides a contemporary approach to the propagation of date palms, enabling the rapid production of numerous plants. This method entails the extraction of small segments of plant tissue, including stem tips, nodes, meristems, embryos, or seeds, and cultivating them into complete plants in a sterile and nutrient-rich environment with precisely managed conditions. Tissue culture significantly surpasses traditional propagation methods by allowing for the production of a larger number of plants in a shorter time. There are two primary pathways for date palm tissue culture: somatic embryogenesis and organogenesis. Somatic embryogenesis refers to the creation of somatic embryos from somatic cells, often beginning with a callus stage, which consists of a cluster of undifferentiated plant cells. These somatic embryos progress through various developmental phases until they mature into fully formed plantlets. Due to its potential for quick and extensive plant production, somatic embryogenesis is commonly chosen in many commercial laboratories. Conversely, organogenesis is characterized by the direct or indirect emergence of new buds or shoots from the initial plant tissue, which later transform into plantlets. A popular technique within organogenesis is shoot tip culture. Direct organogenesis, which bypasses the callus phase, is often preferred as it minimizes the likelihood of genetic variations [@Rajmohan2011; @Zaid2011].
+
+**Steps involved in date palm tissue culture**
+
+The general steps involved in date palm tissue culture typically include as indicated [@CoskunKaplan2025]:
+
+**Selecting and sterilizing the plant material (explant):** The procedure starts with the selection of appropriate plant material, or explants, which may include shoot tips from seedlings or offsets, young flower clusters, or seeds' embryos. These explants undergo careful sterilization to remove any surface impurities such as bacteria and fungi, as ensuring a sterile environment is essential for the success of tissue culture.
+
+**Initiating the culture:** The sterilized explant is placed onto a nutrient-dense culture medium, typically a gel made from agar, which is enriched with specific plant growth regulators like auxins (for example, naphthaleneacetic acid - NAA, 2,4-dichlorophenoxyacetic acid - 2,4-D) and cytokinin (such as 6-benzylaminopurine - BA, kinetin). These growth regulators are crucial for either promoting the formation of a callus or the direct development of shoots or embryos, depending on the selected technique. Activated charcoal is frequently incorporated into the medium to absorb any inhibitory substances released by the explant.
+
+**Multiplication:** After the initial cultures are established, they are moved to a multiplication medium, which consists of a different ratio of plant growth regulators designed to encourage the proliferation of additional shoots or embryos. To enhance multiplication rates, some laboratories utilize liquid media or temporary immersion systems (TIS), which periodically submerge the cultures in a nutrient solution, thereby improving nutrient absorption and gas exchange.
+
+**Rooting:** The multiplied shoots are then separated and placed onto a rooting medium, usually containing a higher concentration of auxins and minimal to no cytokinin. This hormonal configuration stimulates the formation of a robust root system, which is vital for the survival of the plantlets once they are transferred to soil.
+
+**Acclimatization:** The final stage consists of gradually acclimating the rooted plantlets to the external environment outside the laboratory. This process, also referred to as hardening, involves slowly decreasing humidity while increasing light intensity and temperature variations to prepare the plantlets for the conditions they will encounter in a greenhouse or nursery before being planted in the field.
+
+Tissue culture provides numerous benefits compared to conventional propagation techniques. It facilitates quick and extensive production of uniform plants in a relatively short timeframe, effectively addressing the slow rate of offshoot production. Plants cultivated through tissue culture are generally free from diseases since they are raised in sterile environments, unlike offshoots, which may transmit illnesses. The plants generated are typically genetically identical (clones), ensuring consistency in growth, development, and fruit quality, which is highly advantageous for commercial production and marketing. Tissue culture can be conducted throughout the year, independent of seasonal changes, ensuring a steady supply of planting material. It is also crucial for preserving elite genotypes, particularly rare or endangered varieties, or those that do not produce offshoots. Moreover, tissue culture methods can be integrated with genetic enhancement techniques such as in vitro mutagenesis and genetic transformation to create improved date palm varieties. Finally, tissue culture plantlets are often more compact and easier to transport than bulky offshoots, thereby lowering transportation expenses and logistical issues [@Oseni2018].
+
+While tissue culture offers numerous advantages, it also presents various challenges. Establishing and maintaining a tissue culture laboratory can involve considerable initial expenses, necessitating investments in specialized infrastructure, equipment, chemicals, and trained personnel. The process requires a certain level of technical skill, as it relies on technicians and researchers who possess specific expertise in plant tissue culture. There exists the risk of soma clonal variation, which can occur when genetic changes arise during tissue culture, especially through somatic embryogenesis that includes a callus stage, resulting in the production of plants that may not be true to the original type. Transferring tissue culture plantlets to their natural habitats can be complicated, and improper acclimatization may result in elevated mortality rates. There is a persistent threat of bacterial and fungal contamination in tissue cultures, which may lead to the loss of entire batches. Physiological issues such as tissue browning and vitrification (hyperhydricity) can also arise in culture, adversely impacting the growth and development of the plantlets; furthermore, premature rooting of buds can disrupt the multiplication phase. Some research has indicated the likelihood of abnormal fruit formation in plants that have been propagated through somatic embryogenesis [@Herman2015; @Oseni2018].
+
+## Comparison of success rates of different propagation techniques
+
+Multiple factors influence the establishment success of offshoots, including their size and specific variety. For instance, Medjool offshoots tend to have lower survival rates compared to varieties like Deglet Nour or Zahidi [@Alasasfa2022]. Typically, offshoots with a base diameter ranging from 10 to 35 cm exhibit the highest survival rates, which can span from 83% to 95%. This highlights the importance of selecting appropriately sized offshoots to enhance their chances of successful establishment.
+
+Conversely, tissue culture frequently achieves very high survival rates once the plants have been properly acclimatized, with certain studies reporting rates nearing 100%. However, the initial stages of tissue culture are at risk of contamination. The time required for the plants to mature and start producing fruit varies between the methods used. Offshoot-grown palms typically begin yielding harvestable fruits within 3 to 5 years. Tissue culture plants can also start fruiting relatively early, usually around 4 years after they are planted. In contrast, palms grown from seeds have a significantly longer juvenile phase, often taking 8 to 10 years or even longer to bear fruit. Research has also compared various tissue culture methods, revealing that temporary immersion systems (TIS) may enhance vigor and achieve a higher acclimatization rate (95%) compared to traditional gel-based systems (82%) [@Zaid2024].
+
+| Feature | Seed Propagation | Offshoot Propagation | Tissue Culture |
+|-----------------|-----------------|-----------------|----------------------|
+| Success Rate | Low and variable (low percentage female, poor quality)[@Zaid2011] | Moderate to high (size and cultivar dependent)[@Drummond1919; @Alasasfa2022] | High (after acclimatization), initial contamination risk [@Zaid2024] |
+| Time to Maturity | Very long (8–10+ years)[@McDonald2012] | Medium (3–5 years)[@Bhansali2009] | Medium (around 4 years)[@Oseni2018] |
+| Genetic Uniformity | Low (off-type progeny)[@Jain2012] | High (true-to-type)[@Bhansali2009] | High (generally true-to-type, risk of somaclonal variation)[@Herman2015; @Oseni2018] |
+| Multiplication Rate | High (number of seeds)[@Jaradat2015] | Low (limited number of offshoots)[@Hadrami2009] | Very high (potential for mass propagation)[@Zaid2011] |
+| Disease Transmission Risk | Low (if seeds are clean)[@Alotaibi2023] | Moderate to high (from mother plant)[@Wakil2015] | Low (disease-free plants)[@Zaid2011] |
+| Cost | Low initial cost[@Sallon2008] | Moderate (labor-intensive)[@Chao2007] | High initial cost (lab setup, expertise)[@Oseni2018] |
+| Scalability | Potentially high for breeding[@Forneck2005] | Low for rapid expansion[@Jain2012] | High for commercial production[@Mehbub2022] |
+| Complexity | Simple[@Bareke2018] | Moderate (requires skill for separation)[@Bhansali2009] | High (requires technical expertise)[@Zaid2011] |
+
+: Comparison of different propagation techniques {#tbl-technique}
+
+## Choosing Appropriate propagation technique
+
+Selecting the most appropriate technique for propagating date palms largely depends on several factors, with cost frequently being a significant aspect. Propagating through seeds typically acquires the lowest initial expenses but requires a lengthy period before bearing fruit and presents uncertainties regarding fruit quality. Offshoot propagation involves moderate costs, largely due to the labor needed for the separation and planting process. Although tissue culture demands a considerable upfront investment for laboratory setup and staff training, it can become more economically viable over time for large-scale production of high-value varieties, particularly when considering the potential for increased yields and consistent quality. The volume of propagation required is also a crucial factor in determining which method to select. Seed propagation is not ideal for commercially cultivating specific varieties due to the variability in genetics. Offshoot propagation is constrained by the number of offshoots produced by a parent palm. Tissue culture thus emerges as the optimal solution for extensive multiplication to satisfy significant demands for planting material [@Mehbub2022].
+
+For commercial endeavors, preserving the desired traits of a particular variety is essential, making offshoot and tissue culture the favored options over seed propagation. The resources and infrastructure available also influence the practicality of a method. For instance, tissue culture requires specialized lab facilities and a skilled team. The purpose for which the propagated plants will be used is an additional vital consideration. While seed propagation is unsuitable for commercial orchards, it still serves as an important method in breeding programs that aim to create new varieties with enhanced characteristics. Lastly, although the suitability of a region for date palm cultivation is primarily determined by climate and soil conditions, these elements indirectly influence the choice of propagation by affecting the overall success and productivity of the resulting plantation.
+
+## Recent advancements and novel techniques in date palm propagation research
+
+Recent advancements in date palm propagation have shifted from general protocol optimization to targeted solutions for critical production bottlenecks, specifically addressing scalability, genetic fidelity, and biotic stress resistance. Advances in tissue culture techniques include the creation and application of bioreactor-based systems and temporary immersion systems (TIS), which have demonstrated significant potential in boosting the multiplication rate of plants and aiding their adaptation to external growth conditions [@Anuradha2025]. Researchers have also been looking into alternative plant material sources for tissue culture, such as young female flower clusters, which may be more accessible than offshoots, especially for uncommon varieties, and could help expedite the overall propagation timeline.
+
+The use of molecular markers (including SSRs, SNPs, DArT) and genetic engineering approaches like CRISPR-Cas9 is increasingly prominent in date palm propagation studies. These methodologies allow for precise identification of various cultivars, ensuring that tissue-cultured plants maintain genetic fidelity, and enable the introduction of advantageous traits such as pest and disease resistance, environmental stress tolerance, and enhanced fruit quality. In vitro mutagenesis, frequently utilizing gamma radiation, is being explored as a strategy to generate genetic variation and develop mutant types with desirable characteristics, including resistance to Bayoud disease, a significant fungal threat to date palms [@Pandey2024].
+
+One particularly intriguing research avenue involves resurrecting ancient date palm varieties from seeds discovered at archaeological sites, some of which date back 2000 years. These endeavors underscore the impressive durability of date palm seeds and present a distinctive chance to recover potentially valuable traits that may have vanished over time. Moreover, there is ongoing research aimed at creating cost-effective tissue culture methods to make micropropagation more feasible for a broader spectrum of growers, especially in areas where date palm farming plays a crucial economic role [@GrosBalthazard2021].
+
+Recent advancements in date palm propagation have shifted from general protocol optimization to targeted solutions for critical production bottlenecks, specifically addressing scalability, genetic fidelity, and biotic stress resistance. To overcome the limitations of low multiplication rates and high acclimatization losses in conventional tissue culture, bioreactor-based Temporary Immersion Systems (TIS) have been introduced, which significantly enhanced nutrient uptake and have been shown to boost acclimatization success rates, compared to traditional gel-based systems. Simultaneously, the risk of somaclonal variation a major threat to commercial uniformity is being addressed through the integration of molecular markers (SSRs, SNPs, DArT), which allow for the precise validation of genetic fidelity at the *in vitro* stage. Furthermore, to bypass the date palm’s long juvenile breeding phase and combat specific threats like Bayoud disease, researchers are utilizing *in vitro* mutagenesis and CRISPR-Cas9 gene editing to introduce targeted resistance traits and improve fruit quality. Finally, novel efforts to recover lost genetic diversity involve the resurrection of ancient germplasm from 2,000-year-old seeds, providing a unique reservoir of traits for future breeding programs [@Pandey2024; @Zaid2024].
+
+## Conclusion and future perspectives
+
+This review has examined the various techniques for propagating date palms, ranging from conventional methods like seed and offshoot propagation to contemporary strategies such as tissue culture. Each technique has its unique advantages and disadvantages, making the selection of a method contingent on particular objectives, operational scale, available resources, and expected results. In commercial production aimed at preserving variety purity and ensuring consistent fruit quality, vegetative propagation through offshoots and increasingly, tissue culture, are favored methods. Although offshoot propagation has historically been the preferred approach, its limitations regarding the speed of plant multiplication and the risk of disease transmission are being mitigated by progress in tissue culture technology.
+
+Looking ahead, future research and development in date palm propagation should target several critical areas. It is essential to further improve tissue culture techniques, particularly for varieties that have proven difficult to grow in vitro. Creating cost-effective and accessible tissue culture solutions will be vital for broader adoption, especially in developing regions where date palm farming is crucial. Ongoing research into in vitro mutagenesis and genetic engineering shows great potential for producing enhanced date palm varieties that exhibit better resistance to environmental stresses and pests, along with superior fruit quality. Investigations aimed at enhancing the acclimatization of tissue culture plantlets will be important for boosting survival rates across various environmental settings. Long-term studies assessing the performance and stability of date palms grown from tissue culture are necessary to thoroughly evaluate their viability throughout their productive lifespan. Lastly, looking into traditional knowledge and practices in regions like Pakistan and exploring how they can be combined with modern techniques could foster more sustainable and culturally relevant methods of date palm farming. Ultimately, choosing the most appropriate propagation technique is crucial for ensuring the sustainable expansion and productivity of the global date palm industry. However, tissue culture is a suitable propagation method in Large-scale commercial production and rapid expansion of elite varieties.
+
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**
+
+-   **Submitted:** *13 December 2025*\
+-   **Accepted:** *20 January 2026*\
+-   **Published (Online):** *22 January 2026*
+
+------------------------------------------------------------------------
+
+**Reviewer Information**
+
+-   **Reviewer 1:**\
+    *Anonymous*
+
+-   **Reviewer 2:**\
+    *Anonymous*
+:::
+
+::: {.callout-note appearance="simple"}
+
+## Disclaimer/Publisher’s Note  
+
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).  
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.  
+
+:::  
+
+>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.

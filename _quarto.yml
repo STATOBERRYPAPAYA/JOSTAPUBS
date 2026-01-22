@@ -43,6 +43,8 @@ website:
         contents:
           - href: volume1.qmd
             text: Volume 1 (2025)
+          - href: volume2.qmd
+            text: Volume 2 (2026)
       # - categories.qmd
       - href: editorial.qmd
         text: Editorial Board

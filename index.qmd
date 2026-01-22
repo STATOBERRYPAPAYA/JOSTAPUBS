@@ -3,6 +3,7 @@ title: ""
 listing:
   id: articles
   contents:
+    - "volume2/**/*.qmd"
     - "volume1/**/*.qmd"
   template: tf-list.ejs
   sort: "date desc"
