@@ -95,7 +95,7 @@ format:
         - sandstone
       dark:
         - slate
-    toc: true
+    toc: false
     number-sections: true
     page-layout: full
     highlight-style: github

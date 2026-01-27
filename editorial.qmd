@@ -75,7 +75,23 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
     <p><a href="https://scholar.google.co.in/citations?user=j41jFA4AAAAJ&hl=en">Google Scholar Profile</a></p>
   </div>
 </div> 
+```  
+
+## Managing Editor {.unnumbered}
+
+```{=html}
+<div class="editor-card">
+  <div class="editor-info">
+    <h3>Pratheesh P. Gopinath, PhD</h3>
+    <p>Assistant Professor,<br>Department of Agricultural Statistics,<br>
+    Kerala Agricultural University</p>
+    <p>Email: <a href="mailto:pratheesh.pg@kau.in">pratheesh.pg@kau.in</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0003-3290-0436">0000-0003-3290-0436</a></p>
+    <p><a href="https://scholar.google.co.in/citations?user=kfyS0-0AAAAJ&hl=en">Google Scholar Profile</a></p>
+  </div>
+</div>
 ```
+
 
 ## Associate Editors {.unnumbered}
 
@@ -286,21 +302,6 @@ The **Journal of Sustainable Technology in Agriculture (JOSTA)** is guided by an
     <p><a href="https://scholar.google.co.in/citations?user=xuPfy3EAAAAJ&hl=en&oi=ao">Google Scholar Profile</a></p>
   </div>
 </div>  
-```
-
-## Managing Editor {.unnumbered}
-
-```{=html}
-<div class="editor-card">
-  <div class="editor-info">
-    <h3>Pratheesh P. Gopinath, PhD</h3>
-    <p>Assistant Professor,<br>Department of Agricultural Statistics,<br>
-    Kerala Agricultural University</p>
-    <p>Email: <a href="mailto:pratheesh.pg@kau.in">pratheesh.pg@kau.in</a></p>
-    <p>ORCID: <a href="https://orcid.org/0000-0003-3290-0436">0000-0003-3290-0436</a></p>
-    <p><a href="https://scholar.google.co.in/citations?user=kfyS0-0AAAAJ&hl=en">Google Scholar Profile</a></p>
-  </div>
-</div>
 ```
 
 ## Technical Editor {.unnumbered}
