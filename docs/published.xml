@@ -9,8 +9,664 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Wed, 21 Jan 2026 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Wed, 11 Feb 2026 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>TILLING and Eco-TILLING: Reverse Genetics Approaches for Crop Improvement</title>
+  <dc:creator>Noru Raja Sekhar Reddy*</dc:creator>
+  <dc:creator>Deepthy Antony P</dc:creator>
+  <dc:creator>Asish I Edakkalathur</dc:creator>
+  <dc:creator>Jiji Joseph</dc:creator>
+  <link>https://www.jostapubs.com/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html</link>
+  <description><![CDATA[ 
+
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume2/issue1/JOSTA2026016BCE/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 02</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+        • 2026
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+
+
+
+
+<p><a href="https://doi.org/10.65287/josta.202601.6BCE"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202601.6BCE-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/18616311"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/JOSTA-202601-6BCE.pdf" download="" class="j-btn" aria-label="download pdf">  <span>download pdf</span> </a></p>
+<p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
+<p><span class="j-chip" data-doi="10.65287/josta.202601.6BCE" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
+</div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+REDDY, N. R. S., Antony P, D., edakkalathur, . asish ., &amp; Joseph, J. (2026). TILLING and Eco-TILLING: Reverse Genetics Approaches for Crop Improvement. Journal of Sustainable Technology in Agriculture, 2(1). https://doi.org/10.65287/josta.202601.6BCE
+</p>
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<hr>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Global agriculture is facing challenges due to changing climate conditions, declining soil health, a rising human population, and increasing incidence of pests, diseases, and environmental stresses <span class="citation" data-cites="Prajapati2024">(Prajapati et al. 2024)</span>. Addressing these challenges requires the development of high-yielding, climate-resilient crop varieties supported by efficient identification and utilization of genetic variation. While conventional breeding remains essential, its reliance on phenotypic selection and long breeding cycles limits the rapid deployment of improved cultivars. Similarly, transgenic technologies, despite their effectiveness, face regulatory constraints and public acceptance issues in many regions <span class="citation" data-cites="Ahmar2020 Bhattacharya2023">(Ahmar et al. 2020; Bhattacharya, Parkhi, and Char 2023)</span>.</p>
+<p>In this context, reverse genetics approaches such as Targeting Induced Local Lesions IN Genomes (TILLING) and Eco-TILLING have emerged as practical, non-transgenic alternatives for functional genomics and crop improvement <span class="citation" data-cites="Selvakumar2023 Siddique2023">(Selvakumar, Jat, and Manjunathagowda 2023; Siddique et al. 2023)</span>. These methods allow precise identification of nucleotide-level variation without foreign DNA integration, making them socially and regulatorily acceptable. TILLING is particularly valuable for species with large, polyploid, or poorly annotated genomes, whereas Eco-TILLING enables the exploration of naturally occurring variation in landraces, wild relatives, and germplasm collections <span class="citation" data-cites="Cheng2021 Mohapatra2023">(Cheng et al. 2021; Mohapatra et al. 2023)</span>.</p>
+<p>Earlier reviews have established the conceptual and methodological foundations of TILLING and Eco-TILLING as reverse genetics platforms <span class="citation" data-cites="Till2007a">(Till, Comai, and Henikoff 2007)</span>. However, substantial advances have occurred in both detection technologies and applied breeding contexts since those syntheses. In particular, the adoption of high-resolution melting (HRM) analysis and next-generation sequencing-assisted TILLING has improved mutation detection efficiency, scalability, and precision. At the same time, recent studies have demonstrated the application of these approaches in underutilized, polyploid, and climate-sensitive crops, where regulatory or technical constraints may limit genome editing strategies.</p>
+<p>This review extends prior syntheses by incorporating recent methodological advances alongside crop-specific case studies and by positioning TILLING-based approaches within the broader context of climate-resilient and resource-efficient breeding. By linking technological innovation with contemporary breeding priorities, this review offers an updated perspective on the sustained relevance of TILLING and Eco-TILLING in modern crop improvement strategies</p>
+</section>
+<section id="tilling" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="tilling"><span class="header-section-number">2</span> Tilling</h2>
+<p>Targeting Induced Local Lesions in Genomes (TILLING) is a reverse genetics approach that enables systematic identification of induced point mutations within specific target genes through enzymatic mismatch cleavage. The foundational framework of TILLING was established in the early 2000s with the development of population-based mutagenesis and heteroduplex-based detection systems in Arabidopsis thaliana <span class="citation" data-cites="McCallum2000 Till2004">(McCallum et al. 2000; Till et al. 2004)</span>. Subsequent reviews consolidated these principles and formalized TILLING and Eco-TILLING as broadly applicable reverse genetics platforms for crop improvement <span class="citation" data-cites="Till2007b">(Till et al. 2007)</span>. These early studies defined the core methodological workflow while also identifying practical constraints, including optimization of mutation density, nuclease specificity, and throughput limitations.</p>
+<p>The approach combines chemical or physical mutagenesis with high-throughput molecular screening to detect sequence variation in target loci <span class="citation" data-cites="Khan2018 Siddique2023">(Khan et al. 2018; Siddique et al. 2023)</span>. Mutant populations are generated, genomic DNA is extracted, and pooled samples are screened following PCR amplification of the region of interest. Denaturation and re-annealing steps produce heteroduplex DNA, which is subsequently cleaved by single-strand–specific nucleases such as CEL I (Celery Extract Nuclease I) and ENDO1 (Endonuclease I) at sites of single-base mismatches or small insertions/deletions <span class="citation" data-cites="Till2004">(Till et al. 2004)</span>. While CEL I is widely used for its broad mismatch recognition and high sensitivity, non-specific cleavage may occur under suboptimal conditions. ENDO1 can offer improved specificity in certain systems, although enzyme performance may vary depending on reaction parameters <span class="citation" data-cites="Till2007b">(Till et al. 2007)</span>. A schematic representation of the TILLING workflow, from mutagenesis to mutation detection, is presented in Figure&nbsp;1.</p>
+<p>Associated seed stocks and DNA libraries are typically preserved to support long-term functional genomics and breeding applications <span class="citation" data-cites="Jiang2022">(Jiang et al. 2022)</span>.</p>
+<div id="fig-figure1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/JOSTA2026016BCE/figures/fig1.png" style="width:80.0%" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Schematic workflow of the TILLING process
+</figcaption>
+</figure>
+</div>
+<p>Unlike conventional mutation breeding, which often recovers a limited subset of desirable alleles, TILLING enables systematic detection of a wide spectrum of induced variants. In EMS-based populations, mutation densities generally range from approximately 1 per 200–1000 kb, depending on mutagen dosage, genome size, and ploidy level. Effective recovery of functional alleles for a single gene typically requires screening populations of 1,000–5,000 M2 individuals, with larger populations needed for polyploid species or rare knockout variants <span class="citation" data-cites="Cooper2008">(Cooper et al. 2008)</span>. By linking induced nucleotide variation to phenotypic outcomes, TILLING provides a non-transgenic platform for targeted trait discovery and incorporation of beneficial alleles into breeding pipelines <span class="citation" data-cites="Cheng2021 Sun2024">(Cheng et al. 2021; Sun et al. 2024)</span>.</p>
+<section id="innovative-techniques-derived-from-tilling" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="innovative-techniques-derived-from-tilling"><span class="header-section-number">2.1</span> Innovative techniques derived from TILLING</h3>
+<p>Several mutation detection methods have evolved from the original TILLING platform by exploiting structural differences between homoduplex and heteroduplex DNA. These include Single-Strand Conformation Polymorphism (SSCP), Denaturing Gradient Gel Electrophoresis (DGGE), Conformation-Sensitive Gel Electrophoresis (CSGE), Temperature Gradient Capillary Electrophoresis (TGCE), Denaturing High-Performance Liquid Chromatography (dHPLC), and High-Resolution Melting (HRM) analysis <span class="citation" data-cites="Till2007b SzurmanZubrzycka2017 Selvakumar2023">(Till et al. 2007; Szurman-Zubrzycka et al. 2017; Selvakumar, Jat, and Manjunathagowda 2023)</span>.</p>
+<p>Among these, HRM has gained prominence for its rapid detection of sequence variation based on the differential melting behavior of PCR amplicons. Unlike nuclease-based approaches, HRM eliminates enzymatic cleavage steps and enables scalable, high-throughput screening <span class="citation" data-cites="Selvakumar2023">(Selvakumar, Jat, and Manjunathagowda 2023)</span>. It has been successfully applied in crops such as tomato, pepper, potato, and broccoli <span class="citation" data-cites="Mohan2016">(Mohan et al. 2016)</span>.</p>
+<p>The integration of next-generation sequencing (NGS) has fundamentally reshaped TILLING workflows, transitioning the approach from gel-dependent mutation detection to scalable genomic platforms. In NGS-assisted TILLING, pooled PCR amplicons or targeted genomic regions are directly sequenced, enabling digital identification of induced nucleotide variants at single-base resolution <span class="citation" data-cites="Fanelli2021 Jiang2022">(Fanelli et al. 2021; Jiang et al. 2022)</span>. Compared with enzymatic mismatch cleavage and fragment analysis methods <span class="citation" data-cites="Till2007a">(Till, Comai, and Henikoff 2007)</span>, sequencing-based platforms enhance sensitivity, support multiplexed screening of multiple loci within large mutant populations, and reduce reliance on capillary or gel-based systems.</p>
+<p>Reference-guided amplicon sequencing platforms have demonstrated improved mutation discovery efficiency and reduced manual processing in crops such as barley and sunflower <span class="citation" data-cites="Fanelli2021 Jiang2022">(Fanelli et al. 2021; Jiang et al. 2022)</span>. Beyond targeted amplicon sequencing, targeted resequencing and exome-capture approaches allow simultaneous interrogation of broader gene sets, particularly in species with available reference genomes. Although initial sequencing infrastructure may require higher investment, per-sample costs decrease substantially at scale, making NGS-assisted TILLING increasingly cost-effective for large breeding programs. Moreover, digital variant datasets facilitate allele frequency estimation, precise validation, and integration with genomic databases, thereby improving data interpretation and traceability. Collectively, these advances position sequencing-assisted TILLING as a central component of contemporary reverse genetics and crop improvement strategies.</p>
+<div id="tbl-techniques" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-techniques-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Techniques developed from TILLING
+</figcaption>
+<div aria-describedby="tbl-techniques-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 24%">
+<col style="width: 17%">
+<col style="width: 22%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Developed for</th>
+<th>Advantage</th>
+<th>Disadvantage</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>iTILLING (individualized TILLING)</td>
+<td>Arabidopsis reduces cost and time to carry out mutation screening</td>
+<td>low cost</td>
+<td>can be performed only for a small number of genes because the population used for screening is of short duration.</td>
+<td><span class="citation" data-cites="Bush2010">(Bush and Krysan 2010)</span></td>
+</tr>
+<tr class="even">
+<td>DeTILLING (Deletion TILLING)</td>
+<td>This technique employs the spectrum of available reverse genetic, molecular tools for the functional characterization of genes.</td>
+<td>overcomes the shortage of null mutations and exclusively detects knockout mutations.</td>
+<td>disruption of multiple genes, complicating gene-function analysis.</td>
+<td><span class="citation" data-cites="Rogers2009">(Rogers et al. 2009)</span></td>
+</tr>
+<tr class="odd">
+<td>EcoTILLING (Ecotypic TILLING)</td>
+<td>to evaluate naturally occurring variations</td>
+<td>Enables low-cost discovery of natural genetic variants in wild crops unsuitable for induced mutagenesis.</td>
+<td>Limited to existing natural variation, making it less effective in species with low genetic diversity.</td>
+<td><span class="citation" data-cites="Comai2004">(Comai et al. 2004)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>TILLING has evolved from a basic chemical mutagenesis approach into a versatile platform adapted to a wide range of crop species and breeding systems. Its modern variants support both functional genomics research and applied crop improvement across diverse agricultural contexts. Table&nbsp;2 provides a comparative overview of key TILLING approaches, highlighting their applications, advantages, and limitations in contemporary breeding strategies.</p>
+<div id="tbl-crop" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-crop-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Comparison of traditional and modern TILLING variants used in crop improvement
+</figcaption>
+<div aria-describedby="tbl-crop-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 25%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>TILLING type</th>
+<th>Target crops/species</th>
+<th>Key features</th>
+<th>Advantages</th>
+<th>Limitations</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Traditional TILLING</td>
+<td>Autogamous, seed-producing crops</td>
+<td>Uses chemical mutagenesis, M1/M2 population development, DNA pooling, endonuclease-based mutation screening</td>
+<td>Broad applicability across crops, long-term seed storage</td>
+<td>Time-intensive; low mutation frequency</td>
+<td><span class="citation" data-cites="Borevitz2003 Till2007a Till2007b">(Borevitz et al. 2003; Till, Comai, and Henikoff 2007; Till et al. 2007)</span></td>
+</tr>
+<tr class="even">
+<td>techTILLING</td>
+<td>Lotus, tomato, pepper, pea, melon, lettuce, etc.</td>
+<td>Platform integrating forward genetics and reverse genetics for crop screening</td>
+<td>Applied to various vegetable crops via centralized platforms</td>
+<td>Requires infrastructure and genomic resources</td>
+<td><span class="citation" data-cites="Perry2003 Perry2009">(J. A. Perry et al. 2003; J. Perry et al. 2009)</span></td>
+</tr>
+<tr class="odd">
+<td>mutTILLING</td>
+<td>General crop species</td>
+<td>Uses diverse mutagens to induce mutations for reverse genetics</td>
+<td>Allows customized mutation spectrum targeting specific alleles</td>
+<td>Variability in mutation recovery</td>
+<td><span class="citation" data-cites="McCallum2000">(McCallum et al. 2000)</span></td>
+</tr>
+<tr class="even">
+<td>proTILLING</td>
+<td>Tomato, capsicum, melon, potato, tobacco, etc.</td>
+<td>Utilizes non-GM, proven mutagenesis methods suitable for breeders</td>
+<td>Bypasses GMO regulations; directly applicable in breeding programs</td>
+<td>Slower than transgenic approaches; may lose functional alleles</td>
+<td><span class="citation" data-cites="Piron2010 Blomstedt2012">(Piron et al. 2010; Blomstedt et al. 2012)</span></td>
+</tr>
+<tr class="odd">
+<td>polyTILLING</td>
+<td>Polyploids (potato, sweet potato, leek)</td>
+<td>Exploits high mutation rates in polyploid genomes for gene discovery</td>
+<td>Suitable for high-throughput allele mining despite genetic redundancy</td>
+<td>High mutation loads; potential sterility in some polyploids</td>
+<td><span class="citation" data-cites="Lawrence2003 Bush2010">(Lawrence and Pikaard 2003; Bush and Krysan 2010)</span></td>
+</tr>
+<tr class="even">
+<td>VeggieTILLING</td>
+<td>Vegetatively propagated crops (cassava, yams, etc.)</td>
+<td>Mutagenizes vegetative parts (e.g., apical meristems); screens for mutations via phenotypic/genotypic tools</td>
+<td>Enables TILLING in crops without seeds; useful for perennial and asexually propagated vegetables</td>
+<td>Lack of meiosis limits classical breeding approaches; chimeras can occur</td>
+<td><span class="citation" data-cites="Mba2009">(Mba et al. 2009)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="eco-tilling" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="eco-tilling"><span class="header-section-number">3</span> Eco TILLING</h2>
+<p>Eco-TILLING, first described by <span class="citation" data-cites="Comai2004">(Comai et al. 2004)</span>, is a modification of the original TILLING platform designed to detect naturally occurring nucleotide polymorphisms within populations. Unlike induced mutagenesis-based TILLING, Eco-TILLING relies on heteroduplex formation between reference and test DNA samples to identify sequence variation such as single nucleotide polymorphisms and small insertions or deletions.</p>
+<p>Early implementations of Eco-TILLING utilized LI-COR gel-based detection systems for visualization of nuclease cleavage products <span class="citation" data-cites="Comai2004">(Comai et al. 2004)</span>. However, many laboratories have transitioned toward capillary electrophoresis and, more recently, sequencing-based detection platforms, which provide higher throughput, improved resolution, and reduced dependence on specialized gel imaging systems <span class="citation" data-cites="SzurmanZubrzycka2017 Selvakumar2023">(Szurman-Zubrzycka et al. 2017; Selvakumar, Jat, and Manjunathagowda 2023)</span>. Integration with next-generation sequencing now allows more precise haplotype identification and improved scalability in diverse germplasm collections.</p>
+<p>Eco-TILLING has proven particularly valuable for allele mining in landraces, wild relatives, and pre-breeding materials. By identifying naturally occurring variation in candidate genes, it supports the introgression of favorable alleles into elite backgrounds without induced mutation load. Applications include the discovery of functional polymorphisms associated with nutritional traits, stress tolerance, and disease resistance <span class="citation" data-cites="Upadhyaya2017 Mohapatra2023">(Upadhyaya et al. 2017; Mohapatra et al. 2023)</span>. Because Eco-TILLING does not involve mutagenesis, it is especially suitable for crops with high natural diversity and for breeding programs focused on broadening the genetic base. In contrast to induced TILLING, which generates novel alleles, Eco-TILLING primarily facilitates characterization and deployment of existing variation. Together, the two approaches provide complementary strategies for functional genomics and crop improvement.</p>
+</section>
+<section id="applications" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="applications"><span class="header-section-number">4</span> Applications</h2>
+<p>TILLING has been applied successfully to improve disease resistance, metabolic composition, and quality traits in several crop species. Representative case studies are summarized in Table&nbsp;3, and selected examples are discussed below to illustrate practical outcomes. In tomato, a proTILLING approach identified mutations in the eIF4E gene that conferred resistance to two potyviruses <span class="citation" data-cites="Piron2010">(Piron et al. 2010)</span>. Because these alleles were generated through chemical mutagenesis rather than transgenic modification, they were directly incorporated into breeding programs without regulatory constraints. This study demonstrated the effectiveness of TILLING in translating molecular knowledge of host–virus interactions into deployable resistance traits.</p>
+<p><span class="citation" data-cites="Blomstedt2012">(Blomstedt et al. 2012)</span> combined biochemical screening with TILLING to target genes involved in cyanogenic glucoside biosynthesis in sorghum. Mutant lines with reduced cyanogenic potential were identified, resulting in improved forage safety while maintaining agronomic performance. This study highlights the use of TILLING to modify complex metabolic pathways relevant to crop utilization. Oil quality improvement has also been achieved through TILLING. In soybean, mutations in fatty acid desaturase genes were detected using TILLING, leading to altered fatty acid composition and increased oleic acid content <span class="citation" data-cites="Cooper2008">(Cooper et al. 2008)</span>. Such modifications improve oxidative stability and nutritional quality, demonstrating the role of TILLING in compositional trait improvement.</p>
+<p>Recent advances integrating next-generation sequencing with TILLING have improved mutation detection efficiency and scalability, as demonstrated in barley through amplicon-based TILLING-by-sequencing platforms <span class="citation" data-cites="Jiang2022">(Jiang et al. 2022)</span>. Eco-TILLING has further enabled identification of natural allelic variation within germplasm collections, supporting allele mining and biofortification strategies, such as folate enhancement in tomato <span class="citation" data-cites="Upadhyaya2017">(Upadhyaya et al. 2017)</span>. Together, these studies confirm that TILLING and Eco-TILLING function as practical platforms for functional allele discovery and direct trait improvement within conventional breeding systems.</p>
+<div id="tbl-crops" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-crops-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Applications of TILLING and Eco-TILLING in crop improvement
+</figcaption>
+<div aria-describedby="tbl-crops-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 15%">
+<col style="width: 36%">
+<col style="width: 16%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Crop species</th>
+<th>Target gene</th>
+<th>Target trait / improvement</th>
+<th>Methodology</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rice (<em>Oryza sativa</em>)</td>
+<td>Wx (Waxy gene)</td>
+<td>Reduced amylose content; improved grain quality</td>
+<td>Traditional TILLING</td>
+<td><span class="citation" data-cites="Till2007b">(Till et al. 2007)</span></td>
+</tr>
+<tr class="even">
+<td>Tomato (<em>Solanum lycopersicum</em>)</td>
+<td>eIF4E</td>
+<td>Resistance to potyviruses</td>
+<td>proTILLING</td>
+<td><span class="citation" data-cites="Piron2010">(Piron et al. 2010)</span></td>
+</tr>
+<tr class="odd">
+<td>Soybean (<em>Glycine max</em>)</td>
+<td>FAD2-1A / FAD2-1B</td>
+<td>Increased oleic acid content</td>
+<td>Traditional TILLING</td>
+<td><span class="citation" data-cites="Cooper2008">(Cooper et al. 2008)</span></td>
+</tr>
+<tr class="even">
+<td>Barley (<em>Hordeum vulgare</em>)</td>
+<td>HvCslF6</td>
+<td>Modified β-glucan content</td>
+<td>TILLING-by-Sequencing (NGS-assisted)</td>
+<td><span class="citation" data-cites="Jiang2022">(Jiang et al. 2022)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Brassica rapa</em></td>
+<td>Multiple flowering genes</td>
+<td>Flowering time modification</td>
+<td>Traditional TILLING</td>
+<td><span class="citation" data-cites="Stephenson2010">(Stephenson et al. 2010)</span></td>
+</tr>
+<tr class="even">
+<td><em>Lotus japonicus</em></td>
+<td>Symbiosis-related genes</td>
+<td>Improved nodulation efficiency</td>
+<td>techTILLING</td>
+<td><span class="citation" data-cites="Perry2009">(J. Perry et al. 2009)</span></td>
+</tr>
+<tr class="odd">
+<td>Sorghum (<em>Sorghum bicolor</em>)</td>
+<td>Cyanogenic glucoside pathway genes</td>
+<td>Reduced cyanogenic potential</td>
+<td>proTILLING</td>
+<td><span class="citation" data-cites="Blomstedt2012">(Blomstedt et al. 2012)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="comparison-of-tilling-and-eco-tilling-with-other-reverse-genetics-tools" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="comparison-of-tilling-and-eco-tilling-with-other-reverse-genetics-tools"><span class="header-section-number">5</span> Comparison of TILLING and Eco-TILLING with other reverse genetics tools</h2>
+<p>TILLING and Eco-TILLING operate alongside other reverse genetics and allele discovery tools such as CRISPR-based genome editing and genome-wide association studies (GWAS). CRISPR technologies enable precise, targeted modification of specific loci but often require efficient transformation systems, and efficient tissue culture regeneration systems may be subject to regulatory constraints <span class="citation" data-cites="Pacesa2024">(Pacesa, Pelea, and Jinek 2024)</span>. In contrast, TILLING generates allelic variation through mutagenesis without introducing foreign DNA, making it broadly applicable and regulatorily simpler in many breeding contexts. GWAS-based approaches rely on existing natural variation to identify trait-associated loci, whereas TILLING can create novel alleles, including rare loss-of-function variants not present in germplasm collections <span class="citation" data-cites="Park2025">(Park et al. 2025)</span>. Consequently, TILLING remains particularly valuable in orphan, polyploid, and transformation-recalcitrant crops, while also functioning complementarily with genome editing and genomic selection in integrated breeding pipelines.</p>
+</section>
+<section id="challenges" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="challenges"><span class="header-section-number">6</span> Challenges</h2>
+<p>Despite their advantages, TILLING and Eco-TILLING face limitations. Most induced mutations are silent or result in partial functional changes, making true knockout alleles relatively rare <span class="citation" data-cites="Kashtwari2019">(Kashtwari, Wani, and Rather 2019)</span>. Mutation detection requires specialized equipment, such as LI-COR systems and capillary electrophoresis platforms, which may be inaccessible in resource-limited settings <span class="citation" data-cites="Siyal2024">(Siyal et al. 2024)</span>. Additionally, Eco-TILLING may have limited power to detect rare alleles in highly diverse populations <span class="citation" data-cites="Gunnaiah2023">(Gunnaiah and Naika 2023)</span>. Successful implementation in orphan crops often depends on genomic resources, technical expertise, and infrastructure availability <span class="citation" data-cites="Kumari2024">(Kumari and Chatterjee 2024)</span>.</p>
+</section>
+<section id="future-directions" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="future-directions"><span class="header-section-number">7</span> Future directions</h2>
+<p>The continued relevance of TILLING and Eco-TILLING will depend not only on methodological refinement but also on strategic implementation within national breeding systems. For developing countries, investment in shared mutation screening and sequencing facilities can substantially reduce costs while expanding access to high-throughput platforms. Prioritizing regionally important, climate-resilient, and underutilized crops, particularly those lacking efficient transformation systems, would enhance the impact of these approaches. Integration of mutant populations with existing germplasm collections and pre-breeding resources can strengthen allele discovery and minimize redundancy. Furthermore, building bioinformatics capacity, standardized data management frameworks, and coordinated training programs will be essential for sustainable deployment. When aligned with national crop improvement priorities, TILLING-based platforms offer cost-effective, non-transgenic tools for accelerating trait discovery and varietal development.</p>
+</section>
+<section id="conclusion" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">8</span> Conclusion</h2>
+<p>In conclusion, TILLING and Eco-TILLING stand out as cost-effective, reliable, and non-transgenic approaches for detecting genetic variation, with great potential for application across a wide range of plant species, including underutilized and non-model crops. These techniques offer significant promise for crop improvement, particularly in species where traditional mutagenesis methods have proven challenging. However, realizing their full potential requires overcoming key obstacles, such as optimizing protocols for orphan crops, building local capacity, and integrating advanced genomic tools like next-generation sequencing. As technological advancements continue to lower costs and improve accessibility, TILLING is ready to become a central component in functional genomics and breeding programs, ultimately contributing to enhanced crop productivity and food security, especially for resource-limited farming communities.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-Ahmar2020" class="csl-entry">
+Ahmar, S., R. A. Gill, K. H. Jung, A. Faheem, M. U. Qasim, M. Mubeen, and W. Zhou. 2020. <span>“Conventional and Molecular Techniques from Simple Breeding to Speed Breeding in Crop Plants: Recent Advances and Future Outlook.”</span> <em>International Journal of Molecular Sciences</em> 21 (7): 2590. <a href="https://doi.org/10.3390/ijms21072590">https://doi.org/10.3390/ijms21072590</a>.
+</div>
+<div id="ref-Bhattacharya2023" class="csl-entry">
+Bhattacharya, A., V. Parkhi, and B. Char, eds. 2023. <em>TILLING and Eco-TILLING for Crop Improvement</em>. Singapore: Springer.
+</div>
+<div id="ref-Blomstedt2012" class="csl-entry">
+Blomstedt, C. K., R. M. Gleadow, N. O’Donnell, P. Naur, K. Jensen, T. Laursen, C. E. Olsen, et al. 2012. <span>“A Combined Biochemical Screen and TILLING Approach Identifies Mutations in Sorghum Bicolor Resulting in Acyanogenic Forage Production.”</span> <em>Plant Biotechnology Journal</em> 10 (1): 54–66. <a href="https://doi.org/10.1111/j.1467-7652.2011.00646.x">https://doi.org/10.1111/j.1467-7652.2011.00646.x</a>.
+</div>
+<div id="ref-Borevitz2003" class="csl-entry">
+Borevitz, J. O., D. Liang, D. Plouffe, H. S. Chang, T. Zhu, D. Weigel, C. C. Berry, E. Winzeler, and J. Chory. 2003. <span>“Large-Scale Identification of Single-Feature Polymorphisms in Complex Genomes.”</span> <em>Genome Research</em> 13 (3): 513–23. <a href="https://doi.org/10.1101/gr.1093103">https://doi.org/10.1101/gr.1093103</a>.
+</div>
+<div id="ref-Bush2010" class="csl-entry">
+Bush, S. M., and P. J. Krysan. 2010. <span>“iTILLING: A Personalized Approach to the Identification of Induced Mutations in Arabidopsis.”</span> <em>Plant Physiology</em> 154 (1): 25–35. <a href="https://doi.org/10.1104/pp.110.159897">https://doi.org/10.1104/pp.110.159897</a>.
+</div>
+<div id="ref-Cheng2021" class="csl-entry">
+Cheng, L., Y. Li, Q. Qi, P. Xu, R. Feng, L. Palmer, J. Chen, et al. 2021. <span>“Single-Nucleotide-Level Mapping of DNA Regulatory Elements That Control Fetal Hemoglobin Expression.”</span> <em>Nature Genetics</em> 53 (6): 869–80. <a href="https://doi.org/10.1038/s41588-021-00861-8">https://doi.org/10.1038/s41588-021-00861-8</a>.
+</div>
+<div id="ref-Comai2004" class="csl-entry">
+Comai, L., K. Young, B. J. Till, S. H. Reynolds, E. A. Greene, C. A. Codomo, L. C. Enns, et al. 2004. <span>“Efficient Discovery of DNA Polymorphisms in Natural Populations by EcoTILLING.”</span> <em>The Plant Journal</em> 37 (5): 778–86. <a href="https://doi.org/10.1111/j.0960-7412.2003.01999.x">https://doi.org/10.1111/j.0960-7412.2003.01999.x</a>.
+</div>
+<div id="ref-Cooper2008" class="csl-entry">
+Cooper, J. L., B. J. Till, R. G. Laport, M. C. Darlow, J. M. Kleffner, A. Jamai, T. El-Mellouki, et al. 2008. <span>“TILLING to Detect Induced Mutations in Soybean.”</span> <em>BMC Plant Biology</em> 8: 9. <a href="https://doi.org/10.1186/1471-2229-8-9">https://doi.org/10.1186/1471-2229-8-9</a>.
+</div>
+<div id="ref-Fanelli2021" class="csl-entry">
+Fanelli, V., K. J. Ngo, V. L. Thompson, B. R. Silva, H. Tsai, W. Sabetta, C. Montemurro, L. Comai, and S. L. Harmer. 2021. <span>“A TILLING-by-Sequencing Approach to Identify Induced Mutations in Sunflower Genes.”</span> <em>Scientific Reports</em> 11: 9885. <a href="https://doi.org/10.1038/s41598-021-89237-w">https://doi.org/10.1038/s41598-021-89237-w</a>.
+</div>
+<div id="ref-Gunnaiah2023" class="csl-entry">
+Gunnaiah, R., and M. B. Naika. 2023. <span>“Bioinformatics and Candidate Gene Mining for TILLING.”</span> In <em>TILLING and Eco-TILLING for Crop Improvement</em>, 61–74. Singapore: Springer.
+</div>
+<div id="ref-Jiang2022" class="csl-entry">
+Jiang, C., M. Lei, Y. Guo, G. Gao, L. Shi, Y. Jin, Y. Cai, et al. 2022. <span>“A Reference-Guided TILLING by Amplicon Sequencing Platform Supports Forward and Reverse Genetics in Barley.”</span> <em>Plant Communications</em> 3 (4): 100343. <a href="https://doi.org/10.1016/j.xplc.2022.100317">https://doi.org/10.1016/j.xplc.2022.100317</a>.
+</div>
+<div id="ref-Kashtwari2019" class="csl-entry">
+Kashtwari, M., A. A. Wani, and R. N. Rather. 2019. <span>“TILLING: An Alternative Path for Crop Improvement.”</span> <em>Journal of Crop Improvement</em> 33 (1): 83–109. <a href="https://doi.org/10.1080/15427528.2018.1544954">https://doi.org/10.1080/15427528.2018.1544954</a>.
+</div>
+<div id="ref-Khan2018" class="csl-entry">
+Khan, A., I. Abidi, M. A. Bhat, Z. A. Dar, G. Ali, A. B. Shikari, and M. A. Khan. 2018. <span>“TILLING and Eco-TILLING: A Reverse Genetic Approach for Crop Improvement.”</span> <em>International Journal of Current Microbiology and Applied Sciences</em> 7 (6): 15–21.
+</div>
+<div id="ref-Kumari2024" class="csl-entry">
+Kumari, K., and A. Chatterjee. 2024. <em>Advancing Plant Breeding Through TILLING: Uncovering Genetic Diversity for Sustainable Agriculture</em>. Harvesting Tomorrow.
+</div>
+<div id="ref-Lawrence2003" class="csl-entry">
+Lawrence, R. J., and C. S. Pikaard. 2003. <span>“Transgene-Induced RNA Interference: A Strategy for Overcoming Gene Redundancy in Polyploids to Generate Loss-of-Function Mutations.”</span> <em>The Plant Journal</em> 36 (1): 114–21. <a href="https://doi.org/10.1046/j.1365-313x.2003.01857.x">https://doi.org/10.1046/j.1365-313x.2003.01857.x</a>.
+</div>
+<div id="ref-Mba2009" class="csl-entry">
+Mba, C., R. Afza, S. Bado, and S. M. Jain. 2009. <span>“Induced Mutagenesis in Plants Using Physical and Chemical Agents.”</span> <em>Plant Cell, Tissue and Organ Culture</em> 104 (2): 149–66. <a href="https://doi.org/10.1007/s11240-010-9856-0">https://doi.org/10.1007/s11240-010-9856-0</a>.
+</div>
+<div id="ref-McCallum2000" class="csl-entry">
+McCallum, C. M., L. Comai, E. A. Greene, and S. Henikoff. 2000. <span>“Targeted Screening for Induced Mutations.”</span> <em>Nature Biotechnology</em> 18 (4): 455–57. <a href="https://doi.org/10.1038/74542">https://doi.org/10.1038/74542</a>.
+</div>
+<div id="ref-Mohan2016" class="csl-entry">
+Mohan, V., S. Gupta, S. Thomas, H. Mickey, C. Charakana, V. S. Chauhan, K. Sharma, et al. 2016. <span>“Tomato Fruits Show Wide Phenomic Diversity but Fruit Developmental Genes Show Low Genomic Diversity.”</span> <em>PLoS ONE</em> 11 (4): e0152907. <a href="https://doi.org/10.1371/journal.pone.0152907">https://doi.org/10.1371/journal.pone.0152907</a>.
+</div>
+<div id="ref-Mohapatra2023" class="csl-entry">
+Mohapatra, S. R., P. K. Majhi, K. Mondal, and K. Samantara. 2023. <span>“TILLING and Eco-TILLING: Concept, Progress and Role in Crop Improvement.”</span> In <em>Advanced Crop Improvement, Volume 1: Theory and Practice</em>, 349–77. Cham: Springer.
+</div>
+<div id="ref-Pacesa2024" class="csl-entry">
+Pacesa, M., O. Pelea, and M. Jinek. 2024. <span>“Past, Present, and Future of CRISPR Genome Editing Technologies.”</span> <em>Cell</em> 187: 1076–1100. <a href="https://doi.org/10.1016/j.cell.2024.01.042">https://doi.org/10.1016/j.cell.2024.01.042</a>.
+</div>
+<div id="ref-Park2025" class="csl-entry">
+Park, T. C., P. C. Silva, T. Lübberstedt, and M. P. Scott. 2025. <span>“Beyond the Genome: The Role of Functional Markers in Contemporary Plant Breeding.”</span> <em>Frontiers in Plant Science</em> 16: 1637299. <a href="https://doi.org/10.3389/fpls.2025.1637299">https://doi.org/10.3389/fpls.2025.1637299</a>.
+</div>
+<div id="ref-Perry2003" class="csl-entry">
+Perry, J. A., T. L. Wang, T. J. Welham, S. Gardner, J. M. Pike, S. Yoshida, and M. Parniske. 2003. <span>“A TILLING Reverse Genetics Tool and a Web-Accessible Collection of Mutants of Lotus Japonicus.”</span> <em>Plant Physiology</em> 131 (3): 866–71. <a href="https://doi.org/10.1104/pp.102.017384">https://doi.org/10.1104/pp.102.017384</a>.
+</div>
+<div id="ref-Perry2009" class="csl-entry">
+Perry, J., A. Brachmann, T. Welham, A. Binder, M. Charpentier, M. Groth, K. Haage, K. Markmann, T. L. Wang, and M. Parniske. 2009. <span>“TILLING in Lotus Japonicus Identified Large Allelic Series for Symbiosis Genes.”</span> <em>Plant Physiology</em> 151 (3): 1281–91. <a href="https://doi.org/10.1104/pp.109.142190">https://doi.org/10.1104/pp.109.142190</a>.
+</div>
+<div id="ref-Piron2010" class="csl-entry">
+Piron, F., M. Nicolaï, S. Minoïa, E. Piednoir, A. Moretti, A. Salgues, D. Zamir, C. Caranta, and A. Bendahmane. 2010. <span>“An Induced Mutation in Tomato eIF4E Leads to Immunity to Two Potyviruses.”</span> <em>PLoS ONE</em> 5 (6): e11313. <a href="https://doi.org/10.1371/journal.pone.0011313">https://doi.org/10.1371/journal.pone.0011313</a>.
+</div>
+<div id="ref-Prajapati2024" class="csl-entry">
+Prajapati, V., S. K. Verma, A. Alam, and N. Khare. 2024. <span>“Impact of Climate Change in India: Challenges to Human Health.”</span> In <em>Climate Change in India</em>, 88–106. CRC Press.
+</div>
+<div id="ref-Rogers2009" class="csl-entry">
+Rogers, C., J. Wen, R. Chen, and G. Oldroyd. 2009. <span>“Deletion-Based Reverse Genetics in Medicago Truncatula.”</span> <em>Plant Physiology</em> 151 (3): 1077–86. <a href="https://doi.org/10.1104/pp.109.142919">https://doi.org/10.1104/pp.109.142919</a>.
+</div>
+<div id="ref-Selvakumar2023" class="csl-entry">
+Selvakumar, R., G. S. Jat, and D. C. Manjunathagowda. 2023. <span>“Allele Mining Through TILLING and Eco-TILLING Approaches in Vegetable Crops.”</span> <em>Planta</em> 258 (1): 15. <a href="https://doi.org/10.1007/s00425-023-04176-2">https://doi.org/10.1007/s00425-023-04176-2</a>.
+</div>
+<div id="ref-Siddique2023" class="csl-entry">
+Siddique, M. I., A. Younis, M. A. Gururani, and J. Venkatesh. 2023. <span>“Application of TILLING as a Reverse Genetics Tool to Discover Mutations in Plant Genomes.”</span> In <em>Mutation Breeding for Sustainable Food Production and Climate Resilience</em>, 233–68. Singapore: Springer.
+</div>
+<div id="ref-Siyal2024" class="csl-entry">
+Siyal, A. L., S. Sial, A. Hossain, and A. G. Chang. 2024. <span>“Targeting Induced Local Lesions in Genomes Under Climate Change.”</span> In <em>Food Production, Diversity, and Safety Under Climate Change</em>, 223–33. Cham: Springer.
+</div>
+<div id="ref-Stephenson2010" class="csl-entry">
+Stephenson, P., D. Baker, T. Girin, A. Perez, S. Amoah, G. J. King, and L. Østergaard. 2010. <span>“A Rich TILLING Resource for Studying Gene Function in Brassica Rapa.”</span> <em>BMC Plant Biology</em> 10: 62. <a href="https://doi.org/10.1186/1471-2229-10-62">https://doi.org/10.1186/1471-2229-10-62</a>.
+</div>
+<div id="ref-Sun2024" class="csl-entry">
+Sun, L., M. Lai, F. Ghouri, M. A. Nawaz, F. Ali, F. S. Baloch, M. A. Nadeem, M. Aasim, and M. Q. Shahid. 2024. <span>“Modern Plant Breeding Techniques in Crop Improvement and Genetic Diversity.”</span> <em>Plants</em> 13 (19): 2676. <a href="https://doi.org/10.3390/plants13192676">https://doi.org/10.3390/plants13192676</a>.
+</div>
+<div id="ref-SzurmanZubrzycka2017" class="csl-entry">
+Szurman-Zubrzycka, M., B. Chmielewska, P. Gajewska, and I. Szarejko. 2017. <span>“Mutation Detection by Analysis of DNA Heteroduplexes in TILLING Populations.”</span> In <em>Biotechnologies for Plant Mutation Breeding: Protocols</em>, 281–303. New York: Springer.
+</div>
+<div id="ref-Till2004" class="csl-entry">
+Till, B. J., C. Burtner, L. Comai, and S. Henikoff. 2004. <span>“Mismatch Cleavage by Single-Strand-Specific Nucleases.”</span> <em>Nucleic Acids Research</em> 32 (8): 2632–41. <a href="https://doi.org/10.1093/nar/gkh599">https://doi.org/10.1093/nar/gkh599</a>.
+</div>
+<div id="ref-Till2007a" class="csl-entry">
+Till, B. J., L. Comai, and S. Henikoff. 2007. <span>“TILLING and EcoTILLING for Crop Improvement.”</span> In <em>Genomics-Assisted Crop Improvement</em>, 333–49. Dordrecht: Springer.
+</div>
+<div id="ref-Till2007b" class="csl-entry">
+Till, B. J., J. Cooper, T. H. Tai, P. Colowit, E. A. Greene, S. Henikoff, and L. Comai. 2007. <span>“Discovery of Chemically Induced Mutations in Rice by TILLING.”</span> <em>BMC Plant Biology</em> 7: 19. <a href="https://doi.org/10.1186/1471-2229-7-19">https://doi.org/10.1186/1471-2229-7-19</a>.
+</div>
+<div id="ref-Upadhyaya2017" class="csl-entry">
+Upadhyaya, P., K. Tyagi, S. Sarma, V. Tamboli, Y. Sreelakshmi, and R. Sharma. 2017. <span>“Natural Variation in Folate Levels Among Tomato Accessions.”</span> <em>Food Chemistry</em> 217: 610–19. <a href="https://doi.org/10.1016/j.foodchem.2016.09.031">https://doi.org/10.1016/j.foodchem.2016.09.031</a>.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>30 January 2026</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>11 February 2026</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>12 February 2026</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<strong>Dr.&nbsp;Gayathri G</strong><br>
+<em>Assistant Professor</em><br>
+<em>Kerala Agricultural University</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Anonymous</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
+</blockquote>
+
+
+
+</section>
+
+ ]]></description>
+  <category>Review-Article</category>
+  <category>Genetics</category>
+  <category>PlantScience</category>
+  <guid>https://www.jostapubs.com/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html</guid>
+  <pubDate>Wed, 11 Feb 2026 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Date Palm Propagation Techniques: A Comprehensive Review</title>
   <dc:creator>Muhammad Ammar Amjad*</dc:creator>
@@ -21,7 +677,6 @@
   <dc:creator>Aiman Shahid</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -477,7 +1132,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -505,7 +1160,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -534,7 +1189,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Kannappan M</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025117381/JOSTA2025117381.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -987,7 +1641,7 @@ Zhao, P., Y. Zheng, L. Tang, Y. Lu, J. X. Xiao, and Y. Dong. 2010. <span>“Effe
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1019,7 +1673,7 @@ Zhao, P., Y. Zheng, L. Tang, Y. Lu, J. X. Xiao, and Y. Dong. 2010. <span>“Effe
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -15891,709 +16545,6 @@ Assistant Professor&nbsp; Plant Breeding &amp; Genetics Kerala Agricultural Univ
   <category>Genetics</category>
   <guid>https://www.jostapubs.com/volume1/issue1/lovelyB/generationmean.html</guid>
   <pubDate>Mon, 16 Jun 2025 18:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>RAISINS: Integrating R and AI for Agricultural Data Analysis</title>
-  <dc:creator>Mohammed Hisham M.</dc:creator>
-  <dc:creator>Jithin Chandran</dc:creator>
-  <dc:creator>Pratheesh P Gopinath&lt;sup&gt;*&lt;/sup&gt;</dc:creator>
-  <link>https://www.jostapubs.com/volume1/issue1/josta111raisins2025.html</link>
-  <description><![CDATA[ 
-
-<section class="josta-issue-banner" aria-label="Journal issue banner">
-  <div class="jib-wrap">
-
-
-    <div class="jib-cover">
-      <img src="https://www.jostapubs.com/volume1/issue1/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
-    </div>
-
-
-    <div class="jib-meta">
-      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
-
-      <h2 class="jib-subtitle anchored">
-        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
-        •
-        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
-        • 2025
-      </h2>
-
-      <p class="jib-line">
-        <span class="jib-label">ISSN (online)</span>
-        <span class="jib-value">
-          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
-            3107-6882
-          </a>
-        </span>
-      </p>
-
-      <p class="jib-line">
-        <span class="jib-label">License</span>
-        <span class="jib-value">
-          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
-            CC BY-NC-ND 4.0
-          </a>
-        </span>
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<style>
-  :root {
-    --j-navy:#0053ed;
-    --j-brown:#8b6a3a;
-    --j-green:#0b5a56;
-    --j-beige:#f8f3ea;
-  }
-
-  .josta-issue-banner {
-    background: linear-gradient(115deg, var(--j-beige), #ffffff);
-    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
-    padding: 1.8rem 1.4rem;
-    margin-bottom: 1.6rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  }
-
-  .jib-wrap {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    gap: 1.6rem;
-    align-items: center;
-  }
-
-  /* Cover image — NO ROUNDED CORNERS */
-  .jib-cover img {
-    display: block;
-    max-width: 120px;
-    height: auto;
-    border-radius: 0;      /* removed curve */
-    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-  }
-
-  .jib-journal-tag {
-    margin: 0 0 0.4rem 0;
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: var(--j-green);
-  }
-
-  .jib-subtitle {
-    margin: 0 0 0.7rem 0;
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--j-navy);
-    opacity: 0.85;
-  }
-
-  /* Volume/Issue links */
-  .jib-vi-link {
-    color: var(--j-navy);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .jib-vi-link:hover { text-decoration: underline; }
-
-  .jib-line {
-    margin: 0.15rem 0;
-    font-size: 0.95rem;
-    display: flex;
-    gap: 0.4rem;
-    align-items: baseline;
-    color: #333;
-  }
-
-  .jib-label {
-    font-weight: 600;
-    color: var(--j-navy);
-  }
-
-  /* ISSN link */
-  .jib-issn-link {
-    color: var(--j-navy);
-    text-decoration: none;
-  }
-  .jib-issn-link:hover { text-decoration: underline; }
-
-  /* License link */
-  .jib-license-link {
-    color: var(--j-green);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .jib-license-link:hover { text-decoration: underline; }
-
-  @media (max-width: 640px) {
-    .jib-wrap { flex-direction: row; align-items: flex-start; }
-    .jib-cover img { max-width: 90px; }
-    .jib-journal-tag { font-size: 1.05rem; }
-    .jib-subtitle { font-size: 0.9rem; }
-  }
-
-  @media (max-width: 480px) {
-    .jib-wrap { flex-direction: column; align-items: flex-start; }
-  }
-</style>
-
-
-
-
-<p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15622128.svg" class="img-fluid" alt="DOI"> <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
-<div style="text-align: left; margin-top: 1rem;">
-<p><span class="j-btn-row"> <a href="pdfs/josta_raisins.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
-<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
-</div>
-<style>
-.j-btn-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 1.2rem;
-  flex-wrap: nowrap;
-}
-
-/* PDF button */
-.j-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: .5rem;
-  font-family: "Segoe UI", Roboto, sans-serif;
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 0.6rem 1.2rem;
-  border-radius: 999px;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  background-color: #8b6a3a;
-  color: #fff;
-  transition: all 0.25s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-.j-btn:hover {
-  background-color: #6d532d;
-}
-
-/* Copy link style */
-.j-copy-link {
-  font-family: "Segoe UI", Roboto, sans-serif;
-  font-size: 0.95rem;
-  color: #1f345c;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  gap: .4rem;
-  cursor: pointer;
-  transition: color 0.25s ease;
-}
-.j-copy-link:hover {
-  color: #0b5a56;
-  text-decoration: underline;
-}
-
-/* Tooltip */
-.tooltiptext {
-  visibility: hidden;
-  background-color: #0b5a56;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 0.4rem 0.6rem;
-  position: absolute;
-  z-index: 1;
-  top: -36px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 0.8rem;
-}
-.j-copy-link:focus .tooltiptext,
-.j-copy-link:active .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-</style>
-<script>
-function copyCitation() {
-  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). RAISINS: R & AI Solutions for Inferential Statistics. JOSTA. https://doi.org/10.5281/zenodo.15622128");
-  const tooltip = document.getElementById("tooltip");
-  tooltip.style.visibility = "visible";
-  tooltip.style.opacity = 1;
-  setTimeout(() => {
-    tooltip.style.visibility = "hidden";
-    tooltip.style.opacity = 0;
-  }, 1500);
-}
-</script>
-<!-- Hidden Citation Text -->
-<p><span id="citation-text" style="display: none;">Hisham M, M., Chandran, J., &amp; Gopinath, P. P. (2025). RAISINS: Integrating R and AI for Agricultural Data Analysis. In <em>Journal of Sustainable Technology in Agriculture</em> (Vol. 1, Number 1). PAPAYA Academic Press. https://doi.org/10.5281/zenodo.15622128</span></p>
-<!-- JavaScript -->
-<script>
-  function copyCitation() {
-    const citation = document.getElementById("citation-text").innerText;
-    navigator.clipboard.writeText(citation);
-    
-    const tooltip = document.getElementById("tooltip");
-    tooltip.style.visibility = "visible";
-    tooltip.style.opacity = "1";
-    
-    setTimeout(() => {
-      tooltip.style.visibility = "hidden";
-      tooltip.style.opacity = "0";
-    }, 2000);
-  }
-</script>
-<!-- CSS Styling -->
-<style>
-.download-btn {
-  display: inline-flex;
-  align-items: center;
-  border: 2px solid #28a745;
-  background-color: transparent;
-  color: #28a745;
-  padding: 8px 14px;
-  border-radius: 6px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-.download-btn:hover {
-  background-color: #28a745;
-  color: white;
-}
-.download-btn i {
-  margin-right: 6px;
-}
-
-.copy-btn {
-  font-size: 0.9rem;
-  padding: 8px 14px;
-  border: 1px solid black;
-  background-color: white;
-  color: black;
-  border-radius: 6px;
-  cursor: pointer;
-  position: relative;
-}
-.copy-btn #tooltip {
-  visibility: hidden;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 4px;
-  padding: 2px 6px;
-  position: absolute;
-  z-index: 1;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.75rem;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-</style>
-<section id="introduction" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
-<p>Statistical analysis serves as the backbone of scientific research, especially in disciplines like agriculture, where field experiments, survey data, and observational studies generate complex datasets. Despite the increasing emphasis on data-driven decision-making in agricultural research, many students, early-career researchers, and practitioners find themselves at a disadvantage when it comes to performing rigorous statistical analyses. The process is often hindered by a combination of factors: the steep learning curve associated with programming languages such as R and Python, the fragmented nature of statistical learning resources, and the lack of user-friendly tools tailored to agricultural research contexts.</p>
-<p>While R and Python are powerful, flexible, and widely adopted in academic and professional settings, their command-line interfaces and syntax-heavy operations can be challenging for those without formal training in statistics or computer programming. Beginners frequently struggle with package selection, data cleaning, model specification, and interpretation of results. Furthermore, existing statistical software either lacks the flexibility and transparency of open-source tools or comes with licensing restrictions and high costs that limit accessibility in resource-constrained settings, particularly in developing countries.</p>
-<p>In addition, agricultural research involves domain-specific needs such as handling experimental designs (e.g., CRD, RBD, split-plot), analyzing agronomic trials, processing survey data with appropriate sampling designs, and interpreting interactions between multiple environmental and genetic factors. Traditional statistical packages are not always well-adapted to these specific requirements, leaving researchers to either customize solutions on their own or consult specialists — both of which can delay or compromise the analytical workflow.</p>
-<p>To bridge this gap, we developed RAISINS (R and AI Solutions for INferential Statistics) — a web-based platform designed to simplify and democratize statistical analysis for agricultural research. RAISINS integrates the power of R, Python, and AI-driven assistance within an intuitive interface that eliminates the need for code-based interaction. By abstracting complex syntax and offering guided, step-by-step workflows for data upload, analysis, visualization, and interpretation, the platform empowers users to focus on scientific inquiry rather than technical execution.</p>
-<p>Built on open-source technologies and scalable cloud infrastructure, RAISINS provides modules for commonly used statistical methods — including descriptive analysis, hypothesis testing, regression models, design of experiments, multi environmental trials, and more — while incorporating AI tools that assist in data summarization, analytical suggestions, and natural language explanations of results. This makes it an ideal solution for students, researchers, extension personnel, and educators engaged in agricultural and allied sciences. RAISINS can be accessed online through its official web portal at https://www.raisins.live/.</p>
-<p>In this paper, we present the design, features, and use-cases of RAISINS, and demonstrate how it addresses the unique challenges faced in agricultural data analysis by offering an accessible, robust, and intelligent statistical platform.</p>
-</section>
-<section id="sec-models" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="sec-models"><span class="header-section-number">2</span> Materials and methods</h2>
-<section id="platform-architecture-and-module-validation" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="platform-architecture-and-module-validation"><span class="header-section-number">2.1</span> Platform architecture and module validation</h3>
-<p>RAISINS is a modular cloud-hosted, web-based platform that integrates statistical computing, artificial intelligence, and modern pedagogical design to serve agricultural researchers and students. Built using R, Python, and OpenAI APIs, RAISINS is deployed via Posit Connect Cloud (https://connect.posit.cloud/), enabling browser-based access without requiring any local software installation. The RAISINS platform is modular and each statistical tool within is aligned with the theoretical underpinnings found in globally recognized academic literature.</p>
-<p>All modules in RAISINS have been peer-reviewed by domain experts, including statisticians specializing in design of experiments, genetics, and social science research. This ensures both methodological rigor and instructional clarity.</p>
-<p>Table&nbsp;1 presents the major analytical domains addressed by RAISINS, the foundational academic references supporting each module domain, organized by area of application.</p>
-<div id="tbl-foundation" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-foundation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Foundational literature supporting each RAISINS module domain, organized by area of application.
-</figcaption>
-<div aria-describedby="tbl-foundation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Module Domain</th>
-<th>Theoretical Foundation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Design &amp; Analysis of Experiments</td>
-<td>Montgomery (2017) <span class="citation" data-cites="montgomery2017design">(Montgomery 2017)</span>; Gomez &amp; Gomez (1984) <span class="citation" data-cites="gomez1984statistical">(Gomez and Gomez 1984)</span>; Das &amp; Giri (2018) <span class="citation" data-cites="das2018design">(Das and Giri 2018)</span>; Searle (1997) <span class="citation" data-cites="searle1997linear">(Searle 1997)</span>; Dey (1986) <span class="citation" data-cites="dey1986theory">(Dey 1986)</span>; Cox &amp; Reid (2000) <span class="citation" data-cites="cox2000theory">(Cox and Reid 2000)</span>; Toutenburg &amp; Shalabh (2009) <span class="citation" data-cites="toutenburg2009statistical">(Toutenburg and Shalabh 2009)</span>; Cochran &amp; Cox (1957) <span class="citation" data-cites="cochran1957experimental">(Cochran and Cox 1957)</span>; ; Federer (1985) <span class="citation" data-cites="federer1985experimental">(Federer 1985)</span></td>
-</tr>
-<tr class="even">
-<td>Statistical Genetics</td>
-<td>Falconer &amp; Mackay (1996) <span class="citation" data-cites="falconer1996introduction">(Falconer and Mackay 1996)</span>; Lynch &amp; Walsh (1998) <span class="citation" data-cites="lynch1998genetics">(Lynch and Walsh 1998)</span>; Dabholkar (1999) <span class="citation" data-cites="dabholkar1999elements">(Dabholkar 1999)</span>; Gillespie (2004) <span class="citation" data-cites="gillespie2004population">(Gillespie 2004)</span></td>
-</tr>
-<tr class="odd">
-<td>Social Science Research</td>
-<td>Babbie (2020) <span class="citation" data-cites="babbie2020practice">(Babbie 2020)</span>; Bryman (2016) <span class="citation" data-cites="bryman2016social">(Bryman 2016)</span>; Bhattacherjee (2012) <span class="citation" data-cites="bhattacherjee2012social">(Bhattacherjee 2012)</span></td>
-</tr>
-<tr class="even">
-<td>Statistical Inference and Modeling</td>
-<td>Casella &amp; Berger (2002) <span class="citation" data-cites="casella2002statistical">(Casella and Berger 2002)</span>; Hogg, McKean &amp; Craig (2018) <span class="citation" data-cites="hogg2018introduction">(Hogg, McKean, and Craig 2018)</span>; Agresti (2013) <span class="citation" data-cites="agresti2013categorical">(Agresti 2013)</span>; Rao (2009) <span class="citation" data-cites="rao2009linear">(Rao 2009)</span>; Rohatgi (1984) <span class="citation" data-cites="rohatgi1984statistical">(Rohatgi 1984)</span></td>
-</tr>
-<tr class="odd">
-<td>Data Visualization &amp; Reporting</td>
-<td>Tufte (2001) <span class="citation" data-cites="tufte2001visual">(Tufte 2001)</span>; Cleveland (1993) <span class="citation" data-cites="cleveland1993visualizing">(Cleveland 1993)</span>; Few (2009) <span class="citation" data-cites="few2009now">(Few 2009)</span></td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<p>The algorithms and workflows integrated into RAISINS are grounded in established statistical theory, drawing extensively from authoritative texts and peer-reviewed literature. In cases where existing computational implementations were unavailable or insufficient, original algorithms were developed in adherence to rigorous theoretical principles. The platform’s design and interface have been iteratively refined based on user-centered feedback from researchers and educators, ensuring methodological soundness and usability consistent with global standards in scientific research and statistical education.</p>
-</section>
-<section id="sec-packages" class="level3" data-number="2.2">
-<h3 data-number="2.2" class="anchored" data-anchor-id="sec-packages"><span class="header-section-number">2.2</span> Packages and Libraries</h3>
-<p>RAISINS integrates a comprehensive ecosystem of open-source R and Python packages to deliver its core functionalities, encompassing statistical modeling, data visualization, artificial intelligence, and interactive web-based deployment. These packages support the platform’s goal of offering high-level statistical capabilities through an accessible and intuitive interface, particularly beneficial for students and researchers in agricultural sciences.</p>
-<p>The R-based architecture of RAISINS is built around the <code>shiny</code> framework <span class="citation" data-cites="shiny">(Chang et al. 2024)</span>, which enables the development of dynamic, browser-accessible applications. Data manipulation tasks are performed using <code>dplyr</code> <span class="citation" data-cites="dplyr">(Wickham et al. 2024)</span>, <code>tidyr</code>, and <code>data.table</code>, while data visualization is implemented through <code>ggplot2</code> <span class="citation" data-cites="ggplot2">(Wickham 2023)</span>, along with complementary packages such as <code>ggthemes</code>, <code>plotly</code> <span class="citation" data-cites="plotly">(Sievert 2023)</span>, and <code>ggpattern</code>. For statistical analysis relevant to agricultural experiments and general inference, the platform employs packages including <code>agricolae</code> <span class="citation" data-cites="agricolae">(Mendiburu 2020)</span>, <code>broom</code> <span class="citation" data-cites="broom">(Robinson and Hayes 2024)</span>, <code>effectsize</code>, <code>lsr</code>, <code>car</code>, <code>phia</code>, and <code>FactoMineR</code> <span class="citation" data-cites="FactoMineR">(Husson et al. 2020)</span>. These libraries provide robust support for model fitting, hypothesis testing, effect size estimation, and multivariate analysis.</p>
-<p>To enhance user interaction and responsiveness, RAISINS integrates several user interface and usability packages, such as <code>shinyWidgets</code>, <code>shinyalert</code>, <code>shinybusy</code>, <code>shinycustomloader</code>, <code>shinyBS</code>, <code>shinythemes</code>, and <code>colourpicker</code>. The presentation and export of analytical results are managed through tools like <code>rmarkdown</code>, <code>kableExtra</code>, and <code>formattable</code>, ensuring professional and structured output for reports and publications.</p>
-<p>The <code>reticulate</code><span class="citation" data-cites="reticulate">(Allaire et al. 2024)</span> package serves as a bridge between R and Python, allowing both languages to be used seamlessly within the same analytical workflow. In RAISINS, reticulate enables the platform to call Python functions, use Python libraries, and exchange data objects between R and Python environments. This integration allows the platform to combine R’s interactive capabilities with Python’s strengths in machine learning, statistical modeling, and AI-driven tasks, thereby enhancing both flexibility and functionality.</p>
-<p>Python libraries are used to extend the platform’s analytical and AI-driven features. Packages such as <code>pandas</code> <span class="citation" data-cites="pandas">(The pandas development team 2024)</span> and <code>numpy</code> <span class="citation" data-cites="numpy">(Harris et al. 2020)</span> are employed for efficient data handling, while <code>matplotlib</code> and <code>seaborn</code> support graphical representations. For machine learning and statistical modeling, the platform uses <code>scikit-learn</code> <span class="citation" data-cites="scikit-learn">(Pedregosa et al. 2011)</span> and <code>statsmodels</code> <span class="citation" data-cites="statsmodels">(Seabold and Perktold 2010)</span>. The <code>openai</code> package enables the integration of language models, facilitating intelligent assistance and automated content generation within the platform.</p>
-<p>All R and Python packages used in RAISINS are well-maintained, community-supported, and widely recognized within academic and applied data science contexts. Each library is carefully selected based on its performance, stability, and relevance to agricultural research workflows. Modules are thoroughly reviewed by subject-matter experts to ensure methodological accuracy and pedagogical effectiveness, thereby maintaining the platform’s commitment to reproducibility, transparency, and educational value.</p>
-</section>
-</section>
-<section id="sec-illustrations" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="sec-illustrations"><span class="header-section-number">3</span> Illustrations</h2>
-<p>The Figure&nbsp;1 illustrates the comprehensive architecture of the RAISINS platform, highlighting its integration of multiple programming languages and technologies. RAISINS combines the statistical computing power of R with the flexibility of Python and the advanced capabilities of AI through OpenAI models. The platform’s user interface is built using Shiny, providing an interactive and user-friendly experience, while the backend seamlessly coordinates R and Python processes. Hosting on Posit Connect Cloud ensures reliable accessibility and scalability for agricultural researchers. This integrated ecosystem enables efficient and robust inferential statistical analysis tailored specifically for agricultural research needs.</p>
-<div id="fig-flowchart" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-flowchart-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/figures/raisinsflow.jpg" class="img-fluid figure-img" width="300">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-flowchart-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Architecture of the RAISINS Platform: Integration of R, Python, and AI Components through a Shiny-based Web Interface Hosted on Posit Connect Cloud.
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="sec-results" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="sec-results"><span class="header-section-number">4</span> Results</h2>
-<p>The RAISINS platform was developed to address the growing need for accessible, reliable, and AI-enhanced statistical tools tailored to agricultural research. By integrating familiar programming environments with user-friendly interfaces, it aims to bridge the gap between complex statistical methods and researchers’ practical needs.</p>
-<section id="modular-structure-and-user-interface-design" class="level3" data-number="4.1">
-<h3 data-number="4.1" class="anchored" data-anchor-id="modular-structure-and-user-interface-design"><span class="header-section-number">4.1</span> Modular structure and user interface design</h3>
-<p>All analytical modules within the RAISINS platform adhere to a standardized structural layout, ensuring a uniform user experience across various statistical tools. Each module features a primary <code>Analysis</code> tab, which serves as the central workspace. This tab contains nested sub-tabs including <code>Analysis.Results</code>, where users configure model parameters and run statistical procedures; <code>Plots and Graphs</code>, which displays dynamic visualizations; <code>AI Interpretation</code>, where OpenAI-assisted textual summaries explain the results in plain language; and, where applicable, a <code>Multivariate</code> tab offering additional multivariate diagnostics and tests. Supplementing the core analysis, additional top-level tabs include <code>Create Data</code>, which enables users to generate CSV-format datasets for custom input; <code>Datasets</code>, which provides curated example datasets for testing and exploration; and <code>User</code>, where authenticated users can access their profile information and session history. For illustration purposes, selected screenshots from the CRD (Completely Randomized Design) module are presented in Figure&nbsp;2 to demonstrate the consistent tab layout and modular design adopted throughout the platform. A comprehensive module-wise user guide is available at: <a href="https://statoberrypapaya.github.io/RAISINS_TUTORIAL/" class="uri">https://statoberrypapaya.github.io/RAISINS_TUTORIAL/</a>, providing detailed documentation of the functionalities implemented in each component of the RAISINS platform.</p>
-<div id="fig-crdmodule" class="quarto-layout-panel">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-crdmodule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-crdmodule" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-mainpage" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-mainpage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/figures/crdmainpage.png" class="img-fluid figure-img" data-ref-parent="fig-crdmodule">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-mainpage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(a) CRD module main page
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-crdmodule" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-auth" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-auth-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/figures/loginpage.png" class="img-fluid figure-img" data-ref-parent="fig-crdmodule">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-auth-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(b) Authentication page
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-crdmodule" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-dash" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-dash-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/figures/crdmainpage1.png" class="img-fluid figure-img" data-ref-parent="fig-crdmodule">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-dash-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(c) Module dashboard
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-crdmodule" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-analysis" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-analysis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/figures/tabular_page.png" class="img-fluid figure-img" data-ref-parent="fig-crdmodule">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-analysis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(d) Result tables in Analysis.Results
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-crdmodule" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-plots" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-plots-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/figures/plotspage.png" class="img-fluid figure-img" data-ref-parent="fig-crdmodule">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-plots-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(e) Plots and graphs
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-crdmodule" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-ai" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-ai-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/figures/aicrd.png" class="img-fluid figure-img" data-ref-parent="fig-crdmodule">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-ai-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(f) AI interpretation
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-crdmodule" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-mult" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-mult-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/figures/multivariate.png" class="img-fluid figure-img" data-ref-parent="fig-crdmodule">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-mult-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(g) Multivariate analysis window
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-crdmodule" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-datasets" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-datasets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/figures/dataraisins.png" class="img-fluid figure-img" data-ref-parent="fig-crdmodule">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-datasets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(h) Datasets available for testing
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-crdmodule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: User interface and modular design of the RAISINS platform: screenshots from the CRD Module illustrating the common tab structure across analytical tools.
-</figcaption>
-</figure>
-</div>
-</section>
-</section>
-<section id="discussion" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="discussion">Discussion</h2>
-<p>The RAISINS platform represents a significant advancement in making advanced statistical and AI-driven analytical tools accessible to the agricultural research community. By seamlessly integrating R, Python, and AI capabilities within an intuitive web interface, RAISINS addresses common barriers faced by researchers, such as the complexity of statistical software and interpretation of results. The platform’s emphasis on user-friendliness and automation allows researchers, including those with limited statistical training, to perform rigorous data analysis with confidence. This democratization of statistical tools has the potential to improve the quality and reproducibility of agricultural research outputs. Moreover, the cloud-based deployment ensures scalability and continuous availability, enabling broader adoption across diverse educational and research institutions. The collaborative design and integration of multiple programming environments also open avenues for further enhancements, positioning RAISINS as a flexible and evolving resource in the field of agricultural data science.</p>
-</section>
-<section id="conclusion" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>The RAISINS platform aims in democratizing access to advanced statistical and AI-powered analytical tools tailored specifically for agricultural research. By integrating the strengths of R and Python programming environments with artificial intelligence capabilities, RAISINS offers researchers an intuitive and comprehensive platform for conducting inferential statistics without requiring extensive technical expertise. Its web-based interface, supported by cloud hosting, ensures that users can access powerful data analysis tools anytime and from anywhere, thereby enhancing collaboration and research productivity. The platform’s ability to simplify complex outputs and support diverse user groups—from students to seasoned faculty—has already contributed to improved data analysis quality and research rigor within agricultural universities. RAISINS not only supports robust statistical inference but also fosters greater confidence among users in interpreting and applying results to their scientific inquiries. This positions RAISINS as a foundational resource in agricultural data science with substantial potential for continued growth and impact.</p>
-<section id="future-work" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="future-work">Future Work</h3>
-<p>Future development of RAISINS will focus on expanding its analytical capabilities to cover a wider range of disciplines within agricultural research, including statistical genetics, survey data analysis, and agricultural economics. In addition, the AI components will be further enhanced by training on domain-specific datasets, enabling the platform to provide more accurate, context-aware insights and recommendations. These enhancements aim to solidify RAISINS as a continuously evolving and essential tool for meeting the diverse and growing needs of the agricultural research community.</p>
-</section>
-</section>
-<section id="acknowledgments" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>The authors gratefully acknowledge the support and encouragement provided by Kerala Agricultural University throughout the development of this work. We also extend our sincere thanks to the NABARD-KAU-WSU Agtech Launchpad for their invaluable incubation program and continued backing, which have been instrumental in advancing the RAISINS platform.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="references" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
-<div id="ref-agresti2013categorical" class="csl-entry">
-Agresti, A. 2013. <em>Categorical Data Analysis</em>. 3rd ed. Hoboken, NJ, USA: Wiley.
-</div>
-<div id="ref-reticulate" class="csl-entry">
-Allaire, JJ, Kevin Ushey, Yuan Tang, Dirk Eddelbuettel, and RStudio. 2024. <em>Reticulate: Interface to ’Python’</em>. <a href="https://rstudio.github.io/reticulate/">https://rstudio.github.io/reticulate/</a>.
-</div>
-<div id="ref-babbie2020practice" class="csl-entry">
-Babbie, Earl R. 2020. <em>The Practice of Social Research</em>. 15th ed. Cengage Learning.
-</div>
-<div id="ref-bhattacherjee2012social" class="csl-entry">
-Bhattacherjee, Anol. 2012. <em>Social Science Research: Principles, Methods, and Practices</em>. 2nd ed. Global Text Project.
-</div>
-<div id="ref-bryman2016social" class="csl-entry">
-Bryman, Alan. 2016. <em>Social Research Methods</em>. 5th ed. Oxford University Press.
-</div>
-<div id="ref-casella2002statistical" class="csl-entry">
-Casella, George, and Roger L Berger. 2002. <em>Statistical Inference</em>. 2nd ed. Cengage Learning.
-</div>
-<div id="ref-shiny" class="csl-entry">
-Chang, Winston, Joe Cheng, JJ Allaire, Yihui Xie, and Jonathan McPherson. 2024. <em>Shiny: Web Application Framework for r</em>. <a href="https://CRAN.R-project.org/package=shiny">https://CRAN.R-project.org/package=shiny</a>.
-</div>
-<div id="ref-cleveland1993visualizing" class="csl-entry">
-Cleveland, William S. 1993. <em>Visualizing Data</em>. Hobart Press.
-</div>
-<div id="ref-cochran1957experimental" class="csl-entry">
-Cochran, William G., and Gertrude M. Cox. 1957. <em>Experimental Designs</em>. 2nd ed. New York: John Wiley &amp; Sons.
-</div>
-<div id="ref-cox2000theory" class="csl-entry">
-Cox, D. R., and Nancy Reid. 2000. <em>The Theory of the Design of Experiments</em>. 1st ed. Monographs on Statistics and Applied Probability, 86. Chapman &amp; Hall/CRC.
-</div>
-<div id="ref-dabholkar1999elements" class="csl-entry">
-Dabholkar, A. R. 1999. <em>Elements of Bio Metrical Genetics</em>. Revised and Enlarged. Concept Publishing Company Pvt. Ltd.
-</div>
-<div id="ref-das2018design" class="csl-entry">
-Das, M. N., and N. C. Giri. 2018. <em>Design and Analysis of Experiments</em>. 2nd ed. New Delhi, India: New Age International Publishers.
-</div>
-<div id="ref-dey1986theory" class="csl-entry">
-Dey, A. 1986. <em>Theory of Block Designs</em>. New Delhi, India: Wiley Eastern Ltd.
-</div>
-<div id="ref-falconer1996introduction" class="csl-entry">
-Falconer, Douglas S, and Trudy FC Mackay. 1996. <em>Introduction to Quantitative Genetics</em>. 4th ed. Longman.
-</div>
-<div id="ref-federer1985experimental" class="csl-entry">
-Federer, W. T. 1985. <em>Experimental Designs</em>. ? New York: The Macmillan Company.
-</div>
-<div id="ref-few2009now" class="csl-entry">
-Few, S. 2009. <em>Now You See It: Simple Visualization Techniques for Quantitative Analysis</em>. Berkeley, CA, USA: Analytics Press.
-</div>
-<div id="ref-gillespie2004population" class="csl-entry">
-Gillespie, John H. 2004. <em>Population Genetics: A Concise Guide</em>. 2nd ed. Baltimore, MD: Johns Hopkins University Press.
-</div>
-<div id="ref-gomez1984statistical" class="csl-entry">
-Gomez, Kwanchai A, and Arturo A Gomez. 1984. <em>Statistical Procedures for Agricultural Research</em>. 2nd ed. John Wiley &amp; Sons.
-</div>
-<div id="ref-numpy" class="csl-entry">
-Harris, Charles R., K. Jarrod Millman, Stéfan van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, et al. 2020. <em>NumPy: Fundamental Package for Scientific Computing with Python</em>. <em>Nature</em>. Vol. 585. <a href="https://doi.org/10.1038/s41586-020-2649-2">https://doi.org/10.1038/s41586-020-2649-2</a>.
-</div>
-<div id="ref-hogg2018introduction" class="csl-entry">
-Hogg, Robert V, Joseph McKean, and Allen T Craig. 2018. <em>Introduction to Mathematical Statistics</em>. 8th ed. Pearson.
-</div>
-<div id="ref-FactoMineR" class="csl-entry">
-Husson, François, Julie Josse, Sébastien Lê, and Jeremy Mazet. 2020. <em>FactoMineR: Multivariate Exploratory Data Analysis and Data Mining</em>. <a href="https://CRAN.R-project.org/package=FactoMineR">https://CRAN.R-project.org/package=FactoMineR</a>.
-</div>
-<div id="ref-lynch1998genetics" class="csl-entry">
-Lynch, Michael, and Bruce Walsh. 1998. <em>Genetics and Analysis of Quantitative Traits</em>. Sinauer Associates.
-</div>
-<div id="ref-agricolae" class="csl-entry">
-Mendiburu, Felipe de. 2020. <em>Agricolae: Statistical Procedures for Agricultural Research</em>. <a href="https://CRAN.R-project.org/package=agricolae">https://CRAN.R-project.org/package=agricolae</a>.
-</div>
-<div id="ref-montgomery2017design" class="csl-entry">
-Montgomery, Douglas C. 2017. <em>Design and Analysis of Experiments</em>. 9th ed. John Wiley &amp; Sons.
-</div>
-<div id="ref-scikit-learn" class="csl-entry">
-Pedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, et al. 2011. <em>Scikit-Learn: Machine Learning in Python</em>. <em>Journal of Machine Learning Research</em>. Vol. 12. <a href="https://scikit-learn.org/">https://scikit-learn.org/</a>.
-</div>
-<div id="ref-rao2009linear" class="csl-entry">
-Rao, C. Radhakrishna. 2009. <em>Linear Statistical Inference and Its Applications</em>. 2nd ed. John Wiley &amp; Sons (Wiley-Interscience).
-</div>
-<div id="ref-broom" class="csl-entry">
-Robinson, David, and Alex Hayes. 2024. <em>Broom: Convert Statistical Analysis Objects into Tidy Tibbles</em>. <a href="https://CRAN.R-project.org/package=broom">https://CRAN.R-project.org/package=broom</a>.
-</div>
-<div id="ref-rohatgi1984statistical" class="csl-entry">
-Rohatgi, Vijay K. 1984. <em>Statistical Inference</em>. Wiley Series in Probability and Mathematical Statistics. New York: John Wiley &amp; Sons.
-</div>
-<div id="ref-statsmodels" class="csl-entry">
-Seabold, Skipper, and Josef Perktold. 2010. <em>Statsmodels: Statistical Modeling and Econometrics in Python</em>. <a href="https://www.statsmodels.org/">https://www.statsmodels.org/</a>.
-</div>
-<div id="ref-searle1997linear" class="csl-entry">
-Searle, Shayle R. 1997. <em>Linear Models</em>. John Wiley &amp; Sons.
-</div>
-<div id="ref-plotly" class="csl-entry">
-Sievert, Carson. 2023. <em>Plotly: Create Interactive Web Graphics via ’Plotly.js’</em>. <a href="https://CRAN.R-project.org/package=plotly">https://CRAN.R-project.org/package=plotly</a>.
-</div>
-<div id="ref-pandas" class="csl-entry">
-The pandas development team. 2024. <em>Pandas: Powerful Python Data Analysis Toolkit</em>. <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a>.
-</div>
-<div id="ref-toutenburg2009statistical" class="csl-entry">
-Toutenburg, Helge, and Shalabh. 2009. <em>Statistical Analysis of Designed Experiments</em>. 3rd ed. Springer Texts in Statistics. Springer‑Verlag New York.
-</div>
-<div id="ref-tufte2001visual" class="csl-entry">
-Tufte, Edward R. 2001. <em>The Visual Display of Quantitative Information</em>. Graphics Press.
-</div>
-<div id="ref-ggplot2" class="csl-entry">
-Wickham, Hadley. 2023. <em>Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics</em>. <a href="https://CRAN.R-project.org/package=ggplot2">https://CRAN.R-project.org/package=ggplot2</a>.
-</div>
-<div id="ref-dplyr" class="csl-entry">
-Wickham, Hadley, Romain Francois, Lionel Henry, and Kirill Müller. 2024. <em>Dplyr: A Grammar of Data Manipulation</em>. <a href="https://CRAN.R-project.org/package=dplyr">https://CRAN.R-project.org/package=dplyr</a>.
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-</section>
-<section id="sec-techdetails" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="sec-techdetails">Technical details</h2>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Due to the ongoing costs associated with hosting and maintaining the RAISINS platform, the authors have adopted a subscription-based model to ensure its sustainability and continued development. The live application is accessible to users at <a href="https://www.raisins.live/">www.raisins.live</a>.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Publication Information</strong><br>
-- <em>Submitted:</em> 15 May 2025<br>
-- <em>Accepted:</em> 06 June 2025<br>
-- <em>Published (Online):</em> 09 June 2025</p>
-<p><strong>Reviewer Information</strong></p>
-<p><strong>Dr.&nbsp;Saurav Guha, Ph.D.</strong><br>
-Assistant Professor-cum-Junior Scientist<br>
-Department of Statistics, Mathematics &amp; Computer Application<br>
-Bihar Agricultural University, Sabour, India<br>
-<strong>ORCID:</strong> <a href="https://orcid.org/0000-0001-8960-5062">0000-0001-8960-5062</a></p>
-<p><strong>Dr.&nbsp;Manju Mary Paul, Ph.D.</strong><br>
-Assistant Professor<br>
-Department of Agricultural Statistics<br>
-Kerala Agricultural University, Kerala, India</p>
-</div>
-</div>
-<section id="section" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="section"></h3>
-
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Original-Article</category>
-  <category>Data-Science</category>
-  <category>Software</category>
-  <guid>https://www.jostapubs.com/volume1/issue1/josta111raisins2025.html</guid>
-  <pubDate>Sat, 07 Jun 2025 18:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

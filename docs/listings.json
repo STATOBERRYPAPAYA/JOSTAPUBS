@@ -26,6 +26,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html",
       "/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html",
       "/volume1/issue2/JOSTA2025117381/JOSTA2025117381.html",
       "/volume1/issue2/JOSTA2025114C90/JOSTA2025114C90.html",
@@ -51,6 +52,7 @@
   {
     "listing": "/published.html",
     "items": [
+      "/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html",
       "/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html",
       "/volume1/issue2/JOSTA2025117381/JOSTA2025117381.html",
       "/volume1/issue2/JOSTA2025114C90/JOSTA2025114C90.html",
@@ -76,6 +78,7 @@
   {
     "listing": "/volume2.html",
     "items": [
+      "/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html",
       "/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html"
     ]
   }
