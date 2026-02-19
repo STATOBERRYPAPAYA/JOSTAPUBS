@@ -1,0 +1,570 @@
+---
+title: "Saline and Sodic Soil Reclamation: Recent Advances and Agronomic Implications"
+author:  
+  - name: Krishna Priyan Ra K*
+    affiliations:
+      - name: Kumaraguru Institute of Agriculture
+        department: 
+        address: College of Agriculture, Nachimuthupuram
+        city: Tamil Nadu
+        country: India
+    email: krishnapriyanrak@gmail.com
+    orcid: "0009-0005-4173-8786"
+    note: Corresponding author
+    
+  - name: Vasanth P
+    affiliations:
+      - name: Annamalai University
+        department: Agronomy
+        address: Faculty of Agriculture, Chidambaram
+        city: cuddalore, Tamil Nadu 
+        country: India
+    email: vasanth30p@gmail.com
+    orcid: "0009-0005-7628-1819"
+
+  - name: Kannappan M
+    affiliations:
+      - name: Annamalai University
+        department: Agronomy
+        address: Faculty of Agriculture, Chidambaram
+        city: cuddalore, Tamil Nadu 
+        country: India
+    email: kannappanvikram29@gmail.com
+    orcid: "0009-0008-2158-8444"
+    
+abstract: |
+  Soil salinization and sodification represent critical environmental challenges threatening global agricultural productivity and food security. With approximately 1030 million hectares of land worldwide affected by excessive salt exposure, and projections indicating that nearly 50% of global arable land will be impacted by 2050, the development of effective reclamation strategies has become imperative. This comprehensive review examines recent advances in saline and sodic soil reclamation, focusing on innovative approaches including chemical amendments (gypsum, elemental sulphur), organic amendments (biochar, vermicompost, humic substances), biological interventions (microbial inoculation, phytoremediation with halophytes), and emerging technologies (nanotechnology). Integrated amendment strategies show strong synergistic effects, improving soil health by up to 134% in salt-affected soils. This review synthesizes soil–plant–microbe interactions underlying successful reclamation. It evaluates agronomic outcomes and highlights key research gaps for sustainable. Emphasis is placed on sustainable, cost-effective strategies that enhance soil quality while maintaining crop productivity in salt-affected agroecosystems.  
+
+description: >  
+   Soil salinization and sodification represent critical environmental challenges threatening global agricultural productivity and food security. With approximately 1030 million hectares of land worldwide affected by excessive salt exposure, and projections indicating that nearly 50% of global arable land will be impacted by 2050, the development of effective reclamation strategies has become imperative. <a href="/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html" style="color: grey; text-decoration: none;">Read more ...</a>  
+  
+include-in-header:
+  text: |
+    <style>
+      /* Hide the page-level description under the title (covers Quarto 1.4–1.5 DOMs) */
+      #title-block-header .quarto-description,
+      #title-block-header .description,
+      header.quarto-title-block .quarto-description,
+      header.quarto-title-block .description,
+      header.quarto-title-block p.lead {
+        display: none !important;
+      }
+    </style> 
+
+keywords: [Saline soils, Sodic soils, Soil reclamation, Microbial inoculation, Sustainable agriculture]  
+categories: [Review-Article, Environment, Soil, SmartFarming]
+bibliography: JOSTA-202601-A408.bib
+date: 2026-02-18
+doi: 10.65287/josta.202601.A408
+license: "CC BY-NC-ND 4.0"
+status: Published (Online)
+volume: "2"
+issue: "1"
+pdf_url: "https://www.jostapubs.com/volume2/issue1/JOSTA202601A408/pdfs/JOSTA-202601-A408.pdf"
+canonical_url: "https://www.jostapubs.com/volume2/issue1/JOSTA202601A408/JOSTA202601A408.html" 
+include-before-body:
+  text: |  
+    <!-- JOSTA issue banner -->
+    <section class="josta-issue-banner" aria-label="Journal issue banner">
+      <div class="jib-wrap">
+        
+        <!-- Cover -->
+        <div class="jib-cover">
+          <img src="cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+        </div>
+
+        <!-- Meta -->
+        <div class="jib-meta">
+          <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+          <h2 class="jib-subtitle">
+            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
+               target="_blank" rel="noopener" class="jib-vi-link">Volume 02</a>
+            &bull;
+            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
+               target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+            &bull; 2026
+          </h2>
+
+          <p class="jib-line">
+            <span class="jib-label">ISSN (online)</span>
+            <span class="jib-value">
+              <a href="https://portal.issn.org/resource/ISSN/3107-6882"
+                 target="_blank" rel="noopener" class="jib-issn-link">
+                3107-6882
+              </a>
+            </span>
+          </p>
+
+          <p class="jib-line">
+            <span class="jib-label">License</span>
+            <span class="jib-value">
+              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" 
+                 target="_blank" rel="noopener" class="jib-license-link">
+                CC BY-NC-ND 4.0
+              </a>
+            </span>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <style>
+      :root {
+        --j-navy:#0053ed;
+        --j-brown:#8b6a3a;
+        --j-green:#0b5a56;
+        --j-beige:#f8f3ea;
+      }
+
+      .josta-issue-banner {
+        background: linear-gradient(115deg, var(--j-beige), #ffffff);
+        border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+        padding: 1.8rem 1.4rem;
+        margin-bottom: 1.6rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .jib-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        gap: 1.6rem;
+        align-items: center;
+      }
+
+      /* Cover image — NO ROUNDED CORNERS */
+      .jib-cover img {
+        display: block;
+        max-width: 120px;
+        height: auto;
+        border-radius: 0;      /* removed curve */
+        box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+      }
+
+      .jib-journal-tag {
+        margin: 0 0 0.4rem 0;
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--j-green);
+      }
+
+      .jib-subtitle {
+        margin: 0 0 0.7rem 0;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--j-navy);
+        opacity: 0.85;
+      }
+
+      /* Volume/Issue links */
+      .jib-vi-link {
+        color: var(--j-navy);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .jib-vi-link:hover { text-decoration: underline; }
+
+      .jib-line {
+        margin: 0.15rem 0;
+        font-size: 0.95rem;
+        display: flex;
+        gap: 0.4rem;
+        align-items: baseline;
+        color: #333;
+      }
+
+      .jib-label {
+        font-weight: 600;
+        color: var(--j-navy);
+      }
+
+      /* ISSN link */
+      .jib-issn-link {
+        color: var(--j-navy);
+        text-decoration: none;
+      }
+      .jib-issn-link:hover { text-decoration: underline; }
+
+      /* License link */
+      .jib-license-link {
+        color: var(--j-green);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .jib-license-link:hover { text-decoration: underline; }
+
+      @media (max-width: 640px) {
+        .jib-wrap { flex-direction: row; align-items: flex-start; }
+        .jib-cover img { max-width: 90px; }
+        .jib-journal-tag { font-size: 1.05rem; }
+        .jib-subtitle { font-size: 0.9rem; }
+      }
+
+      @media (max-width: 480px) {
+        .jib-wrap { flex-direction: column; align-items: flex-start; }
+      }
+    </style>
+---
+[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202601.A408-blue?logo=doi)](https://doi.org/10.65287/josta.202601.A408) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/18669478)  
+![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
+
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+  <a href="pdfs/JOSTA-202601-A408.pdf" download class="j-btn" aria-label="download pdf">
+    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
+    <span>download pdf</span>
+  </a>
+
+  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
+    <i class="bi bi-clipboard" aria-hidden="true"></i>
+    <span>copy citation</span>
+    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
+  </a>
+
+  <span class="j-chip" data-doi="10.65287/josta.202601.A408" aria-label="citation count">
+    <span class="j-chip-count" id="j-cite-count">0</span>
+    <span class="j-chip-label">citations</span>
+  </span>
+</div>
+
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Krishna, P. R. K., Vasanth, P., & Kannappan, M. (2026). Saline and Sodic Soil Reclamation: Recent Advances and Agronomic Implications. Journal of Sustainable Technology in Agriculture, 2(1). https://doi.org/10.65287/josta.202601.A408
+</p>
+
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+---
+
+## Introduction
+
+Soil salinization and sodification constitute major forms of land degradation that significantly constrain agricultural productivity worldwide. Salt-affected soils are characterized by excessive concentrations of soluble salts and/or exchangeable sodium, leading to deterioration of soil structure, reduced water infiltration, nutrient deficiencies, and osmotic stress in plants. According to the FAO/UNESCO soil map, approximately 1030 million hectares of land globally are degraded due to excessive salt exposure, with an estimated 1.5 million hectares lost annually to salinization [@Luo2025].
+
+The problem is particularly acute in arid and semi-arid regions where scanty rainfall coupled with high temperatures facilitates salt accumulation. By 2050, it is predicted that nearly 50% of global arable land will be affected by salinization, which is characterized by high electrical conductivity, reduced water potential, and excess ionic salts, posing a significant threat to agricultural productivity [@Hafez2022a; @Jia2023]. The excessive salinity and sodium in soil lead to soil swelling and dispersion, deterioration of soil structure, resulting in significant negative impacts on permeability coefficient, water infiltration, and porosity [@Ivushkin2019; @Zahedifar2020].
+
+While natural processes contribute to soil salinization, human-induced factors such as poor agricultural practices, insufficient drainage systems, and inaccurate irrigation water management have accelerated the formation of salt-affected soils. This increase in salinity and sodicity, coupled with population growth, threatens crop production and soil productivity globally. Therefore, reclaiming salt-affected soils while improving plant resistance to salinity and sodicity has become critical for sustainable agriculture and food security.
+
+Various reclamation and management approaches have been developed and refined over the past decades, including the application of chemical and organic amendments, cultivation of salt-tolerant genotypes, appropriate agricultural water management, and bioremediation techniques [@Hafez2022b; @Gao2024; @Youssef2024]. Recent advances have focused on integrated approaches that combine multiple strategies to achieve synergistic effects in soil improvement and crop performance. This review synthesizes current knowledge on saline and sodic soil reclamation, emphasizing recent innovations, underlying mechanisms, and agronomic implications for sustainable agricultural production.
+
+## Characterization and classification of salt-affected soils
+
+### Soil salinity and sodicity parameters
+
+Salt-affected soils are typically characterized using several key parameters. Electrical conductivity of the saturation extract (ECe) serves as the primary measure of soil salinity, with values greater than 4 dS/m indicating saline conditions. Sodicity is commonly assessed through exchangeable sodium percentage (ESP) or sodium adsorption ratio (SAR), with ESP values exceeding 15% indicative of sodic conditions. According to the US Salinity Laboratory classification system, soils are categorized as: (1) saline soils (ECe > 4 dS/m, ESP < 15%, pH < 8.5), (2) sodic soils (ECe < 4 dS/m, ESP > 15%, pH > 8.5), and (3) saline-sodic soils (ECe > 4 dS/m, ESP > 15%, pH < 8.5) [@Foronda2022].
+
+The high salt content, pH value, and sodium concentration in salt-affected soils lead to multiple adverse effects. Excessive salinity results in osmotic stress, limiting water availability to plants despite adequate soil moisture. High sodium content causes clay dispersion and soil structure deterioration, significantly impacting permeability coefficient, water infiltration capacity, and soil porosity. This impedes soil water conductivity and air permeability while causing decomposition of soil structure, loss of organic matter, and nutrient deficiency, ultimately leading to reduced soil fertility [@Tian2023].
+
+## Chemical amendment strategies
+
+### Gypsum applications
+
+Gypsum (CaSO₄·2H₂O) remains the most recognized and widely applied chemical amendment for sodic and saline-sodic soil reclamation. The mechanism of gypsum application involves substituting Na⁺ from clay particles with Ca²⁺, thus promoting better soil structure while decreasing sodicity [@Yang2021; @Elmeknassi2024]. The process delivers numerous advantages to soil physical properties and enhances the ratio of Ca²⁺ to Na⁺, providing sulphur needed for amino acid production and protein synthesis.
+
+Recent field experiments have demonstrated the effectiveness of gypsum in reducing soil pH, ECe, and SAR while improving soil quality and boosting agricultural production. In saline-sodic soils from Egypt, application of phosphogypsum and standard gypsum based on gypsum requirement equations significantly reduced ESP from initial values of 29.8 to acceptable levels [@Kotb2000]. The efficiency of gypsum reclamation varies with soil texture, with sandy clay loam soils responding more favorably than clay loam soils [@Murtaza2017].
+
+However, calcium input must be carefully controlled to avoid exceeding optimal amounts. Excessive gypsum application may lead to increased soil salinity and counterproductive results [@Mao2016]. Recent research has revealed that the traditional view of Na⁺ as harmful and Ca²⁺ as beneficial does not always apply in multi-cationic soil solutions. Initially, adding Ca²⁺ promotes Na⁺ leaching and reduces salinity, but excess Ca²⁺ becomes counterproductive. As Na⁺ leaches, the soil cation composition shifts from Ca²⁺ - Na⁺ - Mg²⁺ to Ca²⁺ - K⁺ - Mg²⁺, and Ca²⁺ function changes, potentially causing opposite effects.
+
+### Elemental sulphur and other chemical amendments
+
+Elemental sulphur represents another effective chemical amendment for saline-sodic soil reclamation. When applied to soil, elemental sulphur undergoes microbial oxidation to produce sulphuric acid, which lowers soil pH and enhances the dissolution of native soil calcium carbonate. This released Ca²⁺ then replaces exchangeable Na⁺ on soil exchange sites. Recent studies by [@Rezapour2023] demonstrated that combined treatments of elemental sulphur with organic amendments achieved substantial improvements in soil health indices, with increases of 116% compared to control treatments.
+
+Other chemical amendments investigated include aluminum sulfate, which also contributes to soil acidification and Na⁺ displacement. A study on calcareous sodic soils found that the combination of walnut-shell biochar with a mixture of gypsum and aluminum sulfate provided optimal results in reducing soil pH and SAR while enhancing soil EC and nutrient availability [@Rezapour2021]. Flue gas desulphurization gypsum, a by-product of industrial processes, has also shown promise in soil reclamation while addressing waste valorization in a circular economy approach [@Chen2015].
+
+## Organic amendment approaches
+
+### Biochar applications
+
+Biochar, a carbon-rich material produced through pyrolysis of organic waste, has emerged as a primary organic amendment under investigation for saline-sodic soil reclamation due to its numerous benefits including nutrient enrichment, improved availability, and non-destructive properties [@dosSantos2021; @Hafez2021; @Malik2023]. The effectiveness of biochar in reclaiming salt-affected soils depends on its specific chemical and physical characteristics, which vary based on feedstock sources such as crop residues, wood, and manure materials.
+
+According to [@Amini2017], effective reclamation of salt-affected soils with biochar requires careful consideration of soil properties such as texture, nutrient content, and native carbon, as well as biochar characteristics including pH and feedstock source. In saline soils, biochar may increase or decrease EC depending on its nature, while enhancing soil organic carbon stocks and improving plant growth and yield. In saline-sodic soils, biochar can raise SOC, alter pH and SAR based on its properties, and improve water-holding capacity and hydraulic conductivity.
+
+Recent field studies have demonstrated significant improvements with biochar application. In a study on saline-sodic soil from the High Valley of Cochabamba, Bolivia, biochar at 2% application rate effectively reduced ECe below 4 dS/m and contributed to ESP reduction, though cattle manure proved superior in overall soil reclamation [@Foronda2022]. The porous structure and extensive surface area of biochar provide favorable habitat and protection for soil microorganisms, while biochar can release dissolved organic matter into the surrounding environment, enhancing cation exchange capacity and hydrophilicity attributes, positively influencing soil organic carbon content and nutrient availability [@Song2023].
+
+### Vermicompost and humic substances
+
+Vermicompost and humic substances represent valuable organic amendments that contribute to both chemical and biological improvement of saline-sodic soils. Vermicompost, produced through earthworm-mediated decomposition of organic materials, is rich in plant nutrients, beneficial microorganisms, and growth-promoting substances. Recent research has demonstrated remarkable synergistic effects when vermicompost is combined with chemical amendments for soil reclamation.
+
+[@Rezapour2023] investigated the synergistic impact of gypsum, elemental sulphur, vermicompost, biochar, and microbial inoculation on calcareous saline-sodic soils. The combined inoculated treatments of gypsum plus vermicompost and elemental sulphur plus vermicompost achieved substantial improvements in nonlinear soil health indices, with increases of 134% and 116% respectively compared to control. The overall soil health index ranged between 12% to 134% improvement across different treatments. Notably, microbial inoculation further enhanced the impact of treatments on soil health, and the derived soil health properties explained 29% to 87% of the variance in wheat growth.
+
+Humic substances have been shown to stimulate root growth through indole acetic acid production, resulting in enhanced root surface area and enabling plants to access nutrients more effectively, thereby boosting yield. In quinoa cultivation experiments on saline-sodic soils, the combination of biochar, humic substances, and gypsum resulted in significant increases in root biomass of 206% and 176% in two different genotypes, while seed yield doubled in several treatments [@Alcivar2018].
+
+### Cattle manure and other organic materials
+
+Cattle manure has demonstrated superior efficacy in reclaiming saline-sodic soils due to its contributions of organic matter, Ca²⁺, and Mg²⁺, which improve soil aggregation and leaching efficiency. In comparative studies, cattle manure at 2% application rate was most effective in reducing soil ESP from 66.6% to 27.6%, surpassing biochar and peat treatments [@Foronda2022]. All three amendments were efficient in lowering ECe below 4 dS/m, indicating their potential for reclaiming saline-sodic soils when combined with appropriate leaching practices.
+
+The superiority of cattle manure can be explained by improvements in soil aggregation and leaching efficiency through its organic matter and divalent cation contributions. However, the choice of organic amendment should consider local availability, cost-effectiveness, and specific soil conditions. Rice straw, green waste compost, and biosolids have also shown promise in various reclamation scenarios, particularly when combined with chemical amendments and appropriate leaching regimes.
+
+## Combined amendment strategies and synergistic effects
+
+Recent research has increasingly focused on combined amendment strategies that leverage synergistic effects between chemical and organic materials. These integrated approaches have consistently demonstrated superior performance compared to single amendment applications, offering enhanced soil health improvement and crop productivity benefits.
+
+In a comprehensive study on calcareous saline-sodic soils, Rezapour et al. [@Rezapour2023] developed both linear and nonlinear soil health quantification frameworks to assess the efficacy of remedial practices. Their findings revealed that combined inoculated chemical and organic treatments achieved remarkable soil health improvements. The gypsum plus vermicompost combination increased the nonlinear soil health index by 134% (from 0.29 to 0.68), while elemental sulphur plus vermicompost improved it by 116% (from 0.29 to 0.62). These combined approaches significantly outperformed individual amendments, which showed improvements ranging from 12% to 134%.
+
+The mechanisms underlying synergistic effects involve multiple pathways. Chemical amendments primarily address sodium displacement through cation exchange, while organic amendments enhance soil structure, water retention, and microbial activity. When combined, chemical amendments facilitate rapid Na⁺ removal while organic materials improve the physical matrix for sustainable soil health. Furthermore, organic amendments can enhance the dissolution and effectiveness of chemical amendments through pH modification and increased microbial activity.
+
+In quinoa performance studies, the triple combination of biochar, humic substances, and gypsum resulted in the highest increases in root biomass for both tested genotypes (206% and 176%), while electrical conductivity, sodium adsorption ratio, and exchangeable sodium percentage decreased significantly in all treated soils [@Alcivar2018]. The ESP decreased 11-fold with gypsum treatment alone and 9-13-fold with combined treatments involving biochar, demonstrating the enhanced effectiveness of integrated approaches.
+
+## Microbial interventions and bioremediation
+
+### Microbial inoculation for soil health
+
+Microbial inoculation represents a promising biological approach to enhance saline-sodic soil reclamation. Salt-tolerant microorganisms can contribute to soil improvement through multiple mechanisms including bioaccumulation of salt ions, production of exopolysaccharides that improve soil structure, secretion of growth-promoting substances, and enhancement of nutrient cycling processes.
+
+Under salt stress, halophilic microbes can absorb salt ions through bioaccumulation processes [@Zhang2023]. According to Xing et al. [@Xing2024], the application of inoculated microbes can decrease Na⁺ ions in soil by stimulating the abundance of microorganisms harboring Na⁺/H⁺ transport proteins, Na⁺/Ca²⁺ transport proteins, and Na⁺/K⁺ transport proteins. This microbially-mediated ion exchange contributes significantly to salinity reduction.
+
+Research on combined chemical and organic amendments with microbial inoculation has revealed substantial enhancements in treatment efficacy. Rezapour et al. [@Rezapour2023] found that microbial inoculation further enhanced the impact of chemical and organic treatments on soil health, with soil health properties explaining 29% to 87% of variance in wheat growth. The study found negative correlations between sodium-containing soil and microbial biomass carbon, indicating that salt-affected soils reduce microbial activity and biomass, which can be ameliorated through appropriate amendment strategies.
+
+### Plant-microbe interactions in saline conditions
+
+Plant-microbe relationships, particularly with synergistic bacteria and arbuscular mycorrhizal fungi (AMF), have been recommended as potential solutions to mitigate salinity and sodicity stress in both halophytes and glycophytes. Nitrogen-fixing bacteria collections can increase salt and sodicity tolerance by creating specific enzymes and hormones, fixing atmospheric N₂, and converting water-insoluble phosphates to bioavailable forms.
+
+Recent research on microbial network-driven remediation has revealed that salt-tolerant plants enrich beneficial bacteria in soil by releasing organic acids and enzymes that promote plant growth under saline stress [@Zahra2024]. Jerusalem artichoke, for instance, enhances microbial diversity in saline-alkali soils through root exudates [@Shao2019]. Different salt-tolerant plant species release varying organic compounds, which attract beneficial rhizosphere bacteria under saline stress, thereby aiding host plants in mitigating salt-induced damage [@Xiong2020].
+
+Network analysis has provided insights into the role of keystone taxa in saline soil remediation. These taxa, serving as central components of the core microbiome, play critical roles in facilitating plant-soil interactions and enhancing soil improvement [@Trivedi2020; @Liu2023mSystems]. Partial least squares path modeling has shown that soil quality improvements are primarily driven by shifts in bacterial composition, offering a novel mechanistic framework for understanding microbial contributions to soil restoration.
+
+## Phytoremediation using salt-tolerant plants
+
+### Mechanisms and principles of halophyte-based phytoremediation
+
+Phytoremediation using salt-tolerant plants (halophytes) has emerged as a sustainable and effective approach for reclaiming saline-sodic soils. Halophytes, representing approximately 1% of world flora, can survive, grow, and reproduce at salt concentrations exceeding 20 dS/m. These plants possess unique anatomical and morphological features including succulence, osmotic adjustment, ion compartmentalization, selective uptake and transport mechanisms, enhanced antioxidant systems, and salt inclusion or discharge capabilities [@Flowers2008].
+
+Halophytes are classified into three main groups based on salt tolerance mechanisms: (1) Excluders, which possess root ultra-filtration mechanisms preventing salt uptake; (2) Accumulators, which sequester salts in vacuoles within above-ground biomass; and (3) Excretors (recretohalophytes), which possess specialized salt glands allowing accumulated salt to be excreted onto leaf surfaces and dispersed via wind through haloconduction processes. The potential of halophytic plants to accumulate enormous salt quantities depends primarily on the capacity of their above-ground biomass, with hyperaccumulating plants showing particular promise.
+
+During phytoremediation, CO₂ released by plant roots during respiration produces H₂CO₃, which increases solubility of CaCO₃ in deeper soil layers. This process releases Ca²⁺, which replaces Na⁺ and other salts from soil exchange sites, thereby reducing sodicity [@Robbins1986]. Comparative studies have shown that phytoremediation can reduce sodicity by 52% compared to 62% reduction using gypsum, demonstrating its effectiveness as an alternative or complementary approach to chemical amendments [@Qadir2007].
+
+### Effective halophyte species for soil reclamation
+
+Numerous halophyte species have been evaluated for their phytoremediation potential. In studies from the bed of Urmia Lake, Iran, *Salicornia europaea* and *Halocnemum strobilaceum* proved most effective in salinity-remediation, achieving significant reductions in electrical conductivity and exchangeable sodium percentage [@Ghorbanpour2022]. These species demonstrated high concentrations of Fe²⁺ (511.85 mg/kg), Zn²⁺ (99.97 mg/kg), and Na⁺ (25.65 mg/kg) in shoots, with maximum dry matter (38%), protein (16%), and oil percentage (3.5%) found in Salicornia.
+
+Research on *Haloxylon recurvum*, *Suaeda nudiflora*, and *Salsola baryosma* demonstrated sodium removal capacities of 17, 15.6, and 9 g per plant respectively during three-month growth periods. *Pennisetum giganteum* has emerged as a promising salt-accumulating and salt-tolerant non-conventional crop for sustainable saline agriculture and simultaneous phytoremediation [@Hayat2020]. This species effectively reduces soil salinity by 30% within 30 days when grown in saline soil, and when co-cultivated with barley, wheat, and tomato, it reduces negative salt effects on sensitive crops.
+
+Salt-tolerant legumes such as Glycine soja and Sesbania cannabina have successfully rehabilitated saline soils by reducing soil electrical conductivity and accumulating carbon and nitrogen, while enriching microbial communities at different soil depths [@Zheng2023]. Atriplex species, particularly Atriplex halimus and Atriplex hortensis, have shown considerable promise for reclamation while providing economic benefits as forage crops. Recent field studies confirmed that Atriplex hortensis maintains relatively stable water potential and high relative water content under saline stress, indicating physiological resilience suitable for salt-affected agroecosystems.
+
+### Microbial network-driven phytoremediation
+
+Recent advances in network analysis have revealed the critical role of microbial communities in halophyte-mediated soil reclamation. Salt-tolerant plants enhance the complexity of both bacterial and fungal networks in rhizosphere soils. Network analysis showed that planting salt-tolerant plants increases the number of nodes, average path length, and modularity of fungal communities, indicating enhanced network complexity [@Liu2023mSystems]. The presence of generalists (connectors and module hubs) in saline-alkali soils under phytoremediation supports improved stability and efficiency of fungal communities.
+
+Keystone taxa, identified through within-module connectivity and among-module connectivity analysis, play significant impacts on soil enzyme activity and nutrient cycling [@Wen2024]. Phytoremediation has been shown to strengthen cooperative interactions among fungi while diminishing competitive dynamics, as evidenced by higher ratios of positive correlations within fungal networks following salt-tolerant plant establishment. Salt-tolerant plants increase rhizosphere ecosystem multifunctionality by reducing soil salinity, with planting halophytes enriching microbial diversity and network complexity [@Hu2024].
+
+## Emerging technologies in soil reclamation
+
+### Nanotechnology applications
+
+Nanotechnology represents an emerging frontier in saline-sodic soil reclamation, offering innovative solutions through the unique properties of nanomaterials. Nanoparticles have demonstrated promising results in alleviating salt stress, improving soil properties, and enhancing plant performance in salt-affected soils. The application of zinc oxide nanoparticles combined with soil amendments has been shown to improve wheat yield, physiological attributes, and soil properties in saline-sodic soils [@ElSharkawy2022].
+
+Different types of nanoparticles exhibit varied mechanisms of action in salt stress mitigation. Magnesium oxide nanoparticles alleviate stress by modulating photosynthetic function, nutrient uptake, and antioxidant potential. Silicon nanoparticle-based biochar has demonstrated effectiveness in improving wheat growth, enhancing antioxidant systems, and optimizing nutrient concentrations under salinity stress [@Gill2024]. Biosynthesized zinc oxide nanoparticles have been shown to modulate phytoremediation potential and influence rhizocompartment-associated microbial community structure [@Li2024ZnONP].
+
+Recent research by Ahmed et al. [@Ahmed2023] demonstrated differential responses of nano zinc sulfate compared to conventional zinc sources in mitigating salinity stress in rice grown on saline-sodic soil. The study revealed that nano-formulations enhanced zinc bioavailability and uptake efficiency, leading to improved plant growth and stress tolerance. Nanomaterials also show promise in enhancing the efficiency of phytoremediation through improved nutrient delivery and stress mitigation mechanisms.
+
+However, the application of nanotechnology in soil management faces several challenges. Concerns about potential ecotoxicity, environmental persistence, and long-term impacts on soil biota require careful evaluation. The development of smart nanomaterials with surface functionality or coatings that resist suppression by biomacromolecules and tolerate climate and environmental triggers remains a formidable challenge. Nevertheless, nanotechnology holds significant potential for improving soil quality through innovative approaches including nano-fertilizers, nano-enabled remediation strategies, and enhanced delivery systems.
+
+### Advanced genetic and biotechnological approaches
+
+Advanced plant breeding and biotechnological approaches offer promising avenues for developing salt-tolerant crop varieties. Recent identification of the Alkali Tolerance 1 locus in sorghum, which regulates aquaporin phosphorylation for hydrogen peroxide transport to alleviate oxidative stress, represents a significant breakthrough. The loss-of-function of this gene in sorghum, millet, rice, and maize improves field performance in sodic land [@Wang2024SaltTolerance].
+
+Novel biotechnologies including CRISPR/Cas gene editing, marker-assisted breeding, and double haploid production hold great potential to accelerate breeding processes and cultivate crops with enhanced salt tolerance. However, certain limitations remain, including advanced technology dependence, lengthy processes, unexpected genetic gains, and complex genotype-environment correlations. Despite considerable progress in understanding salinity tolerance mechanisms, obstacles remain in transferring molecular knowledge into practical plant breeding activities.
+
+## Mechanisms of soil improvement and restoration
+
+### Physical and chemical transformation processes
+
+The reclamation of saline-sodic soils involves complex physical and chemical transformation processes. Chemical amendments primarily work through cation exchange mechanisms, where Ca²⁺ from gypsum or other calcium sources replaces Na⁺ on soil exchange sites. This displacement is significantly influenced by soil cation exchange capacity and water movement within the soil profile. The process of reclamation is further influenced by soil texture, with ion replacement occurring more readily in coarser-textured soils [@Ahmad2016].
+
+Organic amendments enhance physical properties through multiple mechanisms. Biochar increases soil porosity and water retention capacity while providing surfaces for microbial colonization. The porous structure creates favorable microhabitats that protect microorganisms from environmental stresses. Furthermore, biochar releases dissolved organic matter that enhances cation exchange capacity and influences soil pH, thereby affecting nutrient availability and microbial activity [@Li2022Biochar].
+
+The presence of CaSO₄ contributes to decreasing water-soluble Na⁺ content through both chemical replacement and enhanced leaching. Recent studies showed that proper amendment application resulted in reduced soil ESP and pH by 14.64% and 7.42% respectively. The dissolution of native soil carbonates, enhanced by increased CO₂ partial pressure from organic amendment decomposition, further contributes to Ca²⁺ availability for Na⁺ exchange.
+
+### Microbial-mediated carbon and nitrogen cycles
+
+Microbial communities play crucial roles in carbon and nitrogen cycling within reclaimed soils. The carbon cycle represents a fundamental biogeochemical process regulating soil material dynamics and gas exchange between soil and atmosphere [@Meloni2003]. Microbes can decrease salt ion concentrations through bioaccumulation and can utilize CO₃²⁻ or HCO₃⁻ as carbon sources, contributing to salinity reduction [@Zhao2021].
+
+Phytoremediation using salt-tolerant plants significantly alters soil microbial composition. The relative abundance of Acidobacteria, which decompose plant residues and enhance soil carbon cycling, increases following phytoremediation, suggesting effective pH reduction and improved saline-alkali conditions. Proteobacteria, including various nitrogen-fixing bacteria, remain dominant and play vital roles in nitrogen cycling processes [@Kim2021; @Jiang2024].
+
+Network analysis reveals that soil microbes tend to cooperate more than compete under nutrient-limiting conditions, often establishing symbiotic relationships to obtain essential nutrients and mitigate salt stress. The strengthening of cooperative interactions among microbial communities following amendment application contributes to enhanced ecosystem stability and improved nutrient cycling efficiency.
+
+### Soil enzyme activities and nutrient dynamics
+
+Soil enzyme activities serve as sensitive indicators of soil health and recovery following reclamation efforts. The combination of chemical and organic amendments significantly enhances activities of key enzymes including urease and phosphatase. These enzymes exert positive influences on soil organic matter content by facilitating transformation and cycling of nitrogen and phosphorus. Urease increases soil nitrogen content by promoting nitrogen transformation, while phosphatase enhances phosphorus availability, jointly contributing to organic matter formation and accumulation.
+
+Amendment applications significantly improve nutrient availability in reclaimed soils. Organic and combined approaches significantly increase available phosphorus and potassium, as well as bioavailable iron, manganese, and zinc concentrations. These improvements in nutritional quality directly correlate with enhanced crop growth and productivity. Studies have shown that amendments can increase soil organic matter content substantially, with combined treatments of gypsum and organic materials demonstrating synergistic effects on both enzyme activities and nutrient availability.
+
+## Agronomic implications and crop performance
+
+### Crop yield and quality improvements
+
+Effective reclamation of saline-sodic soils translates directly into improved crop performance and productivity. Recent field studies have demonstrated substantial yield improvements following integrated amendment strategies. In wheat cultivation on reclaimed saline-sodic soils, derived soil health indices explained 29% to 87% of variance in wheat growth, demonstrating strong linkages between soil improvement and crop performance [@Rezapour2023]. The combined application of gypsum and organic amendments significantly increased wheat biomass accumulation and grain yields.
+
+Quinoa cultivation studies have revealed significant improvements in both yield and quality parameters following amendment applications. Seed yield doubled in treatments involving gypsum and humic substances, while all amended soils showed significant increases in stomatal conductance and SPAD index compared to controls [@Alcivar2018]. Seed protein content was positively affected by biochar and humic substance applications, indicating improvements not only in quantity but also in nutritional quality.
+
+The increase in crop biomass primarily depends on photosynthetic function enhancement. Applications of gypsum and organic amendments significantly boost net photosynthetic rates, with improvements of 50.7%, 25.3%, and 143.6% observed at different growth stages in maize cultivation. These photosynthetic enhancements directly correlate with dry matter accumulation and final yields, attributed to improved soil properties including lower pH, higher nutrient content, and enhanced organic matter [@Wang2024SaltTolerance].
+
+### Root development and plant physiology
+
+Root system development represents a critical factor in plant adaptation to saline-sodic conditions and response to soil reclamation efforts. Combined amendments significantly enhance root biomass, with increases of 206% and 176% reported in quinoa genotypes treated with biochar, humic substances, and gypsum [@Alcivar2018]. Enhanced root development provides plants with greater access to water and nutrients, improving overall stress tolerance and productivity.
+
+Plant physiological responses to reclamation include maintenance of water relations, enhanced photosynthetic capacity, and improved ion homeostasis. Halophytes maintain relatively stable water potential and high relative water content under saline stress, indicating efficient osmotic adjustment and sustained cellular hydration. These physiological adaptations, combined with improved soil conditions from amendments, enable sustained growth and productivity under saline conditions.
+
+### Economic viability and sustainability
+
+The economic viability of reclamation strategies represents a critical consideration for adoption by farmers. While chemical amendments like gypsum have historically been cost-effective, increases in industrial demand and reductions in government subsidies have made amendment costs prohibitive in several developing countries. This economic reality has driven interest toward biological approaches including phytoremediation and microbial interventions, which offer lower-cost alternatives with additional environmental benefits.
+
+Phytoremediation using halophytes offers multiple economic advantages. Beyond soil improvement, many halophyte species provide valuable products including forage, biofuel feedstock, essential oils, and food crops. *Salicornia bigelovii*, for instance, represents a potential oilseed crop for coastal and saline lands. The integration of salt-tolerant forage species into livestock production systems can enhance ecosystem resilience while generating income during the reclamation period.
+
+Sustainable reclamation approaches emphasize waste valorization in circular economy frameworks. The use of biosolids, green waste compost, rice straw, and industrial by-products like flue gas desulphurization gypsum transforms waste materials into valuable soil amendments. This approach reduces disposal costs while providing affordable amendment options for farmers. However, comprehensive life-cycle assessments considering energy inputs, transportation costs, and long-term maintenance requirements remain necessary for informed decision-making.
+
+## Challenges and limitations
+
+### Technical and practical constraints
+
+Despite significant advances, several technical and practical constraints limit widespread implementation of soil reclamation strategies. The efficiency of amendments varies considerably with soil texture, salinity levels, and sodicity conditions, requiring site-specific optimization. The relationship between amendment rates and soil response is not always linear, with excessive applications potentially causing counterproductive results. For instance, excessive gypsum can increase soil salinity, while improper organic matter addition may temporarily decrease oxygen availability during decomposition.
+
+Water availability represents a critical limitation for many reclamation approaches. Both chemical leaching and phytoremediation require adequate water supplies, which may be limited in arid regions where saline soils predominate. The quality of irrigation water also significantly affects reclamation outcomes, with moderately saline water potentially suitable for leaching when combined with appropriate amendments, but requiring careful management to prevent secondary salinization.
+
+Time requirements for effective reclamation vary widely among approaches. Chemical amendments combined with leaching can achieve rapid initial improvements, while biological approaches including phytoremediation and microbial interventions typically require multiple growing seasons for substantial effects. This temporal aspect affects economic feasibility and farmer adoption, particularly where immediate productivity improvements are necessary for farm viability.
+
+### Knowledge gaps and research needs
+
+Several critical knowledge gaps require addressing for advancing saline-sodic soil reclamation. The long-term sustainability of various reclamation approaches remains incompletely understood, particularly regarding maintenance requirements and potential for re-salinization. While short-term studies demonstrate effectiveness, multi-decadal assessments of soil quality, productivity, and ecosystem functioning are scarce.
+
+The interactions between different amendment types, rates, and timing require systematic investigation across diverse soil types and climatic conditions. Current understanding of optimal amendment combinations derives primarily from controlled experiments and limited field trials. Scaling these findings to farm-level implementation under variable environmental conditions necessitates additional research. Furthermore, the role of climate variability and extreme weather events on reclamation outcomes requires attention given accelerating climate change.
+
+Microbial community dynamics during reclamation remain incompletely characterized. While recent network analysis has revealed the importance of keystone taxa and cooperative interactions, predictive frameworks for managing microbial communities toward desired outcomes are lacking. The stability and resilience of engineered microbial communities under field conditions, particularly during stress periods, requires investigation. Additionally, the potential for developing designer microbial consortia optimized for specific soil conditions represents an emerging research frontier.
+
+### Environmental and ecological considerations
+
+Environmental impacts of reclamation practices require careful consideration. While improving soil quality, amendment applications may have unintended consequences. Excess nutrient leaching from organic amendments could contribute to groundwater contamination or eutrophication of adjacent water bodies. The carbon footprint associated with amendment production, transportation, and application should be evaluated within comprehensive sustainability frameworks.
+
+Nanotechnology applications, while promising, raise concerns about environmental persistence and ecotoxicity. The fate and transport of engineered nanoparticles in soil ecosystems, their interactions with soil biota, and potential accumulation in food chains require thorough investigation before widespread implementation. Regulatory frameworks for nanomaterial use in agriculture remain under development, reflecting ongoing uncertainty regarding risk assessment and management.
+
+Biodiversity impacts of reclamation efforts deserve attention. While improving conditions for agricultural production, intensive reclamation may affect native halophytic vegetation and associated fauna. Balancing agricultural productivity with ecosystem conservation requires landscape-level planning that maintains habitat corridors and preserves representative areas of natural saline ecosystems. The role of reclaimed lands in regional hydrology and their effects on groundwater recharge and quality warrant consideration in integrated watershed management.
+
+## Future perspectives and research directions
+
+### Integrated management strategies
+
+The future of saline-sodic soil reclamation lies in integrated management strategies that combine traditional practices with innovative technologies. Comprehensive management approaches should integrate physical methods (drainage, tillage), chemical amendments, organic materials, biological interventions, and genetic improvements in crop salt tolerance. These integrated systems must be tailored to local conditions, considering soil properties, climate, water availability, crop preferences, and economic constraints.
+
+Precision agriculture technologies offer opportunities for optimizing amendment applications and monitoring reclamation progress. Remote sensing, soil sensors, and geographic information systems enable site-specific management at field scales, improving efficiency and reducing costs. Digital agriculture platforms integrating real-time data with predictive models could guide adaptive management decisions, adjusting strategies based on response monitoring and changing conditions.
+
+### Climate change adaptation and mitigation
+
+Climate change will likely exacerbate salinization problems through altered precipitation patterns, increased evapotranspiration, and sea-level rise affecting coastal areas. Reclamation strategies must account for these changing conditions, emphasizing approaches that enhance soil resilience and adaptive capacity. Halophyte-based systems may play increasingly important roles, providing both reclamation and climate adaptation benefits while supporting biodiversity conservation.
+
+Carbon sequestration potential of reclamation practices deserves greater emphasis. Biochar applications and establishment of perennial halophyte vegetation can contribute significantly to soil carbon stocks while improving soil quality. Quantifying these carbon benefits within climate mitigation frameworks could provide additional economic incentives for reclamation through carbon credit markets. Life-cycle assessments incorporating greenhouse gas emissions and carbon sequestration across different reclamation approaches would inform climate-smart land management decisions.
+
+### Biotechnology and genetic engineering
+
+Advances in plant biotechnology offer promising avenues for developing superior salt-tolerant crop varieties. CRISPR/Cas9 gene editing enables precise modifications of salt tolerance genes, potentially accelerating development of crops suitable for saline conditions. Understanding complex regulatory networks controlling salt tolerance responses will facilitate multi-gene engineering approaches addressing various aspects of salt stress simultaneously.
+
+Synthetic biology approaches could enable design of microbial consortia optimized for saline soil improvement. Engineering microorganisms with enhanced salt tolerance, exopolysaccharide production, or nutrient cycling capabilities could improve bioremediation efficiency. However, careful risk assessment and regulatory oversight are essential for environmental release of genetically modified organisms.
+
+### Policy and institutional frameworks
+
+Effective policy and institutional frameworks are crucial for widespread implementation of soil reclamation strategies. Government policies should provide incentives for sustainable land management, including subsidies for amendments, technical assistance programs, and research support. Land tenure security encourages long-term investments in soil improvement. Collaborative approaches involving researchers, extension services, farmers, and policymakers facilitate knowledge transfer and adaptive management.
+
+International cooperation is essential given the global scale of salinization problems. Sharing best practices, technologies, and genetic resources across countries accelerates progress. Investment in agricultural research and development focused on salt-affected soils must increase, particularly in developing countries where impacts are most severe. Capacity building programs training farmers and extension workers in reclamation techniques ensure practical implementation of research advances.
+
+## Conclusion
+
+Saline and sodic soil reclamation represents a critical challenge and opportunity for global agriculture. Recent advances have demonstrated the effectiveness of diverse strategies ranging from traditional chemical amendments to innovative biological and nanotechnological approaches. Combined amendment strategies incorporating both chemical and organic materials have consistently shown superior performance, achieving soil health improvements exceeding 130% in recent studies. The synergistic effects between different amendment types provide enhanced benefits for soil properties, microbial communities, and crop productivity.
+
+Phytoremediation using halophytes has emerged as a sustainable and cost-effective approach, offering multiple benefits including salt removal, soil structure improvement, and potential economic returns from halophyte products. Recent research has revealed the importance of plant-microbe interactions in successful reclamation, with microbial network analysis providing insights into keystone taxa and cooperative relationships that enhance soil recovery. These biological approaches complement chemical amendments, providing long-term sustainability and ecosystem service benefits.
+
+Emerging technologies including nanotechnology and advanced biotechnology show promise for addressing specific constraints in salt-affected soils. However, careful evaluation of environmental safety, economic feasibility, and long-term sustainability remains necessary before widespread implementation. Future research should focus on integrated management strategies tailored to local conditions, incorporating precision agriculture technologies for optimized resource use.
+
+The agronomic implications of soil reclamation are substantial, with successful strategies demonstrating significant improvements in crop yields, quality, and resource use efficiency. However, challenges remain including water availability constraints, time requirements for biological approaches, and knowledge gaps regarding long-term sustainability. Addressing these challenges requires continued research investment, improved policy frameworks, and international cooperation.
+
+Looking forward, comprehensive management approaches integrating traditional knowledge with innovative technologies offer the greatest potential for sustainable reclamation of salt-affected soils. Given projections that nearly half of global arable land will be affected by salinization by 2050, accelerating development and implementation of effective reclamation strategies is imperative for food security and environmental sustainability. Success will require collaborative efforts across disciplines, sectors, and nations to develop and deploy solutions appropriate for diverse agroecological contexts worldwide.
+ 
+{{< pagebreak >}}
+
+## References {.unnumbered}
+
+::: {#refs}
+<!-- References will be rendered here -->
+:::
+
+{{< pagebreak >}}
+
+::: {.callout-important title="Publication & Reviewer Details"}
+**Publication Information**
+
+-   **Submitted:** *30 January 2026*\
+-   **Accepted:** *16 February 2026*\
+-   **Published (Online):** *18 February 2026*
+
+------------------------------------------------------------------------
+
+**Reviewer Information**
+
+-   **Reviewer 1:**\
+    *Anonymous*
+
+-   **Reviewer 2:**\
+    *Anonymous*
+:::
+
+::: {.callout-note appearance="simple"}
+
+## Disclaimer/Publisher’s Note  
+
+The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).  
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.  
+
+:::  
+
+>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made. 
