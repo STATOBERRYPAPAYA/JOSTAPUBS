@@ -79,6 +79,7 @@ categories: [Review-Article,Data-Science,Statistics]
 bibliography: JOSTA202510BD6A.bib
 date: 2025-11-15
 doi: 10.65287/josta.202510.BD6A  
+license: "CC BY-NC-ND 4.0"
 status: Published (Online)
 volume: "1"
 issue: "2"

@@ -46,7 +46,8 @@ keywords: [Cultivation practices, Growth, Wheat, Yield]
 categories: [Review-Article,	Crops, ClimateResilience]
 bibliography: JOSTA-202511-7381.bib
 date: 2025-12-28
-doi: 10.65287/josta.202511.7381  
+doi: 10.65287/josta.202511.7381 
+license: "CC BY-NC-ND 4.0"
 status: Published (Online)
 volume: "1"
 issue: "2"

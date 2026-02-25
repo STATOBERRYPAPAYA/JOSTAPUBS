@@ -84,6 +84,7 @@ path: "volume1/issue1/Denny/JOSTA20250617172925171.html"
 categories: [Original-Article,Economics,Policy]
 status: Published (Online)
 doi: 10.5281/zenodo.16308321
+license: "CC BY-NC-ND 4.0"
 volume: "1"
 issue: "1"
 pdf_url: "https://www.jostapubs.com/volume1/issue1/Denny/pdfs/JOSTA20250617172925171.pdf"

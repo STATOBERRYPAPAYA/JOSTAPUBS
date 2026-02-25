@@ -68,7 +68,8 @@ keywords: [Vertical coordination, Sustainability, Traceability, Digital transfor
 categories: [Original-Article,  panel-discussion, Extension, AgriBusiness]
 bibliography: JOSTA-202512-A575.bib
 date: 2025-12-12
-doi: 10.65287/josta.202512.A575 
+doi: 10.65287/josta.202512.A575
+license: "CC BY-NC-ND 4.0"
 status: Published (Online)
 volume: "1"
 issue: "2"

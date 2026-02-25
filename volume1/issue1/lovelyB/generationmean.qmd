@@ -36,6 +36,7 @@ path: "volume1/issue1/lovelyB/generationmean.html"
 categories: [ Original-Article,Plant-Science, Crops,Genetics]
 status: Published (Online)
 doi: 10.5281/zenodo.15684703  
+license: "CC BY-NC-ND 4.0"
 volume: "1"
 issue: "1"
 pdf_url: "https://www.jostapubs.com/volume1/issue1/lovelyB/pdfs/generationmean.pdf"

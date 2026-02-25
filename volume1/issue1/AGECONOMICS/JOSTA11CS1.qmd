@@ -78,6 +78,7 @@ path: "volume1/issue1/AGECONOMICS/JOSTA11CS1.html"
 categories: [Case-Study,Economics,Policy]
 status: Published (Online)
 doi: 10.5281/zenodo.15689170  
+license: "CC BY-NC-ND 4.0"
 volume: "1"
 issue: "1"
 pdf_url: "https://www.jostapubs.com/volume1/issue1/AGECONOMICS/pdf/JOSTA11CS1.pdf"

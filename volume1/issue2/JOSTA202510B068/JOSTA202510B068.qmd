@@ -77,7 +77,8 @@ keywords: [Experimental Designs, Statistical Analysis, Sensory Experiments, RSM]
 categories: [Review-Article,Statistics,PostHarvest,Food]
 bibliography: gaathabiblio.bib
 date: 2025-11-08
-doi: 10.65287/josta.202510.B068  
+doi: 10.65287/josta.202510.B068 
+license: "CC BY-NC-ND 4.0"
 status: Published (Online)
 volume: "1"
 issue: "2"

@@ -80,6 +80,7 @@ categories: [Review-Article, Economics, Policy]
 bibliography: JOSTA-202511-8B5B.bib
 date: 2025-11-28
 doi: 10.65287/josta.202511.8B5B
+license: "CC BY-NC-ND 4.0"
 status: Published (Online)
 volume: "1"
 issue: "2"

@@ -68,6 +68,7 @@ categories: [Original-Article,Extension,Sustainability]
 bibliography: JOSTA-202511-55B0.bib
 date: 2025-11-22
 doi: 10.65287/josta.202511.55B0
+license: "CC BY-NC-ND 4.0"
 status: Published (Online)
 volume: "1"
 issue: "2"

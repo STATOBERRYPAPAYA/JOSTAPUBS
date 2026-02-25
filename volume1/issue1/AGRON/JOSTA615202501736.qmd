@@ -65,7 +65,8 @@ path: "volume1/issue1/AGRON/JOSTA615202501736.html"
 categories: [Original-Article,Plant-Science, Crops,Agronomy]
 status: Published (Online)
 date: 2025-06-20
-doi: 10.5281/zenodo.15706907  
+doi: 10.5281/zenodo.15706907 
+license: "CC BY-NC-ND 4.0"
 volume: "1"
 issue: "1"
 pdf_url: "https://www.jostapubs.com/volume1/issue1/AGRON/pdf/JOSTA615202501736.pdf"

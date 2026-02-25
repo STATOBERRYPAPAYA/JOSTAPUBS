@@ -86,6 +86,7 @@ categories: [Review-Article,Horticulture, Plantation-crops]
 bibliography: JOSTA-202512-24E0.bib
 date: 2026-01-22
 doi: 10.65287/josta.202512.24E0
+license: "CC BY-NC-ND 4.0"
 status: Published (Online)
 volume: "2"
 issue: "1"

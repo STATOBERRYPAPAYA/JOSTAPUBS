@@ -86,6 +86,7 @@ categories: [Review-Article, Soil, Microbiology, Crops, PlantScience]
 bibliography: JOSTA-202510-079A.bib
 date: 2025-11-27
 doi: 10.65287/josta.202510.079A
+license: "CC BY-NC-ND 4.0"
 status: Published (Online)
 volume: "1"
 issue: "2"

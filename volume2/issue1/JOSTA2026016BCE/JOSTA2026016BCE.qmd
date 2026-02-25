@@ -70,6 +70,7 @@ categories: [Review-Article, Genetics, PlantScience]
 bibliography: JOSTA-202601-6BCE.bib
 date: 2026-02-12
 doi: 10.65287/josta.202601.6BCE
+license: "CC BY-NC-ND 4.0"
 status: Published (Online)
 volume: "2"
 issue: "1"

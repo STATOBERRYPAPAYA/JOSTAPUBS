@@ -47,7 +47,8 @@ categories: [ Original-Article,Data-Science,Software]
 bibliography: JOSTA-202510-68E5.bib
 date: 2025-11-01
 status: Published (Online)
-doi: 10.65287/josta.202510.68E5  
+doi: 10.65287/josta.202510.68E5
+license: "CC BY-NC-ND 4.0"
 volume: "1"
 issue: "2"
 pdf_url: "https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/pdfs/JOSTA-202510-68E5.pdf"
