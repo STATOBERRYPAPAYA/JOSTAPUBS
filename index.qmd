@@ -228,13 +228,13 @@ listing:
   <div class="trust-track">
 
     <div class="trust-badge">
-      <img src="www/openaccess.svg" alt="Open Access">
-      <span>Open access</span>
+      <img src="www/open.webp" alt="Open Access">
+      <span>Open Access</span>
     </div>
 
     <div class="trust-badge">
       <i class="bi bi-patch-check-fill"></i>
-      <span>Peer-reviewed</span>
+      <span>Peer-Reviewed</span>
     </div>
 
     <div class="trust-badge">
@@ -244,12 +244,12 @@ listing:
 
     <div class="trust-badge">
       <img src="www/zenodo.png" alt="Zenodo">
-      <span>Zenodo archived</span>
+      <span>Zenodo Archived</span>
     </div>
 
     <div class="trust-badge">
       <img src="www/openaire.png" alt="OpenAIRE">
-      <span>OpenAIRE indexed</span>
+      <span>OpenAIRE Indexed</span>
     </div>
 
     <div class="trust-badge">
@@ -265,16 +265,26 @@ listing:
     <div class="trust-badge">
       <i class="bi bi-file-earmark-text-fill"></i>
       <span>CODEN: JSTACI</span>
+    </div>
+    
+    <div class="trust-badge">
+      <img src="www/road.webp" alt="Internet Archive">
+      <span>ROAD Indexed</span>
+    </div>
+    
+    <div class="trust-badge">
+      <img src="www/openalex.webp" alt="Internet Archive">
+      <span>OpenAlex Indexed</span>
     </div>
 
     <!-- duplicate for smooth loop -->
-   <div class="trust-badge">
-  <i class="bi bi-unlock-fill"></i>
-  <span>Open access</span>
+  <div class="trust-badge">
+      <img src="www/open.webp" alt="Open Access">
+      <span>Open Access</span>
     </div>
     <div class="trust-badge">
       <i class="bi bi-patch-check-fill"></i>
-      <span>Peer-reviewed</span>
+      <span>Peer-Reviewed</span>
     </div>
     <div class="trust-badge">
       <img src="www/crossref.png" alt="Crossref">
@@ -282,11 +292,11 @@ listing:
     </div>
     <div class="trust-badge">
       <img src="www/zenodo.png" alt="Zenodo">
-      <span>Zenodo archived</span>
+      <span>Zenodo Archived</span>
     </div>
     <div class="trust-badge">
       <img src="www/openaire.png" alt="OpenAIRE">
-      <span>OpenAIRE indexed</span>
+      <span>OpenAIRE Indexed</span>
     </div>
     <div class="trust-badge">
       <img src="www/gscholar.webp" alt="Google Scholar">
@@ -300,7 +310,14 @@ listing:
       <i class="bi bi-file-earmark-text-fill"></i>
       <span>CODEN: JSTACI</span>
     </div>
-
+    <div class="trust-badge">
+      <img src="www/road.webp" alt="Internet Archive">
+      <span>ROAD Indexed</span>
+    </div>
+    <div class="trust-badge">
+      <img src="www/openalex.webp" alt="Internet Archive">
+      <span>OpenAlex Indexed</span>
+    </div>
   </div>
 </section>
 
@@ -473,7 +490,11 @@ We are committed to academic integrity and scientific excellence. All manuscript
 We are also a registered member of [Crossref](https://www.crossref.org/) 
 , the global scholarly infrastructure that connects research publications through persistent Digital Object Identifiers (DOIs). Every article published in JOSTA is assigned a unique Crossref DOI, ensuring permanent identification, reliable citation linking, and global discoverability across academic databases such as Google Scholar and OpenAIRE.
 
-Article metadata and publication records are preserved in [Zenodo](https://zenodo.org), with all full-text PDFs permanently stored in the [Internet Archive](https://archive.org/details/@josta_open-access_journal). Website pages are version-controlled through `GitHub` to ensure transparent version history and long-term preservation. JOSTA maintains a dedicated [Zenodo community](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), providing secure, long-term archiving of published articles in CERN’s data centre for as long as CERN exists. Through [OpenAIRE indexing](https://www.openaire.eu/), JOSTA’s publications are integrated into global research infrastructures, ensuring broad visibility, discoverability, and compliance with open-science mandates. For further information, see the [Archiving & Digital Preservation page](#archive.qmd).  
+Article metadata and publication records are preserved in [Zenodo](https://zenodo.org), with all full-text PDFs permanently stored in the [Internet Archive](https://archive.org/details/@josta_open-access_journal). Website pages are version-controlled through `GitHub` to ensure transparent version history and long-term preservation. JOSTA maintains a dedicated [Zenodo community](https://zenodo.org/communities/josta/records?q=&l=list&p=1&s=10&sort=newest), providing secure, long-term archiving of published articles in CERN’s data centre for as long as CERN exists. 
+
+The journal is indexed in the [ROAD Directory of Open Access Scholarly Resources](https://road.issn.org/) maintained by the ISSN International Centre and is also indexed in [OpenAlex](https://openalex.org/sources/s5407053301), which enhances global discoverability and integration with scholarly knowledge graphs used by research analytics platforms.
+
+Through [OpenAIRE indexing](https://www.openaire.eu/), JOSTA’s publications are integrated into global research infrastructures, ensuring broad visibility, discoverability, and compliance with open-science mandates. For further information, see the [Archiving & Digital Preservation page](#archive.qmd).  
 
 The journal encourages interdisciplinary contributions from agricultural sciences, engineering, social sciences, and environmental studies that align with its mission of promoting sustainable agricultural development.
 
@@ -484,11 +505,17 @@ JOSTA is managed by [PAPAYA](https://www.statoberry.com/papaya.html), Academic P
 ```{=html}
 <section class="openaire-line">
   <div class="container oa-line-wrap">
-    <img src="openaire.webp" alt="OpenAIRE" class="oa-logo">
     <span class="oa-text">
-      All articles published are indexed in <strong>OpenAIRE</strong> as they are archived in <strong>Zenodo</strong>.
+      Articles published in <strong>JOSTA</strong> will be having <strong>crossref DOI</strong> and are archived in <strong>Zenodo</strong>, 
+      indexed in <strong>OpenAIRE</strong>, <strong>ROAD</strong> (ISSN International Centre), 
+      and discoverable through <strong>OpenAlex</strong>.
     </span>
-    <img src="zenodo.webp" alt="Zenodo" class="oa-logo">
+  <img src="www/crossref.png" alt="Zenodo" class="oa-logo">
+    <img src="www/zenodo.png" alt="Zenodo" class="oa-logo">
+    <img src="www/road.webp" alt="ROAD ISSN Directory" class="oa-logo">
+    <img src="www/openaire.png" alt="OpenAIRE" class="oa-logo">
+    <img src="www/openalex.webp" alt="OpenAlex" class="oa-logo">
+
   </div>
 </section>
 
@@ -531,7 +558,15 @@ JOSTA is managed by [PAPAYA](https://www.statoberry.com/papaya.html), Academic P
       gap: 6px;
       font-size: 0.95rem;
     }
-    .oa-logo { height: 22px; }
+
+    .oa-logo {
+      height: 22px;
+    }
+
+    .oa-text {
+      max-width: 90%;
+      line-height: 1.4;
+    }
   }
 </style>
 ```
@@ -912,23 +947,32 @@ For a detailed description of the review process, see [Peer review process](peer
 
 ## 🔓Open access {.unnumbered}
 
-JOSTA is a fully open-access journal. All articles are freely available online without subscription or payment barriers, ensuring maximum visibility and global accessibility. Read our open access statement below. 
+JOSTA is a fully open-access journal. All articles are freely available online immediately upon publication without subscription or payment barriers, ensuring maximum visibility and global accessibility. Authors retain copyright of their work [(see copyright info)](#copyright-info), and articles are published under a Creative Commons license that permits broad dissemination while protecting author rights. Read our open access statement below.  
 
 ```{=html}
 <div class="josta-callout josta-callout-oa" aria-label="open access policy">
   <h3 class="josta-callout-title">Open access statement</h3>
   <p class="josta-callout-text">
-    JOSTA is an open access journal. All content is freely available without charge 
-    to users or their institutions. Readers may read, download, copy, distribute, 
-    print, search, or link to the full texts, or use them for any lawful purpose, 
-    without seeking prior permission from the authors or the publisher.
+    JOSTA provides immediate open access to its content in order to support the 
+    global exchange of knowledge in sustainable technology and agricultural research. 
+    All articles published in the journal are freely available online without 
+    subscription charges or access fees to readers worldwide.
   </p>
   <p class="josta-callout-text">
-    This policy follows the 
+    Authors retain the copyright of their work. Articles are published under the 
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">
+      Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)
+    </a>. This license permits users to read, download, copy, distribute, print, 
+    search, and link to the full texts of articles for non-commercial purposes, 
+    provided appropriate credit is given to the authors and the journal, and the 
+    original work is not modified.
+  </p>
+  <p class="josta-callout-text">
+    The journal’s open access policy follows the principles of the 
     <a href="https://www.budapestopenaccessinitiative.org/" target="_blank" rel="noopener">
-      BOAI
-    </a>
-    definition of open access.
+      Budapest Open Access Initiative (BOAI)
+    </a>, ensuring that scholarly literature is freely accessible to the public and 
+    can be used to advance research, education, and innovation.
   </p>
 </div>
 

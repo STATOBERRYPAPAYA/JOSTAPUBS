@@ -9,7 +9,7 @@
 <link>https://www.jostapubs.com/volume2.html</link>
 <atom:link href="https://www.jostapubs.com/volume2.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.39</generator>
+<generator>quarto-1.8.25</generator>
 <lastBuildDate>Mon, 02 Mar 2026 18:30:00 GMT</lastBuildDate>
 <item>
   <title>Adoption Behaviour of Indigenous Agricultural and Ethnoveterinary Practices Among Tribal Farmers of Kalrayan Hills, Tamil Nadu</title>
@@ -17,6 +17,7 @@
   <dc:creator>Natarajan M</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/josta2026027c35/josta2026027c35.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -1330,7 +1331,7 @@ Vivekanandan, P. 1994. <span>“Indigenous Pest Control Methods.”</span> Bhara
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1363,7 +1364,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2024,6 +2025,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html</link>
   <description><![CDATA[ 
 
+
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
 
@@ -2618,7 +2620,7 @@ Upadhyaya, P., K. Tyagi, S. Sarma, V. Tamboli, Y. Sreelakshmi, and R. Sharma. 20
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2648,7 +2650,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2681,6 +2683,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Aiman Shahid</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -3136,7 +3139,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3164,7 +3167,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
