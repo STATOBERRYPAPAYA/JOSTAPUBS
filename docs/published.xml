@@ -9,8 +9,1384 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 17 Feb 2026 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Mon, 02 Mar 2026 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Adoption Behaviour of Indigenous Agricultural and Ethnoveterinary Practices Among Tribal Farmers of Kalrayan Hills, Tamil Nadu</title>
+  <dc:creator>Kaviya P*</dc:creator>
+  <dc:creator>Natarajan M</dc:creator>
+  <link>https://www.jostapubs.com/volume2/issue1/josta2026027c35/josta2026027c35.html</link>
+  <description><![CDATA[ 
+
+<section class="josta-issue-banner" aria-label="Journal issue banner">
+  <div class="jib-wrap">
+
+
+    <div class="jib-cover">
+      <img src="https://www.jostapubs.com/volume2/issue1/josta2026027c35/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+    </div>
+
+
+    <div class="jib-meta">
+      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+
+      <h2 class="jib-subtitle anchored">
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Volume 02</a>
+        •
+        <a href="https://www.jostapubs.com/volume1.html#vol1issue2" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
+        • 2026
+      </h2>
+
+      <p class="jib-line">
+        <span class="jib-label">ISSN (online)</span>
+        <span class="jib-value">
+          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
+            3107-6882
+          </a>
+        </span>
+      </p>
+
+      <p class="jib-line">
+        <span class="jib-label">License</span>
+        <span class="jib-value">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
+            CC BY-NC-ND 4.0
+          </a>
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  :root {
+    --j-navy:#0053ed;
+    --j-brown:#8b6a3a;
+    --j-green:#0b5a56;
+    --j-beige:#f8f3ea;
+  }
+
+  .josta-issue-banner {
+    background: linear-gradient(115deg, var(--j-beige), #ffffff);
+    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .jib-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  /* Cover image — NO ROUNDED CORNERS */
+  .jib-cover img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    border-radius: 0;      /* removed curve */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  .jib-journal-tag {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--j-green);
+  }
+
+  .jib-subtitle {
+    margin: 0 0 0.7rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--j-navy);
+    opacity: 0.85;
+  }
+
+  /* Volume/Issue links */
+  .jib-vi-link {
+    color: var(--j-navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-vi-link:hover { text-decoration: underline; }
+
+  .jib-line {
+    margin: 0.15rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+    color: #333;
+  }
+
+  .jib-label {
+    font-weight: 600;
+    color: var(--j-navy);
+  }
+
+  /* ISSN link */
+  .jib-issn-link {
+    color: var(--j-navy);
+    text-decoration: none;
+  }
+  .jib-issn-link:hover { text-decoration: underline; }
+
+  /* License link */
+  .jib-license-link {
+    color: var(--j-green);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .jib-license-link:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .jib-wrap { flex-direction: row; align-items: flex-start; }
+    .jib-cover img { max-width: 90px; }
+    .jib-journal-tag { font-size: 1.05rem; }
+    .jib-subtitle { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 480px) {
+    .jib-wrap { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+
+
+
+
+<p><a href="https://doi.org/10.65287/josta.202602.7c35"><img src="https://img.shields.io/badge/DOI-10.65287%2Fjosta.202602.7c35-blue?logo=doi" class="img-fluid" alt="DOI"></a> <a href="https://zenodo.org/records/18838033"><img src="https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&amp;labelColor=d9d9d9.png" class="img-fluid" alt="Zenodo"></a><br>
+<img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
+<!-- josta inline actions: pdf • copy citation • citation count -->
+<div class="j-inline" style="margin-top:1rem;">
+<p><a href="pdfs/josta2026027c35.pdf" download="" class="j-btn" aria-label="download pdf">  <span>download pdf</span> </a></p>
+<p>  <span>copy citation</span> <span id="j-tip" class="j-tip" aria-live="polite">citation copied!</span> </p>
+<p><span class="j-chip" data-doi="10.65287/josta.202602.7c35" aria-label="citation count"> <span id="j-cite-count" class="j-chip-count">0</span> <span class="j-chip-label">citations</span> </span></p>
+</div>
+<!-- hidden citation text (kept as plain html) -->
+<p id="j-citation-text" style="display:none;">
+Kaviya, P., &amp; Natarajan, M. (2026). Adoption Behaviour of Indigenous Agricultural and Ethnoveterinary Practices Among Tribal Farmers of Kalrayan Hills, Tamil Nadu. Journal of Sustainable Technology in Agriculture, 2(1). https://doi.org/10.65287/josta.202602.7c35
+</p>
+<style>
+/* row */
+.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
+
+/* button */
+.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
+  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
+  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
+.j-btn:hover{background:#6d532d}
+
+/* copy link */
+.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
+  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
+.j-copy:hover{color:#0b5a56;text-decoration:underline}
+
+/* tooltip */
+.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
+  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
+  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
+.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
+
+/* citation chip */
+.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
+  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
+  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
+.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
+
+/* small screens: allow wrap with gentle spacing */
+@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
+</style>
+<script>
+function jCopyCitation(){
+  const t=document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t);
+  const tip=document.getElementById("j-tip");
+  tip.style.visibility="visible"; tip.style.opacity="1";
+  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
+}
+
+document.addEventListener('DOMContentLoaded', async ()=>{
+  const chip=document.querySelector('.j-chip'); if(!chip) return;
+  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
+  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
+  try{
+    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
+    const n = j?.message?.['is-referenced-by-count'];
+    el.textContent = (Number.isFinite(n) ? n : 0);
+  }catch{ el.textContent='0'; }
+});
+</script>
+<hr>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Ethno-agriculture and ethnoveterinary science encompass the study of traditional, region-specific knowledge related to the use of plants and animals by indigenous and tribal communities for agricultural and livestock management. The term “ethno” was first introduced by J. W. Harshberger in 1895 to describe the systematic study of plants and domesticated animals used by primitive and aboriginal societies <span class="citation" data-cites="Vivekanandan1994 Kumari2018">(Vivekanandan 1994; Kumari et al. 2018)</span>. Although such knowledge systems have existed since the early stages of human civilization, ethno-agriculture and ethnoveterinary science emerged as recognized academic disciplines within environmental and agricultural sciences during the twentieth century.</p>
+<p>Ethno-agricultural and ethnoveterinary practices are intrinsically linked to food and nutritional security, healthcare, livelihood sustenance, cultural beliefs, cottage industries, economic upliftment, biodiversity conservation and the sustainable utilization of natural resources. These practices, commonly referred to as Indigenous Technical Knowledge (ITK), reflect the deep-rooted cultural, spiritual and ecological relationships between tribal communities and their surrounding environment <span class="citation" data-cites="Kumar2016a Palanikumar2025">(M. Kumar et al. 2016; Palanikumar, Rajendran, and Murugan 2025)</span>. Indigenous knowledge systems are embedded within local languages, social structures, value systems, institutions and customary laws and are largely based on experiential learning and naturalistic worldviews that differ significantly from formal scientific knowledge systems <span class="citation" data-cites="IUCN1997">(International Union for Conservation of Nature 1997)</span>.</p>
+<p>Human civilization has progressed from the Stone Age to the modern technological era through continuous observation, experimentation and adaptation. Agriculture and animal domestication form the foundation of early human societies, wherein communities gradually identified, domesticated and improved crops and livestock to meet subsistence requirements. Over successive generations, tribal communities refined ethno-agricultural and ethnoveterinary practices through trial and error, guided by intimate interactions with their local ecological conditions and resource availability <span class="citation" data-cites="Kumar2012 Patel2018">(B. R. Kumar, Prasad, and Sundarambal 2012; Patel et al. 2018)</span>.</p>
+<p>Ethno-agricultural and ethnoveterinary practices play a vital role in the conservation of plant and animal genetic resources, which are essential for ecological balance and long-term sustainability <span class="citation" data-cites="Banerjee2014">(Banerjee, Pal, and Saha 2014)</span>. These knowledge systems comprise locally evolved perceptions, information, and practices that enable tribal communities to manage land, crops, livestock and natural resources to fulfil their needs related to food, shelter, health, spiritual well-being and economic security. Indigenous knowledge is location-specific, dynamic, adaptive and continuously evolving in response to ecological, socio-economic and political changes.</p>
+<p>Despite their significance, many indigenous agricultural and ethnoveterinary practices remain inadequately documented, scientifically validated and integrated into formal agricultural development and extension systems. Rapid urbanization, modernization of agriculture, environmental degradation, and socio-economic transitions have posed serious threats to the continuity and transmission of traditional knowledge <span class="citation" data-cites="Kumar2016a">(M. Kumar et al. 2016)</span>. Therefore, systematic documentation, analysis, and promotion of indigenous practices are essential to preserve this valuable heritage and to enhance sustainable and climate-resilient farming systems.</p>
+<p>Agriculture constitutes the primary livelihood of the tribal population in the Kalrayan Hills of Tamil Nadu. The region’s varied topography, altitude and agro-climatic conditions support a diverse range of agricultural and horticultural crops, along with indigenous livestock species. The Kalrayan Hills represent one of the prominent regions in the state where ethno-agricultural and ethnoveterinary practices continue to be widely practiced for crop production, animal healthcare and livelihood generation. In particular, Villupuram district is known for its rich repository of indigenous knowledge related to agriculture and animal husbandry <span class="citation" data-cites="Bashir2015 Callaby2016">(Bashir, Rajkamal, and Reeja 2015; Callaby et al. 2016)</span>.</p>
+</section>
+<section id="materials-and-methods" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="materials-and-methods"><span class="header-section-number">2</span> Materials and methods</h2>
+<p>The present study was conducted in the Kalrayan Hills region of Villupuram district, Tamil Nadu, which is predominantly inhabited by tribal communities practicing traditional agriculture and livestock rearing. An ex-post facto research design was adopted, as the variables under investigation had already occurred and were beyond the control of the researcher. The study area was selected purposively due to the prevalence of indigenous agricultural and ethnoveterinary practices among tribal farmers.</p>
+<p>A multistage sampling technique was employed for the selection of respondents. In the first stage, villages with a high concentration of tribal households were identified. In the subsequent stage, tribal farmers actively engaged in farming and livestock rearing were selected randomly from the identified villages. A total of 300 tribal farmers were selected as respondents for the study, ensuring adequate representation of the tribal farming population in the selected villages. The sample size was considered statistically sufficient for behavioural research studies to generate reliable and generalizable findings.</p>
+<p>Data were collected using a well-structured and pre-tested interview schedule developed based on relevant literature and expert consultation. The schedule covered personal, socio-economic, psychological and communication characteristics of the respondents, along with their extent of adoption of indigenous agricultural and ethnoveterinary practices.</p>
+<p>Adoption behaviour was measured by assessing the extent to which respondents practiced selected indigenous agricultural and ethnoveterinary techniques. Scores were assigned based on the level of adoption, and respondents were categorized into low, medium and high adoption groups using appropriate statistical measures such as mean and standard deviation. The collected data were coded, tabulated and analyzed using suitable statistical tools such as frequency, percentage, mean and standard deviation to draw meaningful inferences.</p>
+</section>
+<section id="results" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="results"><span class="header-section-number">3</span> Results</h2>
+<p>The results of the study revealed that a majority of the tribal farmers exhibited a medium level of adoption of indigenous agricultural and ethnoveterinary practices, followed by high and low adoption categories <span class="citation" data-cites="Chandrasekar2017 Patel2018">(Chandrasekar et al. 2017; Patel et al. 2018)</span>. The continued reliance on traditional practices indicates their practical relevance, cultural acceptance and economic feasibility in tribal farming systems. Practice-wise analysis showed a high level of adoption in indigenous agricultural practices, particularly those related to soil fertility management, seed treatment, crop protection and post-harvest operations <span class="citation" data-cites="Balamurugan2017 Patel2018">(Balamurugan, Senthilkumar, and Murugesan 2017; Patel et al. 2018)</span>. Practices such as application of green leaf manure and farmyard manure, incorporation of crop residues, sun drying of harvested produce, use of neem-based pest control measures and indigenous storage methods recorded higher adoption percentages. Similarly, adoption of ethnoveterinary practices was observed for the treatment of common livestock ailments such as fever, wounds, digestive disorders, parasitic infestations and post-calving care. Indigenous remedies using locally available medicinal plants, household materials and traditional preparations were widely practiced by the respondents <span class="citation" data-cites="Avhad2015 Raina2016">(Avhad et al. 2015; Raina et al. 2016)</span>.</p>
+<p>Overall adoption categorization indicated that a substantial proportion of respondents belonged to the medium to high adoption groups, reflecting the continued prevalence of indigenous knowledge systems among tribal farmers in the Kalrayan Hills region (Table&nbsp;1, Figure&nbsp;1 and Figure&nbsp;2).</p>
+<div id="tbl-paddy" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-paddy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Distribution of respondents according to their practice wise adoption on recommended ethno agricultural and veterinary practices
+</figcaption>
+<div aria-describedby="tbl-paddy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 63%">
+<col style="width: 12%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>S. No.</th>
+<th>Agriculture Practices</th>
+<th>No.&nbsp;of Respondents</th>
+<th>Per cent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>I.</strong></td>
+<td><strong>Paddy</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Soaking seeds for 24 hours in water and covering with paddy straw and bamboo leaves for early sprout</td>
+<td>215</td>
+<td>71.66</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Seed rate @ 20-25 kg per acre</td>
+<td>226</td>
+<td>75.33</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Burning of farm waste and trash on the nursery for better germination</td>
+<td>189</td>
+<td>63.00</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Summer ploughing</td>
+<td>195</td>
+<td>65.00</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Applying of green leaf manure and FYM</td>
+<td>251</td>
+<td>83.66</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Incorporating crop residue and leaves of a tree as a manure</td>
+<td>258</td>
+<td>86.00</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Sun drying of harvested paddy for one or two days in the field it self</td>
+<td>268</td>
+<td>89.33</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>Threshing by hitting the paddy bundles with wooden blocks</td>
+<td>261</td>
+<td>87.00</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>Parboiling of paddy for improving the edible quality of the rice</td>
+<td>248</td>
+<td>82.66</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Irrigating from the channels when the well completely dries up</td>
+<td>236</td>
+<td>78.66</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>Grounding of rice in a heavy weight wooden grinder (Urral)</td>
+<td>263</td>
+<td>87.66</td>
+</tr>
+<tr class="odd">
+<td>12</td>
+<td>Using stingy bugs against caseworm</td>
+<td>164</td>
+<td>54.66</td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td>Bradcasting the crushed neem leaves in the paddy to reduce insect attack</td>
+<td>266</td>
+<td>88.66</td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td>Coating of cow dung solution in paddy grains for protection of pest and diseases</td>
+<td>269</td>
+<td>89.66</td>
+</tr>
+<tr class="even">
+<td>15</td>
+<td>Covering rat holes with mud</td>
+<td>248</td>
+<td>82.66</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>79.04</strong></td>
+</tr>
+<tr class="even">
+<td><strong>II.</strong></td>
+<td><strong>Tapioca</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>16</td>
+<td>Selecting a setts with shorter internodes for planting</td>
+<td>268</td>
+<td>89.33</td>
+</tr>
+<tr class="even">
+<td>17</td>
+<td>Cultivating banana as a inter crop between the rows</td>
+<td>123</td>
+<td>41.00</td>
+</tr>
+<tr class="odd">
+<td>18</td>
+<td>Application of pig manure for increased tuber size</td>
+<td>222</td>
+<td>74.00</td>
+</tr>
+<tr class="even">
+<td>19</td>
+<td>Irrigating once in 15 days</td>
+<td>257</td>
+<td>85.66</td>
+</tr>
+<tr class="odd">
+<td>20</td>
+<td>Spraying of neem oil mixed with soap solution to control the pest and diseases</td>
+<td>242</td>
+<td>80.66</td>
+</tr>
+<tr class="even">
+<td>21</td>
+<td>Tapioca is cultivated in bench terrace</td>
+<td>256</td>
+<td>85.33</td>
+</tr>
+<tr class="odd">
+<td>22</td>
+<td>Selecting disease- free setts for propagation</td>
+<td>261</td>
+<td>87.00</td>
+</tr>
+<tr class="even">
+<td>23</td>
+<td>Planting the setts within three hours after cutting</td>
+<td>248</td>
+<td>82.66</td>
+</tr>
+<tr class="odd">
+<td>24</td>
+<td>About 6-8 cuttings of 20 cm are obtained from mature stem, leaving the top tender shoot and woody bottom</td>
+<td>248</td>
+<td>82.66</td>
+</tr>
+<tr class="even">
+<td>25</td>
+<td>The setts are planting the setts vertically at one inch depth in the soil</td>
+<td>246</td>
+<td>82.00</td>
+</tr>
+<tr class="odd">
+<td>26</td>
+<td>Cultivating Dolicho sp (India Been) as a smoother/cover crop in between the rows as an inter-crop.</td>
+<td>224</td>
+<td>74.66</td>
+</tr>
+<tr class="even">
+<td>27</td>
+<td>Storage setts are cut and sun dried for a week and stored with 16% of moisture content</td>
+<td>218</td>
+<td>72.66</td>
+</tr>
+<tr class="odd">
+<td>28</td>
+<td>Mixing jatropha leaves with hot water (100 °C)is used to control aphids and white flies in tapioca</td>
+<td>190</td>
+<td>63.33</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>76.99</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>III.</strong></td>
+<td><strong>Cumbu</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>29</td>
+<td>Spreading of cumbu ear heads circularly to a height of 1 foot and cattle threshed</td>
+<td>178</td>
+<td>59.33</td>
+</tr>
+<tr class="odd">
+<td>30</td>
+<td>Drying of cumbu until a metallic sound is produced</td>
+<td>188</td>
+<td>62.66</td>
+</tr>
+<tr class="even">
+<td>31</td>
+<td>Storing the cumbu in earthen pots covered with and tied cloth.</td>
+<td>257</td>
+<td>85.66</td>
+</tr>
+<tr class="odd">
+<td>32</td>
+<td>Spreading of Nochi leaves over the storage container to control pest</td>
+<td>258</td>
+<td>86.00</td>
+</tr>
+<tr class="even">
+<td>33</td>
+<td>Mixing of seed purpose cumbu with dried neem leaves</td>
+<td>257</td>
+<td>85.66</td>
+</tr>
+<tr class="odd">
+<td>34</td>
+<td>Springing turmeric powder and ash solution (2Kg of turmeric powder + 8 Kg of ash + 200 litre of water per acre) to control sucking pests like aphids, hoppers etc.,</td>
+<td>162</td>
+<td>54.00</td>
+</tr>
+<tr class="even">
+<td>35</td>
+<td>Cumbu ear heads are sun dried for two days and stored without seed separation by building a storage structure called ‘Kudhir’.</td>
+<td>256</td>
+<td>85.33</td>
+</tr>
+<tr class="odd">
+<td>36</td>
+<td>Soaking the cumbu seeds in common salt solution before sowing to secure good germination under adverse conditions</td>
+<td>262</td>
+<td>87.33</td>
+</tr>
+<tr class="even">
+<td>37</td>
+<td>Soaking the cumbu seeds in cow urine for half-an-hour and sun drying them before sowing to control head smut and to induce drought tolerance.</td>
+<td>256</td>
+<td>85.33</td>
+</tr>
+<tr class="odd">
+<td>38</td>
+<td>Sprinkling boiled water in the next day and immersed in ordinary water for some time before sowing in the filed give better in the filed better germination.</td>
+<td>248</td>
+<td>82.66</td>
+</tr>
+<tr class="even">
+<td>39</td>
+<td>Country plough is run at the early stage of cumbu crop to ensure optimum plant population.</td>
+<td>194</td>
+<td>64.66</td>
+</tr>
+<tr class="odd">
+<td>40</td>
+<td>Sowing cumbu during the tamil months Vaikasi - Aani (May-June) to avoid shoot fly and stem borer.</td>
+<td>215</td>
+<td>71.66</td>
+</tr>
+<tr class="even">
+<td>41</td>
+<td>Sowing cowpea as an intercrop in cumbu to minimize stem borer attack due to its repellent smell.</td>
+<td>161</td>
+<td>53.66</td>
+</tr>
+<tr class="odd">
+<td>42</td>
+<td>Sowing lab-lab as an intercrop to reduce stem borer damage in cumbu.</td>
+<td>193</td>
+<td>64.33</td>
+</tr>
+<tr class="even">
+<td>43</td>
+<td>Pouring neem cake extract drop by drop on the cumbu shoot to control shoot borer.</td>
+<td>192</td>
+<td>64.00</td>
+</tr>
+<tr class="odd">
+<td>44</td>
+<td>Dusting ash on the infected leaves of cumbu to prevent the pest incidence.</td>
+<td>222</td>
+<td>74.00</td>
+</tr>
+<tr class="even">
+<td>45</td>
+<td>Dusting ash at milking stage to control ear head bugs.</td>
+<td>192</td>
+<td>64.00</td>
+</tr>
+<tr class="odd">
+<td>46</td>
+<td>Growing coriander as a mixed crop in cumbu to control the parasitic weed (Strigalutea).</td>
+<td>146</td>
+<td>48.66</td>
+</tr>
+<tr class="even">
+<td>47</td>
+<td>A red / yellow/ dark cloth is tied to a long pole and fixed in the centre of the field to scare away the crows.</td>
+<td>268</td>
+<td>89.33</td>
+</tr>
+<tr class="odd">
+<td>48</td>
+<td>Mixing cumbu seeds with ash to prevent storage pests.</td>
+<td>272</td>
+<td>90.66</td>
+</tr>
+<tr class="even">
+<td>49</td>
+<td>Local varieties are cultivate in dry lands to avoid more water coinciding with the harvesting stage.</td>
+<td>276</td>
+<td>92.00</td>
+</tr>
+<tr class="odd">
+<td>50</td>
+<td>Treating the cumbu seed treated with cow urine at 1:10 ratio to enhance germination.</td>
+<td>267</td>
+<td>89.00</td>
+</tr>
+<tr class="even">
+<td>51</td>
+<td>Clewing dried cumbu grain gives, metallic sound and dryness.</td>
+<td>248</td>
+<td>82.66</td>
+</tr>
+<tr class="odd">
+<td>52</td>
+<td>Pounding cumbu into course powdery form and consumed</td>
+<td>238</td>
+<td>79.33</td>
+</tr>
+<tr class="even">
+<td>53</td>
+<td>Dusting Chula ash in pearl millet fields to control green leaf hoppers sitting on inner side of leaves.</td>
+<td>148</td>
+<td>49.33</td>
+</tr>
+<tr class="odd">
+<td>54</td>
+<td>Storing cumbu seeds by mixing with ash.</td>
+<td>257</td>
+<td>85.66</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>59.90</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>IV.</strong></td>
+<td><strong>General practices agriculture</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>55</td>
+<td>Tying of polythene sheets to scare away the birds</td>
+<td>266</td>
+<td>88.66</td>
+</tr>
+<tr class="odd">
+<td>56</td>
+<td>Dusting of ash to control the pest</td>
+<td>262</td>
+<td>87.33</td>
+</tr>
+<tr class="even">
+<td>57</td>
+<td>Sheep penning</td>
+<td>267</td>
+<td>89.00</td>
+</tr>
+<tr class="odd">
+<td>58</td>
+<td>Fumigating in closed container for ripening of fruits</td>
+<td>273</td>
+<td>91.00</td>
+</tr>
+<tr class="even">
+<td>59</td>
+<td>Using neem seed kernel to control pest</td>
+<td>258</td>
+<td>86.00</td>
+</tr>
+<tr class="odd">
+<td>60</td>
+<td>Broadcasting enriched silt in the fields</td>
+<td>150</td>
+<td>50.00</td>
+</tr>
+<tr class="even">
+<td>61</td>
+<td>Using of green chille and garlic extract to control aphid and jassid</td>
+<td>218</td>
+<td>72.66</td>
+</tr>
+<tr class="odd">
+<td>62</td>
+<td>Using of mounds, ridges and raised beds to reduce root rot problem.</td>
+<td>252</td>
+<td>84.00</td>
+</tr>
+<tr class="even">
+<td>63</td>
+<td>Using mixture of gypsum and sugar for rodent birds</td>
+<td>258</td>
+<td>86.00</td>
+</tr>
+<tr class="odd">
+<td>64</td>
+<td>Broadcasting of cooked rice with milk to attract birds</td>
+<td>252</td>
+<td>84.00</td>
+</tr>
+<tr class="even">
+<td>65</td>
+<td>Spraying or tobacco extract to kill pest in crops</td>
+<td>183</td>
+<td>61.00</td>
+</tr>
+<tr class="odd">
+<td>66</td>
+<td>Soil and water conservation by use of stone terracing</td>
+<td>207</td>
+<td>69.00</td>
+</tr>
+<tr class="even">
+<td>67</td>
+<td>Allowing pigs into the paddy field to control the nut sedge.</td>
+<td>221</td>
+<td>73.66</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>65.56</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><strong>Ethno practices under cow animal husbandry</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>I.</strong></td>
+<td><strong>Cow - Foot and mouth disease (FMD)</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>68</td>
+<td>Giving local liquor or wine</td>
+<td>188</td>
+<td>62.66</td>
+</tr>
+<tr class="odd">
+<td>69</td>
+<td>Rubbing of jaggery in the mouth</td>
+<td>170</td>
+<td>56.66</td>
+</tr>
+<tr class="even">
+<td>70</td>
+<td>Applying salt solution inside the mouth and between the hooves of the animal</td>
+<td>121</td>
+<td>40.33</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>53.21</strong></td>
+</tr>
+<tr class="even">
+<td><strong>II.</strong></td>
+<td><strong>Selection of breed and feeding</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>71</td>
+<td>Selecting of indigenous breed</td>
+<td>232</td>
+<td>77.33</td>
+</tr>
+<tr class="even">
+<td>72</td>
+<td>Feeding dry roughages such as straw and hay to calving cows</td>
+<td>167</td>
+<td>55.66</td>
+</tr>
+<tr class="odd">
+<td>73</td>
+<td>Feeding all types of fodder to crows</td>
+<td>265</td>
+<td>88.33</td>
+</tr>
+<tr class="even">
+<td>74</td>
+<td>Giving drinking water adequately to the cattle</td>
+<td>261</td>
+<td>87.00</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>77.08</strong></td>
+</tr>
+<tr class="even">
+<td><strong>III.</strong></td>
+<td><strong>Care and management of dairy and pregnant cow</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>75</td>
+<td>Isolating a pregnant cows from the rest house</td>
+<td>266</td>
+<td>88.66</td>
+</tr>
+<tr class="even">
+<td>76</td>
+<td>Stopping milking 50 to 60 days before expected date of calving</td>
+<td>252</td>
+<td>84.00</td>
+</tr>
+<tr class="odd">
+<td>77</td>
+<td>Feeding roughages to pregnant cows</td>
+<td>247</td>
+<td>82.33</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>84.99</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>IV.</strong></td>
+<td><strong>Ulcer on neck of the bullock</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>78</td>
+<td>Applying boiled and cooled edible oil is applied over the neck to control rashes</td>
+<td>190</td>
+<td>63.33</td>
+</tr>
+<tr class="odd">
+<td>79</td>
+<td>Applying powdered coal paste on the ulcer part to minimize the pain</td>
+<td>147</td>
+<td>49.00</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>56.16</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>V.</strong></td>
+<td><strong>Respiratory tract infection</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>80</td>
+<td>Mixing a leaves of Thulasi (Ocimumcanum), arusha (Adhatodavasica), ginger, pepper, jaggery with water to make decoction and feed 2-3 times daily</td>
+<td>125</td>
+<td>41.66</td>
+</tr>
+<tr class="odd">
+<td>81</td>
+<td>Quashing the fruits of Kantakari (Solanum surattense) are soaked in goat urine overnight and filtered and squeezing into few drops the nostril</td>
+<td>118</td>
+<td>39.33</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>52.16</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>VI.</strong></td>
+<td><strong>Dropping of placenta</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>82</td>
+<td>Giving or three seeds of vellaikoundumani given with boiled bajra to the animal for immediate delivery</td>
+<td>114</td>
+<td>38.00</td>
+</tr>
+<tr class="odd">
+<td>83</td>
+<td>Giving bambusa leaves for feeding to easy release of placenta</td>
+<td>116</td>
+<td>38.66</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>38.33</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>VII.</strong></td>
+<td><strong>Mastistis in dairy animals</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>84</td>
+<td>Applying Gheekumari (Aloe vera) – 1 or 3 petals Haldi (Turmeric) powder – 50gm Chunna (Lime stone) – 10 gm are made it paste and apply over the udder thrice a day</td>
+<td>122</td>
+<td>40.66</td>
+</tr>
+<tr class="odd">
+<td><strong>VIII.</strong></td>
+<td><strong>Treatment for the dislocated / fractured part of cow</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>85</td>
+<td>Applying mixture of honey and pure ghee in the featured part</td>
+<td>188</td>
+<td>61.66</td>
+</tr>
+<tr class="odd">
+<td>86</td>
+<td>Applying of perandai pulp on the fractured part</td>
+<td>121</td>
+<td>40.33</td>
+</tr>
+<tr class="even">
+<td>87</td>
+<td>Applying of mixture of salt, jaggery and turmeric powder in the featured part</td>
+<td>120</td>
+<td>40.00</td>
+</tr>
+<tr class="odd">
+<td>88</td>
+<td>Applying two vilvam fruits of partially burnt and ground water and make as paste to apply in the featured part</td>
+<td>108</td>
+<td>36.00</td>
+</tr>
+<tr class="even">
+<td>89</td>
+<td>Applying fenugreek seed paste and bandaged in dislocated part.</td>
+<td>152</td>
+<td>50.66</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>57.16</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><strong>Sheep and goats</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>I.</strong></td>
+<td><strong>Blue tongue disease</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>90</td>
+<td>Smearing a banana fruits with sesame oil for feed to animals for 2 to 3 times</td>
+<td>122</td>
+<td>40.66</td>
+</tr>
+<tr class="odd">
+<td>91</td>
+<td>Feeding leaf pulp of Aloe vera 100gm has to be administered daily.</td>
+<td>115</td>
+<td>38.33</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>39.49</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>II.</strong></td>
+<td><strong>Eradication of the ecto – parasite</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>92</td>
+<td>Applying of tobacco powder and edible oil mixture over the entire body of the animal</td>
+<td>171</td>
+<td>57.00</td>
+</tr>
+<tr class="odd">
+<td><strong>III.</strong></td>
+<td><strong>Flatulence</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>93</td>
+<td>Feeding a mixture of onion and aerial root of banyan tree to the animal before</td>
+<td>118</td>
+<td>39.33</td>
+</tr>
+<tr class="odd">
+<td>94</td>
+<td>Applying salt in the tongue of the animal feeding tuber plant with onion mixture</td>
+<td>114</td>
+<td>38.00</td>
+</tr>
+<tr class="even">
+<td>95</td>
+<td>Feeding of suspension of edible oil (100g), water and kerosene oil to the animals</td>
+<td>122</td>
+<td>40.66</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>39.33</strong></td>
+</tr>
+<tr class="even">
+<td><strong>IV.</strong></td>
+<td><strong>Skin diseases</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>96</td>
+<td>Applying of used engine oil over the skin</td>
+<td>114</td>
+<td>38.00</td>
+</tr>
+<tr class="even">
+<td><strong>V.</strong></td>
+<td><strong>Cold</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>97</td>
+<td>Dropping of bhoyrognijuice in the nose</td>
+<td>94</td>
+<td>31.33</td>
+</tr>
+<tr class="even">
+<td><strong>VI.</strong></td>
+<td><strong>Diarrhea</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>98</td>
+<td>Oral administration of charcoal powder</td>
+<td>168</td>
+<td>56.00</td>
+</tr>
+<tr class="even">
+<td>99</td>
+<td>Feeding leaf extract hupai</td>
+<td>147</td>
+<td>49.00</td>
+</tr>
+<tr class="odd">
+<td>100</td>
+<td>Feeding 3kg of steamed varagu grains</td>
+<td>118</td>
+<td>39.33</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>48.11</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>VII.</strong></td>
+<td><strong>Unsuccessful conception</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>101</td>
+<td>Feeding 200 – 300 ml of castor oil</td>
+<td>148</td>
+<td>49.33</td>
+</tr>
+<tr class="odd">
+<td>102</td>
+<td>Feeding of banana leaf extract</td>
+<td>122</td>
+<td>40.66</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>44.99</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>VIII.</strong></td>
+<td><strong>Post – calving care</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>103</td>
+<td>Feeding of 1- 2 kg jaggery dissolved in water to the animal immediately after calving</td>
+<td>175</td>
+<td>58.33</td>
+</tr>
+<tr class="odd">
+<td><strong>I.</strong></td>
+<td><strong>Poultry disease management</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>104</td>
+<td>Spreading crushed leaves of sithapal (Annonasquamosa) inside poultry nest and lice collected over the leaves can be disposed hygienically</td>
+<td>215</td>
+<td>71.66</td>
+</tr>
+<tr class="odd">
+<td>105</td>
+<td>Applying garlic, tulasi, neem leaves, seethapal seeds, haldi each 10-20 gm are grounded together and boiled in 250ml of neem oil over the surface of the body of 10-15 birds</td>
+<td>218</td>
+<td>72.66</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>72.16</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>I.</strong></td>
+<td><strong>Constipation</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>106</td>
+<td>Giving castor oil, raw in seed oil can be given for 1-2 days according to species and body weight of animal.</td>
+<td>218</td>
+<td>72.66</td>
+</tr>
+<tr class="odd">
+<td>107</td>
+<td>Giving a decoction of 100 g of haldi (turmeric rhizome) in a litre of water may be given once for 1-3 days to age old animals.</td>
+<td>116</td>
+<td>38.66</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>55.66</strong></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><strong>General diseases of animal husbundary</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>108</td>
+<td>Pressing slightly heated local sword in the tooth for toothache control</td>
+<td>108</td>
+<td>36.00</td>
+</tr>
+<tr class="odd">
+<td>109</td>
+<td>Feeding little amount of cumin seeds for the gastroenteritis problem</td>
+<td>151</td>
+<td>50.33</td>
+</tr>
+<tr class="even">
+<td>110</td>
+<td>Feeding well-grounded neem leaves, flowers and bark well and the cows for deworming</td>
+<td>120</td>
+<td>40.00</td>
+</tr>
+<tr class="odd">
+<td>111</td>
+<td>Applying Caetus (Carnegieagiganta) fluid is on the eyelieds to control common eye disease</td>
+<td>115</td>
+<td>38.33</td>
+</tr>
+<tr class="even">
+<td>112</td>
+<td>Giving salt mixed water control in digestion ( tympany)</td>
+<td>106</td>
+<td>35.33</td>
+</tr>
+<tr class="odd">
+<td>113</td>
+<td>Feeding tea waste powder in case of blood in urine</td>
+<td>103</td>
+<td>34.33</td>
+</tr>
+<tr class="even">
+<td>114</td>
+<td>Applying turmeric paste against the fracture area</td>
+<td>120</td>
+<td>40.00</td>
+</tr>
+<tr class="odd">
+<td>115</td>
+<td>Pasting lime, garlic and turmeric paste to control open wounds</td>
+<td>148</td>
+<td>49.33</td>
+</tr>
+<tr class="even">
+<td>116</td>
+<td>Pasting neem paste to control wounds of the animals</td>
+<td>120</td>
+<td>40.00</td>
+</tr>
+<tr class="odd">
+<td>117</td>
+<td>Applying ghee in case of crack of udder</td>
+<td>118</td>
+<td>39.33</td>
+</tr>
+<tr class="even">
+<td>118</td>
+<td>Applying Doorva (Calendula dactylon Linn.) paste for bleeding of blood from any injury</td>
+<td>103</td>
+<td>34.33</td>
+</tr>
+<tr class="odd">
+<td>119</td>
+<td>Smearingof powder of Calamus (Acoruscalamus) and the leaf extract of tulasi (Ocimum sanctum) mix on the body of animal prevent like and bovine flies</td>
+<td>108</td>
+<td>36.00</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Mean</td>
+<td></td>
+<td><strong>39.44</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="fig-figure1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026027c35/figures/fig1.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Distribution of respondents according to their practice wise overall adoption level of respondents on ethno agricultural and veterinary practice
+</figcaption>
+</figure>
+</div>
+<div id="fig-figure2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026027c35/figures/fig2.jpg" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Indigenous agricultural and ethnoveterinary practices
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="discussion" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="discussion"><span class="header-section-number">4</span> Discussion</h2>
+<p>The predominance of medium to high adoption levels among tribal farmers highlights the continued relevance of indigenous agricultural and ethnoveterinary practices in tribal livelihood systems. These findings suggest that traditional practices remain deeply embedded in the cultural and farming traditions of the study area. Higher adoption of indigenous agricultural practices may be attributed to their cost-effectiveness, eco-friendliness, easy availability of local resources and minimal dependence on external inputs. The results also indicate that indigenous practices are well adapted to the local agro-climatic conditions of the Kalrayan Hills.</p>
+<p>The preference for ethnoveterinary practices can be explained by limited access to modern veterinary services in remote tribal areas, along with the trust developed through generations of experiential learning. Indigenous remedies are often perceived as safer, affordable and culturally acceptable alternatives to modern veterinary medicines. Factors such as age, farming experience, inheritance of traditional knowledge, social participation and access to indigenous resources were found to influence adoption behaviour. Older and more experienced farmers exhibited higher adoption levels, which underscores the role of experiential knowledge and intergenerational transmission in sustaining indigenous practices. These findings are in agreement with earlier studies emphasizing the importance of traditional knowledge systems in tribal agriculture.</p>
+<p>The study reinforces the need for systematic documentation, scientific validation and integration of indigenous practices into formal agricultural extension programmes to ensure their preservation and effective utilization in sustainable and climate-resilient farming systems.</p>
+</section>
+<section id="conclusion" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">5</span> Conclusion</h2>
+<p>The study concluded that indigenous agricultural and ethnoveterinary practices remain an integral component of the livelihood systems of tribal farmers in the Kalrayan Hills of Tamil Nadu. A substantial proportion of respondents demonstrated medium to high levels of adoption, highlighting the continued relevance of traditional knowledge in sustainable agriculture and livestock management. Despite increasing exposure to modern agricultural technologies, tribal farmers continue to rely on indigenous practices due to their cost-effectiveness, eco-friendliness and cultural compatibility.</p>
+<p>The findings underscore the need for systematic documentation, scientific validation, and integration of indigenous agricultural and ethnoveterinary practices into formal agricultural extension and development programmes. Strengthening participatory extension approaches and promoting knowledge-sharing platforms can enhance the preservation and effective utilization of indigenous knowledge systems. Such efforts would contribute to sustainable agricultural development, biodiversity conservation and improved livelihood security among tribal communities in the Kalrayan Hills of Tamil Nadu.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-Avhad2015" class="csl-entry">
+Avhad, S. R., K. S. Kadian, A. K. Verma, and R. B. Kale. 2015. <span>“Entrepreneurial Behaviour of Dairy Farmers in Ahmednagar District of Maharashtra, India.”</span> <em>Agricultural Science Digest</em> 35 (1): 56–59.
+</div>
+<div id="ref-Balamurugan2017" class="csl-entry">
+Balamurugan, P., A. Senthilkumar, and S. Murugesan. 2017. <span>“An Analysis on Socio-Economic Profile of Backyard Poultry Farmers in Theni District of Tamil Nadu.”</span> <em>International Journal of Science, Environment and Technology</em> 6 (6): 3513–19.
+</div>
+<div id="ref-Banerjee2014" class="csl-entry">
+Banerjee, S., S. Pal, and S. Saha. 2014. <span>“Indigenous Knowledge Systems in Agriculture and Natural Resource Management.”</span> <em>Indian Journal of Traditional Knowledge</em> 13 (3): 498–505.
+</div>
+<div id="ref-Bashir2015" class="csl-entry">
+Bashir, B. P., P. J. Rajkamal, and G. P. Reeja. 2015. <span>“Adoption of Modern Animal Husbandry Practices by Tribal Livestock Farmers of Attappady Block in Kerala.”</span> <em>Journal of Agricultural Science</em> 7 (1–2): 17–21.
+</div>
+<div id="ref-Callaby2016" class="csl-entry">
+Callaby, R. P., A. Toye, A. Jennings, O. Van Wyk, O. Hanotte, M. N. Mbole-Kariuki, B. M. de C. Bronsvoort, et al. 2016. <span>“Seroprevalence of Respiratory Viral Pathogens of Indigenous Calves in Western Kenya.”</span> <em>Research in Veterinary Science</em> 108: 120–24. <a href="https://doi.org/10.1016/j.rvsc.2016.08.007">https://doi.org/10.1016/j.rvsc.2016.08.007</a>.
+</div>
+<div id="ref-Chandrasekar2017" class="csl-entry">
+Chandrasekar, G. K., K. Satyanarayan, V. Jagadeeswary, and J. S. Shree. 2017. <span>“Relationship Between Socio-Economic and Psychological Factors of Dairy Farmers with Days Open – a Study in Rural Karnataka.”</span> <em>International Journal of Pure and Applied Biological Sciences</em> 5 (1): 171–77.
+</div>
+<div id="ref-IUCN1997" class="csl-entry">
+International Union for Conservation of Nature. 1997. <em>Indigenous Peoples and Sustainability: Cases and Actions</em>. Gland, Switzerland: IUCN.
+</div>
+<div id="ref-Kumar2012" class="csl-entry">
+Kumar, B. R., K. Prasad, and P. Sundarambal. 2012. <span>“Role Performance and Level of Tribal Women Farmers in Meghalaya.”</span> <em>Indian Journal of Extension Education</em> 12 (1): 60–63.
+</div>
+<div id="ref-Kumar2016a" class="csl-entry">
+Kumar, M., J. Gupta, A. Radhakrishnan, and M. Singh. 2016. <span>“Socio-Economic Status and Role of Livestock to Improve Livelihood of Tribes of Jharkhand.”</span> <em>Research Journal of Agricultural Sciences</em> 6: 1421–25.
+</div>
+<div id="ref-Kumari2018" class="csl-entry">
+Kumari, Jyoti, Ritu Dubey, Dipak Kumar Bose, and Vandana Gupta. 2018. <span>“A Study on Socio-Economic Condition of Tharu Tribes in Bahraich District of Uttar Pradesh, India.”</span> <em>Journal of Applied and Natural Science</em> 10 (3): 939–44.
+</div>
+<div id="ref-Palanikumar2025" class="csl-entry">
+Palanikumar, K., S. Rajendran, and P. Murugan. 2025. <span>“Indigenous Technical Knowledge in Agriculture and Livestock Management Among Tribal Communities.”</span> <em>Indian Journal of Traditional Knowledge</em> 24 (1): 45–52.
+</div>
+<div id="ref-Patel2018" class="csl-entry">
+Patel, N. K., B. K. Ashwar, M. B. Rajput, and M. V. Prajapati. 2018. <span>“Personal and Socio-Economic Characteristics of Commercial Dairy Farmers and Their Association with Economics.”</span> <em>International Journal of Agricultural Sciences</em> 10 (11): 6187–91.
+</div>
+<div id="ref-Raina2016" class="csl-entry">
+Raina, Vishal, B. Bhusan, Parshant Bakshi, and Shalini Khajuria. 2016. <span>“Entrepreneurial Behaviour of Dairy Farmers.”</span> <em>Journal of Animal Research</em> 6 (5): 947–53.
+</div>
+<div id="ref-Vivekanandan1994" class="csl-entry">
+Vivekanandan, P. 1994. <span>“Indigenous Pest Control Methods.”</span> Bharathidasan University, Tiruchirappalli, Tamil Nadu.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>05 February 2026</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>02 March 2026</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>03 March 2026</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<strong>Dr.&nbsp;Manobharathi K</strong><br>
+<em>Assistant Professor</em><br>
+<em>Mother Terasa College of Agriculture</em><br>
+<em>Pudukkottai, Tamil Nadu</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<strong>Dr.&nbsp;Mathuabirami V</strong><br>
+<em>Assistant Professor</em><br>
+<em>Kaveri University</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
+</blockquote>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></div></div></section></div> ]]></description>
+  <category>Original-Article</category>
+  <category>Environment</category>
+  <category>Extension</category>
+  <category>Livestock</category>
+  <guid>https://www.jostapubs.com/volume2/issue1/josta2026027c35/josta2026027c35.html</guid>
+  <pubDate>Mon, 02 Mar 2026 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Saline and Sodic Soil Reclamation: Recent Advances and Agronomic Implications</title>
   <dc:creator>Krishna Priyan Ra K*</dc:creator>
@@ -648,7 +2024,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html</link>
   <description><![CDATA[ 
 
-
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
 
@@ -1243,7 +2618,7 @@ Upadhyaya, P., K. Tyagi, S. Sarma, V. Tamboli, Y. Sreelakshmi, and R. Sharma. 20
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1273,7 +2648,7 @@ Upadhyaya, P., K. Tyagi, S. Sarma, V. Tamboli, Y. Sreelakshmi, and R. Sharma. 20
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1306,7 +2681,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Aiman Shahid</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -1762,7 +3136,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1790,7 +3164,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1819,7 +3193,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Kannappan M</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025117381/JOSTA2025117381.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -2272,7 +3645,7 @@ Zhao, P., Y. Zheng, L. Tang, Y. Lu, J. X. Xiao, and Y. Dong. 2010. <span>“Effe
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2304,7 +3677,7 @@ Zhao, P., Y. Zheng, L. Tang, Y. Lu, J. X. Xiao, and Y. Dong. 2010. <span>“Effe
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2332,7 +3705,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Mohammed Sadiq V P*</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025114C90/JOSTA2025114C90.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -2960,7 +4332,7 @@ Vinothapreeshan, G., and K. Sundar. 2011. <span>“Anti-Ulcer Activity of Adhato
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2988,7 +4360,7 @@ Vinothapreeshan, G., and K. Sundar. 2011. <span>“Anti-Ulcer Activity of Adhato
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3019,7 +4391,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Aswathy Vijayan</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251272CB/JOSTA20251272CB.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -3739,7 +5110,7 @@ Zwietering, Marcel H., Ilse Jongenburger, Frank M. Rombouts, and Karel Van’t R
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3767,7 +5138,7 @@ Zwietering, Marcel H., Ilse Jongenburger, Frank M. Rombouts, and Karel Van’t R
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3798,7 +5169,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Allan Thomas</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202512A575/JOSTA202512A575.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -4392,7 +5762,7 @@ Ziggers, G. W., and J. Trienekens. 1999. <span>“Quality Assurance in Food and 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4423,7 +5793,7 @@ Ziggers, G. W., and J. Trienekens. 1999. <span>“Quality Assurance in Food and 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4457,7 +5827,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>K P Sudheer</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025115655/JOSTA2025115655.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -4921,7 +6290,7 @@ Ziuzina, D., R. van Cleynenbreugel, C. Tersaruolo, and P. Bourke. 2021. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4953,7 +6322,7 @@ Ziuzina, D., R. van Cleynenbreugel, C. Tersaruolo, and P. Bourke. 2021. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4985,7 +6354,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Anu J Prakash</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025109178/JOSTA2025109178.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -5460,7 +6828,7 @@ Zhao, H., H. Zhao, Y. Hu, S. Zhang, S. He, H. Zhang, and H. Zhai. 2022. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -5492,7 +6860,7 @@ Zhao, H., H. Zhao, Y. Hu, S. Zhang, S. He, H. Zhang, and H. Zhai. 2022. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -5524,7 +6892,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Anandhu S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025118B5B/JOSTA2025118B5B.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -6234,7 +7601,7 @@ Ye, C. 2018. <span>“Bibliometrical Analysis of International Big Data Research
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6266,7 +7633,7 @@ Ye, C. 2018. <span>“Bibliometrical Analysis of International Big Data Research
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6299,7 +7666,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Mohamed Aseemudheen M</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -6807,7 +8173,7 @@ Zhang, T., N.-F. Wang, H.-Y. Liu, Y.-Q. Zhang, and L.-Y. Yu. 2016. <span>“Soil
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6837,7 +8203,7 @@ Zhang, T., N.-F. Wang, H.-Y. Liu, Y.-Q. Zhang, and L.-Y. Yu. 2016. <span>“Soil
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6870,7 +8236,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Allan Thomas</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -7410,7 +8775,7 @@ Zulaikha, Y., E. Martono, and F. Himam. 2021. <span>“Perceptions of Students o
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -7441,7 +8806,7 @@ Zulaikha, Y., E. Martono, and F. Himam. 2021. <span>“Perceptions of Students o
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -7474,7 +8839,6 @@ which permits unrestricted use, distribution, and reproduction in any medium, pr
   <dc:creator>Sheeja K Raj</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -8036,7 +9400,7 @@ Zhang, Y., Z. Wang, Y. Lu, and L. Zuo. 2022. <span>“Biodiversity, Ecosystem Fu
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8066,7 +9430,7 @@ Zhang, Y., Z. Wang, Y. Lu, and L. Zuo. 2022. <span>“Biodiversity, Ecosystem Fu
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8098,7 +9462,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Durga A R</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -8907,7 +10270,7 @@ Zander, K. K., A. G. Drucker, L. Aluso, D. K. Mengistu, C. Fadda, C. Termote, an
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8935,7 +10298,7 @@ Zander, K. K., A. G. Drucker, L. Aluso, D. K. Mengistu, C. Fadda, C. Termote, an
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8967,7 +10330,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Gopika Somanath</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -9946,7 +11308,7 @@ Ziv, C., and E. Fallik. 2021. <span>“Postharvest Storage Techniques and Qualit
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -9979,7 +11341,7 @@ Ziv, C., and E. Fallik. 2021. <span>“Postharvest Storage Techniques and Qualit
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10009,7 +11371,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Pratheesh P Gopinath*</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -10696,7 +12057,8 @@ Table&nbsp;3: Regression analysis of the developed web application
 <h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
 <p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
 <p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
-<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts. </p><div style="page-break-after: always;"></div><p></p>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
+<div style="page-break-after: always;"></div>
 </section>
 <section id="conclusion" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
@@ -10707,7 +12069,7 @@ Table&nbsp;3: Regression analysis of the developed web application
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Acknowledgments
+Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10720,7 +12082,7 @@ Table&nbsp;3: Regression analysis of the developed web application
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Technical Details
+Technical Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10805,7 +12167,7 @@ Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Defi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10833,7 +12195,7 @@ Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Defi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10866,7 +12228,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Ashadevi S S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/Denny/JOSTA20250617172925171.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -11917,7 +13278,7 @@ Table&nbsp;8: Potential determinants of the delinquency rate – Tobit regressio
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Acknowledgments
+Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -12004,7 +13365,7 @@ Wydick, B. 1999. <span>“Can Social Cohesion Be Harnessed to Repair Market Fail
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Technical Details
+Technical Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -12017,7 +13378,7 @@ Wydick, B. 1999. <span>“Can Social Cohesion Be Harnessed to Repair Market Fail
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -12060,7 +13421,6 @@ Wydick, B. 1999. <span>“Can Social Cohesion Be Harnessed to Repair Market Fail
   <dc:creator>Dijee Bastian</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -13186,7 +14546,7 @@ Figure&nbsp;2: Performance of elite genotypes for seed yield,oil content and cap
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Acknowledgments
+Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -13305,7 +14665,7 @@ Zhang, Y. X., X. R. Zhang, Z. Che, L. H. Wang, W. L. Wei, and D. H. Li. 2013. <s
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -13355,7 +14715,6 @@ Zhang, Y. X., X. R. Zhang, Z. Che, L. H. Wang, W. L. Wei, and D. H. Li. 2013. <s
   <dc:creator>Mini V</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/AGRON/JOSTA615202501736.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -14618,7 +15977,7 @@ Table&nbsp;7: Effect of treatments on secondary and micronutrient status of soil
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Acknowledgments
+Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -14729,7 +16088,7 @@ Zhang, H., C. Chen, E. M. Gray, S. E. Boyd, H. Yang, and D. Zhang. 2016. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Technical Details
+Technical Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -14742,7 +16101,7 @@ Zhang, H., C. Chen, E. M. Gray, S. E. Boyd, H. Yang, and D. Zhang. 2016. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -14787,802 +16146,6 @@ Zhang, H., C. Chen, E. M. Gray, S. E. Boyd, H. Yang, and D. Zhang. 2016. <span>�
   <category>Agronomy</category>
   <guid>https://www.jostapubs.com/volume1/issue1/AGRON/JOSTA615202501736.html</guid>
   <pubDate>Thu, 19 Jun 2025 18:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala</title>
-  <dc:creator>Arshad N.</dc:creator>
-  <dc:creator>Aswathy Vijayan&lt;sup&gt;*&lt;/sup&gt;</dc:creator>
-  <dc:creator>Durga A. R.</dc:creator>
-  <dc:creator>T. Paul Lazarus</dc:creator>
-  <dc:creator>Pratheesh P. Gopinath</dc:creator>
-  <link>https://www.jostapubs.com/volume1/issue1/AGECONOMICS/JOSTA11CS1.html</link>
-  <description><![CDATA[ 
-
-
-<section class="josta-issue-banner" aria-label="Journal issue banner">
-  <div class="jib-wrap">
-
-
-    <div class="jib-cover">
-      <img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
-    </div>
-
-
-    <div class="jib-meta">
-      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
-
-      <h2 class="jib-subtitle anchored">
-        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
-        •
-        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
-        • 2025
-      </h2>
-
-      <p class="jib-line">
-        <span class="jib-label">ISSN (online)</span>
-        <span class="jib-value">
-          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
-            3107-6882
-          </a>
-        </span>
-      </p>
-
-      <p class="jib-line">
-        <span class="jib-label">License</span>
-        <span class="jib-value">
-          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
-            CC BY-NC-ND 4.0
-          </a>
-        </span>
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<style>
-  :root {
-    --j-navy:#0053ed;
-    --j-brown:#8b6a3a;
-    --j-green:#0b5a56;
-    --j-beige:#f8f3ea;
-  }
-
-  .josta-issue-banner {
-    background: linear-gradient(115deg, var(--j-beige), #ffffff);
-    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
-    padding: 1.8rem 1.4rem;
-    margin-bottom: 1.6rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  }
-
-  .jib-wrap {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    gap: 1.6rem;
-    align-items: center;
-  }
-
-  /* Cover image — NO ROUNDED CORNERS */
-  .jib-cover img {
-    display: block;
-    max-width: 120px;
-    height: auto;
-    border-radius: 0;      /* removed curve */
-    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-  }
-
-  .jib-journal-tag {
-    margin: 0 0 0.4rem 0;
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: var(--j-green);
-  }
-
-  .jib-subtitle {
-    margin: 0 0 0.7rem 0;
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--j-navy);
-    opacity: 0.85;
-  }
-
-  /* Volume/Issue links */
-  .jib-vi-link {
-    color: var(--j-navy);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .jib-vi-link:hover { text-decoration: underline; }
-
-  .jib-line {
-    margin: 0.15rem 0;
-    font-size: 0.95rem;
-    display: flex;
-    gap: 0.4rem;
-    align-items: baseline;
-    color: #333;
-  }
-
-  .jib-label {
-    font-weight: 600;
-    color: var(--j-navy);
-  }
-
-  /* ISSN link */
-  .jib-issn-link {
-    color: var(--j-navy);
-    text-decoration: none;
-  }
-  .jib-issn-link:hover { text-decoration: underline; }
-
-  /* License link */
-  .jib-license-link {
-    color: var(--j-green);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .jib-license-link:hover { text-decoration: underline; }
-
-  @media (max-width: 640px) {
-    .jib-wrap { flex-direction: row; align-items: flex-start; }
-    .jib-cover img { max-width: 90px; }
-    .jib-journal-tag { font-size: 1.05rem; }
-    .jib-subtitle { font-size: 0.9rem; }
-  }
-
-  @media (max-width: 480px) {
-    .jib-wrap { flex-direction: column; align-items: flex-start; }
-  }
-</style>
-
-
-
-
-<p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15689170.svg" class="img-fluid" alt="DOI"><img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
-<div style="text-align: left; margin-top: 1rem;">
-<p><span class="j-btn-row"> <a href="pdf/JOSTA11CS1.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
-<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
-</div>
-<style>
-.j-btn-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 1.2rem;
-  flex-wrap: nowrap;
-}
-
-/* PDF button */
-.j-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: .5rem;
-  font-family: "Segoe UI", Roboto, sans-serif;
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 0.6rem 1.2rem;
-  border-radius: 999px;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  background-color: #8b6a3a;
-  color: #fff;
-  transition: all 0.25s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-.j-btn:hover {
-  background-color: #6d532d;
-}
-
-/* Copy link style */
-.j-copy-link {
-  font-family: "Segoe UI", Roboto, sans-serif;
-  font-size: 0.95rem;
-  color: #1f345c;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  gap: .4rem;
-  cursor: pointer;
-  transition: color 0.25s ease;
-}
-.j-copy-link:hover {
-  color: #0b5a56;
-  text-decoration: underline;
-}
-
-/* Tooltip */
-.tooltiptext {
-  visibility: hidden;
-  background-color: #0b5a56;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 0.4rem 0.6rem;
-  position: absolute;
-  z-index: 1;
-  top: -36px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 0.8rem;
-}
-.j-copy-link:focus .tooltiptext,
-.j-copy-link:active .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-</style>
-<script>
-function copyCitation() {
-  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). [Article Title]. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article CS1. https://doi.org/10.5281/zenodo.15689170");
-  const tooltip = document.getElementById("tooltip");
-  tooltip.style.visibility = "visible";
-  tooltip.style.opacity = 1;
-  setTimeout(() => {
-    tooltip.style.visibility = "hidden";
-    tooltip.style.opacity = 0;
-  }, 1500);
-}
-</script>
-<!-- Hidden Citation Text -->
-<p><span id="citation-text" style="display: none;">Arshad, N., Vijayan, A., Durga, A. R., &amp; Paul Lazarus, T. (2025). Impact of COVID Lockdown on Price Volatility of Pineapple in Vazhakulam, Kerala. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15689170</span></p>
-<!-- JavaScript -->
-<script>
-  function copyCitation() {
-    const citation = document.getElementById("citation-text").innerText;
-    navigator.clipboard.writeText(citation);
-    
-    const tooltip = document.getElementById("tooltip");
-    tooltip.style.visibility = "visible";
-    tooltip.style.opacity = "1";
-    
-    setTimeout(() => {
-      tooltip.style.visibility = "hidden";
-      tooltip.style.opacity = "0";
-    }, 2000);
-  }
-</script>
-<!-- CSS Styling -->
-<style>
-.download-btn {
-  display: inline-flex;
-  align-items: center;
-  border: 2px solid #28a745;
-  background-color: transparent;
-  color: #28a745;
-  padding: 8px 14px;
-  border-radius: 6px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-.download-btn:hover {
-  background-color: #28a745;
-  color: white;
-}
-.download-btn i {
-  margin-right: 6px;
-}
-
-.copy-btn {
-  font-size: 0.9rem;
-  padding: 8px 14px;
-  border: 1px solid black;
-  background-color: white;
-  color: black;
-  border-radius: 6px;
-  cursor: pointer;
-  position: relative;
-}
-.copy-btn #tooltip {
-  visibility: hidden;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 4px;
-  padding: 2px 6px;
-  position: absolute;
-  z-index: 1;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.75rem;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-</style>
-<section id="introduction" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
-<p>Price volatility is one of the significant sources of risk in agriculture especially in fruits and vegetable production. It is defined as the directionless fluctuations in prices that cannot be predicted with market fundamentals <span class="citation" data-cites="prakash2011">(Prakash 2011)</span>. Reasons for price volatility include supply-side shocks due to severe weather events or diseases, variations in demand, distortions in trade policies and supply chain disruptions <span class="citation" data-cites="gilbert2010 ait_sidhoum2016">(Gilbert and Morgan 2010; Ait Sidhoum and Serra 2016)</span>. The increasing unpredictability of changing economic and natural environment <span class="citation" data-cites="tothova2011">(Tothova 2011)</span> and seasonal nature of the fruits and vegetables also amplifies price volatility. Moreover, poor shelf life of horticulture crops increases risk and leads to unstable markets <span class="citation" data-cites="cook2011">(Cook 2011)</span>.</p>
-<p>Vazhakulam in Ernakulam district has become the major hub for pineapple cultivation in Kerala <span class="citation" data-cites="joy2013">(Joy 2013)</span>. Owing to its unique feature Vazhakulam pineapple has got Geographical indication tag also. Pineapple produced from the region has a long value chain and is marketed to various states like Karnataka, Tamil Nadu, Maharashtra, Gujarat, Madhya Pradesh, Rajasthan, Andhra Pradesh, Delhi mainly through road ways. Limited quantity of fresh pineapple is being exported to Gulf countries in special packings <span class="citation" data-cites="pga2018">(Pineapple Growers Association 2018)</span>.</p>
-<p>Pineapple is a globally traded fruit crop from Kerala that had always been subject to price volatility. It is mainly because of the seasonal variations in demand for pineapple in markets. Climate change induced low production, seasonal disruptions in demand and supply are the main factors that affect price volatility. It was noted that the COVID induced lock down had severely affected the pineapple prices and farmer suicides were reported during the period. This pandemic had a significant negative impact on all sectors of human life, including the economy, food security and health <span class="citation" data-cites="saadat2020">(Saadat, Rawtani, and Hussain 2020)</span>. According to <span class="citation" data-cites="jribi2020">(Jribi et al. 2020)</span>, the pandemic had the potential to hinder the progress towards meeting several Sustainable Development Goals (United Nations SDG 2015-2030), in particular, SDG 2 (End Hunger) and SDG 12 (Ensure sustainable consumption and production patterns). There were widespread disruptions in agriculture supply chain at the beginning of the lockdown <span class="citation" data-cites="fao2021">(FAO 2021)</span>. It further lead to the scarcity of labour, disrupted supply chains and lack of demand and logistics restrictions in the agricultural sector <span class="citation" data-cites="cariappa2021">(Cariappa et al. 2021)</span>.</p>
-<p>Although the price volatility of different agricultural commodities has been researched extensively in recent periods <span class="citation" data-cites="gilbert2010 sabu2019 yu2020">(Gilbert and Morgan 2010; Sabu, Kuruvila, and Manojkumar 2019; Yu et al. 2020)</span>, a lack of knowledge exists in the pineapple sector of Kerala. The knowledge about the price risk and volatility associated with the pineapple sector is important for pineapple farmers during the pandemic. This information is critical for developing suitable price risk management strategies, for coping up with similar situations. Hence the present study aims to analyse the price behaviour of Pineapple in Kerala.</p>
-<div style="page-break-after: always;"></div>
-</section>
-<section id="materials-and-methods" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="materials-and-methods"><span class="header-section-number">2</span> Materials and methods</h2>
-<section id="study-area" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="study-area"><span class="header-section-number">2.1</span> Study area</h3>
-<p>The study was conducted in Ernakulam district of Kerala. The study area was selected purposively as it has the largest area under pineapple cultivation in Kerala. Out of the total area under pineapple in Kerala, 58.73 per cent lies in Ernakulam district which produces about 63 per cent of the production of the state in the year <span class="citation" data-cites="gok2020a">(Government of Kerala 2020a)</span>. From the district, Muvattupuzha Block Panchayath was purposively selected based on the maximum area under pineapple cultivation. Three pineapple-growing grama panchayats viz., Avoly, Manjalloor, and Kalloorkkad were selected from the block panchayat randomly. Forty farmers each were randomly selected from these grama panchayaths making a total sample size of 120 farmers.</p>
-</section>
-<section id="sampling-and-data-collection" class="level3" data-number="2.2">
-<h3 data-number="2.2" class="anchored" data-anchor-id="sampling-and-data-collection"><span class="header-section-number">2.2</span> Sampling and data collection</h3>
-<p>The study used time series data of daily prices of pineapple from January 2017 to September 2022 collected from Vazhakulam Pineapple Growers Association(PGA). Price collected can be aptly considered as representative price as most of the pineapple farmers are organized under PGA and trade pineapple through them. The prices represent the farm gate price received by the farmers and it is easily available in the website of Pineapple Growers Association<span class="citation" data-cites="pga2018">(Pineapple Growers Association 2018)</span>. Data on daily prices of pineapple from January 2017 to March 2020 was taken as pre-COVID period and from April 2020 to September 2022 is taken as COVID-post-COVID period. January 2017 to September 2022 was taken as the overall period.</p>
-</section>
-<section id="garch-models" class="level3" data-number="2.3">
-<h3 data-number="2.3" class="anchored" data-anchor-id="garch-models"><span class="header-section-number">2.3</span> GARCH models</h3>
-<p>The uncertainty surrounding prospective price fluctuation is referred to as volatility. There are different methods to estimate volatility such as historical moving average, Exponential Weighted Moving Average (EWMA), Auto Regressive Conditional Heteroscedasticity (ARCH) introduced by <span class="citation" data-cites="engle1982">Engle (1982)</span> and Generalized Auto-Regressive Conditional Heteroscedasticity (GARCH) introduced by <span class="citation" data-cites="bollerslev1986">Bollerslev (1986)</span>.</p>
-<p><span class="citation" data-cites="sekhar2004">Sekhar (2004)</span> compared the price volatility of different agricultural commodities in major Indian and international markets by using GARCH model. This model provided evidence on whether the estimated volatility is statistically significant or not. It also measures the persistence of volatility <span class="citation" data-cites="sabu2015">(Sabu 2015)</span>.</p>
-<p>The ARCH process introduced by Engle (1982) explicitly recognizes the difference between the unconditional and the conditional variance allowing the latter to change over time as a function of past errors. The GARCH model of <span class="citation" data-cites="bollerslev1986">Bollerslev (1986)</span> is an important type of time series model for heteroscedastic data. It explicitly models a time-varying conditional variance as a linear function of past squared residuals and of its past values. GARCH models are an extension of the ARCH models first introduced by Engle (1982) as it basically introduces a lagged conditional variance to the information set of an ARCH model. An ARCH model applied to price volatility basically assumes that a dependent variable of commodity prices, <img src="https://latex.codecogs.com/png.latex?P_i">, is generated by the autoregressive process:</p>
-<p><span id="eq-archmean"><img src="https://latex.codecogs.com/png.latex?p_i%20=%20%5Cphi_0%20+%20%5Csum_%7Bi=1%7D%5E%7Bk%7D%20%5Cphi_%7B1%7D%20P_%7Bt-1%7D%20+%20%5Cvarepsilon_t%20%5Ctag%7B1%7D"></span></p>
-<p>To generate the ARCH<img src="https://latex.codecogs.com/png.latex?(p)"> process, we express the conditional variance of the above expression as a function of its past values squared:</p>
-<p><span id="eq-archdist"><img src="https://latex.codecogs.com/png.latex?%5Cvarepsilon_t%20%5Cmid%20%5COmega_%7Bt-1%7D%20%5Csim%20N(0,%20h)%20%5Ctag%7B2%7D"></span></p>
-<p><span id="eq-archvariance"><img src="https://latex.codecogs.com/png.latex?h_t%5E2%20=%20%5Cdelta%20+%20%5Csum_%7Bi=1%7D%5E%7Bp%7D%20%5Calpha_i%20%5Cvarepsilon_%7Bt-i%7D%5E2%20%5Ctag%7B3%7D"></span></p>
-<p>Where, <img src="https://latex.codecogs.com/png.latex?h_t%5E2"> denotes the conditional variance of the information set <img src="https://latex.codecogs.com/png.latex?%5COmega_%7Bt-1%7D"> that is available at time <img src="https://latex.codecogs.com/png.latex?t-1">, and <img src="https://latex.codecogs.com/png.latex?%5Cdelta%20%3E%200">, <img src="https://latex.codecogs.com/png.latex?%5Calpha_i%20%5Cgeq%200"> for all <img src="https://latex.codecogs.com/png.latex?i%20=%202%20%5Cldots%20p"> and <img src="https://latex.codecogs.com/png.latex?%5Calpha_1%20+%20%5Calpha_2%20+%20%5Ccdots%20+%20%5Calpha_m%20%3C%201">, which are necessary to make <img src="https://latex.codecogs.com/png.latex?%5Cvarepsilon_t%5E2"> positive and covariance stationary.</p>
-<p>The generalization of the ARCH process given in Equation&nbsp;3 is as follows <span class="citation" data-cites="bollerslev1986">(Bollerslev 1986)</span>:</p>
-<p><span id="eq-archboller"><img src="https://latex.codecogs.com/png.latex?%0Ah_t%5E2%20=%20%5Cdelta%20+%20%5Csum_%7Bi=1%7D%5E%7Bp%7D%20%5Calpha_i%20%5Cvarepsilon_%7Bt-i%7D%5E2%20+%20%5Csum_%7Bi=1%7D%5E%7Bq%7D%20%5Cbeta_i%20h_%7Bt-i%7D%5E2%0A%5Ctag%7B4%7D"></span></p>
-<p>The GARCH model in Equation&nbsp;4 depicts the conditional variance of a price series to depend on a constant, past news about volatility (i.e.&nbsp;the <img src="https://latex.codecogs.com/png.latex?%5Cvarepsilon_%7Bt-1%7D%5E2"> terms). Including the lagged conditional variances might capture the “adaptive learning” phenomenon. The benefit of the GARCH specification is that it contains fewer coefficient restrictions. For a well-defined variance and covariance function: <img src="https://latex.codecogs.com/png.latex?%5Cdelta,%20%5Calpha%20%3E%200;%20%5Cbeta%20%5Cgeq%200">, and <img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta%20%3C%201">.</p>
-<p>Persistence of volatility in the commodity series is measured by the sum of <img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta">. Downward price changes are often followed by higher volatility than upward movements of the same magnitude <span class="citation" data-cites="herrera2008">(Herrera and Espinel 2008)</span>.</p>
-<p>Models aim to define volatility clustering and effects such as kurtosis, forming the basis of dynamic volatility models.</p>
-<p>The key is that volatility, rather than remaining constant or moving in a monotonic manner over time, is dependent on past realisations of the associated volatility i.e.&nbsp;the error variance is related to the squared error terms over several periods in the past <span class="citation" data-cites="singh2020">(Singh 2020)</span>.</p>
-<p>The ARCH-GARCH model was used to analyse the volatility and it was estimated using <code>R</code> software <span class="citation" data-cites="rcoreteam2023">(R Core Team 2023)</span>. From the different models, Standard GARCH (1,1) (SGARCH) model was identified as the best model for this study based on the smallest Akaike Information Criteria (AIC) and Bayesian Information Criteria (BIC) values <span class="citation" data-cites="lestari2022">(Lestari et al. 2022)</span>. This model distinguishes the predictable and unpredictable components of prices and also allows the variance of the unpredictable element to be time-varying. Such time varying conditional variances were estimated by using the SGARCH (1,1) model <span class="citation" data-cites="gujarati2009">(Gujarati, Porter, and Gunasekhar 2009)</span> and it was used to identify periods of high volatility.</p>
-<p>The GARCH(1,1) model is specified as:</p>
-<p><span id="eq-garchmodel"><img src="https://latex.codecogs.com/png.latex?Y_%7Bit%7D%20=%20%5Calpha_0%20+%20%5Cbeta_1%20P_%7Bt-1%7D%20+%20%5Cbeta_2%20P_%7Bt-2%7D%20+%20%5Cvarepsilon_t%20%5Cquad%20;%20%5Cquad%20t%20=%201,%202,%20%5Cldots,%20t%20%5Ctag%7B5%7D"></span></p>
-<p><span id="eq-garchVariance"><img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2_%7Bi,t%7D%20=%20%5Ctheta%20+%20%5Calpha_i%20%5Cvarepsilon%5E2_%7Bi,t-1%7D%20+%20%5Cbeta_i%20%5Csigma%5E2_%7Bi,t-1%7D%20%5Ctag%7B6%7D"></span></p>
-<p>Where <img src="https://latex.codecogs.com/png.latex?P_%7Bt-1%7D"> is the price at time <img src="https://latex.codecogs.com/png.latex?t-1"> and <img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2_%7Bi,t%7D"> is the conditional error variance at time <img src="https://latex.codecogs.com/png.latex?t">. The term <img src="https://latex.codecogs.com/png.latex?(%5Calpha_i%20+%20%5Cbeta_i)"> indicates the degree of persistence in price volatility. If the sum <img src="https://latex.codecogs.com/png.latex?(%5Calpha_i%20+%20%5Cbeta_i)"> is close to 1, it implies a high level of volatility persistence <span class="citation" data-cites="devi2015">(Devi, Srikala, and Ananda 2015)</span>.</p>
-<p>The general form of a GARCH(<img src="https://latex.codecogs.com/png.latex?p">, <img src="https://latex.codecogs.com/png.latex?q">) model is:</p>
-<p><span id="eq-garchpq"><img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2_%7Bi,t%7D%20=%20%5Comega%20+%20%5Csum_%7Bi=1%7D%5E%7Bp%7D%20%5Cbeta_i%20%5Csigma%5E2_%7Bt-i%7D%20+%20%5Csum_%7Bi=1%7D%5E%7Bq%7D%20%5Calpha_i%20%5Cvarepsilon%5E2_%7Bt-i%7D%20%5Ctag%7B7%7D"></span></p>
-<p>Equation Equation&nbsp;5) captures the autoregressive part of the price model, while Equations Equation&nbsp;6 and Equation&nbsp;7 describe the time-varying variance component.</p>
-</section>
-</section>
-<section id="results" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="results"><span class="header-section-number">3</span> Results</h2>
-<section id="average-monthly-prices-behaviour" class="level3" data-number="3.1">
-<h3 data-number="3.1" class="anchored" data-anchor-id="average-monthly-prices-behaviour"><span class="header-section-number">3.1</span> Average monthly prices behaviour</h3>
-<p>In Vazhakulam, fresh pineapple is harvested at two stages: as green pineapple (harvested at 115 days after the ethephon application) and as ripe pineapple (harvested at 120–125 days after the ethephon application).</p>
-<p>The present study analyzed the price volatility of both ripe and green pineapple using time series data of daily prices from January 2017 to September 2022. For analytical purposes, the data set was divided into the following three periods:</p>
-<ul>
-<li>Pre-COVID period: January 2017 to March 2020<br>
-</li>
-<li>COVID–Post-COVID period: April 2020 to September 2022</li>
-</ul>
-<p>The average monthly prices of both green and ripe pineapple during the pre-COVID and COVID–post-COVID periods are presented in Figure&nbsp;1 (a) and Figure&nbsp;1 (b), respectively.</p>
-<div id="fig-monthlyprice" class="quarto-layout-panel">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-monthlyprice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-monthlyprice" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-precovid" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-precovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/figures/aswathyImages/figure1.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-precovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(a) Pre-COVID period
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-monthlyprice" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-postcovid" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-postcovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/figures/aswathyImages/figure2.png" class="img-fluid figure-img" data-ref-parent="fig-monthlyprice">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-postcovid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(b) COVID-Post-COVID period
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-monthlyprice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Average monthly prices (Rs./kg) of both green and ripe pineapple in Vazhakulam market during pre-covid and post-covid periods
-</figcaption>
-</figure>
-</div>
-<p>Price of pineapple usually stood high during the summer months of April and May coinciding with summer and one-month long Ramdan fasting. So, many farmers targeted the harvest of the crop during these months. But in April 2020, during the first lockdown period due to strict restrictions, many pineapple plantations were abandoned without harvesting. This was mainly due to the unavailability of migrant labours (as they went back to their hometown fearing the disease). So, a steep decline in price was observed during that period. Prices started increasing as the restrictions were lifted gradually. Again in 2021, there was price drop in the months of May and June due to another lockdown and restrictions.</p>
-<p>The price drop was to the level of Rs. 10/kg, which put farmers in distress. During the survey, many farmers reported that the price of pineapple had even dipped to Rs. 5/kg during the COVID period as they were not able to transport the produce to the Vazhakulam pineapple market. So, they sold produce in nearby markets. Many of the plantations were kept unharvested and harvested fruits fetched only very low price. Restrictions in interstate and intra state transport, fear of spread of virus through the fruits etc. worsened the situation. Many farmers terminated their lease contracts with landowners before expiry due to financial crisis and were unable to pay the lease amount and continue farming operations. Farmers reported that the reduction in the cultivated area had impacted total pineapple production from Vazhakulam. As the restrictions were gradually lifted towards the end of 2021, situation became normal and price hike was observed due to a reduced supply of pineapple to the market, with the demand for pineapple was same as earlier.</p>
-</section>
-<section id="estimation-of-volatility-using-garch" class="level3" data-number="3.2">
-<h3 data-number="3.2" class="anchored" data-anchor-id="estimation-of-volatility-using-garch"><span class="header-section-number">3.2</span> Estimation of volatility using GARCH</h3>
-<p>GARCH models are very popular in the analysis of price volatility. Standard GARCH(1,1) model was fitted to study the volatility in the prices of pineapple. The estimates of GARCH(1,1) model for ripe pineapple and green pineapple are presented in Table&nbsp;1 and Table&nbsp;2.</p>
-<div id="tbl-tblgarch" class="bordered quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tblgarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: GARCH(1,1) estimates for ripe pineapple prices in Vazhakulam market. Significance levels: * <img src="https://latex.codecogs.com/png.latex?p%20%3C%200.05">, ** <img src="https://latex.codecogs.com/png.latex?p%20%3C%200.01">
-</figcaption>
-<div aria-describedby="tbl-tblgarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="table-bordered caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 24%">
-<col style="width: 25%">
-<col style="width: 24%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Pre-COVID</th>
-<th>COVID-post COVID</th>
-<th>Overall</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><img src="https://latex.codecogs.com/png.latex?%5Cmu"></td>
-<td>24.078<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>13.458<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>23.476<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-</tr>
-<tr class="even">
-<td><img src="https://latex.codecogs.com/png.latex?%5Comega"></td>
-<td>1.309<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.141<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.576<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-</tr>
-<tr class="odd">
-<td><img src="https://latex.codecogs.com/png.latex?%5Calpha_1"></td>
-<td>0.412<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.221<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.347<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-</tr>
-<tr class="even">
-<td><img src="https://latex.codecogs.com/png.latex?%5Cbeta_1"></td>
-<td>0.164<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B*%7D%7D"></td>
-<td>0.639<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.409<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-</tr>
-<tr class="odd">
-<td><img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta"></td>
-<td>0.576</td>
-<td>0.860</td>
-<td>0.756</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<div id="tbl-tblgreengarch" class="bordered quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tblgreengarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: GARCH(1,1) estimates for green pineapple prices in Vazhakulam market. Significance levels: * <img src="https://latex.codecogs.com/png.latex?p%20%3C%200.05">, ** <img src="https://latex.codecogs.com/png.latex?p%20%3C%200.01">
-</figcaption>
-<div aria-describedby="tbl-tblgreengarch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="table-bordered caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 24%">
-<col style="width: 25%">
-<col style="width: 24%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Pre-COVID</th>
-<th>COVID-post COVID</th>
-<th>Overall</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><img src="https://latex.codecogs.com/png.latex?%5Cmu"></td>
-<td>19.399<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>14.133<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>19.776<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-</tr>
-<tr class="even">
-<td><img src="https://latex.codecogs.com/png.latex?%5Comega"></td>
-<td>1.044<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.069<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.254<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-</tr>
-<tr class="odd">
-<td><img src="https://latex.codecogs.com/png.latex?%5Calpha_1"></td>
-<td>0.489<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.118<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.261<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-</tr>
-<tr class="even">
-<td><img src="https://latex.codecogs.com/png.latex?%5Cbeta_1"></td>
-<td>0.124<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B*%7D%7D"></td>
-<td>0.798<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-<td>0.584<img src="https://latex.codecogs.com/png.latex?%7B%5E%7B**%7D%7D"></td>
-</tr>
-<tr class="odd">
-<td><img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta"></td>
-<td>0.613</td>
-<td>0.916</td>
-<td>0.845</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<p>The results showed that the GARCH(1,1) model estimates for ripe and green pineapple prices were significant for the pre-COVID, COVID and post-COVID, and overall periods. It indicated that the volatility in the prices of pineapple was persistent despite the COVID-induced lockdown.</p>
-<p>It is evident from Table&nbsp;1 that the sum of coefficients <img src="https://latex.codecogs.com/png.latex?%5Calpha"> and <img src="https://latex.codecogs.com/png.latex?%5Cbeta"> for the prices of ripe pineapple was higher in the COVID-post-COVID period, followed by the overall period. This indicated higher volatility in the prices of ripe pineapple during the COVID-post-COVID period. A similar trend was observed in the price of green pineapple (Table&nbsp;2). This might be related to the reduced demand for pineapple in the market as a result of changes in the consumption behaviour of people during the pandemic. A study conducted by <span class="citation" data-cites="yu2020">Yu et al. (2020)</span> on the impact of COVID-19 on the prices of major food products in China found that rice and wheat showed no significant changes in prices after the COVID lockdown, whereas prices of cabbage showed higher volatility.</p>
-<p>Among the green and ripe pineapple prices, higher volatility was observed in the prices of green pineapple as compared to ripe pineapple for all the periods—pre-COVID, COVID-post-COVID, and overall. The value of the <img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta"> term for green pineapple prices was close to one (0.916) during the post-COVID period, which indicated higher volatility in the prices of green pineapple after the lockdown. This could be because the effect of transportation restrictions during the lockdown on green pineapple was greater as it was marketed to North India, whereas mature ripe pineapple was marketed in Kerala and nearby states. In a similar attempt, while studying the effect of the COVID-19 pandemic on the prices of rice, chilli, and garlic in Indonesia, it was found that due to the government’s different social assistance programs, the impact of COVID-19 on the prices of rice was negligible, whereas the prices of chilli and garlic had decreased due to the pandemic. The study also found that the effect of COVID-19 on the prices of horticultural products was higher as compared to that on the prices of food grains <span class="citation" data-cites="zahraturrahmi2021">(Zahraturrahmi et al. 2021)</span>.</p>
-</section>
-<section id="volatility-clustering" class="level3" data-number="3.3">
-<h3 data-number="3.3" class="anchored" data-anchor-id="volatility-clustering"><span class="header-section-number">3.3</span> Volatility clustering</h3>
-<p>To provide more detailed insights in to the volatility in price of pineapple, the volatility clustering in daily prices of both green and ripe pineapple for pre-COVID, COVID-post-COVID and overall periods are shown in Figure&nbsp;2 given below. These figures clearly underpin the estimated results of GARCH model.</p>
-<div id="fig-volatility" class="quarto-layout-panel">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-volatility-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-prevolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-prevolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/figures/aswathyImages/volatility1.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-prevolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(a) Pre-COVID period green pineapple
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-prevolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-prevolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/figures/aswathyImages/volatility2.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-prevolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(b) Pre-COVID period ripe pineapple
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-cpocvolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-cpocvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/figures/aswathyImages/volatility3.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cpocvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(c) COVID-post-COVID period green pineapple
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-cpocvolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-cpocvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/figures/aswathyImages/volatility4.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cpocvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(d) COVID-post-COVID period ripe pineapple
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-overallvolgreen" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-overallvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/figures/aswathyImages/volatility5.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-overallvolgreen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(e) Overall period green pineapple
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-volatility" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-overallvolripe" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-overallvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://www.jostapubs.com/volume1/issue1/AGECONOMICS/figures/aswathyImages/volatility6.png" class="img-fluid figure-img" data-ref-parent="fig-volatility">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-overallvolripe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(f) Overall period ripe pineapple
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-volatility-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Volatility clustering in daily prices of green and ripe pineapple during pre-COVID, COVID-post-COVID, and overall periods.
-</figcaption>
-</figure>
-</div>
-<p>The Figure&nbsp;2 indicated that there was volatility in the prices of pineapple. But the volatility was more prominent during the COVID-post-COVID period. A lowest price of Rs.10 per kg was realized during the COVID period and it recovered gradually to Rs.60 per kg during the post-COVID period. According to Pineapple Growers Association Kerala, the farm gate price had come down to Rs.10 per kg compared to Rs.40 in the previous year due to lockdown <span class="citation" data-cites="kumar2020">(Kumar 2020)</span>. Thus, the pineapple farmers were in distress and they were unable to pay off their debts. There was also a report of farmer suicide due to financial losses in pineapple cultivation <span class="citation" data-cites="gok2020b">(Government of Kerala 2020b)</span>.</p>
-<p>In a similar attempt, <span class="citation" data-cites="kaur2021">(Kaur 2021)</span> in her study observed persistence of volatility in the prices of cereals, pulses and fruits before and after COVID-19. <span class="citation" data-cites="arumugam2020">(Arumugam, Kanagavalli, and Manida 2020)</span> revealed that the problem of labour shortage caused by a fear of viral transmission led to the wastage of harvested commodities, primarily fruits and vegetables, and also demand reduction of produce in the market. In a study conducted by <span class="citation" data-cites="pandya2021">(Pandya et al. 2021)</span>, the prices of all agricultural items dropped by about 70 percent due to a rapid drop in demand and an excess supply of farm products. According to <span class="citation" data-cites="hossain2020">(Hossain et al. 2020)</span>, COVID-19 not only affected physical health but also affected the mental health of farmers.</p>
-</section>
-</section>
-<section id="discussion" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="discussion">Discussion</h2>
-<p>The present study highlights the significant volatility in pineapple prices across pre-COVID, COVID-post-COVID, and overall periods in the Vazhakulam market. Results from the GARCH(1,1) model indicated that both green and ripe pineapple prices experienced persistent volatility, with a pronounced increase during the COVID-post-COVID period. This was evident from the higher <img src="https://latex.codecogs.com/png.latex?%5Calpha%20+%20%5Cbeta"> values observed, especially for green pineapple, suggesting a strong memory in the price volatility process during this period.</p>
-<p>Several factors contributed to this heightened volatility. The COVID lockdowns imposed transport and logistics constraints and disrupted supply chains which caused a temporary collapse in market demand. This was reflected in steep price drops, with the price of pineapple falling as low as Rs 10 per kg during the lockdown, as reported by the Pineapple Growers Association <span class="citation" data-cites="kumar2020">(Kumar 2020)</span>. The inability to harvest or transport produce due to labour shortages further aggravated the situation <span class="citation" data-cites="arumugam2020">(Arumugam, Kanagavalli, and Manida 2020)</span>.</p>
-<p>The findings are consistent with similar studies on other horticultural commodities. <span class="citation" data-cites="kaur2021">(Kaur 2021)</span> found continued volatility in food prices post-COVID, and <span class="citation" data-cites="pandya2021">(Pandya et al. 2021)</span> noted an average price drop of 70% in farm produce during the early pandemic phase. Moreover, the psychological and financial stress induced by the pandemic led to cases of farmer distress and suicide, further underlining the socioeconomic impact <span class="citation" data-cites="hossain2020">(Hossain et al. 2020)</span>.</p>
-<p>It was also evident that green pineapple prices were more volatile than ripe ones, potentially due to their greater dependence on inter-state transport, especially to North Indian markets. These insights underscore the vulnerability of perishable commodity sectors to external shocks and reinforce the need for effective price risk management, timely market intelligence, and supportive agricultural policy interventions.</p>
-<div style="page-break-after: always;"></div>
-</section>
-<section id="conclusion" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Pineapple cultivation remains a remunerative agricultural activity for many farmers in Kerala, particularly because it is one of the major fruit crops transported from the state to other parts of India. This study examined the price volatility in the Vazhakulam pineapple market during the pre-COVID, COVID-post-COVID, and overall periods. Findings revealed that pineapple farmers in Kerala have historically faced frequent price fluctuations, with significantly heightened volatility observed during the COVID-post-COVID period. This increase was primarily attributed to transportation restrictions and a fall in market demand due to the pandemic.</p>
-<p>These results have important implications for policymakers. To stabilize the pineapple market, there is a need to develop more robust price risk management mechanisms. Although the Government of Kerala has fixed a base price of Rs 15 per kg for pineapple <span class="citation" data-cites="gok2020b">(Government of Kerala 2020b)</span>, the study found the average cost of production to be Rs 17.33 per kg. Therefore, it is recommended that the base price be revised to at least Rs 20–22 per kg to ensure profitability. The findings highlight the need for targeted policy support and risk management strategies to stabilize pineapple marketsin Kerala and protect farmer livelihoods during times of crisis.</p>
-<div class="callout callout-style-default callout-note no-icon callout-titled" title="Acknowledgments">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Acknowledgments
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The authors gratefully acknowledge the support and encouragement provided by Kerala Agricultural University. They also sincerely thank the respondent farmers for their valuable time and cooperation during the course of the study.</p>
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-</section>
-<section id="references" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
-<div id="ref-ait_sidhoum2016" class="csl-entry">
-Ait Sidhoum, A., and T. Serra. 2016. <span>“Volatility Spillovers in the Spanish Food Marketing Chain: The Case of Tomato.”</span> <em>Agribusiness</em> 32 (1): 45–63.
-</div>
-<div id="ref-arumugam2020" class="csl-entry">
-Arumugam, D. U., D. G. Kanagavalli, and M. Manida. 2020. <span>“COVID-19: Impact of Agriculture in India.”</span> <em>Aegaeum Journal</em> 8 (5): 480–88.
-</div>
-<div id="ref-bollerslev1986" class="csl-entry">
-Bollerslev, Tim. 1986. <span>“Generalized Autoregressive Conditional Heteroskedasticity.”</span> <em>Journal of Econometrics</em> 31 (3): 307–27. https://doi.org/<a href="https://doi.org/10.1016/0304-4076(86)90063-1">https://doi.org/10.1016/0304-4076(86)90063-1</a>.
-</div>
-<div id="ref-cariappa2021" class="csl-entry">
-Cariappa, A. A., K. K. Acharya, C. A. Adhav, R. Sendhil, and P. Ramasundaram. 2021. <span>“Impact of COVID-19 on the Indian Agricultural System: A 10-Point Strategy for Post-Pandemic Recovery.”</span> <em>Outlook on Agriculture</em> 50 (1): 26–33.
-</div>
-<div id="ref-cook2011" class="csl-entry">
-Cook, R. L. 2011. <span>“Fundamental Forces Affecting US Fresh Produce Growers and Marketers.”</span> <em>Choices</em> 26 (4). <a href="https://www.choicesmagazine.org/choices-magazine/submitted-articles/fundamental-forces-affecting-us-fresh-produce-growers-and-marketers">https://www.choicesmagazine.org/choices-magazine/submitted-articles/fundamental-forces-affecting-us-fresh-produce-growers-and-marketers</a>.
-</div>
-<div id="ref-devi2015" class="csl-entry">
-Devi, I. B., M. Srikala, and T. Ananda. 2015. <span>“Price Volatility in Major Chilli Markets of India.”</span> <em>Indian Journal of Economics and Development</em> 3 (3): 194–98.
-</div>
-<div id="ref-engle1982" class="csl-entry">
-Engle, Robert F. 1982. <span>“Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation.”</span> <em>Econometrica</em> 50 (4): 987–1007. <a href="https://doi.org/10.2307/1912773">https://doi.org/10.2307/1912773</a>.
-</div>
-<div id="ref-fao2021" class="csl-entry">
-FAO. 2021. <span>“Agricultural Trade and Policy Responses During the First Wave of COVID-19 Pandemic in 2020.”</span> <a href="http://www.fao.org/3/cb4553en/cb4553en.pdf">http://www.fao.org/3/cb4553en/cb4553en.pdf</a>.
-</div>
-<div id="ref-gilbert2010" class="csl-entry">
-Gilbert, C. L., and C. W. Morgan. 2010. <span>“Food Price Volatility.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 365 (1554): 3023–34.
-</div>
-<div id="ref-gok2020a" class="csl-entry">
-Government of Kerala. 2020a. <span>“Agricultural Statistics 2018-19.”</span> <a href="http://www.ecostat.kerala.gov.in/images/pdf/publications/Agriculture/data/2018-19/agriculture_statistics_2018_19.pdf">http://www.ecostat.kerala.gov.in/images/pdf/publications/Agriculture/data/2018-19/agriculture_statistics_2018_19.pdf</a>.
-</div>
-<div id="ref-gok2020b" class="csl-entry">
-———. 2020b. <span>“Kerala Farm-Fresh Pazham Pachakkari Base Price.”</span> <a href="https://keralaagriculture.gov.in/en/2021/09/13/base-price-scheme/">https://keralaagriculture.gov.in/en/2021/09/13/base-price-scheme/</a>.
-</div>
-<div id="ref-gujarati2009" class="csl-entry">
-Gujarati, D. N., D. C. Porter, and S. Gunasekhar. 2009. <em>Basic Econometrics</em>. New Delhi: Tata McGraw-Hill Education Private Limited.
-</div>
-<div id="ref-herrera2008" class="csl-entry">
-Herrera, P., and R. Espinel. 2008. <span>“Price Volatility and Efficiency of Ecuador’s Agricultural Rural Markets.”</span> <a href="https://scholar.google.com/scholar?cluster=16437759094522538090">https://scholar.google.com/scholar?cluster=16437759094522538090</a>.
-</div>
-<div id="ref-hossain2020" class="csl-entry">
-Hossain, M. M., N. Purohit, R. Sharma, S. Bhattacharya, E. L. J. McKyer, and P. Ma. 2020. <span>“Suicide of a Farmer Amid COVID-19 in India: Perspectives on Social Determinants of Suicidal Behavior and Prevention Strategies.”</span> https://doi.org/<a href="https://doi.org/10.31235/osf.io/ekam3">https://doi.org/10.31235/osf.io/ekam3</a>.
-</div>
-<div id="ref-joy2013" class="csl-entry">
-Joy, P. P. 2013. <span>“Pineapple Sector in Kerala: Status, Opportunities, Challenges and Stakeholders.”</span> <a href="http://www.kau.in/sites/default/files/documents/production_technology_for_vazhakulam_pineapple_mauritius.pdf">http://www.kau.in/sites/default/files/documents/production_technology_for_vazhakulam_pineapple_mauritius.pdf</a>.
-</div>
-<div id="ref-jribi2020" class="csl-entry">
-Jribi, S., H. Ben Ismail, D. Doggui, and H. Debbabi. 2020. <span>“COVID-19 Virus Outbreak Lockdown: What Impacts on Household Food Wastage?”</span> <em>Environment, Development and Sustainability</em> 22 (5): 3939–55.
-</div>
-<div id="ref-kaur2021" class="csl-entry">
-Kaur, G. 2021. <span>“Empirical Study of Price Volatility of Staple Foodgrains Commodities During COVID 19 in India by GARCH Model Using CPI.”</span> <em>Global Journal of Enterprise Information System</em> 13 (1): 9–18.
-</div>
-<div id="ref-kumar2020" class="csl-entry">
-Kumar, S. V. 2020. <span>“Losses Due to COVID Crisis Claim Life of a Pineapple Farmer in Kerala.”</span>
-</div>
-<div id="ref-lestari2022" class="csl-entry">
-Lestari, P. E., W. D. S. Prajanti, W. Wibawanto, and F. Adzim. 2022. <span>“ARCH-GARCH Analysis: An Approach to Determine the Price Volatility of Red Chilli.”</span> <em>Journal of Agribusiness and Rural Development Research</em> 8 (1): 90–105.
-</div>
-<div id="ref-pandya2021" class="csl-entry">
-Pandya, N., D. Veluguri, A. Roy, P. Prabhakaran, and L. Jaacks. 2021. <span>“Economic Impact of the 2020 COVID-19 Lockdown on Indian Farmers.”</span> <em>Economic and Political Weekly</em> 56 (50): 31–34.
-</div>
-<div id="ref-pga2018" class="csl-entry">
-Pineapple Growers Association. 2018. <span>“PGA Home Page.”</span> <a href="https://vazhakulampineapple.in/">https://vazhakulampineapple.in/</a>.
-</div>
-<div id="ref-prakash2011" class="csl-entry">
-Prakash, A. 2011. <span>“Why Volatility Matters.”</span> In <em>Safeguarding Food Security in Volatile Global Markets</em>, edited by A. Prakash, 1–24. Rome: FAO.
-</div>
-<div id="ref-rcoreteam2023" class="csl-entry">
-R Core Team. 2023. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
-</div>
-<div id="ref-saadat2020" class="csl-entry">
-Saadat, S., D. Rawtani, and C. M. Hussain. 2020. <span>“Environmental Perspective of COVID-19.”</span> <em>Science of the Total Environment</em> 728: 138870. https://doi.org/<a href="https://doi.org/10.1016/j.scitotenv.2020.138870">https://doi.org/10.1016/j.scitotenv.2020.138870</a>.
-</div>
-<div id="ref-sabu2015" class="csl-entry">
-Sabu, S. S. 2015. <span>“Price Volatility of Black Pepper and Its Implications in Kerala.”</span> Master’s thesis, Thrissur: Kerala Agricultural University.
-</div>
-<div id="ref-sabu2019" class="csl-entry">
-Sabu, S. S., A. Kuruvila, and K. Manojkumar. 2019. <span>“Price Behaviour of Black Pepper in Indian and International Markets: A Comparative Analysis.”</span> <em>Journal of Spices and Aromatic Crops</em> 28 (1): 27–33.
-</div>
-<div id="ref-sekhar2004" class="csl-entry">
-Sekhar, C. S. C. 2004. <span>“Agricultural Price Volatility in International and Indian Markets.”</span> <em>Economic and Political Weekly</em> 39 (43): 4729–36.
-</div>
-<div id="ref-singh2020" class="csl-entry">
-Singh, B. 2020. <span>“Liquidity Shocks and Overnight Interest Rates in Emerging Markets: Evidence from GARCH Models for India.”</span> <a href="https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=19444">https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=19444</a>.
-</div>
-<div id="ref-tothova2011" class="csl-entry">
-Tothova, M. 2011. <span>“Main Challenges of Price Volatility in Agricultural Commodity Markets.”</span> In <em>Methods to Analyse Agricultural Commodity Price Volatility</em>, edited by I. Piot-Lepetit and R. M’Barek. New York, NY: Springer. https://doi.org/<a href="https://doi.org/10.1007/978-1-4419-7634-5_2">https://doi.org/10.1007/978-1-4419-7634-5_2</a>.
-</div>
-<div id="ref-yu2020" class="csl-entry">
-Yu, X., C. Liu, H. Wang, and J. H. Feil. 2020. <span>“The Impact of COVID-19 on Food Prices in China: Evidence of Four Major Food Products from Beijing, Shandong and Hubei Provinces.”</span> <em>China Agricultural Economic Review</em> 12 (3): 445–58.
-</div>
-<div id="ref-zahraturrahmi2021" class="csl-entry">
-Zahraturrahmi, Z., V. Demircan, R. A. Moraru, and D. Bodescu. 2021. <span>“Analysis of the Effect of the COVID-19 Pandemic on the Prices of Basic Food Sold in Traditional Markets: The Case of Jakarta Province, Indonesia.”</span> <em>Horticultural Studies</em> 38 (2): 116–24.
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-<div class="callout callout-style-default callout-tip callout-titled" title="Technical Details">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Technical Details
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>All prices mentioned in this study are in Indian Rupees (Rs), the official currency of India. For clarity, “Rs” is used as a symbol for INR (Indian National Rupee) throughout the text. At the time of the study, the exchange rate was approximately 1 USD = 85.41 INR, although this may vary over time.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled" title="📄 Publication &amp; Reviewer Details">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>📄 Publication &amp; Reviewer Details
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Publication Information</strong></p>
-<ul>
-<li><strong>Submitted:</strong> <em>11 June 2025</em><br>
-</li>
-<li><strong>Accepted:</strong> <em>16 June 2025</em><br>
-</li>
-<li><strong>Published (Online):</strong> <em>18 June 2025</em></li>
-</ul>
-<hr>
-<p><strong>Reviewer Information</strong></p>
-<p><strong>Reviewer 1:</strong><br>
-<em>Anonymous</em></p>
-<p><strong>Reviewer 2:</strong><br>
-<strong>Dr.&nbsp;Subash Surendran Padmaja</strong><br>
-<em>Scientist</em><br>
-<em>ICAR-National Institute of Agricultural Economics and Policy Research</em><br>
-ORCID: <a href="https://orcid.org/0000-0001-6418-4142" class="uri">https://orcid.org/0000-0001-6418-4142</a></p>
-</div>
-</div>
-
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></div></div></section></div> ]]></description>
-  <category>Case-Study</category>
-  <category>Economics</category>
-  <category>Policy</category>
-  <guid>https://www.jostapubs.com/volume1/issue1/AGECONOMICS/JOSTA11CS1.html</guid>
-  <pubDate>Tue, 17 Jun 2025 18:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
