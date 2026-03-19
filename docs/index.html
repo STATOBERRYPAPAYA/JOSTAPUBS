@@ -857,9 +857,118 @@ window.Quarto = {
 <!-- =====================================================
      END – JOSTA HOME HEADER
 ===================================================== -->
-<section id="recent-articles" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="recent-articles">Recent articles</h2>
-<p><img src="https://img.shields.io/badge/open--access-yes-brightgreen.svg" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/license-CC--BY--NC--ND%204.0-blue.svg" class="img-fluid" alt="License"> <img src="https://img.shields.io/badge/open--source-yes-blue.svg" class="img-fluid" alt="Open Source"> <img src="https://img.shields.io/badge/DOI-enabled-orange.svg" class="img-fluid" alt="DOI"></p>
+<div class="josta-articles-header">
+  <div>
+    <h2 class="josta-articles-title anchored">Recent Articles</h2>
+    <p class="josta-articles-sub">Latest peer-reviewed research — click any title to read</p>
+  </div>
+  <div class="josta-articles-badges">
+    <span class="jah-badge badge-oa">🔓 Open Access</span>
+    <span class="jah-badge badge-doi">DOI Registered</span>
+    <span class="jah-badge badge-cc">CC BY-NC-ND 4.0</span>
+  </div>
+</div>
+
+<style>
+/* ---- section header ---- */
+.josta-articles-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.2rem 0 .8rem;
+  border-bottom: 2px solid #1a5fa8;
+  margin-bottom: 1.1rem;
+}
+.josta-articles-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a5fa8;
+  margin: 0 0 .2rem;
+}
+.josta-articles-sub { margin:0; font-size:.88rem; color:#6b7280; font-style:italic; }
+.josta-articles-badges { display:flex; flex-wrap:wrap; gap:.35rem; align-items:center; }
+.jah-badge { padding:3px 10px; border-radius:999px; font-size:.76rem; font-weight:600; letter-spacing:.03em; white-space:nowrap; }
+.badge-oa  { background:#dff1e9; color:#135c38; border:1px solid #b2dece; }
+.badge-doi { background:#dbeafe; color:#1e40af; border:1px solid #bfdbfe; }
+.badge-cc  { background:#f3f0ff; color:#5b21b6; border:1px solid #ddd6fe; }
+@media (max-width:600px){ .josta-articles-header { flex-direction:column; align-items:flex-start; } }
+
+/* ---- palette ---- */
+:root {
+  --j-navy:#1f345c;
+  --j-teal:#0b5a56;
+  --j-brown:#8b6a3a;
+  --j-muted:#555b63;
+  --j-green:#007a4e;
+  --j-rule:#e7e2d4;
+  --j-beige:#fdf6ec;
+  --j-blue:#006699;
+  --j-grey:#7a7a7a;
+}
+
+/* ---- list ---- */
+.pro-ul { margin:.25rem 0 0; padding:0; list-style:none; }
+.pro-li { padding:16px 0; border-bottom:1px solid var(--j-rule); }
+
+/* ---- TITLE: blue, clickable ---- */
+.pro-title { margin:.15rem 0 .3rem; }
+.pro-link,
+.pro-link:link,
+.pro-link:visited,
+.pro-link:active {
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:700;
+  font-size:1.16rem;
+  line-height:1.3;
+  color:#1a5fa8!important;
+  text-decoration:none;
+}
+.pro-link:hover {
+  color:#0e3f73!important;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+/* ---- DOI ---- */
+.pro-doi { margin:.15rem 0 .3rem; font-size:.9rem; color:var(--j-muted); }
+.pro-doi a { color:var(--j-blue); text-decoration:none; font-weight:600; }
+.pro-doi a:hover { text-decoration:underline; }
+
+/* ---- categories ---- */
+.pro-cats { list-style:none; padding:0; margin:.25rem 0 .45rem; display:flex; flex-wrap:wrap; gap:.4rem; }
+.pro-chip { padding:4px 10px; border-radius:999px; border:none; color:#fff; font-weight:600; font-size:.82rem; font-family:Georgia,"Times New Roman",serif; }
+.pro-chip:first-child { background:var(--j-green); }
+.pro-chip:not(:first-child) { background:var(--j-grey); }
+
+/* ---- authors ---- */
+.pro-authors { color:var(--j-muted); font-size:.95rem; margin:.1rem 0 .35rem; }
+
+/* ---- status ---- */
+.pro-status { display:inline-block; padding:3px 8px; border:1px solid var(--j-green); border-radius:999px; background:transparent; color:var(--j-green); font-weight:600; font-size:.82rem; margin:.15rem 0 .35rem 0; }
+
+/* ---- date ---- */
+.pro-date { display:block; color:#6b7280; font-size:.92rem; margin-top:.05rem; }
+
+/* ---- view all ---- */
+.pro-more-wrap { text-align:center; margin-top:.9rem; }
+.pro-more { display:inline-block; padding:8px 16px; border:1px solid #d8c9ab; border-radius:999px; background:linear-gradient(180deg,#fff 0%,var(--j-beige) 100%); color:var(--j-navy); font-weight:700; text-decoration:none; }
+.pro-more:hover { color:var(--j-teal); border-color:#c7b896; }
+
+/* ---- dark mode ---- */
+@media (prefers-color-scheme:dark){
+  .pro-li { border-bottom-color:#3b4352; }
+  .pro-link { color:#7eb8f7!important; }
+  .pro-link:hover { color:#aed4ff!important; }
+  .pro-chip:first-child { background:#009a64; color:#fff; }
+  .pro-chip:not(:first-child) { background:#5b5b5b; color:#fff; }
+  .pro-status { border-color:#57d097; color:#57d097; }
+  .pro-more { border-color:#4b5565; background:linear-gradient(180deg,#222 0%,#1b1f28 100%); color:#cfe4ff; }
+  .pro-more:hover { color:#7fe3c4; }
+}
+</style>
 <div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -900,7 +1009,7 @@ window.Quarto = {
 </div>
 <ul class="pro-ul list" aria-live="polite">
 <!-- IMPORTANT: include metadataAttrs(item) on the list item -->
-<li class="pro-li" data-index="0" data-categories="T3JpZ2luYWwtQXJ0aWNsZSUyQ0Vudmlyb25tZW50JTJDRXh0ZW5zaW9uJTJDTGl2ZXN0b2Nr" data-listing-date-sort="1772476200000" data-listing-file-modified-sort="1772603593788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4516">
+<li class="pro-li" data-index="0" data-categories="T3JpZ2luYWwtQXJ0aWNsZSUyQ0Vudmlyb25tZW50JTJDRXh0ZW5zaW9uJTJDTGl2ZXN0b2Nr" data-listing-date-sort="1772476200000" data-listing-file-modified-sort="1773903325459" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4264">
 <!-- title -->
 <h3 class="pro-title anchored">
 <a class="pro-link listing-title" href="./volume2/issue1/josta2026027c35/josta2026027c35.html">Adoption Behaviour of Indigenous Agricultural and Ethnoveterinary Practices Among Tribal Farmers of Kalrayan Hills, Tamil Nadu</a>
@@ -935,7 +1044,7 @@ Indigenous agricultural and ethnoveterinary practices are integral components of
 </p>
 </li>
 <!-- IMPORTANT: include metadataAttrs(item) on the list item -->
-<li class="pro-li" data-index="1" data-categories="UmV2aWV3LUFydGljbGUlMkNFbnZpcm9ubWVudCUyQ1NvaWwlMkNTbWFydEZhcm1pbmc=" data-listing-date-sort="1771353000000" data-listing-file-modified-sort="1771652755452" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="30" data-listing-word-count-sort="5913">
+<li class="pro-li" data-index="1" data-categories="UmV2aWV3LUFydGljbGUlMkNFbnZpcm9ubWVudCUyQ1NvaWwlMkNTbWFydEZhcm1pbmc=" data-listing-date-sort="1771353000000" data-listing-file-modified-sort="1773903593409" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="29" data-listing-word-count-sort="5663">
 <!-- title -->
 <h3 class="pro-title anchored">
 <a class="pro-link listing-title" href="./volume2/issue1/JOSTA202601A408/JOSTA202601A408.html">Saline and Sodic Soil Reclamation: Recent Advances and Agronomic Implications</a>
@@ -970,7 +1079,7 @@ Soil salinization and sodification represent critical environmental challenges t
 </p>
 </li>
 <!-- IMPORTANT: include metadataAttrs(item) on the list item -->
-<li class="pro-li" data-index="2" data-categories="UmV2aWV3LUFydGljbGUlMkNHZW5ldGljcyUyQ1BsYW50U2NpZW5jZQ==" data-listing-date-sort="1770834600000" data-listing-file-modified-sort="1772603593772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2921">
+<li class="pro-li" data-index="2" data-categories="UmV2aWV3LUFydGljbGUlMkNHZW5ldGljcyUyQ1BsYW50U2NpZW5jZQ==" data-listing-date-sort="1770834600000" data-listing-file-modified-sort="1773903785186" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2667">
 <!-- title -->
 <h3 class="pro-title anchored">
 <a class="pro-link listing-title" href="./volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html">TILLING and Eco-TILLING: Reverse Genetics Approaches for Crop Improvement</a>
@@ -1002,7 +1111,7 @@ The increasing challenges posed by climate change, resource degradation, and the
 </p>
 </li>
 <!-- IMPORTANT: include metadataAttrs(item) on the list item -->
-<li class="pro-li" data-index="3" data-categories="UmV2aWV3LUFydGljbGUlMkNIb3J0aWN1bHR1cmUlMkNQbGFudGF0aW9uLWNyb3Bz" data-listing-date-sort="1769020200000" data-listing-file-modified-sort="1772603593771" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4538">
+<li class="pro-li" data-index="3" data-categories="UmV2aWV3LUFydGljbGUlMkNIb3J0aWN1bHR1cmUlMkNQbGFudGF0aW9uLWNyb3Bz" data-listing-date-sort="1769020200000" data-listing-file-modified-sort="1773904150678" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4284">
 <!-- title -->
 <h3 class="pro-title anchored">
 <a class="pro-link listing-title" href="./volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html">Date Palm Propagation Techniques: A Comprehensive Review</a>
@@ -1671,125 +1780,7 @@ RAISINS (R and AI Solutions for INferential Statistics) is a web-based statistic
   <ul class="pagination"></ul>
 </nav>
 </div>
-<style>
-:root {
-  --j-navy:#1f345c;
-  --j-teal:#0b5a56;
-  --j-brown:#8b6a3a;
-  --j-muted:#555b63;
-  --j-green:#007a4e;
-  --j-rule:#e7e2d4;
-  --j-beige:#fdf6ec;
-  --j-blue:#006699;
-  --j-grey:#7a7a7a;
-}
-
-/* list container */
-.pro-ul { margin:.25rem 0 0; padding:0; list-style:none; }
-.pro-li { padding:16px 0; border-bottom:1px solid var(--j-rule); }
-
-/* title */
-.pro-title { margin:.15rem 0 .3rem; }
-.pro-link,
-.pro-link:link,
-.pro-link:visited,
-.pro-link:active {
-  font-family:Georgia,"Times New Roman",serif;
-  font-weight:700;
-  font-size:1.16rem;
-  line-height:1.3;
-  color:var(--j-navy)!important;
-  text-decoration:none;
-}
-.pro-link:hover {
-  color:var(--j-teal)!important;
-  text-decoration:underline;
-}
-
-/* DOI */
-.pro-doi { margin:.15rem 0 .3rem; font-size:.9rem; color:var(--j-muted); }
-.pro-doi a { color:var(--j-blue); text-decoration:none; font-weight:600; }
-.pro-doi a:hover { text-decoration:underline; }
-
-/* categories – first green, others grey */
-.pro-cats {
-  list-style:none;
-  padding:0;
-  margin:.25rem 0 .45rem;
-  display:flex;
-  flex-wrap:wrap;
-  gap:.4rem;
-}
-.pro-chip {
-  padding:4px 10px;
-  border-radius:999px;
-  border:none;
-  color:#fff;
-  font-weight:600;
-  font-size:.82rem;
-  font-family:Georgia,"Times New Roman",serif;
-}
-
-/* first category solid green */
-.pro-chip:first-child {
-  background:var(--j-green);
-}
-
-/* all other categories solid grey */
-.pro-chip:not(:first-child) {
-  background:var(--j-grey);
-}
-
-/* authors */
-.pro-authors { color:var(--j-muted); font-size:.95rem; margin:.1rem 0 .35rem; }
-
-/* status – green outline, text only */
-.pro-status {
-  display:inline-block;
-  padding:3px 8px;
-  border:1px solid var(--j-green);
-  border-radius:999px;
-  background:transparent;
-  color:var(--j-green);
-  font-weight:600;
-  font-size:.82rem;
-  margin:.15rem 0 .35rem 0;
-}
-
-/* date */
-.pro-date { display:block; color:#6b7280; font-size:.92rem; margin-top:.05rem; }
-
-/* “view all” button */
-.pro-more-wrap { text-align:center; margin-top:.9rem; }
-.pro-more {
-  display:inline-block;
-  padding:8px 16px;
-  border:1px solid #d8c9ab;
-  border-radius:999px;
-  background:linear-gradient(180deg,#fff 0%,var(--j-beige) 100%);
-  color:var(--j-navy);
-  font-weight:700;
-  text-decoration:none;
-}
-.pro-more:hover {
-  color:var(--j-teal);
-  border-color:#c7b896;
-}
-
-/* dark mode */
-@media (prefers-color-scheme: dark){
-  .pro-li { border-bottom-color:#3b4352; }
-  .pro-link { color:#b7ccff!important; }
-  .pro-link:hover { color:#7fe3c4!important; }
-  .pro-chip:first-child { background:#009a64; color:#fff; }
-  .pro-chip:not(:first-child) { background:#5b5b5b; color:#fff; }
-  .pro-status { border-color:#57d097; color:#57d097; }
-  .pro-more { border-color:#4b5565; background:linear-gradient(180deg,#222 0%,#1b1f28 100%); color:#cfe4ff; }
-  .pro-more:hover { color:#7fe3c4; }
-}
-</style>
 <hr style="border: 2px solid #e7e2d4; margin-top: 2em; margin-bottom: 1em; border-radius: 2px;">
-</section>
 <section id="about" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="about">About the journal</h2>
 <p>The Journal of Sustainable Technology in Agriculture (JOSTA) is a peer-reviewed, open-access e-journal dedicated to publishing high-quality research that fosters innovation and sustainability in agriculture. Founded by a collaborative group of scientists and professionals, JOSTA serves as a reliable and inclusive platform for sharing advancements that enhance agricultural practices through responsible technology use, practical innovation, and applied research.</p>

@@ -93,233 +93,260 @@ issue: "1"
 pdf_url: "https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/pdfs/JOSTA-202512-24E0.pdf"
 canonical_url: "https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html" 
 include-before-body:
-  text: |  
-    <!-- JOSTA issue banner -->
-    <section class="josta-issue-banner" aria-label="Journal issue banner">
-      <div class="jib-wrap">
-        
-        <!-- Cover -->
-        <div class="jib-cover">
-          <img src="cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
+  text: |
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <div class="ja-panel">
+
+      <div class="ja-topbar">
+        <span class="ja-journal-name">Journal of Sustainable Technology in Agriculture</span>
+        <span class="ja-vi">Volume 2 &bull; Issue 1 &bull; 2026</span>
+      </div>
+
+      <div class="ja-main">
+
+        <div class="ja-cover">
+          <img src="cover.webp" alt="JOSTA cover">
         </div>
 
-        <!-- Meta -->
-        <div class="jib-meta">
-          <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
+        <div class="ja-meta">
+          <div class="ja-badges">
+            <span class="ja-badge ja-badge-type">Review Article</span>
+            <span class="ja-badge ja-badge-pub">&#10003; Published Online</span>
+            <span class="ja-badge ja-badge-oa">&#128275; Open Access</span>
+            <span class="ja-badge ja-badge-pr">Peer Reviewed</span>
+          </div>
 
-          <h2 class="jib-subtitle">
-            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
-               target="_blank" rel="noopener" class="jib-vi-link">Volume 02</a>
-            &bull;
-            <a href="https://www.jostapubs.com/volume1.html#vol1issue2" 
-               target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
-            &bull; 2026
-          </h2>
+          <div class="ja-doi-row">
+            <span class="ja-meta-label">DOI</span>
+            <a href="https://doi.org/10.65287/josta.202512.24E0"
+               target="_blank" rel="noopener" class="ja-doi-link">
+              10.65287/josta.202512.24E0
+            </a>
+          </div>
 
-          <p class="jib-line">
-            <span class="jib-label">ISSN (online)</span>
-            <span class="jib-value">
-              <a href="https://portal.issn.org/resource/ISSN/3107-6882"
-                 target="_blank" rel="noopener" class="jib-issn-link">
-                3107-6882
-              </a>
-            </span>
-          </p>
+          <div class="ja-dates">
+            <div class="ja-date-item">
+              <span class="ja-meta-label">Received</span>
+              <span>13 Dec 2025</span>
+            </div>
+            <div class="ja-date-sep">&rarr;</div>
+            <div class="ja-date-item">
+              <span class="ja-meta-label">Accepted</span>
+              <span>20 Jan 2026</span>
+            </div>
+            <div class="ja-date-sep">&rarr;</div>
+            <div class="ja-date-item">
+              <span class="ja-meta-label">Published</span>
+              <span>22 Jan 2026</span>
+            </div>
+          </div>
 
-          <p class="jib-line">
-            <span class="jib-label">License</span>
-            <span class="jib-value">
-              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" 
-                 target="_blank" rel="noopener" class="jib-license-link">
-                CC BY-NC-ND 4.0
-              </a>
-            </span>
-          </p>
+          <div class="ja-info-row">
+            <span class="ja-meta-label">ISSN</span>
+            <a href="https://portal.issn.org/resource/ISSN/3107-6882"
+               target="_blank" rel="noopener" class="ja-plain-link">3107-6882 (Online)</a>
+            &nbsp;&bull;&nbsp;
+            <span class="ja-meta-label">License</span>
+            <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+               target="_blank" rel="noopener" class="ja-plain-link">CC BY-NC-ND 4.0</a>
+          </div>
+        </div>
+
+        <div class="ja-actions">
+          <a href="pdfs/JOSTA-202512-24E0.pdf" download class="ja-btn ja-btn-pdf">
+            <i class="bi bi-file-earmark-pdf-fill"></i>
+            <span>Download PDF</span>
+          </a>
+          <a href="https://zenodo.org/records/18322008" target="_blank"
+             rel="noopener" class="ja-btn ja-btn-zenodo">
+            <i class="bi bi-cloud-arrow-down"></i>
+            <span>View on Zenodo</span>
+          </a>
+          <a href="https://doi.org/10.65287/josta.202512.24E0"
+             target="_blank" rel="noopener" class="ja-btn ja-btn-doi">
+            <i class="bi bi-link-45deg"></i>
+            <span>Cite (DOI)</span>
+          </a>
+          <button class="ja-btn ja-btn-copy" onclick="jCopyCitation()">
+            <i class="bi bi-clipboard"></i>
+            <span>Copy Citation</span>
+            <span id="j-tip" class="ja-copied-tip">Copied!</span>
+          </button>
+          <div class="ja-cite-chip">
+            <span class="ja-chip-count" id="j-cite-count">&#8212;</span>
+            <span class="ja-chip-label">Citations</span>
+          </div>
         </div>
 
       </div>
-    </section>
+    </div>
+
+    <p id="j-citation-text" style="display:none;">Muhammad, A. A., Chaudhary, B., Murtaza, H., Raza, M., Sajid, M., &amp; Shahid, A. (2026). Date Palm (Phoenix dactylifera) Propagation Techniques: A Comprehensive Review. Journal of Sustainable Technology in Agriculture, 2(1). https://doi.org/10.65287/josta.202512.24E0</p>
 
     <style>
-      :root {
-        --j-navy:#0053ed;
-        --j-brown:#8b6a3a;
-        --j-green:#0b5a56;
-        --j-beige:#f8f3ea;
-      }
-
-      .josta-issue-banner {
-        background: linear-gradient(115deg, var(--j-beige), #ffffff);
-        border-bottom: 2px solid rgba(31, 52, 92, 0.12);
-        padding: 1.8rem 1.4rem;
-        margin-bottom: 1.6rem;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      }
-
-      .jib-wrap {
-        max-width: 1100px;
-        margin: 0 auto;
-        display: flex;
-        gap: 1.6rem;
-        align-items: center;
-      }
-
-      /* Cover image — NO ROUNDED CORNERS */
-      .jib-cover img {
-        display: block;
-        max-width: 120px;
-        height: auto;
-        border-radius: 0;      /* removed curve */
-        box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-      }
-
-      .jib-journal-tag {
-        margin: 0 0 0.4rem 0;
-        font-size: 1.15rem;
-        font-weight: 700;
-        color: var(--j-green);
-      }
-
-      .jib-subtitle {
-        margin: 0 0 0.7rem 0;
-        font-size: 1rem;
-        font-weight: 500;
-        color: var(--j-navy);
-        opacity: 0.85;
-      }
-
-      /* Volume/Issue links */
-      .jib-vi-link {
-        color: var(--j-navy);
-        text-decoration: none;
-        font-weight: 600;
-      }
-      .jib-vi-link:hover { text-decoration: underline; }
-
-      .jib-line {
-        margin: 0.15rem 0;
-        font-size: 0.95rem;
-        display: flex;
-        gap: 0.4rem;
-        align-items: baseline;
-        color: #333;
-      }
-
-      .jib-label {
-        font-weight: 600;
-        color: var(--j-navy);
-      }
-
-      /* ISSN link */
-      .jib-issn-link {
-        color: var(--j-navy);
-        text-decoration: none;
-      }
-      .jib-issn-link:hover { text-decoration: underline; }
-
-      /* License link */
-      .jib-license-link {
-        color: var(--j-green);
-        text-decoration: none;
-        font-weight: 600;
-      }
-      .jib-license-link:hover { text-decoration: underline; }
-
-      @media (max-width: 640px) {
-        .jib-wrap { flex-direction: row; align-items: flex-start; }
-        .jib-cover img { max-width: 90px; }
-        .jib-journal-tag { font-size: 1.05rem; }
-        .jib-subtitle { font-size: 0.9rem; }
-      }
-
-      @media (max-width: 480px) {
-        .jib-wrap { flex-direction: column; align-items: flex-start; }
-      }
+    .ja-panel {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      border: 1px solid #ddd5c0;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,.07);
+    }
+    .ja-topbar {
+      background: #1f345c;
+      color: #fff;
+      padding: .55rem 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: .4rem;
+    }
+    .ja-journal-name { font-size: .88rem; font-weight: 600; letter-spacing: .01em; }
+    .ja-vi { font-size: .8rem; opacity: .8; }
+    .ja-main {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.2rem;
+      padding: 1.2rem;
+      background: linear-gradient(160deg, #fdf6ec 0%, #ffffff 60%);
+    }
+    .ja-cover img {
+      width: 90px;
+      height: auto;
+      display: block;
+      box-shadow: 0 4px 10px rgba(0,0,0,.15);
+      flex-shrink: 0;
+    }
+    .ja-meta {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: .55rem;
+    }
+    .ja-badges { display: flex; flex-wrap: wrap; gap: .35rem; }
+    .ja-badge {
+      padding: 3px 9px;
+      border-radius: 999px;
+      font-size: .74rem;
+      font-weight: 600;
+      letter-spacing: .03em;
+    }
+    .ja-badge-type  { background: #1f345c; color: #fff; }
+    .ja-badge-pub   { background: #dff1e9; color: #135c38; border: 1px solid #b2dece; }
+    .ja-badge-oa    { background: #fff8e1; color: #7a4f00; border: 1px solid #ffe082; }
+    .ja-badge-pr    { background: #e8eaf6; color: #283593; border: 1px solid #c5cae9; }
+    .ja-meta-label {
+      font-size: .76rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: #8b6a3a;
+      margin-right: .25rem;
+    }
+    .ja-doi-row { font-size: .9rem; display: flex; align-items: center; gap: .3rem; }
+    .ja-doi-link { color: #1a5fa8; font-weight: 600; text-decoration: none; }
+    .ja-doi-link:hover { text-decoration: underline; }
+    .ja-dates {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: .3rem .5rem;
+      font-size: .83rem;
+      color: #444;
+    }
+    .ja-date-item { display: flex; flex-direction: column; line-height: 1.3; }
+    .ja-date-sep { color: #aaa; font-size: .9rem; }
+    .ja-info-row { font-size: .83rem; color: #555; }
+    .ja-plain-link { color: #1a5fa8; text-decoration: none; }
+    .ja-plain-link:hover { text-decoration: underline; }
+    .ja-actions {
+      display: flex;
+      flex-direction: column;
+      gap: .45rem;
+      flex-shrink: 0;
+      min-width: 155px;
+    }
+    .ja-btn {
+      display: flex;
+      align-items: center;
+      gap: .45rem;
+      padding: .45rem .9rem;
+      border-radius: 7px;
+      font-size: .83rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      transition: filter .15s ease, transform .15s ease;
+      width: 100%;
+      justify-content: flex-start;
+    }
+    .ja-btn:hover { filter: brightness(.92); transform: translateY(-1px); }
+    .ja-btn i { font-size: 1rem; flex-shrink: 0; }
+    .ja-btn-pdf    { background: #b91c1c; color: #fff; }
+    .ja-btn-zenodo { background: #0b5a56; color: #fff; }
+    .ja-btn-doi    { background: #1f345c; color: #fff; }
+    .ja-btn-copy   { background: #8b6a3a; color: #fff; position: relative; }
+    .ja-copied-tip {
+      display: none;
+      position: absolute;
+      top: -28px; left: 50%;
+      transform: translateX(-50%);
+      background: #0b5a56; color: #fff;
+      font-size: .72rem; padding: 2px 8px;
+      border-radius: 5px; white-space: nowrap;
+    }
+    .ja-copied-tip.show { display: block; }
+    .ja-cite-chip {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .4rem;
+      padding: .35rem .7rem;
+      border: 1px solid #ddd;
+      border-radius: 7px;
+      background: #f8f7f5;
+      font-size: .82rem;
+    }
+    .ja-chip-count { font-weight: 700; color: #1f345c; font-size: 1rem; }
+    .ja-chip-label { text-transform: uppercase; font-size: .72rem; letter-spacing: .08em; color: #8b6a3a; }
+    @media (max-width: 700px) {
+      .ja-main { flex-wrap: wrap; }
+      .ja-actions { flex-direction: row; flex-wrap: wrap; min-width: 0; width: 100%; }
+      .ja-btn { width: auto; flex: 1 1 140px; }
+    }
+    @media (max-width: 480px) {
+      .ja-cover { display: none; }
+      .ja-topbar { flex-direction: column; align-items: flex-start; }
+    }
     </style>
+
+    <script>
+    function jCopyCitation(){
+      const t = document.getElementById("j-citation-text").innerText.trim();
+      navigator.clipboard.writeText(t).catch(()=>{});
+      const tip = document.getElementById("j-tip");
+      tip.classList.add("show");
+      setTimeout(()=>tip.classList.remove("show"), 1600);
+    }
+    document.addEventListener("DOMContentLoaded", async () => {
+      const el = document.getElementById("j-cite-count");
+      if (!el) return;
+      const doi = "10.65287/josta.202512.24E0";
+      try {
+        const r = await fetch(`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`, {cache:"no-store"});
+        const j = await r.json();
+        const n = j?.message?.["is-referenced-by-count"];
+        el.textContent = Number.isFinite(n) ? n : 0;
+      } catch { el.textContent = "0"; }
+    });
+    </script>
+
 ---
-[![DOI](https://img.shields.io/badge/DOI-10.65287%2Fjosta.202512.24E0-blue?logo=doi)](https://doi.org/10.65287/josta.202512.24E0) [![Zenodo](https://img.shields.io/badge/View%20on-Zenodo-0b5a56?logo=zenodo&labelColor=d9d9d9)](https://zenodo.org/records/18322008)  
-![Open Access](https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&logo=openaccess&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square)
-
-<!-- josta inline actions: pdf • copy citation • citation count -->
-<div class="j-inline" style="margin-top:1rem;">
-  <a href="pdfs/JOSTA-202512-24E0.pdf" download class="j-btn" aria-label="download pdf">
-    <i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i>
-    <span>download pdf</span>
-  </a>
-
-  <a href="#" class="j-copy" onclick="jCopyCitation(); return false;" aria-label="copy citation">
-    <i class="bi bi-clipboard" aria-hidden="true"></i>
-    <span>copy citation</span>
-    <span id="j-tip" class="j-tip" role="status" aria-live="polite">citation copied!</span>
-  </a>
-
-  <span class="j-chip" data-doi="10.65287/josta.202512.24E0" aria-label="citation count">
-    <span class="j-chip-count" id="j-cite-count">0</span>
-    <span class="j-chip-label">citations</span>
-  </span>
-</div>
-
-<!-- hidden citation text (kept as plain html) -->
-<p id="j-citation-text" style="display:none;">
-Muhammad, A. A., Chaudhary, B., Murtaza, H., Raza, M., Sajid, M., & Shahid, A. (2026). Date Palm (Phoenix dactylifera) Propagation Techniques: A Comprehensive Review. Journal of Sustainable Technology in Agriculture, 2(1). https://doi.org/10.65287/josta.202512.24E0
-</p>
-
-<style>
-/* row */
-.j-inline{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap}
-
-/* button */
-.j-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;
-  border-radius:999px;background:#8b6a3a;color:#fff;text-decoration:none;
-  font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;
-  box-shadow:0 2px 4px rgba(0,0,0,.1);transition:background .25s ease}
-.j-btn:hover{background:#6d532d}
-
-/* copy link */
-.j-copy{display:inline-flex;align-items:center;gap:.4rem;color:#1f345c;
-  text-decoration:none;font:500 0.9rem/1 "Segoe UI",Roboto,system-ui,sans-serif;position:relative}
-.j-copy:hover{color:#0b5a56;text-decoration:underline}
-
-/* tooltip */
-.j-tip{visibility:hidden;opacity:0;transition:opacity .25s;
-  background:#0b5a56;color:#fff;position:absolute;top:-34px;left:50%;
-  transform:translateX(-50%);padding:.3rem .6rem;border-radius:6px;font-size:.75rem;white-space:nowrap}
-.j-copy:focus .j-tip,.j-copy:active .j-tip{visibility:visible;opacity:1}
-
-/* citation chip */
-.j-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;
-  border:1px solid #ddd;border-radius:999px;background:#f8f7f5;
-  font:400 .85rem/1 system-ui,"Segoe UI",Roboto,sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.08)}
-.j-chip-count{font-weight:700;font-size:1rem;color:#1f345c}
-.j-chip-label{text-transform:uppercase;letter-spacing:.2px;color:#8b6a3a}
-
-/* small screens: allow wrap with gentle spacing */
-@media (max-width:540px){.j-inline{flex-wrap:wrap;row-gap:.6rem}}
-</style>
-
-<script>
-function jCopyCitation(){
-  const t=document.getElementById("j-citation-text").innerText.trim();
-  navigator.clipboard.writeText(t);
-  const tip=document.getElementById("j-tip");
-  tip.style.visibility="visible"; tip.style.opacity="1";
-  setTimeout(()=>{tip.style.visibility="hidden"; tip.style.opacity="0";},1600);
-}
-
-document.addEventListener('DOMContentLoaded', async ()=>{
-  const chip=document.querySelector('.j-chip'); if(!chip) return;
-  const doi=chip.dataset.doi, el=document.getElementById('j-cite-count');
-  const api=`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`;
-  try{
-    const r=await fetch(api,{cache:'no-store'}); const j=await r.json();
-    const n = j?.message?.['is-referenced-by-count'];
-    el.textContent = (Number.isFinite(n) ? n : 0);
-  }catch{ el.textContent='0'; }
-});
-</script>
----
-
 ## Introduction
 
 The date palm (Phoenix dactylifera L.) is not merely a tree; it serves as a vital element of life in arid and semi-arid regions, representing significant economic and cultural value [@Chao2007]. This fruit-bearing tree plays a crucial role in sustaining food supplies and enhancing economies in several developing countries, emphasizing the importance of effective cultivation and multiplication methods for these trees [@Soomro2023]. However, increasing the number of date palms is more complex than it appears, primarily due to their distinctive biology [@Jaradat2015]. Being long-lived, single-stemmed plants that don’t reproduce naturally, the conventional methods we have used can frequently seem a bit limiting [@AlKhayri2018]. This inherently slow reproductive rate means that advancing date palm populations or enhancing their characteristics through standard breeding takes time, underscoring the necessity for diverse propagation strategies to navigate these natural limitations [@Jain2012].
