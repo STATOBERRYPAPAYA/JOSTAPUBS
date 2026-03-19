@@ -40,7 +40,8 @@ include-in-header:
       header.quarto-title-block p.lead {
         display: none !important;
       }
-    </style> 
+    </style>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 keywords: [Traditional farming systems, Indigenous technical knowledge, Animal health management, Sustainable agriculture, Tribal livelihood systems]  
 categories: [Original-Article, Environment, Extension, Livestock]
@@ -142,12 +143,6 @@ include-before-body:
             <span>View on Zenodo</span>
           </a>
 
-          <a href="https://doi.org/10.65287/josta.202602.7c35"
-             target="_blank" rel="noopener" class="ja-btn ja-btn-doi">
-            <i class="bi bi-link-45deg"></i>
-            <span>Cite (DOI)</span>
-          </a>
-
           <button class="ja-btn ja-btn-copy" onclick="jCopyCitation()">
             <i class="bi bi-clipboard"></i>
             <span>Copy Citation</span>
@@ -155,9 +150,20 @@ include-before-body:
           </button>
 
           <!-- citation count chip -->
-          <div class="ja-cite-chip">
-            <span class="ja-chip-count" id="j-cite-count">—</span>
-            <span class="ja-chip-label">Citations</span>
+          <div class="ja-metric-box">
+            <p class="ja-metric-label">Dimensions citations</p>
+            <span class="__dimensions_badge_embed__"
+                  data-doi="10.65287/josta.202602.7c35"
+                  data-style="small_rectangle"
+                  data-legend="hover-left"></span>
+          </div>
+
+          <div class="ja-metric-box">
+            <p class="ja-metric-label">Crossref citations</p>
+            <div class="ja-live-count">
+              <span id="j-cite-count" class="ja-live-num">—</span>
+              <span class="ja-live-sub">times cited</span>
+            </div>
           </div>
 
         </div><!-- .ja-actions -->
@@ -323,7 +329,6 @@ include-before-body:
 
     .ja-btn-pdf    { background: #b91c1c; color: #fff; }
     .ja-btn-zenodo { background: #0b5a56; color: #fff; }
-    .ja-btn-doi    { background: #1f345c; color: #fff; }
     .ja-btn-copy   { background: #8b6a3a; color: #fff; position: relative; }
 
     .ja-copied-tip {
@@ -337,19 +342,23 @@ include-before-body:
     }
     .ja-copied-tip.show { display: block; }
 
-    .ja-cite-chip {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: .4rem;
-      padding: .35rem .7rem;
-      border: 1px solid #ddd;
+    .ja-metric-box {
+      border: 1px solid #e5e7eb;
       border-radius: 7px;
+      padding: 8px 12px;
       background: #f8f7f5;
-      font-size: .82rem;
     }
-    .ja-chip-count { font-weight: 700; color: #1f345c; font-size: 1rem; }
-    .ja-chip-label { text-transform: uppercase; font-size: .72rem; letter-spacing: .08em; color: #8b6a3a; }
+    .ja-metric-label {
+      font-size: .68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: #8b6a3a;
+      margin: 0 0 6px;
+    }
+    .ja-live-count { display: flex; align-items: baseline; gap: 6px; margin-top: 2px; }
+    .ja-live-num { font-size: 1.6rem; font-weight: 700; color: #1f345c; line-height: 1; }
+    .ja-live-sub { font-size: .72rem; color: #8b6a3a; text-transform: uppercase; letter-spacing: .05em; }
 
     /* responsive */
     @media (max-width: 700px) {
@@ -376,7 +385,7 @@ include-before-body:
       if (!el) return;
       const doi = "10.65287/josta.202602.7c35";
       try {
-        const r = await fetch(`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`, {cache:"no-store"});
+        const r = await fetch("https://api.crossref.org/works/" + encodeURIComponent(doi) + "?select=is-referenced-by-count", {cache:"no-store"});
         const j = await r.json();
         const n = j?.message?.["is-referenced-by-count"];
         el.textContent = Number.isFinite(n) ? n : 0;

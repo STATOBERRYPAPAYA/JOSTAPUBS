@@ -108,6 +108,7 @@ div.csl-indent {
     display: none !important;
   }
 </style>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <meta name="citation_title" content="Saline and Sodic Soil Reclamation: Recent Advances and Agronomic Implications">
 <meta name="citation_author" content="Krishna Priyan Ra K">
 <meta name="citation_author" content="Vasanth P">
@@ -620,21 +621,23 @@ window.Quarto = {
         <span>View on Zenodo</span>
       </a>
 
-      <a href="https://doi.org/10.65287/josta.202601.A408" target="_blank" rel="noopener" class="ja-btn ja-btn-doi">
-        <i class="bi bi-link-45deg"></i>
-        <span>Cite (DOI)</span>
-      </a>
-
       <button class="ja-btn ja-btn-copy" onclick="jCopyCitation()">
         <i class="bi bi-clipboard"></i>
         <span>Copy Citation</span>
         <span id="j-tip" class="ja-copied-tip">Copied!</span>
       </button>
 
+      <div class="ja-metric-box">
+        <p class="ja-metric-label">Dimensions citations</p>
+        <span class="__dimensions_badge_embed__" data-doi="10.65287/josta.202601.A408" data-style="small_rectangle" data-legend="hover-left"></span>
+      </div>
 
-      <div class="ja-cite-chip">
-        <span class="ja-chip-count" id="j-cite-count">—</span>
-        <span class="ja-chip-label">Citations</span>
+      <div class="ja-metric-box">
+        <p class="ja-metric-label">Crossref citations</p>
+        <div class="ja-live-count">
+          <span id="j-cite-count" class="ja-live-num">—</span>
+          <span class="ja-live-sub">times cited</span>
+        </div>
       </div>
 
     </div>
@@ -750,7 +753,6 @@ window.Quarto = {
 .ja-btn i { font-size: 1rem; flex-shrink: 0; }
 .ja-btn-pdf    { background: #b91c1c; color: #fff; }
 .ja-btn-zenodo { background: #0b5a56; color: #fff; }
-.ja-btn-doi    { background: #1f345c; color: #fff; }
 .ja-btn-copy   { background: #8b6a3a; color: #fff; position: relative; }
 .ja-copied-tip {
   display: none;
@@ -762,19 +764,38 @@ window.Quarto = {
   border-radius: 5px; white-space: nowrap;
 }
 .ja-copied-tip.show { display: block; }
-.ja-cite-chip {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: .4rem;
-  padding: .35rem .7rem;
-  border: 1px solid #ddd;
+.ja-metric-box {
+  border: 1px solid #e5e7eb;
   border-radius: 7px;
+  padding: 8px 12px;
   background: #f8f7f5;
-  font-size: .82rem;
 }
-.ja-chip-count { font-weight: 700; color: #1f345c; font-size: 1rem; }
-.ja-chip-label { text-transform: uppercase; font-size: .72rem; letter-spacing: .08em; color: #8b6a3a; }
+.ja-metric-label {
+  font-size: .68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #8b6a3a;
+  margin: 0 0 6px;
+}
+.ja-live-count {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-top: 2px;
+}
+.ja-live-num {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1f345c;
+  line-height: 1;
+}
+.ja-live-sub {
+  font-size: .72rem;
+  color: #8b6a3a;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
 @media (max-width: 700px) {
   .ja-main { flex-wrap: wrap; }
   .ja-actions { flex-direction: row; flex-wrap: wrap; min-width: 0; width: 100%; }
@@ -799,10 +820,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!el) return;
   const doi = "10.65287/josta.202601.A408";
   try {
-    const r = await fetch(`https://api.crossref.org/works/${encodeURIComponent(doi)}?select=is-referenced-by-count`, {cache:"no-store"});
+    const r = await fetch("https://api.crossref.org/works/" + encodeURIComponent(doi) + "?select=is-referenced-by-count", {cache:"no-store"});
     const j = await r.json();
     const n = j?.message?.["is-referenced-by-count"];
-    el.textContent = Number.isFinite(n) ? n : 0;
+    el.textContent = Number.isFinite(n) ? n : "0";
   } catch { el.textContent = "0"; }
 });
 </script>
