@@ -9,15 +9,869 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Mon, 02 Mar 2026 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Wed, 18 Mar 2026 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Microbial Toxins in Agro-ecosystems: Rhizosphere Interactions, Ecological Functions and Cry Protein Implications</title>
+  <dc:creator>Muhilan Gangadaran*</dc:creator>
+  <dc:creator>Bagavathi Ammal U</dc:creator>
+  <dc:creator>Elavarasi P</dc:creator>
+  <dc:creator>Venkatesan V G</dc:creator>
+  <link>https://www.jostapubs.com/volume2/issue1/josta2026029b0a/josta2026029b0a.html</link>
+  <description><![CDATA[ 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+<div class="ja-panel">
+
+  <div class="ja-topbar">
+    <span class="ja-journal-name">Journal of Sustainable Technology in Agriculture</span>
+    <span class="ja-vi">Volume 2 • Issue 1 • 2026</span>
+  </div>
+
+  <div class="ja-main">
+
+    <div class="ja-cover">
+      <img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/cover.webp" alt="JOSTA cover">
+    </div>
+
+    <div class="ja-meta">
+      <div class="ja-badges">
+        <span class="ja-badge ja-badge-type">Review Article</span>
+        <span class="ja-badge ja-badge-pub">✓ Published Online</span>
+        <span class="ja-badge ja-badge-oa">🔓 Open Access</span>
+        <span class="ja-badge ja-badge-pr">Peer Reviewed</span>
+      </div>
+
+      <div class="ja-doi-row">
+        <span class="ja-meta-label">DOI</span>
+        <a href="https://doi.org/10.65287/josta.202602.9b0a" target="_blank" rel="noopener" class="ja-doi-link">
+          10.65287/josta.202602.9b0a
+        </a>
+      </div>
+
+      <div class="ja-dates">
+        <div class="ja-date-item">
+          <span class="ja-meta-label">Received</span>
+          <span>24 Feb 2026</span>
+        </div>
+        <div class="ja-date-sep">→</div>
+        <div class="ja-date-item">
+          <span class="ja-meta-label">Accepted</span>
+          <span>16 Mar 2026</span>
+        </div>
+        <div class="ja-date-sep">→</div>
+        <div class="ja-date-item">
+          <span class="ja-meta-label">Published</span>
+          <span>19 Mar 2026</span>
+        </div>
+      </div>
+
+      <div class="ja-info-row">
+        <span class="ja-meta-label">ISSN</span>
+        <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="ja-plain-link">3107-6882 (Online)</a>
+        &nbsp;•&nbsp;
+        <span class="ja-meta-label">License</span>
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="ja-plain-link">CC BY-NC-ND 4.0</a>
+      </div>
+    </div>
+
+    <div class="ja-actions">
+      <a href="pdfs/josta2026029b0a.pdf" download="" class="ja-btn ja-btn-pdf">
+        <i class="bi bi-file-earmark-pdf-fill"></i>
+        <span>Download PDF</span>
+      </a>
+      <a href="https://zenodo.org/records/19116051" target="_blank" rel="noopener" class="ja-btn ja-btn-zenodo">
+        <i class="bi bi-cloud-arrow-down"></i>
+        <span>View on Zenodo</span>
+      </a>
+      <button class="ja-btn ja-btn-copy" onclick="jCopyCitation()">
+        <i class="bi bi-clipboard"></i>
+        <span>Copy Citation</span>
+        <span id="j-tip" class="ja-copied-tip">Copied!</span>
+      </button>
+
+      <div class="ja-metric-box">
+        <p class="ja-metric-label">Dimensions citations</p>
+        <span class="__dimensions_badge_embed__" data-doi="10.65287/josta.202602.9b0a" data-style="small_rectangle" data-legend="hover-left"></span>
+      </div>
+
+      <div class="ja-metric-box">
+        <p class="ja-metric-label">Crossref citations</p>
+        <div class="ja-live-count">
+          <span id="j-cite-count" class="ja-live-num">—</span>
+          <span class="ja-live-sub">times cited</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<p id="j-citation-text" style="display:none;">Gangadaran, M., Ammal, B., Elavarasi, P., &amp; Venkatesan, V. G. (2026). Microbial Toxins in Agro-ecosystems: Rhizosphere Interactions, Ecological Functions and Cry Protein Implications. Journal of Sustainable Technology in Agriculture, 2(1). https://doi.org/10.65287/josta.202602.9b0a</p>
+
+<style>
+.ja-panel {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  border: 1px solid #ddd5c0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,.07);
+}
+.ja-topbar {
+  background: #1f345c;
+  color: #fff;
+  padding: .55rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+.ja-journal-name { font-size: .88rem; font-weight: 600; letter-spacing: .01em; }
+.ja-vi { font-size: .8rem; opacity: .8; }
+.ja-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  background: linear-gradient(160deg, #fdf6ec 0%, #ffffff 60%);
+}
+.ja-cover img {
+  width: 90px;
+  height: auto;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0,0,0,.15);
+  flex-shrink: 0;
+}
+.ja-meta {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+}
+.ja-badges { display: flex; flex-wrap: wrap; gap: .35rem; }
+.ja-badge {
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: .74rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+}
+.ja-badge-type  { background: #1f345c; color: #fff; }
+.ja-badge-pub   { background: #dff1e9; color: #135c38; border: 1px solid #b2dece; }
+.ja-badge-oa    { background: #fff8e1; color: #7a4f00; border: 1px solid #ffe082; }
+.ja-badge-pr    { background: #e8eaf6; color: #283593; border: 1px solid #c5cae9; }
+.ja-meta-label {
+  font-size: .76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: #8b6a3a;
+  margin-right: .25rem;
+}
+.ja-doi-row { font-size: .9rem; display: flex; align-items: center; gap: .3rem; }
+.ja-doi-link { color: #1a5fa8; font-weight: 600; text-decoration: none; }
+.ja-doi-link:hover { text-decoration: underline; }
+.ja-dates {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .3rem .5rem;
+  font-size: .83rem;
+  color: #444;
+}
+.ja-date-item { display: flex; flex-direction: column; line-height: 1.3; }
+.ja-date-sep { color: #aaa; font-size: .9rem; }
+.ja-info-row { font-size: .83rem; color: #555; }
+.ja-plain-link { color: #1a5fa8; text-decoration: none; }
+.ja-plain-link:hover { text-decoration: underline; }
+.ja-actions {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+  flex-shrink: 0;
+  min-width: 175px;
+  overflow: visible;
+}
+.ja-btn {
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .45rem .9rem;
+  border-radius: 7px;
+  font-size: .83rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: filter .15s ease, transform .15s ease;
+  width: 100%;
+  justify-content: flex-start;
+}
+.ja-btn:hover { filter: brightness(.92); transform: translateY(-1px); }
+.ja-btn i { font-size: 1rem; flex-shrink: 0; }
+.ja-btn-pdf    { background: #b91c1c; color: #fff; }
+.ja-btn-zenodo { background: #0b5a56; color: #fff; }
+.ja-btn-copy   { background: #8b6a3a; color: #fff; position: relative; }
+.ja-copied-tip {
+  display: none;
+  position: absolute;
+  top: -28px; left: 50%;
+  transform: translateX(-50%);
+  background: #0b5a56; color: #fff;
+  font-size: .72rem; padding: 2px 8px;
+  border-radius: 5px; white-space: nowrap;
+}
+.ja-copied-tip.show { display: block; }
+.ja-metric-box {
+  border: 1px solid #e5e7eb;
+  border-radius: 7px;
+  padding: 8px 12px;
+  background: #f8f7f5;
+  overflow: visible;
+}
+.ja-metric-label {
+  font-size: .68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #8b6a3a;
+  margin: 0 0 6px;
+}
+.ja-live-count { display: flex; align-items: baseline; gap: 6px; margin-top: 2px; }
+.ja-live-num { font-size: 1.6rem; font-weight: 700; color: #1f345c; line-height: 1; }
+.ja-live-sub { font-size: .72rem; color: #8b6a3a; text-transform: uppercase; letter-spacing: .05em; }
+@media (max-width: 700px) {
+  .ja-main { flex-wrap: wrap; }
+  .ja-actions { flex-direction: row; flex-wrap: wrap; min-width: 0; width: 100%; }
+  .ja-btn { width: auto; flex: 1 1 140px; }
+}
+@media (max-width: 480px) {
+  .ja-cover { display: none; }
+  .ja-topbar { flex-direction: column; align-items: flex-start; }
+}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t = document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t).catch(()=>{});
+  const tip = document.getElementById("j-tip");
+  tip.classList.add("show");
+  setTimeout(()=>tip.classList.remove("show"), 1600);
+}
+document.addEventListener("DOMContentLoaded", async () => {
+  const el = document.getElementById("j-cite-count");
+  if (!el) return;
+  const doi = "10.65287/josta.202602.9b0a";
+  try {
+    const r = await fetch("https://api.crossref.org/works/" + encodeURIComponent(doi) + "?select=is-referenced-by-count", {cache:"no-store"});
+    const j = await r.json();
+    const n = j?.message?.["is-referenced-by-count"];
+    el.textContent = Number.isFinite(n) ? n : "0";
+  } catch { el.textContent = "0"; }
+});
+</script>
+
+
+
+
+<div style="page-break-after: always;"></div>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Soil is a complex ecosystem that supports a vast diversity of organisms essential for ecological functioning and plant growth <span class="citation" data-cites="Muhilan2026b Ilakkia2025 Lobmann2022">(G. Muhilan et al. 2026; Kaliappan et al. 2025; Löbmann et al. 2022)</span>. Soil dynamics play a crucial role in supplying nutrients to crops and supporting microbial nutrient acquisition and transformation processes <span class="citation" data-cites="Akash2025">(Akash et al. 2025)</span>. The soil environment encodes soil physical, chemical and biological properties which acts as a foundation for crop growth and several other soil factors like soil pH, nutrient transfer, SMC (soil moisture content) etc., which cumulatively helps in better performance of crop and yield <span class="citation" data-cites="Hu2024">(Hu et al. 2024)</span>. The intricating relationship between soil, plants and microorganism which emphasize crop resilience, health of soil and ecosystem services <span class="citation" data-cites="Xing2025">(Xing, Wang, and Mustafa 2025)</span>. Many scientist had reported that the soil is just a base for cultivation of crops indeed it is a reservoir for many interactive diversified surface and sub-surface species like bacteria, fungi, actinobacteria, rhizobia, virus molecule, etc. <span class="citation" data-cites="Bonkowski2009">(Bonkowski, Villenave, and Griffiths 2009)</span>. These microbial family had a direct and indirect benefits to soil ecosystem <span class="citation" data-cites="Muhilan2025c">(G. Muhilan and Bagavathi Ammal 2025)</span>.</p>
+<p>Soil drivers including soil bacteria, fungi, actinobacteria supports rhizospheric continuum with above surface plants and atmosphere aiding in nutrient transformation, mineral mobilization, and nutrient solubilisation <span class="citation" data-cites="Muhilan2025a Wei2024">(G. Muhilan et al. 2025; Wei et al. 2024)</span>. But recent practices of long term application of inorganic fertilizers into soil system makes soil microbes to kills and make less efficiency in soil properties. Also this toxins or enzymes released from microbes helps in solubilisation of nutrient especially phosphorus (P) since it is an only element getting fixed in soil mostly at acidic range of soil pH. During decomposition, the produced toxins fasters the rate of decomposition helps in production of organic matter and thus stabilize soil buffering capacity <span class="citation" data-cites="Koushal2025">(Koushal et al. 2025)</span>.</p>
+<p>Traditionally, the term ‘toxin’ refers to biologically produced poisonous compounds; however, in microbial ecology many toxin-like metabolites can also function as signaling molecules or ecological regulators <span class="citation" data-cites="Muhilan2025a">(G. Muhilan et al. 2025)</span>. But still it has practical application in agriculture and plant-root interface. Some of the microbial toxins were prone to suppress the rhizosphere activity but some notably releases valuable toxins from microbes which have considerable positive effect or beneficial effect towards crop growth and soil health. The current study of toxins not only restricted to plants, but also to human medical research and medical consortium preparation. Hence utilizing this as a positive relation towards soil health will aid in managing soil borne diseases and pest. Other than soil microbial toxins, various factors including rhizospheric environment influence crop growth like flavonoids <span class="citation" data-cites="Kumar2024">(G. A. Kumar et al. 2024)</span>, plant volatile organic compounds <span class="citation" data-cites="Sugimoto2014 Ninkovic2019 Ninkovic2021 Zhang2022">(Sugimoto et al. 2014; Ninkovic et al. 2019; Ninkovic, Markovic, and Rensing 2021; Zhang et al. 2022)</span>, amino acids <span class="citation" data-cites="Canarini2019">(Canarini et al. 2019)</span>, mucilage substances <span class="citation" data-cites="Oades1978 Bacic1986 Read2003 Jones2009 Carminati2013 Holz2018">(Oades 1978; Bacic, Moody, and Clarke 1986; Read et al. 2003; Jones, Nguyen, and Finlay 2009; Carminati and Vetterlein 2013; Holz et al. 2018)</span>, sterols <span class="citation" data-cites="Hassan2019">(Hassan, McInroy, and Kloepper 2019)</span> and many rhizodeposits stimulates the plant growth and maintenance of soil health. The well-known distinguishing microbes which releases toxins helps in cleaning up of soil contaminants such as heavy metals, pesticides, and hydrocarbons thereby reducing the entry of such compounds into plant systems <span class="citation" data-cites="Maqsood2023">(Maqsood et al. 2023)</span>. Hence, the utilization of microbial remediation practices aids in restoration of ecosystem and maintaining soil, ecosystem stability <span class="citation" data-cites="Lu2023 Saeed2023">(Lu et al. 2023; Saeed et al. 2023)</span>.</p>
+<p>Having a deeper understanding of interaction between soil microbes, toxins and plant nutrient uptake is significant for good crop yield and optimization of soil ecosystem. Although various significant research had overlooked the importance of toxins in soil system, but the gap between how it influence on rhizospheric environment, ionic balance, stress mitigation and plant protection measures is still unknown and will integrates the crop dynamics behavior into unified platform. This review majorly focuses on through understanding with deep insight into how different toxins released from various microbial population and its synergistic effect over soil health and plant nutrient uptake. Through thorough understanding the microbial dynamics in different soil system, management of soil health and encountering various precision farming practices led to discovery of optimizing soil-plant-microbes interaction and its effect on ecosystem practices. The target goal emphasizes to provide sustainable agriculture with better crop production, safer soil health, good microbial population in soil with summation of toxins released by microbes towards soil health and contributing better farming practices.</p>
+<p>Furthermore , increasing attention has been given to the soil-plant interactions of Bacillus thuringiensis (Bt) Cry proteins within agro-ecosystems. Cry proteins released from Bt crops or biopesticide applications can enter the rhizosphere through root exudates, plant residues, or microbial activity, where they interact with soil particles, organic matter, and microbial communities. Experimental studies have shown that Cry proteins may bind strongly to clay minerals and humic substances, which can influence their persistence and ecological behavior in soil environments. For example, field studies have reported detectable levels of Cry proteins in rhizosphere soils during crop growth stages, although they generally degrade after harvest and do not accumulate significantly over multiple cultivation cycles <span class="citation" data-cites="Jones2009">(Jones, Nguyen, and Finlay 2009)</span>.</p>
+<p>Recent research has also demonstrated that Cry proteins in the rhizosphere may influence soil enzymatic activities and microbial community dynamics, highlighting their broader ecological significance beyond pest control. A field study on transgenic Bt oilseed rape reported correlations between Cry1Ac protein levels and variations in soil enzyme activities during different plant growth stages, indicating potential interactions between Bt proteins and rhizosphere biochemical processes. Therefore, understanding the dynamics of Cry proteins in the soil–plant interface, including their persistence, transformation, and interaction with soil microbiota, is essential for evaluating their ecological implications and ensuring their sustainable use in modern agriculture.</p>
+</section>
+<section id="soil-microorganism" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="soil-microorganism"><span class="header-section-number">2</span> Soil microorganism</h2>
+<p>Soil is known for abundant microbial population and its intellectual benefits to soil environment <span class="citation" data-cites="Ruan2026 Venkatesan2024">(Ruan et al. 2026; Venkatesan et al. 2024)</span>. The produce or substance released from such organisms are potent beneficial or harmful is under questionnaire still now. It includes wide range of bacterial colonies, fungal wide spread growth, actinobacteria population and virus strain which directly also indirectly getting benefits on various mechanisms on soil which includes like nutrient cycling <span class="citation" data-cites="Yadav2021">(Yadav et al. 2021)</span>, bio controlling harmful pathogens, insecticide and nematicide <span class="citation" data-cites="Chalivendra2021 Chaudhary2024">(Chalivendra 2021; R. Chaudhary et al. 2024)</span> and most importantly bioremediation of contaminated soils including toxic metal cations <span class="citation" data-cites="White1998 Odukkathil2013 Abioye2021 Ayilara2023">(White, Shaman, and Gadd 1998; Odukkathil and Vasudevan 2013; Abioye et al. 2021; Ayilara and Babalola 2023)</span> Figure&nbsp;1, Table&nbsp;1. On one scale, micro-organisms were practically utilized in field condition through application of biofertilizers to achieve good crop yield with harmless condition to soil eco-system. Sometime, it may called as ‘Bio-engineers’, where their active performance eventually generate various secondary metabolites which will be helpful in stress detection among the plant system.</p>
+<div id="fig-figure1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/figures/fig1.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Beneficial effect of toxins on nutrient cycling, control of pathogens, soil bio-remediation and other potential benefits
+</figcaption>
+</figure>
+</div>
+<div id="tbl-major" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-major-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Microbial metabolites, enzymes and bioactive compounds involved in soil–plant interactions and crop growth
+</figcaption>
+<div aria-describedby="tbl-major-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 22%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sl. No</th>
+<th>Microorganism used</th>
+<th>Protein or toxins or metabolite or enzymes released</th>
+<th>Function or advantages on soil - plant interphase</th>
+<th>References</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>In-vitro plant protection</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td><em>Bacillus thuringiensis</em> subsp. <em>kurstaki</em></td>
+<td>Cry toxins (also known as delta-endotoxins)</td>
+<td>Cry1Ac protein concentration gets decreased in plant system</td>
+<td><span class="citation" data-cites="Li2007">(Li et al. 2007)</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>Nutrient Solubilisation and Mobilization</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><em>Rhizobium</em> and <em>Bradyrhizobium</em></td>
+<td>nitrogenase</td>
+<td>Reduce the need for nitrogen fertilizers and promote soil health</td>
+<td><span class="citation" data-cites="Kiprotich2025">(Kiprotich et al. 2025)</span></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><em>Burkholderia</em> and <em>Pseudomonas</em></td>
+<td>Rhamnolipids; phospholipases, and chitinases</td>
+<td>Phosphate solubilization</td>
+<td><span class="citation" data-cites="Suarez2012">(Suárez-Moreno et al. 2012)</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><em>Purpureocillium</em> and <em>Duddingtonia flagrans</em></td>
+<td>proteases and chitinases, as well as (SSPs) like CyrA</td>
+<td>suppress harmful nematodes</td>
+<td><span class="citation" data-cites="Lozano2024">(Lozano et al. 2024)</span></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><em>Bacillus cereus</em></td>
+<td>Aggressins and proteases, lipases, and amylases</td>
+<td>mitigate salt stress on plants</td>
+<td><span class="citation" data-cites="Liang2025">(Liang et al. 2025)</span></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><em>Bacillus subtilis</em></td>
+<td>proteases, lipases, and amylases</td>
+<td>need for synthetic pesticides and promote natural disease suppression</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>Metabolites production</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td><em>Bacillus</em> species and fungi like <em>Trichoderma</em> [<em>Paenibacillus</em>, <em>Stenotrophomonas</em>]</td>
+<td>Exopolysaccharide production</td>
+<td>Improve Soil Structure, Salinity protection, Nutrient retention, Moisture retention</td>
+<td><span class="citation" data-cites="Mishra2020">(Mishra et al. 2020)</span></td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td></td>
+<td>Siderophore Production</td>
+<td>Unlock Iron and Bio fertilization</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td></td>
+<td>ACC-D</td>
+<td>Reduce Negative Effects of Stress, Pathogen protection, Salinity protection, Drought protection</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td></td>
+<td>(SA) production</td>
+<td>Plant Stress Response Regulation, Salinity protection, Alleviate heavy metal stress, Drought protection</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>[<em>Enterobacter</em>, and <em>P. fluorescens</em>]</td>
+<td>(ABA) production</td>
+<td>Plant Growth and Stress Response Regulation, Growth regulation, Plant resistance to pathogens</td>
+<td><span class="citation" data-cites="Scales2014">(Scales et al. 2014)</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>Bioremediation</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><em>Burkholderia</em> species</td>
+<td>chitinase, protease, cellulase, amylase and glucanase</td>
+<td>Degrade recalcitrant xenobiotics, making them useful for bioremediation</td>
+<td><span class="citation" data-cites="Suarez2012">(Suárez-Moreno et al. 2012)</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>Fungal role</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td>Helminthophagous fungi (<em>Duddingtonia flagrans</em>, <em>Pochonia chlamydosporia</em>, <em>Arthrobotrys oligospora</em>, <em>Monacrosporium thaumasium</em>, <em>Mucor circinelloides</em> and <em>Purpureocillium lilacinum</em>)</td>
+<td>proteases, chitinases, and lipases</td>
+<td>1. It can act in a complementary and synergistic way in the biological control of helminths, increasing their effectiveness in reducing parasitic infections <br> 2. Emerging as a new approach to nematode control. <br> 3. parasite management in horses (animal oriented pathogen management)</td>
+<td><span class="citation" data-cites="doCarmo2025">(Carmo et al. 2025)</span></td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td>AMF species (<em>Rhizophagus irregularis</em>, <em>Rhizophagus clarus</em>, and <em>Rhizophagus proliferus</em>)</td>
+<td>Glomalin - an endo-glycol protein or GRSP</td>
+<td>1. circumvent plant defenses <br> 2. Soil aggregate stability <br> 3. Increases soil moisture holding capacity <br> 4. Enhances nutrient mobilization especially P</td>
+<td><span class="citation" data-cites="Sedzielewska2016">(Sȩdzielewska Toro and Brachmann 2016)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="microbial-toxin" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="microbial-toxin"><span class="header-section-number">3</span> Microbial toxin</h2>
+<p>Microbial toxins are structurally diverse bioactive compounds synthesized by soil microorganisms such as bacteria, fungi, and actinomycetes <span class="citation" data-cites="Rogowska2023">(Rogowska-van der Molen et al. 2023)</span>. These compounds include phytotoxins, mycotoxins, antibiotics, siderophores, lipopeptides, and various secondary metabolites that influence plant growth and soil ecological balance <span class="citation" data-cites="Gan2022">(Gan et al. 2022)</span>. Their production is strongly regulated by environmental factors including soil pH, moisture, nutrient availability, temperature, and microbial population dynamics <span class="citation" data-cites="Ghorbani2024">(Ghorbani et al. 2024)</span>. In the rhizosphere, microbial toxins function not only as pathogenicity determinants but also as ecological mediators <span class="citation" data-cites="Chinthala2025">(Chinthala 2025)</span>. At low or regulated concentrations, several toxins act as signalling molecules that modulate plant hormonal pathways, induce systemic resistance, and enhance tolerance to abiotic stresses such as salinity, drought, and heavy metal toxicity. Conversely, excessive toxin accumulation may disrupt membrane integrity, inhibit enzymatic activity, and suppress plant physiological processes, ultimately leading to disease development and yield reduction. Therefore, the ecological role of microbial toxins is concentration-dependent and context-specific within the soil-plant system.</p>
+<p>Microbial toxins derived from <em>Bacillus thuringiensis</em> represent one of the most successful examples of biologically based pest control however, emerging evidence indicates that their biological activity extends beyond intended insect targets <span class="citation" data-cites="Fichant2024">(Fichant et al. 2024)</span>. Cry toxins, while requiring specific gut activation and receptor binding, can interfere with conserved cellular pathways such as cadherin-mediated adhesion and Notch signaling, thereby altering intestinal homeostasis in non-target organisms. Additionally, Bt spores harbor enterotoxin genes homologous to those found in <em>Bacillus cereus</em>, raising concerns regarding food safety and opportunistic pathogenicity under certain exposure conditions. Environmental persistence, cumulative field application, and interactions with soil components further complicate ecological risk assessment. These findings emphasize the necessity of re-evaluating microbial toxin safety within integrated ecological and One Health frameworks.</p>
+</section>
+<section id="role-of-microbial-toxin-in-plant-pathogenesis" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="role-of-microbial-toxin-in-plant-pathogenesis"><span class="header-section-number">4</span> Role of microbial toxin in plant pathogenesis</h2>
+<p>Certain soil microorganisms produce toxins that function as virulence factors during host infection <span class="citation" data-cites="Soni2024">(Soni, Sinha, and Pandey 2024)</span>. These phytotoxins interfere with cellular metabolism <span class="citation" data-cites="Cai2023">(Cai et al. 2023)</span>, photosynthesis, ion transport, and cell wall integrity <span class="citation" data-cites="Geng2022">(Geng et al. 2022)</span>, thereby facilitating pathogen colonization. Necrosis-inducing toxins promote tissue degradation, while host-selective toxins determine pathogen specificity toward particular plant species or cultivars. However, not all toxin-producing microbes are detrimental. Beneficial rhizobacteria and fungi synthesize antimicrobial compounds that suppress pathogenic organisms through competitive exclusion, antibiosis, and induced systemic resistance <span class="citation" data-cites="Pastor2023">(Pastor, Palacios, and Torres 2023)</span>. Such toxin-mediated biocontrol mechanisms reduce reliance on synthetic pesticides and contribute to sustainable disease management strategies. The dual nature of microbial toxins pathogenic versus protective highlights the importance of understanding microbial community balance in agricultural soils.</p>
+</section>
+<section id="effects-of-microbial-toxins-on-soil-ecosystem" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="effects-of-microbial-toxins-on-soil-ecosystem"><span class="header-section-number">5</span> Effects of microbial toxins on soil ecosystem</h2>
+<p>Microbial toxins significantly influence soil ecological processes beyond plant-pathogen interactions <span class="citation" data-cites="Muhilan2025a Chaudhary2023">(G. Muhilan et al. 2025; P. Chaudhary et al. 2023)</span>. They regulate microbial community composition through antagonistic interactions <span class="citation" data-cites="Nagrale2023">(Nagrale et al. 2023)</span>, thereby contributing to soil suppressiveness against diseases. Many toxin-producing microbes also release extracellular enzymes that accelerate organic matter decomposition <span class="citation" data-cites="Khan2025">(Khan et al. 2025)</span>, enhance nutrient mineralization, and improve soil structural stability. The potential benefits attributing from bacterial toxin was given in Figure&nbsp;2. The region of rhizosphere were abundant with microorganism including bacteria, fungi and action-bacteria which releases mucilage substances, VOCs, and most importantly toxins in soil. The toxin excrete adhere to host exogenous tissue (cortical cell of root) and penetrate inside root zone (Red, blue and yellow signifies level of toxins produced by each microbes; level of exudates depends upon population level in soil; (bacteria&gt;fungi&gt;actinobacteria&gt;virus).</p>
+<div id="fig-figure2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/figures/fig2.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Role of toxins enzyme in maintaining soil health
+</figcaption>
+</figure>
+</div>
+<p>In addition, microbial metabolites such as siderophores improve micronutrient availability <span class="citation" data-cites="Gangadaran2025b">(M. Gangadaran et al. 2025)</span>, while exopolysaccharides enhance soil aggregation, moisture retention <span class="citation" data-cites="Naseem2024">(Naseem et al. 2024)</span>, and resistance to erosion <span class="citation" data-cites="Singh2022">(Singh et al. 2022)</span>. Some microorganisms participate in bioremediation <span class="citation" data-cites="Wang2022">(Wang et al. 2022)</span> by transforming or immobilizing toxic pollutants, including heavy metals and xenobiotic compounds, reducing their bioavailability to plants and groundwater systems. Consequently, microbial toxins and associated metabolites play an integral role in maintaining soil health, ecosystem resilience, and long-term agricultural sustainability <span class="citation" data-cites="Sethi2025">(Sethi et al. 2025)</span>. The mechanistic overview of soil environment regulation of plant-microbial interactions was given in Figure&nbsp;3.</p>
+<div id="fig-figure3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/figures/fig3.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Mechanistic overview of soil environment regulation of plant-microbial interactions
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="cry-proteins-in-agro-ecosystems" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="cry-proteins-in-agro-ecosystems"><span class="header-section-number">6</span> Cry proteins in agro-ecosystems</h2>
+<p>Cry proteins produced by <em>Bacillus thuringiensis</em> (Bt) are among the most widely used microbial toxins in agricultural pest management. These δ-endotoxins are synthesized during sporulation and act specifically against insect pests by forming pores in the midgut epithelial cells after receptor binding. Transgenic crops expressing Cry proteins have significantly reduced reliance on chemical insecticides and contributed to integrated pest management strategies. In the soil environment, Cry proteins may enter the rhizosphere through root exudation, decaying plant residues, or repeated Bt applications. Once in soil, Cry proteins can bind to clay minerals and organic matter, which may prolong their persistence. Although generally considered environmentally safe, studies have indicated possible sub-lethal effects on non-target organisms and shifts in microbial community composition under long-term exposure. Therefore, understanding the ecological behavior of Cry proteins in the soil-plant system is essential for evaluating their sustainability in agro-ecosystems.</p>
+</section>
+<section id="molecular-basis-of-microbial-toxin-activity-and-off-target-effects" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="molecular-basis-of-microbial-toxin-activity-and-off-target-effects"><span class="header-section-number">7</span> Molecular basis of microbial toxin activity and off-target effects</h2>
+<p>Microbial toxins produced by <em>Bacillus thuringiensis</em> represent a sophisticated example of host-specific biochemical targeting <span class="citation" data-cites="Kumar2022">(R. R. Kumar et al. 2022)</span>. Cry toxins are synthesized as protoxins during sporulation and become activated upon ingestion in alkaline insect midgut conditions. Proteolytic cleavage generates the active toxin, which binds to conserved epithelial receptors including cadherins, aminopeptidases (APN), alkaline phosphatases (ALP), and ABC transporters. Subsequent oligomerization enables insertion into the enterocyte membrane, forming transmembrane pores that disrupt osmotic balance and induce epithelial lysis <span class="citation" data-cites="Mitchell1984">(Mitchell 1984)</span>. However, emerging evidence suggests that receptor conservation across taxa challenges the strict “one toxin-one target” paradigm. Cry1A toxins have been shown to interact with E-cadherin homologs in non-target organisms, weakening adherens junctions and attenuating Notch signaling pathways. This signalling disruption alters intestinal stem cell fate, promoting differentiation toward enteroendocrine lineages at the expense of absorptive enterocytes <span class="citation" data-cites="Gangadaran2025c">(Gangadaran Muhilan et al. 2025)</span>. Such imbalance can modify neuropeptide secretion, metabolism, immune regulation, and feeding behavior <span class="citation" data-cites="Gangadaran2025b">(M. Gangadaran et al. 2025)</span>.</p>
+<p>Beyond Cry toxins, Bt strains share genetic similarities with the <em>Bacillus cereus</em> group and harbor genes encoding pore-forming enterotoxins such as non-hemolytic enterotoxin (Nhe), hemolysin BL (Hbl), and cytotoxin K (CytK). These toxins can activate inflammasome pathways, including NLRP3, leading to pro-inflammatory cytokine release. The presence of these virulence determinants in commercial biopesticide strains raises important food safety considerations, particularly under conditions of high exposure or immunocompromised hosts <span class="citation" data-cites="Yan2024">(Yan et al. 2024)</span>. Environmental persistence further modulates toxin impact. Cry proteins can bind to soil clay particles and organic matter, reducing degradation and prolonging biological activity <span class="citation" data-cites="Muhilan2026a">(Muhilan Gangadaran et al. 2026)</span>. Repeated agricultural applications may therefore result in cumulative exposure, potentially affecting soil microbiota, aquatic invertebrates, and pollinators through chronic sublethal mechanisms rather than acute toxicity <span class="citation" data-cites="Robert2025">(Robert et al. 2025)</span>. Collectively, these findings indicate that Bt-derived microbial toxins operate through conserved molecular pathways influencing epithelial integrity, immune signaling, and microbial-host interactions. A comprehensive risk assessment should thus integrate molecular toxicodynamics, environmental persistence, and host physiological context within a One Health framework. The major microbial toxin components of <em>Bacillus thuringiensis</em>, along with their molecular targets, non-target effects, and ecological implications, are summarized in Table&nbsp;2 and the molecular mechanisms underlying Cry toxin-mediated immune activation, including TLR-NF-κB signaling and NLRP3 inflammasome assembly, are illustrated in Figure&nbsp;4.</p>
+<div id="tbl-molecular" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-molecular-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Molecular mechanisms and non-target effects of Bacillus thuringiensis-derived microbial toxins
+</figcaption>
+<div aria-describedby="tbl-molecular-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sl. No</th>
+<th>Microbial Component</th>
+<th>Toxin Type</th>
+<th>Molecular Mechanism</th>
+<th>Non-Target Effects Reported</th>
+<th>Ecological / Health Implication</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><em>Bacillus thuringiensis</em> spores</td>
+<td>Cry δ-endotoxins (Cry1A, Cry2A, Cry3A)</td>
+<td>1. Activation of Cry protoxin in the alkaline midgut environment <br> 2. Proteolytic cleavage into the active toxin form</td>
+<td>Increased gut epithelial turnover; altered stem cell differentiation; developmental delay in <em>Drosophila</em>; behavioral changes in bees and parasitoids</td>
+<td>Sublethal chronic impacts; ecological imbalance in beneficial insects</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Bt vegetative cells</td>
+<td>Secreted toxins &amp; metabolites</td>
+<td>1. Induction of inflammatory mediators <br> 2. Activation of epithelial immune responses <br> 3. Stimulation of the NF-κB/Relish signaling pathway</td>
+<td>Gut inflammation; increased intestinal permeability; oxidative stress markers</td>
+<td>Potential chronic gut dysregulation in exposed organisms</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Bt (Bc-group related strains)</td>
+<td>Enterotoxins: Nhe, Hbl, CytK</td>
+<td>1. Production of pore-forming enterotoxins (Nhe, Hbl, CytK) <br> 2. Disruption of host cell membrane integrity <br> 3. Activation of the NLRP3 inflammasome pathway</td>
+<td>Diarrheal symptoms; inflammatory response; foodborne outbreak association</td>
+<td>Food safety concerns; opportunistic pathogenicity</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Transgenic Cry proteins (in GM crops)</td>
+<td>Modified Cry toxins</td>
+<td>1. Increased structural stability of the toxin <br> 2. Extended persistence in soil environments</td>
+<td>Persistence in soil up to ~120–175 days; possible microbiome shifts</td>
+<td>Long-term soil ecological effects</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Bt spores (environmental persistence)</td>
+<td>Spore coat resistance factors</td>
+<td>1. Resistance to ultraviolet radiation <br> 2. Tolerance to pH extremes <br> 3. Stability under temperature stress</td>
+<td>Accumulation after repeated applications; exposure via fresh produce</td>
+<td>Dose-dependent cumulative exposure risk</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="fig-figure4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/figures/fig4.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Mechanistic model of TLR–NF-κB and NLRP3 inflammasome activation induced by Bacillus thuringiensis cry toxins
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="current-research-and-future-trend" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="current-research-and-future-trend"><span class="header-section-number">8</span> Current research and future trend</h2>
+<p>Recent advances in molecular biology, metagenomics, transcriptomics, and metabolomics have substantially improved understanding of toxin-mediated interactions in the rhizosphere. High-throughput sequencing now enables identification of toxin-producing microbial communities and their functional genes, while isotopic and imaging techniques allow visualization of toxin transport and transformation within soil-plant systems. Such approaches will support environmentally safe crop production and improved nutrient-use efficiency under changing climatic conditions.</p>
+</section>
+<section id="conclusion" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">9</span> Conclusion</h2>
+<p>Microbial toxins represent a critical yet underexplored component of the soil-plant interphase. While traditionally associated with pathogenicity, growing evidence demonstrates their multifunctional roles in nutrient cycling, stress tolerance, microbial competition, disease suppression, and bioremediation. The ecological outcome of toxin activity depends on concentration, environmental conditions, and microbial community structure. A comprehensive understanding of toxin-mediated interactions will enable effective utilization of beneficial microorganisms, reduction of chemical inputs, and enhancement of soil resilience. Integrating microbial toxin research with modern biotechnological and precision-farming approaches offers promising pathways toward sustainable agriculture, improved crop productivity, and long-term ecosystem stability. Importantly, chronic sublethal exposure scenarios, shifts in rhizosphere microbiota, and possible food chain transfer underscore the need for integrative risk assessments. Future research should prioritize long-term field-based studies, molecular ecotoxicology approaches, and soil microbiome profiling to better understand the ecological footprint of Cry proteins in agro-ecosystems. A balanced perspective that integrates pest control efficiency with environmental stewardship, and soil health management is essential for ensuring the sustainable use of Bt-derived technologies within the soil-plant continuum.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-Abioye2021" class="csl-entry">
+Abioye, O. P., U. J. J. Ijah, S. A. Aransiola, S. H. Auta, and M. I. Ojeba. 2021. <span>“Bioremediation of Toxic Pesticides in Soil Using Microbial Products.”</span> In <em>Mycoremediation and Environmental Sustainability</em>, edited by R. Prasad, S. C. Nayak, R. N. Kharwar, and N. K. Dubey. Fungal Biology. Cham: Springer. <a href="https://doi.org/10.1007/978-3-030-54422-5_1">https://doi.org/10.1007/978-3-030-54422-5_1</a>.
+</div>
+<div id="ref-Akash2025" class="csl-entry">
+Akash, A., Logeshkumar, Muthuraja Vikaash, Bhavanasi Satheesh, G. Muhilan, K. Santhosh, Kuppuraj Saravanan, and S. Akhil. 2025. <span>“Scientific Beekeeping and Commercial Honey Production: A Case Study at KARE Crop Cafeteria, Krishnankovil, Tamil Nadu, India.”</span> <em>Journal of Advances in Food Science &amp; Technology</em> 12 (4): 1–13. <a href="https://doi.org/10.56557/jafsat/2025/v12i49713">https://doi.org/10.56557/jafsat/2025/v12i49713</a>.
+</div>
+<div id="ref-Ayilara2023" class="csl-entry">
+Ayilara, Modupe S., and Olubukola O. Babalola. 2023. <span>“Bioremediation of Environmental Wastes: The Role of Microorganisms.”</span> <em>Frontiers in Agronomy</em> 5. <a href="https://doi.org/10.3389/fagro.2023.1183691">https://doi.org/10.3389/fagro.2023.1183691</a>.
+</div>
+<div id="ref-Bacic1986" class="csl-entry">
+Bacic, A., S. F. Moody, and A. E. Clarke. 1986. <span>“Structural Analysis of Secreted Root Slime from Maize (Zea Mays l.).”</span> <em>Plant Physiology</em> 80: 771–77. <a href="https://doi.org/10.1104/pp.80.3.771">https://doi.org/10.1104/pp.80.3.771</a>.
+</div>
+<div id="ref-Bonkowski2009" class="csl-entry">
+Bonkowski, M., C. Villenave, and B. Griffiths. 2009. <span>“Rhizosphere Fauna: The Functional and Structural Diversity of Intimate Interactions of Soil Fauna with Plant Roots.”</span> <em>Plant and Soil</em> 321: 213–33. <a href="https://doi.org/10.1007/s11104-009-0013-2">https://doi.org/10.1007/s11104-009-0013-2</a>.
+</div>
+<div id="ref-Cai2023" class="csl-entry">
+Cai, J., Y. Jiang, E. S. Ritchie, A. P. Macho, F. Yu, and D. Wu. 2023. <span>“Manipulation of Plant Metabolism by Pathogen Effectors: More Than Just Food.”</span> <em>FEMS Microbiology Reviews</em> 47 (2): fuad007.
+</div>
+<div id="ref-Canarini2019" class="csl-entry">
+Canarini, A., C. Kaiser, A. Merchant, A. Richter, and W. Wanek. 2019. <span>“Root Exudation of Primary Metabolites: Mechanisms and Their Roles in Plant Responses to Environmental Stimuli.”</span> <em>Frontiers in Plant Science</em> 10: 157. <a href="https://doi.org/10.3389/fpls.2019.00157">https://doi.org/10.3389/fpls.2019.00157</a>.
+</div>
+<div id="ref-Carminati2013" class="csl-entry">
+Carminati, A., and D. Vetterlein. 2013. <span>“Plasticity of Rhizosphere Hydraulic Properties as a Key for Efficient Utilization of Scarce Resources.”</span> <em>Annals of Botany</em> 112: 277–90. <a href="https://doi.org/10.1093/aob/mcs262">https://doi.org/10.1093/aob/mcs262</a>.
+</div>
+<div id="ref-doCarmo2025" class="csl-entry">
+Carmo, T. A. do, J. d. S. Fonseca, F. R. Braga, A. Paz-Silva, R. V. G. de Soutello, and J. V. de Araújo. 2025. <span>“Exploring the Use of Helminthophagous Fungi in the Control of Helminthoses in Horses: A Review.”</span> <em>Animals</em> 15 (6): 864. <a href="https://doi.org/10.3390/ani15060864">https://doi.org/10.3390/ani15060864</a>.
+</div>
+<div id="ref-Chalivendra2021" class="csl-entry">
+Chalivendra, S. 2021. <span>“Microbial Toxins in Insect and Nematode Pest Biocontrol.”</span> <em>International Journal of Molecular Sciences</em> 22 (14): 7657. <a href="https://doi.org/10.3390/ijms22147657">https://doi.org/10.3390/ijms22147657</a>.
+</div>
+<div id="ref-Chaudhary2023" class="csl-entry">
+Chaudhary, P., M. Xu, L. Ahamad, A. Chaudhary, G. Kumar, B. S. Adeleke, and S. Abou Fayssal. 2023. <span>“Application of Synthetic Consortia for Improvement of Soil Fertility, Pollution Remediation, and Agricultural Productivity: A Review.”</span> <em>Agronomy</em> 13 (3): 643.
+</div>
+<div id="ref-Chaudhary2024" class="csl-entry">
+Chaudhary, Rida, Ali Nawaz, Zermina Khattak, Muhammad Arslan Butt, Mireille Fouillaud, Laurent Dufossé, Marium Munir, Ikram ul Haq, and Hamid Mukhtar. 2024. <span>“Microbial Bio-Control Agents: A Comprehensive Analysis on Sustainable Pest Management in Agriculture.”</span> <em>Journal of Agriculture and Food Research</em> 18: 101421. <a href="https://doi.org/10.1016/j.jafr.2024.101421">https://doi.org/10.1016/j.jafr.2024.101421</a>.
+</div>
+<div id="ref-Chinthala2025" class="csl-entry">
+Chinthala, L. K. 2025. <span>“Microbes in Action: Ecological Patterns Across Environmental Gradients.”</span>
+</div>
+<div id="ref-Fichant2024" class="csl-entry">
+Fichant, A., R. Lanceleur, S. Hachfi, A. Brun-Barale, A. L. Blier, O. Firmesse, and M. Bonis. 2024. <span>“New Approach Methods to Assess the Enteropathogenic Potential of Strains of the Bacillus Cereus Group, Including Bacillus Thuringiensis.”</span> <em>Foods</em> 13 (8): 1140.
+</div>
+<div id="ref-Gan2022" class="csl-entry">
+Gan, L., J. Wang, M. Xie, and B. Yang. 2022. <span>“Ecological Risk and Health Risk Analysis of Soil Potentially Toxic Elements from Oil Production Plants in Central China.”</span> <em>Scientific Reports</em> 12 (1): 17077.
+</div>
+<div id="ref-Muhilan2026a" class="csl-entry">
+Gangadaran, Muhilan, K. M. Pooja, Naman Pathania, Atul Kumar, Mohd Anas, Aruna Mehta, Yourmila Kumari, and Garima. 2026. <span>“Climate Change and Soil Health: Implications for Sustainable Land Management.”</span> <em>International Journal of Research in Agronomy</em> 9 (1): 569–78. <a href="https://doi.org/10.33545/2618060X.2026.v9.i1h.4734">https://doi.org/10.33545/2618060X.2026.v9.i1h.4734</a>.
+</div>
+<div id="ref-Gangadaran2025b" class="csl-entry">
+Gangadaran, M., B. A. Uma, S. Ramasamy, M. T. Reddy, and H. Manivannan. 2025. <span>“Spatial Assessment and Mapping of Soil Micronutrient Status in Cultivated Lands of Karaikal District, Puducherry, India.”</span> <em>Biology and Life Sciences Forum</em> 54 (1): 10. <a href="https://doi.org/10.3390/blsf2025054010">https://doi.org/10.3390/blsf2025054010</a>.
+</div>
+<div id="ref-Geng2022" class="csl-entry">
+Geng, R., L. Cheng, C. Cao, Z. Liu, D. Liu, Z. Xiao, and A. Yang. 2022. <span>“Comprehensive Analysis Reveals the Genetic and Pathogenic Diversity of Ralstonia Solanacearum Species Complex and Benefits Its Taxonomic Classification.”</span> <em>Frontiers in Microbiology</em> 13: 854792.
+</div>
+<div id="ref-Ghorbani2024" class="csl-entry">
+Ghorbani, A., A. Emamverdian, N. Pehlivan, M. Zargar, S. M. Razavi, and M. Chen. 2024. <span>“Nano-Enabled Agrochemicals: Mitigating Heavy Metal Toxicity and Enhancing Crop Adaptability for Sustainable Crop Production.”</span> <em>Journal of Nanobiotechnology</em> 22 (1): 91.
+</div>
+<div id="ref-Hassan2019" class="csl-entry">
+Hassan, M. K., J. A. McInroy, and J. W. Kloepper. 2019. <span>“The Interactions of Rhizodeposits with Plant Growth-Promoting Rhizobacteria in the Rhizosphere: A Review.”</span> <em>Agriculture</em> 9 (7): 142. <a href="https://doi.org/10.3390/agriculture9070142">https://doi.org/10.3390/agriculture9070142</a>.
+</div>
+<div id="ref-Holz2018" class="csl-entry">
+Holz, M., M. Leue, M. A. Ahmed, P. Benard, H. H. Gerke, and A. Carminati. 2018. <span>“Spatial Distribution of Mucilage in the Rhizosphere Measured with Infrared Spectroscopy.”</span> <em>Frontiers in Environmental Science</em> 6: 87. <a href="https://doi.org/10.3389/fenvs.2018.00087">https://doi.org/10.3389/fenvs.2018.00087</a>.
+</div>
+<div id="ref-Hu2024" class="csl-entry">
+Hu, Z., M. Delgado-Baquerizo, N. Fanin, et al. 2024. <span>“Nutrient-Induced Acidification Modulates Soil Biodiversity-Function Relationships.”</span> <em>Nature Communications</em> 15: 2858. <a href="https://doi.org/10.1038/s41467-024-47323-3">https://doi.org/10.1038/s41467-024-47323-3</a>.
+</div>
+<div id="ref-Jones2009" class="csl-entry">
+Jones, D. L., C. Nguyen, and R. D. Finlay. 2009. <span>“Carbon Flow in the Rhizosphere: Carbon Trading at the Soil–Root Interface.”</span> <em>Plant and Soil</em> 321: 5–33. <a href="https://doi.org/10.1007/s11104-009-9925-0">https://doi.org/10.1007/s11104-009-9925-0</a>.
+</div>
+<div id="ref-Ilakkia2025" class="csl-entry">
+Kaliappan, Ilakkia, Lakshminarayanan Aruna, Ramalingam Mohan, Kalaiselvi Arunachalam, and Muhilan Gangadaran. 2025. <span>“Moisture Regimes and Phosphobacteria Modulated Solubility of Labile and Non-Labile Phosphorus in Paddy Soils.”</span> <em>Asian Journal of Current Research</em> 10 (4): 79–104. <a href="https://doi.org/10.56557/ajocr/2025/v10i49769">https://doi.org/10.56557/ajocr/2025/v10i49769</a>.
+</div>
+<div id="ref-Khan2025" class="csl-entry">
+Khan, M. T., S. Supronienė, R. Žvirdauskienė, and J. Aleinikovienė. 2025. <span>“Climate, Soil, and Microbes: Interactions Shaping Organic Matter Decomposition in Croplands.”</span> <em>Agronomy</em> 15 (8): 1928.
+</div>
+<div id="ref-Kiprotich2025" class="csl-entry">
+Kiprotich, K., E. Muema, C. Wekesa, et al. 2025. <span>“Unveiling the Roles, Mechanisms and Prospects of Soil Microbial Communities in Sustainable Agriculture.”</span> <em>Discover Soil</em> 2: 10. <a href="https://doi.org/10.1007/s44378-025-00037-4">https://doi.org/10.1007/s44378-025-00037-4</a>.
+</div>
+<div id="ref-Koushal2025" class="csl-entry">
+Koushal, S., A. C. Kanagalabavi, A. Kumar, D. Arya, J. N. Nehul, C. K. Panigrahi, D. Haloi, N. Chauhan, and G. Muhilan. 2025. <span>“Bioremediation of Soil Pollution: An Effective Approach for Sustainable Agriculture.”</span> <em>International Journal of Plant &amp; Soil Science</em> 37 (1): 400–410. <a href="https://doi.org/10.9734/ijpss/2025/v37i15282">https://doi.org/10.9734/ijpss/2025/v37i15282</a>.
+</div>
+<div id="ref-Kumar2024" class="csl-entry">
+Kumar, G. A., S. Kumar, R. Bhardwaj, P. Swapnil, M. Meena, C. S. Seth, and A. Yadav. 2024. <span>“Recent Advancements in Multifaceted Roles of Flavonoids in Plant–Rhizomicrobiome Interactions.”</span> <em>Frontiers in Plant Science</em> 14: 1297706. <a href="https://doi.org/10.3389/fpls.2023.1297706">https://doi.org/10.3389/fpls.2023.1297706</a>.
+</div>
+<div id="ref-Kumar2022" class="csl-entry">
+Kumar, R. R., S. Ahuja, G. K. Rai, S. Kumar, D. Mishra, S. N. Kumar, and S. Praveen. 2022. <span>“Silicon Triggers the Signalling Molecules and Stress-Associated Genes for Alleviating the Adverse Effect of Terminal Heat Stress in Wheat with Improved Grain Quality.”</span> <em>Acta Physiologiae Plantarum</em> 44 (3): 30.
+</div>
+<div id="ref-Li2007" class="csl-entry">
+Li, Y., K. Wu, Y. Zhang, and G. Yuan. 2007. <span>“Degradation of Cry1Ac Protein Within Transgenic Bacillus Thuringiensis Rice Tissues Under Field and Laboratory Conditions.”</span> <em>Environmental Entomology</em> 36 (5): 1275–82. <a href="https://doi.org/10.1603/0046-225X(2007)36[1275:DOCPWT]2.0.CO;2">https://doi.org/10.1603/0046-225X(2007)36[1275:DOCPWT]2.0.CO;2</a>.
+</div>
+<div id="ref-Liang2025" class="csl-entry">
+Liang, Bixia, Yimeng Feng, Xiyue Ji, Chune Li, Qian Li, Zhenshun Zeng, and Yuqi Wang. 2025. <span>“Isolation and Characterization of Cadmium-Resistant Bacillus Cereus Strains from Cd-Contaminated Mining Areas for Potential Bioremediation Applications.”</span> <em>Frontiers in Microbiology</em> 16. <a href="https://doi.org/10.3389/fmicb.2025.1550830">https://doi.org/10.3389/fmicb.2025.1550830</a>.
+</div>
+<div id="ref-Lobmann2022" class="csl-entry">
+Löbmann, Michael T., Linda Maring, Gundula Prokop, Jos Brils, Johannes Bender, Antonio Bispo, and Katharina Helming. 2022. <span>“Systems Knowledge for Sustainable Soil and Land Management.”</span> <em>Science of the Total Environment</em> 822: 153389. <a href="https://doi.org/10.1016/j.scitotenv.2022.153389">https://doi.org/10.1016/j.scitotenv.2022.153389</a>.
+</div>
+<div id="ref-Lozano2024" class="csl-entry">
+Lozano, J., E. Cunha, L. M. de Carvalho, et al. 2024. <span>“First Insights on the Susceptibility of Native Coccidicidal Fungi Mucor Circinelloides and Mucor Lusitanicus to Different Avian Antiparasitic Drugs.”</span> <em>BMC Veterinary Research</em> 20: 63. <a href="https://doi.org/10.1186/s12917-024-03909-z">https://doi.org/10.1186/s12917-024-03909-z</a>.
+</div>
+<div id="ref-Lu2023" class="csl-entry">
+Lu, C. Z., P. Zhang, R. Guo, T. Wang, J. Liu, and B. Luo. 2023. <span>“Synergistic Mechanisms of Bioorganic Fertilizer and AMF Driving Rhizosphere Bacterial Community to Improve Phytoremediation Efficiency of Multiple HMs-Contaminated Saline Soil.”</span> <em>Science of the Total Environment</em> 883: 163708. <a href="https://doi.org/10.1016/j.scitotenv.2023.163708">https://doi.org/10.1016/j.scitotenv.2023.163708</a>.
+</div>
+<div id="ref-Maqsood2023" class="csl-entry">
+Maqsood, Quratulain, Aleena Sumrin, Rafia Waseem, Maria Hussain, Mehwish Imtiaz, and Nazim Hussain. 2023. <span>“Bioengineered Microbial Strains for Detoxification of Toxic Environmental Pollutants.”</span> <em>Environmental Research</em> 227: 115665. <a href="https://doi.org/10.1016/j.envres.2023.115665">https://doi.org/10.1016/j.envres.2023.115665</a>.
+</div>
+<div id="ref-Mishra2020" class="csl-entry">
+Mishra, Priya, Jitendra Mishra, S. K. Dwivedi, and Naveen Arora. 2020. <span>“Microbial Enzymes in Biocontrol of Phytopathogens.”</span> In <em>Microbial Enzymes in Biocontrol of Phytopathogens</em>, edited by Naveen Arora. Singapore: Springer. <a href="https://doi.org/10.1007/978-981-15-1710-5_10">https://doi.org/10.1007/978-981-15-1710-5_10</a>.
+</div>
+<div id="ref-Mitchell1984" class="csl-entry">
+Mitchell, R. E. 1984. <span>“The Relevance of Non-Host-Specific Toxins in the Expression of Virulence by Pathogens.”</span> <em>Annual Review of Phytopathology</em> 22 (1): 215–45.
+</div>
+<div id="ref-Muhilan2025a" class="csl-entry">
+Muhilan, G., Bagavathi Ammal, U. Pushpakanth, P. Rajakumar, P. Elavarasi, K. P. Leninbabu, R. Gandhimathi, and V. G. Venkatesan. 2025. <span>“The Rhizosphere Microbiome Revolution: Leveraging Microbial Potential for Climate Resilience in Agriculture Systems and Modulating Positive Plant-Soil Feedback.”</span> <em>Asian Journal of Microbiology and Biotechnology</em> 10 (2): 44–61. <a href="https://doi.org/10.56557/ajmab/2025/v10i29561">https://doi.org/10.56557/ajmab/2025/v10i29561</a>.
+</div>
+<div id="ref-Muhilan2026b" class="csl-entry">
+Muhilan, G., B. Ammal, P. Elavarasi, A. Kaushal, and M. Aseemudheen. 2026. <span>“Adapting Soils to Climate Change: Conservation Strategies for a Resilient Future.”</span> <em>Madras Agricultural Journal</em> 113 (1–3): 25–34. <a href="https://doi.org/10.29321/MAJ.10.2611243">https://doi.org/10.29321/MAJ.10.2611243</a>.
+</div>
+<div id="ref-Gangadaran2025c" class="csl-entry">
+Muhilan, Gangadaran, Bagavathi Ammal Uma, R. Rajakumar, Kancha Sai Kiran, Elavarasi Prabakaran, V. G. Venkatesan, Akash Amulpandi, and Mohamed M. Aseemudheen. 2025. <span>“Climate Change and Soil Health: A Review of Adaptation and Mitigation Practices.”</span> <em>Asian Journal of Microbiology and Biotechnology</em> 10 (2): 273–84. <a href="https://doi.org/10.56557/ajmab/2025/v10i29890">https://doi.org/10.56557/ajmab/2025/v10i29890</a>.
+</div>
+<div id="ref-Muhilan2025c" class="csl-entry">
+Muhilan, G., and U. Bagavathi Ammal. 2025. <span>“Mycorrhizal Association and Plant Growth Under Salinity Stress: An Insight by Linking Microbial Approaches Towards Salt Stress.”</span> <em>Communications in Soil Science and Plant Analysis</em>, 1–29. <a href="https://doi.org/10.1080/00103624.2025.2551356">https://doi.org/10.1080/00103624.2025.2551356</a>.
+</div>
+<div id="ref-Nagrale2023" class="csl-entry">
+Nagrale, D. T., A. Chaurasia, S. Kumar, S. P. Gawande, N. S. Hiremani, R. Shankar, and Y. G. Prasad. 2023. <span>“PGPR: The Treasure of Multifarious Beneficial Microorganisms for Nutrient Mobilization, Pest Biocontrol and Plant Growth Promotion in Field Crops.”</span> <em>World Journal of Microbiology and Biotechnology</em> 39 (4): 100.
+</div>
+<div id="ref-Naseem2024" class="csl-entry">
+Naseem, M., A. N. Chaudhry, G. Jilani, T. Alam, F. Naz, R. Ullah, and S. Zaman. 2024. <span>“Exopolysaccharide-Producing Bacterial Cultures of Bacillus Cereus and Pseudomonas Aeruginosa in Soil Augment Water Retention and Maize Growth.”</span> <em>Heliyon</em> 10 (4).
+</div>
+<div id="ref-Ninkovic2021" class="csl-entry">
+Ninkovic, V., D. Markovic, and M. Rensing. 2021. <span>“Plant Volatiles as Cues and Signals in Plant Communication.”</span> <em>Plant, Cell &amp; Environment</em> 44 (4): 1030–43.
+</div>
+<div id="ref-Ninkovic2019" class="csl-entry">
+Ninkovic, V., M. Rensing, I. Dahlin, and D. Markovic. 2019. <span>“Who Is My Neighbor? Volatile Cues in Plant Interactions.”</span> <em>Plant Signaling &amp; Behavior</em> 14 (9): 1634993.
+</div>
+<div id="ref-Oades1978" class="csl-entry">
+Oades, J. M. 1978. <span>“Mucilages at the Root Surface.”</span> <em>Journal of Soil Science</em> 29: 1–16. <a href="https://doi.org/10.1111/j.1365-2389.1978.tb02025.x">https://doi.org/10.1111/j.1365-2389.1978.tb02025.x</a>.
+</div>
+<div id="ref-Odukkathil2013" class="csl-entry">
+Odukkathil, Greeshma, and Namasivayam Vasudevan. 2013. <span>“Toxicity and Bioremediation of Pesticides in Agricultural Soil.”</span> <em>Reviews in Environmental Science and Biotechnology</em> 12. <a href="https://doi.org/10.1007/s11157-013-9320-4">https://doi.org/10.1007/s11157-013-9320-4</a>.
+</div>
+<div id="ref-Pastor2023" class="csl-entry">
+Pastor, N., S. Palacios, and A. M. Torres. 2023. <span>“Microbial Consortia Containing Fungal Biocontrol Agents, with Emphasis on Trichoderma Spp.: Current Applications for Plant Protection and Effects on Soil Microbial Communities.”</span> <em>European Journal of Plant Pathology</em> 167 (4): 593–620.
+</div>
+<div id="ref-Read2003" class="csl-entry">
+Read, D. B., A. G. Bengough, P. J. Gregory, J. W. Crawford, D. Robinson, and C. M. Scrimgeour. 2003. <span>“Plant Roots Release Phospholipid Surfactants That Modify the Physical and Chemical Properties of Soil.”</span> <em>New Phytologist</em> 157: 315–26. <a href="https://doi.org/10.1046/j.1469-8137.2003.00665.x">https://doi.org/10.1046/j.1469-8137.2003.00665.x</a>.
+</div>
+<div id="ref-Robert2025" class="csl-entry">
+Robert, C. A. M., P. Himmighofen, S. McLaughlin, T. M. Cofer, S. A. Khan, A. Siffert, and J. Sasse. 2025. <span>“Environmental and Biological Drivers of Root Exudation.”</span> <em>Annual Review of Plant Biology</em> 76.
+</div>
+<div id="ref-Rogowska2023" class="csl-entry">
+Rogowska-van der Molen, M. A., A. Berasategui-Lopez, S. Coolen, R. S. Jansen, and C. U. Welte. 2023. <span>“Microbial Degradation of Plant Toxins.”</span> <em>Environmental Microbiology</em> 25 (12): 2988–3010.
+</div>
+<div id="ref-Ruan2026" class="csl-entry">
+Ruan, Y., Z. Xiang, Z. Yang, M. Zhang, M. H. Wong, and W. Liu. 2026. <span>“Linking Bacterial Community Shifts to Biochar-Induced Improvements in Soil Fertility and Multifunctionality.”</span> <em>Agriculture, Ecosystems &amp; Environment</em> 399: 110142.
+</div>
+<div id="ref-Saeed2023" class="csl-entry">
+Saeed, M. U., N. Hussain, M. Javaid, and H. Zaman. 2023. <span>“Microbial Remediation for Environmental Cleanup.”</span> In <em>Advanced Microbial Technology for Sustainable Agriculture and Environment</em>, edited by S. Gangola, S. Kumar, S. Joshi, and P. Bhatt, 247–74. Cambridge, MA: Academic Press.
+</div>
+<div id="ref-Scales2014" class="csl-entry">
+Scales, B. S., R. P. Dickson, J. J. LiPuma, and G. B. Huffnagle. 2014. <span>“Microbiology, Genomics, and Clinical Significance of the Pseudomonas Fluorescens Species Complex.”</span> <em>Clinical Microbiology Reviews</em> 27 (4): 927–48. <a href="https://doi.org/10.1128/CMR.00044-14">https://doi.org/10.1128/CMR.00044-14</a>.
+</div>
+<div id="ref-Sedzielewska2016" class="csl-entry">
+Sȩdzielewska Toro, K., and A. Brachmann. 2016. <span>“The Effector Candidate Repertoire of the Arbuscular Mycorrhizal Fungus Rhizophagus Clarus.”</span> <em>BMC Genomics</em> 17: 1–13. <a href="https://doi.org/10.1186/s12864-016-2422-y">https://doi.org/10.1186/s12864-016-2422-y</a>.
+</div>
+<div id="ref-Sethi2025" class="csl-entry">
+Sethi, G., K. K. Behera, R. Sayyed, V. Adarsh, B. S. Sipra, L. Singh, and M. Behera. 2025. <span>“Enhancing Soil Health and Crop Productivity: The Role of Zinc-Solubilizing Bacteria in Sustainable Agriculture.”</span> <em>Plant Growth Regulation</em> 105 (3): 601–17.
+</div>
+<div id="ref-Singh2022" class="csl-entry">
+Singh, P., P. K. Chauhan, S. K. Upadhyay, R. K. Singh, P. Dwivedi, J. Wang, and M. Jiang. 2022. <span>“Mechanistic Insights and Potential Use of Siderophores Producing Microbes in Rhizosphere for Mitigation of Stress in Plants Grown in Degraded Land.”</span> <em>Frontiers in Microbiology</em> 13: 898979.
+</div>
+<div id="ref-Soni2024" class="csl-entry">
+Soni, J., S. Sinha, and R. Pandey. 2024. <span>“Understanding Bacterial Pathogenicity: A Closer Look at the Journey of Harmful Microbes.”</span> <em>Frontiers in Microbiology</em> 15: 1370818.
+</div>
+<div id="ref-Suarez2012" class="csl-entry">
+Suárez-Moreno, Z. R., J. Caballero-Mellado, B. G. Coutinho, L. Mendonça-Previato, E. K. James, and V. Venturi. 2012. <span>“Common Features of Environmental and Potentially Beneficial Plant-Associated Burkholderia.”</span> <em>Microbial Ecology</em> 63 (2): 249–66.
+</div>
+<div id="ref-Sugimoto2014" class="csl-entry">
+Sugimoto, K., K. Matsui, Y. Iijima, Y. Akakabe, S. Muramoto, R. Ozawa, M. Uefune, R. Sasaki, K. M. Alamgir, and S. Akitake. 2014. <span>“Intake and Transformation to a Glycoside of (z)-3-Hexenol from Infested Neighbors Reveals a Mode of Plant Odor Reception and Defense.”</span> <em>Proceedings of the National Academy of Sciences USA</em> 111 (19): 7144–49.
+</div>
+<div id="ref-Venkatesan2024" class="csl-entry">
+Venkatesan, V. G., N. Indianraj, G. Muhilan, N. Naveen, and M. Karthikeyan. 2024. <span>“Organic Farming in India: A Dual Strategy for Climate Change Adaptation and Mitigation.”</span> <em>International Journal of Environment and Climate Change</em> 14 (11): 755–64. <a href="https://doi.org/10.9734/ijecc/2024/v14i114585">https://doi.org/10.9734/ijecc/2024/v14i114585</a>.
+</div>
+<div id="ref-Wang2022" class="csl-entry">
+Wang, Y., W. Huang, S. W. Ali, Y. Li, F. Yu, and H. Deng. 2022. <span>“Isolation, Identification, and Characterization of an Efficient Siderophore Producing Bacterium from Heavy Metal Contaminated Soil.”</span> <em>Current Microbiology</em> 79 (8): 227.
+</div>
+<div id="ref-Wei2024" class="csl-entry">
+Wei, X., B. Xie, C. Wan, R. Song, W. Zhong, S. Xin, and K. Song. 2024. <span>“Enhancing Soil Health and Plant Growth Through Microbial Fertilizers: Mechanisms, Benefits, and Sustainable Agricultural Practices.”</span> <em>Agronomy</em> 14 (3): 609. <a href="https://doi.org/10.3390/agronomy14030609">https://doi.org/10.3390/agronomy14030609</a>.
+</div>
+<div id="ref-White1998" class="csl-entry">
+White, C., A. Shaman, and G. Gadd. 1998. <span>“An Integrated Microbial Process for the Bioremediation of Soil Contaminated with Toxic Metals.”</span> <em>Nature Biotechnology</em> 16: 572–75. <a href="https://doi.org/10.1038/nbt0698-572">https://doi.org/10.1038/nbt0698-572</a>.
+</div>
+<div id="ref-Xing2025" class="csl-entry">
+Xing, Yingying, Xiukang Wang, and Adnan Mustafa. 2025. <span>“Exploring the Link Between Soil Health and Crop Productivity.”</span> <em>Ecotoxicology and Environmental Safety</em> 289: 117703. <a href="https://doi.org/10.1016/j.ecoenv.2025.117703">https://doi.org/10.1016/j.ecoenv.2025.117703</a>.
+</div>
+<div id="ref-Yadav2021" class="csl-entry">
+Yadav, Ajar Nath, Divjot Kour, Tanvir Kaur, Rubee Devi, Ashok Yadav, Murat Dikilitas, Ahmed M. Abdel-Azeem, Amrik Singh Ahluwalia, and Anil Kumar Saxena. 2021. <span>“Biodiversity and Biotechnological Contribution of Beneficial Soil Microbiomes for Nutrient Cycling, Plant Growth Improvement and Nutrient Uptake.”</span> <em>Biocatalysis and Agricultural Biotechnology</em> 33: 102009. <a href="https://doi.org/10.1016/j.bcab.2021.102009">https://doi.org/10.1016/j.bcab.2021.102009</a>.
+</div>
+<div id="ref-Yan2024" class="csl-entry">
+Yan, P., S. Ahmad, Z. Xu, H. Jia, R. Zhang, J. Song, and W. Zhang. 2024. <span>“Isolation and Characterization of Bacillus Sp. HSY32 and Its Toxin Gene for Potential Biological Control of Plant Parasitic Nematode.”</span> <em>Chemical and Biological Technologies in Agriculture</em> 11 (1): 191.
+</div>
+<div id="ref-Zhang2022" class="csl-entry">
+Zhang, X., J. Yan, M. K. u Rahman, and F. Wu. 2022. <span>“The Impact of Root Exudates, Volatile Organic Compounds, and Common Mycorrhizal Networks on Root System Architecture in Root-Root Interactions.”</span> <em>Journal of Plant Interactions</em> 17 (1): 685–94. <a href="https://doi.org/10.1080/17429145.2022.2086307">https://doi.org/10.1080/17429145.2022.2086307</a>.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>24 February 2026</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>16 March 2026</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>19 March 2026</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<em>Anonymous</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Anonymous</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
+</blockquote>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></div></div></section></div> ]]></description>
+  <category>Review-Article</category>
+  <category>Microbiology</category>
+  <category>Soil</category>
+  <category>PlantScience</category>
+  <guid>https://www.jostapubs.com/volume2/issue1/josta2026029b0a/josta2026029b0a.html</guid>
+  <pubDate>Wed, 18 Mar 2026 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Adoption Behaviour of Indigenous Agricultural and Ethnoveterinary Practices Among Tribal Farmers of Kalrayan Hills, Tamil Nadu</title>
   <dc:creator>Kaviya P*</dc:creator>
   <dc:creator>Natarajan M</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/josta2026027c35/josta2026027c35.html</link>
   <description><![CDATA[ 
-
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -1455,7 +2309,7 @@ Vivekanandan, P. 1994. <span>“Indigenous Pest Control Methods.”</span> Bhara
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1488,7 +2342,7 @@ Vivekanandan, P. 1994. <span>“Indigenous Pest Control Methods.”</span> Bhara
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1519,7 +2373,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Kannappan M</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA202601A408/JOSTA202601A408.html</link>
   <description><![CDATA[ 
-
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -2172,7 +3025,7 @@ Zheng, S., Y. Xia, Y. Hu, X. Chen, Y. Rui, A. Gunina, and Y. Kuzyakov. 2023. <sp
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2200,7 +3053,7 @@ Zheng, S., Y. Xia, Y. Hu, X. Chen, Y. Rui, A. Gunina, and Y. Kuzyakov. 2023. <sp
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2232,7 +3085,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Jiji Joseph</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html</link>
   <description><![CDATA[ 
-
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -2878,7 +3730,7 @@ Upadhyaya, P., K. Tyagi, S. Sarma, V. Tamboli, Y. Sreelakshmi, and R. Sharma. 20
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2908,7 +3760,7 @@ Upadhyaya, P., K. Tyagi, S. Sarma, V. Tamboli, Y. Sreelakshmi, and R. Sharma. 20
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2941,7 +3793,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Aiman Shahid</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html</link>
   <description><![CDATA[ 
-
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -3447,7 +4298,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3475,7 +4326,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3504,7 +4355,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Kannappan M</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025117381/JOSTA2025117381.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -3957,7 +4807,7 @@ Zhao, P., Y. Zheng, L. Tang, Y. Lu, J. X. Xiao, and Y. Dong. 2010. <span>“Effe
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3989,7 +4839,7 @@ Zhao, P., Y. Zheng, L. Tang, Y. Lu, J. X. Xiao, and Y. Dong. 2010. <span>“Effe
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4017,7 +4867,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Mohammed Sadiq V P*</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025114C90/JOSTA2025114C90.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -4645,7 +5494,7 @@ Vinothapreeshan, G., and K. Sundar. 2011. <span>“Anti-Ulcer Activity of Adhato
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4673,7 +5522,7 @@ Vinothapreeshan, G., and K. Sundar. 2011. <span>“Anti-Ulcer Activity of Adhato
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4704,7 +5553,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Aswathy Vijayan</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251272CB/JOSTA20251272CB.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -5424,7 +6272,7 @@ Zwietering, Marcel H., Ilse Jongenburger, Frank M. Rombouts, and Karel Van’t R
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -5452,7 +6300,7 @@ Zwietering, Marcel H., Ilse Jongenburger, Frank M. Rombouts, and Karel Van’t R
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -5483,7 +6331,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Allan Thomas</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202512A575/JOSTA202512A575.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -6077,7 +6924,7 @@ Ziggers, G. W., and J. Trienekens. 1999. <span>“Quality Assurance in Food and 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6108,7 +6955,7 @@ Ziggers, G. W., and J. Trienekens. 1999. <span>“Quality Assurance in Food and 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6142,7 +6989,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>K P Sudheer</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025115655/JOSTA2025115655.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -6606,7 +7452,7 @@ Ziuzina, D., R. van Cleynenbreugel, C. Tersaruolo, and P. Bourke. 2021. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6638,7 +7484,7 @@ Ziuzina, D., R. van Cleynenbreugel, C. Tersaruolo, and P. Bourke. 2021. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6670,7 +7516,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Anu J Prakash</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025109178/JOSTA2025109178.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -7145,7 +7990,7 @@ Zhao, H., H. Zhao, Y. Hu, S. Zhang, S. He, H. Zhang, and H. Zhai. 2022. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -7177,7 +8022,7 @@ Zhao, H., H. Zhao, Y. Hu, S. Zhang, S. He, H. Zhang, and H. Zhai. 2022. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -7209,7 +8054,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Anandhu S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025118B5B/JOSTA2025118B5B.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -7919,7 +8763,7 @@ Ye, C. 2018. <span>“Bibliometrical Analysis of International Big Data Research
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -7951,7 +8795,7 @@ Ye, C. 2018. <span>“Bibliometrical Analysis of International Big Data Research
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -7984,7 +8828,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Mohamed Aseemudheen M</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -8492,7 +9335,7 @@ Zhang, T., N.-F. Wang, H.-Y. Liu, Y.-Q. Zhang, and L.-Y. Yu. 2016. <span>“Soil
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8522,7 +9365,7 @@ Zhang, T., N.-F. Wang, H.-Y. Liu, Y.-Q. Zhang, and L.-Y. Yu. 2016. <span>“Soil
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8555,7 +9398,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Allan Thomas</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -9095,7 +9937,7 @@ Zulaikha, Y., E. Martono, and F. Himam. 2021. <span>“Perceptions of Students o
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -9126,7 +9968,7 @@ Zulaikha, Y., E. Martono, and F. Himam. 2021. <span>“Perceptions of Students o
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -9159,7 +10001,6 @@ which permits unrestricted use, distribution, and reproduction in any medium, pr
   <dc:creator>Sheeja K Raj</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -9721,7 +10562,7 @@ Zhang, Y., Z. Wang, Y. Lu, and L. Zuo. 2022. <span>“Biodiversity, Ecosystem Fu
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -9751,7 +10592,7 @@ Zhang, Y., Z. Wang, Y. Lu, and L. Zuo. 2022. <span>“Biodiversity, Ecosystem Fu
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -9783,7 +10624,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Durga A R</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -10592,7 +11432,7 @@ Zander, K. K., A. G. Drucker, L. Aluso, D. K. Mengistu, C. Fadda, C. Termote, an
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10620,7 +11460,7 @@ Zander, K. K., A. G. Drucker, L. Aluso, D. K. Mengistu, C. Fadda, C. Termote, an
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10652,7 +11492,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Gopika Somanath</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -11631,7 +12470,7 @@ Ziv, C., and E. Fallik. 2021. <span>“Postharvest Storage Techniques and Qualit
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -11664,7 +12503,7 @@ Ziv, C., and E. Fallik. 2021. <span>“Postharvest Storage Techniques and Qualit
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -11694,7 +12533,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Pratheesh P Gopinath*</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -12381,7 +13219,8 @@ Table&nbsp;3: Regression analysis of the developed web application
 <h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
 <p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
 <p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
-<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts. </p><div style="page-break-after: always;"></div><p></p>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
+<div style="page-break-after: always;"></div>
 </section>
 <section id="conclusion" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
@@ -12392,7 +13231,7 @@ Table&nbsp;3: Regression analysis of the developed web application
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Acknowledgments
+Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -12405,7 +13244,7 @@ Table&nbsp;3: Regression analysis of the developed web application
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Technical Details
+Technical Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -12490,7 +13329,7 @@ Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Defi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -12518,7 +13357,7 @@ Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Defi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -12551,7 +13390,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Ashadevi S S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/Denny/JOSTA20250617172925171.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -13602,7 +14440,7 @@ Table&nbsp;8: Potential determinants of the delinquency rate – Tobit regressio
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Acknowledgments
+Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -13689,7 +14527,7 @@ Wydick, B. 1999. <span>“Can Social Cohesion Be Harnessed to Repair Market Fail
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Technical Details
+Technical Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -13702,7 +14540,7 @@ Wydick, B. 1999. <span>“Can Social Cohesion Be Harnessed to Repair Market Fail
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -13745,7 +14583,6 @@ Wydick, B. 1999. <span>“Can Social Cohesion Be Harnessed to Repair Market Fail
   <dc:creator>Dijee Bastian</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html</link>
   <description><![CDATA[ 
-
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -14871,7 +15708,7 @@ Figure&nbsp;2: Performance of elite genotypes for seed yield,oil content and cap
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Acknowledgments
+Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -14990,7 +15827,7 @@ Zhang, Y. X., X. R. Zhang, Z. Che, L. H. Wang, W. L. Wei, and D. H. Li. 2013. <s
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -15030,1448 +15867,6 @@ Zhang, Y. X., X. R. Zhang, Z. Che, L. H. Wang, W. L. Wei, and D. H. Li. 2013. <s
   <category>Genetics</category>
   <guid>https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html</guid>
   <pubDate>Mon, 23 Jun 2025 18:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra</title>
-  <dc:creator>Krishna Vikram</dc:creator>
-  <dc:creator>Atul Jayapal*</dc:creator>
-  <dc:creator>Shalini Pillai</dc:creator>
-  <dc:creator>Sheeba Rebecca Isaac</dc:creator>
-  <dc:creator>Mini V</dc:creator>
-  <link>https://www.jostapubs.com/volume1/issue1/AGRON/JOSTA615202501736.html</link>
-  <description><![CDATA[ 
-
-
-<section class="josta-issue-banner" aria-label="Journal issue banner">
-  <div class="jib-wrap">
-
-
-    <div class="jib-cover">
-      <img src="https://www.jostapubs.com/volume1/issue1/AGRON/cover.webp" alt="Journal of Sustainable Technology in Agriculture – cover image">
-    </div>
-
-
-    <div class="jib-meta">
-      <p class="jib-journal-tag">Journal of Sustainable Technology in Agriculture</p>
-
-      <h2 class="jib-subtitle anchored">
-        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Volume 01</a>
-        •
-        <a href="https://www.jostapubs.com/volume1.html#vol1issue1" target="_blank" rel="noopener" class="jib-vi-link">Issue 01</a>
-        • 2025
-      </h2>
-
-      <p class="jib-line">
-        <span class="jib-label">ISSN (online)</span>
-        <span class="jib-value">
-          <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="jib-issn-link">
-            3107-6882
-          </a>
-        </span>
-      </p>
-
-      <p class="jib-line">
-        <span class="jib-label">License</span>
-        <span class="jib-value">
-          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="jib-license-link">
-            CC BY-NC-ND 4.0
-          </a>
-        </span>
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<style>
-  :root {
-    --j-navy:#0053ed;
-    --j-brown:#8b6a3a;
-    --j-green:#0b5a56;
-    --j-beige:#f8f3ea;
-  }
-
-  .josta-issue-banner {
-    background: linear-gradient(115deg, var(--j-beige), #ffffff);
-    border-bottom: 2px solid rgba(31, 52, 92, 0.12);
-    padding: 1.8rem 1.4rem;
-    margin-bottom: 1.6rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  }
-
-  .jib-wrap {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    gap: 1.6rem;
-    align-items: center;
-  }
-
-  /* Cover image — NO ROUNDED CORNERS */
-  .jib-cover img {
-    display: block;
-    max-width: 120px;
-    height: auto;
-    border-radius: 0;      /* removed curve */
-    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-  }
-
-  .jib-journal-tag {
-    margin: 0 0 0.4rem 0;
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: var(--j-green);
-  }
-
-  .jib-subtitle {
-    margin: 0 0 0.7rem 0;
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--j-navy);
-    opacity: 0.85;
-  }
-
-  /* Volume/Issue links */
-  .jib-vi-link {
-    color: var(--j-navy);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .jib-vi-link:hover { text-decoration: underline; }
-
-  .jib-line {
-    margin: 0.15rem 0;
-    font-size: 0.95rem;
-    display: flex;
-    gap: 0.4rem;
-    align-items: baseline;
-    color: #333;
-  }
-
-  .jib-label {
-    font-weight: 600;
-    color: var(--j-navy);
-  }
-
-  /* ISSN link */
-  .jib-issn-link {
-    color: var(--j-navy);
-    text-decoration: none;
-  }
-  .jib-issn-link:hover { text-decoration: underline; }
-
-  /* License link */
-  .jib-license-link {
-    color: var(--j-green);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .jib-license-link:hover { text-decoration: underline; }
-
-  @media (max-width: 640px) {
-    .jib-wrap { flex-direction: row; align-items: flex-start; }
-    .jib-cover img { max-width: 90px; }
-    .jib-journal-tag { font-size: 1.05rem; }
-    .jib-subtitle { font-size: 0.9rem; }
-  }
-
-  @media (max-width: 480px) {
-    .jib-wrap { flex-direction: column; align-items: flex-start; }
-  }
-</style>
-
-
-
-
-<p><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15706907.svg" class="img-fluid" alt="DOI"> <img src="https://img.shields.io/badge/Open%20Access-Yes-0b5a56?style=flat-square&amp;logo=openaccess&amp;logoColor=white.png" class="img-fluid" alt="Open Access"> <img src="https://img.shields.io/badge/Status-Peer%20Reviewed-1f345c?style=flat-square.png" class="img-fluid" alt="Status"></p>
-<div style="text-align: left; margin-top: 1rem;">
-<p><span class="j-btn-row"> <a href="pdf/JOSTA615202501736.pdf" download="" class="j-btn j-btn-pdf"> <i class="bi bi-file-earmark-pdf-fill"></i> Download PDF </a></span></p>
-<p> <i class="bi bi-clipboard"></i> Copy Citation <span id="tooltip" class="tooltiptext">Citation copied!</span>  </p>
-</div>
-<style>
-.j-btn-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 1.2rem;
-  flex-wrap: nowrap;
-}
-
-/* PDF button */
-.j-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: .5rem;
-  font-family: "Segoe UI", Roboto, sans-serif;
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 0.6rem 1.2rem;
-  border-radius: 999px;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  background-color: #8b6a3a;
-  color: #fff;
-  transition: all 0.25s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-.j-btn:hover {
-  background-color: #6d532d;
-}
-
-/* Copy link */
-.j-copy-link {
-  font-family: "Segoe UI", Roboto, sans-serif;
-  font-size: 0.95rem;
-  color: #1f345c;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  gap: .4rem;
-  cursor: pointer;
-  transition: color 0.25s ease;
-}
-.j-copy-link:hover {
-  color: #0b5a56;
-  text-decoration: underline;
-}
-
-/* Tooltip */
-.tooltiptext {
-  visibility: hidden;
-  background-color: #0b5a56;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 0.4rem 0.6rem;
-  position: absolute;
-  z-index: 1;
-  top: -36px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 0.8rem;
-}
-.j-copy-link:focus .tooltiptext,
-.j-copy-link:active .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-</style>
-<script>
-function copyCitation() {
-  navigator.clipboard.writeText("Gopinath, P. P., et al. (2025). [Article Title]. Journal of Sustainable Technology in Agriculture (JOSTA), 1(1), Article 617. https://doi.org/10.5281/zenodo.15706907");
-  const tooltip = document.getElementById('tooltip');
-  tooltip.style.visibility = 'visible';
-  tooltip.style.opacity = 1;
-  setTimeout(() => {
-    tooltip.style.visibility = 'hidden';
-    tooltip.style.opacity = 0;
-  }, 1500);
-}
-</script>
-<!-- Hidden Citation Text -->
-<p><span id="citation-text" style="display: none;">Vikram, K., Jayapal, A., Pillai, S., Isaac, S. R., &amp; Mini V. (2025). Biochar for Enhancing Yield, Nutrient Uptake, and Soil Fertility in Okra. Journal of Sustainable Technology in Agriculture, 1(1). https://doi.org/10.5281/zenodo.15706907</span></p>
-<!-- JavaScript -->
-<script>
-  function copyCitation() {
-    const citation = document.getElementById("citation-text").innerText;
-    navigator.clipboard.writeText(citation);
-    
-    const tooltip = document.getElementById("tooltip");
-    tooltip.style.visibility = "visible";
-    tooltip.style.opacity = "1";
-    
-    setTimeout(() => {
-      tooltip.style.visibility = "hidden";
-      tooltip.style.opacity = "0";
-    }, 2000);
-  }
-</script>
-<!-- CSS Styling -->
-<style>
-.download-btn {
-  display: inline-flex;
-  align-items: center;
-  border: 2px solid #28a745;
-  background-color: transparent;
-  color: #28a745;
-  padding: 8px 14px;
-  border-radius: 6px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-.download-btn:hover {
-  background-color: #28a745;
-  color: white;
-}
-.download-btn i {
-  margin-right: 6px;
-}
-
-.copy-btn {
-  font-size: 0.9rem;
-  padding: 8px 14px;
-  border: 1px solid black;
-  background-color: white;
-  color: black;
-  border-radius: 6px;
-  cursor: pointer;
-  position: relative;
-}
-.copy-btn #tooltip {
-  visibility: hidden;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 4px;
-  padding: 2px 6px;
-  position: absolute;
-  z-index: 1;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.75rem;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-</style>
-<section id="introduction" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
-<p>In India, the agricultural waste generated by crops is significantly higher than in many other countries. Due to the lack of suitable technologies for effective disposal, farmers often resort to burning the crop residues as a quick and convenient method to clear fields. According to <span class="citation" data-cites="singh2014">Singh and Kaskaoutis (2014)</span>, about 43% of the total crop stubbles produced in India is burnt in-situ, contributing substantially to air pollution. One promising solution to mitigate the environmental impact of crop residue burning is the conversion of crop residues into biochar, a carbon rich material produced through pyrolysis. <span class="citation" data-cites="punnoose2015article">Punnoose and Anitha (2015)</span> has reported that biomass possesses several beneficial physical properties including low bulk density, high porosity, and higher water holding capacity. When applied to soil, these properties make biochar, an effective soil conditioner, enhancing both water and nutrient retention in soil and improves the crop yield. In Kerala, tender coconut husk is a prominent form of agricultural waste which requires efficient and ecofriendly disposal methods. Although, a portion of this agricultural waste is currently utilized through composting or as mulch in coconut gardens, these practices are insufficient relative to the large volume of waste produced. The dried tender coconut husk holds significant potential for conversion into biochar, which can then be recycled back into agricultural use to boost soil productivity. The Onattukara tract spread over three districts of Kerala (Alappuzha, Kollam and Pathanamthitta) presents a unique challenge due to its coarse textured, sandy loam soils with inherently low nutrient status. This type of soil is prone to nutrient leaching, especially during rainfall, rendering the applied fertilizers as less effective. Given biochar’s ability to improve soil moisture retention and reduce nutrient leaching, it represents a promising amendment for such type of soils. Therefore, a study was conducted to evaluate the potential of tender coconut husk biochar as a soil conditioner for okra cultivation in the sandy loam soils of Onattukara region.</p>
-</section>
-<section id="materials-and-methods" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="materials-and-methods"><span class="header-section-number">2</span> Materials and methods</h2>
-<p>A field experiment was conducted during the summer of 2023 in the wetlands of the Instructional Farm attached to Onattukara Regional Agricultural Research Station, Kayamkulam, Kerala. The research station is situated at 9.177° North latitude and 76.517° East longitude and at an altitude of 3.05 m above mean sea level. The treatments were laid out in randomized block design comprising of eight treatment combinations of biochar along with two levels of recommended dose of nutrients for okra along with a control and were replicated thrice. The treatments were t1 (biochar @ <img src="https://latex.codecogs.com/png.latex?5%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> + 100% RDF)<sup>1</sup>, t2 (biochar @ <img src="https://latex.codecogs.com/png.latex?10%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> + 100% RDF), t3 (biochar @ <img src="https://latex.codecogs.com/png.latex?5%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> + <img src="https://latex.codecogs.com/png.latex?5%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> FYM + 100% RDF)<sup>2</sup>, t4 (biochar @ <img src="https://latex.codecogs.com/png.latex?10%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> + <img src="https://latex.codecogs.com/png.latex?5%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> FYM + 100% RDF), t5 (biochar @ <img src="https://latex.codecogs.com/png.latex?5%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> + 75% RDF), t6 (biochar @ <img src="https://latex.codecogs.com/png.latex?10%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> + 75% RDF), t7 (biochar @ <img src="https://latex.codecogs.com/png.latex?5%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> + <img src="https://latex.codecogs.com/png.latex?5%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> FYM + 75% RDF), t8 (biochar @ <img src="https://latex.codecogs.com/png.latex?10%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> + <img src="https://latex.codecogs.com/png.latex?5%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> FYM + 75% RDF), and t9 (<span class="citation" data-cites="kau2016">KAU POP (2016)</span>-<img src="https://latex.codecogs.com/png.latex?20%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> FYM + 100% RDF).</p>
-<p>Prior to sowing, the experimental area was cleared of stubbles and clods were broken thoroughly. Dolomite was applied uniformly at the rate of 1 t ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D"> and was incorporated in soil during primary tillage. The field was laid out as per the treatment design. After the layout, biochar and farmyard manure, along with half N, full P and full K of chemical fertilizers were applied in soil as per the treatments just before sowing. The remaining N was given in soil at one month after sowing along with intercultural operations and earthing up. The seeds of okra var. Arka Anamika were sown in lines in the main field at a spacing of 60 cm × 30 cm. The crop was sown during the last week of January 2023. After sowing, uniform population was maintained by thinning and gap filling. Five random plants from each net plot were selected and tagged as observational plants for recording observations.</p>
-<p>The number of days taken for the first flower to open was noted and the mean was worked out. To find the number of fruits per plant, the fruits obtained from different harvests from each of the five observational plants were recorded separately and the average was worked out. The length of the fruits, from the tip of the fruit to the stalk end, was measured from the observational plants and the average was calculated and expressed in cm. The weight of the fruits harvested from each of the observational plants was recorded after each harvest. After the final harvest, the total weight of fruits obtained from the observational plants at different harvests were worked out, averaged and expressed in kilograms for fruit yield per plant. The weight of fruits from each plot excluding the border plants was recorded after each harvest and summed at the end of the cropping season to compute the yield in terms of kg per plot and was converted into t ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">.</p>
-<p>The harvest index was calculated using the following formula suggested by Donald and Hamblin (1976). It was calculated by dividing the economic yield with biological yield of the plant. Sample plants collected from each plot were chopped into small pieces and were sun dried. After the initial drying, the samples were dried in oven to attain constant weight. The samples were then ground to pass through a 0.5 mm mesh and the required quantity of samples were digested and used for nutrient analysis following standard procedures. The nutrient uptake was calculated and expressed in kg ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D"> according to Equation&nbsp;1.</p>
-<p><span id="eq-eq1"><img src="https://latex.codecogs.com/png.latex?%5Ctext%7BNutrient%20uptake%20(kg%20ha%7D%5E%7B-1%7D%5Ctext%7B)%7D%20=%20%5Cfrac%7B%5Ctext%7BNutrient%20content%20(%5C%25)%7D%20%5Ctimes%20%5Ctext%7BDry%20matter%20production%20(kg%20ha%7D%5E%7B-1%7D%5Ctext%7B)%7D%7D%7B100%7D%20%5Ctag%7B1%7D"></span></p>
-<p>The composite soil samples from the field before the experiment and from each plot after the experiment were collected, air dried, powdered and passed through a 2 mm sieve and analysed for physico-chemical properties of the soil (Table&nbsp;1). The soil samples passed through 0.2 mm sieve were used for organic carbon estimation. Values represented in Table&nbsp;1 are initial soil values.</p>
-<div id="tbl-tbl1" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tbl1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Standard analytical procedures used for the soil analysis
-</figcaption>
-<div aria-describedby="tbl-tbl1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Sl. No.</th>
-<th>Characters</th>
-<th>Values</th>
-<th>Methods</th>
-<th>Reference</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Water holding capacity (%)</td>
-<td>10.47</td>
-<td>Core sampling</td>
-<td><span class="citation" data-cites="black1965">Black (1965)</span></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Bulk density (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7BMg%7D%5C%20%5Ctext%7Bm%7D%5E%7B-3%7D">)</td>
-<td>1.61</td>
-<td>Undisturbed core sample</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Soil reaction (pH)</td>
-<td>5.38</td>
-<td>pH meter (1:2.5 soil water ratio)</td>
-<td><span class="citation" data-cites="jackson1958">Jackson (1958)</span></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>EC (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7BdS%7D%5C%20%5Ctext%7Bm%7D%5E%7B-1%7D">)</td>
-<td>0.01</td>
-<td>Conductivity meter (1:2.5 soil water ratio)</td>
-<td><span class="citation" data-cites="jackson1958">Jackson (1958)</span></td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>CEC (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bcmol%7D(+)%5C%20%5Ctext%7Bkg%7D%5E%7B-1%7D">)</td>
-<td>2.28</td>
-<td>Ammonium saturation with neutral normal ammonium acetate and distillation</td>
-<td><span class="citation" data-cites="jackson1973">Jackson (1973)</span></td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Organic carbon (%)</td>
-<td>0.53</td>
-<td>Walkley and Black rapid titration method</td>
-<td><span class="citation" data-cites="walkley1934">Walkley and Black (1934)</span></td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Available N (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bkg%7D%5C%20%5Ctext%7Bha%7D%5E%7B-1%7D">)</td>
-<td>200.7</td>
-<td>Alkaline permanganate method</td>
-<td><span class="citation" data-cites="subbiah1956">Subbiah and Asija (1956)</span></td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Available P (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bkg%7D%5C%20%5Ctext%7Bha%7D%5E%7B-1%7D">)</td>
-<td>90.27</td>
-<td>Bray No.&nbsp;1 extraction and spectrophotometric estimation</td>
-<td><span class="citation" data-cites="jackson1973">Jackson (1973)</span></td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Available K (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bkg%7D%5C%20%5Ctext%7Bha%7D%5E%7B-1%7D">)</td>
-<td>177.18</td>
-<td>NH₄OAc extraction and flame photometry</td>
-<td><span class="citation" data-cites="jackson1958">Jackson (1958)</span></td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Exchangeable Ca (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bmg%7D%5C%20%5Ctext%7Bha%7D%5E%7B-1%7D">)</td>
-<td>169.26</td>
-<td>NH₄OAc extraction and AAS estimation</td>
-<td><span class="citation" data-cites="hesse1971">Hesse (1971)</span></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Exchangeable Mg (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bmg%7D%5C%20%5Ctext%7Bha%7D%5E%7B-1%7D">)</td>
-<td>53.6</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>Available S (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bmg%7D%5C%20%5Ctext%7Bha%7D%5E%7B-1%7D">)</td>
-<td>2.71</td>
-<td>CaCl₂ extraction and spectrophotometric estimation</td>
-<td><span class="citation" data-cites="chesnin1950">Chesnin and Yien (1950)</span></td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>Available Fe (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bmg%7D%5C%20%5Ctext%7Bkg%7D%5E%7B-1%7D">)</td>
-<td>14.74</td>
-<td>DTPA extraction and AAS estimation</td>
-<td><span class="citation" data-cites="lindsay1978">Lindsay and Norvell (1978)</span></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Available Mn (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bmg%7D%5C%20%5Ctext%7Bkg%7D%5E%7B-1%7D">)</td>
-<td>3.44</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Available Cu (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bmg%7D%5C%20%5Ctext%7Bkg%7D%5E%7B-1%7D">)</td>
-<td>1.31</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Available Zn (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bmg%7D%5C%20%5Ctext%7Bkg%7D%5E%7B-1%7D">)</td>
-<td>3.44</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>Available B (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bmg%7D%5C%20%5Ctext%7Bkg%7D%5E%7B-1%7D">)</td>
-<td>0.59</td>
-<td>Hot water extraction and azomethane-H spectrophotometric estimation</td>
-<td><span class="citation" data-cites="hesse1971">Hesse (1971)</span></td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-</section>
-<section id="results" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="results"><span class="header-section-number">3</span> Results</h2>
-<section id="yield-and-plant-performance" class="level3" data-number="3.1">
-<h3 data-number="3.1" class="anchored" data-anchor-id="yield-and-plant-performance"><span class="header-section-number">3.1</span> Yield and plant performance</h3>
-<p>The application of biochar significantly influenced certain yield traits of okra. Days to flowering ranged between 35 and 37 days after sowing (DAS) across all treatments, but the differences were not statistically significant. Similarly, the number of fruits per plant and fruit length did not differ significantly among treatments. However, fruit yield per plant was significantly affected by biochar application (Table&nbsp;2). Treatment t4 resulted in the highest fruit yield per plant (<img src="https://latex.codecogs.com/png.latex?544.93%5C%20%5Ctext%7Bg%7D">) and was statistically at par with t3 (<img src="https://latex.codecogs.com/png.latex?537.74%5C%20%5Ctext%7Bg%7D">), while the lowest was recorded in t9 (<img src="https://latex.codecogs.com/png.latex?380.24%5C%20%5Ctext%7Bg%7D">). Yield per hectare followed a similar trend, with t4 yielding <img src="https://latex.codecogs.com/png.latex?15.71%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> and was found to be on par with t3 (<img src="https://latex.codecogs.com/png.latex?14.07%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D">), and the lowest yield observed in t9 (<img src="https://latex.codecogs.com/png.latex?7.65%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D">). The harvest index was also positively influenced, with t3 registering the highest value (<img src="https://latex.codecogs.com/png.latex?0.81">), which was statistically similar to t4 (<img src="https://latex.codecogs.com/png.latex?0.81">), t2 (<img src="https://latex.codecogs.com/png.latex?0.79">), t1 (<img src="https://latex.codecogs.com/png.latex?0.79">), and t8 (<img src="https://latex.codecogs.com/png.latex?0.77">).</p>
-</section>
-<section id="nutrient-uptake" class="level3" data-number="3.2">
-<h3 data-number="3.2" class="anchored" data-anchor-id="nutrient-uptake"><span class="header-section-number">3.2</span> Nutrient uptake</h3>
-<p>The nutrient uptake of okra plants varied across treatments. Nitrogen uptake was significantly higher in t4 (<img src="https://latex.codecogs.com/png.latex?101.35%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), which was on par with t3, t2, t6, and t5. The lowest N uptake (<img src="https://latex.codecogs.com/png.latex?74.78%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) was recorded in t9. Phosphorus uptake was highest in t7 (<img src="https://latex.codecogs.com/png.latex?24.76%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), statistically similar to t8, t6, t5, and t3, while t2 had the lowest (<img src="https://latex.codecogs.com/png.latex?14.90%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">). Potassium uptake was not significantly affected by any treatment. For calcium, t6 showed the highest uptake (<img src="https://latex.codecogs.com/png.latex?64.94%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), comparable to t3, t7, and t4. Magnesium uptake was also significantly influenced, with t4 showing the highest uptake (<img src="https://latex.codecogs.com/png.latex?20.47%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), on par with t3, t6, and t8. Sulphur uptake did not differ significantly across treatments. Copper uptake was highest in t1 (<img src="https://latex.codecogs.com/png.latex?1.82%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), followed closely by t3 (<img src="https://latex.codecogs.com/png.latex?1.73%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), while the lowest was in t6 (<img src="https://latex.codecogs.com/png.latex?0.89%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">). Zinc and boron uptakes were not significantly influenced by treatments. Iron uptake was significantly higher in t6 (<img src="https://latex.codecogs.com/png.latex?0.96%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), which was at par with t1 and t3. Manganese uptake was highest in t8 (<img src="https://latex.codecogs.com/png.latex?1.69%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), statistically similar to t7, t4, and t2.</p>
-</section>
-<section id="soil-properties" class="level3" data-number="3.3">
-<h3 data-number="3.3" class="anchored" data-anchor-id="soil-properties"><span class="header-section-number">3.3</span> Soil properties</h3>
-<p>Post-harvest soil analysis revealed that biochar application significantly influenced several soil physico-chemical parameters. Water holding capacity was significantly higher in t4 (<img src="https://latex.codecogs.com/png.latex?33.87%5C%25">), followed by t8, t3, t2, and t7. Bulk density was lowest in t8 (<img src="https://latex.codecogs.com/png.latex?1.21%5C%20%5Ctext%7BMg%20m%7D%5E%7B-3%7D">), while t9 recorded the highest (<img src="https://latex.codecogs.com/png.latex?1.30%5C%20%5Ctext%7BMg%20m%7D%5E%7B-3%7D">). No significant differences were found in soil pH, electrical conductivity (EC), or cation exchange capacity (CEC). Organic carbon content increased significantly with biochar application, highest in t4 (<img src="https://latex.codecogs.com/png.latex?1.29%5C%25">), and statistically comparable to t8, t3, t2, t7, t1, and t6. Available nitrogen content also improved, with t4 (<img src="https://latex.codecogs.com/png.latex?209.07%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) showing significantly higher values, followed by t3, t8, and t7. However, the availability of phosphorus, potassium, calcium, magnesium, sulphur, copper, zinc, iron, boron, and manganese in the soil was not significantly affected by the treatments.</p>
-<div id="tbl-tbl2" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tbl2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Effect of treatments on the yield attributes and yield of okra
-</figcaption>
-<div aria-describedby="tbl-tbl2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Treatment</th>
-<th>Days to Flowering</th>
-<th>No.&nbsp;of Fruits/Plant</th>
-<th>Fruit Length (cm)</th>
-<th>Fruit Yield/Plant (g)</th>
-<th>Fruit Yield (<img src="https://latex.codecogs.com/png.latex?%5Ctext%7Bt%20ha%7D%5E%7B-1%7D">)</th>
-<th>Harvest Index</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>t1</td>
-<td>38.67</td>
-<td>18.00</td>
-<td>15.90</td>
-<td>480.30</td>
-<td>10.44</td>
-<td>0.79</td>
-</tr>
-<tr class="even">
-<td>t2</td>
-<td>38.67</td>
-<td>18.12</td>
-<td>16.07</td>
-<td>487.23</td>
-<td>12.25</td>
-<td>0.79</td>
-</tr>
-<tr class="odd">
-<td>t3</td>
-<td>38.44</td>
-<td>19.90</td>
-<td>16.28</td>
-<td>537.74</td>
-<td>14.07</td>
-<td>0.81</td>
-</tr>
-<tr class="even">
-<td>t4</td>
-<td>38.67</td>
-<td>20.23</td>
-<td>16.34</td>
-<td>544.93</td>
-<td>15.71</td>
-<td>0.81</td>
-</tr>
-<tr class="odd">
-<td>t5</td>
-<td>38.67</td>
-<td>16.11</td>
-<td>15.55</td>
-<td>392.85</td>
-<td>11.26</td>
-<td>0.74</td>
-</tr>
-<tr class="even">
-<td>t6</td>
-<td>38.78</td>
-<td>16.79</td>
-<td>15.74</td>
-<td>415.59</td>
-<td>11.89</td>
-<td>0.76</td>
-</tr>
-<tr class="odd">
-<td>t7</td>
-<td>38.89</td>
-<td>17.45</td>
-<td>15.81</td>
-<td>457.61</td>
-<td>12.19</td>
-<td>0.77</td>
-</tr>
-<tr class="even">
-<td>t8</td>
-<td>38.67</td>
-<td>17.56</td>
-<td>15.85</td>
-<td>464.61</td>
-<td>13.05</td>
-<td>0.77</td>
-</tr>
-<tr class="odd">
-<td>t9</td>
-<td>38.67</td>
-<td>16.11</td>
-<td>15.40</td>
-<td>380.24</td>
-<td>7.65</td>
-<td>0.75</td>
-</tr>
-<tr class="even">
-<td><em>SEm (±)</em></td>
-<td>0.14</td>
-<td>1.33</td>
-<td>0.35</td>
-<td>16.81</td>
-<td>0.63</td>
-<td>0.01</td>
-</tr>
-<tr class="odd">
-<td><em>CD (0.05)</em></td>
-<td>NS</td>
-<td>NS</td>
-<td>NS</td>
-<td>50.385</td>
-<td>1.890</td>
-<td>0.037</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<div id="tbl-tbl3" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tbl3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;3: Effect of treatments on nutrient uptake of okra (N, P, and K)
-</figcaption>
-<div aria-describedby="tbl-tbl3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Treatment</th>
-<th>N (kg ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">)</th>
-<th>P (kg ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">)</th>
-<th>K (kg ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>t1</td>
-<td>87.85</td>
-<td>17.07</td>
-<td>51.93</td>
-</tr>
-<tr class="even">
-<td>t2</td>
-<td>92.90</td>
-<td>14.90</td>
-<td>49.52</td>
-</tr>
-<tr class="odd">
-<td>t3</td>
-<td>95.93</td>
-<td>19.60</td>
-<td>53.88</td>
-</tr>
-<tr class="even">
-<td>t4</td>
-<td>101.35</td>
-<td>18.45</td>
-<td>46.64</td>
-</tr>
-<tr class="odd">
-<td>t5</td>
-<td>91.93</td>
-<td>19.98</td>
-<td>46.68</td>
-</tr>
-<tr class="even">
-<td>t6</td>
-<td>92.70</td>
-<td>22.57</td>
-<td>55.40</td>
-</tr>
-<tr class="odd">
-<td>t7</td>
-<td>88.15</td>
-<td>24.76</td>
-<td>46.47</td>
-</tr>
-<tr class="even">
-<td>t8</td>
-<td>84.43</td>
-<td>23.73</td>
-<td>50.65</td>
-</tr>
-<tr class="odd">
-<td>t9</td>
-<td>74.78</td>
-<td>17.87</td>
-<td>45.96</td>
-</tr>
-<tr class="even">
-<td><em>SEm (±)</em></td>
-<td>4.29</td>
-<td>1.86</td>
-<td>3.42</td>
-</tr>
-<tr class="odd">
-<td><em>CD (0.05)</em></td>
-<td>12.848</td>
-<td>5.561</td>
-<td>NS</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<div id="tbl-tbl4" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tbl4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;4: Effect of treatments on uptake of nutrients by okra (all values in kg ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">)
-</figcaption>
-<div aria-describedby="tbl-tbl4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 19%">
-<col style="width: 10%">
-<col style="width: 10%">
-<col style="width: 9%">
-<col style="width: 10%">
-<col style="width: 9%">
-<col style="width: 10%">
-<col style="width: 9%">
-<col style="width: 10%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Treatment</th>
-<th>Ca</th>
-<th>Mg</th>
-<th>S</th>
-<th>Cu</th>
-<th>Zn</th>
-<th>Fe</th>
-<th>B</th>
-<th>Mn</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>t1</td>
-<td>53.28</td>
-<td>18.27</td>
-<td>3.00</td>
-<td>1.82</td>
-<td>1.86</td>
-<td>0.88</td>
-<td>0.30</td>
-<td>1.36</td>
-</tr>
-<tr class="even">
-<td>t2</td>
-<td>52.78</td>
-<td>18.00</td>
-<td>3.10</td>
-<td>1.70</td>
-<td>1.83</td>
-<td>0.47</td>
-<td>0.34</td>
-<td>1.46</td>
-</tr>
-<tr class="odd">
-<td>t3</td>
-<td>59.72</td>
-<td>19.84</td>
-<td>3.06</td>
-<td>1.73</td>
-<td>1.85</td>
-<td>0.82</td>
-<td>0.32</td>
-<td>1.40</td>
-</tr>
-<tr class="even">
-<td>t4</td>
-<td>58.61</td>
-<td>20.47</td>
-<td>3.14</td>
-<td>1.19</td>
-<td>1.92</td>
-<td>0.44</td>
-<td>0.34</td>
-<td>1.67</td>
-</tr>
-<tr class="odd">
-<td>t5</td>
-<td>54.39</td>
-<td>16.54</td>
-<td>3.03</td>
-<td>0.67</td>
-<td>1.92</td>
-<td>0.67</td>
-<td>0.30</td>
-<td>1.42</td>
-</tr>
-<tr class="even">
-<td>t6</td>
-<td>64.94</td>
-<td>19.61</td>
-<td>3.05</td>
-<td>0.89</td>
-<td>1.85</td>
-<td>0.96</td>
-<td>0.33</td>
-<td>1.61</td>
-</tr>
-<tr class="odd">
-<td>t7</td>
-<td>59.38</td>
-<td>18.66</td>
-<td>2.98</td>
-<td>1.09</td>
-<td>2.04</td>
-<td>0.74</td>
-<td>0.31</td>
-<td>1.68</td>
-</tr>
-<tr class="even">
-<td>t8</td>
-<td>56.25</td>
-<td>19.60</td>
-<td>3.07</td>
-<td>1.34</td>
-<td>2.01</td>
-<td>0.78</td>
-<td>0.33</td>
-<td>1.69</td>
-</tr>
-<tr class="odd">
-<td>t9</td>
-<td>41.10</td>
-<td>18.68</td>
-<td>2.98</td>
-<td>1.68</td>
-<td>1.93</td>
-<td>0.78</td>
-<td>0.31</td>
-<td>1.39</td>
-</tr>
-<tr class="even">
-<td><em>SEm (±)</em></td>
-<td>2.21</td>
-<td>0.35</td>
-<td>0.05</td>
-<td>0.04</td>
-<td>0.18</td>
-<td>0.05</td>
-<td>0.02</td>
-<td>0.08</td>
-</tr>
-<tr class="odd">
-<td><em>CD (0.05)</em></td>
-<td>6.610</td>
-<td>1.061</td>
-<td>NS</td>
-<td>0.111</td>
-<td>NS</td>
-<td>0.151</td>
-<td>NS</td>
-<td>0.251</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<div id="tbl-tbl5" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tbl5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;5: Effect of treatments on soil parameters after harvest of okra
-</figcaption>
-<div aria-describedby="tbl-tbl5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Treatment</th>
-<th>WHC (%)</th>
-<th>Bulk Density (Mg m<img src="https://latex.codecogs.com/png.latex?%5E%7B-3%7D">)</th>
-<th>pH</th>
-<th>EC (dS m<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">)</th>
-<th>CEC (cmol(+) kg<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">)</th>
-<th>Organic Carbon (%)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>t1</td>
-<td>30.78</td>
-<td>1.26</td>
-<td>5.48</td>
-<td>0.03</td>
-<td>3.11</td>
-<td>1.19</td>
-</tr>
-<tr class="even">
-<td>t2</td>
-<td>32.65</td>
-<td>1.22</td>
-<td>5.78</td>
-<td>0.03</td>
-<td>3.12</td>
-<td>1.23</td>
-</tr>
-<tr class="odd">
-<td>t3</td>
-<td>32.73</td>
-<td>1.23</td>
-<td>5.59</td>
-<td>0.02</td>
-<td>3.06</td>
-<td>1.25</td>
-</tr>
-<tr class="even">
-<td>t4</td>
-<td>33.87</td>
-<td>1.22</td>
-<td>5.87</td>
-<td>0.03</td>
-<td>3.11</td>
-<td>1.29</td>
-</tr>
-<tr class="odd">
-<td>t5</td>
-<td>29.45</td>
-<td>1.24</td>
-<td>5.66</td>
-<td>0.02</td>
-<td>3.08</td>
-<td>1.10</td>
-</tr>
-<tr class="even">
-<td>t6</td>
-<td>30.91</td>
-<td>1.22</td>
-<td>5.76</td>
-<td>0.09</td>
-<td>3.09</td>
-<td>1.17</td>
-</tr>
-<tr class="odd">
-<td>t7</td>
-<td>32.61</td>
-<td>1.22</td>
-<td>5.67</td>
-<td>0.04</td>
-<td>3.11</td>
-<td>1.23</td>
-</tr>
-<tr class="even">
-<td>t8</td>
-<td>33.02</td>
-<td>1.21</td>
-<td>5.84</td>
-<td>0.02</td>
-<td>3.07</td>
-<td>1.26</td>
-</tr>
-<tr class="odd">
-<td>t9</td>
-<td>27.52</td>
-<td>1.30</td>
-<td>5.31</td>
-<td>0.03</td>
-<td>3.05</td>
-<td>0.96</td>
-</tr>
-<tr class="even">
-<td><em>SEm (±)</em></td>
-<td>0.57</td>
-<td>0.00</td>
-<td>0.11</td>
-<td>0.03</td>
-<td>0.04</td>
-<td>0.05</td>
-</tr>
-<tr class="odd">
-<td><em>CD (0.05)</em></td>
-<td>1.695</td>
-<td>0.008</td>
-<td>NS</td>
-<td>NS</td>
-<td>NS</td>
-<td>0.134</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<div id="tbl-tbl6" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tbl6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;6: Effect of treatments on primary nutrient status of soil after the experiment (all values in kg ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">)
-</figcaption>
-<div aria-describedby="tbl-tbl6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Treatment</th>
-<th>Available N</th>
-<th>Available P</th>
-<th>Available K</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>t1</td>
-<td>188.16</td>
-<td>76.91</td>
-<td>161.43</td>
-</tr>
-<tr class="even">
-<td>t2</td>
-<td>188.16</td>
-<td>79.63</td>
-<td>152.13</td>
-</tr>
-<tr class="odd">
-<td>t3</td>
-<td>196.52</td>
-<td>76.36</td>
-<td>146.46</td>
-</tr>
-<tr class="even">
-<td>t4</td>
-<td>209.07</td>
-<td>94.90</td>
-<td>172.70</td>
-</tr>
-<tr class="odd">
-<td>t5</td>
-<td>163.07</td>
-<td>80.72</td>
-<td>189.47</td>
-</tr>
-<tr class="even">
-<td>t6</td>
-<td>163.07</td>
-<td>82.73</td>
-<td>159.64</td>
-</tr>
-<tr class="odd">
-<td>t7</td>
-<td>196.52</td>
-<td>88.00</td>
-<td>172.03</td>
-</tr>
-<tr class="even">
-<td>t8</td>
-<td>196.52</td>
-<td>75.09</td>
-<td>173.26</td>
-</tr>
-<tr class="odd">
-<td>t9</td>
-<td>183.98</td>
-<td>73.63</td>
-<td>149.74</td>
-</tr>
-<tr class="even">
-<td><em>SEm (±)</em></td>
-<td>6.97</td>
-<td>7.08</td>
-<td>10.63</td>
-</tr>
-<tr class="odd">
-<td><em>CD (0.05)</em></td>
-<td>20.890</td>
-<td>NS</td>
-<td>NS</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<div id="tbl-tbl7" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tbl7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;7: Effect of treatments on secondary and micronutrient status of soil after the experiment (all values in mg kg<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">)
-</figcaption>
-<div aria-describedby="tbl-tbl7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Treatment</th>
-<th>Ex.<sup>3</sup> Ca</th>
-<th>Ex. Mg</th>
-<th>Available S</th>
-<th>Available Cu</th>
-<th>Available Zn</th>
-<th>Available Fe</th>
-<th>Available B</th>
-<th>Available Mn</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>t1</td>
-<td>446.10</td>
-<td>83.08</td>
-<td>2.53</td>
-<td>1.45</td>
-<td>2.35</td>
-<td>14.72</td>
-<td>0.29</td>
-<td>3.78</td>
-</tr>
-<tr class="even">
-<td>t2</td>
-<td>437.03</td>
-<td>87.28</td>
-<td>3.19</td>
-<td>1.43</td>
-<td>2.62</td>
-<td>15.42</td>
-<td>0.29</td>
-<td>3.81</td>
-</tr>
-<tr class="odd">
-<td>t3</td>
-<td>426.70</td>
-<td>88.68</td>
-<td>2.69</td>
-<td>1.45</td>
-<td>2.64</td>
-<td>15.38</td>
-<td>0.29</td>
-<td>3.95</td>
-</tr>
-<tr class="even">
-<td>t4</td>
-<td>403.75</td>
-<td>88.19</td>
-<td>2.84</td>
-<td>1.42</td>
-<td>2.40</td>
-<td>15.38</td>
-<td>0.29</td>
-<td>3.74</td>
-</tr>
-<tr class="odd">
-<td>t5</td>
-<td>456.83</td>
-<td>72.93</td>
-<td>2.22</td>
-<td>1.33</td>
-<td>2.67</td>
-<td>15.21</td>
-<td>0.28</td>
-<td>3.99</td>
-</tr>
-<tr class="even">
-<td>t6</td>
-<td>398.10</td>
-<td>80.63</td>
-<td>2.86</td>
-<td>1.34</td>
-<td>2.42</td>
-<td>15.53</td>
-<td>0.27</td>
-<td>3.95</td>
-</tr>
-<tr class="odd">
-<td>t7</td>
-<td>391.80</td>
-<td>89.02</td>
-<td>2.82</td>
-<td>1.28</td>
-<td>2.18</td>
-<td>15.14</td>
-<td>0.28</td>
-<td>3.83</td>
-</tr>
-<tr class="even">
-<td>t8</td>
-<td>407.92</td>
-<td>89.90</td>
-<td>3.06</td>
-<td>1.40</td>
-<td>2.14</td>
-<td>14.82</td>
-<td>0.28</td>
-<td>3.45</td>
-</tr>
-<tr class="odd">
-<td>t9</td>
-<td>376.03</td>
-<td>84.69</td>
-<td>2.67</td>
-<td>1.33</td>
-<td>2.63</td>
-<td>14.82</td>
-<td>0.28</td>
-<td>3.47</td>
-</tr>
-<tr class="even">
-<td><em>SEm (±)</em></td>
-<td>21.62</td>
-<td>4.94</td>
-<td>0.19</td>
-<td>0.05</td>
-<td>0.18</td>
-<td>0.46</td>
-<td>0.01</td>
-<td>0.16</td>
-</tr>
-<tr class="odd">
-<td><em>CD (0.05)</em></td>
-<td>NS</td>
-<td>NS</td>
-<td>NS</td>
-<td>NS</td>
-<td>NS</td>
-<td>NS</td>
-<td>NS</td>
-<td>NS</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-</section>
-</section>
-<section id="discussion" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="discussion"><span class="header-section-number">4</span> Discussion</h2>
-<section id="yield-attributes" class="level3" data-number="4.1">
-<h3 data-number="4.1" class="anchored" data-anchor-id="yield-attributes"><span class="header-section-number">4.1</span> Yield attributes</h3>
-<p>The treatments did not influence the days taken to flower in okra. In general, regardless of the treatments, the okra plants started to flower between 35 DAS and 37 DAS. The number of fruits per plant and length of fruits were not influenced by biochar. However, the fruit yield per plant was significantly improved by the incorporation of biochar. The highest yield per plant was obtained from t4 (<img src="https://latex.codecogs.com/png.latex?544.93%5C%20%5Ctext%7Bg%7D">) and was found to be on a par with the treatment t3 (<img src="https://latex.codecogs.com/png.latex?537.74%5C%20%5Ctext%7Bg%7D"> per plant). There was 35.60 per cent increase over t9. Higher fruit yield per plant was observed for the plants that received biochar and FYM along with 100 per cent recommended dose of fertilizers (RDF). The adsorbing property of biochar in sandy loam soil might have slowed down the release of nutrients from FYM and chemical fertilizers. As the amount of biochar was doubled, there was an increase in fresh weight of fruits. This is in accordance with the findings of <span class="citation" data-cites="dainy2015">Dainy (2015)</span> who also reported a progressive increment in the yield characters in yard long bean as the levels of biochar was enhanced from 10 to 30 t ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D"> when applied along with the recommended dose of fertilizers. Similar reports of increased yield with the incorporation of biochar and RDF were also reported by <span class="citation" data-cites="punnoose2015thesis">Punnoose (2015)</span> in amaranthus and <span class="citation" data-cites="hashmi2019">Hashmi et al. (2019)</span> in <em>Pisum sativum</em> L. In the case of fruit yield ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">, the application of tender coconut husk biochar had significantly improved the yield per hectare in okra. Higher fruit yield per hectare was observed for the treatment t4 (<img src="https://latex.codecogs.com/png.latex?15.71%5C%20%5Ctext%7Bt%7D">) and was on par with t3 (<img src="https://latex.codecogs.com/png.latex?14.07%5C%20%5Ctext%7Bt%7D">). The control plants (t9) could only produce <img src="https://latex.codecogs.com/png.latex?7.65%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D">. Overall, there was a yield increase of 69 per cent in t4 compared to t9. The lower yield in t9 might be due to the leaching loss of nutrients. There was 44 mm rainfall during the growth period of okra at Onattukara which might have aggravated the leaching loss in the sandy loam soils of Onattukara. <span class="citation" data-cites="nagula2017">Nagula (2017)</span> had also recommended the application of biochar (<img src="https://latex.codecogs.com/png.latex?@"> 10 kg ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">) along with RDN for higher yield in banana. The harvest index was also significantly influenced by the treatments. The treatment t3 recorded a higher harvest index of <img src="https://latex.codecogs.com/png.latex?0.81"> and was found to be on a par with the treatments t4 (<img src="https://latex.codecogs.com/png.latex?0.81">), t2 (<img src="https://latex.codecogs.com/png.latex?0.79">), t1 (<img src="https://latex.codecogs.com/png.latex?0.79">) and t8 (<img src="https://latex.codecogs.com/png.latex?0.77">). Thus, biochar as a soil conditioner along with FYM and full recommended dose of fertilizers was effective for okra in the sandy loam soils of Onattukara.</p>
-</section>
-<section id="nutrient-uptake-1" class="level3" data-number="4.2">
-<h3 data-number="4.2" class="anchored" data-anchor-id="nutrient-uptake-1"><span class="header-section-number">4.2</span> Nutrient uptake</h3>
-<p>The N uptake in okra was significantly improved due to the treatments. Among the treatments, the highest N uptake was recorded by the treatment t4 (<img src="https://latex.codecogs.com/png.latex?101.35%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and was found to be on a par with t3 (<img src="https://latex.codecogs.com/png.latex?95.93%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), t2 (<img src="https://latex.codecogs.com/png.latex?92.90%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), t6 (<img src="https://latex.codecogs.com/png.latex?92.70%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and t5 (<img src="https://latex.codecogs.com/png.latex?91.93%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">). Lower N uptake was recorded in t9. There was an increase of 30.14 percent in the N uptake (t4) compared to control (t9). This might be due to the adsorbing capacity of biochar applied as soil conditioner. The higher CEC for biochar might have helped in retaining N in the sandy loam soils of Onattukara. The full RDN along with FYM (5 t ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">), combined with the adsorbing property of biochar might have contributed to a higher status of available N in soil and led to an increased uptake of N by okra. <span class="citation" data-cites="dainy2015">Dainy (2015)</span> had earlier reported that the total N uptake in yard long bean was found to increase from <img src="https://latex.codecogs.com/png.latex?51.19%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D"> to <img src="https://latex.codecogs.com/png.latex?105.50%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D"> due to the application of biochar, PGPR and full recommended dose of nutrients. <span class="citation" data-cites="jabin2022">Jabin (2022)</span> had also reported that total N uptake was higher in ginger when treated with paddy husk biochar (30 t ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">) along with full dose of fertilizers in sandy soils. Similarly, <span class="citation" data-cites="nigussie2012">Nigussie et al. (2012)</span> had also reported a higher N uptake in lettuces grown in soils conditioned with 10 t ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D"> biochar suggesting the prospects of biochar to raise fertilizer use efficiency in soils where N loss is high.</p>
-<p>A significant difference was observed in P uptake among the treatments. Higher P uptake was observed for t7 (<img src="https://latex.codecogs.com/png.latex?24.76%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and was on a par with t8 (<img src="https://latex.codecogs.com/png.latex?23.73%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), t6 (<img src="https://latex.codecogs.com/png.latex?22.57%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), t5 (<img src="https://latex.codecogs.com/png.latex?19.98%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and t3 (<img src="https://latex.codecogs.com/png.latex?19.60%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">). This increase in P uptake might be due to the higher quantity of available P in soil which is evident from the soil samples collected after the harvest of okra (Table&nbsp;6). In acidic soils, the solubility of P and its uptake by plants depends mainly on the formation of Al and Fe-phosphates in soil. When biochar is applied to acidic soil condition, it raises the soil pH. There is a reduction in the P binding to Fe and Al oxides, thus making P available in soil. Similar reports of improved P availability in acid soils due to supplementation of biochar was observed by <span class="citation" data-cites="chintala2014">Chintala et al. (2014)</span> and <span class="citation" data-cites="zhang2016">H. Zhang et al. (2016)</span>. On the contrary, <span class="citation" data-cites="dainy2015">Dainy (2015)</span> and <span class="citation" data-cites="jabin2022">Jabin (2022)</span> had reported a higher P uptake in yard long bean and ginger, treated with biochar along with NPK as per <span class="citation" data-cites="kau2016">KAU POP (2016)</span>. The uptake of K was not significantly influenced by the treatments.</p>
-<p>Significant effect for Ca uptake was observed in okra (Table&nbsp;4). The highest Ca uptake was recorded by the treatment t6 (<img src="https://latex.codecogs.com/png.latex?64.94%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and was noticed to be on a par with treatment t3 (<img src="https://latex.codecogs.com/png.latex?59.72%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), t7 (<img src="https://latex.codecogs.com/png.latex?59.38%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and t4 (<img src="https://latex.codecogs.com/png.latex?58.61%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">). Lower Ca uptake was recorded by the treatment t9 (KAU POP). There was an overall increase of calcium uptake by 44.96% in t6 compared to the control t9. The application of biochar along with liming prior to planting okra was found to improve the availability of calcium in soil which might have led to an increased plant uptake. Earlier, <span class="citation" data-cites="sombroek1993">Sombroek, Nachtergaele, and Hebel (1993)</span> had also reported increased calcium availability for plant growth after the application of biochar due to the higher surface area, negative surface charge and charge density. Moreover, calcium in biochar may exchange Al ions present on the soil organic matter and enhance the availability of calcium for plants thus, guiding it to an increased calcium uptake by the plants <span class="citation" data-cites="novak2009">(Novak et al. 2009)</span>. <span class="citation" data-cites="dainy2015">Dainy (2015)</span> had also reported higher Ca uptake in yard long bean due to the application of biochar. In sandy soils, <span class="citation" data-cites="jabin2022">Jabin (2022)</span> also observed a higher calcium uptake in ginger.</p>
-<p>The uptake of Mg was observed to be significant (Table&nbsp;4). The treatment t4 resulted in higher Mg uptake (<img src="https://latex.codecogs.com/png.latex?20.47%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) by okra and was noticed to be on a par with the treatment t3 (<img src="https://latex.codecogs.com/png.latex?19.84%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), t6 (<img src="https://latex.codecogs.com/png.latex?19.61%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and t8 (<img src="https://latex.codecogs.com/png.latex?19.60%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">). The Mg in soil increases with increase in soil pH. There was an increment in soil pH from the initial value of 5.38 (Table&nbsp;1) to 5.87 (Table&nbsp;5) due to application of biochar in combination with the effect of liming. This might have improved the exchangeable magnesium in soil which has resulted in an increased magnesium uptake in okra. <span class="citation" data-cites="jabin2022">Jabin (2022)</span> has also reported an increased magnesium uptake in ginger due to application of biochar. Tender coconut husk biochar had 0.13 percent magnesium <span class="citation" data-cites="vikram2024">(Vikram et al. 2024)</span>. This might have contributed to the higher magnesium content in t4. <span class="citation" data-cites="dainy2015">Dainy (2015)</span> had also reported an increase in total Mg uptake in yard long bean when biochar (@ 20 t ha<img src="https://latex.codecogs.com/png.latex?%5E%7B-1%7D">) was applied with RDN. The uptake of sulphur was not significantly influenced by the treatments.</p>
-<p>Copper uptake was found to be significant (Table&nbsp;4) for the treatments. Higher copper uptake in okra was observed for the treatment t1 (<img src="https://latex.codecogs.com/png.latex?1.82%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and was found to be on a par with the treatment t3 (<img src="https://latex.codecogs.com/png.latex?1.73%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">). There was an increase in copper content in soil from <img src="https://latex.codecogs.com/png.latex?1.31%5C%20%5Ctext%7Bmg%20kg%7D%5E%7B-1%7D"> (Table&nbsp;1) to <img src="https://latex.codecogs.com/png.latex?1.45%5C%20%5Ctext%7Bmg%20kg%7D%5E%7B-1%7D"> (Table&nbsp;7) due to the application of biochar. This might have contributed to the increased uptake of copper in okra. Similar reports of increased copper uptake were noticed in yard long beans by <span class="citation" data-cites="dainy2015">Dainy (2015)</span> and in rice by <span class="citation" data-cites="salvacion2020">Salvacion and Pangga (2020)</span> due to the application of biochar.</p>
-<p>The uptake of zinc was not significantly influenced by the treatments. The uptake of iron in okra was found to be significant (Table&nbsp;4). Higher iron uptake was observed for t6 (<img src="https://latex.codecogs.com/png.latex?0.96%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and was perceived to be on a par with treatment t1 (<img src="https://latex.codecogs.com/png.latex?0.88%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and t3 (<img src="https://latex.codecogs.com/png.latex?0.82%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">). The biochar produced from tender coconut husk contains <img src="https://latex.codecogs.com/png.latex?107.58%5C%20%5Ctext%7Bmg%20kg%7D%5E%7B-1%7D"> of iron <span class="citation" data-cites="vikram2024">(Vikram et al. 2024)</span>, and hence its application as a soil conditioner had increased the soil iron content. The initial soil available iron was <img src="https://latex.codecogs.com/png.latex?14.74%5C%20%5Ctext%7Bmg%20kg%7D%5E%7B-1%7D"> (Table&nbsp;1) and was increased to <img src="https://latex.codecogs.com/png.latex?15.53%5C%20%5Ctext%7Bmg%20kg%7D%5E%7B-1%7D"> (t6 – Table&nbsp;7) due to the application of biochar. This might be the reason for the increased availability of iron in soil which might have contributed to the increased iron uptake in t6 treatment. Similar report of increased iron uptake in yard long bean was observed by <span class="citation" data-cites="dainy2015">Dainy (2015)</span>.</p>
-<p>The uptake of boron was not significantly influenced by the treatments. The uptake of manganese was found to be significantly influenced by the treatments (Table&nbsp;4). Among the treatments, the highest uptake of manganese was recorded by the treatment t8 (<img src="https://latex.codecogs.com/png.latex?1.69%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and was observed to be on a par with treatment t7 (<img src="https://latex.codecogs.com/png.latex?1.68%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), t4 (<img src="https://latex.codecogs.com/png.latex?1.67%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">), t6 (<img src="https://latex.codecogs.com/png.latex?1.61%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and t2 (<img src="https://latex.codecogs.com/png.latex?1.46%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">). The application of biochar had slightly improved the soil available manganese. This might have improved the plant uptake of manganese in okra. Earlier, <span class="citation" data-cites="dainy2015">Dainy (2015)</span> had also reported the increase in total uptake of manganese from <img src="https://latex.codecogs.com/png.latex?559.93"> to <img src="https://latex.codecogs.com/png.latex?1140.50%5C%20%5Ctext%7Bg%20ha%7D%5E%7B-1%7D"> due to application of biochar in yard long bean.</p>
-<div style="page-break-after: always;"></div>
-</section>
-</section>
-<section id="soil-attributes" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="soil-attributes"><span class="header-section-number">5</span> Soil attributes</h2>
-<p>The soil water holding capacity after cultivation of okra was significantly modified due to the treatments. The initial water holding capacity of the soil from the experimental area (Table&nbsp;1) was <img src="https://latex.codecogs.com/png.latex?10.47%5C%25">. The treatment t4 recorded a significantly higher WHC (<img src="https://latex.codecogs.com/png.latex?33.87%5C%25">) and was found on a par with t8 (<img src="https://latex.codecogs.com/png.latex?33.02%5C%25">), t3 (<img src="https://latex.codecogs.com/png.latex?32.73%5C%25">), t2 (<img src="https://latex.codecogs.com/png.latex?32.65%5C%25">) and t7 (<img src="https://latex.codecogs.com/png.latex?32.61%5C%25">). An increase of <img src="https://latex.codecogs.com/png.latex?20.68%5C%25"> in water holding capacity was observed in t4 (compared to control). An overall increase of <img src="https://latex.codecogs.com/png.latex?105.55%5C%25"> of WHC could be obtained due to application of biochar in the sandy loam soils of Onattukara. The initial analysis of tender coconut husk biochar had revealed that it had a water holding capacity of <img src="https://latex.codecogs.com/png.latex?232.34%5C%25">. This biochar when applied to soil reduces the bulk density of soil and is the reason for the higher water holding capacity of the soil. There was <img src="https://latex.codecogs.com/png.latex?57.92%5C%25"> increase in WHC with the application of biochar along with NPK as per POP recommendation <span class="citation" data-cites="dainy2015">(Dainy 2015)</span>. <span class="citation" data-cites="wang2019">Wang et al. (2019)</span> has also reported that biochar can temporarily increase the field capacity due to their higher pore volume in a coarse textured soil.</p>
-<p>The bulk density of soil was found to be significantly reduced by the treatments. The initial bulk density of the soil from the experimental area was <img src="https://latex.codecogs.com/png.latex?1.61%5C%20%5Ctext%7BMg%20m%7D%5E%7B-3%7D">. In general, biochar had significantly reduced the soil’s bulk density. KAU 2016 (t9) recorded the highest bulk density (<img src="https://latex.codecogs.com/png.latex?1.30%5C%20%5Ctext%7BMg%20m%7D%5E%7B-3%7D">) in soil and the lowest was recorded for the treatment t8 (<img src="https://latex.codecogs.com/png.latex?1.21%5C%20%5Ctext%7BMg%20m%7D%5E%7B-3%7D">). Overall, there was a reduction in bulk density by <img src="https://latex.codecogs.com/png.latex?28.37%5C%25"> compared to the initial value indicating the potential for increased water holding capacity. There are several reports of decreased bulk density with application of biochar <span class="citation" data-cites="laird2010 jones2010 chen2011 mankasingh2011 zhang2012">(Laird et al. 2010; Jones, Haynes, and Phillips 2010; Chen et al. 2011; Mankasingh, Choi, and Ragnarsdottir 2011; A. Zhang et al. 2012)</span>. <span class="citation" data-cites="dainy2015">Dainy (2015)</span> had also reported in yard long bean that the application of biochar had lowered the bulk density of soil. The pH, electrical conductivity and CEC in soil after the experiment was not significantly influenced by the treatments.</p>
-<p>The organic carbon content of the soil after the experiment was significantly governed by the treatments. Higher organic carbon was noticed for t4 (<img src="https://latex.codecogs.com/png.latex?1.29%5C%25">) and was on par with t8 (<img src="https://latex.codecogs.com/png.latex?1.26%5C%25">), t3 (<img src="https://latex.codecogs.com/png.latex?1.25%5C%25">), t2 (<img src="https://latex.codecogs.com/png.latex?1.23%5C%25">), t7 (<img src="https://latex.codecogs.com/png.latex?1.23%5C%25">), t1 (<img src="https://latex.codecogs.com/png.latex?1.19%5C%25">) and t6 (<img src="https://latex.codecogs.com/png.latex?1.17%5C%25">). The control treatment (t9) recorded the lowest organic carbon content (<img src="https://latex.codecogs.com/png.latex?0.96%5C%25">). There was an overall increase of <img src="https://latex.codecogs.com/png.latex?29.33%5C%25"> in t4 compared to KAU (2016) due to the application of biochar. The initial organic carbon content in soil before the experiment was <img src="https://latex.codecogs.com/png.latex?0.53%5C%25"> (Table&nbsp;1). Biochar produced from tender coconut husk had a total organic carbon content of <img src="https://latex.codecogs.com/png.latex?48.14%5C%25"> <span class="citation" data-cites="vikram2024">(Vikram et al. 2024)</span>, and application of this might have helped in the increased carbon content in biochar applied plants. In amaranthus, <span class="citation" data-cites="punnoose2015article">Punnoose and Anitha (2015)</span> had also reported higher organic carbon content in biochar applied plants.</p>
-<p>There were significant effects on available N in soil. Higher available N was observed for t4 (<img src="https://latex.codecogs.com/png.latex?209.07%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">) and was on a par with the treatments t3, t7 and t8 with <img src="https://latex.codecogs.com/png.latex?196.52%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">. This might be due to the increased retention of nitrogen in soil due to the application of biochar. <span class="citation" data-cites="punnoose2015thesis">Punnoose (2015)</span> had also reported an increased nutrient content in biochar applied soils. The control (t9) recorded an available N content of <img src="https://latex.codecogs.com/png.latex?183.98%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">. There was <img src="https://latex.codecogs.com/png.latex?44%5C%20%5Ctext%7Bmm%7D"> of rain during the crop period which might have leached out the available N in soil leading to a comparatively lesser available N in soil. The lowest available N was recorded for t5 and t6 with <img src="https://latex.codecogs.com/png.latex?163.07%5C%20%5Ctext%7Bkg%20ha%7D%5E%7B-1%7D">. The lower dose of fertilizer without the application of FYM might have led to the lowest available N in soil.</p>
-</section>
-<section id="conclusion" class="level2" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">6</span> Conclusion</h2>
-<p>It could be concluded that the rate of biochar as a soil conditioner for okra in the sandy loam soils of Onattukara is standardized as <img src="https://latex.codecogs.com/png.latex?10%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D">. The soil application of biochar at the rate of <img src="https://latex.codecogs.com/png.latex?10%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> along with <img src="https://latex.codecogs.com/png.latex?5%5C%20%5Ctext%7Bt%20ha%7D%5E%7B-1%7D"> FYM and <img src="https://latex.codecogs.com/png.latex?100%5C%25"> RDF could be recommended for enhancing yield, nutrient uptake and soil fertility in okra.</p>
-<div class="callout callout-style-default callout-note no-icon callout-titled" title="Acknowledgments">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Acknowledgments
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The authors are grateful to the support and encouragement provided by Kerala Agricultural University throughout the conduct of the research work.</p>
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-</section>
-<section id="references" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
-<!-- References will be rendered here -->
-<div id="ref-black1965" class="csl-entry">
-Black, C. A. 1965. <em>Methods of Soil Analysis. Part i</em>. Madison, Wisconsin, USA: American Society of Agronomy.
-</div>
-<div id="ref-chen2011" class="csl-entry">
-Chen, H. X., Z. L. Du, W. Guo, and Q. Z. Zhang. 2011. <span>“Effects of Biochar Amendment on Cropland Soil Bulk Density, Cation Exchange Capacity, and Particulate Organic Matter Content in the North China Plain.”</span> <em>Journal of Applied Ecology</em> 22: 2930–34.
-</div>
-<div id="ref-chesnin1950" class="csl-entry">
-Chesnin, L., and C. H. Yien. 1950. <span>“Turbidimetric Determination of Available Sulphates.”</span> <em>Soil Science Society of America Proceedings</em> 15: 149–51.
-</div>
-<div id="ref-chintala2014" class="csl-entry">
-Chintala, R., J. Mollinedo, T. E. Schumacher, D. D. Malo, and J. L. Julson. 2014. <span>“Effect of Biochar on Chemical Properties of Acidic Soil.”</span> <em>Archives of Agronomy and Soil Science</em> 60 (3): 393–404.
-</div>
-<div id="ref-dainy2015" class="csl-entry">
-Dainy, M. M. S. 2015. <span>“Investigation on the Efficacy of Biochar from Tender Coconut Husk for Enhance Crop Production.”</span> PhD thesis, Kerala Agricultural University, Thrissur.
-</div>
-<div id="ref-hashmi2019" class="csl-entry">
-Hashmi, S., U. Younis, S. Danish, and T. M. Munir. 2019. <span>“Pongamia Pinnata l. Leaves Biochar Increased Growth and Pigment Syntheses in Pisum Sativum l. Exposed to Nutritional Stress.”</span> <em>Agriculture</em> 9 (7): 1–13.
-</div>
-<div id="ref-hesse1971" class="csl-entry">
-Hesse, P. R. 1971. <em>A Textbook of Soil Chemical Analysis</em>. London: William Clowes; Sons.
-</div>
-<div id="ref-jabin2022" class="csl-entry">
-Jabin, N. P. P. 2022. <span>“Biochar for Carbon Sequestration, Soil Health and Crop Productivity.”</span> PhD thesis, Kerala Agricultural University, Thrissur.
-</div>
-<div id="ref-jackson1958" class="csl-entry">
-Jackson, M. L. 1958. <em>Soil Chemical Analysis</em>. New Delhi, India: Prentice Hall of India Pvt. Ltd.
-</div>
-<div id="ref-jackson1973" class="csl-entry">
-———. 1973. <em>Soil Chemical Analysis (2nd Ed.)</em>. New Delhi, India: Prentice Hall of India Pvt. Ltd.
-</div>
-<div id="ref-jones2010" class="csl-entry">
-Jones, B. E. H., R. J. Haynes, and I. R. Phillips. 2010. <span>“Effect of Amendment of Bauxite Processing Sand with Organic Materials on Its Chemical, Physical and Microbial Properties.”</span> <em>Journal of Environmental Management</em> 91 (11): 2281–88.
-</div>
-<div id="ref-kau2016" class="csl-entry">
-KAU POP. 2016. <em>Package of Practices Recommendations: Crops (15th Ed.)</em>. Thrissur: Kerala Agricultural University.
-</div>
-<div id="ref-laird2010" class="csl-entry">
-Laird, D. A., P. Fleming, D. D. Davis, R. Horton, B. Q. Wang, and D. L. Karlen. 2010. <span>“Impact of Biochar Amendments on the Quality of a Typical Midwestern Agricultural Soil.”</span> <em>Geoderma</em> 158: 443–49.
-</div>
-<div id="ref-lindsay1978" class="csl-entry">
-Lindsay, W. L., and W. A. Norvell. 1978. <span>“Development of DTPA Micronutrients Soil Test for Zinc, Iron, Manganese and Copper.”</span> <em>Soil Science Society of America Journal</em> 42: 421–28.
-</div>
-<div id="ref-mankasingh2011" class="csl-entry">
-Mankasingh, U., P. C. Choi, and V. Ragnarsdottir. 2011. <span>“Biochar Application in a Tropical, Agricultural Region: A Plot Scale Study in Tamil Nadu, India.”</span> <em>Applied Geochemistry</em> 26 (8): 1594–97.
-</div>
-<div id="ref-mohammed2025raisins" class="csl-entry">
-Mohammed, H. M., J. Chandran, and P. P. Gopinath. 2025. <span>“RAISINS: Integrating r and AI for Agricultural Data Analysis.”</span> <em>Journal of Sustainable Technology in Agriculture</em> 1 (1). <a href="https://doi.org/10.5281/zenodo.15622128">https://doi.org/10.5281/zenodo.15622128</a>.
-</div>
-<div id="ref-nagula2017" class="csl-entry">
-Nagula, S. 2017. <span>“Technology Refinement for Biochar Production and Evaluation of Its Effects on Soil Health and Crop Productivity.”</span> PhD thesis, Kerala Agricultural University, Thrissur.
-</div>
-<div id="ref-nigussie2012" class="csl-entry">
-Nigussie, A., E. Kissi, M. Misganaw, and G. Ambaw. 2012. <span>“Effect of Biochar Application on Soil Properties and Nutrient Uptake of Lettuces (Lactuca Sativa) Grown in Chromium Polluted Soils.”</span> <em>American-Eurasian Journal of Agricultural and Environmental Sciences</em> 12 (3): 369–76.
-</div>
-<div id="ref-novak2009" class="csl-entry">
-Novak, J. M., W. J. Busscher, D. L. Laird, M. Ahmedna, D. W. Watts, and M. A. Niandou. 2009. <span>“Impact of Biochar Amendment on Fertility of a Southeastern Coastal Plain Soil.”</span> <em>Soil Science</em> 174 (2): 105–12.
-</div>
-<div id="ref-punnoose2015thesis" class="csl-entry">
-Punnoose, A. 2015. <span>“Production, Characterisation and Quality Assessment of Biochar.”</span> Master’s thesis, Kerala Agricultural University, Thrissur.
-</div>
-<div id="ref-punnoose2015article" class="csl-entry">
-Punnoose, A., and S. Anitha. 2015. <span>“Production and Characterisation of Biochar from Different Organic Materials.”</span> <em>Journal of Tropical Agriculture</em> 53 (2): 191–96.
-</div>
-<div id="ref-salvacion2020" class="csl-entry">
-Salvacion, S. O., and G. V. Pangga. 2020. <span>“Response of Lowland Rice Grown in Mine-Contaminated Soil with Coconut Husk and Cattle Manure Biochars.”</span> <em>Rice-Based Biosystems Journal</em> 7: 1–12.
-</div>
-<div id="ref-singh2014" class="csl-entry">
-Singh, R. P., and D. G. Kaskaoutis. 2014. <span>“Crop Residue Burning: A Threat to South Asian Air Quality.”</span> <em>EOS Transactions</em> 95 (37): 333–40.
-</div>
-<div id="ref-sombroek1993" class="csl-entry">
-Sombroek, W. G., F. O. Nachtergaele, and A. Hebel. 1993. <span>“Amounts, Dynamics and Sequestering of Carbon in Tropical and Subtropical Soils.”</span> <em>Journal of Human Environment Research and Management</em> 22 (7): 417–26.
-</div>
-<div id="ref-subbiah1956" class="csl-entry">
-Subbiah, B. V., and G. I. Asija. 1956. <span>“A Rapid Procedure for Estimation of Available Nitrogen in Soil.”</span> <em>Current Science</em> 25: 258–60.
-</div>
-<div id="ref-vikram2024" class="csl-entry">
-Vikram, K., A. Jayapal, S. P. Pillai, S. R. Isaac, and V. Mini. 2024. <span>“Characterization of Biochar Produced from Different Agro-Wastes.”</span> <em>Journal of Crop and Weed</em> 20 (1): 12–20.
-</div>
-<div id="ref-walkley1934" class="csl-entry">
-Walkley, A., and T. A. Black. 1934. <span>“An Examination of Degtjareff Method for Determining Soil Organic Matter and Proposed Modification of the Chromic Acid Titration Method.”</span> <em>Soil Science</em> 37: 29–38.
-</div>
-<div id="ref-wang2019" class="csl-entry">
-Wang, D., C. Li, S. J. Parikh, and K. M. Scow. 2019. <span>“Impact of Biochar on Water Retention of Two Agricultural Soils – a Multiscale Analysis.”</span> <em>Geoderma</em> 340: 185–91.
-</div>
-<div id="ref-zhang2012" class="csl-entry">
-Zhang, A., R. Bian, G. Pan, L. Cui, Q. Hussain, L. Li, J. Zheng, et al. 2012. <span>“Effects of Biochar Amendment on Soil Quality, Crop Yield and Greenhouse Gas Emission in a Chinese Rice Paddy: A Field Study of Two Consecutive Rice Growing Cycles.”</span> <em>Field Crops Research</em> 127: 153–60.
-</div>
-<div id="ref-zhang2016" class="csl-entry">
-Zhang, H., C. Chen, E. M. Gray, S. E. Boyd, H. Yang, and D. Zhang. 2016. <span>“Roles of Biochar in Improving Phosphorus Availability in Soils: A Phosphate Adsorbent and a Source of Available Phosphorus.”</span> <em>Geoderma</em> 276: 1–6.
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-<div class="callout callout-style-default callout-tip callout-titled" title="Technical Details">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Technical Details
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The statistical analysis of the data was done by applying the technique of analysis of variance (ANOVA) for Randomised Block Design and was done using RAISINS <span class="citation" data-cites="mohammed2025raisins">(Mohammed, Chandran, and Gopinath 2025)</span> online statistical analysis platform.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Publication Information</strong></p>
-<ul>
-<li><strong>Submitted:</strong> <em>15 June 2025</em><br>
-</li>
-<li><strong>Accepted:</strong> <em>20 June 2025</em><br>
-</li>
-<li><strong>Published (Online):</strong> <em>20 June 2025</em></li>
-</ul>
-<hr>
-<p><strong>Reviewer Information</strong></p>
-<ul>
-<li><p><strong>Reviewer 1:</strong><br>
-<strong>Dr.Gayathri Karthikeyan P</strong><br>
-<em>Department of Agronomy</em><br>
-<em>College of Agriculture, Vellayani</em><br>
-<em>Kerala Agricultural University</em></p></li>
-<li><p><strong>Reviewer 2:</strong><br>
-<em>Anonymous</em></p></li>
-</ul>
-</div>
-</div>
-
-
-
-</section>
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>RDF=Recommended Dose of Fertilizer↩︎</p></li>
-<li id="fn2"><p>FYM=Farm Yard Manure↩︎</p></li>
-<li id="fn3"><p>Ex. stands for Exchangeable↩︎</p></li>
-</ol>
-</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></div></div></section></div> ]]></description>
-  <category>Original-Article</category>
-  <category>Plant-Science</category>
-  <category>Crops</category>
-  <category>Agronomy</category>
-  <guid>https://www.jostapubs.com/volume1/issue1/AGRON/JOSTA615202501736.html</guid>
-  <pubDate>Thu, 19 Jun 2025 18:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

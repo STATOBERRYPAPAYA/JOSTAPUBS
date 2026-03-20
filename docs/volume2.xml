@@ -9,15 +9,869 @@
 <link>https://www.jostapubs.com/volume2.html</link>
 <atom:link href="https://www.jostapubs.com/volume2.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Mon, 02 Mar 2026 18:30:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Wed, 18 Mar 2026 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Microbial Toxins in Agro-ecosystems: Rhizosphere Interactions, Ecological Functions and Cry Protein Implications</title>
+  <dc:creator>Muhilan Gangadaran*</dc:creator>
+  <dc:creator>Bagavathi Ammal U</dc:creator>
+  <dc:creator>Elavarasi P</dc:creator>
+  <dc:creator>Venkatesan V G</dc:creator>
+  <link>https://www.jostapubs.com/volume2/issue1/josta2026029b0a/josta2026029b0a.html</link>
+  <description><![CDATA[ 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+<div class="ja-panel">
+
+  <div class="ja-topbar">
+    <span class="ja-journal-name">Journal of Sustainable Technology in Agriculture</span>
+    <span class="ja-vi">Volume 2 • Issue 1 • 2026</span>
+  </div>
+
+  <div class="ja-main">
+
+    <div class="ja-cover">
+      <img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/cover.webp" alt="JOSTA cover">
+    </div>
+
+    <div class="ja-meta">
+      <div class="ja-badges">
+        <span class="ja-badge ja-badge-type">Review Article</span>
+        <span class="ja-badge ja-badge-pub">✓ Published Online</span>
+        <span class="ja-badge ja-badge-oa">🔓 Open Access</span>
+        <span class="ja-badge ja-badge-pr">Peer Reviewed</span>
+      </div>
+
+      <div class="ja-doi-row">
+        <span class="ja-meta-label">DOI</span>
+        <a href="https://doi.org/10.65287/josta.202602.9b0a" target="_blank" rel="noopener" class="ja-doi-link">
+          10.65287/josta.202602.9b0a
+        </a>
+      </div>
+
+      <div class="ja-dates">
+        <div class="ja-date-item">
+          <span class="ja-meta-label">Received</span>
+          <span>24 Feb 2026</span>
+        </div>
+        <div class="ja-date-sep">→</div>
+        <div class="ja-date-item">
+          <span class="ja-meta-label">Accepted</span>
+          <span>16 Mar 2026</span>
+        </div>
+        <div class="ja-date-sep">→</div>
+        <div class="ja-date-item">
+          <span class="ja-meta-label">Published</span>
+          <span>19 Mar 2026</span>
+        </div>
+      </div>
+
+      <div class="ja-info-row">
+        <span class="ja-meta-label">ISSN</span>
+        <a href="https://portal.issn.org/resource/ISSN/3107-6882" target="_blank" rel="noopener" class="ja-plain-link">3107-6882 (Online)</a>
+        &nbsp;•&nbsp;
+        <span class="ja-meta-label">License</span>
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" class="ja-plain-link">CC BY-NC-ND 4.0</a>
+      </div>
+    </div>
+
+    <div class="ja-actions">
+      <a href="pdfs/josta2026029b0a.pdf" download="" class="ja-btn ja-btn-pdf">
+        <i class="bi bi-file-earmark-pdf-fill"></i>
+        <span>Download PDF</span>
+      </a>
+      <a href="https://zenodo.org/records/19116051" target="_blank" rel="noopener" class="ja-btn ja-btn-zenodo">
+        <i class="bi bi-cloud-arrow-down"></i>
+        <span>View on Zenodo</span>
+      </a>
+      <button class="ja-btn ja-btn-copy" onclick="jCopyCitation()">
+        <i class="bi bi-clipboard"></i>
+        <span>Copy Citation</span>
+        <span id="j-tip" class="ja-copied-tip">Copied!</span>
+      </button>
+
+      <div class="ja-metric-box">
+        <p class="ja-metric-label">Dimensions citations</p>
+        <span class="__dimensions_badge_embed__" data-doi="10.65287/josta.202602.9b0a" data-style="small_rectangle" data-legend="hover-left"></span>
+      </div>
+
+      <div class="ja-metric-box">
+        <p class="ja-metric-label">Crossref citations</p>
+        <div class="ja-live-count">
+          <span id="j-cite-count" class="ja-live-num">—</span>
+          <span class="ja-live-sub">times cited</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<p id="j-citation-text" style="display:none;">Gangadaran, M., Ammal, B., Elavarasi, P., &amp; Venkatesan, V. G. (2026). Microbial Toxins in Agro-ecosystems: Rhizosphere Interactions, Ecological Functions and Cry Protein Implications. Journal of Sustainable Technology in Agriculture, 2(1). https://doi.org/10.65287/josta.202602.9b0a</p>
+
+<style>
+.ja-panel {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  border: 1px solid #ddd5c0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,.07);
+}
+.ja-topbar {
+  background: #1f345c;
+  color: #fff;
+  padding: .55rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+.ja-journal-name { font-size: .88rem; font-weight: 600; letter-spacing: .01em; }
+.ja-vi { font-size: .8rem; opacity: .8; }
+.ja-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  background: linear-gradient(160deg, #fdf6ec 0%, #ffffff 60%);
+}
+.ja-cover img {
+  width: 90px;
+  height: auto;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0,0,0,.15);
+  flex-shrink: 0;
+}
+.ja-meta {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+}
+.ja-badges { display: flex; flex-wrap: wrap; gap: .35rem; }
+.ja-badge {
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: .74rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+}
+.ja-badge-type  { background: #1f345c; color: #fff; }
+.ja-badge-pub   { background: #dff1e9; color: #135c38; border: 1px solid #b2dece; }
+.ja-badge-oa    { background: #fff8e1; color: #7a4f00; border: 1px solid #ffe082; }
+.ja-badge-pr    { background: #e8eaf6; color: #283593; border: 1px solid #c5cae9; }
+.ja-meta-label {
+  font-size: .76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: #8b6a3a;
+  margin-right: .25rem;
+}
+.ja-doi-row { font-size: .9rem; display: flex; align-items: center; gap: .3rem; }
+.ja-doi-link { color: #1a5fa8; font-weight: 600; text-decoration: none; }
+.ja-doi-link:hover { text-decoration: underline; }
+.ja-dates {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .3rem .5rem;
+  font-size: .83rem;
+  color: #444;
+}
+.ja-date-item { display: flex; flex-direction: column; line-height: 1.3; }
+.ja-date-sep { color: #aaa; font-size: .9rem; }
+.ja-info-row { font-size: .83rem; color: #555; }
+.ja-plain-link { color: #1a5fa8; text-decoration: none; }
+.ja-plain-link:hover { text-decoration: underline; }
+.ja-actions {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+  flex-shrink: 0;
+  min-width: 175px;
+  overflow: visible;
+}
+.ja-btn {
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .45rem .9rem;
+  border-radius: 7px;
+  font-size: .83rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: filter .15s ease, transform .15s ease;
+  width: 100%;
+  justify-content: flex-start;
+}
+.ja-btn:hover { filter: brightness(.92); transform: translateY(-1px); }
+.ja-btn i { font-size: 1rem; flex-shrink: 0; }
+.ja-btn-pdf    { background: #b91c1c; color: #fff; }
+.ja-btn-zenodo { background: #0b5a56; color: #fff; }
+.ja-btn-copy   { background: #8b6a3a; color: #fff; position: relative; }
+.ja-copied-tip {
+  display: none;
+  position: absolute;
+  top: -28px; left: 50%;
+  transform: translateX(-50%);
+  background: #0b5a56; color: #fff;
+  font-size: .72rem; padding: 2px 8px;
+  border-radius: 5px; white-space: nowrap;
+}
+.ja-copied-tip.show { display: block; }
+.ja-metric-box {
+  border: 1px solid #e5e7eb;
+  border-radius: 7px;
+  padding: 8px 12px;
+  background: #f8f7f5;
+  overflow: visible;
+}
+.ja-metric-label {
+  font-size: .68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #8b6a3a;
+  margin: 0 0 6px;
+}
+.ja-live-count { display: flex; align-items: baseline; gap: 6px; margin-top: 2px; }
+.ja-live-num { font-size: 1.6rem; font-weight: 700; color: #1f345c; line-height: 1; }
+.ja-live-sub { font-size: .72rem; color: #8b6a3a; text-transform: uppercase; letter-spacing: .05em; }
+@media (max-width: 700px) {
+  .ja-main { flex-wrap: wrap; }
+  .ja-actions { flex-direction: row; flex-wrap: wrap; min-width: 0; width: 100%; }
+  .ja-btn { width: auto; flex: 1 1 140px; }
+}
+@media (max-width: 480px) {
+  .ja-cover { display: none; }
+  .ja-topbar { flex-direction: column; align-items: flex-start; }
+}
+</style>
+
+<script>
+function jCopyCitation(){
+  const t = document.getElementById("j-citation-text").innerText.trim();
+  navigator.clipboard.writeText(t).catch(()=>{});
+  const tip = document.getElementById("j-tip");
+  tip.classList.add("show");
+  setTimeout(()=>tip.classList.remove("show"), 1600);
+}
+document.addEventListener("DOMContentLoaded", async () => {
+  const el = document.getElementById("j-cite-count");
+  if (!el) return;
+  const doi = "10.65287/josta.202602.9b0a";
+  try {
+    const r = await fetch("https://api.crossref.org/works/" + encodeURIComponent(doi) + "?select=is-referenced-by-count", {cache:"no-store"});
+    const j = await r.json();
+    const n = j?.message?.["is-referenced-by-count"];
+    el.textContent = Number.isFinite(n) ? n : "0";
+  } catch { el.textContent = "0"; }
+});
+</script>
+
+
+
+
+<div style="page-break-after: always;"></div>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Soil is a complex ecosystem that supports a vast diversity of organisms essential for ecological functioning and plant growth <span class="citation" data-cites="Muhilan2026b Ilakkia2025 Lobmann2022">(G. Muhilan et al. 2026; Kaliappan et al. 2025; Löbmann et al. 2022)</span>. Soil dynamics play a crucial role in supplying nutrients to crops and supporting microbial nutrient acquisition and transformation processes <span class="citation" data-cites="Akash2025">(Akash et al. 2025)</span>. The soil environment encodes soil physical, chemical and biological properties which acts as a foundation for crop growth and several other soil factors like soil pH, nutrient transfer, SMC (soil moisture content) etc., which cumulatively helps in better performance of crop and yield <span class="citation" data-cites="Hu2024">(Hu et al. 2024)</span>. The intricating relationship between soil, plants and microorganism which emphasize crop resilience, health of soil and ecosystem services <span class="citation" data-cites="Xing2025">(Xing, Wang, and Mustafa 2025)</span>. Many scientist had reported that the soil is just a base for cultivation of crops indeed it is a reservoir for many interactive diversified surface and sub-surface species like bacteria, fungi, actinobacteria, rhizobia, virus molecule, etc. <span class="citation" data-cites="Bonkowski2009">(Bonkowski, Villenave, and Griffiths 2009)</span>. These microbial family had a direct and indirect benefits to soil ecosystem <span class="citation" data-cites="Muhilan2025c">(G. Muhilan and Bagavathi Ammal 2025)</span>.</p>
+<p>Soil drivers including soil bacteria, fungi, actinobacteria supports rhizospheric continuum with above surface plants and atmosphere aiding in nutrient transformation, mineral mobilization, and nutrient solubilisation <span class="citation" data-cites="Muhilan2025a Wei2024">(G. Muhilan et al. 2025; Wei et al. 2024)</span>. But recent practices of long term application of inorganic fertilizers into soil system makes soil microbes to kills and make less efficiency in soil properties. Also this toxins or enzymes released from microbes helps in solubilisation of nutrient especially phosphorus (P) since it is an only element getting fixed in soil mostly at acidic range of soil pH. During decomposition, the produced toxins fasters the rate of decomposition helps in production of organic matter and thus stabilize soil buffering capacity <span class="citation" data-cites="Koushal2025">(Koushal et al. 2025)</span>.</p>
+<p>Traditionally, the term ‘toxin’ refers to biologically produced poisonous compounds; however, in microbial ecology many toxin-like metabolites can also function as signaling molecules or ecological regulators <span class="citation" data-cites="Muhilan2025a">(G. Muhilan et al. 2025)</span>. But still it has practical application in agriculture and plant-root interface. Some of the microbial toxins were prone to suppress the rhizosphere activity but some notably releases valuable toxins from microbes which have considerable positive effect or beneficial effect towards crop growth and soil health. The current study of toxins not only restricted to plants, but also to human medical research and medical consortium preparation. Hence utilizing this as a positive relation towards soil health will aid in managing soil borne diseases and pest. Other than soil microbial toxins, various factors including rhizospheric environment influence crop growth like flavonoids <span class="citation" data-cites="Kumar2024">(G. A. Kumar et al. 2024)</span>, plant volatile organic compounds <span class="citation" data-cites="Sugimoto2014 Ninkovic2019 Ninkovic2021 Zhang2022">(Sugimoto et al. 2014; Ninkovic et al. 2019; Ninkovic, Markovic, and Rensing 2021; Zhang et al. 2022)</span>, amino acids <span class="citation" data-cites="Canarini2019">(Canarini et al. 2019)</span>, mucilage substances <span class="citation" data-cites="Oades1978 Bacic1986 Read2003 Jones2009 Carminati2013 Holz2018">(Oades 1978; Bacic, Moody, and Clarke 1986; Read et al. 2003; Jones, Nguyen, and Finlay 2009; Carminati and Vetterlein 2013; Holz et al. 2018)</span>, sterols <span class="citation" data-cites="Hassan2019">(Hassan, McInroy, and Kloepper 2019)</span> and many rhizodeposits stimulates the plant growth and maintenance of soil health. The well-known distinguishing microbes which releases toxins helps in cleaning up of soil contaminants such as heavy metals, pesticides, and hydrocarbons thereby reducing the entry of such compounds into plant systems <span class="citation" data-cites="Maqsood2023">(Maqsood et al. 2023)</span>. Hence, the utilization of microbial remediation practices aids in restoration of ecosystem and maintaining soil, ecosystem stability <span class="citation" data-cites="Lu2023 Saeed2023">(Lu et al. 2023; Saeed et al. 2023)</span>.</p>
+<p>Having a deeper understanding of interaction between soil microbes, toxins and plant nutrient uptake is significant for good crop yield and optimization of soil ecosystem. Although various significant research had overlooked the importance of toxins in soil system, but the gap between how it influence on rhizospheric environment, ionic balance, stress mitigation and plant protection measures is still unknown and will integrates the crop dynamics behavior into unified platform. This review majorly focuses on through understanding with deep insight into how different toxins released from various microbial population and its synergistic effect over soil health and plant nutrient uptake. Through thorough understanding the microbial dynamics in different soil system, management of soil health and encountering various precision farming practices led to discovery of optimizing soil-plant-microbes interaction and its effect on ecosystem practices. The target goal emphasizes to provide sustainable agriculture with better crop production, safer soil health, good microbial population in soil with summation of toxins released by microbes towards soil health and contributing better farming practices.</p>
+<p>Furthermore , increasing attention has been given to the soil-plant interactions of Bacillus thuringiensis (Bt) Cry proteins within agro-ecosystems. Cry proteins released from Bt crops or biopesticide applications can enter the rhizosphere through root exudates, plant residues, or microbial activity, where they interact with soil particles, organic matter, and microbial communities. Experimental studies have shown that Cry proteins may bind strongly to clay minerals and humic substances, which can influence their persistence and ecological behavior in soil environments. For example, field studies have reported detectable levels of Cry proteins in rhizosphere soils during crop growth stages, although they generally degrade after harvest and do not accumulate significantly over multiple cultivation cycles <span class="citation" data-cites="Jones2009">(Jones, Nguyen, and Finlay 2009)</span>.</p>
+<p>Recent research has also demonstrated that Cry proteins in the rhizosphere may influence soil enzymatic activities and microbial community dynamics, highlighting their broader ecological significance beyond pest control. A field study on transgenic Bt oilseed rape reported correlations between Cry1Ac protein levels and variations in soil enzyme activities during different plant growth stages, indicating potential interactions between Bt proteins and rhizosphere biochemical processes. Therefore, understanding the dynamics of Cry proteins in the soil–plant interface, including their persistence, transformation, and interaction with soil microbiota, is essential for evaluating their ecological implications and ensuring their sustainable use in modern agriculture.</p>
+</section>
+<section id="soil-microorganism" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="soil-microorganism"><span class="header-section-number">2</span> Soil microorganism</h2>
+<p>Soil is known for abundant microbial population and its intellectual benefits to soil environment <span class="citation" data-cites="Ruan2026 Venkatesan2024">(Ruan et al. 2026; Venkatesan et al. 2024)</span>. The produce or substance released from such organisms are potent beneficial or harmful is under questionnaire still now. It includes wide range of bacterial colonies, fungal wide spread growth, actinobacteria population and virus strain which directly also indirectly getting benefits on various mechanisms on soil which includes like nutrient cycling <span class="citation" data-cites="Yadav2021">(Yadav et al. 2021)</span>, bio controlling harmful pathogens, insecticide and nematicide <span class="citation" data-cites="Chalivendra2021 Chaudhary2024">(Chalivendra 2021; R. Chaudhary et al. 2024)</span> and most importantly bioremediation of contaminated soils including toxic metal cations <span class="citation" data-cites="White1998 Odukkathil2013 Abioye2021 Ayilara2023">(White, Shaman, and Gadd 1998; Odukkathil and Vasudevan 2013; Abioye et al. 2021; Ayilara and Babalola 2023)</span> Figure&nbsp;1, Table&nbsp;1. On one scale, micro-organisms were practically utilized in field condition through application of biofertilizers to achieve good crop yield with harmless condition to soil eco-system. Sometime, it may called as ‘Bio-engineers’, where their active performance eventually generate various secondary metabolites which will be helpful in stress detection among the plant system.</p>
+<div id="fig-figure1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/figures/fig1.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Beneficial effect of toxins on nutrient cycling, control of pathogens, soil bio-remediation and other potential benefits
+</figcaption>
+</figure>
+</div>
+<div id="tbl-major" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-major-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Microbial metabolites, enzymes and bioactive compounds involved in soil–plant interactions and crop growth
+</figcaption>
+<div aria-describedby="tbl-major-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 22%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sl. No</th>
+<th>Microorganism used</th>
+<th>Protein or toxins or metabolite or enzymes released</th>
+<th>Function or advantages on soil - plant interphase</th>
+<th>References</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>In-vitro plant protection</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td><em>Bacillus thuringiensis</em> subsp. <em>kurstaki</em></td>
+<td>Cry toxins (also known as delta-endotoxins)</td>
+<td>Cry1Ac protein concentration gets decreased in plant system</td>
+<td><span class="citation" data-cites="Li2007">(Li et al. 2007)</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>Nutrient Solubilisation and Mobilization</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><em>Rhizobium</em> and <em>Bradyrhizobium</em></td>
+<td>nitrogenase</td>
+<td>Reduce the need for nitrogen fertilizers and promote soil health</td>
+<td><span class="citation" data-cites="Kiprotich2025">(Kiprotich et al. 2025)</span></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><em>Burkholderia</em> and <em>Pseudomonas</em></td>
+<td>Rhamnolipids; phospholipases, and chitinases</td>
+<td>Phosphate solubilization</td>
+<td><span class="citation" data-cites="Suarez2012">(Suárez-Moreno et al. 2012)</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><em>Purpureocillium</em> and <em>Duddingtonia flagrans</em></td>
+<td>proteases and chitinases, as well as (SSPs) like CyrA</td>
+<td>suppress harmful nematodes</td>
+<td><span class="citation" data-cites="Lozano2024">(Lozano et al. 2024)</span></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><em>Bacillus cereus</em></td>
+<td>Aggressins and proteases, lipases, and amylases</td>
+<td>mitigate salt stress on plants</td>
+<td><span class="citation" data-cites="Liang2025">(Liang et al. 2025)</span></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><em>Bacillus subtilis</em></td>
+<td>proteases, lipases, and amylases</td>
+<td>need for synthetic pesticides and promote natural disease suppression</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>Metabolites production</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td><em>Bacillus</em> species and fungi like <em>Trichoderma</em> [<em>Paenibacillus</em>, <em>Stenotrophomonas</em>]</td>
+<td>Exopolysaccharide production</td>
+<td>Improve Soil Structure, Salinity protection, Nutrient retention, Moisture retention</td>
+<td><span class="citation" data-cites="Mishra2020">(Mishra et al. 2020)</span></td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td></td>
+<td>Siderophore Production</td>
+<td>Unlock Iron and Bio fertilization</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td></td>
+<td>ACC-D</td>
+<td>Reduce Negative Effects of Stress, Pathogen protection, Salinity protection, Drought protection</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td></td>
+<td>(SA) production</td>
+<td>Plant Stress Response Regulation, Salinity protection, Alleviate heavy metal stress, Drought protection</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>[<em>Enterobacter</em>, and <em>P. fluorescens</em>]</td>
+<td>(ABA) production</td>
+<td>Plant Growth and Stress Response Regulation, Growth regulation, Plant resistance to pathogens</td>
+<td><span class="citation" data-cites="Scales2014">(Scales et al. 2014)</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>Bioremediation</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><em>Burkholderia</em> species</td>
+<td>chitinase, protease, cellulase, amylase and glucanase</td>
+<td>Degrade recalcitrant xenobiotics, making them useful for bioremediation</td>
+<td><span class="citation" data-cites="Suarez2012">(Suárez-Moreno et al. 2012)</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>Fungal role</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td>Helminthophagous fungi (<em>Duddingtonia flagrans</em>, <em>Pochonia chlamydosporia</em>, <em>Arthrobotrys oligospora</em>, <em>Monacrosporium thaumasium</em>, <em>Mucor circinelloides</em> and <em>Purpureocillium lilacinum</em>)</td>
+<td>proteases, chitinases, and lipases</td>
+<td>1. It can act in a complementary and synergistic way in the biological control of helminths, increasing their effectiveness in reducing parasitic infections <br> 2. Emerging as a new approach to nematode control. <br> 3. parasite management in horses (animal oriented pathogen management)</td>
+<td><span class="citation" data-cites="doCarmo2025">(Carmo et al. 2025)</span></td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td>AMF species (<em>Rhizophagus irregularis</em>, <em>Rhizophagus clarus</em>, and <em>Rhizophagus proliferus</em>)</td>
+<td>Glomalin - an endo-glycol protein or GRSP</td>
+<td>1. circumvent plant defenses <br> 2. Soil aggregate stability <br> 3. Increases soil moisture holding capacity <br> 4. Enhances nutrient mobilization especially P</td>
+<td><span class="citation" data-cites="Sedzielewska2016">(Sȩdzielewska Toro and Brachmann 2016)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="microbial-toxin" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="microbial-toxin"><span class="header-section-number">3</span> Microbial toxin</h2>
+<p>Microbial toxins are structurally diverse bioactive compounds synthesized by soil microorganisms such as bacteria, fungi, and actinomycetes <span class="citation" data-cites="Rogowska2023">(Rogowska-van der Molen et al. 2023)</span>. These compounds include phytotoxins, mycotoxins, antibiotics, siderophores, lipopeptides, and various secondary metabolites that influence plant growth and soil ecological balance <span class="citation" data-cites="Gan2022">(Gan et al. 2022)</span>. Their production is strongly regulated by environmental factors including soil pH, moisture, nutrient availability, temperature, and microbial population dynamics <span class="citation" data-cites="Ghorbani2024">(Ghorbani et al. 2024)</span>. In the rhizosphere, microbial toxins function not only as pathogenicity determinants but also as ecological mediators <span class="citation" data-cites="Chinthala2025">(Chinthala 2025)</span>. At low or regulated concentrations, several toxins act as signalling molecules that modulate plant hormonal pathways, induce systemic resistance, and enhance tolerance to abiotic stresses such as salinity, drought, and heavy metal toxicity. Conversely, excessive toxin accumulation may disrupt membrane integrity, inhibit enzymatic activity, and suppress plant physiological processes, ultimately leading to disease development and yield reduction. Therefore, the ecological role of microbial toxins is concentration-dependent and context-specific within the soil-plant system.</p>
+<p>Microbial toxins derived from <em>Bacillus thuringiensis</em> represent one of the most successful examples of biologically based pest control however, emerging evidence indicates that their biological activity extends beyond intended insect targets <span class="citation" data-cites="Fichant2024">(Fichant et al. 2024)</span>. Cry toxins, while requiring specific gut activation and receptor binding, can interfere with conserved cellular pathways such as cadherin-mediated adhesion and Notch signaling, thereby altering intestinal homeostasis in non-target organisms. Additionally, Bt spores harbor enterotoxin genes homologous to those found in <em>Bacillus cereus</em>, raising concerns regarding food safety and opportunistic pathogenicity under certain exposure conditions. Environmental persistence, cumulative field application, and interactions with soil components further complicate ecological risk assessment. These findings emphasize the necessity of re-evaluating microbial toxin safety within integrated ecological and One Health frameworks.</p>
+</section>
+<section id="role-of-microbial-toxin-in-plant-pathogenesis" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="role-of-microbial-toxin-in-plant-pathogenesis"><span class="header-section-number">4</span> Role of microbial toxin in plant pathogenesis</h2>
+<p>Certain soil microorganisms produce toxins that function as virulence factors during host infection <span class="citation" data-cites="Soni2024">(Soni, Sinha, and Pandey 2024)</span>. These phytotoxins interfere with cellular metabolism <span class="citation" data-cites="Cai2023">(Cai et al. 2023)</span>, photosynthesis, ion transport, and cell wall integrity <span class="citation" data-cites="Geng2022">(Geng et al. 2022)</span>, thereby facilitating pathogen colonization. Necrosis-inducing toxins promote tissue degradation, while host-selective toxins determine pathogen specificity toward particular plant species or cultivars. However, not all toxin-producing microbes are detrimental. Beneficial rhizobacteria and fungi synthesize antimicrobial compounds that suppress pathogenic organisms through competitive exclusion, antibiosis, and induced systemic resistance <span class="citation" data-cites="Pastor2023">(Pastor, Palacios, and Torres 2023)</span>. Such toxin-mediated biocontrol mechanisms reduce reliance on synthetic pesticides and contribute to sustainable disease management strategies. The dual nature of microbial toxins pathogenic versus protective highlights the importance of understanding microbial community balance in agricultural soils.</p>
+</section>
+<section id="effects-of-microbial-toxins-on-soil-ecosystem" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="effects-of-microbial-toxins-on-soil-ecosystem"><span class="header-section-number">5</span> Effects of microbial toxins on soil ecosystem</h2>
+<p>Microbial toxins significantly influence soil ecological processes beyond plant-pathogen interactions <span class="citation" data-cites="Muhilan2025a Chaudhary2023">(G. Muhilan et al. 2025; P. Chaudhary et al. 2023)</span>. They regulate microbial community composition through antagonistic interactions <span class="citation" data-cites="Nagrale2023">(Nagrale et al. 2023)</span>, thereby contributing to soil suppressiveness against diseases. Many toxin-producing microbes also release extracellular enzymes that accelerate organic matter decomposition <span class="citation" data-cites="Khan2025">(Khan et al. 2025)</span>, enhance nutrient mineralization, and improve soil structural stability. The potential benefits attributing from bacterial toxin was given in Figure&nbsp;2. The region of rhizosphere were abundant with microorganism including bacteria, fungi and action-bacteria which releases mucilage substances, VOCs, and most importantly toxins in soil. The toxin excrete adhere to host exogenous tissue (cortical cell of root) and penetrate inside root zone (Red, blue and yellow signifies level of toxins produced by each microbes; level of exudates depends upon population level in soil; (bacteria&gt;fungi&gt;actinobacteria&gt;virus).</p>
+<div id="fig-figure2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/figures/fig2.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Role of toxins enzyme in maintaining soil health
+</figcaption>
+</figure>
+</div>
+<p>In addition, microbial metabolites such as siderophores improve micronutrient availability <span class="citation" data-cites="Gangadaran2025b">(M. Gangadaran et al. 2025)</span>, while exopolysaccharides enhance soil aggregation, moisture retention <span class="citation" data-cites="Naseem2024">(Naseem et al. 2024)</span>, and resistance to erosion <span class="citation" data-cites="Singh2022">(Singh et al. 2022)</span>. Some microorganisms participate in bioremediation <span class="citation" data-cites="Wang2022">(Wang et al. 2022)</span> by transforming or immobilizing toxic pollutants, including heavy metals and xenobiotic compounds, reducing their bioavailability to plants and groundwater systems. Consequently, microbial toxins and associated metabolites play an integral role in maintaining soil health, ecosystem resilience, and long-term agricultural sustainability <span class="citation" data-cites="Sethi2025">(Sethi et al. 2025)</span>. The mechanistic overview of soil environment regulation of plant-microbial interactions was given in Figure&nbsp;3.</p>
+<div id="fig-figure3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/figures/fig3.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Mechanistic overview of soil environment regulation of plant-microbial interactions
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="cry-proteins-in-agro-ecosystems" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="cry-proteins-in-agro-ecosystems"><span class="header-section-number">6</span> Cry proteins in agro-ecosystems</h2>
+<p>Cry proteins produced by <em>Bacillus thuringiensis</em> (Bt) are among the most widely used microbial toxins in agricultural pest management. These δ-endotoxins are synthesized during sporulation and act specifically against insect pests by forming pores in the midgut epithelial cells after receptor binding. Transgenic crops expressing Cry proteins have significantly reduced reliance on chemical insecticides and contributed to integrated pest management strategies. In the soil environment, Cry proteins may enter the rhizosphere through root exudation, decaying plant residues, or repeated Bt applications. Once in soil, Cry proteins can bind to clay minerals and organic matter, which may prolong their persistence. Although generally considered environmentally safe, studies have indicated possible sub-lethal effects on non-target organisms and shifts in microbial community composition under long-term exposure. Therefore, understanding the ecological behavior of Cry proteins in the soil-plant system is essential for evaluating their sustainability in agro-ecosystems.</p>
+</section>
+<section id="molecular-basis-of-microbial-toxin-activity-and-off-target-effects" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="molecular-basis-of-microbial-toxin-activity-and-off-target-effects"><span class="header-section-number">7</span> Molecular basis of microbial toxin activity and off-target effects</h2>
+<p>Microbial toxins produced by <em>Bacillus thuringiensis</em> represent a sophisticated example of host-specific biochemical targeting <span class="citation" data-cites="Kumar2022">(R. R. Kumar et al. 2022)</span>. Cry toxins are synthesized as protoxins during sporulation and become activated upon ingestion in alkaline insect midgut conditions. Proteolytic cleavage generates the active toxin, which binds to conserved epithelial receptors including cadherins, aminopeptidases (APN), alkaline phosphatases (ALP), and ABC transporters. Subsequent oligomerization enables insertion into the enterocyte membrane, forming transmembrane pores that disrupt osmotic balance and induce epithelial lysis <span class="citation" data-cites="Mitchell1984">(Mitchell 1984)</span>. However, emerging evidence suggests that receptor conservation across taxa challenges the strict “one toxin-one target” paradigm. Cry1A toxins have been shown to interact with E-cadherin homologs in non-target organisms, weakening adherens junctions and attenuating Notch signaling pathways. This signalling disruption alters intestinal stem cell fate, promoting differentiation toward enteroendocrine lineages at the expense of absorptive enterocytes <span class="citation" data-cites="Gangadaran2025c">(Gangadaran Muhilan et al. 2025)</span>. Such imbalance can modify neuropeptide secretion, metabolism, immune regulation, and feeding behavior <span class="citation" data-cites="Gangadaran2025b">(M. Gangadaran et al. 2025)</span>.</p>
+<p>Beyond Cry toxins, Bt strains share genetic similarities with the <em>Bacillus cereus</em> group and harbor genes encoding pore-forming enterotoxins such as non-hemolytic enterotoxin (Nhe), hemolysin BL (Hbl), and cytotoxin K (CytK). These toxins can activate inflammasome pathways, including NLRP3, leading to pro-inflammatory cytokine release. The presence of these virulence determinants in commercial biopesticide strains raises important food safety considerations, particularly under conditions of high exposure or immunocompromised hosts <span class="citation" data-cites="Yan2024">(Yan et al. 2024)</span>. Environmental persistence further modulates toxin impact. Cry proteins can bind to soil clay particles and organic matter, reducing degradation and prolonging biological activity <span class="citation" data-cites="Muhilan2026a">(Muhilan Gangadaran et al. 2026)</span>. Repeated agricultural applications may therefore result in cumulative exposure, potentially affecting soil microbiota, aquatic invertebrates, and pollinators through chronic sublethal mechanisms rather than acute toxicity <span class="citation" data-cites="Robert2025">(Robert et al. 2025)</span>. Collectively, these findings indicate that Bt-derived microbial toxins operate through conserved molecular pathways influencing epithelial integrity, immune signaling, and microbial-host interactions. A comprehensive risk assessment should thus integrate molecular toxicodynamics, environmental persistence, and host physiological context within a One Health framework. The major microbial toxin components of <em>Bacillus thuringiensis</em>, along with their molecular targets, non-target effects, and ecological implications, are summarized in Table&nbsp;2 and the molecular mechanisms underlying Cry toxin-mediated immune activation, including TLR-NF-κB signaling and NLRP3 inflammasome assembly, are illustrated in Figure&nbsp;4.</p>
+<div id="tbl-molecular" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-molecular-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Molecular mechanisms and non-target effects of Bacillus thuringiensis-derived microbial toxins
+</figcaption>
+<div aria-describedby="tbl-molecular-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sl. No</th>
+<th>Microbial Component</th>
+<th>Toxin Type</th>
+<th>Molecular Mechanism</th>
+<th>Non-Target Effects Reported</th>
+<th>Ecological / Health Implication</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><em>Bacillus thuringiensis</em> spores</td>
+<td>Cry δ-endotoxins (Cry1A, Cry2A, Cry3A)</td>
+<td>1. Activation of Cry protoxin in the alkaline midgut environment <br> 2. Proteolytic cleavage into the active toxin form</td>
+<td>Increased gut epithelial turnover; altered stem cell differentiation; developmental delay in <em>Drosophila</em>; behavioral changes in bees and parasitoids</td>
+<td>Sublethal chronic impacts; ecological imbalance in beneficial insects</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Bt vegetative cells</td>
+<td>Secreted toxins &amp; metabolites</td>
+<td>1. Induction of inflammatory mediators <br> 2. Activation of epithelial immune responses <br> 3. Stimulation of the NF-κB/Relish signaling pathway</td>
+<td>Gut inflammation; increased intestinal permeability; oxidative stress markers</td>
+<td>Potential chronic gut dysregulation in exposed organisms</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Bt (Bc-group related strains)</td>
+<td>Enterotoxins: Nhe, Hbl, CytK</td>
+<td>1. Production of pore-forming enterotoxins (Nhe, Hbl, CytK) <br> 2. Disruption of host cell membrane integrity <br> 3. Activation of the NLRP3 inflammasome pathway</td>
+<td>Diarrheal symptoms; inflammatory response; foodborne outbreak association</td>
+<td>Food safety concerns; opportunistic pathogenicity</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Transgenic Cry proteins (in GM crops)</td>
+<td>Modified Cry toxins</td>
+<td>1. Increased structural stability of the toxin <br> 2. Extended persistence in soil environments</td>
+<td>Persistence in soil up to ~120–175 days; possible microbiome shifts</td>
+<td>Long-term soil ecological effects</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Bt spores (environmental persistence)</td>
+<td>Spore coat resistance factors</td>
+<td>1. Resistance to ultraviolet radiation <br> 2. Tolerance to pH extremes <br> 3. Stability under temperature stress</td>
+<td>Accumulation after repeated applications; exposure via fresh produce</td>
+<td>Dose-dependent cumulative exposure risk</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="fig-figure4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.jostapubs.com/volume2/issue1/josta2026029b0a/figures/fig4.png" class="img-fluid figure-img" width="384">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-figure4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Mechanistic model of TLR–NF-κB and NLRP3 inflammasome activation induced by Bacillus thuringiensis cry toxins
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="current-research-and-future-trend" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="current-research-and-future-trend"><span class="header-section-number">8</span> Current research and future trend</h2>
+<p>Recent advances in molecular biology, metagenomics, transcriptomics, and metabolomics have substantially improved understanding of toxin-mediated interactions in the rhizosphere. High-throughput sequencing now enables identification of toxin-producing microbial communities and their functional genes, while isotopic and imaging techniques allow visualization of toxin transport and transformation within soil-plant systems. Such approaches will support environmentally safe crop production and improved nutrient-use efficiency under changing climatic conditions.</p>
+</section>
+<section id="conclusion" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">9</span> Conclusion</h2>
+<p>Microbial toxins represent a critical yet underexplored component of the soil-plant interphase. While traditionally associated with pathogenicity, growing evidence demonstrates their multifunctional roles in nutrient cycling, stress tolerance, microbial competition, disease suppression, and bioremediation. The ecological outcome of toxin activity depends on concentration, environmental conditions, and microbial community structure. A comprehensive understanding of toxin-mediated interactions will enable effective utilization of beneficial microorganisms, reduction of chemical inputs, and enhancement of soil resilience. Integrating microbial toxin research with modern biotechnological and precision-farming approaches offers promising pathways toward sustainable agriculture, improved crop productivity, and long-term ecosystem stability. Importantly, chronic sublethal exposure scenarios, shifts in rhizosphere microbiota, and possible food chain transfer underscore the need for integrative risk assessments. Future research should prioritize long-term field-based studies, molecular ecotoxicology approaches, and soil microbiome profiling to better understand the ecological footprint of Cry proteins in agro-ecosystems. A balanced perspective that integrates pest control efficiency with environmental stewardship, and soil health management is essential for ensuring the sustainable use of Bt-derived technologies within the soil-plant continuum.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<!-- References will be rendered here -->
+<div id="ref-Abioye2021" class="csl-entry">
+Abioye, O. P., U. J. J. Ijah, S. A. Aransiola, S. H. Auta, and M. I. Ojeba. 2021. <span>“Bioremediation of Toxic Pesticides in Soil Using Microbial Products.”</span> In <em>Mycoremediation and Environmental Sustainability</em>, edited by R. Prasad, S. C. Nayak, R. N. Kharwar, and N. K. Dubey. Fungal Biology. Cham: Springer. <a href="https://doi.org/10.1007/978-3-030-54422-5_1">https://doi.org/10.1007/978-3-030-54422-5_1</a>.
+</div>
+<div id="ref-Akash2025" class="csl-entry">
+Akash, A., Logeshkumar, Muthuraja Vikaash, Bhavanasi Satheesh, G. Muhilan, K. Santhosh, Kuppuraj Saravanan, and S. Akhil. 2025. <span>“Scientific Beekeeping and Commercial Honey Production: A Case Study at KARE Crop Cafeteria, Krishnankovil, Tamil Nadu, India.”</span> <em>Journal of Advances in Food Science &amp; Technology</em> 12 (4): 1–13. <a href="https://doi.org/10.56557/jafsat/2025/v12i49713">https://doi.org/10.56557/jafsat/2025/v12i49713</a>.
+</div>
+<div id="ref-Ayilara2023" class="csl-entry">
+Ayilara, Modupe S., and Olubukola O. Babalola. 2023. <span>“Bioremediation of Environmental Wastes: The Role of Microorganisms.”</span> <em>Frontiers in Agronomy</em> 5. <a href="https://doi.org/10.3389/fagro.2023.1183691">https://doi.org/10.3389/fagro.2023.1183691</a>.
+</div>
+<div id="ref-Bacic1986" class="csl-entry">
+Bacic, A., S. F. Moody, and A. E. Clarke. 1986. <span>“Structural Analysis of Secreted Root Slime from Maize (Zea Mays l.).”</span> <em>Plant Physiology</em> 80: 771–77. <a href="https://doi.org/10.1104/pp.80.3.771">https://doi.org/10.1104/pp.80.3.771</a>.
+</div>
+<div id="ref-Bonkowski2009" class="csl-entry">
+Bonkowski, M., C. Villenave, and B. Griffiths. 2009. <span>“Rhizosphere Fauna: The Functional and Structural Diversity of Intimate Interactions of Soil Fauna with Plant Roots.”</span> <em>Plant and Soil</em> 321: 213–33. <a href="https://doi.org/10.1007/s11104-009-0013-2">https://doi.org/10.1007/s11104-009-0013-2</a>.
+</div>
+<div id="ref-Cai2023" class="csl-entry">
+Cai, J., Y. Jiang, E. S. Ritchie, A. P. Macho, F. Yu, and D. Wu. 2023. <span>“Manipulation of Plant Metabolism by Pathogen Effectors: More Than Just Food.”</span> <em>FEMS Microbiology Reviews</em> 47 (2): fuad007.
+</div>
+<div id="ref-Canarini2019" class="csl-entry">
+Canarini, A., C. Kaiser, A. Merchant, A. Richter, and W. Wanek. 2019. <span>“Root Exudation of Primary Metabolites: Mechanisms and Their Roles in Plant Responses to Environmental Stimuli.”</span> <em>Frontiers in Plant Science</em> 10: 157. <a href="https://doi.org/10.3389/fpls.2019.00157">https://doi.org/10.3389/fpls.2019.00157</a>.
+</div>
+<div id="ref-Carminati2013" class="csl-entry">
+Carminati, A., and D. Vetterlein. 2013. <span>“Plasticity of Rhizosphere Hydraulic Properties as a Key for Efficient Utilization of Scarce Resources.”</span> <em>Annals of Botany</em> 112: 277–90. <a href="https://doi.org/10.1093/aob/mcs262">https://doi.org/10.1093/aob/mcs262</a>.
+</div>
+<div id="ref-doCarmo2025" class="csl-entry">
+Carmo, T. A. do, J. d. S. Fonseca, F. R. Braga, A. Paz-Silva, R. V. G. de Soutello, and J. V. de Araújo. 2025. <span>“Exploring the Use of Helminthophagous Fungi in the Control of Helminthoses in Horses: A Review.”</span> <em>Animals</em> 15 (6): 864. <a href="https://doi.org/10.3390/ani15060864">https://doi.org/10.3390/ani15060864</a>.
+</div>
+<div id="ref-Chalivendra2021" class="csl-entry">
+Chalivendra, S. 2021. <span>“Microbial Toxins in Insect and Nematode Pest Biocontrol.”</span> <em>International Journal of Molecular Sciences</em> 22 (14): 7657. <a href="https://doi.org/10.3390/ijms22147657">https://doi.org/10.3390/ijms22147657</a>.
+</div>
+<div id="ref-Chaudhary2023" class="csl-entry">
+Chaudhary, P., M. Xu, L. Ahamad, A. Chaudhary, G. Kumar, B. S. Adeleke, and S. Abou Fayssal. 2023. <span>“Application of Synthetic Consortia for Improvement of Soil Fertility, Pollution Remediation, and Agricultural Productivity: A Review.”</span> <em>Agronomy</em> 13 (3): 643.
+</div>
+<div id="ref-Chaudhary2024" class="csl-entry">
+Chaudhary, Rida, Ali Nawaz, Zermina Khattak, Muhammad Arslan Butt, Mireille Fouillaud, Laurent Dufossé, Marium Munir, Ikram ul Haq, and Hamid Mukhtar. 2024. <span>“Microbial Bio-Control Agents: A Comprehensive Analysis on Sustainable Pest Management in Agriculture.”</span> <em>Journal of Agriculture and Food Research</em> 18: 101421. <a href="https://doi.org/10.1016/j.jafr.2024.101421">https://doi.org/10.1016/j.jafr.2024.101421</a>.
+</div>
+<div id="ref-Chinthala2025" class="csl-entry">
+Chinthala, L. K. 2025. <span>“Microbes in Action: Ecological Patterns Across Environmental Gradients.”</span>
+</div>
+<div id="ref-Fichant2024" class="csl-entry">
+Fichant, A., R. Lanceleur, S. Hachfi, A. Brun-Barale, A. L. Blier, O. Firmesse, and M. Bonis. 2024. <span>“New Approach Methods to Assess the Enteropathogenic Potential of Strains of the Bacillus Cereus Group, Including Bacillus Thuringiensis.”</span> <em>Foods</em> 13 (8): 1140.
+</div>
+<div id="ref-Gan2022" class="csl-entry">
+Gan, L., J. Wang, M. Xie, and B. Yang. 2022. <span>“Ecological Risk and Health Risk Analysis of Soil Potentially Toxic Elements from Oil Production Plants in Central China.”</span> <em>Scientific Reports</em> 12 (1): 17077.
+</div>
+<div id="ref-Muhilan2026a" class="csl-entry">
+Gangadaran, Muhilan, K. M. Pooja, Naman Pathania, Atul Kumar, Mohd Anas, Aruna Mehta, Yourmila Kumari, and Garima. 2026. <span>“Climate Change and Soil Health: Implications for Sustainable Land Management.”</span> <em>International Journal of Research in Agronomy</em> 9 (1): 569–78. <a href="https://doi.org/10.33545/2618060X.2026.v9.i1h.4734">https://doi.org/10.33545/2618060X.2026.v9.i1h.4734</a>.
+</div>
+<div id="ref-Gangadaran2025b" class="csl-entry">
+Gangadaran, M., B. A. Uma, S. Ramasamy, M. T. Reddy, and H. Manivannan. 2025. <span>“Spatial Assessment and Mapping of Soil Micronutrient Status in Cultivated Lands of Karaikal District, Puducherry, India.”</span> <em>Biology and Life Sciences Forum</em> 54 (1): 10. <a href="https://doi.org/10.3390/blsf2025054010">https://doi.org/10.3390/blsf2025054010</a>.
+</div>
+<div id="ref-Geng2022" class="csl-entry">
+Geng, R., L. Cheng, C. Cao, Z. Liu, D. Liu, Z. Xiao, and A. Yang. 2022. <span>“Comprehensive Analysis Reveals the Genetic and Pathogenic Diversity of Ralstonia Solanacearum Species Complex and Benefits Its Taxonomic Classification.”</span> <em>Frontiers in Microbiology</em> 13: 854792.
+</div>
+<div id="ref-Ghorbani2024" class="csl-entry">
+Ghorbani, A., A. Emamverdian, N. Pehlivan, M. Zargar, S. M. Razavi, and M. Chen. 2024. <span>“Nano-Enabled Agrochemicals: Mitigating Heavy Metal Toxicity and Enhancing Crop Adaptability for Sustainable Crop Production.”</span> <em>Journal of Nanobiotechnology</em> 22 (1): 91.
+</div>
+<div id="ref-Hassan2019" class="csl-entry">
+Hassan, M. K., J. A. McInroy, and J. W. Kloepper. 2019. <span>“The Interactions of Rhizodeposits with Plant Growth-Promoting Rhizobacteria in the Rhizosphere: A Review.”</span> <em>Agriculture</em> 9 (7): 142. <a href="https://doi.org/10.3390/agriculture9070142">https://doi.org/10.3390/agriculture9070142</a>.
+</div>
+<div id="ref-Holz2018" class="csl-entry">
+Holz, M., M. Leue, M. A. Ahmed, P. Benard, H. H. Gerke, and A. Carminati. 2018. <span>“Spatial Distribution of Mucilage in the Rhizosphere Measured with Infrared Spectroscopy.”</span> <em>Frontiers in Environmental Science</em> 6: 87. <a href="https://doi.org/10.3389/fenvs.2018.00087">https://doi.org/10.3389/fenvs.2018.00087</a>.
+</div>
+<div id="ref-Hu2024" class="csl-entry">
+Hu, Z., M. Delgado-Baquerizo, N. Fanin, et al. 2024. <span>“Nutrient-Induced Acidification Modulates Soil Biodiversity-Function Relationships.”</span> <em>Nature Communications</em> 15: 2858. <a href="https://doi.org/10.1038/s41467-024-47323-3">https://doi.org/10.1038/s41467-024-47323-3</a>.
+</div>
+<div id="ref-Jones2009" class="csl-entry">
+Jones, D. L., C. Nguyen, and R. D. Finlay. 2009. <span>“Carbon Flow in the Rhizosphere: Carbon Trading at the Soil–Root Interface.”</span> <em>Plant and Soil</em> 321: 5–33. <a href="https://doi.org/10.1007/s11104-009-9925-0">https://doi.org/10.1007/s11104-009-9925-0</a>.
+</div>
+<div id="ref-Ilakkia2025" class="csl-entry">
+Kaliappan, Ilakkia, Lakshminarayanan Aruna, Ramalingam Mohan, Kalaiselvi Arunachalam, and Muhilan Gangadaran. 2025. <span>“Moisture Regimes and Phosphobacteria Modulated Solubility of Labile and Non-Labile Phosphorus in Paddy Soils.”</span> <em>Asian Journal of Current Research</em> 10 (4): 79–104. <a href="https://doi.org/10.56557/ajocr/2025/v10i49769">https://doi.org/10.56557/ajocr/2025/v10i49769</a>.
+</div>
+<div id="ref-Khan2025" class="csl-entry">
+Khan, M. T., S. Supronienė, R. Žvirdauskienė, and J. Aleinikovienė. 2025. <span>“Climate, Soil, and Microbes: Interactions Shaping Organic Matter Decomposition in Croplands.”</span> <em>Agronomy</em> 15 (8): 1928.
+</div>
+<div id="ref-Kiprotich2025" class="csl-entry">
+Kiprotich, K., E. Muema, C. Wekesa, et al. 2025. <span>“Unveiling the Roles, Mechanisms and Prospects of Soil Microbial Communities in Sustainable Agriculture.”</span> <em>Discover Soil</em> 2: 10. <a href="https://doi.org/10.1007/s44378-025-00037-4">https://doi.org/10.1007/s44378-025-00037-4</a>.
+</div>
+<div id="ref-Koushal2025" class="csl-entry">
+Koushal, S., A. C. Kanagalabavi, A. Kumar, D. Arya, J. N. Nehul, C. K. Panigrahi, D. Haloi, N. Chauhan, and G. Muhilan. 2025. <span>“Bioremediation of Soil Pollution: An Effective Approach for Sustainable Agriculture.”</span> <em>International Journal of Plant &amp; Soil Science</em> 37 (1): 400–410. <a href="https://doi.org/10.9734/ijpss/2025/v37i15282">https://doi.org/10.9734/ijpss/2025/v37i15282</a>.
+</div>
+<div id="ref-Kumar2024" class="csl-entry">
+Kumar, G. A., S. Kumar, R. Bhardwaj, P. Swapnil, M. Meena, C. S. Seth, and A. Yadav. 2024. <span>“Recent Advancements in Multifaceted Roles of Flavonoids in Plant–Rhizomicrobiome Interactions.”</span> <em>Frontiers in Plant Science</em> 14: 1297706. <a href="https://doi.org/10.3389/fpls.2023.1297706">https://doi.org/10.3389/fpls.2023.1297706</a>.
+</div>
+<div id="ref-Kumar2022" class="csl-entry">
+Kumar, R. R., S. Ahuja, G. K. Rai, S. Kumar, D. Mishra, S. N. Kumar, and S. Praveen. 2022. <span>“Silicon Triggers the Signalling Molecules and Stress-Associated Genes for Alleviating the Adverse Effect of Terminal Heat Stress in Wheat with Improved Grain Quality.”</span> <em>Acta Physiologiae Plantarum</em> 44 (3): 30.
+</div>
+<div id="ref-Li2007" class="csl-entry">
+Li, Y., K. Wu, Y. Zhang, and G. Yuan. 2007. <span>“Degradation of Cry1Ac Protein Within Transgenic Bacillus Thuringiensis Rice Tissues Under Field and Laboratory Conditions.”</span> <em>Environmental Entomology</em> 36 (5): 1275–82. <a href="https://doi.org/10.1603/0046-225X(2007)36[1275:DOCPWT]2.0.CO;2">https://doi.org/10.1603/0046-225X(2007)36[1275:DOCPWT]2.0.CO;2</a>.
+</div>
+<div id="ref-Liang2025" class="csl-entry">
+Liang, Bixia, Yimeng Feng, Xiyue Ji, Chune Li, Qian Li, Zhenshun Zeng, and Yuqi Wang. 2025. <span>“Isolation and Characterization of Cadmium-Resistant Bacillus Cereus Strains from Cd-Contaminated Mining Areas for Potential Bioremediation Applications.”</span> <em>Frontiers in Microbiology</em> 16. <a href="https://doi.org/10.3389/fmicb.2025.1550830">https://doi.org/10.3389/fmicb.2025.1550830</a>.
+</div>
+<div id="ref-Lobmann2022" class="csl-entry">
+Löbmann, Michael T., Linda Maring, Gundula Prokop, Jos Brils, Johannes Bender, Antonio Bispo, and Katharina Helming. 2022. <span>“Systems Knowledge for Sustainable Soil and Land Management.”</span> <em>Science of the Total Environment</em> 822: 153389. <a href="https://doi.org/10.1016/j.scitotenv.2022.153389">https://doi.org/10.1016/j.scitotenv.2022.153389</a>.
+</div>
+<div id="ref-Lozano2024" class="csl-entry">
+Lozano, J., E. Cunha, L. M. de Carvalho, et al. 2024. <span>“First Insights on the Susceptibility of Native Coccidicidal Fungi Mucor Circinelloides and Mucor Lusitanicus to Different Avian Antiparasitic Drugs.”</span> <em>BMC Veterinary Research</em> 20: 63. <a href="https://doi.org/10.1186/s12917-024-03909-z">https://doi.org/10.1186/s12917-024-03909-z</a>.
+</div>
+<div id="ref-Lu2023" class="csl-entry">
+Lu, C. Z., P. Zhang, R. Guo, T. Wang, J. Liu, and B. Luo. 2023. <span>“Synergistic Mechanisms of Bioorganic Fertilizer and AMF Driving Rhizosphere Bacterial Community to Improve Phytoremediation Efficiency of Multiple HMs-Contaminated Saline Soil.”</span> <em>Science of the Total Environment</em> 883: 163708. <a href="https://doi.org/10.1016/j.scitotenv.2023.163708">https://doi.org/10.1016/j.scitotenv.2023.163708</a>.
+</div>
+<div id="ref-Maqsood2023" class="csl-entry">
+Maqsood, Quratulain, Aleena Sumrin, Rafia Waseem, Maria Hussain, Mehwish Imtiaz, and Nazim Hussain. 2023. <span>“Bioengineered Microbial Strains for Detoxification of Toxic Environmental Pollutants.”</span> <em>Environmental Research</em> 227: 115665. <a href="https://doi.org/10.1016/j.envres.2023.115665">https://doi.org/10.1016/j.envres.2023.115665</a>.
+</div>
+<div id="ref-Mishra2020" class="csl-entry">
+Mishra, Priya, Jitendra Mishra, S. K. Dwivedi, and Naveen Arora. 2020. <span>“Microbial Enzymes in Biocontrol of Phytopathogens.”</span> In <em>Microbial Enzymes in Biocontrol of Phytopathogens</em>, edited by Naveen Arora. Singapore: Springer. <a href="https://doi.org/10.1007/978-981-15-1710-5_10">https://doi.org/10.1007/978-981-15-1710-5_10</a>.
+</div>
+<div id="ref-Mitchell1984" class="csl-entry">
+Mitchell, R. E. 1984. <span>“The Relevance of Non-Host-Specific Toxins in the Expression of Virulence by Pathogens.”</span> <em>Annual Review of Phytopathology</em> 22 (1): 215–45.
+</div>
+<div id="ref-Muhilan2025a" class="csl-entry">
+Muhilan, G., Bagavathi Ammal, U. Pushpakanth, P. Rajakumar, P. Elavarasi, K. P. Leninbabu, R. Gandhimathi, and V. G. Venkatesan. 2025. <span>“The Rhizosphere Microbiome Revolution: Leveraging Microbial Potential for Climate Resilience in Agriculture Systems and Modulating Positive Plant-Soil Feedback.”</span> <em>Asian Journal of Microbiology and Biotechnology</em> 10 (2): 44–61. <a href="https://doi.org/10.56557/ajmab/2025/v10i29561">https://doi.org/10.56557/ajmab/2025/v10i29561</a>.
+</div>
+<div id="ref-Muhilan2026b" class="csl-entry">
+Muhilan, G., B. Ammal, P. Elavarasi, A. Kaushal, and M. Aseemudheen. 2026. <span>“Adapting Soils to Climate Change: Conservation Strategies for a Resilient Future.”</span> <em>Madras Agricultural Journal</em> 113 (1–3): 25–34. <a href="https://doi.org/10.29321/MAJ.10.2611243">https://doi.org/10.29321/MAJ.10.2611243</a>.
+</div>
+<div id="ref-Gangadaran2025c" class="csl-entry">
+Muhilan, Gangadaran, Bagavathi Ammal Uma, R. Rajakumar, Kancha Sai Kiran, Elavarasi Prabakaran, V. G. Venkatesan, Akash Amulpandi, and Mohamed M. Aseemudheen. 2025. <span>“Climate Change and Soil Health: A Review of Adaptation and Mitigation Practices.”</span> <em>Asian Journal of Microbiology and Biotechnology</em> 10 (2): 273–84. <a href="https://doi.org/10.56557/ajmab/2025/v10i29890">https://doi.org/10.56557/ajmab/2025/v10i29890</a>.
+</div>
+<div id="ref-Muhilan2025c" class="csl-entry">
+Muhilan, G., and U. Bagavathi Ammal. 2025. <span>“Mycorrhizal Association and Plant Growth Under Salinity Stress: An Insight by Linking Microbial Approaches Towards Salt Stress.”</span> <em>Communications in Soil Science and Plant Analysis</em>, 1–29. <a href="https://doi.org/10.1080/00103624.2025.2551356">https://doi.org/10.1080/00103624.2025.2551356</a>.
+</div>
+<div id="ref-Nagrale2023" class="csl-entry">
+Nagrale, D. T., A. Chaurasia, S. Kumar, S. P. Gawande, N. S. Hiremani, R. Shankar, and Y. G. Prasad. 2023. <span>“PGPR: The Treasure of Multifarious Beneficial Microorganisms for Nutrient Mobilization, Pest Biocontrol and Plant Growth Promotion in Field Crops.”</span> <em>World Journal of Microbiology and Biotechnology</em> 39 (4): 100.
+</div>
+<div id="ref-Naseem2024" class="csl-entry">
+Naseem, M., A. N. Chaudhry, G. Jilani, T. Alam, F. Naz, R. Ullah, and S. Zaman. 2024. <span>“Exopolysaccharide-Producing Bacterial Cultures of Bacillus Cereus and Pseudomonas Aeruginosa in Soil Augment Water Retention and Maize Growth.”</span> <em>Heliyon</em> 10 (4).
+</div>
+<div id="ref-Ninkovic2021" class="csl-entry">
+Ninkovic, V., D. Markovic, and M. Rensing. 2021. <span>“Plant Volatiles as Cues and Signals in Plant Communication.”</span> <em>Plant, Cell &amp; Environment</em> 44 (4): 1030–43.
+</div>
+<div id="ref-Ninkovic2019" class="csl-entry">
+Ninkovic, V., M. Rensing, I. Dahlin, and D. Markovic. 2019. <span>“Who Is My Neighbor? Volatile Cues in Plant Interactions.”</span> <em>Plant Signaling &amp; Behavior</em> 14 (9): 1634993.
+</div>
+<div id="ref-Oades1978" class="csl-entry">
+Oades, J. M. 1978. <span>“Mucilages at the Root Surface.”</span> <em>Journal of Soil Science</em> 29: 1–16. <a href="https://doi.org/10.1111/j.1365-2389.1978.tb02025.x">https://doi.org/10.1111/j.1365-2389.1978.tb02025.x</a>.
+</div>
+<div id="ref-Odukkathil2013" class="csl-entry">
+Odukkathil, Greeshma, and Namasivayam Vasudevan. 2013. <span>“Toxicity and Bioremediation of Pesticides in Agricultural Soil.”</span> <em>Reviews in Environmental Science and Biotechnology</em> 12. <a href="https://doi.org/10.1007/s11157-013-9320-4">https://doi.org/10.1007/s11157-013-9320-4</a>.
+</div>
+<div id="ref-Pastor2023" class="csl-entry">
+Pastor, N., S. Palacios, and A. M. Torres. 2023. <span>“Microbial Consortia Containing Fungal Biocontrol Agents, with Emphasis on Trichoderma Spp.: Current Applications for Plant Protection and Effects on Soil Microbial Communities.”</span> <em>European Journal of Plant Pathology</em> 167 (4): 593–620.
+</div>
+<div id="ref-Read2003" class="csl-entry">
+Read, D. B., A. G. Bengough, P. J. Gregory, J. W. Crawford, D. Robinson, and C. M. Scrimgeour. 2003. <span>“Plant Roots Release Phospholipid Surfactants That Modify the Physical and Chemical Properties of Soil.”</span> <em>New Phytologist</em> 157: 315–26. <a href="https://doi.org/10.1046/j.1469-8137.2003.00665.x">https://doi.org/10.1046/j.1469-8137.2003.00665.x</a>.
+</div>
+<div id="ref-Robert2025" class="csl-entry">
+Robert, C. A. M., P. Himmighofen, S. McLaughlin, T. M. Cofer, S. A. Khan, A. Siffert, and J. Sasse. 2025. <span>“Environmental and Biological Drivers of Root Exudation.”</span> <em>Annual Review of Plant Biology</em> 76.
+</div>
+<div id="ref-Rogowska2023" class="csl-entry">
+Rogowska-van der Molen, M. A., A. Berasategui-Lopez, S. Coolen, R. S. Jansen, and C. U. Welte. 2023. <span>“Microbial Degradation of Plant Toxins.”</span> <em>Environmental Microbiology</em> 25 (12): 2988–3010.
+</div>
+<div id="ref-Ruan2026" class="csl-entry">
+Ruan, Y., Z. Xiang, Z. Yang, M. Zhang, M. H. Wong, and W. Liu. 2026. <span>“Linking Bacterial Community Shifts to Biochar-Induced Improvements in Soil Fertility and Multifunctionality.”</span> <em>Agriculture, Ecosystems &amp; Environment</em> 399: 110142.
+</div>
+<div id="ref-Saeed2023" class="csl-entry">
+Saeed, M. U., N. Hussain, M. Javaid, and H. Zaman. 2023. <span>“Microbial Remediation for Environmental Cleanup.”</span> In <em>Advanced Microbial Technology for Sustainable Agriculture and Environment</em>, edited by S. Gangola, S. Kumar, S. Joshi, and P. Bhatt, 247–74. Cambridge, MA: Academic Press.
+</div>
+<div id="ref-Scales2014" class="csl-entry">
+Scales, B. S., R. P. Dickson, J. J. LiPuma, and G. B. Huffnagle. 2014. <span>“Microbiology, Genomics, and Clinical Significance of the Pseudomonas Fluorescens Species Complex.”</span> <em>Clinical Microbiology Reviews</em> 27 (4): 927–48. <a href="https://doi.org/10.1128/CMR.00044-14">https://doi.org/10.1128/CMR.00044-14</a>.
+</div>
+<div id="ref-Sedzielewska2016" class="csl-entry">
+Sȩdzielewska Toro, K., and A. Brachmann. 2016. <span>“The Effector Candidate Repertoire of the Arbuscular Mycorrhizal Fungus Rhizophagus Clarus.”</span> <em>BMC Genomics</em> 17: 1–13. <a href="https://doi.org/10.1186/s12864-016-2422-y">https://doi.org/10.1186/s12864-016-2422-y</a>.
+</div>
+<div id="ref-Sethi2025" class="csl-entry">
+Sethi, G., K. K. Behera, R. Sayyed, V. Adarsh, B. S. Sipra, L. Singh, and M. Behera. 2025. <span>“Enhancing Soil Health and Crop Productivity: The Role of Zinc-Solubilizing Bacteria in Sustainable Agriculture.”</span> <em>Plant Growth Regulation</em> 105 (3): 601–17.
+</div>
+<div id="ref-Singh2022" class="csl-entry">
+Singh, P., P. K. Chauhan, S. K. Upadhyay, R. K. Singh, P. Dwivedi, J. Wang, and M. Jiang. 2022. <span>“Mechanistic Insights and Potential Use of Siderophores Producing Microbes in Rhizosphere for Mitigation of Stress in Plants Grown in Degraded Land.”</span> <em>Frontiers in Microbiology</em> 13: 898979.
+</div>
+<div id="ref-Soni2024" class="csl-entry">
+Soni, J., S. Sinha, and R. Pandey. 2024. <span>“Understanding Bacterial Pathogenicity: A Closer Look at the Journey of Harmful Microbes.”</span> <em>Frontiers in Microbiology</em> 15: 1370818.
+</div>
+<div id="ref-Suarez2012" class="csl-entry">
+Suárez-Moreno, Z. R., J. Caballero-Mellado, B. G. Coutinho, L. Mendonça-Previato, E. K. James, and V. Venturi. 2012. <span>“Common Features of Environmental and Potentially Beneficial Plant-Associated Burkholderia.”</span> <em>Microbial Ecology</em> 63 (2): 249–66.
+</div>
+<div id="ref-Sugimoto2014" class="csl-entry">
+Sugimoto, K., K. Matsui, Y. Iijima, Y. Akakabe, S. Muramoto, R. Ozawa, M. Uefune, R. Sasaki, K. M. Alamgir, and S. Akitake. 2014. <span>“Intake and Transformation to a Glycoside of (z)-3-Hexenol from Infested Neighbors Reveals a Mode of Plant Odor Reception and Defense.”</span> <em>Proceedings of the National Academy of Sciences USA</em> 111 (19): 7144–49.
+</div>
+<div id="ref-Venkatesan2024" class="csl-entry">
+Venkatesan, V. G., N. Indianraj, G. Muhilan, N. Naveen, and M. Karthikeyan. 2024. <span>“Organic Farming in India: A Dual Strategy for Climate Change Adaptation and Mitigation.”</span> <em>International Journal of Environment and Climate Change</em> 14 (11): 755–64. <a href="https://doi.org/10.9734/ijecc/2024/v14i114585">https://doi.org/10.9734/ijecc/2024/v14i114585</a>.
+</div>
+<div id="ref-Wang2022" class="csl-entry">
+Wang, Y., W. Huang, S. W. Ali, Y. Li, F. Yu, and H. Deng. 2022. <span>“Isolation, Identification, and Characterization of an Efficient Siderophore Producing Bacterium from Heavy Metal Contaminated Soil.”</span> <em>Current Microbiology</em> 79 (8): 227.
+</div>
+<div id="ref-Wei2024" class="csl-entry">
+Wei, X., B. Xie, C. Wan, R. Song, W. Zhong, S. Xin, and K. Song. 2024. <span>“Enhancing Soil Health and Plant Growth Through Microbial Fertilizers: Mechanisms, Benefits, and Sustainable Agricultural Practices.”</span> <em>Agronomy</em> 14 (3): 609. <a href="https://doi.org/10.3390/agronomy14030609">https://doi.org/10.3390/agronomy14030609</a>.
+</div>
+<div id="ref-White1998" class="csl-entry">
+White, C., A. Shaman, and G. Gadd. 1998. <span>“An Integrated Microbial Process for the Bioremediation of Soil Contaminated with Toxic Metals.”</span> <em>Nature Biotechnology</em> 16: 572–75. <a href="https://doi.org/10.1038/nbt0698-572">https://doi.org/10.1038/nbt0698-572</a>.
+</div>
+<div id="ref-Xing2025" class="csl-entry">
+Xing, Yingying, Xiukang Wang, and Adnan Mustafa. 2025. <span>“Exploring the Link Between Soil Health and Crop Productivity.”</span> <em>Ecotoxicology and Environmental Safety</em> 289: 117703. <a href="https://doi.org/10.1016/j.ecoenv.2025.117703">https://doi.org/10.1016/j.ecoenv.2025.117703</a>.
+</div>
+<div id="ref-Yadav2021" class="csl-entry">
+Yadav, Ajar Nath, Divjot Kour, Tanvir Kaur, Rubee Devi, Ashok Yadav, Murat Dikilitas, Ahmed M. Abdel-Azeem, Amrik Singh Ahluwalia, and Anil Kumar Saxena. 2021. <span>“Biodiversity and Biotechnological Contribution of Beneficial Soil Microbiomes for Nutrient Cycling, Plant Growth Improvement and Nutrient Uptake.”</span> <em>Biocatalysis and Agricultural Biotechnology</em> 33: 102009. <a href="https://doi.org/10.1016/j.bcab.2021.102009">https://doi.org/10.1016/j.bcab.2021.102009</a>.
+</div>
+<div id="ref-Yan2024" class="csl-entry">
+Yan, P., S. Ahmad, Z. Xu, H. Jia, R. Zhang, J. Song, and W. Zhang. 2024. <span>“Isolation and Characterization of Bacillus Sp. HSY32 and Its Toxin Gene for Potential Biological Control of Plant Parasitic Nematode.”</span> <em>Chemical and Biological Technologies in Agriculture</em> 11 (1): 191.
+</div>
+<div id="ref-Zhang2022" class="csl-entry">
+Zhang, X., J. Yan, M. K. u Rahman, and F. Wu. 2022. <span>“The Impact of Root Exudates, Volatile Organic Compounds, and Common Mycorrhizal Networks on Root System Architecture in Root-Root Interactions.”</span> <em>Journal of Plant Interactions</em> 17 (1): 685–94. <a href="https://doi.org/10.1080/17429145.2022.2086307">https://doi.org/10.1080/17429145.2022.2086307</a>.
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="callout callout-style-default callout-important callout-titled" title="Publication &amp; Reviewer Details">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Publication &amp; Reviewer Details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Publication Information</strong></p>
+<ul>
+<li><strong>Submitted:</strong> <em>24 February 2026</em><br>
+</li>
+<li><strong>Accepted:</strong> <em>16 March 2026</em><br>
+</li>
+<li><strong>Published (Online):</strong> <em>19 March 2026</em></li>
+</ul>
+<hr>
+<p><strong>Reviewer Information</strong></p>
+<ul>
+<li><p><strong>Reviewer 1:</strong><br>
+<em>Anonymous</em></p></li>
+<li><p><strong>Reviewer 2:</strong><br>
+<em>Anonymous</em></p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Disclaimer/Publisher’s Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of the publisher and/or the editor(s).<br>
+The publisher and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>© Copyright (2025): Author(s). The licensee is the journal publisher. This is an Open Access article distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>, which permits non-commercial use, sharing, and reproduction in any medium, provided the original work is properly cited and no modifications or adaptations are made.</p>
+</blockquote>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></div></div></section></div> ]]></description>
+  <category>Review-Article</category>
+  <category>Microbiology</category>
+  <category>Soil</category>
+  <category>PlantScience</category>
+  <guid>https://www.jostapubs.com/volume2/issue1/josta2026029b0a/josta2026029b0a.html</guid>
+  <pubDate>Wed, 18 Mar 2026 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Adoption Behaviour of Indigenous Agricultural and Ethnoveterinary Practices Among Tribal Farmers of Kalrayan Hills, Tamil Nadu</title>
   <dc:creator>Kaviya P*</dc:creator>
   <dc:creator>Natarajan M</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/josta2026027c35/josta2026027c35.html</link>
   <description><![CDATA[ 
-
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -1455,7 +2309,7 @@ Vivekanandan, P. 1994. <span>“Indigenous Pest Control Methods.”</span> Bhara
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1488,7 +2342,7 @@ Vivekanandan, P. 1994. <span>“Indigenous Pest Control Methods.”</span> Bhara
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1519,7 +2373,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Kannappan M</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA202601A408/JOSTA202601A408.html</link>
   <description><![CDATA[ 
-
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -2172,7 +3025,7 @@ Zheng, S., Y. Xia, Y. Hu, X. Chen, Y. Rui, A. Gunina, and Y. Kuzyakov. 2023. <sp
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2200,7 +3053,7 @@ Zheng, S., Y. Xia, Y. Hu, X. Chen, Y. Rui, A. Gunina, and Y. Kuzyakov. 2023. <sp
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2232,7 +3085,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Jiji Joseph</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html</link>
   <description><![CDATA[ 
-
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -2878,7 +3730,7 @@ Upadhyaya, P., K. Tyagi, S. Sarma, V. Tamboli, Y. Sreelakshmi, and R. Sharma. 20
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2908,7 +3760,7 @@ Upadhyaya, P., K. Tyagi, S. Sarma, V. Tamboli, Y. Sreelakshmi, and R. Sharma. 20
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2941,7 +3793,6 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Aiman Shahid</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html</link>
   <description><![CDATA[ 
-
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -3447,7 +4298,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
+Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3475,7 +4326,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
+Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
