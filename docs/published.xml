@@ -9,7 +9,7 @@
 <link>https://www.jostapubs.com/published.html</link>
 <atom:link href="https://www.jostapubs.com/published.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.39</generator>
+<generator>quarto-1.8.25</generator>
 <lastBuildDate>Wed, 18 Mar 2026 18:30:00 GMT</lastBuildDate>
 <item>
   <title>Microbial Toxins in Agro-ecosystems: Rhizosphere Interactions, Ecological Functions and Cry Protein Implications</title>
@@ -19,6 +19,7 @@
   <dc:creator>Venkatesan V G</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/josta2026029b0a/josta2026029b0a.html</link>
   <description><![CDATA[ 
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -814,7 +815,7 @@ Zhang, X., J. Yan, M. K. u Rahman, and F. Wu. 2022. <span>“The Impact of Root 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -842,7 +843,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -872,6 +873,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Natarajan M</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/josta2026027c35/josta2026027c35.html</link>
   <description><![CDATA[ 
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -2309,7 +2311,7 @@ Vivekanandan, P. 1994. <span>“Indigenous Pest Control Methods.”</span> Bhara
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2342,7 +2344,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -2373,6 +2375,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Kannappan M</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA202601A408/JOSTA202601A408.html</link>
   <description><![CDATA[ 
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -3025,7 +3028,7 @@ Zheng, S., Y. Xia, Y. Hu, X. Chen, Y. Rui, A. Gunina, and Y. Kuzyakov. 2023. <sp
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3053,7 +3056,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3085,6 +3088,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Jiji Joseph</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html</link>
   <description><![CDATA[ 
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -3730,7 +3734,7 @@ Upadhyaya, P., K. Tyagi, S. Sarma, V. Tamboli, Y. Sreelakshmi, and R. Sharma. 20
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3760,7 +3764,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3793,6 +3797,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Aiman Shahid</dc:creator>
   <link>https://www.jostapubs.com/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html</link>
   <description><![CDATA[ 
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -4298,7 +4303,7 @@ Zaid, A., B. El-Korchi, and H. J. Visser. 2011. <span>“Commercial Date Palm Ti
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4326,7 +4331,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4355,6 +4360,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Kannappan M</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025117381/JOSTA2025117381.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -4807,7 +4813,7 @@ Zhao, P., Y. Zheng, L. Tang, Y. Lu, J. X. Xiao, and Y. Dong. 2010. <span>“Effe
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4839,7 +4845,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -4867,6 +4873,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Mohammed Sadiq V P*</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025114C90/JOSTA2025114C90.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -5494,7 +5501,7 @@ Vinothapreeshan, G., and K. Sundar. 2011. <span>“Anti-Ulcer Activity of Adhato
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -5522,7 +5529,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -5553,6 +5560,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Aswathy Vijayan</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251272CB/JOSTA20251272CB.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -6272,7 +6280,7 @@ Zwietering, Marcel H., Ilse Jongenburger, Frank M. Rombouts, and Karel Van’t R
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6300,7 +6308,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6331,6 +6339,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Allan Thomas</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202512A575/JOSTA202512A575.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -6924,7 +6933,7 @@ Ziggers, G. W., and J. Trienekens. 1999. <span>“Quality Assurance in Food and 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6955,7 +6964,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -6989,6 +6998,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>K P Sudheer</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025115655/JOSTA2025115655.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -7452,7 +7462,7 @@ Ziuzina, D., R. van Cleynenbreugel, C. Tersaruolo, and P. Bourke. 2021. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -7484,7 +7494,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -7516,6 +7526,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Anu J Prakash</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025109178/JOSTA2025109178.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -7990,7 +8001,7 @@ Zhao, H., H. Zhao, Y. Hu, S. Zhang, S. He, H. Zhang, and H. Zhai. 2022. <span>�
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8022,7 +8033,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8054,6 +8065,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Anandhu S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025118B5B/JOSTA2025118B5B.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -8763,7 +8775,7 @@ Ye, C. 2018. <span>“Bibliometrical Analysis of International Big Data Research
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8795,7 +8807,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -8828,6 +8840,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Mohamed Aseemudheen M</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510079A/JOSTA202510079A.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -9335,7 +9348,7 @@ Zhang, T., N.-F. Wang, H.-Y. Liu, Y.-Q. Zhang, and L.-Y. Yu. 2016. <span>“Soil
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -9365,7 +9378,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -9398,6 +9411,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Allan Thomas</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA2025111441/JOSTA2025111441.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -9937,7 +9951,7 @@ Zulaikha, Y., E. Martono, and F. Himam. 2021. <span>“Perceptions of Students o
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -9968,7 +9982,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10001,6 +10015,7 @@ which permits unrestricted use, distribution, and reproduction in any medium, pr
   <dc:creator>Sheeja K Raj</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251155B0/JOSTA20251155B0.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -10562,7 +10577,7 @@ Zhang, Y., Z. Wang, Y. Lu, and L. Zuo. 2022. <span>“Biodiversity, Ecosystem Fu
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10592,7 +10607,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -10624,6 +10639,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Durga A R</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510BD6A/JOSTA202510BD6A.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -11432,7 +11448,7 @@ Zander, K. K., A. G. Drucker, L. Aluso, D. K. Mengistu, C. Fadda, C. Termote, an
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -11460,7 +11476,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -11492,6 +11508,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Gopika Somanath</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA202510B068/JOSTA202510B068.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -12470,7 +12487,7 @@ Ziv, C., and E. Fallik. 2021. <span>“Postharvest Storage Techniques and Qualit
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -12503,7 +12520,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -12533,6 +12550,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Pratheesh P Gopinath*</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue2/JOSTA20251068E5/JOSTA20251068E5.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -13219,8 +13237,7 @@ Table&nbsp;3: Regression analysis of the developed web application
 <h2 data-number="6" class="anchored" data-anchor-id="discussion"><span class="header-section-number">6</span> Discussion</h2>
 <p>The developed web application offers an efficient and accessible solution for testing the validity and reliability of questionnaires used in survey research, both essential for ensuring accurate and consistent data collection. By automating reliability estimation, including Cronbach’s alpha, the application enables researchers to evaluate internal consistency rapidly and identify items that may reduce instrument quality.</p>
 <p>The validity testing component ensures that each survey item effectively measures its intended construct, thereby minimising measurement errors and improving the overall credibility of research findings. Designed for users with varying levels of statistical expertise, the application simplifies complex psychometric evaluations through a user-friendly, web-based interface.</p>
-<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts.</p>
-<div style="page-break-after: always;"></div>
+<p>This online accessibility eliminates the need for specialised software or manual computation, saving time while maintaining methodological rigour. As a result, the application enhances the accuracy and dependability of survey-based studies. In the future, incorporating advanced psychometric features such as Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) could further expand its analytical depth, providing richer insights into questionnaire structure and improving its applicability across diverse research contexts. </p><div style="page-break-after: always;"></div><p></p>
 </section>
 <section id="conclusion" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7</span> Conclusion</h2>
@@ -13231,7 +13248,7 @@ Table&nbsp;3: Regression analysis of the developed web application
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Acknowledgments
+<span class="screen-reader-only">Note</span>Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -13244,7 +13261,7 @@ Acknowledgments
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Technical Details
+<span class="screen-reader-only">Tip</span>Technical Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -13329,7 +13346,7 @@ Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Defi
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -13357,7 +13374,7 @@ Publication &amp; Reviewer Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclaimer/Publisher’s Note
+<span class="screen-reader-only">Note</span>Disclaimer/Publisher’s Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -13390,6 +13407,7 @@ The publisher and/or the editor(s) disclaim responsibility for any injury to peo
   <dc:creator>Ashadevi S S</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/Denny/JOSTA20250617172925171.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -14440,7 +14458,7 @@ Table&nbsp;8: Potential determinants of the delinquency rate – Tobit regressio
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Acknowledgments
+<span class="screen-reader-only">Note</span>Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -14527,7 +14545,7 @@ Wydick, B. 1999. <span>“Can Social Cohesion Be Harnessed to Repair Market Fail
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Technical Details
+<span class="screen-reader-only">Tip</span>Technical Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -14540,7 +14558,7 @@ Technical Details
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -14583,6 +14601,7 @@ Publication &amp; Reviewer Details
   <dc:creator>Dijee Bastian</dc:creator>
   <link>https://www.jostapubs.com/volume1/issue1/CROPS/JOSTA20250615173749999.html</link>
   <description><![CDATA[ 
+
 
 <section class="josta-issue-banner" aria-label="Journal issue banner">
   <div class="jib-wrap">
@@ -15708,7 +15727,7 @@ Figure&nbsp;2: Performance of elite genotypes for seed yield,oil content and cap
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Acknowledgments
+<span class="screen-reader-only">Note</span>Acknowledgments
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -15827,7 +15846,7 @@ Zhang, Y. X., X. R. Zhang, Z. Che, L. H. Wang, W. L. Wei, and D. H. Li. 2013. <s
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Publication &amp; Reviewer Details
+<span class="screen-reader-only">Important</span>Publication &amp; Reviewer Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
