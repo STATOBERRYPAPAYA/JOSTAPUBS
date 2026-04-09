@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Volume 1 – JOSTA</title>
+<title>Volume 2 – JOSTA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -100,12 +100,40 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-v2issue2 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-status',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-v2issue2'] = new List('listing-v2issue2', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
-<meta name="citation_title" content="Volume 1">
+<meta name="citation_title" content="Volume 2">
 <meta name="citation_journal_title" content="JOSTA: Journal of Sustainable Technology in Agriculture">
 <meta name="citation_issn" content="3107-6882">
 <meta name="citation_language" content="en">
-<meta name="DC.Title" content="Volume 1">
+<meta name="DC.Title" content="Volume 2">
 <meta name="DC.Type" content="Text">
 <meta name="DC.Format" content="text/html">
 <meta name="DC.Language" content="en">
@@ -113,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 {
   "@context":"https://schema.org",
   "@type":"ScholarlyArticle",
-  "name":"Volume 1",
+  "name":"Volume 2",
   "author":[],
   "datePublished":"",
   "isPartOf":{
@@ -124,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
   "identifier":"",
   "url":"",
   "pagination":"",
-  "headline":"Volume 1",
+  "headline":"Volume 2",
   "description":""
 }
 </script>
@@ -159,12 +187,12 @@ window.Quarto = {
 };
 </script>
 
-<link rel="alternate" type="application/rss+xml" title="JOSTA" href="volume2.xml" data-external="1"><meta property="og:title" content="Volume 1 – JOSTA">
+<link rel="alternate" type="application/rss+xml" title="JOSTA" href="volume2.xml" data-external="1"><meta property="og:title" content="Volume 2 – JOSTA">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://www.jostapubs.com/images/cover.jpg">
 <meta property="og:site_name" content="JOSTA">
 <meta property="og:image:alt" content="JOSTA Volume 1 Cover">
-<meta name="twitter:title" content="Volume 1 – JOSTA">
+<meta name="twitter:title" content="Volume 2 – JOSTA">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://www.jostapubs.com/images/papayalogo.png">
 <meta name="twitter:image:alt" content="JOSTA Journal">
@@ -351,13 +379,13 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RW52aXJvbm1lbnQ=">Environment <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RXh0ZW5zaW9u">Extension <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXRpY3M=">Genetics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SG9ydGljdWx0dXJl">Horticulture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGl2ZXN0b2Nr">Livestock <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWljcm9iaW9sb2d5">Microbiology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3JpZ2luYWwtQXJ0aWNsZQ==">Original-Article <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhbnRTY2llbmNl">PlantScience <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGxhbnRhdGlvbi1jcm9wcw==">Plantation-crops <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmV2aWV3LUFydGljbGU=">Review-Article <span class="quarto-category-count">(4)</span></div><div class="category" data-category="U21hcnRGYXJtaW5n">SmartFarming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29pbA==">Soil <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QnJlZWRpbmc=">Breeding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW52aXJvbm1lbnQ=">Environment <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RXh0ZW5zaW9u">Extension <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXRpY3M=">Genetics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SG9ydGljdWx0dXJl">Horticulture <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGl2ZXN0b2Nr">Livestock <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWljcm9iaW9sb2d5">Microbiology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3JpZ2luYWwtQXJ0aWNsZQ==">Original-Article <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhbnRTY2llbmNl">PlantScience <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGxhbnRhdGlvbi1jcm9wcw==">Plantation-crops <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmV2aWV3LUFydGljbGU=">Review-Article <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U21hcnRGYXJtaW5n">SmartFarming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29pbA==">Soil <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./volume1.html">Volumes</a></li><li class="breadcrumb-item"><a href="./volume2.html">Volume 2 (2026)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Volume 1</h1>
+<h1 class="title">Volume 2</h1>
 </div>
 
 
@@ -519,6 +547,84 @@ status
 </td>
 <td>
 <span class="listing-categories">Review-Article, Horticulture, Plantation-crops</span>
+</td>
+<td>
+<span class="listing-status">Published (Online)</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="vol2issue2" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="vol2issue2"><span style="color:#1f345c;">Issue II</span></h2>
+<div style="margin-top:-0.4rem; margin-bottom:1.2rem;
+            border-bottom:2px solid #1f345c;
+            max-width:160px;">
+
+</div>
+<div id="listing-v2issue2" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-v2issue2-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-v2issue2'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+Categories
+</th>
+<th>
+status
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="UmV2aWV3LUFydGljbGUlMkNIb3J0aWN1bHR1cmUlMkNFbnZpcm9ubWVudCUyQ0JyZWVkaW5n" data-listing-date-sort="1775586600000" data-listing-file-modified-sort="1775720732363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="28" data-listing-word-count-sort="5475" data-listing-title-sort="A Comprehensive Review on the Role of Rootstocks in Fruit Crops: Effects on Fruit Quality, Bearing Behavior, and Scion-Rootstock Interactions" data-listing-filename-sort="josta202603fed6.qmd">
+<td>
+<a href="./volume2/issue2/josta202603fed6/josta202603fed6.html" class="title listing-title">A Comprehensive Review on the Role of Rootstocks in Fruit Crops: Effects on Fruit Quality, Bearing Behavior, and Scion-Rootstock Interactions</a>
+</td>
+<td>
+<span class="listing-author">Shabbar Ali*, Muhammad Arif, Saeed Hussain</span>
+</td>
+<td>
+<span class="listing-date">Apr 8, 2026</span>
+</td>
+<td>
+<span class="listing-categories">Review-Article, Horticulture, Environment, Breeding</span>
 </td>
 <td>
 <span class="listing-status">Published (Online)</span>

@@ -13,7 +13,8 @@
       "volume1/issue1/**/*.qmd"
     ],
     "volume2.qmd": [
-      "volume2/issue1/**/*.qmd"
+      "volume2/issue1/**/*.qmd",
+      "volume2/issue2/**/*.qmd"
     ]
   }
 }
