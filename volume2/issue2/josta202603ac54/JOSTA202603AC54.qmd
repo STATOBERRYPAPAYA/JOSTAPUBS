@@ -1,5 +1,5 @@
 ---
-title: "Conventional, Minimum/Reduced, and Zero Tillage: Implications for Soil and Water Conservation and Residue Management in Global and Indian Contexts"
+title: "Conventional, Minimum or Reduced, and Zero Tillage: Implications for Soil and Water Conservation and Residue Management in Global and Indian Contexts"
 author:  
   - name: Ayan Paul*
     affiliations:
