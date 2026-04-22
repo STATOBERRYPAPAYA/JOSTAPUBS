@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/volume2.html",
+    "items": [
+      "/volume2/issue1/josta2026029b0a/josta2026029b0a.html",
+      "/volume2/issue1/josta2026027c35/josta2026027c35.html",
+      "/volume2/issue1/JOSTA202601A408/JOSTA202601A408.html",
+      "/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html",
+      "/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html",
+      "/volume2/issue2/josta202603ac54/josta202603ac54.html",
+      "/volume2/issue2/josta202603fed6/josta202603fed6.html"
+    ]
+  },
+  {
     "listing": "/volume1.html",
     "items": [
       "/volume1/issue2/JOSTA2025117381/JOSTA2025117381.html",
@@ -83,18 +95,6 @@
       "/volume1/issue1/AGECONOMICS/JOSTA11CS1.html",
       "/volume1/issue1/lovelyB/generationmean.html",
       "/volume1/issue1/josta111raisins2025.html"
-    ]
-  },
-  {
-    "listing": "/volume2.html",
-    "items": [
-      "/volume2/issue1/josta2026029b0a/josta2026029b0a.html",
-      "/volume2/issue1/josta2026027c35/josta2026027c35.html",
-      "/volume2/issue1/JOSTA202601A408/JOSTA202601A408.html",
-      "/volume2/issue1/JOSTA2026016BCE/JOSTA2026016BCE.html",
-      "/volume2/issue1/JOSTA20251224E0/JOSTA20251224E0.html",
-      "/volume2/issue2/josta202603ac54/josta202603ac54.html",
-      "/volume2/issue2/josta202603fed6/josta202603fed6.html"
     ]
   }
 ]
